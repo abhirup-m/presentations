@@ -1,25 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="171.8808mm"
-   height="163.65302mm"
-   viewBox="0 0 171.88079 163.65302"
+   width="191.28053mm"
+   height="186.19328mm"
+   viewBox="0 0 191.28052 186.19329"
    version="1.1"
    id="svg8"
    sodipodi:docname="nrg.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
    inkscape:export-filename="/home/abhirup/IPhD-Project-II/pres2/nrg.png"
    inkscape:export-xdpi="248.64"
-   inkscape:export-ydpi="248.64">
+   inkscape:export-ydpi="248.64"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4973"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4930"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4899"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4856"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4738"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3800"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3507"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3399"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3027"
+       is_visible="true"
+       lpeversion="1" />
     <inkscape:path-effect
        effect="spiro"
        id="path-effect9631"
@@ -2425,6 +2470,62 @@
            id="path2397" />
       </symbol>
     </g>
+    <marker
+       style="overflow:visible"
+       id="marker8411-56"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutL"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path8409-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker8411-56-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutL"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path8409-2-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker8411-56-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutL"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path8409-2-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker8411-56-0-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutL"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path8409-2-9-0" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -2433,14 +2534,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.32153204"
-     inkscape:cx="971.98224"
-     inkscape:cy="-864.19623"
+     inkscape:zoom="0.55763047"
+     inkscape:cx="276.16855"
+     inkscape:cy="529.92083"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:snap-global="false" />
+     inkscape:snap-global="true"
+     inkscape:pagecheckerboard="1"
+     inkscape:snap-object-midpoints="true"
+     inkscape:window-width="1916"
+     inkscape:window-height="1051"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -2449,7 +2557,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2457,7 +2565,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(26.458799,8.145894)">
+     transform="translate(33.916748,17.151948)">
     <path
        style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutL)"
        d="M 261.59367,217.2074 244.12661,186.61237"
@@ -3582,90 +3690,19 @@
          y="383.9433"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">local moment</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.838287;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#TriangleInL)"
-       d="m -22.330816,-0.4205882 c 0,151.7667082 0,151.7667082 0,151.7667082"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 0.5, 0.25, 0.5;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TriangleInL)"
+       d="m -22.330816,-14.311088 c 0,165.657208 0,165.657208 0,165.657208"
        id="path8773"
        inkscape:export-xdpi="248.64"
-       inkscape:export-ydpi="248.64" />
+       inkscape:export-ydpi="248.64"
+       inkscape:export-filename="/home/kirito/storage/presentations/pres3/nrg_fpoints.png" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.838287;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#TriangleInL-9)"
-       d="m 137.83218,151.34612 c -160.162996,0 -160.162996,0 -160.162996,0"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 0.5, 0.25, 0.5;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TriangleInL-9)"
+       d="m 151.57006,151.34612 c -173.900876,0 -173.900876,0 -173.900876,0"
        id="path8773-3"
        inkscape:export-xdpi="248.64"
-       inkscape:export-ydpi="248.64" />
-    <ellipse
-       style="fill:#0000ff;fill-opacity:1;stroke-width:1.07151;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
-       id="path9416"
-       cx="129.24957"
-       cy="151.49391"
-       rx="2.5530772"
-       ry="4.0132055"
-       inkscape:export-xdpi="248.64"
-       inkscape:export-ydpi="248.64" />
-    <ellipse
-       style="fill:#007400;fill-opacity:1;stroke-width:1.07151;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
-       id="path9416-8"
-       cx="-22.201773"
-       cy="9.7172241"
-       rx="2.5530772"
-       ry="4.0132055"
-       inkscape:export-xdpi="248.64"
-       inkscape:export-ydpi="248.64" />
-    <ellipse
-       style="fill:#ff00ff;fill-opacity:1;stroke-width:1.07151;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
-       id="path9416-0"
-       cx="-22.13265"
-       cy="149.36993"
-       rx="2.5530772"
-       ry="4.0132055"
-       inkscape:export-xdpi="248.64"
-       inkscape:export-ydpi="248.64" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.838287;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -22.330816,151.34612 c 3.120618,-4.84755 7.354441,-8.97373 12.280737,-11.9685 6.895867,-4.1921 14.921289,-6.09177 22.863648,-7.52202 20.123395,-3.6238 40.834521,-4.61215 61.041707,-1.48924 19.583474,3.02652 38.560654,9.92606 55.515124,20.18366"
-       id="path9621"
-       inkscape:path-effect="#path-effect9623"
-       inkscape:original-d="m -22.330816,151.34612 c 4.093797,-3.98926 8.187377,-7.97876 12.280737,-11.9685 4.0933602,-3.98973 15.2426502,-5.01445 22.863648,-7.52202 7.620996,-2.50756 40.694689,-0.99261 61.041707,-1.48924 20.347018,-0.49664 37.010294,13.456 55.515124,20.18366"
-       inkscape:export-xdpi="248.64"
-       inkscape:export-ydpi="248.64" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.838287;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -21.984046,149.48328 c 1.203076,-6.69096 2.387965,-13.38518 3.55465,-20.08258 1.791109,-10.28193 3.539333,-20.57145 5.203352,-30.87471 2.33278,-14.444095 4.4999887,-28.914698 6.5457412,-43.402232 1.3606415,-9.635741 2.686847,-19.359657 5.95658225,-28.525227 1.04255892,-2.922453 2.28130735,-5.779918 3.80416775,-8.483352 0.962511,-1.708683 2.0433502,-3.361552 3.3639074,-4.811433 1.3205571,-1.44988 2.8904674,-2.695804 4.6829194,-3.4915045 2.231472,-0.9905888 4.752697,-1.251289 7.17227,-0.925103 2.419573,0.326186 4.741297,1.2222835 6.856103,2.4422545 4.459021,2.572282 7.946581,6.500483 11.395429,10.322126 4.395998,4.871174 8.861885,9.679041 13.243245,14.563385 31.385116,34.988154 58.391809,73.899816 80.191319,115.540876"
-       id="path9629"
-       inkscape:path-effect="#path-effect9631"
-       inkscape:original-d="m -21.984046,149.48328 c 0.76783,-6.69397 2.369986,-13.38816 3.55465,-20.08258 1.184665,-6.69442 3.469121,-20.58292 5.203352,-30.87471 1.734231,-10.291799 4.3640469,-28.934594 6.5457412,-43.402232 C -4.4986093,40.656123 -2.7090293,36.107165 -0.72372055,26.598531 1.2615886,17.089897 1.81261,20.94318 3.0804472,18.115179 4.3482845,15.287178 8.4452174,12.58012 11.127274,9.8122415 c 2.682058,-2.7678558 9.352468,1.0116745 14.028373,1.5171515 4.675905,0.5055 7.597172,6.88165 11.395429,10.322126 3.798257,3.440498 8.829048,9.709157 13.243245,14.563385 4.414196,4.85423 53.461089,77.027476 80.191319,115.540876"
-       inkscape:export-xdpi="248.64"
-       inkscape:export-ydpi="248.64" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.754458;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker8411)"
-       d="m 45.801532,151.48603 c 5.172587,0 5.172587,0 5.172587,0"
-       id="path9635"
-       inkscape:export-xdpi="248.64"
-       inkscape:export-ydpi="248.64" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.754458;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker8411-5)"
-       d="m 44.00491,128.44314 c 5.172587,0 5.172587,0 5.172587,0"
-       id="path9635-6"
-       inkscape:export-xdpi="248.64"
-       inkscape:export-ydpi="248.64" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.754458;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker8411-5-4)"
-       d="m -22.266828,55.684789 c 0,-5.319598 0,-5.319598 0,-5.319598"
-       id="path9635-6-0"
-       inkscape:export-xdpi="248.64"
-       inkscape:export-ydpi="248.64" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.754458;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker8411-5-4-4)"
-       d="m -13.894491,100.50361 c 0.790753,-5.257081 0.790753,-5.257081 0.790753,-5.257081"
-       id="path9635-6-0-2"
-       inkscape:export-xdpi="248.64"
-       inkscape:export-ydpi="248.64" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.754458;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker8411-5-4-4-6)"
-       d="m 71.075202,61.276674 c 2.300259,4.764656 2.300259,4.764656 2.300259,4.764656"
-       id="path9635-6-0-2-5"
-       inkscape:export-xdpi="248.64"
-       inkscape:export-ydpi="248.64" />
+       inkscape:export-ydpi="248.64"
+       inkscape:export-filename="/home/kirito/storage/presentations/pres3/nrg_fpoints.png" />
     <text
        xml:space="preserve"
        style="font-weight:bold;font-size:7.05556px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';letter-spacing:0px;stroke-width:0.264583"
@@ -3679,10 +3716,11 @@
          style="stroke-width:0.264583" /></text>
     <g
        inkscape:label=""
-       transform="matrix(1.9678307,0,0,1.9678307,-199.4022,-156.02935)"
+       transform="matrix(1.218714,0,0,1.218714,-146.76586,-103.84636)"
        id="g11793"
        inkscape:export-xdpi="248.64"
-       inkscape:export-ydpi="248.64">
+       inkscape:export-ydpi="248.64"
+       inkscape:export-filename="/home/kirito/storage/presentations/pres3/nrg_fpoints.png">
       <g
          id="g217">
         <g
@@ -3700,10 +3738,11 @@
     </g>
     <g
        inkscape:label=""
-       transform="matrix(1.754312,0,0,1.754312,-29.576113,-1.0158815)"
+       transform="matrix(1.4136273,0,0,1.4136273,16.350042,48.153828)"
        id="g12577"
        inkscape:export-xdpi="248.64"
-       inkscape:export-ydpi="248.64">
+       inkscape:export-ydpi="248.64"
+       inkscape:export-filename="/home/kirito/storage/presentations/pres3/nrg_fpoints.png">
       <g
          id="g1204">
         <g
@@ -3740,8 +3779,11 @@
     </g>
     <g
        inkscape:label=""
-       transform="matrix(1.2889363,0,0,1.2889363,-153.7077,-154.37701)"
-       id="g14356">
+       transform="matrix(1.2889363,0,0,1.2889363,-133.06904,-88.436014)"
+       id="g14356"
+       inkscape:export-filename="/home/kirito/storage/presentations/pres3/nrg_fpoints.png"
+       inkscape:export-xdpi="248.64"
+       inkscape:export-ydpi="248.64">
       <g
          id="g14354">
         <g
@@ -3766,8 +3808,11 @@
     </g>
     <g
        inkscape:label=""
-       transform="matrix(1.2889363,0,0,1.2889363,-163.35701,96.993418)"
-       id="g15176">
+       transform="matrix(1.2889363,0,0,1.2889363,-147.89454,63.114294)"
+       id="g15176"
+       inkscape:export-filename="/home/kirito/storage/presentations/pres3/nrg_fpoints.png"
+       inkscape:export-xdpi="248.64"
+       inkscape:export-ydpi="248.64">
       <g
          id="g6803">
         <g
@@ -3796,8 +3841,11 @@
     </g>
     <g
        inkscape:label=""
-       transform="matrix(1.2889363,0,0,1.2889363,70.518531,10.864618)"
-       id="g16009">
+       transform="matrix(1.2889363,0,0,1.2889363,3.9329252,37.779539)"
+       id="g16009"
+       inkscape:export-filename="/home/kirito/storage/presentations/pres3/nrg_fpoints.png"
+       inkscape:export-xdpi="248.64"
+       inkscape:export-ydpi="248.64">
       <g
          id="g5329">
         <g
@@ -3820,5 +3868,137 @@
         </g>
       </g>
     </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -22.330816,151.34612 c 0,-137.58335 0,-137.58335 0,-137.58335"
+       id="path2866"
+       inkscape:export-filename="/home/kirito/storage/presentations/pres3/nrg_fpoints.png"
+       inkscape:export-xdpi="248.64"
+       inkscape:export-ydpi="248.64" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 127.07411,151.34612 C -22.330816,13.762771 -22.330816,13.762771 -22.330816,13.762771"
+       id="path2866-5"
+       inkscape:export-filename="/home/kirito/storage/presentations/pres3/nrg_fpoints.png"
+       inkscape:export-xdpi="248.64"
+       inkscape:export-ydpi="248.64" />
+    <path
+       style="fill:#0cff00;stroke:none;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="path2116"
+       sodipodi:type="arc"
+       sodipodi:cx="-22.330816"
+       sodipodi:cy="13.762771"
+       sodipodi:rx="5.2242522"
+       sodipodi:ry="5.2242522"
+       sodipodi:start="0"
+       sodipodi:end="6.2737954"
+       sodipodi:open="true"
+       sodipodi:arc-type="chord"
+       d="m -17.106564,13.762771 a 5.2242522,5.2242522 0 0 1 -5.211989,5.224237 5.2242522,5.2242522 0 0 1 -5.236458,-5.19971 5.2242522,5.2242522 0 0 1 5.187404,-5.24865 5.2242522,5.2242522 0 0 1 5.260813,5.175068 z"
+       inkscape:export-filename="/home/kirito/storage/presentations/pres3/nrg_fpoints.png"
+       inkscape:export-xdpi="248.64"
+       inkscape:export-ydpi="248.64" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -22.330816,151.34612 c 149.404926,0 149.404926,0 149.404926,0"
+       id="path2866-7"
+       inkscape:export-filename="/home/kirito/storage/presentations/pres3/nrg_fpoints.png"
+       inkscape:export-xdpi="248.64"
+       inkscape:export-ydpi="248.64" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -22.330816,151.34611 c 4.194827,-3.46559 8.796114,-6.43877 13.6793022,-8.83905 12.2544455,-6.02355 26.0187728,-8.32994 39.6478928,-9.16761 32.854267,-2.01929 66.184401,4.22737 96.077731,18.00667"
+       id="path3397"
+       inkscape:path-effect="#path-effect3399"
+       inkscape:original-d="m -22.330816,151.34611 c 4.560032,-2.94608 9.119799,-5.89243 13.6793022,-8.83905 4.5595029,-2.94661 26.4321928,-6.11147 39.6478928,-9.16761 13.215699,-3.05613 64.052084,12.00471 96.077731,18.00667"
+       inkscape:export-filename="/home/kirito/storage/presentations/pres3/nrg_fpoints.png"
+       inkscape:export-xdpi="248.64"
+       inkscape:export-ydpi="248.64" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -22.330816,151.34612 c 1.203721,-6.66312 2.265827,-13.35182 3.185359,-20.06007 1.362499,-9.93982 2.411635,-19.91958 3.461511,-29.89726 0.447393,-4.251881 0.899088,-8.526083 2.030871,-12.648913 1.131784,-4.122829 2.985722,-8.124486 5.9217598,-11.232273 2.0543731,-2.174547 4.6152948,-3.872589 7.42917377,-4.888064 2.81387903,-1.015475 5.87697873,-1.343854 8.83770783,-0.915849 3.9371806,0.569161 7.5567736,2.422932 11.0705926,4.28798 38.743635,20.564161 74.931228,45.938199 107.467951,75.354449"
+       id="path3798"
+       inkscape:path-effect="#path-effect3800"
+       inkscape:original-d="m -22.330816,151.34612 c 1.062051,-6.68643 2.123837,-13.37311 3.185359,-20.06007 1.061522,-6.68695 2.307939,-19.93124 3.461511,-29.89726 1.153573,-9.966016 5.302019,-15.920525 7.9526308,-23.881186 2.6506122,-7.960662 10.8448521,-3.86901 16.2668816,-5.803913 5.4220296,-1.934903 7.3806606,2.858918 11.0705926,4.28798 3.689932,1.429062 71.645565,50.236559 107.467951,75.354449"
+       inkscape:export-filename="/home/kirito/storage/presentations/pres3/nrg_fpoints.png"
+       inkscape:export-xdpi="248.64"
+       inkscape:export-ydpi="248.64" />
+    <path
+       style="fill:#0c26e2;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="path2116-6"
+       sodipodi:type="arc"
+       sodipodi:cx="-22.330816"
+       sodipodi:cy="151.34612"
+       sodipodi:rx="5.2242522"
+       sodipodi:ry="5.2242522"
+       sodipodi:start="0"
+       sodipodi:end="6.2737954"
+       sodipodi:open="true"
+       sodipodi:arc-type="chord"
+       d="m -17.106564,151.34612 a 5.2242522,5.2242522 0 0 1 -5.211988,5.22423 5.2242522,5.2242522 0 0 1 -5.236459,-5.19971 5.2242522,5.2242522 0 0 1 5.187404,-5.24865 5.2242522,5.2242522 0 0 1 5.260813,5.17507 z"
+       inkscape:export-filename="/home/kirito/storage/presentations/pres3/nrg_fpoints.png"
+       inkscape:export-xdpi="248.64"
+       inkscape:export-ydpi="248.64" />
+    <path
+       style="fill:#ff1b00;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="path2116-3"
+       sodipodi:type="arc"
+       sodipodi:cx="127.07411"
+       sodipodi:cy="151.34612"
+       sodipodi:rx="5.2242522"
+       sodipodi:ry="5.2242522"
+       sodipodi:start="0"
+       sodipodi:end="6.2737954"
+       sodipodi:open="true"
+       sodipodi:arc-type="chord"
+       d="m 132.29836,151.34612 a 5.2242522,5.2242522 0 0 1 -5.21198,5.22423 5.2242522,5.2242522 0 0 1 -5.23646,-5.19971 5.2242522,5.2242522 0 0 1 5.1874,-5.24865 5.2242522,5.2242522 0 0 1 5.26081,5.17507 z"
+       inkscape:export-filename="/home/kirito/storage/presentations/pres3/nrg_fpoints.png"
+       inkscape:export-xdpi="248.64"
+       inkscape:export-ydpi="248.64" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker8411)"
+       d="m 41.707017,151.34612 h 10.66463"
+       id="path4736"
+       inkscape:path-effect="#path-effect4738"
+       inkscape:original-d="m 41.707017,151.34612 c 0,0 7.11002,2.6e-4 10.66463,0"
+       inkscape:export-filename="/home/kirito/storage/presentations/pres3/nrg_fpoints.png"
+       inkscape:export-xdpi="248.64"
+       inkscape:export-ydpi="248.64" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker8411-56)"
+       d="M -22.330816,93.219075 V 82.554445"
+       id="path4736-9"
+       inkscape:path-effect="#path-effect4856"
+       inkscape:original-d="m -22.330816,93.219075 c 0,0 2.6e-4,-7.11002 0,-10.66463"
+       inkscape:export-filename="/home/kirito/storage/presentations/pres3/nrg_fpoints.png"
+       inkscape:export-xdpi="248.64"
+       inkscape:export-ydpi="248.64" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker8411-56-1)"
+       d="m 33.545053,65.03623 7.792858,7.280497"
+       id="path4736-9-7"
+       inkscape:path-effect="#path-effect4899"
+       inkscape:original-d="m 33.545053,65.03623 c 0,0 5.195257,4.854035 7.792858,7.280497"
+       inkscape:export-filename="/home/kirito/storage/presentations/pres3/nrg_fpoints.png"
+       inkscape:export-xdpi="248.64"
+       inkscape:export-ydpi="248.64" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker8411-56-0)"
+       d="m 43.226176,133.45394 h 10.66463"
+       id="path4736-9-3"
+       inkscape:path-effect="#path-effect4930"
+       inkscape:original-d="m 43.226176,133.45394 c 0,0 7.11002,2.6e-4 10.66463,0"
+       inkscape:export-filename="/home/kirito/storage/presentations/pres3/nrg_fpoints.png"
+       inkscape:export-xdpi="248.64"
+       inkscape:export-ydpi="248.64" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker8411-56-0-6)"
+       d="m 19.314903,77.020317 9.786907,4.236836"
+       id="path4736-9-3-6"
+       inkscape:path-effect="#path-effect4973"
+       inkscape:original-d="m 19.314903,77.020317 c 0,0 6.524746,2.824903 9.786907,4.236836"
+       inkscape:export-filename="/home/kirito/storage/presentations/pres3/nrg_fpoints.png"
+       inkscape:export-xdpi="248.64"
+       inkscape:export-ydpi="248.64" />
   </g>
 </svg>

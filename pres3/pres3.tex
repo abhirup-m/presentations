@@ -4,6 +4,7 @@
 \definecolor{bottlegreen}{rgb}{0,0.3,0}
 \usepackage{lmodern,graphicx}
 \usetheme{focus}
+\newcommand{\focus}[1]{\textcolor{blue}{\textbf{#1}}}
 \newcommand{\cen}[1]{\begin{center}{#1}\end{center}}
 \usepackage[absolute,overlay]{textpos}
 
@@ -61,87 +62,85 @@
 %\end{figure}
 \only<+>{
 \scalebox{1.38}{
-\hspace*{-10pt}\(\mathcal{H}_\text{siam} = \sum_{k\sigma}\epsilon_k \hat n_{k\sigma} + \sum_{k\sigma}\left[V(k)c^\dagger_{k\sigma}c_{d\sigma} + \text{h.c.}\right] + \epsilon_d \sum_\sigma \hat n_{d\sigma} + U\hat n_{d\uparrow}\hat n_{d\downarrow}
+	\hspace*{-10pt}\(\mathcal{H} = \overbrace{\sum_{k\sigma}\epsilon_k \hat n_{k\sigma}}^{\text{conduction}\atop{\text{bath}}} + \overbrace{\sum_{k\sigma}\left[V(k)c^\dagger_{k\sigma}c_{d\sigma} + \text{h.c.}\right]}^\text{hybridisation} + \overbrace{\epsilon_d \sum_\sigma \hat n_{d\sigma}}^{\text{impurity site}\atop{\text{energy}}} + \overbrace{U\hat n_{d\uparrow}\hat n_{d\downarrow}}^\text{d-d repulsion}
 \)
 }
+\begin{minipage}{0.65\textwidth}
 \begin{figure}
-\centering
 \includegraphics[scale=0.55]{model_scheme.png}
 \end{figure}
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+\begin{center}
+	\LARGE{
+		\[\rho(\epsilon) \approx \rho(\epsilon_F)\]\\[-25pt]
+\[\Delta = \rho V^2\]\\[-25pt]
+\[\epsilon_d = -\frac{1}{2}U\]
 }
+\end{center}
+\end{minipage}
+}
+% \only<+>{
+% 	\vspace*{-10pt}
+% \cen{\Large\textbf{Poor Man's Scaling Results}}
+% \begin{tabular}{cl}  
+% \begin{tabular}{l}
+%              \parbox{0.5\linewidth}{
+% 		     For large \(U\), Haldane and Jefferson find\footnote{{Haldane-1978, Jefferson-1977, Hewson, A. C.-1993-The Kondo Problem to Heavy Fermions}} three low energy theories:
+% \begin{itemize}
+% 	\item the \textbf{frozen impururity fixed point} (\(\left<n_d\right> = 0\))
+% 	\item the \textbf{local moment fixed point} (\(\left<n_d\right> = 1\)), and 
+% 	\item the \textbf{valence fluctuation fixed point} (\(\left<n_d\right> \sim \frac{1}{2}\)).
+% % Not much is reported about their stability, and the method itself is perturbative, so it breaks down before reaching the low energy theory.  
+% \end{itemize}
+%     }
+%          \end{tabular}
+%            &   \begin{tabular}{c}
+% \includegraphics[scale=0.29]{haldane.png}
+%            \end{tabular}\\
+   
+% \end{tabular}
+% }
 \only<+>{
-	\vspace*{-10pt}
-\cen{\Large\textbf{Poor Man's Scaling Results}}
 \begin{tabular}{cl}  
 \begin{tabular}{l}
              \parbox{0.5\linewidth}{
-		     For large \(U\), Haldane and Jefferson find\footnote{{Haldane-1978, Jefferson-1977, Hewson, A. C.-1993-The Kondo Problem to Heavy Fermions}} three low energy theories:
-\begin{itemize}
-	\item the \textbf{frozen impururity fixed point} (\(\left<n_d\right> = 0\))
-	\item the \textbf{local moment fixed point} (\(\left<n_d\right> = 1\)), and 
-	\item the \textbf{valence fluctuation fixed point} (\(\left<n_d\right> \sim \frac{1}{2}\)).
-% Not much is reported about their stability, and the method itself is perturbative, so it breaks down before reaching the low energy theory.  
-\end{itemize}
-    }
-         \end{tabular}
-           &   \begin{tabular}{c}
-\includegraphics[scale=0.29]{haldane.png}
-           \end{tabular}\\
-   
-\end{tabular}
-}
-\only<+>{
-	\vspace*{-15pt}
 \cen{\Large\textbf{NRG Results - Symmetric Model}}
-\begin{tabular}{cl}  
-\begin{tabular}{l}
-             \parbox{0.5\linewidth}{
-		     For the symmetric Anderson model\footnote{Krishna-murthy et al, 1980}:
-		     \vspace*{10pt}
 \begin{itemize}
-\item the \textbf{free-orbital} fixed point (\(U=\Delta=0\)) - unstable
+\item the \focus{free-orbital} fixed point (\(U=\Delta=0\)) - unstable
 		     \vspace*{10pt}
-     \item the \textbf{local moment} fixed point (\(U = \infty, \Delta=0\)) - saddle point, and 
+     \item the \focus{local moment} fixed point (\(U = \infty, \Delta=0\)) - saddle point, and 
 		     \vspace*{10pt}
-     \item the \textbf{strong-coupling} fixed point (\(\Delta=\infty, U = \text{finite}\)) - stable.
+     \item the \focus{strong-coupling} fixed point (\(\Delta=\infty, U = \text{finite}\)) - stable.
 \end{itemize}
     }
          \end{tabular}
            &   \begin{tabular}{c}
-\includegraphics[scale=0.32]{nrg.png}
+\includegraphics[scale=0.32]{nrg_fpoints.png}
            \end{tabular}\\
-   
 \end{tabular}
-}
-\only<+>{
-	\vspace*{-100pt}
-\cen{\Large\textbf{NRG Results - Asymmetric Model}}
-Two more fixed points exist - 
-	\vspace*{10pt}
-\begin{itemize}
-	\item the \textbf{valence fluctuation} fixed point (\(\epsilon_d = V = 0, U = \infty\)) 
-	\vspace*{10pt}
-\item the \textbf{frozen impurity} fixed point (\(U = V = 0, \epsilon_d = \infty\))
-\end{itemize}
 }
 \end{frame}
 
 \begin{frame}{Some Outstanding Questions}
   
 \begin{itemize}
-	\uncover<1->{\item Is it possible to get \textbf{nonperturbative scaling equations} for the whole journey?}
-	\vspace*{10pt}
-	\uncover<2->{\item Can we get Hamiltonians and wavefunctions in the \textbf{crossover region} (\(T \sim T_K\))?}
-	\vspace*{10pt}
-	\uncover<3->{\item What is the nature of the strong-coupling fixed point for a \textbf{finite system} (\(J \neq \infty\))? Will the results change if we introduce a \textbf{non-uniform density of states}?}
-	\vspace*{10pt}
-	\uncover<4->{\item Can we get \textbf{better estimates of dynamic quantities} in the crossover region?}
-	\vspace*{10pt}
-	\uncover<5->{\item Is it possible to show the \textbf{transfer of spectral weight} along the flow, possibly by tracking the bath spectral function or the many-particle entanglement?}
-	\vspace*{10pt}
-	\uncover<6->{\item How does NRG obtain the local moment in the \textbf{absence of hybridisation}?}
-	\vspace*{10pt}
-	\uncover<7->{\item Are there any interesting \textbf{topological aspects} of the fixed points?}
+	\uncover<1->{\item Is it possible to get \focus{nonperturbative scaling equations} for the whole journey?}
+	% \vspace*{10pt}
+	% \uncover<2->{\item Can we get Hamiltonians and wavefunctions in the \textbf{crossover region} (\(T \sim T_K\))?}
+	% \vspace*{10pt}
+	\uncover<2->{\item What is the nature of the strong-coupling fixed point for a \focus{finite system} where \(J \neq \infty\)?
+	% Will the results change if we introduce a \textbf{non-uniform density of states}?
+	}
+	% \vspace*{10pt}
+	% \uncover<4->{\item Can we get \textbf{better estimates of dynamic quantities} in the crossover region?}
+	% \vspace*{10pt}
+	\uncover<3->{\item Is it possible to show the \focus{transfer of spectral weight} along the flow, possibly by tracking the spectral function?}
+	\uncover<4->{\item How does the renormalization affect the \focus{many-particle entanglement} between the electrons?}
+	% \vspace*{10pt}
+	% \uncover<4->{\item How does NRG obtain the local moment in the \textbf{absence of hybridisation}?}
+	% \vspace*{10pt}
+	\uncover<5->{\item Are there any interesting \focus{topological aspects} of the fixed points?}
 \end{itemize}
 
 \end{frame}
@@ -197,100 +196,192 @@ Two more fixed points exist -
 \centering
 \input{repeat.pdf_tex}
 \end{figure}}
-\only<+>{
-\vspace{-50pt}
-{\Large{\textbf{Some Characteristic features of the URG}}}
-\vspace{10pt}
-\begin{itemize}
-	\item Presence of the quantum fluctuation energy scale \(\omega\)
-\vspace{10pt}
-	\item Presence of finite-valued fixed points
-\vspace{10pt}
-	\item Spectrum-preserving transformations
-\vspace{10pt}
-	\item Tractable low-energy effective Hamiltonians
-\end{itemize}
-}
+% \only<+>{
+% \vspace{-50pt}
+% {\Large{\textbf{Some Characteristic features of the URG}}}
+% \vspace{10pt}
+% \begin{itemize}
+% 	\item Presence of the quantum fluctuation energy scale \(\omega\)
+% \vspace{10pt}
+% 	\item Presence of finite-valued fixed points
+% \vspace{10pt}
+% 	\item Spectrum-preserving transformations
+% \vspace{10pt}
+% 	\item Tractable low-energy effective Hamiltonians
+% \end{itemize}
+% }
 \end{frame}
 
-\begin{frame}{Results}
-\only<1>{
-	\scalebox{1.2}{
-\begin{flalign*}
-	\mathcal{H} = \overbrace{\sum_{k\sigma}\epsilon_k \hat n_{k\sigma} + \sum_{k\sigma}\left[V(k)c^\dagger_{k\sigma}c_{d\sigma} + \text{h.c.}\right] + \epsilon_d \sum_\sigma \hat n_{d\sigma} + U\hat n_{d\uparrow}\hat n_{d\downarrow}}^{SIAM}\\
- + \underbrace{J \vec{S_d}\cdot \sum_{kq\alpha\beta}\vec{\sigma}_{\alpha,\beta}c^\dagger_{k\alpha}c_{q\beta}}_\text{spin-exchange}+ \underbrace{J \vec{C_d}\cdot \sum_{kq\alpha\beta}\vec{\sigma}_{\alpha,\beta}\psi^\dagger_{k\alpha}\psi_{q\beta}}_\text{isospin-exchange}
-\end{flalign*}}
-}
-\only<2-3>{\Large{\textbf{RG Equations}}
-\only<2>{
-	\vspace*{-15pt}
-		\begin{equation*}\begin{aligned}\Delta U &= \left(U + \frac{1}{2}J\right)\sum_{|q|=\Lambda_n} \frac{|V(q)|^2}{(\omega - \epsilon_q - \frac{1}{2}U - \frac{1}{4}J)(\omega - \epsilon_q)}\\[5pt]
-			\Delta V(q) &= -\frac{3}{4}J\sum_{|q|=\Lambda_n} \frac{V(q)}{\omega - \epsilon_q - \frac{1}{2}U - \frac{1}{4}J}\\[5pt]
-\Delta J &= -\frac{1}{4}J^2\sum_{|q|=\Lambda_n\atop{k<\Lambda_n}} \frac{1}{\omega - \epsilon_q - \frac{1}{2}U - \frac{1}{4}J}\end{aligned}\end{equation*}
-}
-\only<3>{
-	\vspace*{25pt}
-\begin{itemize}
-	\item Particle-hole symmetric
-	\vspace*{10pt}
-	\item Hermitian
-	\vspace*{10pt}
-	\item \(SU(2)\)-symmetric
-	\vspace*{10pt}
-	\item Reduce to Poor Man's scaling and Kondo 1-loop forms
-\end{itemize}
-}
-}
+\begin{frame}{Results: RG Equations}
+\[
+\Delta U = 4|V|^2 \left[\frac{1}{\omega - \frac{1}{2}D + \frac{U}{2} + \frac{1}{2}J}  - \frac{1}{\omega - \frac{1}{2}D - \frac{U}{2} + \frac{1}{2}K}\right] + \sum_{k<\Lambda_j} \frac{3}{4}\frac{K^2 - J^2}{\omega - \frac{1}{2}D + \frac{1}{4}J + \frac{1}{4}K}
+\]
+
+\[
+	\hspace*{-10pt}\Delta V = \frac{V K}{16}\left(\frac{1}{\omega - \frac{1}{2}D - \frac{U}{2} + \frac{1}{2}K} + \frac{1}{\omega - \frac{1}{2}D + \frac{1}{4}J + \frac{1}{4}K} \right) - \frac{3VJ}{4}\left( \frac{1}{\omega - \frac{1}{2}D + \frac{U}{2} + \frac{1}{2}J} + \frac{1}{\omega - \frac{1}{2}D + \frac{1}{4}J + \frac{1}{4}K} \right)
+\]
+
+\[
+\Delta J = - J^2\left(\omega - \frac{1}{2}D + \frac{1}{4}J + \frac{1}{4}K\right)^{-1}
+\]
+
+\[
+\Delta K = - K^2\left(\omega - \frac{1}{2}D + \frac{1}{4}J + \frac{1}{4}K\right)^{-1}
+\]
 \end{frame}
-\begin{frame}{Results (\(\pmb{J=0}\))}
-\vspace*{-10pt}
-\begin{figure}
-\def\svgwidth{\columnwidth}
-\centering
-\scalebox{1}{\input{lmflow.pdf_tex}}
-\end{figure}
-\only<1>{\vspace*{10pt}\centering \includegraphics[scale=0.2]{fo2lm.png}}
-\begin{tabular}{cl}  
-\begin{tabular}{l}
-	\hspace*{-30pt}\parbox{0.33\linewidth}{
-		\vspace*{-10pt}
-	\begin{itemize}\uncover<2->{\item \textbf{No separatrix} for the flows to the local moment} 
-		\vspace*{10pt}
-		\uncover<3>{\item Local moment forms at \textbf{finite \(U\)}.}
-\end{itemize}
-    }
-         \end{tabular}
-           &  \uncover<3>{ \begin{tabular}{c}
-			   \includegraphics[scale=0.2]{UvsbareD.png}
-	   \end{tabular}}\\
+
+\begin{frame}{Results: \(U>0, J>K\)}
+\begin{minipage}{0.6\textwidth}
+\begin{center}
+	\includegraphics[width=\textwidth]{figures/UvsJ.pdf}
+\end{center}
+\end{minipage}
+\begin{minipage}{0.39\textwidth}
+\begin{center}
+	\includegraphics[width=0.95\textwidth]{figures/U_vs_count.pdf}
+	\includegraphics[width=0.95\textwidth]{figures/J_vs_count.pdf}
+\end{center}
+\end{minipage}
+\end{frame}
+
+
+\begin{frame}{Results: \(U<0, J<K\)}
+	\vspace*{30pt}
+\begin{center}
+	\includegraphics[width=0.49\textwidth]{figures/U_vs_count_neg.pdf}
+	\includegraphics[width=0.49\textwidth]{figures/K_vs_count_neg.pdf}
+\end{center}
+\end{frame}
+
+
+\begin{frame}{Results: Phase Diagram}
+\begin{center}
+	\hspace*{-50pt}\def\svgwidth{0.8\columnwidth}
+	\input{phases-V-pres.pdf_tex}
+	% \includegraphics[width=0.99\textwidth]{figures/phases_V_pres.png}
+\end{center}
+\end{frame}
+
+
+\begin{frame}{Results: Effective Zero-mode Hamiltonian}
+	\vspace*{-30pt}
+	\[H_{IR} = \epsilon_d^* \left( \hat n_{1 \uparrow} - \hat n_{1 \downarrow} \right) ^2 + V^*\sqrt{N^*}\sum_{\sigma}\left(c^\dagger_{1\sigma}c_{2\sigma} + \text{h.c.} \right) + J^*N^*\vec{S_1}\cdot\vec{S_2} + K^*N^*\vec{C_1}\cdot\vec{C_2}\]
+\hspace*{-15pt}
+	\begin{minipage}{0.5\textwidth}
+	{\centering
+	\includegraphics[width=\textwidth]{figures/two_site_problem.png}}
+\end{minipage}
+\hspace*{25pt}
+\begin{minipage}{0.45\textwidth}
+	{\centering
+	\includegraphics[width=\textwidth]{figures/gstate_state.png}}
+\end{minipage}
+\end{frame}
+
+\begin{frame}{Results: Spin Susceptibility}
+\begin{center}
+	\hspace*{-20pt}
+	\includegraphics[width=0.48\textwidth]{figures/chi_T.pdf}
+	\hspace*{25pt}
+	\includegraphics[width=0.48\textwidth]{figures/chi.pdf}
+\end{center}
+\hspace*{20pt}\large{\(
+\left(\chi\times T\right)\left( T \to 0 \right) = \frac{1}{2j} \quad\quad \quad \quad T_K \equiv \frac{2N^*}{\pi}\left(D^* - 2\omega\right)\quad\quad \quad \quad \chi \left( T \to \infty \right) = \frac{1}{8}\)}
+
+\end{frame}
+
+\begin{frame}{Results: Charge Susceptibility}
+\begin{center}
+	\hspace*{-20pt}
+	\includegraphics[width=0.48\textwidth]{figures/chi_c.pdf}
+	\hspace*{25pt}
+	\includegraphics[width=0.48\textwidth]{figures/T_chi_c.pdf}
+\end{center}
+\large{\(
+\left(\chi_c\times T\right)\left(T \to 0\right)\bigg\vert_{K>J} = \frac{1}{2k} \quad\quad\quad \left(\chi_c\times T\right)\left(T \to 0\right)\bigg\vert_{J>K} = 0 \quad\quad\quad \chi \left( T \to \infty \right) = \frac{1}{8}\)}
+\end{frame}
+
+\begin{frame}{Results: Spectral Function}
+	\begin{center}
+		\includegraphics[width=\textwidth]{figures/spec_func_merged.png}
+	\end{center}
+\end{frame}
+% \only<1>{
+% \begin{flalign*}
+% 	\mathcal{H} = \overbrace{\sum_{k\sigma}\epsilon_k \hat n_{k\sigma} + \sum_{k\sigma}\left[V(k)c^\dagger_{k\sigma}c_{d\sigma} + \text{h.c.}\right] + \epsilon_d \sum_\sigma \hat n_{d\sigma} + U\hat n_{d\uparrow}\hat n_{d\downarrow}}^{SIAM}\\
+%  + \underbrace{J \vec{S_d}\cdot \sum_{kq\alpha\beta}\vec{\sigma}_{\alpha,\beta}c^\dagger_{k\alpha}c_{q\beta}}_\text{spin-exchange}+ \underbrace{J \vec{C_d}\cdot \sum_{kq\alpha\beta}\vec{\sigma}_{\alpha,\beta}\psi^\dagger_{k\alpha}\psi_{q\beta}}_\text{isospin-exchange}
+% \end{flalign*}
+% }
+% \only<2-3>{\Large{\textbf{RG Equations}}
+% \only<2>{
+% 	\vspace*{-15pt}
+% 		\begin{equation*}\begin{aligned}\Delta U &= \left(U + \frac{1}{2}J\right)\sum_{|q|=\Lambda_n} \frac{|V(q)|^2}{(\omega - \epsilon_q - \frac{1}{2}U - \frac{1}{4}J)(\omega - \epsilon_q)}\\[5pt]
+% 			\Delta V(q) &= -\frac{3}{4}J\sum_{|q|=\Lambda_n} \frac{V(q)}{\omega - \epsilon_q - \frac{1}{2}U - \frac{1}{4}J}\\[5pt]
+% \Delta J &= -\frac{1}{4}J^2\sum_{|q|=\Lambda_n\atop{k<\Lambda_n}} \frac{1}{\omega - \epsilon_q - \frac{1}{2}U - \frac{1}{4}J}\end{aligned}\end{equation*}
+% }
+% \only<3>{
+% 	\vspace*{25pt}
+% \begin{itemize}
+% 	\item Particle-hole symmetric
+% 	\vspace*{10pt}
+% 	\item Hermitian
+% 	\vspace*{10pt}
+% 	\item \(SU(2)\)-symmetric
+% 	\vspace*{10pt}
+% 	\item Reduce to Poor Man's scaling and Kondo 1-loop forms
+% \end{itemize}
+% }
+% }
+% \end{frame}
+
+% \begin{frame}{Results (\(\pmb{J=0}\))}
+% \vspace*{-10pt}
+% \begin{figure}
+% \def\svgwidth{\columnwidth}
+% \centering
+% \scalebox{1}{\input{lmflow.pdf_tex}}
+% \end{figure}
+% \only<1>{\vspace*{10pt}\centering \includegraphics[scale=0.2]{fo2lm.png}}
+% \begin{tabular}{cl}  
+% \begin{tabular}{l}
+% 	\hspace*{-30pt}\parbox{0.33\linewidth}{
+% 		\vspace*{-10pt}
+% 	\begin{itemize}\uncover<2->{\item \textbf{No separatrix} for the flows to the local moment} 
+% 		\vspace*{10pt}
+% 		\uncover<3>{\item Local moment forms at \textbf{finite \(U\)}.}
+% \end{itemize}
+%     }
+%          \end{tabular}
+%            &  \uncover<3>{ \begin{tabular}{c}
+% 			   \includegraphics[scale=0.2]{UvsbareD.png}
+% 	   \end{tabular}}\\
    
-\end{tabular}
-\end{frame}
+% \end{tabular}
+% \end{frame}
 
-\begin{frame}{Results (\(\pmb{J>0}\))}
+% \begin{frame}{Results (\(\pmb{J>0}\))}
  
-\begin{tabular}{cl}  
-\begin{tabular}{l}
-\hspace*{-20pt}\parbox{0.5\linewidth}{
-\begin{itemize}
-\vspace*{-20pt}
-\item J now drives the flow towards strong-coupling fixed point.
-\vspace*{10pt}
-\item This is in contrast to the NRG flow diagram where \(\Delta \sim \frac{V^2}{U}\) was the driver of the flow.
-\end{itemize}
-}
-\end{tabular}
-& \begin{tabular}{c}
-\only<1>{    
-\centering \includegraphics[scale=0.5]{schematic.png}
-}
-\only<2>{%
-\includegraphics[width=0.35\textwidth]{lm2sc.png}\\
-\hspace*{5pt}\includegraphics[width=0.35\textwidth]{fo2sc.png}
-}
-\end{tabular}
-\end{tabular}
-\end{frame}
+% \begin{tabular}{cl}  
+% \begin{tabular}{l}
+% \hspace*{-20pt}\parbox{0.5\linewidth}{
+% \begin{itemize}
+% \vspace*{-20pt}
+% \item J now drives the flow towards strong-coupling fixed point.
+% \vspace*{10pt}
+% \item This is in contrast to the NRG flow diagram where \(\Delta \sim \frac{V^2}{U}\) was the driver of the flow.
+% \end{itemize}
+% }
+% \end{tabular}
+% & \begin{tabular}{c}
+% \only<1>{    
+% \centering \includegraphics[scale=0.5]{schematic.png}
+% }
+% \only<2>{%
+% \includegraphics[width=0.35\textwidth]{lm2sc.png}\\
+% \hspace*{5pt}\includegraphics[width=0.35\textwidth]{fo2sc.png}
+% }
+% \end{tabular}
+% \end{tabular}
 
 \begin{frame}{Conclusions}
 \begin{itemize} 
