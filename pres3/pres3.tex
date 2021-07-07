@@ -301,11 +301,68 @@
 \left(\chi_c\times T\right)\left(T \to 0\right)\bigg\vert_{K>J} = \frac{1}{2k} \quad\quad\quad \left(\chi_c\times T\right)\left(T \to 0\right)\bigg\vert_{J>K} = 0 \quad\quad\quad \chi \left( T \to \infty \right) = \frac{1}{8}\)}
 \end{frame}
 
-\begin{frame}{Results: Spectral Function}
-	\begin{center}
-		\includegraphics[width=\textwidth]{figures/spec_func_merged.png}
-	\end{center}
+\begin{frame}{Results: Impurity Spectral Function}
+	\(\mathcal{A(\omega)} = -\frac{1}{\pi}\text{Im }\left[G_{d d}^\sigma\left( \omega \right) \right]\) \hspace*{\fill} \(G_{d d}^\sigma\left(t\right) = -i\theta(t)\left<\left\{ c_{d\sigma}(t), c^\dagger_{d\sigma} \right\}\right>\)
+\begin{center}
+	\includegraphics[width=\textwidth]{figures/spec_func_merged_2.png}
+\end{center}
 \end{frame}
+
+
+\begin{frame}{Results: Spectral Function Renormalization}
+	\(\mathcal{A(\omega)} = -\frac{1}{\pi}\text{Im }\left[G_{d d}^\sigma\left( \omega \right) \right]\) \hspace*{\fill} \(G_{d d}^\sigma\left(t\right) = -i\theta(t)\left<\left\{ c_{d\sigma}(t), c^\dagger_{d\sigma} \right\}\right>\)
+\begin{center}
+	\includegraphics[width=0.47\textwidth]{figures/spec_func_journey_one_marked.pdf}\hspace*{\fill}\includegraphics[width=0.45\textwidth]{figures/spec_func_journey_three_marked.pdf}
+\end{center}
+\end{frame}
+
+\begin{frame}{Results: Kondo Cloud Hamiltonian}
+	\vspace*{-10pt}
+	\[H^*(\text{d, cloud}) \xrightarrow{\text{solve for bath Hamiltonian}} H^*_\text{cloud}\] 
+	\[H^*_\text{cloud} = \overbrace{H^*_0}^\text{kinetic energy} + \overbrace{\sum_{kk^\prime\sigma\sigma^\prime}f_{kk^\prime}\hat n_{k\sigma}\hat n_{k^\prime\sigma^\prime}}^\text{Fermi liquid-type interaction} + \overbrace{\sum_{kk^\prime qq^\prime}F_{kk^\prime qq^\prime}c^\dagger_{k \uparrow}c^\dagger_{k^\prime \downarrow} c_{q \uparrow}c_{q^\prime \downarrow}}^\text{non-Fermi liquid-type interaction}\]
+\begin{figure}[htpb]
+	\centering
+	\includegraphics[width=0.45\textwidth]{figures/Fkkqq.pdf}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Results: Reverse RG: Overview}
+	\vspace*{\fill}
+	\begin{figure}[htpb]
+		\centering
+		\includegraphics[width=0.5\textwidth]{figures/reverse-rg.png}
+		\hspace*{\fill}
+		\includegraphics[width=0.45\textwidth]{figures/rev-rg-bonds-diag.png}
+	\end{figure}
+	\vspace*{\fill}
+\end{frame}
+
+\begin{frame}{Results: Reverse RG: Mutual Information}
+	\hspace*{\fill}	\(I(A:B) = S_A + S_B - S_{AB}\)\hspace*{\fill}\(S_A = -\text{Tr }\left[\rho_A \ln \rho_A\right]\)\hspace*{\fill}
+	\begin{figure}[htpb]
+		\centering
+		\includegraphics[width=0.45\textwidth]{figures/mutI_ee.png}\hspace*{\fill}
+		\includegraphics[width=0.45\textwidth]{figures/mutI_ed.png}
+	\end{figure}
+\end{frame}
+
+
+\begin{frame}{Results: Reverse RG: Correlations}
+	\begin{figure}[htpb]
+		\centering
+		\includegraphics[width=0.45\textwidth]{figures/corr_diag.png}\hspace*{\fill}
+		\includegraphics[width=0.45\textwidth]{figures/corr_od.png}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Results: Luttinger's Theorem}
+	
+\end{frame}
+
+\begin{frame}{Results: Wilson Ratio (\(T=0\))}
+	
+\end{frame}
+
 % \only<1>{
 % \begin{flalign*}
 % 	\mathcal{H} = \overbrace{\sum_{k\sigma}\epsilon_k \hat n_{k\sigma} + \sum_{k\sigma}\left[V(k)c^\dagger_{k\sigma}c_{d\sigma} + \text{h.c.}\right] + \epsilon_d \sum_\sigma \hat n_{d\sigma} + U\hat n_{d\uparrow}\hat n_{d\downarrow}}^{SIAM}\\

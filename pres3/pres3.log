@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.6.15)  6 JUL 2021 00:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.6.15)  7 JUL 2021 21:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1406,18 +1406,82 @@ Package pdftex.def Info: figures/T_chi_c.pdf  used on input line 302.
  [19
 
  <./figures/chi_c.pdf> <./figures/T_chi_c.pdf>]
-<figures/spec_func_merged.png, id=685, 1483.04062pt x 414.79968pt>
-File: figures/spec_func_merged.png Graphic file (type png)
-<use figures/spec_func_merged.png>
-Package pdftex.def Info: figures/spec_func_merged.png  used on input line 308.
-(pdftex.def)             Requested size: 412.56497pt x 115.38992pt.
+<figures/spec_func_merged_2.png, id=685, 1483.04062pt x 477.28313pt>
+File: figures/spec_func_merged_2.png Graphic file (type png)
+<use figures/spec_func_merged_2.png>
+Package pdftex.def Info: figures/spec_func_merged_2.png  used on input line 309.
+(pdftex.def)             Requested size: 412.56497pt x 132.77171pt.
  [20
 
- <./figures/spec_func_merged.png>] [21
+ <./figures/spec_func_merged_2.png>]
+<figures/spec_func_journey_one_marked.pdf, id=692, 749.04843pt x 542.77782pt>
+File: figures/spec_func_journey_one_marked.pdf Graphic file (type pdf)
+<use figures/spec_func_journey_one_marked.pdf>
+Package pdftex.def Info: figures/spec_func_journey_one_marked.pdf  used on input line 317.
+(pdftex.def)             Requested size: 193.90604pt x 140.50603pt.
+<figures/spec_func_journey_three_marked.pdf, id=693, 719.68875pt x 566.86781pt>
+File: figures/spec_func_journey_three_marked.pdf Graphic file (type pdf)
+<use figures/spec_func_journey_three_marked.pdf>
+Package pdftex.def Info: figures/spec_func_journey_three_marked.pdf  used on input line 317.
+(pdftex.def)             Requested size: 185.65297pt x 146.23174pt.
+ [21
 
-] [22
+ <./figures/spec_func_journey_one_marked.pdf> <./figures/spec_func_journey_three_marked.pdf>]
+<figures/Fkkqq.pdf, id=701, 594.22pt x 391.4625pt>
+File: figures/Fkkqq.pdf Graphic file (type pdf)
+<use figures/Fkkqq.pdf>
+Package pdftex.def Info: figures/Fkkqq.pdf  used on input line 327.
+(pdftex.def)             Requested size: 185.65297pt x 122.30783pt.
+ [22
 
-] [23
+ <./figures/Fkkqq.pdf>]
+<figures/reverse-rg.png, id=748, 790.0359pt x 678.29314pt>
+File: figures/reverse-rg.png Graphic file (type png)
+<use figures/reverse-rg.png>
+Package pdftex.def Info: figures/reverse-rg.png  used on input line 338.
+(pdftex.def)             Requested size: 206.28249pt x 177.09724pt.
+<figures/rev-rg-bonds-diag.png, id=749, 1037.61145pt x 1030.06519pt>
+File: figures/rev-rg-bonds-diag.png Graphic file (type png)
+<use figures/rev-rg-bonds-diag.png>
+Package pdftex.def Info: figures/rev-rg-bonds-diag.png  used on input line 338.
+(pdftex.def)             Requested size: 185.65297pt x 184.30351pt.
+ [23
+
+ <./figures/reverse-rg.png> <./figures/rev-rg-bonds-diag.png>]
+<figures/mutI_ee.png, id=757, 594.12326pt x 392.98627pt>
+File: figures/mutI_ee.png Graphic file (type png)
+<use figures/mutI_ee.png>
+Package pdftex.def Info: figures/mutI_ee.png  used on input line 347.
+(pdftex.def)             Requested size: 185.65297pt x 122.80191pt.
+<figures/mutI_ed.png, id=758, 601.66953pt x 387.47168pt>
+File: figures/mutI_ed.png Graphic file (type png)
+<use figures/mutI_ed.png>
+Package pdftex.def Info: figures/mutI_ed.png  used on input line 347.
+(pdftex.def)             Requested size: 185.65297pt x 119.55922pt.
+ [24
+
+ <./figures/mutI_ee.png> <./figures/mutI_ed.png>]
+<figures/corr_diag.png, id=766, 608.6353pt x 374.1206pt>
+File: figures/corr_diag.png Graphic file (type png)
+<use figures/corr_diag.png>
+Package pdftex.def Info: figures/corr_diag.png  used on input line 356.
+(pdftex.def)             Requested size: 185.65297pt x 114.11517pt.
+<figures/corr_od.png, id=767, 606.89386pt x 370.05724pt>
+File: figures/corr_od.png Graphic file (type png)
+<use figures/corr_od.png>
+Package pdftex.def Info: figures/corr_od.png  used on input line 356.
+(pdftex.def)             Requested size: 185.65297pt x 113.20326pt.
+ [25
+
+ <./figures/corr_diag.png> <./figures/corr_od.png>] [26
+
+] [27
+
+] [28
+
+] [29
+
+] [30
 
 ]
 \tf@nav=\write5
@@ -1431,18 +1495,18 @@ Package pdftex.def Info: figures/spec_func_merged.png  used on input line 308.
 
  (./pres3.aux) ) 
 Here is how much of TeX's memory you used:
- 25545 strings out of 478994
- 487514 string characters out of 5864751
- 762944 words of memory out of 5000000
- 42359 multiletter control sequences out of 15000+600000
+ 25634 strings out of 478994
+ 489422 string characters out of 5864751
+ 763194 words of memory out of 5000000
+ 42425 multiletter control sequences out of 15000+600000
  808156 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,20n,132p,428b,878s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_337jzs.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_2mfh3o.enc}</usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Bold.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Italic.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on pres3.pdf (23 pages, 612233 bytes).
+Output written on pres3.pdf (30 pages, 1439604 bytes).
 PDF statistics:
- 762 PDF objects out of 1000 (max. 8388607)
- 517 compressed objects within 6 object streams
- 47 named destinations out of 1000 (max. 500000)
- 223 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 859 PDF objects out of 1000 (max. 8388607)
+ 577 compressed objects within 6 object streams
+ 61 named destinations out of 1000 (max. 500000)
+ 268 words of extra memory for PDF output out of 10000 (max. 10000000)
 
