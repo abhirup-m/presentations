@@ -212,6 +212,20 @@
 % }
 \end{frame}
 
+\begin{frame}{Model: Generalized SIAM}
+\begin{center}
+\scalebox{1.3}{\(H = H_\text{SIAM} + J \vec{S_d}\cdot\vec{s} + K \vec{C_d}\cdot\vec{c}\)}
+\end{center}
+\vspace*{30pt}
+\hspace*{\fill}\(\vec{S_d} \equiv \frac{1}{2}\sum_{\alpha\beta}c^\dagger_{d\alpha}\vec{\sigma}_{\alpha\beta}c_{d\beta}\)\hspace*{\fill}\(\vec{s} \equiv \frac{1}{2}\sum_{\alpha\beta}c^\dagger_{0\alpha}\vec{\sigma}_{\alpha\beta}c_{0\beta}\)\hspace*{\fill}
+\\
+\vspace*{15pt}
+\hspace*{\fill}\(\vec{C_d} \equiv \frac{1}{2}\sum_{\alpha\beta}\psi^\dagger_{d\alpha}\vec{\sigma}_{\alpha\beta}\psi_{d\beta}\)\hspace*{\fill}\(\vec{c} \equiv \frac{1}{2}\sum_{\alpha\beta}\psi^\dagger_{0\alpha}\vec{\sigma}_{\alpha\beta}\psi_{0\beta}\)\hspace*{\fill}
+\\
+\vspace*{15pt}
+\hspace*{\fill}\(\vec{\psi}_d \equiv \begin{pmatrix} c_{d \uparrow} \\ c^\dagger_{d \downarrow}\end{pmatrix} \)\hspace*{\fill}\(\vec{\psi}_0 \equiv \sum_k \begin{pmatrix} c_{k \uparrow} \\ c^\dagger_{k \downarrow}\end{pmatrix}\)\hspace*{\fill}
+\end{frame}
+
 \begin{frame}{Results: RG Equations}
 \[
 \Delta U = 4|V|^2 \left[\frac{1}{\omega - \frac{1}{2}D + \frac{U}{2} + \frac{1}{2}J}  - \frac{1}{\omega - \frac{1}{2}D - \frac{U}{2} + \frac{1}{2}K}\right] + \sum_{k<\Lambda_j} \frac{3}{4}\frac{K^2 - J^2}{\omega - \frac{1}{2}D + \frac{1}{4}J + \frac{1}{4}K}
@@ -279,6 +293,8 @@
 \end{frame}
 
 \begin{frame}{Results: Spin Susceptibility}
+	\vspace*{-20pt}
+	\[\chi_s = \lim_{B \to 0} \frac{\partial{m}}{\partial{B}}\]
 \begin{center}
 	\hspace*{-20pt}
 	\includegraphics[width=0.48\textwidth]{figures/chi_T.pdf}
@@ -291,6 +307,8 @@
 \end{frame}
 
 \begin{frame}{Results: Charge Susceptibility}
+	\vspace*{-15pt}
+	\[\chi_c = \lim_{\mu \to 0} \frac{\partial{N}}{\partial{\mu}}\]
 \begin{center}
 	\hspace*{-20pt}
 	\includegraphics[width=0.48\textwidth]{figures/chi_c.pdf}
@@ -298,7 +316,7 @@
 	\includegraphics[width=0.48\textwidth]{figures/T_chi_c.pdf}
 \end{center}
 \large{\(
-\left(\chi_c\times T\right)\left(T \to 0\right)\bigg\vert_{K>J} = \frac{1}{2k} \quad\quad\quad \left(\chi_c\times T\right)\left(T \to 0\right)\bigg\vert_{J>K} = 0 \quad\quad\quad \chi \left( T \to \infty \right) = \frac{1}{8}\)}
+\left(\chi_c\times T\right)\left(T \to 0\right)\big\vert_{K>J} = \frac{1}{2k} \quad\quad\quad \left(\chi_c\times T\right)\left(T \to 0\right)\big\vert_{J>K} = 0 \quad\quad\quad \chi \left( T \to \infty \right) = \frac{1}{8}\)}
 \end{frame}
 
 \begin{frame}{Results: Impurity Spectral Function}
@@ -307,7 +325,6 @@
 	\includegraphics[width=\textwidth]{figures/spec_func_merged_2.png}
 \end{center}
 \end{frame}
-
 
 \begin{frame}{Results: Spectral Function Renormalization}
 	\(\mathcal{A(\omega)} = -\frac{1}{\pi}\text{Im }\left[G_{d d}^\sigma\left( \omega \right) \right]\) \hspace*{\fill} \(G_{d d}^\sigma\left(t\right) = -i\theta(t)\left<\left\{ c_{d\sigma}(t), c^\dagger_{d\sigma} \right\}\right>\)
@@ -356,13 +373,79 @@
 \end{frame}
 
 \begin{frame}{Results: Luttinger's Theorem}
-	
+	\hspace*{\fill}	{\Large \(\overbrace{N}^{\text{total no. of}\atop{\text{ particles}}} = \overbrace{P_{\text{Det }G_d}(\Gamma_<) + \frac{1}{2}P_{\text{Det }G_d}(\Gamma_0)}^{\text{no. of poles of}\atop{\text{imp. Greens func.}}} + \overbrace{V_L}^{\text{no. of poles of}\atop{\text{cbath Greens func}}}\)}\hspace*{\fill}
+\begin{equation*}\begin{aligned}
+	P_X(C) &\equiv \frac{1}{2\pi i}\oint_C dz \frac{\partial{\ln X}}{\partial{z}} &&=\text{no. of poles of } X \text{ enclosed by curve }C \\
+	       &= \frac{1}{2\pi i}\oint_{C(X)} \frac{dX}{X} &&= \text{winding number of } X \text{ around }X(C)
+\end{aligned}\end{equation*}
+\begin{minipage}{0.4\textwidth}
+	\begin{figure}[htpb]
+		\centering
+		\includegraphics[width=0.9\textwidth]{figures/contours.png}
+	\end{figure}
+\end{minipage}
+\hspace*{0.15\textwidth}
+\begin{minipage}{0.4\textwidth}
+	\begin{figure}[htpb]
+		\centering
+		\includegraphics[width=0.9\textwidth]{figures/wind_num.png}
+	\end{figure}
+\end{minipage}
+\end{frame}
+
+\begin{frame}{Results: Luttinger's Theorem}
+\begin{minipage}{0.6\textwidth}
+\begin{figure}[htpb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/luttinger_top_change.png}
+\end{figure}
+\end{minipage}
+\begin{minipage}{0.39\textwidth}
+	\vspace*{5pt}
+	{\large \[n_{\text{Det }G_d^{-1}} = 1\]
+	\vspace*{45pt}
+	\[n_{\text{Det }G_d^{-1}} = 0\]}
+\end{minipage}
+\begin{center}
+{ \LARGE \(V_L = V_L^0 + 1\)}
+\end{center}
+\end{frame}
+
+\begin{frame}{Results: Local Fermi Liquid}
+	\[H^* = \overbrace{J^* \vec{S_d}\cdot\vec{s} + K^* \vec{C_d}\cdot\vec{c} + V^* \left( c^\dagger_{d\sigma}c_{0\sigma} + \text{h.c.} \right)}^\text{solve exactly} + \overbrace{t\sum_{\left<i,j \right>}c^\dagger_{i\sigma}c_{j\sigma}}^\text{treat as perturbation}\]
+	\hspace*{0.5\textwidth}$\Bigg\downarrow$ \(4^\text{th}\) fourth order pert.
+	\[E_1^{(4)} = -\frac{16t^4}{3{J^*}^3}, E_2^{(4)} = -\frac{16t^4}{9{J^*}^3}\]
+	\[H^* \sim J^* \vec{S_d}\cdot\vec{s} + K^* \vec{C_d}\cdot\vec{c} + V^* \left( c^\dagger_{d\sigma}c_{0\sigma} + \text{h.c.} \right) + \overbrace{\frac{t^4}{{J^*}^3} \hat n_{1 \uparrow}\hat n_{1 \downarrow}}^\text{local Fermi liquid}\]
+	\[ \left< \hat n_{1 \uparrow}\hat n_{1 \downarrow}\right> \xrightarrow{\text{mean field}\atop \text{approximation}} \left<\hat n_{1 \uparrow}\right>\left< \hat n_{1 \downarrow}\right>\]
 \end{frame}
 
 \begin{frame}{Results: Wilson Ratio (\(T=0\))}
-	
+	\begin{center}
+	\scalebox{1.5}{
+	$\epsilon_{k\sigma} = \epsilon_k^0 + \sum_q f_{kq}\left<n_{q\overline\sigma} \right>$}
+\end{center}
+\vspace*{\fill}
+\begin{minipage}{0.45\textwidth}
+\begin{itemize}
+	\item \(f_{\uparrow\uparrow} =0\)
+	\item \(\chi_c(T\to 0) =0\)
+\end{itemize}
+\end{minipage}
+\begin{minipage}{0.2\textwidth}
+	\scalebox{2}{$\longrightarrow$}
+\end{minipage}
+\begin{minipage}{0.33\textwidth}
+\begin{itemize}
+	\item \(C_v(T\to 0) = \rho_\text{imp}T\)
+	\item \(\chi_s(T \to 0) = 2\rho_\text{imp}\)
+\end{itemize}
+\end{minipage}
+\vspace*{\fill}
+\begin{center}
+	\scalebox{1.5}{
+	$R = \frac{\chi_s}{\gamma} = 2$}
+\end{center}
 \end{frame}
-
 % \only<1>{
 % \begin{flalign*}
 % 	\mathcal{H} = \overbrace{\sum_{k\sigma}\epsilon_k \hat n_{k\sigma} + \sum_{k\sigma}\left[V(k)c^\dagger_{k\sigma}c_{d\sigma} + \text{h.c.}\right] + \epsilon_d \sum_\sigma \hat n_{d\sigma} + U\hat n_{d\uparrow}\hat n_{d\downarrow}}^{SIAM}\\
@@ -440,14 +523,12 @@
 % \end{tabular}
 % \end{tabular}
 
-\begin{frame}{Conclusions}
-\begin{itemize} 
-	\item No renormalization in \(U\) unless \(J\) or \(\Delta\) is nonzero.
-		\vspace{10pt}
-	\item The spin-spin interaction is the main interaction
-		\vspace{10pt}
-	\item U remains non-zero at strong-coupling
-\end{itemize}
+\begin{frame}{Summary of Results}
+	\vspace*{-10pt}
+	\begin{figure}[htpb]
+		\centering
+		\includegraphics[width=\textwidth]{figures/summary.png}
+	\end{figure}
 \end{frame}
 
 \begin{frame}{What's Next?}
