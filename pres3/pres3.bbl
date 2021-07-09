@@ -1,0 +1,287 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{Anderson}{article}{}
+    \name{author}{1}{}{%
+      {{hash=APW}{%
+         family={Anderson},
+         familyi={A\bibinitperiod},
+         given={P\bibnamedelima W},
+         giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{IOP} Publishing}%
+    }
+    \strng{namehash}{APW1}
+    \strng{fullhash}{APW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1970}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1088/0022-3719/3/12/008
+    \endverb
+    \field{number}{12}
+    \field{pages}{2436\bibrangedash 2441}
+    \field{title}{A poor man{\textquotesingle}s derivation of scaling laws for
+  the Kondo problem}
+    \verb{url}
+    \verb https://doi.org/10.1088/0022-3719/3/12/008
+    \endverb
+    \field{volume}{3}
+    \field{journaltitle}{Journal of Physics C: Solid State Physics}
+    \field{year}{1970}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{glazek-wilson}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GSD}{%
+         family={G\l{}azek},
+         familyi={G\bibinitperiod},
+         given={Stanis\l{}aw\bibnamedelima D.},
+         giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=WKG}{%
+         family={Wilson},
+         familyi={W\bibinitperiod},
+         given={Kenneth\bibnamedelima G.},
+         giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{GSDWKG1}
+    \strng{fullhash}{GSDWKG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1993}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.48.5863
+    \endverb
+    \field{issue}{12}
+    \field{pages}{5863\bibrangedash 5872}
+    \field{title}{Renormalization of Hamiltonians}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevD.48.5863
+    \endverb
+    \field{volume}{48}
+    \field{journaltitle}{Phys. Rev. D}
+    \field{year}{1993}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{hrk-nrg}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KmHR}{%
+         family={Krishna-murthy},
+         familyi={K\bibinithyphendelim m\bibinitperiod},
+         given={H.\bibnamedelima R.},
+         giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WKG}{%
+         family={Wilson},
+         familyi={W\bibinitperiod},
+         given={K.\bibnamedelima G.},
+         giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=WJW}{%
+         family={Wilkins},
+         familyi={W\bibinitperiod},
+         given={J.\bibnamedelima W.},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{KmHRWKGWJW1}
+    \strng{fullhash}{KmHRWKGWJW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1975}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.35.1101
+    \endverb
+    \field{issue}{16}
+    \field{pages}{1101\bibrangedash 1104}
+    \field{title}{Temperature-Dependent Susceptibility of the Symmetric
+  Anderson Model: Connection to the Kondo Model}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevLett.35.1101
+    \endverb
+    \field{volume}{35}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{1975}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{holography1}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MA}{%
+         family={Mukherjee},
+         familyi={M\bibinitperiod},
+         given={Anirban},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Lal},
+         familyi={L\bibinitperiod},
+         given={Siddhartha},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MALS1}
+    \strng{fullhash}{MALS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.nuclphysb.2020.115170
+    \endverb
+    \field{title}{Holographic unitary renormalization group for correlated
+  electrons - I: A tensor network approach}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S055032132030256X
+    \endverb
+    \field{volume}{960}
+    \field{journaltitle}{Nuclear Physics B}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Schrieffer_Wolff}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SJR}{%
+         family={Schrieffer},
+         familyi={S\bibinitperiod},
+         given={J.\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WPA}{%
+         family={Wolff},
+         familyi={W\bibinitperiod},
+         given={P.\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{SJRWPA1}
+    \strng{fullhash}{SJRWPA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1966}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1103/PhysRev.149.491
+    \endverb
+    \field{issue}{2}
+    \field{pages}{491\bibrangedash 492}
+    \field{title}{Relation between the Anderson and Kondo Hamiltonians}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRev.149.491
+    \endverb
+    \field{volume}{149}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{1966}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{taraphder}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TA}{%
+         family={Taraphder},
+         familyi={T\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CP}{%
+         family={Coleman},
+         familyi={C\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{TACP1}
+    \strng{fullhash}{TACP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1991}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.66.2814
+    \endverb
+    \field{issue}{21}
+    \field{pages}{2814\bibrangedash 2817}
+    \field{title}{Heavy-fermion behavior in a negative-U Anderson model}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevLett.66.2814
+    \endverb
+    \field{volume}{66}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{month}{05}
+    \field{year}{1991}
+  \endentry
+
+  \entry{wilson}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WKG}{%
+         family={Wilson},
+         familyi={W\bibinitperiod},
+         given={K.\bibnamedelima G.},
+         giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WKG1}
+    \strng{fullhash}{WKG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1975}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{The Renormalization group: Critical phenomena and the Kondo
+  Problem}
+    \field{volume}{47}
+    \field{journaltitle}{Reviews of Modern Physics}
+    \field{year}{1975}
+  \endentry
+\enddatalist
+\endinput

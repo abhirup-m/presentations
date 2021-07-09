@@ -1,9 +1,13 @@
 \documentclass[aspectratio=169]{beamer}
+\usepackage[backend=bibtex,style=authoryear]{biblatex}
+\bibliography{pres3}
 \usepackage{xcolor}
 \definecolor{maroon}{rgb}{0.6,0,0}
 \definecolor{bottlegreen}{rgb}{0,0.3,0}
 \usepackage{lmodern,graphicx}
-\usetheme{focus}
+\usepackage{amsthm,amsmath,amssymb,braket}
+% \usetheme{focus}
+\usetheme[numbering=none]{focus}
 \newcommand{\focus}[1]{\textcolor{blue}{\textbf{#1}}}
 \newcommand{\cen}[1]{\begin{center}{#1}\end{center}}
 \usepackage[absolute,overlay]{textpos}
@@ -16,14 +20,15 @@
         \usebeamerfont{framesource}\usebeamercolor[fg]{framesource} Source: {#1}
     \end{beamercolorbox}
 \end{textblock*}}
+\setbeamerfont{footnote}{size=\small}
 
-\title{Unitary Renormalization Group Approach to the Single-Impurity Anderson model}
+\title{Unitary Renormalization Group Solution of the Single-Impurity Anderson model}
 \subtitle{}
 \date{\today}
 \author{Abhirup Mukherjee (18IP014)\\[5mm]{Supervisor: Dr. Siddhartha Lal}}
 
 \institute{IISER Kolkata}
-\date{January 8, 2021}
+\date{\today}
 
 \begin{document}
 
@@ -120,12 +125,13 @@
            \end{tabular}\\
 \end{tabular}
 }
+\footcite*{hrk-nrg}
 \end{frame}
 
 \begin{frame}{Some Outstanding Questions}
   
 \begin{itemize}
-	\uncover<1->{\item Is it possible to get \focus{nonperturbative scaling equations} for the whole journey?}
+	\uncover<1->{\item Is it possible to get \focus{non-perturbative scaling equations} for the whole journey?}
 	% \vspace*{10pt}
 	% \uncover<2->{\item Can we get Hamiltonians and wavefunctions in the \textbf{crossover region} (\(T \sim T_K\))?}
 	% \vspace*{10pt}
@@ -168,13 +174,16 @@
 %\end{itemize}
 %\end{frame}
 
-\begin{frame}{Unitary Renormalization Group Formalism}
+\begin{frame}{Unitary Renormalization Group: Overview}
 
 	\only<+>{\begin{minipage}{200pt}\cen{\textbf{The Short Version}}Apply \textit{unitary many-body transformations} to the Hamiltonian so as to successively \textit{decouple} high energy states and hence obtain scaling equations.\end{minipage}\begin{minipage}{250pt}\begin{figure}
 \def\svgwidth{\columnwidth}
 \centering
-\scalebox{0.7}{\input{urg_short.pdf_tex}}
+\scalebox{0.5}{\input{urg_short.pdf_tex}}
 \end{figure}\end{minipage}}
+\footcite{holography1}
+\end{frame}
+\begin{frame}{URG: Formalism}
 \only<+>{\begin{minipage}{200pt}\cen{\large{\textbf{Step 1:}}}Start with the electrons farthest from the Fermi surface. Write the Hamiltonian as \textit{diagonal and off-diagonal terms} in this basis.\end{minipage}\begin{minipage}{300pt}
 	\begin{figure}
 \def\svgwidth{\columnwidth}
@@ -196,20 +205,90 @@
 \centering
 \input{repeat.pdf_tex}
 \end{figure}}
-% \only<+>{
-% \vspace{-50pt}
-% {\Large{\textbf{Some Characteristic features of the URG}}}
-% \vspace{10pt}
-% \begin{itemize}
-% 	\item Presence of the quantum fluctuation energy scale \(\omega\)
-% \vspace{10pt}
-% 	\item Presence of finite-valued fixed points
-% \vspace{10pt}
-% 	\item Spectrum-preserving transformations
-% \vspace{10pt}
-% 	\item Tractable low-energy effective Hamiltonians
-% \end{itemize}
-% }
+\end{frame}
+\begin{frame}{URG: Salient Features}
+\vspace*{\fill}
+\begin{itemize}
+	\item Presence of the quantum fluctuation energy scale \(\omega\)
+\vspace{10pt}
+	\item Presence of finite-valued fixed points
+\vspace{10pt}
+	\item Spectrum-preserving transformations
+\vspace{10pt}
+	\item Tractable low-energy effective Hamiltonians
+\end{itemize}
+\vspace*{\fill}
+\end{frame}
+
+\begin{frame}{URG: Relation to Poor Man's Scaling}
+	\vspace*{-50pt}
+	\begin{center}
+		\Large\[H = H_0 + \underbrace{V_+ + V_-}_{\text{off-diagonal terms} \atop{\text{we want to remove}}}\]
+	\end{center}
+\only<+>{
+\begin{minipage}{0.45\textwidth}
+\begin{figure}[htpb]
+	\centering
+	\includegraphics[width=0.7\textwidth]{figures/pms.png}
+\end{figure}
+\end{minipage}
+\hspace*{20pt}
+\begin{minipage}{0.45\textwidth}
+Philosophy of Poor Man's scaling:
+\begin{itemize}
+	\item Successively eliminate high-energy energy shells
+	\item Write high energy excitations as second-order correction to low-energy scatterings
+	\item Typically perturbative
+\end{itemize}
+\end{minipage}
+\footcite{Anderson}
+}
+\only<+>{\begin{minipage}{0.5\textwidth}
+\[\Delta H_\text{PMS} = V_- \frac{1}{E - H_0}V_+ + V_+ \frac{1}{E - H_0}V_-\]
+\begin{center}
+	\large\(\Bigg\downarrow E \to \omega\)
+\end{center}
+\[\Delta H_\text{URG} = V_- \frac{1}{\omega - H_0}V_+ + V_+ \frac{1}{\omega - H_0}V_-\]
+\end{minipage}
+\begin{minipage}{0.49\textwidth}
+\begin{figure}[htpb]
+	\centering
+	\includegraphics[width=0.9\textwidth]{figures/pms_vs_urg.png}
+\end{figure}
+\end{minipage}
+}
+\end{frame}
+\begin{frame}{URG: Relation to Continuous Unitary Transformation RG}
+\Large\[H = \overbrace{H_d}^\text{diagonal part} + \overbrace{H_X}^\text{off-diagonal part}\]
+\begin{center}
+	\Large$\Delta H_\text{CUT} = \Delta l\bigg[\big[H_d(l), H_X(l)\big], H(l)\bigg]$
+\end{center}
+\vspace*{20pt}
+\only<+>{
+	\begin{minipage}{0.39\textwidth}
+		{\Large\(V_{kq}(l) = V_{kq}(0)e^{\left( \epsilon_k - \epsilon_q \right) l}\)}
+\end{minipage}
+\hspace*{0.09\textwidth}
+\begin{minipage}{0.5\textwidth}
+	\large{
+	\begin{itemize}
+		\item off-diagonal terms decay exponentially
+			\vspace*{10pt}
+		\item those that connect larger energy differences decay fastest
+	\end{itemize}
+}
+\end{minipage}
+\begin{center}
+\end{center}
+\footcite{glazek-wilson}
+}
+\only<+>{
+	\vspace*{-10pt}
+\begin{center}
+	\large\(\Delta H_\text{URG} = \overbrace{\bigg[\big[H_d, \frac{1}{\omega_1 - \omega_0} \left( \hat \omega - H_d \right)^{-1} H_I\big], H\bigg]}^{\Delta H_0} - H^I\)\\[20pt]
+	\large\(\Delta H_0 \xrightarrow{\left( \hat \omega - H_d \right)^{-1} \sim -H_d^{-1}} \Delta \lambda \times \bigg[\big[H_d, H_I\big], H\bigg]\)
+\end{center}
+}
 \end{frame}
 
 \begin{frame}{Model: Generalized SIAM}
@@ -224,6 +303,7 @@
 \\
 \vspace*{15pt}
 \hspace*{\fill}\(\vec{\psi}_d \equiv \begin{pmatrix} c_{d \uparrow} \\ c^\dagger_{d \downarrow}\end{pmatrix} \)\hspace*{\fill}\(\vec{\psi}_0 \equiv \sum_k \begin{pmatrix} c_{k \uparrow} \\ c^\dagger_{k \downarrow}\end{pmatrix}\)\hspace*{\fill}
+\footcite{Schrieffer_Wolff}
 \end{frame}
 
 \begin{frame}{Results: RG Equations}
@@ -290,6 +370,36 @@
 	{\centering
 	\includegraphics[width=\textwidth]{figures/gstate_state.png}}
 \end{minipage}
+
+\footcite{wilson,hrk-nrg,taraphder}
+
+\end{frame}
+
+\begin{frame}{Results: Ground State}
+\begin{minipage}{0.65\textwidth}
+	\[J > K, U>0\]
+\vspace*{-10pt}
+	\[\ket{\Psi}_\text{GS} = c_-^s\left[\ket{\uparrow, \Downarrow} - \ket{\downarrow, \Uparrow}\right] + c_-^c\left[\ket{\uparrow, \Downarrow} + \ket{\downarrow, \Uparrow}\right]\]
+
+\vspace*{10pt}
+\begin{minipage}{0.65\textwidth}
+\begin{figure}[htpb]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/cscc_q1.pdf}
+\end{figure}
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+	\[ c_-^s \to 1\]
+	\[ c_-^c \to 0\]
+\end{minipage}
+\[\ket{\Psi}_\text{GS} \sim \left[\ket{\uparrow, \Downarrow} - \ket{\downarrow, \Uparrow}\right]\]
+\end{minipage}
+\vline
+\begin{minipage}{0.34\textwidth}
+\[J < K, U<0\]
+\[\ket{\Psi}_\text{GS} = \left[\ket{\uparrow_c, \Downarrow_c} - \ket{\downarrow_c, \Uparrow_c}\right]\]
+\vspace*{0.6\textheight}
+\end{minipage}
 \end{frame}
 
 \begin{frame}{Results: Spin Susceptibility}
@@ -303,6 +413,7 @@
 \end{center}
 \hspace*{20pt}\large{\(
 \left(\chi\times T\right)\left( T \to 0 \right) = \frac{1}{2j} \quad\quad \quad \quad T_K \equiv \frac{2N^*}{\pi}\left(D^* - 2\omega\right)\quad\quad \quad \quad \chi \left( T \to \infty \right) = \frac{1}{8}\)}
+
 
 \end{frame}
 
@@ -406,6 +517,7 @@
 	\vspace*{45pt}
 	\[n_{\text{Det }G_d^{-1}} = 0\]}
 \end{minipage}
+\vspace*{10pt}
 \begin{center}
 { \LARGE \(V_L = V_L^0 + 1\)}
 \end{center}
@@ -445,6 +557,46 @@
 	\scalebox{1.5}{
 	$R = \frac{\chi_s}{\gamma} = 2$}
 \end{center}
+\end{frame}
+
+\begin{frame}{Results: Relation between \(R\) and \(\Delta V_L\)}
+	\begin{minipage}{0.43\textwidth}
+		\begin{itemize}
+			\item particle-hole symmetry
+			\item strong-coupling fixed-point
+			\item \(T=0\)
+		\end{itemize}
+	\end{minipage}
+	\begin{minipage}{0.18\textwidth}
+		\begin{center}
+			\LARGE\(\longrightarrow\)
+		\end{center}
+	\end{minipage}
+	\begin{minipage}{0.22\textwidth}
+		\Large\(R = 1 + \sin^2 \delta(0)\)
+	\end{minipage}
+	\\[30pt]
+	\begin{minipage}{0.43\textwidth}
+		\begin{itemize}
+			\item Friedel's sum rule 
+			\item scattering theory arguments
+		\end{itemize}
+	\end{minipage}
+	\begin{minipage}{0.18\textwidth}
+		\begin{center}
+			\LARGE\(\longrightarrow\)
+		\end{center}
+	\end{minipage}
+	\begin{minipage}{0.25\textwidth}
+		\Large\(\frac{1}{\pi}\delta(0) = \tilde N = \Delta V_L\)
+	\end{minipage}
+	\\[30pt]
+
+	\begin{center}
+		\Large\(R = 1 + \sin^2 \left( \pi \Delta V_L \right) \)\\[10pt]
+		\Large\(\Delta V_L = 1 \longrightarrow R = 2 \)
+	\end{center}
+
 \end{frame}
 % \only<1>{
 % \begin{flalign*}
@@ -524,29 +676,31 @@
 % \end{tabular}
 
 \begin{frame}{Summary of Results}
-	\vspace*{-10pt}
+	\vspace*{-5pt}
 	\begin{figure}[htpb]
 		\centering
-		\includegraphics[width=\textwidth]{figures/summary.png}
+		\includegraphics[width=0.95\textwidth]{figures/summary.png}
 	\end{figure}
 \end{frame}
 
 \begin{frame}{What's Next?}
-We have barely scratched the surface of the problem.
-\vspace{10pt}
 \begin{itemize} 
-\item Asymmetric model and valence fluctuations
-	\vspace{10pt}
-\item effective Hamiltonians and wavefunctions.
-	\vspace{10pt}
-\item entanglement measures and dynamic quantities like susceptibility
-	\vspace{10pt}
-\item use as impurity solver in DMFT
-	\vspace{10pt}
+\item Analytical expression for temperature-dependent Wilson ratio 
+	\vspace{5pt}
+\item Separating the contributions of various parts of the Kondo cloud to the spectral function
+	\vspace{5pt}
+\item Suggested by the generalized double-bracket form of URG, we can try to see if URG can be used as an optimizer.
+	\vspace{5pt}
+\item Since the zero-mode low-energy theory is an Anderson molecule (which can be exactly solved), it would be interesting to see if there is a transformation which converts the Anderson molecule to the Hubbard molecule.
+	\vspace{5pt}
+\item We can also check how using more feature-full baths (with non-trivial self-energy) can change the phase diagram.
+	\vspace{5pt}
 \item extensions to the Kondo and Anderson lattices, and hence to the problem of heavy Fermions
 \end{itemize}
 \end{frame}
 \begin{frame}
 	\LARGE \centering Thank You!
 \end{frame}
+\printbibliography
+% \bibliographystyle{unsrt}
 \end{document}
