@@ -53,6 +53,54 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{bulla_costi_nrg}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BR}{%
+         family={Bulla},
+         familyi={B\bibinitperiod},
+         given={Ralf},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CTA}{%
+         family={Costi},
+         familyi={C\bibinitperiod},
+         given={Theo\bibnamedelima A.},
+         giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Pruschke},
+         familyi={P\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{BRCTAPT1}
+    \strng{fullhash}{BRCTAPT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1103/RevModPhys.80.395
+    \endverb
+    \field{issue}{2}
+    \field{pages}{395\bibrangedash 450}
+    \field{title}{Numerical renormalization group method for quantum impurity
+  systems}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/RevModPhys.80.395
+    \endverb
+    \field{volume}{80}
+    \field{journaltitle}{Rev. Mod. Phys.}
+    \field{year}{2008}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{glazek-wilson}{article}{}
     \name{author}{2}{}{%
       {{hash=GSD}{%
@@ -92,6 +140,53 @@
     \field{journaltitle}{Phys. Rev. D}
     \field{year}{1993}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{hewson}{book}{}
+    \name{author}{1}{}{%
+      {{hash=HAC}{%
+         family={Hewson},
+         familyi={H\bibinitperiod},
+         given={A.\bibnamedelima C.},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{HAC1}
+    \strng{fullhash}{HAC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1993}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{The Kondo Problem to Heavy Fermions}
+    \field{year}{1993}
+  \endentry
+
+  \entry{hewsonp}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HAC}{%
+         family={Hewson},
+         familyi={H\bibinitperiod},
+         given={A.\bibnamedelima C.},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HAC1}
+    \strng{fullhash}{HAC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1994}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Renormalization group and Fermi liquid theory}
+    \field{volume}{43}
+    \field{journaltitle}{Advances in Physics}
+    \field{year}{1994}
   \endentry
 
   \entry{hrk-nrg}{article}{}
@@ -142,6 +237,60 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{martin}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MRM}{%
+         family={Martin},
+         familyi={M\bibinitperiod},
+         given={Richard\bibnamedelima M},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{MRM1}
+    \strng{fullhash}{MRM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1982}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{5}
+    \field{pages}{362}
+    \field{title}{Fermi-surface sum rule and its consequences for periodic
+  kondo and mixed-valence systems}
+    \field{volume}{48}
+    \field{journaltitle}{Physical Review Letters}
+    \field{year}{1982}
+  \endentry
+
+  \entry{am_thesis}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=MA}{%
+         family={Mukherjee},
+         familyi={M\bibinitperiod},
+         given={Anirban},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MA1}
+    \strng{fullhash}{MA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{{Unitary renormalization group for correlated electrons}}
+    \list{institution}{1}{%
+      {{Indian Institute of Science Education and Research Kolkata}}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2020}
+  \endentry
+
   \entry{holography1}{article}{}
     \name{author}{2}{}{%
       {{hash=MA}{%
@@ -176,6 +325,30 @@
     \field{volume}{960}
     \field{journaltitle}{Nuclear Physics B}
     \field{year}{2020}
+  \endentry
+
+  \entry{nozieres}{article}{}
+    \name{author}{1}{}{%
+      {{hash=NP}{%
+         family={Nozières},
+         familyi={N\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NP1}
+    \strng{fullhash}{NP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1974}
+    \field{labeldatesource}{}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{title}{A Fermi-Liquid Description of the Kondo Problem at Low
+  Temperatures}
+    \field{volume}{17}
+    \field{journaltitle}{Journal of Low Temperature Physics}
+    \field{year}{1974}
   \endentry
 
   \entry{Schrieffer_Wolff}{article}{}
@@ -217,6 +390,41 @@
     \field{journaltitle}{Phys. Rev.}
     \field{year}{1966}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{seki}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SK}{%
+         family={Seki},
+         familyi={S\bibinitperiod},
+         given={Kazuhiro},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=YS}{%
+         family={Yunoki},
+         familyi={Y\bibinitperiod},
+         given={Seiji},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SKYS1}
+    \strng{fullhash}{SKYS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1103/physrevb.96.085124
+    \endverb
+    \field{title}{Topological interpretation of the Luttinger theorem}
+    \verb{url}
+    \verb http://dx.doi.org/10.1103/PhysRevB.96.085124
+    \endverb
+    \field{volume}{96}
+    \field{journaltitle}{Physical Review B}
+    \field{year}{2017}
   \endentry
 
   \entry{taraphder}{article}{}
@@ -282,6 +490,48 @@
     \field{volume}{47}
     \field{journaltitle}{Reviews of Modern Physics}
     \field{year}{1975}
+  \endentry
+
+  \entry{charge-kondo-Zitko}{article}{}
+    \name{author}{2}{}{%
+      {{hash=ZR}{%
+         family={Zitko},
+         familyi={Z\bibinitperiod},
+         given={Rok},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bonca},
+         familyi={B\bibinitperiod},
+         given={Janez},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{ZRBJ1}
+    \strng{fullhash}{ZRBJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \verb{doi}
+    \verb 10.1103/PhysRevB.74.224411
+    \endverb
+    \field{issue}{22}
+    \field{pages}{224411}
+    \field{title}{Spin-charge separation and simultaneous spin and charge Kondo
+  effect}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevB.74.224411
+    \endverb
+    \field{volume}{74}
+    \field{journaltitle}{Phys. Rev. B}
+    \field{year}{2006}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 \enddatalist
 \endinput

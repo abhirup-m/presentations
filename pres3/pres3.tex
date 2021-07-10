@@ -6,8 +6,7 @@
 \definecolor{bottlegreen}{rgb}{0,0.3,0}
 \usepackage{lmodern,graphicx}
 \usepackage{amsthm,amsmath,amssymb,braket}
-% \usetheme{focus}
-\usetheme[numbering=none]{focus}
+\usetheme{focus}
 \newcommand{\focus}[1]{\textcolor{blue}{\textbf{#1}}}
 \newcommand{\cen}[1]{\begin{center}{#1}\end{center}}
 \usepackage[absolute,overlay]{textpos}
@@ -20,6 +19,9 @@
         \usebeamerfont{framesource}\usebeamercolor[fg]{framesource} Source: {#1}
     \end{beamercolorbox}
 \end{textblock*}}
+\renewcommand{\thefootnote}{}
+\renewcommand*\footnoterule{}
+\setbeamercolor{footnote}{fg=red}
 \setbeamerfont{footnote}{size=\small}
 
 \title{Unitary Renormalization Group Solution of the Single-Impurity Anderson model}
@@ -33,11 +35,11 @@
 \begin{document}
 
 
-\begin{frame}
+\begin{frame}[noframenumbering]
 \maketitle
 \end{frame}
 
-% \begin{frame}{Outline}
+% \begin{frame}[noframenumbering]{Outline}
 
 % \begin{itemize}
 %   \item About the model
@@ -53,7 +55,7 @@
 
 % \end{frame}
 
-\begin{frame}{The Single-Impurity Anderson Model}
+\begin{frame}[noframenumbering]{The Single-Impurity Anderson Model}
 
 %\begin{figure}
 %\centering
@@ -124,11 +126,11 @@
 \includegraphics[scale=0.32]{nrg_fpoints.png}
            \end{tabular}\\
 \end{tabular}
+\footcite{hrk-nrg}
 }
-\footcite*{hrk-nrg}
 \end{frame}
 
-\begin{frame}{Some Outstanding Questions}
+\begin{frame}[noframenumbering]{Some Outstanding Questions}
   
 \begin{itemize}
 	\uncover<1->{\item Is it possible to get \focus{non-perturbative scaling equations} for the whole journey?}
@@ -151,7 +153,7 @@
 
 \end{frame}
 
-%\begin{frame}{Motivation}
+%\begin{frame}[noframenumbering]{Motivation}
 %  
 %\begin{itemize}
 %	\uncover<1->{\item "Poor man's" scaling\footnote{Haldane 1978, Jefferson 1977} is \textit{perturbative} and fails at large values - cannot show strong-coupling (SC) fixed point.}
@@ -163,7 +165,7 @@
 %
 %\end{frame}
 %
-%\begin{frame}{Motivation}
+%\begin{frame}[noframenumbering]{Motivation}
 %
 %\begin{itemize}
 %	\uncover<1->{\item Numerical Renormalization Group (NRG) does not provide any scaling equations - hard to figure out what is really happening.}
@@ -174,7 +176,7 @@
 %\end{itemize}
 %\end{frame}
 
-\begin{frame}{Unitary Renormalization Group: Overview}
+\begin{frame}[noframenumbering]{Unitary Renormalization Group: Overview}
 
 	\only<+>{\begin{minipage}{200pt}\cen{\textbf{The Short Version}}Apply \textit{unitary many-body transformations} to the Hamiltonian so as to successively \textit{decouple} high energy states and hence obtain scaling equations.\end{minipage}\begin{minipage}{250pt}\begin{figure}
 \def\svgwidth{\columnwidth}
@@ -183,7 +185,7 @@
 \end{figure}\end{minipage}}
 \footcite{holography1}
 \end{frame}
-\begin{frame}{URG: Formalism}
+\begin{frame}[noframenumbering]{URG: Formalism}
 \only<+>{\begin{minipage}{200pt}\cen{\large{\textbf{Step 1:}}}Start with the electrons farthest from the Fermi surface. Write the Hamiltonian as \textit{diagonal and off-diagonal terms} in this basis.\end{minipage}\begin{minipage}{300pt}
 	\begin{figure}
 \def\svgwidth{\columnwidth}
@@ -206,7 +208,7 @@
 \input{repeat.pdf_tex}
 \end{figure}}
 \end{frame}
-\begin{frame}{URG: Salient Features}
+\begin{frame}[noframenumbering]{URG: Salient Features}
 \vspace*{\fill}
 \begin{itemize}
 	\item Presence of the quantum fluctuation energy scale \(\omega\)
@@ -220,7 +222,7 @@
 \vspace*{\fill}
 \end{frame}
 
-\begin{frame}{URG: Relation to Poor Man's Scaling}
+\begin{frame}[noframenumbering]{URG: Relation to Poor Man's Scaling}
 	\vspace*{-50pt}
 	\begin{center}
 		\Large\[H = H_0 + \underbrace{V_+ + V_-}_{\text{off-diagonal terms} \atop{\text{we want to remove}}}\]
@@ -258,7 +260,7 @@ Philosophy of Poor Man's scaling:
 \end{minipage}
 }
 \end{frame}
-\begin{frame}{URG: Relation to Continuous Unitary Transformation RG}
+\begin{frame}[noframenumbering]{URG: Relation to Continuous Unitary Transformation RG}
 \Large\[H = \overbrace{H_d}^\text{diagonal part} + \overbrace{H_X}^\text{off-diagonal part}\]
 \begin{center}
 	\Large$\Delta H_\text{CUT} = \Delta l\bigg[\big[H_d(l), H_X(l)\big], H(l)\bigg]$
@@ -291,7 +293,7 @@ Philosophy of Poor Man's scaling:
 }
 \end{frame}
 
-\begin{frame}{Model: Generalized SIAM}
+\begin{frame}[noframenumbering]{Model: Generalized SIAM}
 \begin{center}
 \scalebox{1.3}{\(H = H_\text{SIAM} + J \vec{S_d}\cdot\vec{s} + K \vec{C_d}\cdot\vec{c}\)}
 \end{center}
@@ -306,7 +308,7 @@ Philosophy of Poor Man's scaling:
 \footcite{Schrieffer_Wolff}
 \end{frame}
 
-\begin{frame}{Results: RG Equations}
+\begin{frame}[noframenumbering]{Results: RG Equations}
 \[
 \Delta U = 4|V|^2 \left[\frac{1}{\omega - \frac{1}{2}D + \frac{U}{2} + \frac{1}{2}J}  - \frac{1}{\omega - \frac{1}{2}D - \frac{U}{2} + \frac{1}{2}K}\right] + \sum_{k<\Lambda_j} \frac{3}{4}\frac{K^2 - J^2}{\omega - \frac{1}{2}D + \frac{1}{4}J + \frac{1}{4}K}
 \]
@@ -324,7 +326,7 @@ Philosophy of Poor Man's scaling:
 \]
 \end{frame}
 
-\begin{frame}{Results: \(U>0, J>K\)}
+\begin{frame}[noframenumbering]{Results: \(U>0, J>K\)}
 \begin{minipage}{0.6\textwidth}
 \begin{center}
 	\includegraphics[width=\textwidth]{figures/UvsJ.pdf}
@@ -339,7 +341,7 @@ Philosophy of Poor Man's scaling:
 \end{frame}
 
 
-\begin{frame}{Results: \(U<0, J<K\)}
+\begin{frame}[noframenumbering]{Results: \(U<0, J<K\)}
 	\vspace*{30pt}
 \begin{center}
 	\includegraphics[width=0.49\textwidth]{figures/U_vs_count_neg.pdf}
@@ -348,7 +350,7 @@ Philosophy of Poor Man's scaling:
 \end{frame}
 
 
-\begin{frame}{Results: Phase Diagram}
+\begin{frame}[noframenumbering]{Results: Phase Diagram}
 \begin{center}
 	\hspace*{-50pt}\def\svgwidth{0.8\columnwidth}
 	\input{phases-V-pres.pdf_tex}
@@ -357,7 +359,7 @@ Philosophy of Poor Man's scaling:
 \end{frame}
 
 
-\begin{frame}{Results: Effective Zero-mode Hamiltonian}
+\begin{frame}[noframenumbering]{Results: Effective Zero-mode Hamiltonian}
 	\vspace*{-30pt}
 	\[H_{IR} = \epsilon_d^* \left( \hat n_{1 \uparrow} - \hat n_{1 \downarrow} \right) ^2 + V^*\sqrt{N^*}\sum_{\sigma}\left(c^\dagger_{1\sigma}c_{2\sigma} + \text{h.c.} \right) + J^*N^*\vec{S_1}\cdot\vec{S_2} + K^*N^*\vec{C_1}\cdot\vec{C_2}\]
 \hspace*{-15pt}
@@ -375,7 +377,7 @@ Philosophy of Poor Man's scaling:
 
 \end{frame}
 
-\begin{frame}{Results: Ground State}
+\begin{frame}[noframenumbering]{Results: Ground State}
 \begin{minipage}{0.65\textwidth}
 	\[J > K, U>0\]
 \vspace*{-10pt}
@@ -402,7 +404,7 @@ Philosophy of Poor Man's scaling:
 \end{minipage}
 \end{frame}
 
-\begin{frame}{Results: Spin Susceptibility}
+\begin{frame}[noframenumbering]{Results: Spin Susceptibility}
 	\vspace*{-20pt}
 	\[\chi_s = \lim_{B \to 0} \frac{\partial{m}}{\partial{B}}\]
 \begin{center}
@@ -412,12 +414,12 @@ Philosophy of Poor Man's scaling:
 	\includegraphics[width=0.48\textwidth]{figures/chi.pdf}
 \end{center}
 \hspace*{20pt}\large{\(
-\left(\chi\times T\right)\left( T \to 0 \right) = \frac{1}{2j} \quad\quad \quad \quad T_K \equiv \frac{2N^*}{\pi}\left(D^* - 2\omega\right)\quad\quad \quad \quad \chi \left( T \to \infty \right) = \frac{1}{8}\)}
+\left(\chi\times T\right)\left( T \to 0 \right) = \frac{1}{2j} \hspace*{\fill} T_K \equiv \frac{2N^*}{\pi}\left(D^* - 2\omega\right)\hspace*{\fill} \chi \left( T \to \infty \right) = \frac{1}{8}\)}
 
-
+\footcite{wilson, hrk-nrg}
 \end{frame}
 
-\begin{frame}{Results: Charge Susceptibility}
+\begin{frame}[noframenumbering]{Results: Charge Susceptibility}
 	\vspace*{-15pt}
 	\[\chi_c = \lim_{\mu \to 0} \frac{\partial{N}}{\partial{\mu}}\]
 \begin{center}
@@ -428,23 +430,26 @@ Philosophy of Poor Man's scaling:
 \end{center}
 \large{\(
 \left(\chi_c\times T\right)\left(T \to 0\right)\big\vert_{K>J} = \frac{1}{2k} \quad\quad\quad \left(\chi_c\times T\right)\left(T \to 0\right)\big\vert_{J>K} = 0 \quad\quad\quad \chi \left( T \to \infty \right) = \frac{1}{8}\)}
+
+\footcite{taraphder,charge-kondo-Zitko}
 \end{frame}
 
-\begin{frame}{Results: Impurity Spectral Function}
+\begin{frame}[noframenumbering]{Results: Impurity Spectral Function}
 	\(\mathcal{A(\omega)} = -\frac{1}{\pi}\text{Im }\left[G_{d d}^\sigma\left( \omega \right) \right]\) \hspace*{\fill} \(G_{d d}^\sigma\left(t\right) = -i\theta(t)\left<\left\{ c_{d\sigma}(t), c^\dagger_{d\sigma} \right\}\right>\)
 \begin{center}
 	\includegraphics[width=\textwidth]{figures/spec_func_merged_2.png}
 \end{center}
+\footcite{hewson,bulla_costi_nrg}
 \end{frame}
 
-\begin{frame}{Results: Spectral Function Renormalization}
+\begin{frame}[noframenumbering]{Results: Spectral Function Renormalization}
 	\(\mathcal{A(\omega)} = -\frac{1}{\pi}\text{Im }\left[G_{d d}^\sigma\left( \omega \right) \right]\) \hspace*{\fill} \(G_{d d}^\sigma\left(t\right) = -i\theta(t)\left<\left\{ c_{d\sigma}(t), c^\dagger_{d\sigma} \right\}\right>\)
 \begin{center}
 	\includegraphics[width=0.47\textwidth]{figures/spec_func_journey_one_marked.pdf}\hspace*{\fill}\includegraphics[width=0.45\textwidth]{figures/spec_func_journey_three_marked.pdf}
 \end{center}
 \end{frame}
 
-\begin{frame}{Results: Kondo Cloud Hamiltonian}
+\begin{frame}[noframenumbering]{Results: Kondo Cloud Hamiltonian}
 	\vspace*{-10pt}
 	\[H^*(\text{d, cloud}) \xrightarrow{\text{solve for bath Hamiltonian}} H^*_\text{cloud}\] 
 	\[H^*_\text{cloud} = \overbrace{H^*_0}^\text{kinetic energy} + \overbrace{\sum_{kk^\prime\sigma\sigma^\prime}f_{kk^\prime}\hat n_{k\sigma}\hat n_{k^\prime\sigma^\prime}}^\text{Fermi liquid-type interaction} + \overbrace{\sum_{kk^\prime qq^\prime}F_{kk^\prime qq^\prime}c^\dagger_{k \uparrow}c^\dagger_{k^\prime \downarrow} c_{q \uparrow}c_{q^\prime \downarrow}}^\text{non-Fermi liquid-type interaction}\]
@@ -454,7 +459,7 @@ Philosophy of Poor Man's scaling:
 \end{figure}
 \end{frame}
 
-\begin{frame}{Results: Reverse RG: Overview}
+\begin{frame}[noframenumbering]{Results: Reverse RG: Overview}
 	\vspace*{\fill}
 	\begin{figure}[htpb]
 		\centering
@@ -463,9 +468,10 @@ Philosophy of Poor Man's scaling:
 		\includegraphics[width=0.45\textwidth]{figures/rev-rg-bonds-diag.png}
 	\end{figure}
 	\vspace*{\fill}
+\footcite{am_thesis}
 \end{frame}
 
-\begin{frame}{Results: Reverse RG: Mutual Information}
+\begin{frame}[noframenumbering]{Results: Reverse RG: Mutual Information}
 	\hspace*{\fill}	\(I(A:B) = S_A + S_B - S_{AB}\)\hspace*{\fill}\(S_A = -\text{Tr }\left[\rho_A \ln \rho_A\right]\)\hspace*{\fill}
 	\begin{figure}[htpb]
 		\centering
@@ -475,7 +481,7 @@ Philosophy of Poor Man's scaling:
 \end{frame}
 
 
-\begin{frame}{Results: Reverse RG: Correlations}
+\begin{frame}[noframenumbering]{Results: Reverse RG: Correlations}
 	\begin{figure}[htpb]
 		\centering
 		\includegraphics[width=0.45\textwidth]{figures/corr_diag.png}\hspace*{\fill}
@@ -483,7 +489,7 @@ Philosophy of Poor Man's scaling:
 	\end{figure}
 \end{frame}
 
-\begin{frame}{Results: Luttinger's Theorem}
+\begin{frame}[noframenumbering]{Results: Luttinger's Theorem}
 	\hspace*{\fill}	{\Large \(\overbrace{N}^{\text{total no. of}\atop{\text{ particles}}} = \overbrace{P_{\text{Det }G_d}(\Gamma_<) + \frac{1}{2}P_{\text{Det }G_d}(\Gamma_0)}^{\text{no. of poles of}\atop{\text{imp. Greens func.}}} + \overbrace{V_L}^{\text{no. of poles of}\atop{\text{cbath Greens func}}}\)}\hspace*{\fill}
 \begin{equation*}\begin{aligned}
 	P_X(C) &\equiv \frac{1}{2\pi i}\oint_C dz \frac{\partial{\ln X}}{\partial{z}} &&=\text{no. of poles of } X \text{ enclosed by curve }C \\
@@ -502,9 +508,10 @@ Philosophy of Poor Man's scaling:
 		\includegraphics[width=0.9\textwidth]{figures/wind_num.png}
 	\end{figure}
 \end{minipage}
+\footcite{seki}
 \end{frame}
 
-\begin{frame}{Results: Luttinger's Theorem}
+\begin{frame}[noframenumbering]{Results: Luttinger's Theorem}
 \begin{minipage}{0.6\textwidth}
 \begin{figure}[htpb]
 	\centering
@@ -521,17 +528,21 @@ Philosophy of Poor Man's scaling:
 \begin{center}
 { \LARGE \(V_L = V_L^0 + 1\)}
 \end{center}
+\footcite{martin}
 \end{frame}
 
-\begin{frame}{Results: Local Fermi Liquid}
+\begin{frame}[noframenumbering]{Results: Local Fermi Liquid}
 	\[H^* = \overbrace{J^* \vec{S_d}\cdot\vec{s} + K^* \vec{C_d}\cdot\vec{c} + V^* \left( c^\dagger_{d\sigma}c_{0\sigma} + \text{h.c.} \right)}^\text{solve exactly} + \overbrace{t\sum_{\left<i,j \right>}c^\dagger_{i\sigma}c_{j\sigma}}^\text{treat as perturbation}\]
 	\hspace*{0.5\textwidth}$\Bigg\downarrow$ \(4^\text{th}\) fourth order pert.
 	\[E_1^{(4)} = -\frac{16t^4}{3{J^*}^3}, E_2^{(4)} = -\frac{16t^4}{9{J^*}^3}\]
 	\[H^* \sim J^* \vec{S_d}\cdot\vec{s} + K^* \vec{C_d}\cdot\vec{c} + V^* \left( c^\dagger_{d\sigma}c_{0\sigma} + \text{h.c.} \right) + \overbrace{\frac{t^4}{{J^*}^3} \hat n_{1 \uparrow}\hat n_{1 \downarrow}}^\text{local Fermi liquid}\]
 	\[ \left< \hat n_{1 \uparrow}\hat n_{1 \downarrow}\right> \xrightarrow{\text{mean field}\atop \text{approximation}} \left<\hat n_{1 \uparrow}\right>\left< \hat n_{1 \downarrow}\right>\]
+
+\vspace*{-10pt}
+\footcite{nozieres}
 \end{frame}
 
-\begin{frame}{Results: Wilson Ratio (\(T=0\))}
+\begin{frame}[noframenumbering]{Results: Wilson Ratio (\(T=0\))}
 	\begin{center}
 	\scalebox{1.5}{
 	$\epsilon_{k\sigma} = \epsilon_k^0 + \sum_q f_{kq}\left<n_{q\overline\sigma} \right>$}
@@ -557,9 +568,10 @@ Philosophy of Poor Man's scaling:
 	\scalebox{1.5}{
 	$R = \frac{\chi_s}{\gamma} = 2$}
 \end{center}
+\footcite{hewsonp}
 \end{frame}
 
-\begin{frame}{Results: Relation between \(R\) and \(\Delta V_L\)}
+\begin{frame}[noframenumbering]{Results: Relation between \(R\) and \(\Delta V_L\)}
 	\begin{minipage}{0.43\textwidth}
 		\begin{itemize}
 			\item particle-hole symmetry
@@ -626,7 +638,7 @@ Philosophy of Poor Man's scaling:
 % }
 % \end{frame}
 
-% \begin{frame}{Results (\(\pmb{J=0}\))}
+% \begin{frame}[noframenumbering]{Results (\(\pmb{J=0}\))}
 % \vspace*{-10pt}
 % \begin{figure}
 % \def\svgwidth{\columnwidth}
@@ -651,7 +663,7 @@ Philosophy of Poor Man's scaling:
 % \end{tabular}
 % \end{frame}
 
-% \begin{frame}{Results (\(\pmb{J>0}\))}
+% \begin{frame}[noframenumbering]{Results (\(\pmb{J>0}\))}
  
 % \begin{tabular}{cl}  
 % \begin{tabular}{l}
@@ -675,7 +687,7 @@ Philosophy of Poor Man's scaling:
 % \end{tabular}
 % \end{tabular}
 
-\begin{frame}{Summary of Results}
+\begin{frame}[noframenumbering]{Summary of Results}
 	\vspace*{-5pt}
 	\begin{figure}[htpb]
 		\centering
@@ -683,7 +695,7 @@ Philosophy of Poor Man's scaling:
 	\end{figure}
 \end{frame}
 
-\begin{frame}{What's Next?}
+\begin{frame}[noframenumbering]{What's Next?}
 \begin{itemize} 
 \item Analytical expression for temperature-dependent Wilson ratio 
 	\vspace{5pt}
@@ -698,9 +710,8 @@ Philosophy of Poor Man's scaling:
 \item extensions to the Kondo and Anderson lattices, and hence to the problem of heavy Fermions
 \end{itemize}
 \end{frame}
-\begin{frame}
+\begin{frame}[noframenumbering]
 	\LARGE \centering Thank You!
 \end{frame}
 \printbibliography
-% \bibliographystyle{unsrt}
 \end{document}

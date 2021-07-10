@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.6.15)  9 JUL 2021 23:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.6.15)  10 JUL 2021 10:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -972,7 +972,7 @@ TextBlockOrigin set to 0pt x 0pt
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 28.
+(hyperref)                removing `\\' on input line 30.
 
 \@quotelevel=\count459
 \@quotereset=\count460
@@ -983,24 +983,24 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 ) (./pres3.aux)
 \openout1 = `pres3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1061,7 +1061,7 @@ Package grfext Info: Graphics extension search list:
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 33.
+Package hyperref Info: Link coloring OFF on input line 35.
  (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1071,55 +1071,55 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count468
 )
-LaTeX Info: Redefining \ref on input line 33.
-LaTeX Info: Redefining \pageref on input line 33.
-LaTeX Info: Redefining \nameref on input line 33.
+LaTeX Info: Redefining \ref on input line 35.
+LaTeX Info: Redefining \pageref on input line 35.
+LaTeX Info: Redefining \nameref on input line 35.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 33.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 35.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 33.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 35.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/FiraSans-OsF/m/n on input line 33.
+(Font)                  OT1/cmss/m/n --> OT1/FiraSans-OsF/m/n on input line 35.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/FiraSans-OsF/b/n on input line 33.
+(Font)                  OT1/cmss/b/n --> OT1/FiraSans-OsF/b/n on input line 35.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/FiraSans-OsF/m/n --> T1/lmr/m/n on input line 33.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 33.
+(Font)                  OT1/FiraSans-OsF/m/n --> T1/lmr/m/n on input line 35.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/FiraSans-OsF/b/n on input line 33.
+(Font)                  OT1/lmr/bx/n --> T1/FiraSans-OsF/b/n on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/FiraSans-OsF/b/n on input line 33.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 33.
+(Font)                  OT1/lmr/bx/n --> T1/FiraSans-OsF/b/n on input line 35.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/FiraSans-OsF/m/n on input line 33.
+(Font)                  OT1/lmss/m/n --> T1/FiraSans-OsF/m/n on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/FiraSans-OsF/m/n on input line 33.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 33.
+(Font)                  OT1/lmss/bx/n --> T1/FiraSans-OsF/m/n on input line 35.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/FiraSans-OsF/m/it on input line 33.
+(Font)                  OT1/lmr/m/it --> T1/FiraSans-OsF/m/it on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/FiraSans-OsF/m/it on input line 33.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 33.
+(Font)                  OT1/lmr/bx/it --> T1/FiraSans-OsF/m/it on input line 35.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/FiraMono-TOsF/m/n on input line 33.
+(Font)                  OT1/lmtt/m/n --> T1/FiraMono-TOsF/m/n on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/FiraMono-TOsF/m/n on input line 33.
+(Font)                  OT1/lmtt/m/n --> T1/FiraMono-TOsF/m/n on input line 35.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/FiraSans-OsF/m/n --> T1/FiraSans-OsF/b/n on input line 33.
+(Font)                  T1/FiraSans-OsF/m/n --> T1/FiraSans-OsF/b/n on input line 35.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/FiraSans-OsF/m/it --> T1/FiraSans-OsF/b/it on input line 33.
+(Font)                  T1/FiraSans-OsF/m/it --> T1/FiraSans-OsF/b/it on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/FiraSans-OsF/b/n --> T1/lmr/b/n on input line 33.
+(Font)                  OT1/FiraSans-OsF/b/n --> T1/lmr/b/n on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/FiraSans-OsF/b/n --> T1/FiraSans-OsF/b/n on input line 33.
+(Font)                  T1/FiraSans-OsF/b/n --> T1/FiraSans-OsF/b/n on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/FiraSans-OsF/m/n --> T1/FiraSans-OsF/b/n on input line 33.
+(Font)                  T1/FiraSans-OsF/m/n --> T1/FiraSans-OsF/b/n on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/FiraSans-OsF/m/it --> T1/FiraSans-OsF/b/it on input line 33.
+(Font)                  T1/FiraSans-OsF/m/it --> T1/FiraSans-OsF/b/it on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/FiraMono-TOsF/m/n --> T1/FiraMono-TOsF/b/n on input line 33.
+(Font)                  T1/FiraMono-TOsF/m/n --> T1/FiraMono-TOsF/b/n on input line 35.
  (/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/share/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -1167,6 +1167,11 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'bulla_costi_nrg':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'glazek-wilson':
 (biblatex)                - Invalid format of field 'month'.
 
@@ -1180,213 +1185,214 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'Schrieffer_Wolff':
 (biblatex)                - Invalid format of field 'month'.
 
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'charge-kondo-Zitko':
+(biblatex)                - Invalid format of field 'month'.
+
 )
-Package biblatex Info: Reference section=0 on input line 33.
-Package biblatex Info: Reference segment=0 on input line 33.
+Package biblatex Info: Reference section=0 on input line 35.
+Package biblatex Info: Reference segment=0 on input line 35.
 \c@mv@tabular=\count469
 \c@mv@boldtabular=\count470
  (./pres3.nav)
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <6> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 33.
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 33.
+(Font)              scaled to size 6.0pt on input line 35.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <8> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 33.
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 33.
+(Font)              scaled to size 8.0pt on input line 35.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <20.74> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 38.
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 20.74pt on input line 38.
+(Font)              scaled to size 20.74pt on input line 40.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/sc' in size <20.74> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/sc' tried instead on input line 38.
+(Font)              Font shape `T1/FiraSans-OsF/regular/sc' tried instead on input line 40.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/sc' will be
-(Font)              scaled to size 20.74pt on input line 38.
+(Font)              scaled to size 20.74pt on input line 40.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/sc' in size <20.74> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/sc' tried instead on input line 38.
+(Font)              Font shape `T1/FiraSans-OsF/bold/sc' tried instead on input line 40.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/sc' will be
-(Font)              scaled to size 20.74pt on input line 38.
+(Font)              scaled to size 20.74pt on input line 40.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <14.4> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 38.
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 38.
+(Font)              scaled to size 14.4pt on input line 40.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/sc' in size <14.4> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/sc' tried instead on input line 38.
+(Font)              Font shape `T1/FiraSans-OsF/regular/sc' tried instead on input line 40.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/sc' will be
-(Font)              scaled to size 14.4pt on input line 38.
+(Font)              scaled to size 14.4pt on input line 40.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <12> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 38.
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 38.
+(Font)              scaled to size 12.0pt on input line 40.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/sc' in size <12> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/sc' tried instead on input line 38.
+(Font)              Font shape `T1/FiraSans-OsF/regular/sc' tried instead on input line 40.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/sc' will be
-(Font)              scaled to size 12.0pt on input line 38.
+(Font)              scaled to size 12.0pt on input line 40.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <4> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 38.
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 4.0pt on input line 38.
+(Font)              scaled to size 4.0pt on input line 40.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for OT1+FiraSans-OsF on input line 129.
+LaTeX Font Info:    Trying to load font information for OT1+FiraSans-OsF on input line 131.
  (/usr/share/texmf-dist/tex/latex/fira/OT1FiraSans-OsF.fd
 File: OT1FiraSans-OsF.fd 2019/10/10 (autoinst) Font definitions for OT1/FiraSans-OsF.
 )
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <10.95> not available
-(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 129.
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 131.
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 129.
+(Font)              scaled to size 10.95pt on input line 131.
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <8> not available
-(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 129.
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 131.
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 129.
+(Font)              scaled to size 8.0pt on input line 131.
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <6> not available
-(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 129.
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 131.
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 129.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 129.
+(Font)              scaled to size 6.0pt on input line 131.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 131.
  (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 129.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 131.
  (/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 129.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 131.
  (/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 129.
+(Font)              <10.95> on input line 131.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 129.
+(Font)              <8> on input line 131.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 129.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 129.
+(Font)              <6> on input line 131.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 131.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 129.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 131.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <10.95> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 129.
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 131.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 10.95pt on input line 129.
+(Font)              scaled to size 10.95pt on input line 131.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <8> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 129.
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 131.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 8.0pt on input line 129.
+(Font)              scaled to size 8.0pt on input line 131.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <6> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 129.
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 131.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 6.0pt on input line 129.
+(Font)              scaled to size 6.0pt on input line 131.
 
 
 Package amsmath Warning: Foreign command \atop;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 129.
+(amsmath)                 on input line 131.
 
 <model_scheme.png, id=21, 336.96976pt x 235.09518pt>
 File: model_scheme.png Graphic file (type png)
 <use model_scheme.png>
-Package pdftex.def Info: model_scheme.png  used on input line 129.
+Package pdftex.def Info: model_scheme.png  used on input line 131.
 (pdftex.def)             Requested size: 185.33394pt x 129.30273pt.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <17.28> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 129.
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 131.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 17.28pt on input line 129.
+(Font)              scaled to size 17.28pt on input line 131.
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <17.28> not available
-(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 129.
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 131.
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 17.28pt on input line 129.
+(Font)              scaled to size 17.28pt on input line 131.
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <12> not available
-(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 129.
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 131.
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 129.
+(Font)              scaled to size 12.0pt on input line 131.
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <10> not available
-(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 129.
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 131.
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 129.
+(Font)              scaled to size 10.0pt on input line 131.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 129.
+(Font)              <17.28> on input line 131.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 129.
+(Font)              <12> on input line 131.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 129.
+(Font)              <10> on input line 131.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <10> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 129.
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 131.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 129.
+(Font)              scaled to size 10.0pt on input line 131.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <17.28> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 129.
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 131.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 17.28pt on input line 129.
+(Font)              scaled to size 17.28pt on input line 131.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <12> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 129.
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 131.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 12.0pt on input line 129.
+(Font)              scaled to size 12.0pt on input line 131.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <10> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 129.
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 131.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 129.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <9> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 129.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 129.
-LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <7> not available
-(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 129.
-LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 7.0pt on input line 129.
-LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <5> not available
-(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 129.
-LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 5.0pt on input line 129.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 129.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 129.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <7> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 129.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 7.0pt on input line 129.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <5> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 129.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 5.0pt on input line 129.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <7> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 129.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 7.0pt on input line 129.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <5> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 129.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 5.0pt on input line 129.
-
-Overfull \vbox (5.94113pt too high) detected at line 129
- []
-
+(Font)              scaled to size 10.0pt on input line 131.
 [2
 
  <./model_scheme.png>]
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <14.4> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 129.
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 131.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 129.
+(Font)              scaled to size 14.4pt on input line 131.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10.95> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 129.
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 131.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 10.95pt on input line 129.
-<nrg_fpoints.png, id=40, 543.33109pt x 529.10928pt>
+(Font)              scaled to size 10.95pt on input line 131.
+<nrg_fpoints.png, id=38, 543.33109pt x 529.10928pt>
 File: nrg_fpoints.png Graphic file (type png)
 <use nrg_fpoints.png>
-Package pdftex.def Info: nrg_fpoints.png  used on input line 129.
+Package pdftex.def Info: nrg_fpoints.png  used on input line 131.
 (pdftex.def)             Requested size: 173.86949pt x 169.31842pt.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <9> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 131.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 9.0pt on input line 131.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <7> not available
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 131.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 7.0pt on input line 131.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <5> not available
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 131.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 5.0pt on input line 131.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 131.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 131.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <7> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 131.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 7.0pt on input line 131.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <5> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 131.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 5.0pt on input line 131.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <7> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 131.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 7.0pt on input line 131.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <5> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 131.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 5.0pt on input line 131.
 
-Overfull \hbox (19.47107pt too wide) in paragraph at lines 129--129
-[][][]  
+Overfull \hbox (16.08707pt too wide) in paragraph at lines 131--131
+[][][] 
  []
 
 [3
@@ -1402,33 +1408,33 @@ Overfull \hbox (19.47107pt too wide) in paragraph at lines 129--129
 ] [8
 
 ]
-Underfull \hbox (badness 3271) in paragraph at lines 185--185
+Underfull \hbox (badness 3271) in paragraph at lines 187--187
 \T1/FiraSans-OsF/regular/n/10.95 Apply \T1/FiraSans-OsF/regular/it/10.95 uni-tary many-body trans-for-ma-
  []
 
 (./urg_short.pdf_tex
-<urg_short.pdf, id=75, page=1, 253.90204pt x 268.1939pt>
+<urg_short.pdf, id=74, page=1, 253.90204pt x 268.1939pt>
 File: urg_short.pdf Graphic file (type pdf)
 <use urg_short.pdf, page 1>
 Package pdftex.def Info: urg_short.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 250.0pt x 264.08044pt.
-<urg_short.pdf, id=76, page=2, 253.90204pt x 268.1939pt>
+<urg_short.pdf, id=75, page=2, 253.90204pt x 268.1939pt>
 File: urg_short.pdf Graphic file (type pdf)
 <use urg_short.pdf, page 2>
 Package pdftex.def Info: urg_short.pdf , page2 used on input line 61.
 (pdftex.def)             Requested size: 250.0pt x 264.08044pt.
-<urg_short.pdf, id=77, page=3, 253.90204pt x 268.1939pt>
+<urg_short.pdf, id=76, page=3, 253.90204pt x 268.1939pt>
 File: urg_short.pdf Graphic file (type pdf)
 <use urg_short.pdf, page 3>
 Package pdftex.def Info: urg_short.pdf , page3 used on input line 64.
 (pdftex.def)             Requested size: 250.0pt x 264.08044pt.
-<urg_short.pdf, id=78, page=4, 253.90204pt x 268.1939pt>
+<urg_short.pdf, id=77, page=4, 253.90204pt x 268.1939pt>
 File: urg_short.pdf Graphic file (type pdf)
 <use urg_short.pdf, page 4>
 Package pdftex.def Info: urg_short.pdf , page4 used on input line 66.
 (pdftex.def)             Requested size: 250.0pt x 264.08044pt.
 )
-Overfull \hbox (41.90303pt too wide) in paragraph at lines 185--185
+Overfull \hbox (37.93503pt too wide) in paragraph at lines 187--187
 []$[]$$[]$[]  
  []
 
@@ -1445,37 +1451,37 @@ pdfTeX warning: pdflatex (file ./urg_short.pdf): PDF inclusion: multiple pdfs wi
 pdfTeX warning: pdflatex (file ./urg_short.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <12> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 208.
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 210.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 208.
+(Font)              scaled to size 12.0pt on input line 210.
  (./matrix.pdf_tex
-<matrix.pdf, id=88, page=1, 218.04697pt x 159.20662pt>
+<matrix.pdf, id=87, page=1, 218.04697pt x 159.20662pt>
 File: matrix.pdf Graphic file (type pdf)
 <use matrix.pdf, page 1>
 Package pdftex.def Info: matrix.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 300.0pt x 219.05916pt.
-<matrix.pdf, id=89, page=2, 218.04697pt x 159.20662pt>
+<matrix.pdf, id=88, page=2, 218.04697pt x 159.20662pt>
 File: matrix.pdf Graphic file (type pdf)
 <use matrix.pdf, page 2>
 Package pdftex.def Info: matrix.pdf , page2 used on input line 61.
 (pdftex.def)             Requested size: 300.0pt x 219.05916pt.
-<matrix.pdf, id=90, page=3, 218.04697pt x 159.20662pt>
+<matrix.pdf, id=89, page=3, 218.04697pt x 159.20662pt>
 File: matrix.pdf Graphic file (type pdf)
 <use matrix.pdf, page 3>
 Package pdftex.def Info: matrix.pdf , page3 used on input line 64.
 (pdftex.def)             Requested size: 300.0pt x 219.05916pt.
-<matrix.pdf, id=91, page=4, 218.04697pt x 159.20662pt>
+<matrix.pdf, id=90, page=4, 218.04697pt x 159.20662pt>
 File: matrix.pdf Graphic file (type pdf)
 <use matrix.pdf, page 4>
 Package pdftex.def Info: matrix.pdf , page4 used on input line 66.
 (pdftex.def)             Requested size: 300.0pt x 219.05916pt.
 )
-Overfull \hbox (87.43503pt too wide) in paragraph at lines 208--208
+Overfull \hbox (87.43503pt too wide) in paragraph at lines 210--210
 []$[]$$[]$ 
  []
 
 
-Overfull \vbox (13.6601pt too high) detected at line 208
+Overfull \vbox (1.0881pt too high) detected at line 210
  []
 
 [10
@@ -1490,17 +1496,17 @@ pdfTeX warning: pdflatex (file ./matrix.pdf): PDF inclusion: multiple pdfs with 
 
 pdfTeX warning: pdflatex (file ./matrix.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >] (./rotation.pdf_tex
-<rotation.pdf, id=99, page=1, 721.63394pt x 273.49762pt>
+<rotation.pdf, id=98, page=1, 721.63394pt x 273.49762pt>
 File: rotation.pdf Graphic file (type pdf)
 <use rotation.pdf, page 1>
 Package pdftex.def Info: rotation.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 412.56497pt x 156.36266pt.
-<rotation.pdf, id=100, page=2, 721.63394pt x 273.49762pt>
+<rotation.pdf, id=99, page=2, 721.63394pt x 273.49762pt>
 File: rotation.pdf Graphic file (type pdf)
 <use rotation.pdf, page 2>
 Package pdftex.def Info: rotation.pdf , page2 used on input line 59.
 (pdftex.def)             Requested size: 412.56497pt x 156.36266pt.
-<rotation.pdf, id=101, page=3, 721.63394pt x 273.49762pt>
+<rotation.pdf, id=100, page=3, 721.63394pt x 273.49762pt>
 File: rotation.pdf Graphic file (type pdf)
 <use rotation.pdf, page 3>
 Package pdftex.def Info: rotation.pdf , page3 used on input line 61.
@@ -1515,22 +1521,22 @@ LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <14.4> not availab
 (Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 63.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
 (Font)              scaled to size 14.4pt on input line 63.
-<rotation.pdf, id=102, page=4, 721.63394pt x 273.49762pt>
+<rotation.pdf, id=101, page=4, 721.63394pt x 273.49762pt>
 File: rotation.pdf Graphic file (type pdf)
 <use rotation.pdf, page 4>
 Package pdftex.def Info: rotation.pdf , page4 used on input line 64.
 (pdftex.def)             Requested size: 412.56497pt x 156.36266pt.
-<rotation.pdf, id=103, page=5, 721.63394pt x 273.49762pt>
+<rotation.pdf, id=102, page=5, 721.63394pt x 273.49762pt>
 File: rotation.pdf Graphic file (type pdf)
 <use rotation.pdf, page 5>
 Package pdftex.def Info: rotation.pdf , page5 used on input line 69.
 (pdftex.def)             Requested size: 412.56497pt x 156.36266pt.
-<rotation.pdf, id=104, page=6, 721.63394pt x 273.49762pt>
+<rotation.pdf, id=103, page=6, 721.63394pt x 273.49762pt>
 File: rotation.pdf Graphic file (type pdf)
 <use rotation.pdf, page 6>
 Package pdftex.def Info: rotation.pdf , page6 used on input line 71.
 (pdftex.def)             Requested size: 412.56497pt x 156.36266pt.
-<rotation.pdf, id=105, page=7, 721.63394pt x 273.49762pt>
+<rotation.pdf, id=104, page=7, 721.63394pt x 273.49762pt>
 File: rotation.pdf Graphic file (type pdf)
 <use rotation.pdf, page 7>
 Package pdftex.def Info: rotation.pdf , page7 used on input line 76.
@@ -1556,27 +1562,27 @@ pdfTeX warning: pdflatex (file ./rotation.pdf): PDF inclusion: multiple pdfs wit
 
 pdfTeX warning: pdflatex (file ./rotation.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >] (./repeat.pdf_tex
-<repeat.pdf, id=137, page=1, 680.96976pt x 258.51381pt>
+<repeat.pdf, id=136, page=1, 680.96976pt x 258.51381pt>
 File: repeat.pdf Graphic file (type pdf)
 <use repeat.pdf, page 1>
 Package pdftex.def Info: repeat.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 412.56497pt x 156.62419pt.
-<repeat.pdf, id=138, page=2, 680.96976pt x 258.51381pt>
+<repeat.pdf, id=137, page=2, 680.96976pt x 258.51381pt>
 File: repeat.pdf Graphic file (type pdf)
 <use repeat.pdf, page 2>
 Package pdftex.def Info: repeat.pdf , page2 used on input line 61.
 (pdftex.def)             Requested size: 412.56497pt x 156.62419pt.
-<repeat.pdf, id=139, page=3, 680.96976pt x 258.51381pt>
+<repeat.pdf, id=138, page=3, 680.96976pt x 258.51381pt>
 File: repeat.pdf Graphic file (type pdf)
 <use repeat.pdf, page 3>
 Package pdftex.def Info: repeat.pdf , page3 used on input line 64.
 (pdftex.def)             Requested size: 412.56497pt x 156.62419pt.
-<repeat.pdf, id=140, page=4, 680.96976pt x 258.51381pt>
+<repeat.pdf, id=139, page=4, 680.96976pt x 258.51381pt>
 File: repeat.pdf Graphic file (type pdf)
 <use repeat.pdf, page 4>
 Package pdftex.def Info: repeat.pdf , page4 used on input line 66.
 (pdftex.def)             Requested size: 412.56497pt x 156.62419pt.
-<repeat.pdf, id=141, page=5, 680.96976pt x 258.51381pt>
+<repeat.pdf, id=140, page=5, 680.96976pt x 258.51381pt>
 File: repeat.pdf Graphic file (type pdf)
 <use repeat.pdf, page 5>
 Package pdftex.def Info: repeat.pdf , page5 used on input line 69.
@@ -1598,88 +1604,76 @@ pdfTeX warning: pdflatex (file ./repeat.pdf): PDF inclusion: multiple pdfs with 
 >] [13
 
 ]
-<figures/pms.png, id=155, 419.31656pt x 447.17062pt>
+<figures/pms.png, id=154, 419.31656pt x 447.17062pt>
 File: figures/pms.png Graphic file (type png)
 <use figures/pms.png>
-Package pdftex.def Info: figures/pms.png  used on input line 260.
+Package pdftex.def Info: figures/pms.png  used on input line 262.
 (pdftex.def)             Requested size: 129.9565pt x 138.58734pt.
  [14
 
  <./figures/pms.png>]
-<figures/pms_vs_urg.png, id=164, 996.39723pt x 642.59349pt>
+<figures/pms_vs_urg.png, id=163, 996.39723pt x 642.59349pt>
 File: figures/pms_vs_urg.png Graphic file (type png)
 <use figures/pms_vs_urg.png>
-Package pdftex.def Info: figures/pms_vs_urg.png  used on input line 260.
+Package pdftex.def Info: figures/pms_vs_urg.png  used on input line 262.
 (pdftex.def)             Requested size: 181.94194pt x 117.3287pt.
  [15
 
- <./figures/pms_vs_urg.png>]
-Overfull \vbox (11.57896pt too high) detected at line 292
- []
+ <./figures/pms_vs_urg.png>] [16
 
-[16
-
-]
-Overfull \vbox (4.67564pt too high) detected at line 292
- []
-
-[17
+] [17
 
 ] [18
 
 ]
-Overfull \hbox (13.81857pt too wide) detected at line 325
+Overfull \hbox (13.81857pt too wide) detected at line 327
 | \OT1/FiraSans-OsF/regular/n/10.95 ^^A\T1/FiraSans-OsF/regular/it/10.95 V \OT1/FiraSans-OsF/regular/n/10.95 = [] [] \OMS/lmsy/m/n/10.95 ^^@ [] []
  []
 
 [19
 
 ]
-<figures/UvsJ.pdf, id=198, 595.22375pt x 462.72874pt>
+<figures/UvsJ.pdf, id=197, 595.22375pt x 462.72874pt>
 File: figures/UvsJ.pdf Graphic file (type pdf)
 <use figures/UvsJ.pdf>
-Package pdftex.def Info: figures/UvsJ.pdf  used on input line 339.
+Package pdftex.def Info: figures/UvsJ.pdf  used on input line 341.
 (pdftex.def)             Requested size: 247.54149pt x 192.43837pt.
-<figures/U_vs_count.pdf, id=199, 595.22375pt x 431.6125pt>
+<figures/U_vs_count.pdf, id=198, 595.22375pt x 431.6125pt>
 File: figures/U_vs_count.pdf Graphic file (type pdf)
 <use figures/U_vs_count.pdf>
-Package pdftex.def Info: figures/U_vs_count.pdf  used on input line 339.
+Package pdftex.def Info: figures/U_vs_count.pdf  used on input line 341.
 (pdftex.def)             Requested size: 152.85458pt x 110.83356pt.
-<figures/J_vs_count.pdf, id=200, 597.23125pt x 416.55624pt>
+<figures/J_vs_count.pdf, id=199, 597.23125pt x 416.55624pt>
 File: figures/J_vs_count.pdf Graphic file (type pdf)
 <use figures/J_vs_count.pdf>
-Package pdftex.def Info: figures/J_vs_count.pdf  used on input line 339.
+Package pdftex.def Info: figures/J_vs_count.pdf  used on input line 341.
 (pdftex.def)             Requested size: 152.85458pt x 106.61133pt.
-
-Overfull \vbox (12.06049pt too high) detected at line 339
- []
-
-[20
+ [20
 
  <./figures/UvsJ.pdf> <./figures/U_vs_count.pdf> <./figures/J_vs_count.pdf>]
-<figures/U_vs_count_neg.pdf, id=403, 614.295pt x 794.97pt>
+<figures/U_vs_count_neg.pdf, id=402, 614.295pt x 794.97pt>
 File: figures/U_vs_count_neg.pdf Graphic file (type pdf)
 <use figures/U_vs_count_neg.pdf>
-Package pdftex.def Info: figures/U_vs_count_neg.pdf  used on input line 348.
+Package pdftex.def Info: figures/U_vs_count_neg.pdf  used on input line 350.
 (pdftex.def)             Requested size: 202.15909pt x 261.6131pt.
-<figures/K_vs_count_neg.pdf, id=404, 614.295pt x 794.97pt>
+<figures/K_vs_count_neg.pdf, id=403, 614.295pt x 794.97pt>
 File: figures/K_vs_count_neg.pdf Graphic file (type pdf)
 <use figures/K_vs_count_neg.pdf>
-Package pdftex.def Info: figures/K_vs_count_neg.pdf  used on input line 348.
+Package pdftex.def Info: figures/K_vs_count_neg.pdf  used on input line 350.
 (pdftex.def)             Requested size: 202.15909pt x 261.6131pt.
 
-Overfull \vbox (93.2287pt too high) detected at line 348
+Overfull \vbox (80.65671pt too high) detected at line 350
  []
 
 [21
 
  <./figures/U_vs_count_neg.pdf> <./figures/K_vs_count_neg.pdf>] (./phases-V-pres.pdf_tex
-<phases-V-pres.pdf, id=510, page=1, 1947.32071pt x 1104.57039pt>
+<phases-V-pres.pdf, id=509, page=1, 1947.32071pt x 1104.57039pt>
 File: phases-V-pres.pdf Graphic file (type pdf)
 <use phases-V-pres.pdf, page 1>
 Package pdftex.def Info: phases-V-pres.pdf , page1 used on input line 58.
 (pdftex.def)             Requested size: 330.05322pt x 187.20143pt.
-<phases-V-pres.pdf, id=511, page=2, 1947.32071pt x 1104.57039pt>
+<phases-V-pres.pdf, id=510, page=2, 1947.32071pt x 1104.57039pt>
 File: phases-V-pres.pdf Graphic file (type pdf)
 <use phases-V-pres.pdf, page 2>
 Package pdftex.def Info: phases-V-pres.pdf , page2 used on input line 61.
@@ -1690,138 +1684,138 @@ Package pdftex.def Info: phases-V-pres.pdf , page2 used on input line 61.
 
 pdfTeX warning: pdflatex (file ./phases-V-pres.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<figures/two_site_problem.png, id=531, 663.22781pt x 280.04625pt>
+<figures/two_site_problem.png, id=530, 663.22781pt x 280.04625pt>
 File: figures/two_site_problem.png Graphic file (type png)
 <use figures/two_site_problem.png>
-Package pdftex.def Info: figures/two_site_problem.png  used on input line 376.
+Package pdftex.def Info: figures/two_site_problem.png  used on input line 378.
 (pdftex.def)             Requested size: 206.28249pt x 87.09973pt.
-<figures/gstate_state.png, id=532, 589.4522pt x 400.49625pt>
+<figures/gstate_state.png, id=531, 589.4522pt x 400.49625pt>
 File: figures/gstate_state.png Graphic file (type png)
 <use figures/gstate_state.png>
-Package pdftex.def Info: figures/gstate_state.png  used on input line 376.
+Package pdftex.def Info: figures/gstate_state.png  used on input line 378.
 (pdftex.def)             Requested size: 185.65297pt x 126.13864pt.
  [23
 
  <./figures/two_site_problem.png> <./figures/gstate_state.png>]
-<figures/cscc_q1.pdf, id=545, 594.22pt x 509.905pt>
+<figures/cscc_q1.pdf, id=544, 594.22pt x 509.905pt>
 File: figures/cscc_q1.pdf Graphic file (type pdf)
 <use figures/cscc_q1.pdf>
-Package pdftex.def Info: figures/cscc_q1.pdf  used on input line 403.
+Package pdftex.def Info: figures/cscc_q1.pdf  used on input line 405.
 (pdftex.def)             Requested size: 139.44485pt x 119.65651pt.
  [24
 
  <./figures/cscc_q1.pdf>]
-<figures/chi_T.pdf, id=624, 594.22pt x 391.4625pt>
+<figures/chi_T.pdf, id=623, 594.22pt x 391.4625pt>
 File: figures/chi_T.pdf Graphic file (type pdf)
 <use figures/chi_T.pdf>
-Package pdftex.def Info: figures/chi_T.pdf  used on input line 418.
+Package pdftex.def Info: figures/chi_T.pdf  used on input line 420.
 (pdftex.def)             Requested size: 198.02942pt x 130.46129pt.
-<figures/chi.pdf, id=625, 589.20125pt x 400.49625pt>
+<figures/chi.pdf, id=624, 589.20125pt x 400.49625pt>
 File: figures/chi.pdf Graphic file (type pdf)
 <use figures/chi.pdf>
-Package pdftex.def Info: figures/chi.pdf  used on input line 418.
+Package pdftex.def Info: figures/chi.pdf  used on input line 420.
 (pdftex.def)             Requested size: 198.02942pt x 134.6086pt.
  [25
 
  <./figures/chi_T.pdf> <./figures/chi.pdf>]
-<figures/chi_c.pdf, id=722, 589.20125pt x 431.6125pt>
+<figures/chi_c.pdf, id=723, 589.20125pt x 431.6125pt>
 File: figures/chi_c.pdf Graphic file (type pdf)
 <use figures/chi_c.pdf>
-Package pdftex.def Info: figures/chi_c.pdf  used on input line 431.
+Package pdftex.def Info: figures/chi_c.pdf  used on input line 435.
 (pdftex.def)             Requested size: 198.02942pt x 145.06691pt.
-<figures/T_chi_c.pdf, id=723, 592.2125pt x 414.54875pt>
+<figures/T_chi_c.pdf, id=724, 592.2125pt x 414.54875pt>
 File: figures/T_chi_c.pdf Graphic file (type pdf)
 <use figures/T_chi_c.pdf>
-Package pdftex.def Info: figures/T_chi_c.pdf  used on input line 431.
+Package pdftex.def Info: figures/T_chi_c.pdf  used on input line 435.
 (pdftex.def)             Requested size: 198.02942pt x 138.61691pt.
  [26
 
  <./figures/chi_c.pdf> <./figures/T_chi_c.pdf>]
-<figures/spec_func_merged_2.png, id=816, 1483.04062pt x 477.28313pt>
+<figures/spec_func_merged_2.png, id=820, 1483.04062pt x 477.28313pt>
 File: figures/spec_func_merged_2.png Graphic file (type png)
 <use figures/spec_func_merged_2.png>
-Package pdftex.def Info: figures/spec_func_merged_2.png  used on input line 438.
+Package pdftex.def Info: figures/spec_func_merged_2.png  used on input line 443.
 (pdftex.def)             Requested size: 412.56497pt x 132.77171pt.
  [27
 
  <./figures/spec_func_merged_2.png>]
-<figures/spec_func_journey_one_marked.pdf, id=823, 749.04843pt x 542.77782pt>
+<figures/spec_func_journey_one_marked.pdf, id=831, 749.04843pt x 542.77782pt>
 File: figures/spec_func_journey_one_marked.pdf Graphic file (type pdf)
 <use figures/spec_func_journey_one_marked.pdf>
-Package pdftex.def Info: figures/spec_func_journey_one_marked.pdf  used on input line 445.
+Package pdftex.def Info: figures/spec_func_journey_one_marked.pdf  used on input line 450.
 (pdftex.def)             Requested size: 193.90604pt x 140.50603pt.
-<figures/spec_func_journey_three_marked.pdf, id=824, 719.68875pt x 566.86781pt>
+<figures/spec_func_journey_three_marked.pdf, id=832, 719.68875pt x 566.86781pt>
 File: figures/spec_func_journey_three_marked.pdf Graphic file (type pdf)
 <use figures/spec_func_journey_three_marked.pdf>
-Package pdftex.def Info: figures/spec_func_journey_three_marked.pdf  used on input line 445.
+Package pdftex.def Info: figures/spec_func_journey_three_marked.pdf  used on input line 450.
 (pdftex.def)             Requested size: 185.65297pt x 146.23174pt.
  [28
 
  <./figures/spec_func_journey_one_marked.pdf> <./figures/spec_func_journey_three_marked.pdf>]
-<figures/Fkkqq.pdf, id=832, 594.22pt x 391.4625pt>
+<figures/Fkkqq.pdf, id=840, 594.22pt x 391.4625pt>
 File: figures/Fkkqq.pdf Graphic file (type pdf)
 <use figures/Fkkqq.pdf>
-Package pdftex.def Info: figures/Fkkqq.pdf  used on input line 455.
+Package pdftex.def Info: figures/Fkkqq.pdf  used on input line 460.
 (pdftex.def)             Requested size: 185.65297pt x 122.30783pt.
  [29
 
  <./figures/Fkkqq.pdf>]
-<figures/reverse-rg.png, id=879, 790.0359pt x 678.29314pt>
+<figures/reverse-rg.png, id=887, 790.0359pt x 678.29314pt>
 File: figures/reverse-rg.png Graphic file (type png)
 <use figures/reverse-rg.png>
-Package pdftex.def Info: figures/reverse-rg.png  used on input line 466.
+Package pdftex.def Info: figures/reverse-rg.png  used on input line 472.
 (pdftex.def)             Requested size: 206.28249pt x 177.09724pt.
-<figures/rev-rg-bonds-diag.png, id=880, 1037.61145pt x 1030.06519pt>
+<figures/rev-rg-bonds-diag.png, id=888, 1037.61145pt x 1030.06519pt>
 File: figures/rev-rg-bonds-diag.png Graphic file (type png)
 <use figures/rev-rg-bonds-diag.png>
-Package pdftex.def Info: figures/rev-rg-bonds-diag.png  used on input line 466.
+Package pdftex.def Info: figures/rev-rg-bonds-diag.png  used on input line 472.
 (pdftex.def)             Requested size: 185.65297pt x 184.30351pt.
  [30
 
  <./figures/reverse-rg.png> <./figures/rev-rg-bonds-diag.png>]
-<figures/mutI_ee.png, id=888, 594.12326pt x 392.98627pt>
+<figures/mutI_ee.png, id=898, 594.12326pt x 392.98627pt>
 File: figures/mutI_ee.png Graphic file (type png)
 <use figures/mutI_ee.png>
-Package pdftex.def Info: figures/mutI_ee.png  used on input line 475.
+Package pdftex.def Info: figures/mutI_ee.png  used on input line 481.
 (pdftex.def)             Requested size: 185.65297pt x 122.80191pt.
-<figures/mutI_ed.png, id=889, 601.66953pt x 387.47168pt>
+<figures/mutI_ed.png, id=899, 601.66953pt x 387.47168pt>
 File: figures/mutI_ed.png Graphic file (type png)
 <use figures/mutI_ed.png>
-Package pdftex.def Info: figures/mutI_ed.png  used on input line 475.
+Package pdftex.def Info: figures/mutI_ed.png  used on input line 481.
 (pdftex.def)             Requested size: 185.65297pt x 119.55922pt.
  [31
 
  <./figures/mutI_ee.png> <./figures/mutI_ed.png>]
-<figures/corr_diag.png, id=898, 608.6353pt x 374.1206pt>
+<figures/corr_diag.png, id=908, 608.6353pt x 374.1206pt>
 File: figures/corr_diag.png Graphic file (type png)
 <use figures/corr_diag.png>
-Package pdftex.def Info: figures/corr_diag.png  used on input line 484.
+Package pdftex.def Info: figures/corr_diag.png  used on input line 490.
 (pdftex.def)             Requested size: 185.65297pt x 114.11517pt.
-<figures/corr_od.png, id=899, 606.89386pt x 370.05724pt>
+<figures/corr_od.png, id=909, 606.89386pt x 370.05724pt>
 File: figures/corr_od.png Graphic file (type png)
 <use figures/corr_od.png>
-Package pdftex.def Info: figures/corr_od.png  used on input line 484.
+Package pdftex.def Info: figures/corr_od.png  used on input line 490.
 (pdftex.def)             Requested size: 185.65297pt x 113.20326pt.
  [32
 
  <./figures/corr_diag.png> <./figures/corr_od.png>]
-<figures/contours.png, id=907, 354.57469pt x 210.03468pt>
+<figures/contours.png, id=917, 354.57469pt x 210.03468pt>
 File: figures/contours.png Graphic file (type png)
 <use figures/contours.png>
-Package pdftex.def Info: figures/contours.png  used on input line 505.
+Package pdftex.def Info: figures/contours.png  used on input line 512.
 (pdftex.def)             Requested size: 148.52011pt x 87.97679pt.
-<figures/wind_num.png, id=908, 458.46281pt x 239.39438pt>
+<figures/wind_num.png, id=918, 458.46281pt x 239.39438pt>
 File: figures/wind_num.png Graphic file (type png)
 <use figures/wind_num.png>
-Package pdftex.def Info: figures/wind_num.png  used on input line 505.
+Package pdftex.def Info: figures/wind_num.png  used on input line 512.
 (pdftex.def)             Requested size: 148.52011pt x 77.5502pt.
  [33
 
  <./figures/contours.png> <./figures/wind_num.png>]
-<figures/luttinger_top_change.png, id=916, 1754.80594pt x 1275.26437pt>
+<figures/luttinger_top_change.png, id=928, 1754.80594pt x 1275.26437pt>
 File: figures/luttinger_top_change.png Graphic file (type png)
 <use figures/luttinger_top_change.png>
-Package pdftex.def Info: figures/luttinger_top_change.png  used on input line 524.
+Package pdftex.def Info: figures/luttinger_top_change.png  used on input line 532.
 (pdftex.def)             Requested size: 185.65611pt x 134.90884pt.
  [34
 
@@ -1832,16 +1826,12 @@ Package pdftex.def Info: figures/luttinger_top_change.png  used on input line 52
 ] [37
 
 ]
-<figures/summary.png, id=939, 5339.69907pt x 2848.6425pt>
+<figures/summary.png, id=958, 5339.69907pt x 2848.6425pt>
 File: figures/summary.png Graphic file (type png)
 <use figures/summary.png>
-Package pdftex.def Info: figures/summary.png  used on input line 684.
+Package pdftex.def Info: figures/summary.png  used on input line 696.
 (pdftex.def)             Requested size: 391.93546pt x 209.07497pt.
-
-Overfull \vbox (5.69057pt too high) detected at line 684
- []
-
-[38
+ [38
 
  <./figures/summary.png>] [39
 
@@ -1849,32 +1839,32 @@ Overfull \vbox (5.69057pt too high) detected at line 684
 
 ]
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/sc' in size <10> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/sc' tried instead on input line 704.
+(Font)              Font shape `T1/FiraSans-OsF/regular/sc' tried instead on input line 716.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/sc' will be
-(Font)              scaled to size 10.0pt on input line 704.
-LaTeX Font Info:    Trying to load font information for TS1+FiraSans-OsF on input line 704.
+(Font)              scaled to size 10.0pt on input line 716.
+LaTeX Font Info:    Trying to load font information for TS1+FiraSans-OsF on input line 716.
  (/usr/share/texmf-dist/tex/latex/fira/TS1FiraSans-OsF.fd
 File: TS1FiraSans-OsF.fd 2019/10/10 (autoinst) Font definitions for TS1/FiraSans-OsF.
 )
 LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/m/n' in size <10.95> not available
-(Font)              Font shape `TS1/FiraSans-OsF/regular/n' tried instead on input line 704.
+(Font)              Font shape `TS1/FiraSans-OsF/regular/n' tried instead on input line 716.
 LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 704.
+(Font)              scaled to size 10.95pt on input line 716.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/sc' in size <10.95> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/sc' tried instead on input line 704.
+(Font)              Font shape `T1/FiraSans-OsF/regular/sc' tried instead on input line 716.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/sc' will be
-(Font)              scaled to size 10.95pt on input line 704.
-LaTeX Font Info:    Trying to load font information for T1+FiraMono-TOsF on input line 704.
+(Font)              scaled to size 10.95pt on input line 716.
+LaTeX Font Info:    Trying to load font information for T1+FiraMono-TOsF on input line 716.
  (/usr/share/texmf-dist/tex/latex/fira/T1FiraMono-TOsF.fd
 File: T1FiraMono-TOsF.fd 2019/10/10 (autoinst) Font definitions for T1/FiraMono-TOsF.
 )
 LaTeX Font Info:    Font shape `T1/FiraMono-TOsF/m/n' in size <10.95> not available
-(Font)              Font shape `T1/FiraMono-TOsF/regular/n' tried instead on input line 704.
+(Font)              Font shape `T1/FiraMono-TOsF/regular/n' tried instead on input line 716.
 LaTeX Font Info:    Font shape `T1/FiraMono-TOsF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 704.
+(Font)              scaled to size 10.95pt on input line 716.
  [41
 
- </usr/share/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [42]
+ </usr/share/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [42] [43]
 \tf@nav=\write6
 \openout6 = `pres3.nav'.
 
@@ -1890,18 +1880,18 @@ Package logreq Info: Writing requests to 'pres3.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32964 strings out of 478994
- 637327 string characters out of 5864751
- 1274025 words of memory out of 5000000
- 49627 multiletter control sequences out of 15000+600000
+ 32910 strings out of 478994
+ 636133 string characters out of 5864751
+ 1273482 words of memory out of 5000000
+ 49563 multiletter control sequences out of 15000+600000
  885164 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,20n,132p,1839b,1917s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 131i,20n,132p,1839b,1820s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_d4q673.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_d67aat.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_337jzs.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_2mfh3o.enc}</usr/share/texmf-dist/fonts/type1/public/fira/FiraMono-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Bold.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Italic.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on pres3.pdf (42 pages, 3182592 bytes).
+Output written on pres3.pdf (43 pages, 3178324 bytes).
 PDF statistics:
- 1066 PDF objects out of 1200 (max. 8388607)
- 729 compressed objects within 8 object streams
- 93 named destinations out of 1000 (max. 500000)
+ 1098 PDF objects out of 1200 (max. 8388607)
+ 760 compressed objects within 8 object streams
+ 103 named destinations out of 1000 (max. 500000)
  311 words of extra memory for PDF output out of 10000 (max. 10000000)
 
