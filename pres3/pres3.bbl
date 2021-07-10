@@ -468,6 +468,55 @@
     \field{year}{1991}
   \endentry
 
+  \entry{wegner_1994}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WF}{%
+         family={Wegner},
+         familyi={W\bibinitperiod},
+         given={Franz},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \keyw{Many-particle problem, Flow-equations, Diagonalization}
+    \strng{namehash}{WF1}
+    \strng{fullhash}{WF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1994}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{abstract}{%
+    Abstract Flow-equations are introduced in order to bring Hamiltonians
+  closer to diagonalization. It is characteristic for these equations that
+  matrix-elements between degenerate or almost degenerate states do not decay
+  or decay very slowly. In order to understand different types of physical
+  systems in this framework it is probably necessary to classify various types
+  of these degeneracies and to investigate the corresponding physical behavior.
+  In general these equations generate many-particle interactions. However, for
+  an n-orbital model the equations for the two-particle interaction are closed
+  in the limit of large n. Solutions of these equations for a one-dimensional
+  model are considered. There appear convergency problems, which are removed,
+  if instead of diagonalization only a block-diagonalization into blocks with
+  the same number of quasiparticles is performed.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1002/andp.19945060203
+    \endverb
+    \verb{eprint}
+    \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/andp.19945060203
+    \endverb
+    \field{number}{2}
+    \field{pages}{77\bibrangedash 91}
+    \field{title}{Flow-equations for Hamiltonians}
+    \verb{url}
+    \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/andp.19945060203
+    \endverb
+    \field{volume}{506}
+    \field{journaltitle}{Annalen der Physik}
+    \field{year}{1994}
+  \endentry
+
   \entry{wilson}{article}{}
     \name{author}{1}{}{%
       {{hash=WKG}{%

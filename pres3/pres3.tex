@@ -1,72 +1,59 @@
 \documentclass[aspectratio=169]{beamer}
 \usepackage[backend=bibtex,style=authoryear]{biblatex}
 \bibliography{pres3}
-\usepackage{xcolor}
-\definecolor{maroon}{rgb}{0.6,0,0}
-\definecolor{bottlegreen}{rgb}{0,0.3,0}
-\usepackage{lmodern,graphicx}
-\usepackage{amsthm,amsmath,amssymb,braket}
+\setbeamertemplate{bibliography item}{}
+\usepackage{lmodern,graphicx,amsthm,amsmath,amssymb,braket,textpos}
 \usetheme{focus}
 \newcommand{\focus}[1]{\textcolor{blue}{\textbf{#1}}}
 \newcommand{\cen}[1]{\begin{center}{#1}\end{center}}
-\usepackage[absolute,overlay]{textpos}
 
-\setbeamercolor{framesource}{fg=gray}
-\setbeamerfont{framesource}{size=\tiny}
+\definecolor{main}{RGB}{40, 40, 40}
 
-\newcommand{\source}[1]{\begin{textblock*}{4cm}(8.7cm,8.6cm)
-    \begin{beamercolorbox}[ht=0.5cm,right]{framesource}
-        \usebeamerfont{framesource}\usebeamercolor[fg]{framesource} Source: {#1}
-    \end{beamercolorbox}
-\end{textblock*}}
 \renewcommand{\thefootnote}{}
 \renewcommand*\footnoterule{}
 \setbeamercolor{footnote}{fg=red}
 \setbeamerfont{footnote}{size=\small}
 
-\title{Unitary Renormalization Group Solution of the Single-Impurity Anderson model}
+\AtBeginSection[]{
+\begin{frame}[noframenumbering]
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+  \end{beamercolorbox}
+  \vfill
+\end{frame}
+}
+
+\title{
+\LARGE{Unitary Renormalization Group\\
+Solution of the Single-Impurity\\
+Anderson model}
+}
 \subtitle{}
 \date{\today}
 \author{Abhirup Mukherjee (18IP014)\\[5mm]{Supervisor: Dr. Siddhartha Lal}}
 
-\institute{IISER Kolkata}
+\institute{Department of Physical Sciences\\IISER Kolkata}
 \date{\today}
-
+\titlegraphic{
+	\vspace*{25pt}
+	\includegraphics[width=3cm]{figures/epqm_logo.jpeg}
+	\hspace*{0.5cm}
+	\includegraphics[width=3cm]{figures/dps_logo.jpeg}
+}
 \begin{document}
 
 
 \begin{frame}[noframenumbering]
 \maketitle
+\begin{textblock*}{2cm}(9.4cm,-8.7cm)
+	\includegraphics[width=150pt]{figures/title_fig.png}
+\end{textblock*}
 \end{frame}
 
-% \begin{frame}[noframenumbering]{Outline}
-
-% \begin{itemize}
-%   \item About the model
-% 	  \vspace*{10pt}
-%   \item Some outstanding questions
-% 	  \vspace*{10pt}
-%   \item Unitary Renormalization Group (URG) formalism
-% 	  \vspace*{10pt}
-%   \item A few results 
-% 	  \vspace*{10pt}
-%   \item Discussion and Future Goals
-% \end{itemize}
-
-% \end{frame}
-
+\section{The Single-Impurity Anderson Model}
 \begin{frame}[noframenumbering]{The Single-Impurity Anderson Model}
-
-%\begin{figure}
-%\centering
-%\def\svgwidth{\columnwidth}
-%\centering
-%\input{model.pdf_tex}
-%\end{figure}
-%\begin{figure}
-%\centering
-%\includegraphics[scale=0.55]{model_scheme.png}
-%\end{figure}
 \only<+>{
 \scalebox{1.38}{
 	\hspace*{-10pt}\(\mathcal{H} = \overbrace{\sum_{k\sigma}\epsilon_k \hat n_{k\sigma}}^{\text{conduction}\atop{\text{bath}}} + \overbrace{\sum_{k\sigma}\left[V(k)c^\dagger_{k\sigma}c_{d\sigma} + \text{h.c.}\right]}^\text{hybridisation} + \overbrace{\epsilon_d \sum_\sigma \hat n_{d\sigma}}^{\text{impurity site}\atop{\text{energy}}} + \overbrace{U\hat n_{d\uparrow}\hat n_{d\downarrow}}^\text{d-d repulsion}
@@ -78,13 +65,13 @@
 \end{figure}
 \end{minipage}
 \begin{minipage}{0.3\textwidth}
-\begin{center}
-	\LARGE{
-		\[\rho(\epsilon) \approx \rho(\epsilon_F)\]\\[-25pt]
-\[\Delta = \rho V^2\]\\[-25pt]
-\[\epsilon_d = -\frac{1}{2}U\]
+\cen{
+\LARGE{
+	\[\rho(\epsilon) \approx \rho(\epsilon_F)\]\\[-25pt]
+	\[\Delta = \rho V^2\]\\[-25pt]
+	\[\epsilon_d = -\frac{1}{2}U\]
 }
-\end{center}
+}
 \end{minipage}
 }
 % \only<+>{
@@ -130,52 +117,21 @@
 }
 \end{frame}
 
+\section{Some Outstanding Questions}
 \begin{frame}[noframenumbering]{Some Outstanding Questions}
   
 \begin{itemize}
 	\uncover<1->{\item Is it possible to get \focus{non-perturbative scaling equations} for the whole journey?}
-	% \vspace*{10pt}
-	% \uncover<2->{\item Can we get Hamiltonians and wavefunctions in the \textbf{crossover region} (\(T \sim T_K\))?}
-	% \vspace*{10pt}
 	\uncover<2->{\item What is the nature of the strong-coupling fixed point for a \focus{finite system} where \(J \neq \infty\)?
-	% Will the results change if we introduce a \textbf{non-uniform density of states}?
 	}
-	% \vspace*{10pt}
-	% \uncover<4->{\item Can we get \textbf{better estimates of dynamic quantities} in the crossover region?}
-	% \vspace*{10pt}
 	\uncover<3->{\item Is it possible to show the \focus{transfer of spectral weight} along the flow, possibly by tracking the spectral function?}
 	\uncover<4->{\item How does the renormalization affect the \focus{many-particle entanglement} between the electrons?}
-	% \vspace*{10pt}
-	% \uncover<4->{\item How does NRG obtain the local moment in the \textbf{absence of hybridisation}?}
-	% \vspace*{10pt}
 	\uncover<5->{\item Are there any interesting \focus{topological aspects} of the fixed points?}
 \end{itemize}
 
 \end{frame}
 
-%\begin{frame}[noframenumbering]{Motivation}
-%  
-%\begin{itemize}
-%	\uncover<1->{\item "Poor man's" scaling\footnote{Haldane 1978, Jefferson 1977} is \textit{perturbative} and fails at large values - cannot show strong-coupling (SC) fixed point.}
-%	\vspace*{20pt}
-%	\uncover<2->{\item Instead, one needs to flow to large value of \(U\), do a Schrieffer -Wolff transformation and then flow to the SC fixed point. }
-%	\vspace*{20pt}
-%	\uncover<3->{\item \textbf{It would be nice to get a single set of equations that show the crossover to the strong-coupling fixed point.}}
-%\end{itemize}
-%
-%\end{frame}
-%
-%\begin{frame}[noframenumbering]{Motivation}
-%
-%\begin{itemize}
-%	\uncover<1->{\item Numerical Renormalization Group (NRG) does not provide any scaling equations - hard to figure out what is really happening.}
-%	\vspace*{20pt}
-%	\uncover<2->{\item NRG cannot show \textit{how the Hamiltonians and many-body wavefunctions vary along the flow} - projective in nature.}
-%	\vspace*{20pt}
-%	\uncover<3->{\item \textbf{It would be enlightening to see the flow into SC regime by tracking the change in entanglement} - hence we need wavefunctions.}
-%\end{itemize}
-%\end{frame}
-
+\section{The Unitary Renormalization Group}
 \begin{frame}[noframenumbering]{Unitary Renormalization Group: Overview}
 
 	\only<+>{\begin{minipage}{200pt}\cen{\textbf{The Short Version}}Apply \textit{unitary many-body transformations} to the Hamiltonian so as to successively \textit{decouple} high energy states and hence obtain scaling equations.\end{minipage}\begin{minipage}{250pt}\begin{figure}
@@ -222,81 +178,11 @@
 \vspace*{\fill}
 \end{frame}
 
-\begin{frame}[noframenumbering]{URG: Relation to Poor Man's Scaling}
-	\vspace*{-50pt}
-	\begin{center}
-		\Large\[H = H_0 + \underbrace{V_+ + V_-}_{\text{off-diagonal terms} \atop{\text{we want to remove}}}\]
-	\end{center}
-\only<+>{
-\begin{minipage}{0.45\textwidth}
-\begin{figure}[htpb]
-	\centering
-	\includegraphics[width=0.7\textwidth]{figures/pms.png}
-\end{figure}
-\end{minipage}
-\hspace*{20pt}
-\begin{minipage}{0.45\textwidth}
-Philosophy of Poor Man's scaling:
-\begin{itemize}
-	\item Successively eliminate high-energy energy shells
-	\item Write high energy excitations as second-order correction to low-energy scatterings
-	\item Typically perturbative
-\end{itemize}
-\end{minipage}
-\footcite{Anderson}
-}
-\only<+>{\begin{minipage}{0.5\textwidth}
-\[\Delta H_\text{PMS} = V_- \frac{1}{E - H_0}V_+ + V_+ \frac{1}{E - H_0}V_-\]
-\begin{center}
-	\large\(\Bigg\downarrow E \to \omega\)
-\end{center}
-\[\Delta H_\text{URG} = V_- \frac{1}{\omega - H_0}V_+ + V_+ \frac{1}{\omega - H_0}V_-\]
-\end{minipage}
-\begin{minipage}{0.49\textwidth}
-\begin{figure}[htpb]
-	\centering
-	\includegraphics[width=0.9\textwidth]{figures/pms_vs_urg.png}
-\end{figure}
-\end{minipage}
-}
-\end{frame}
-\begin{frame}[noframenumbering]{URG: Relation to Continuous Unitary Transformation RG}
-\Large\[H = \overbrace{H_d}^\text{diagonal part} + \overbrace{H_X}^\text{off-diagonal part}\]
-\begin{center}
-	\Large$\Delta H_\text{CUT} = \Delta l\bigg[\big[H_d(l), H_X(l)\big], H(l)\bigg]$
-\end{center}
-\vspace*{20pt}
-\only<+>{
-	\begin{minipage}{0.39\textwidth}
-		{\Large\(V_{kq}(l) = V_{kq}(0)e^{\left( \epsilon_k - \epsilon_q \right) l}\)}
-\end{minipage}
-\hspace*{0.09\textwidth}
-\begin{minipage}{0.5\textwidth}
-	\large{
-	\begin{itemize}
-		\item off-diagonal terms decay exponentially
-			\vspace*{10pt}
-		\item those that connect larger energy differences decay fastest
-	\end{itemize}
-}
-\end{minipage}
-\begin{center}
-\end{center}
-\footcite{glazek-wilson}
-}
-\only<+>{
-	\vspace*{-10pt}
-\begin{center}
-	\large\(\Delta H_\text{URG} = \overbrace{\bigg[\big[H_d, \frac{1}{\omega_1 - \omega_0} \left( \hat \omega - H_d \right)^{-1} H_I\big], H\bigg]}^{\Delta H_0} - H^I\)\\[20pt]
-	\large\(\Delta H_0 \xrightarrow{\left( \hat \omega - H_d \right)^{-1} \sim -H_d^{-1}} \Delta \lambda \times \bigg[\big[H_d, H_I\big], H\bigg]\)
-\end{center}
-}
-\end{frame}
-
+\section{Generalized SIAM}
 \begin{frame}[noframenumbering]{Model: Generalized SIAM}
-\begin{center}
+\cen{
 \scalebox{1.3}{\(H = H_\text{SIAM} + J \vec{S_d}\cdot\vec{s} + K \vec{C_d}\cdot\vec{c}\)}
-\end{center}
+}
 \vspace*{30pt}
 \hspace*{\fill}\(\vec{S_d} \equiv \frac{1}{2}\sum_{\alpha\beta}c^\dagger_{d\alpha}\vec{\sigma}_{\alpha\beta}c_{d\beta}\)\hspace*{\fill}\(\vec{s} \equiv \frac{1}{2}\sum_{\alpha\beta}c^\dagger_{0\alpha}\vec{\sigma}_{\alpha\beta}c_{0\beta}\)\hspace*{\fill}
 \\
@@ -308,7 +194,8 @@ Philosophy of Poor Man's scaling:
 \footcite{Schrieffer_Wolff}
 \end{frame}
 
-\begin{frame}[noframenumbering]{Results: RG Equations}
+\section{RG Equations, Their Features and Fixed Points}
+\begin{frame}[noframenumbering]{RG Equations}
 \[
 \Delta U = 4|V|^2 \left[\frac{1}{\omega - \frac{1}{2}D + \frac{U}{2} + \frac{1}{2}J}  - \frac{1}{\omega - \frac{1}{2}D - \frac{U}{2} + \frac{1}{2}K}\right] + \sum_{k<\Lambda_j} \frac{3}{4}\frac{K^2 - J^2}{\omega - \frac{1}{2}D + \frac{1}{4}J + \frac{1}{4}K}
 \]
@@ -326,36 +213,98 @@ Philosophy of Poor Man's scaling:
 \]
 \end{frame}
 
+\begin{frame}{Passage to Poor Man's Scaling Results}
+\begin{minipage}{0.35\textwidth}
+\begin{itemize}
+	\item \(J=0, K=0\)
+	\item \(\omega = -\frac{D}{2}\)
+	\item \(U = -\frac{\epsilon_d}{2} \ll D\)
+\end{itemize}
+\end{minipage}
+\begin{minipage}{0.2\textwidth}
+	{\LARGE \[\longrightarrow\]}
+\end{minipage}
+\begin{minipage}{0.35\textwidth}
+	\centering
+	\Large \(\delta U = \delta V = 0\)
+\end{minipage}
+
+\vspace*{30pt}
+\begin{minipage}{0.35\textwidth}
+\begin{itemize}
+	\item \(J=0, K=0\)
+	\item \(\omega = -\frac{D}{2}\)
+	\item \(U \gg D \gg \epsilon_d\)
+\end{itemize}
+\end{minipage}
+\begin{minipage}{0.2\textwidth}
+	{\LARGE \[\longrightarrow\]}
+\end{minipage}
+\begin{minipage}{0.35\textwidth}
+	\centering
+	\Large\(\delta U = \delta V = 0\)\\[10pt]
+	\(\delta \epsilon_d = \frac{\Delta}{\pi}\delta \ln{D}\)
+
+\end{minipage}
+\end{frame}
+
+\begin{frame}{Fixed Points}
+\begin{minipage}{0.6\textwidth}
+	\begin{itemize}
+		\item \(J=K=0 \longrightarrow \Delta V = 0\)
+			\vspace*{20pt}
+		\item \(J,K,V=0^+ \longrightarrow \left(V^*, J^*, K^*\right)=\text{large}, U^*=0\)
+			\begin{itemize}
+				\item \focus{strong-coupling fixed point}
+			\end{itemize}
+			\vspace*{20pt}
+		\item \(J=K=V=0 \longrightarrow \text{all couplings marginal}\)
+			\begin{itemize}
+				\item line of fixed points on y-axis
+			\end{itemize}
+			\vspace*{20pt}
+		\item \(U=0^+ \longrightarrow \text{\focus{local moment fixed point}}\)
+			\begin{itemize}
+				\item ground-state is a decoupled impurity spin
+			\end{itemize}
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{0.38\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{figures/nrg_fpoints.png}
+\end{minipage}
+	
+\end{frame}
 \begin{frame}[noframenumbering]{Results: \(U>0, J>K\)}
 \begin{minipage}{0.6\textwidth}
-\begin{center}
+\cen{
 	\includegraphics[width=\textwidth]{figures/UvsJ.pdf}
-\end{center}
+}
 \end{minipage}
 \begin{minipage}{0.39\textwidth}
-\begin{center}
+\cen{
 	\includegraphics[width=0.95\textwidth]{figures/U_vs_count.pdf}
 	\includegraphics[width=0.95\textwidth]{figures/J_vs_count.pdf}
-\end{center}
+}
 \end{minipage}
 \end{frame}
 
 
 \begin{frame}[noframenumbering]{Results: \(U<0, J<K\)}
 	\vspace*{30pt}
-\begin{center}
+\cen{
 	\includegraphics[width=0.49\textwidth]{figures/U_vs_count_neg.pdf}
 	\includegraphics[width=0.49\textwidth]{figures/K_vs_count_neg.pdf}
-\end{center}
+}
 \end{frame}
 
-
+\section{Low energy effective theory and ground state wavefunctions}
 \begin{frame}[noframenumbering]{Results: Phase Diagram}
-\begin{center}
+\cen{
 	\hspace*{-50pt}\def\svgwidth{0.8\columnwidth}
 	\input{phases-V-pres.pdf_tex}
 	% \includegraphics[width=0.99\textwidth]{figures/phases_V_pres.png}
-\end{center}
+}
 \end{frame}
 
 
@@ -404,15 +353,16 @@ Philosophy of Poor Man's scaling:
 \end{minipage}
 \end{frame}
 
+\section{Impurity Susceptibilities and Impurity spectral function}
 \begin{frame}[noframenumbering]{Results: Spin Susceptibility}
 	\vspace*{-20pt}
 	\[\chi_s = \lim_{B \to 0} \frac{\partial{m}}{\partial{B}}\]
-\begin{center}
+\cen{
 	\hspace*{-20pt}
 	\includegraphics[width=0.48\textwidth]{figures/chi_T.pdf}
 	\hspace*{25pt}
 	\includegraphics[width=0.48\textwidth]{figures/chi.pdf}
-\end{center}
+}
 \hspace*{20pt}\large{\(
 \left(\chi\times T\right)\left( T \to 0 \right) = \frac{1}{2j} \hspace*{\fill} T_K \equiv \frac{2N^*}{\pi}\left(D^* - 2\omega\right)\hspace*{\fill} \chi \left( T \to \infty \right) = \frac{1}{8}\)}
 
@@ -422,12 +372,12 @@ Philosophy of Poor Man's scaling:
 \begin{frame}[noframenumbering]{Results: Charge Susceptibility}
 	\vspace*{-15pt}
 	\[\chi_c = \lim_{\mu \to 0} \frac{\partial{N}}{\partial{\mu}}\]
-\begin{center}
+\cen{
 	\hspace*{-20pt}
 	\includegraphics[width=0.48\textwidth]{figures/chi_c.pdf}
 	\hspace*{25pt}
 	\includegraphics[width=0.48\textwidth]{figures/T_chi_c.pdf}
-\end{center}
+}
 \large{\(
 \left(\chi_c\times T\right)\left(T \to 0\right)\big\vert_{K>J} = \frac{1}{2k} \quad\quad\quad \left(\chi_c\times T\right)\left(T \to 0\right)\big\vert_{J>K} = 0 \quad\quad\quad \chi \left( T \to \infty \right) = \frac{1}{8}\)}
 
@@ -436,17 +386,17 @@ Philosophy of Poor Man's scaling:
 
 \begin{frame}[noframenumbering]{Results: Impurity Spectral Function}
 	\(\mathcal{A(\omega)} = -\frac{1}{\pi}\text{Im }\left[G_{d d}^\sigma\left( \omega \right) \right]\) \hspace*{\fill} \(G_{d d}^\sigma\left(t\right) = -i\theta(t)\left<\left\{ c_{d\sigma}(t), c^\dagger_{d\sigma} \right\}\right>\)
-\begin{center}
+\cen{
 	\includegraphics[width=\textwidth]{figures/spec_func_merged_2.png}
-\end{center}
+}
 \footcite{hewson,bulla_costi_nrg}
 \end{frame}
 
 \begin{frame}[noframenumbering]{Results: Spectral Function Renormalization}
 	\(\mathcal{A(\omega)} = -\frac{1}{\pi}\text{Im }\left[G_{d d}^\sigma\left( \omega \right) \right]\) \hspace*{\fill} \(G_{d d}^\sigma\left(t\right) = -i\theta(t)\left<\left\{ c_{d\sigma}(t), c^\dagger_{d\sigma} \right\}\right>\)
-\begin{center}
+\cen{
 	\includegraphics[width=0.47\textwidth]{figures/spec_func_journey_one_marked.pdf}\hspace*{\fill}\includegraphics[width=0.45\textwidth]{figures/spec_func_journey_three_marked.pdf}
-\end{center}
+}
 \end{frame}
 
 \begin{frame}[noframenumbering]{Results: Kondo Cloud Hamiltonian}
@@ -459,6 +409,7 @@ Philosophy of Poor Man's scaling:
 \end{figure}
 \end{frame}
 
+\section{Entanglement measures and Topological Features of low energy theory}
 \begin{frame}[noframenumbering]{Results: Reverse RG: Overview}
 	\vspace*{\fill}
 	\begin{figure}[htpb]
@@ -525,9 +476,10 @@ Philosophy of Poor Man's scaling:
 	\[n_{\text{Det }G_d^{-1}} = 0\]}
 \end{minipage}
 \vspace*{10pt}
-\begin{center}
-{ \LARGE \(V_L = V_L^0 + 1\)}
-\end{center}
+\cen{
+	\Large
+	\(V_L = V_L^0 + 1\)
+}
 \footcite{martin}
 \end{frame}
 
@@ -543,10 +495,10 @@ Philosophy of Poor Man's scaling:
 \end{frame}
 
 \begin{frame}[noframenumbering]{Results: Wilson Ratio (\(T=0\))}
-	\begin{center}
+\cen{
 	\scalebox{1.5}{
 	$\epsilon_{k\sigma} = \epsilon_k^0 + \sum_q f_{kq}\left<n_{q\overline\sigma} \right>$}
-\end{center}
+}
 \vspace*{\fill}
 \begin{minipage}{0.45\textwidth}
 \begin{itemize}
@@ -564,10 +516,10 @@ Philosophy of Poor Man's scaling:
 \end{itemize}
 \end{minipage}
 \vspace*{\fill}
-\begin{center}
+\cen{
 	\scalebox{1.5}{
 	$R = \frac{\chi_s}{\gamma} = 2$}
-\end{center}
+}
 \footcite{hewsonp}
 \end{frame}
 
@@ -580,9 +532,9 @@ Philosophy of Poor Man's scaling:
 		\end{itemize}
 	\end{minipage}
 	\begin{minipage}{0.18\textwidth}
-		\begin{center}
+		\cen{
 			\LARGE\(\longrightarrow\)
-		\end{center}
+	}
 	\end{minipage}
 	\begin{minipage}{0.22\textwidth}
 		\Large\(R = 1 + \sin^2 \delta(0)\)
@@ -595,19 +547,19 @@ Philosophy of Poor Man's scaling:
 		\end{itemize}
 	\end{minipage}
 	\begin{minipage}{0.18\textwidth}
-		\begin{center}
+		\cen{
 			\LARGE\(\longrightarrow\)
-		\end{center}
+	}
 	\end{minipage}
 	\begin{minipage}{0.25\textwidth}
 		\Large\(\frac{1}{\pi}\delta(0) = \tilde N = \Delta V_L\)
 	\end{minipage}
 	\\[30pt]
 
-	\begin{center}
+	\cen{
 		\Large\(R = 1 + \sin^2 \left( \pi \Delta V_L \right) \)\\[10pt]
 		\Large\(\Delta V_L = 1 \longrightarrow R = 2 \)
-	\end{center}
+}
 
 \end{frame}
 % \only<1>{
@@ -686,15 +638,16 @@ Philosophy of Poor Man's scaling:
 % }
 % \end{tabular}
 % \end{tabular}
-
-\begin{frame}[noframenumbering]{Summary of Results}
+\section{Summary of Results}
+\begin{frame}[noframenumbering]{}
 	\vspace*{-5pt}
 	\begin{figure}[htpb]
 		\centering
-		\includegraphics[width=0.95\textwidth]{figures/summary.png}
+		\includegraphics[width=\textwidth]{figures/summary.png}
 	\end{figure}
 \end{frame}
 
+\section{Future Directions}
 \begin{frame}[noframenumbering]{What's Next?}
 \begin{itemize} 
 \item Analytical expression for temperature-dependent Wilson ratio 
@@ -710,8 +663,85 @@ Philosophy of Poor Man's scaling:
 \item extensions to the Kondo and Anderson lattices, and hence to the problem of heavy Fermions
 \end{itemize}
 \end{frame}
-\begin{frame}[noframenumbering]
-	\LARGE \centering Thank You!
+\begin{frame}[noframenumbering]{}
+	\cen{\LARGE Thanks for your attention!}
+
+	\vspace*{\fill}
+	\cen{\large{Special thanks to Dr. Siddhartha Lal, Siddhartha Patra, Dr. Anirban Mukherjee and Mounica Mahankali for guidance and feedback. The support of IISER Kolkata through a junior research fellowship is acknowledged.}}
 \end{frame}
-\printbibliography
+{\small \printbibliography}
+
+
+\begin{frame}[noframenumbering]{URG: Relation to Poor Man's Scaling}
+	\vspace*{-50pt}
+	\cen{
+		\Large\[H = H_0 + \underbrace{V_+ + V_-}_{\text{off-diagonal terms} \atop{\text{we want to remove}}}\]
+}
+\only<+>{
+\begin{minipage}{0.45\textwidth}
+\begin{figure}[htpb]
+	\centering
+	\includegraphics[width=0.7\textwidth]{figures/pms.png}
+\end{figure}
+\end{minipage}
+\hspace*{20pt}
+\begin{minipage}{0.45\textwidth}
+Philosophy of Poor Man's scaling:
+\begin{itemize}
+	\item Successively eliminate high-energy energy shells
+	\item Write high energy excitations as second-order correction to low-energy scatterings
+	\item Typically perturbative
+\end{itemize}
+\end{minipage}
+\footcite{Anderson}
+}
+\only<+>{
+\hspace*{\fill}	\(E = \text{exact eigenvalue}\)\hspace*{\fill} \(\omega=\text{URG quantum fluctuation scale}\)\hspace*{\fill}
+
+\vspace*{20pt}
+\begin{minipage}{0.5\textwidth}
+\[\Delta H_\text{PMS} = V_- \frac{1}{E - H_0}V_+ + V_+ \frac{1}{E - H_0}V_-\]
+\cen{
+	\large\(\Bigg\downarrow E \to \omega\)
+}
+\[\Delta H_\text{URG} = V_- \frac{1}{\omega - H_0}V_+ + V_+ \frac{1}{\omega - H_0}V_-\]
+\end{minipage}
+\begin{minipage}{0.49\textwidth}
+\begin{figure}[htpb]
+	\centering
+	\includegraphics[width=0.9\textwidth]{figures/pms_vs_urg.png}
+\end{figure}
+\end{minipage}
+}
+\end{frame}
+\begin{frame}[noframenumbering]{URG: Relation to Continuous Unitary Transformation RG}
+\Large\[H = \overbrace{H_d}^\text{diagonal part} + \overbrace{H_X}^\text{off-diagonal part}\]
+\cen{
+	\Large$\Delta H_\text{CUT} = \Delta l\bigg[\big[H_d(l), H_X(l)\big], H(l)\bigg]$
+}
+\vspace*{20pt}
+\only<+>{
+	\begin{minipage}{0.39\textwidth}
+		{\Large\(V_{kq}(l) = V_{kq}(0)e^{\left( \epsilon_k - \epsilon_q \right) l}\)}
+\end{minipage}
+\hspace*{0.09\textwidth}
+\begin{minipage}{0.5\textwidth}
+	\large{
+	\begin{itemize}
+		\item off-diagonal terms decay exponentially
+			\vspace*{10pt}
+		\item those that connect larger energy differences decay fastest
+	\end{itemize}
+}
+\end{minipage}
+\footcite{glazek-wilson,wegner_1994}
+}
+\only<+>{
+	\vspace*{-10pt}
+\cen{
+	\large\(\Delta H_\text{URG} = \overbrace{\bigg[\big[H_d, \frac{1}{\omega_1 - \omega_0} \left( \hat \omega - H_d \right)^{-1} H_I\big], H\bigg]}^{\Delta H_0} - H^I\)\\[20pt]
+	\large\(\Delta H_0 \xrightarrow{\left( \hat \omega - H_d \right)^{-1} \sim -H_d^{-1}} \Delta \lambda \times \bigg[\big[H_d, H_I\big], H\bigg]\)
+}
+}
+\end{frame}
 \end{document}
