@@ -2,6 +2,7 @@
 \usepackage[backend=bibtex,style=authoryear]{biblatex}
 \bibliography{pres3}
 \setbeamertemplate{bibliography item}{}
+\AtBeginBibliography{\tiny}
 \usepackage{lmodern,graphicx,amsthm,amsmath,amssymb,braket,textpos}
 \usetheme{focus}
 \newcommand{\focus}[1]{\textcolor{blue}{\textbf{#1}}}
@@ -38,7 +39,7 @@ Anderson model}
 \date{\today}
 \titlegraphic{
 	\vspace*{25pt}
-	\includegraphics[width=3cm]{figures/epqm_logo.jpeg}
+	\includegraphics[width=3cm]{figures/epqm_logo_mod.jpeg}
 	\hspace*{0.5cm}
 	\includegraphics[width=3cm]{figures/dps_logo.jpeg}
 }
@@ -59,42 +60,21 @@ Anderson model}
 	\hspace*{-10pt}\(\mathcal{H} = \overbrace{\sum_{k\sigma}\epsilon_k \hat n_{k\sigma}}^{\text{conduction}\atop{\text{bath}}} + \overbrace{\sum_{k\sigma}\left[V(k)c^\dagger_{k\sigma}c_{d\sigma} + \text{h.c.}\right]}^\text{hybridisation} + \overbrace{\epsilon_d \sum_\sigma \hat n_{d\sigma}}^{\text{impurity site}\atop{\text{energy}}} + \overbrace{U\hat n_{d\uparrow}\hat n_{d\downarrow}}^\text{d-d repulsion}
 \)
 }
-\begin{minipage}{0.65\textwidth}
+\begin{minipage}{0.5\textwidth}
 \begin{figure}
-\includegraphics[scale=0.55]{model_scheme.png}
+\includegraphics[width=\textwidth]{model_scheme.png}
 \end{figure}
 \end{minipage}
-\begin{minipage}{0.3\textwidth}
+\begin{minipage}{0.49\textwidth}
 \cen{
 \LARGE{
-	\[\rho(\epsilon) \approx \rho(\epsilon_F)\]\\[-25pt]
-	\[\Delta = \rho V^2\]\\[-25pt]
-	\[\epsilon_d = -\frac{1}{2}U\]
+	\(\rho(\epsilon) \approx \rho(\epsilon_F)\)\\[20pt]
+	\(\Delta = \rho V^2\)\\[20pt]
+	\(\epsilon_d = -\frac{1}{2}U\)\large{ (p-h symmetry)}
 }
 }
 \end{minipage}
 }
-% \only<+>{
-% 	\vspace*{-10pt}
-% \cen{\Large\textbf{Poor Man's Scaling Results}}
-% \begin{tabular}{cl}  
-% \begin{tabular}{l}
-%              \parbox{0.5\linewidth}{
-% 		     For large \(U\), Haldane and Jefferson find\footnote{{Haldane-1978, Jefferson-1977, Hewson, A. C.-1993-The Kondo Problem to Heavy Fermions}} three low energy theories:
-% \begin{itemize}
-% 	\item the \textbf{frozen impururity fixed point} (\(\left<n_d\right> = 0\))
-% 	\item the \textbf{local moment fixed point} (\(\left<n_d\right> = 1\)), and 
-% 	\item the \textbf{valence fluctuation fixed point} (\(\left<n_d\right> \sim \frac{1}{2}\)).
-% % Not much is reported about their stability, and the method itself is perturbative, so it breaks down before reaching the low energy theory.  
-% \end{itemize}
-%     }
-%          \end{tabular}
-%            &   \begin{tabular}{c}
-% \includegraphics[scale=0.29]{haldane.png}
-%            \end{tabular}\\
-   
-% \end{tabular}
-% }
 \only<+>{
 \begin{tabular}{cl}  
 \begin{tabular}{l}
@@ -399,6 +379,7 @@ Anderson model}
 }
 \end{frame}
 
+\section{Entanglement measures and Topological Features of low energy theory}
 \begin{frame}[noframenumbering]{Results: Kondo Cloud Hamiltonian}
 	\vspace*{-10pt}
 	\[H^*(\text{d, cloud}) \xrightarrow{\text{solve for bath Hamiltonian}} H^*_\text{cloud}\] 
@@ -409,7 +390,6 @@ Anderson model}
 \end{figure}
 \end{frame}
 
-\section{Entanglement measures and Topological Features of low energy theory}
 \begin{frame}[noframenumbering]{Results: Reverse RG: Overview}
 	\vspace*{\fill}
 	\begin{figure}[htpb]
@@ -488,25 +468,28 @@ Anderson model}
 	\hspace*{0.5\textwidth}$\Bigg\downarrow$ \(4^\text{th}\) fourth order pert.
 	\[E_1^{(4)} = -\frac{16t^4}{3{J^*}^3}, E_2^{(4)} = -\frac{16t^4}{9{J^*}^3}\]
 	\[H^* \sim J^* \vec{S_d}\cdot\vec{s} + K^* \vec{C_d}\cdot\vec{c} + V^* \left( c^\dagger_{d\sigma}c_{0\sigma} + \text{h.c.} \right) + \overbrace{\frac{t^4}{{J^*}^3} \hat n_{1 \uparrow}\hat n_{1 \downarrow}}^\text{local Fermi liquid}\]
-	\[ \left< \hat n_{1 \uparrow}\hat n_{1 \downarrow}\right> \xrightarrow{\text{mean field}\atop \text{approximation}} \left<\hat n_{1 \uparrow}\right>\left< \hat n_{1 \downarrow}\right>\]
 
 \vspace*{-10pt}
 \footcite{nozieres}
 \end{frame}
 
 \begin{frame}[noframenumbering]{Results: Wilson Ratio (\(T=0\))}
+\vspace*{-10pt}
 \cen{
-	\scalebox{1.5}{
-	$\epsilon_{k\sigma} = \epsilon_k^0 + \sum_q f_{kq}\left<n_{q\overline\sigma} \right>$}
+	\text{thermal average:} \(\left<\hat n_{1 \uparrow}\hat n_{1 \downarrow}\right> \xrightarrow{\text{mean field}\atop \text{approximation}} \left<\hat n_{1 \uparrow}\right>\left<\hat n_{1 \downarrow}\right>\)\\[20pt]
+\scalebox{1.5}{
+	\(\epsilon_{k\sigma} = \epsilon_k^0 + \sum_q f_{kq}\left<n_{q\overline\sigma} \right>\)
+}
 }
 \vspace*{\fill}
-\begin{minipage}{0.45\textwidth}
+\hspace*{60pt}
+\begin{minipage}{0.25\textwidth}
 \begin{itemize}
 	\item \(f_{\uparrow\uparrow} =0\)
 	\item \(\chi_c(T\to 0) =0\)
 \end{itemize}
 \end{minipage}
-\begin{minipage}{0.2\textwidth}
+\begin{minipage}{0.15\textwidth}
 	\scalebox{2}{$\longrightarrow$}
 \end{minipage}
 \begin{minipage}{0.33\textwidth}
@@ -515,11 +498,14 @@ Anderson model}
 	\item \(\chi_s(T \to 0) = 2\rho_\text{imp}\)
 \end{itemize}
 \end{minipage}
+\hspace*{20pt}
 \vspace*{\fill}
 \cen{
 	\scalebox{1.5}{
-	$R = \frac{\chi_s}{\gamma} = 2$}
+	$R = \frac{\chi_s}{\frac{C_v}{T}} = 2$
 }
+}
+
 \footcite{hewsonp}
 \end{frame}
 

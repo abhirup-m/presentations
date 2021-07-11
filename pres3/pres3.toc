@@ -14,7 +14,7 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {7}{Impurity Susceptibilities and Impurity spectral function}{29}{0}{7}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {8}{Entanglement measures and Topological Features of low energy theory}{35}{0}{8}
+\beamer@sectionintoc {8}{Entanglement measures and Topological Features of low energy theory}{34}{0}{8}
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {9}{Summary of Results}{44}{0}{9}
 \defcounter {refsection}{0}\relax 
