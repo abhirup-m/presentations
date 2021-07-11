@@ -6,16 +6,16 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {3}{The Unitary Renormalization Group}{11}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {4}{Generalized SIAM}{17}{0}{4}
+\beamer@sectionintoc {4}{Generalized SIAM}{16}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{RG Equations, Their Features and Fixed Points}{19}{0}{5}
+\beamer@sectionintoc {5}{RG Equations, Their Features and Fixed Points}{18}{0}{5}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {6}{Low energy effective theory and ground state wavefunctions}{25}{0}{6}
+\beamer@sectionintoc {6}{Low energy effective theory and ground state wavefunctions}{26}{0}{6}
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {7}{Impurity Susceptibilities and Impurity spectral function}{29}{0}{7}
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {8}{Entanglement measures and Topological Features of low energy theory}{34}{0}{8}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {9}{Summary of Results}{44}{0}{9}
+\beamer@sectionintoc {9}{Summary of Results}{46}{0}{9}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {10}{Future Directions}{46}{0}{10}
+\beamer@sectionintoc {10}{Future Directions}{48}{0}{10}
