@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.6.15)  11 JUL 2021 10:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.6.15)  11 JUL 2021 10:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1167,6 +1167,16 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'haldane':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Jefferson':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'hrk-nrg':
 (biblatex)                - Invalid format of field 'month'.
 
@@ -1651,36 +1661,36 @@ Package pdftex.def Info: figures/nrg_fpoints.png  used on input line 257.
  [22
 
  <./figures/nrg_fpoints.png>]
-<figures/UvsJ.pdf, id=222, 595.22375pt x 462.72874pt>
+<figures/UvsJ.pdf, id=226, 595.22375pt x 462.72874pt>
 File: figures/UvsJ.pdf Graphic file (type pdf)
 <use figures/UvsJ.pdf>
-Package pdftex.def Info: figures/UvsJ.pdf  used on input line 270.
+Package pdftex.def Info: figures/UvsJ.pdf  used on input line 271.
 (pdftex.def)             Requested size: 247.54149pt x 192.43837pt.
-<figures/U_vs_count.pdf, id=223, 595.22375pt x 431.6125pt>
+<figures/U_vs_count.pdf, id=227, 595.22375pt x 431.6125pt>
 File: figures/U_vs_count.pdf Graphic file (type pdf)
 <use figures/U_vs_count.pdf>
-Package pdftex.def Info: figures/U_vs_count.pdf  used on input line 270.
+Package pdftex.def Info: figures/U_vs_count.pdf  used on input line 271.
 (pdftex.def)             Requested size: 152.85458pt x 110.83356pt.
-<figures/J_vs_count.pdf, id=224, 597.23125pt x 416.55624pt>
+<figures/J_vs_count.pdf, id=228, 597.23125pt x 416.55624pt>
 File: figures/J_vs_count.pdf Graphic file (type pdf)
 <use figures/J_vs_count.pdf>
-Package pdftex.def Info: figures/J_vs_count.pdf  used on input line 270.
+Package pdftex.def Info: figures/J_vs_count.pdf  used on input line 271.
 (pdftex.def)             Requested size: 152.85458pt x 106.61133pt.
  [23
 
  <./figures/UvsJ.pdf> <./figures/U_vs_count.pdf> <./figures/J_vs_count.pdf>]
-<figures/U_vs_count_neg.pdf, id=427, 614.295pt x 794.97pt>
+<figures/U_vs_count_neg.pdf, id=431, 614.295pt x 794.97pt>
 File: figures/U_vs_count_neg.pdf Graphic file (type pdf)
 <use figures/U_vs_count_neg.pdf>
-Package pdftex.def Info: figures/U_vs_count_neg.pdf  used on input line 279.
+Package pdftex.def Info: figures/U_vs_count_neg.pdf  used on input line 280.
 (pdftex.def)             Requested size: 202.15909pt x 261.6131pt.
-<figures/K_vs_count_neg.pdf, id=428, 614.295pt x 794.97pt>
+<figures/K_vs_count_neg.pdf, id=432, 614.295pt x 794.97pt>
 File: figures/K_vs_count_neg.pdf Graphic file (type pdf)
 <use figures/K_vs_count_neg.pdf>
-Package pdftex.def Info: figures/K_vs_count_neg.pdf  used on input line 279.
+Package pdftex.def Info: figures/K_vs_count_neg.pdf  used on input line 280.
 (pdftex.def)             Requested size: 202.15909pt x 261.6131pt.
 
-Overfull \vbox (80.65671pt too high) detected at line 279
+Overfull \vbox (80.65671pt too high) detected at line 280
  []
 
 [24
@@ -1688,12 +1698,12 @@ Overfull \vbox (80.65671pt too high) detected at line 279
  <./figures/U_vs_count_neg.pdf> <./figures/K_vs_count_neg.pdf>] [25
 
 ] (./phases-V-pres.pdf_tex
-<phases-V-pres.pdf, id=543, page=1, 1947.32071pt x 1104.57039pt>
+<phases-V-pres.pdf, id=547, page=1, 1947.32071pt x 1104.57039pt>
 File: phases-V-pres.pdf Graphic file (type pdf)
 <use phases-V-pres.pdf, page 1>
 Package pdftex.def Info: phases-V-pres.pdf , page1 used on input line 58.
 (pdftex.def)             Requested size: 330.05322pt x 187.20143pt.
-<phases-V-pres.pdf, id=544, page=2, 1947.32071pt x 1104.57039pt>
+<phases-V-pres.pdf, id=548, page=2, 1947.32071pt x 1104.57039pt>
 File: phases-V-pres.pdf Graphic file (type pdf)
 <use phases-V-pres.pdf, page 2>
 Package pdftex.def Info: phases-V-pres.pdf , page2 used on input line 61.
@@ -1704,142 +1714,142 @@ Package pdftex.def Info: phases-V-pres.pdf , page2 used on input line 61.
 
 pdfTeX warning: pdflatex (file ./phases-V-pres.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<figures/two_site_problem.png, id=564, 663.22781pt x 280.04625pt>
+<figures/two_site_problem.png, id=568, 663.22781pt x 280.04625pt>
 File: figures/two_site_problem.png Graphic file (type png)
 <use figures/two_site_problem.png>
-Package pdftex.def Info: figures/two_site_problem.png  used on input line 307.
+Package pdftex.def Info: figures/two_site_problem.png  used on input line 308.
 (pdftex.def)             Requested size: 206.28249pt x 87.09973pt.
-<figures/gstate_state.png, id=565, 589.4522pt x 400.49625pt>
+<figures/gstate_state.png, id=569, 589.4522pt x 400.49625pt>
 File: figures/gstate_state.png Graphic file (type png)
 <use figures/gstate_state.png>
-Package pdftex.def Info: figures/gstate_state.png  used on input line 307.
+Package pdftex.def Info: figures/gstate_state.png  used on input line 308.
 (pdftex.def)             Requested size: 185.65297pt x 126.13864pt.
  [27
 
  <./figures/two_site_problem.png> <./figures/gstate_state.png>]
-<figures/cscc_q1.pdf, id=578, 594.22pt x 509.905pt>
+<figures/cscc_q1.pdf, id=582, 594.22pt x 509.905pt>
 File: figures/cscc_q1.pdf Graphic file (type pdf)
 <use figures/cscc_q1.pdf>
-Package pdftex.def Info: figures/cscc_q1.pdf  used on input line 334.
+Package pdftex.def Info: figures/cscc_q1.pdf  used on input line 335.
 (pdftex.def)             Requested size: 139.44485pt x 119.65651pt.
  [28
 
  <./figures/cscc_q1.pdf>] [29
 
 ]
-<figures/chi_T.pdf, id=666, 594.22pt x 391.4625pt>
+<figures/chi_T.pdf, id=670, 594.22pt x 391.4625pt>
 File: figures/chi_T.pdf Graphic file (type pdf)
 <use figures/chi_T.pdf>
-Package pdftex.def Info: figures/chi_T.pdf  used on input line 350.
+Package pdftex.def Info: figures/chi_T.pdf  used on input line 351.
 (pdftex.def)             Requested size: 198.02942pt x 130.46129pt.
-<figures/chi.pdf, id=667, 589.20125pt x 400.49625pt>
+<figures/chi.pdf, id=671, 589.20125pt x 400.49625pt>
 File: figures/chi.pdf Graphic file (type pdf)
 <use figures/chi.pdf>
-Package pdftex.def Info: figures/chi.pdf  used on input line 350.
+Package pdftex.def Info: figures/chi.pdf  used on input line 351.
 (pdftex.def)             Requested size: 198.02942pt x 134.6086pt.
  [30
 
  <./figures/chi_T.pdf> <./figures/chi.pdf>]
-<figures/chi_c.pdf, id=765, 589.20125pt x 431.6125pt>
+<figures/chi_c.pdf, id=769, 589.20125pt x 431.6125pt>
 File: figures/chi_c.pdf Graphic file (type pdf)
 <use figures/chi_c.pdf>
-Package pdftex.def Info: figures/chi_c.pdf  used on input line 365.
+Package pdftex.def Info: figures/chi_c.pdf  used on input line 366.
 (pdftex.def)             Requested size: 198.02942pt x 145.06691pt.
-<figures/T_chi_c.pdf, id=766, 592.2125pt x 414.54875pt>
+<figures/T_chi_c.pdf, id=770, 592.2125pt x 414.54875pt>
 File: figures/T_chi_c.pdf Graphic file (type pdf)
 <use figures/T_chi_c.pdf>
-Package pdftex.def Info: figures/T_chi_c.pdf  used on input line 365.
+Package pdftex.def Info: figures/T_chi_c.pdf  used on input line 366.
 (pdftex.def)             Requested size: 198.02942pt x 138.61691pt.
  [31
 
  <./figures/chi_c.pdf> <./figures/T_chi_c.pdf>]
-<figures/spec_func_merged_2.png, id=863, 1483.04062pt x 477.28313pt>
+<figures/spec_func_merged_2.png, id=867, 1483.04062pt x 477.28313pt>
 File: figures/spec_func_merged_2.png Graphic file (type png)
 <use figures/spec_func_merged_2.png>
-Package pdftex.def Info: figures/spec_func_merged_2.png  used on input line 373.
+Package pdftex.def Info: figures/spec_func_merged_2.png  used on input line 374.
 (pdftex.def)             Requested size: 412.56497pt x 132.77171pt.
  [32
 
  <./figures/spec_func_merged_2.png>]
-<figures/spec_func_journey_one_marked.pdf, id=874, 749.04843pt x 542.77782pt>
+<figures/spec_func_journey_one_marked.pdf, id=878, 749.04843pt x 542.77782pt>
 File: figures/spec_func_journey_one_marked.pdf Graphic file (type pdf)
 <use figures/spec_func_journey_one_marked.pdf>
-Package pdftex.def Info: figures/spec_func_journey_one_marked.pdf  used on input line 380.
+Package pdftex.def Info: figures/spec_func_journey_one_marked.pdf  used on input line 381.
 (pdftex.def)             Requested size: 193.90604pt x 140.50603pt.
-<figures/spec_func_journey_three_marked.pdf, id=875, 719.68875pt x 566.86781pt>
+<figures/spec_func_journey_three_marked.pdf, id=879, 719.68875pt x 566.86781pt>
 File: figures/spec_func_journey_three_marked.pdf Graphic file (type pdf)
 <use figures/spec_func_journey_three_marked.pdf>
-Package pdftex.def Info: figures/spec_func_journey_three_marked.pdf  used on input line 380.
+Package pdftex.def Info: figures/spec_func_journey_three_marked.pdf  used on input line 381.
 (pdftex.def)             Requested size: 185.65297pt x 146.23174pt.
  [33
 
  <./figures/spec_func_journey_one_marked.pdf> <./figures/spec_func_journey_three_marked.pdf>] [34
 
 ]
-<figures/Fkkqq.pdf, id=891, 594.22pt x 391.4625pt>
+<figures/Fkkqq.pdf, id=895, 594.22pt x 391.4625pt>
 File: figures/Fkkqq.pdf Graphic file (type pdf)
 <use figures/Fkkqq.pdf>
-Package pdftex.def Info: figures/Fkkqq.pdf  used on input line 391.
+Package pdftex.def Info: figures/Fkkqq.pdf  used on input line 392.
 (pdftex.def)             Requested size: 185.65297pt x 122.30783pt.
  [35
 
  <./figures/Fkkqq.pdf>]
-<figures/reverse-rg.png, id=939, 790.0359pt x 678.29314pt>
+<figures/reverse-rg.png, id=943, 790.0359pt x 678.29314pt>
 File: figures/reverse-rg.png Graphic file (type png)
 <use figures/reverse-rg.png>
-Package pdftex.def Info: figures/reverse-rg.png  used on input line 403.
+Package pdftex.def Info: figures/reverse-rg.png  used on input line 404.
 (pdftex.def)             Requested size: 206.28249pt x 177.09724pt.
-<figures/rev-rg-bonds-diag.png, id=940, 1037.61145pt x 1030.06519pt>
+<figures/rev-rg-bonds-diag.png, id=944, 1037.61145pt x 1030.06519pt>
 File: figures/rev-rg-bonds-diag.png Graphic file (type png)
 <use figures/rev-rg-bonds-diag.png>
-Package pdftex.def Info: figures/rev-rg-bonds-diag.png  used on input line 403.
+Package pdftex.def Info: figures/rev-rg-bonds-diag.png  used on input line 404.
 (pdftex.def)             Requested size: 185.65297pt x 184.30351pt.
  [36
 
  <./figures/reverse-rg.png> <./figures/rev-rg-bonds-diag.png>]
-<figures/mutI_ee.png, id=950, 594.12326pt x 392.98627pt>
+<figures/mutI_ee.png, id=954, 594.12326pt x 392.98627pt>
 File: figures/mutI_ee.png Graphic file (type png)
 <use figures/mutI_ee.png>
-Package pdftex.def Info: figures/mutI_ee.png  used on input line 412.
+Package pdftex.def Info: figures/mutI_ee.png  used on input line 413.
 (pdftex.def)             Requested size: 185.65297pt x 122.80191pt.
-<figures/mutI_ed.png, id=951, 601.66953pt x 387.47168pt>
+<figures/mutI_ed.png, id=955, 601.66953pt x 387.47168pt>
 File: figures/mutI_ed.png Graphic file (type png)
 <use figures/mutI_ed.png>
-Package pdftex.def Info: figures/mutI_ed.png  used on input line 412.
+Package pdftex.def Info: figures/mutI_ed.png  used on input line 413.
 (pdftex.def)             Requested size: 185.65297pt x 119.55922pt.
  [37
 
  <./figures/mutI_ee.png> <./figures/mutI_ed.png>]
-<figures/corr_diag.png, id=960, 608.6353pt x 374.1206pt>
+<figures/corr_diag.png, id=964, 608.6353pt x 374.1206pt>
 File: figures/corr_diag.png Graphic file (type png)
 <use figures/corr_diag.png>
-Package pdftex.def Info: figures/corr_diag.png  used on input line 421.
+Package pdftex.def Info: figures/corr_diag.png  used on input line 422.
 (pdftex.def)             Requested size: 185.65297pt x 114.11517pt.
-<figures/corr_od.png, id=961, 606.89386pt x 370.05724pt>
+<figures/corr_od.png, id=965, 606.89386pt x 370.05724pt>
 File: figures/corr_od.png Graphic file (type png)
 <use figures/corr_od.png>
-Package pdftex.def Info: figures/corr_od.png  used on input line 421.
+Package pdftex.def Info: figures/corr_od.png  used on input line 422.
 (pdftex.def)             Requested size: 185.65297pt x 113.20326pt.
  [38
 
  <./figures/corr_diag.png> <./figures/corr_od.png>]
-<figures/contours.png, id=969, 354.57469pt x 210.03468pt>
+<figures/contours.png, id=973, 354.57469pt x 210.03468pt>
 File: figures/contours.png Graphic file (type png)
 <use figures/contours.png>
-Package pdftex.def Info: figures/contours.png  used on input line 443.
+Package pdftex.def Info: figures/contours.png  used on input line 444.
 (pdftex.def)             Requested size: 148.52011pt x 87.97679pt.
-<figures/wind_num.png, id=970, 458.46281pt x 239.39438pt>
+<figures/wind_num.png, id=974, 458.46281pt x 239.39438pt>
 File: figures/wind_num.png Graphic file (type png)
 <use figures/wind_num.png>
-Package pdftex.def Info: figures/wind_num.png  used on input line 443.
+Package pdftex.def Info: figures/wind_num.png  used on input line 444.
 (pdftex.def)             Requested size: 148.52011pt x 77.5502pt.
  [39
 
  <./figures/contours.png> <./figures/wind_num.png>]
-<figures/luttinger_top_change.png, id=980, 1754.80594pt x 1275.26437pt>
+<figures/luttinger_top_change.png, id=984, 1754.80594pt x 1275.26437pt>
 File: figures/luttinger_top_change.png Graphic file (type png)
 <use figures/luttinger_top_change.png>
-Package pdftex.def Info: figures/luttinger_top_change.png  used on input line 464.
+Package pdftex.def Info: figures/luttinger_top_change.png  used on input line 465.
 (pdftex.def)             Requested size: 185.65611pt x 134.90884pt.
  [40
 
@@ -1852,10 +1862,10 @@ Package pdftex.def Info: figures/luttinger_top_change.png  used on input line 46
 ] [44
 
 ]
-<figures/summary.png, id=1016, 5339.69907pt x 2848.6425pt>
+<figures/summary.png, id=1020, 5339.69907pt x 2848.6425pt>
 File: figures/summary.png Graphic file (type png)
 <use figures/summary.png>
-Package pdftex.def Info: figures/summary.png  used on input line 634.
+Package pdftex.def Info: figures/summary.png  used on input line 635.
 (pdftex.def)             Requested size: 412.56497pt x 220.07204pt.
  [45
 
@@ -1867,50 +1877,51 @@ Package pdftex.def Info: figures/summary.png  used on input line 634.
 
 ]
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/sc' in size <10> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/sc' tried instead on input line 658.
+(Font)              Font shape `T1/FiraSans-OsF/regular/sc' tried instead on input line 659.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/sc' will be
-(Font)              scaled to size 10.0pt on input line 658.
-LaTeX Font Info:    Trying to load font information for TS1+FiraSans-OsF on input line 658.
+(Font)              scaled to size 10.0pt on input line 659.
+LaTeX Font Info:    Trying to load font information for TS1+FiraSans-OsF on input line 659.
  (/usr/share/texmf-dist/tex/latex/fira/TS1FiraSans-OsF.fd
 File: TS1FiraSans-OsF.fd 2019/10/10 (autoinst) Font definitions for TS1/FiraSans-OsF.
 )
 LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/m/n' in size <6> not available
-(Font)              Font shape `TS1/FiraSans-OsF/regular/n' tried instead on input line 658.
+(Font)              Font shape `TS1/FiraSans-OsF/regular/n' tried instead on input line 659.
 LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 658.
+(Font)              scaled to size 6.0pt on input line 659.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/sc' in size <6> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/sc' tried instead on input line 658.
+(Font)              Font shape `T1/FiraSans-OsF/regular/sc' tried instead on input line 659.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/sc' will be
-(Font)              scaled to size 6.0pt on input line 658.
-LaTeX Font Info:    Trying to load font information for T1+FiraMono-TOsF on input line 658.
+(Font)              scaled to size 6.0pt on input line 659.
+LaTeX Font Info:    Trying to load font information for T1+FiraMono-TOsF on input line 659.
  (/usr/share/texmf-dist/tex/latex/fira/T1FiraMono-TOsF.fd
 File: T1FiraMono-TOsF.fd 2019/10/10 (autoinst) Font definitions for T1/FiraMono-TOsF.
 )
 LaTeX Font Info:    Font shape `T1/FiraMono-TOsF/m/n' in size <6> not available
-(Font)              Font shape `T1/FiraMono-TOsF/regular/n' tried instead on input line 658.
+(Font)              Font shape `T1/FiraMono-TOsF/regular/n' tried instead on input line 659.
 LaTeX Font Info:    Font shape `T1/FiraMono-TOsF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 658.
-<figures/pms.png, id=1061, 419.31656pt x 447.17062pt>
+(Font)              scaled to size 6.0pt on input line 659.
+ [49
+
+]
+<figures/pms.png, id=1082, 419.31656pt x 447.17062pt>
 File: figures/pms.png Graphic file (type png)
 <use figures/pms.png>
-Package pdftex.def Info: figures/pms.png  used on input line 702.
+Package pdftex.def Info: figures/pms.png  used on input line 703.
 (pdftex.def)             Requested size: 129.9565pt x 138.58734pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49
-
-] [50 <./figures/pms.png>]
-<figures/pms_vs_urg.png, id=1082, 996.39723pt x 642.59349pt>
+ [50] [51 <./figures/pms.png>]
+<figures/pms_vs_urg.png, id=1095, 996.39723pt x 642.59349pt>
 File: figures/pms_vs_urg.png Graphic file (type png)
 <use figures/pms_vs_urg.png>
-Package pdftex.def Info: figures/pms_vs_urg.png  used on input line 702.
+Package pdftex.def Info: figures/pms_vs_urg.png  used on input line 703.
 (pdftex.def)             Requested size: 181.94194pt x 117.3287pt.
- [51
+ [52
 
- <./figures/pms_vs_urg.png>] [52
+ <./figures/pms_vs_urg.png>] [53
 
-] [53
+] [54
 
 ]
 \tf@nav=\write6
@@ -1928,18 +1939,18 @@ Package logreq Info: Writing requests to 'pres3.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33139 strings out of 478994
- 640711 string characters out of 5864751
- 1282831 words of memory out of 5000000
- 49759 multiletter control sequences out of 15000+600000
+ 33153 strings out of 478994
+ 641038 string characters out of 5864751
+ 1281945 words of memory out of 5000000
+ 49769 multiletter control sequences out of 15000+600000
  942931 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,20n,132p,1839b,1828s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_d4q673.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_d67aat.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_337jzs.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_2mfh3o.enc}</usr/share/texmf-dist/fonts/type1/public/fira/FiraMono-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Bold.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Italic.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on pres3.pdf (53 pages, 3389318 bytes).
+Output written on pres3.pdf (54 pages, 3390921 bytes).
 PDF statistics:
- 1218 PDF objects out of 1440 (max. 8388607)
- 864 compressed objects within 9 object streams
- 134 named destinations out of 1000 (max. 500000)
+ 1231 PDF objects out of 1440 (max. 8388607)
+ 876 compressed objects within 9 object streams
+ 138 named destinations out of 1000 (max. 500000)
  411 words of extra memory for PDF output out of 10000 (max. 10000000)
 

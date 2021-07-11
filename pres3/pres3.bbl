@@ -142,6 +142,42 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{haldane}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HFDM}{%
+         family={Haldane},
+         familyi={H\bibinitperiod},
+         given={F.\bibnamedelima D.\bibnamedelima M.},
+         giveni={F\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{HFDM1}
+    \strng{fullhash}{HFDM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1978}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.40.416
+    \endverb
+    \field{issue}{6}
+    \field{pages}{416\bibrangedash 419}
+    \field{title}{Scaling Theory of the Asymmetric Anderson Model}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevLett.40.416
+    \endverb
+    \field{volume}{40}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{1978}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{hewson}{book}{}
     \name{author}{1}{}{%
       {{hash=HAC}{%
@@ -187,6 +223,42 @@
     \field{volume}{43}
     \field{journaltitle}{Advances in Physics}
     \field{year}{1994}
+  \endentry
+
+  \entry{Jefferson}{article}{}
+    \name{author}{1}{}{%
+      {{hash=JJH}{%
+         family={Jefferson},
+         familyi={J\bibinitperiod},
+         given={J\bibnamedelima H},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{IOP} Publishing}%
+    }
+    \strng{namehash}{JJH1}
+    \strng{fullhash}{JJH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1977}
+    \field{labeldatesource}{}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \verb{doi}
+    \verb 10.1088/0022-3719/10/18/023
+    \endverb
+    \field{number}{18}
+    \field{pages}{3589\bibrangedash 3599}
+    \field{title}{A renormalisation group approach to the mixed valence
+  problem}
+    \verb{url}
+    \verb https://doi.org/10.1088/0022-3719/10/18/023
+    \endverb
+    \field{volume}{10}
+    \field{journaltitle}{Journal of Physics C: Solid State Physics}
+    \field{year}{1977}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{hrk-nrg}{article}{}
