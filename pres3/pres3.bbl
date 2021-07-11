@@ -101,6 +101,30 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{piers}{book}{}
+    \name{author}{1}{}{%
+      {{hash=CP}{%
+         family={Coleman},
+         familyi={C\bibinitperiod},
+         given={Piers},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{CP1}
+    \strng{fullhash}{CP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Introduction to Many-Body Physics}
+    \field{year}{2015}
+  \endentry
+
   \entry{glazek-wilson}{article}{}
     \name{author}{2}{}{%
       {{hash=GSD}{%
@@ -421,6 +445,30 @@
     \field{volume}{17}
     \field{journaltitle}{Journal of Low Temperature Physics}
     \field{year}{1974}
+  \endentry
+
+  \entry{phill}{book}{}
+    \name{author}{1}{}{%
+      {{hash=PP}{%
+         family={Phillips},
+         familyi={P\bibinitperiod},
+         given={Philip},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Westview Press}%
+    }
+    \strng{namehash}{PP1}
+    \strng{fullhash}{PP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2003}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{Advanced Solid State Physics}
+    \field{year}{2003}
   \endentry
 
   \entry{Schrieffer_Wolff}{article}{}

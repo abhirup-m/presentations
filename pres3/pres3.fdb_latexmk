@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex pres3"] 1626017859 "pres3.aux" "pres3.bbl" "pres3" 1626017882
+["bibtex pres3"] 1626026065 "pres3.aux" "pres3.bbl" "pres3" 1626026078
   "/usr/share/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1617689697 65407 88927b81d8f6cedfef1300ccf61cbd6b ""
-  "pres3-blx.bib" 1626017882 340 7bdce33d370fce05909e24f547f8d889 "pdflatex"
-  "pres3.aux" 1626017882 26939 de24733ff8ce7cb5a6d3425fedbb283e "pdflatex"
+  "pres3-blx.bib" 1626026078 340 7bdce33d370fce05909e24f547f8d889 "pdflatex"
+  "pres3.aux" 1626026078 28001 920b0fccba779566d916d1b221d7fe60 "pdflatex"
   "pres3.bib" 1625929963 14794 785aab19d33f6ff9460fe70bab02787a ""
   (generated)
-  "pres3.bbl"
   "pres3.blg"
-["pdflatex"] 1626017871 "pres3.tex" "pres3.pdf" "pres3" 1626017882
+  "pres3.bbl"
+["pdflatex"] 1626026065 "pres3.tex" "pres3.pdf" "pres3" 1626026078
   "/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_2mfh3o.enc" 1617690507 3443 c184b8b1bd90c3ec5d4289b992e64d96 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_337jzs.enc" 1617690507 2952 6101deaf2e29800c3f438cc30978a854 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_d4q673.enc" 1617690507 2978 6d777d1174162fa94ff58f36782f4570 ""
@@ -333,11 +333,11 @@
   "nrg_fpoints.png" 1625724808 86385 eef1f33d3e68a4b79d7d4ef761deff91 ""
   "phases_V_pres.pdf" 1626017355 4168 0a12dbeba7a6f33e179fadda4d8d0ff5 ""
   "phases_V_pres.pdf_tex" 1626017355 3618 21790a82bac268214e11e55f81b3dedd ""
-  "pres3.aux" 1626017882 26939 de24733ff8ce7cb5a6d3425fedbb283e "pdflatex"
-  "pres3.bbl" 1626017860 19046 ccc13b02a4222f2a18574dd867ae2619 "bibtex pres3"
-  "pres3.nav" 1626017882 10268 676445ae1f0aa540242c76e900a060f3 "pdflatex"
-  "pres3.run.xml" 1626017882 2532 c362b4aa67348640f4aba1d1cd15c658 "pdflatex"
-  "pres3.tex" 1626017874 26812 24974bdd775308cf77dd64f07e32737b ""
+  "pres3.aux" 1626026078 28001 920b0fccba779566d916d1b221d7fe60 "pdflatex"
+  "pres3.bbl" 1626026065 20225 bfedec553cb7f3be7c918d6991f3f64b "bibtex pres3"
+  "pres3.nav" 1626026078 10268 676445ae1f0aa540242c76e900a060f3 "pdflatex"
+  "pres3.run.xml" 1626026078 2532 c362b4aa67348640f4aba1d1cd15c658 "pdflatex"
+  "pres3.tex" 1626026048 27114 7a8fdf11f050a35e69abbaf847648557 ""
   "repeat.pdf" 1625421507 8224 f281bfbf71fb401d7757fdcfb399844c ""
   "repeat.pdf_tex" 1625421507 3603 7159f78aee40abec01c782c2a4da0fc7 ""
   "rotation.pdf" 1625421507 31688 477d378e389988b681ef19216af33b19 ""
@@ -345,11 +345,11 @@
   "urg_short.pdf" 1625421507 10426 d64bbddb101bac2fa82e104a62215a4e ""
   "urg_short.pdf_tex" 1625421507 3275 444c754299998489536ee25a62708484 ""
   (generated)
-  "pres3.pdf"
   "pres3.run.xml"
-  "pres3.log"
+  "pres3.snm"
+  "pres3.aux"
   "pres3.nav"
   "pres3.toc"
-  "pres3.aux"
-  "pres3.snm"
   "pres3-blx.bib"
+  "pres3.pdf"
+  "pres3.log"
