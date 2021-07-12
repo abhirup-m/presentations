@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="207.09413mm"
-   height="140.73012mm"
-   viewBox="0 0 207.09413 140.73012"
+   width="197.04488mm"
+   height="127.23759mm"
+   viewBox="0 0 197.04487 127.23761"
    version="1.1"
    id="svg1865"
    inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
@@ -24,27 +24,34 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.74029882"
-     inkscape:cx="468.72964"
-     inkscape:cy="418.07442"
+     inkscape:cx="432.25788"
+     inkscape:cy="370.79621"
      inkscape:window-width="1916"
      inkscape:window-height="1051"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     inkscape:snap-global="false" />
   <defs
      id="defs1862">
     <rect
+       x="335.7038"
+       y="487.33636"
+       width="242.18324"
+       height="56.232903"
+       id="rect240055" />
+    <rect
        x="342.95398"
        y="216.85855"
-       width="496.296"
-       height="82.869022"
+       width="496.29599"
+       height="82.869019"
        id="rect28622" />
     <rect
-       x="497.42608"
-       y="71.95098"
-       width="261.36265"
-       height="48.905171"
+       x="497.42609"
+       y="71.950981"
+       width="261.36264"
+       height="48.90517"
        id="rect22883" />
     <clipPath
        clipPathUnits="userSpaceOnUse"
@@ -451,15 +458,39 @@
        width="496.29599"
        height="82.869019"
        id="rect28622-0" />
+    <rect
+       x="497.42609"
+       y="71.950981"
+       width="261.36264"
+       height="48.90517"
+       id="rect22883-3-2" />
+    <rect
+       x="497.42609"
+       y="71.950981"
+       width="261.36264"
+       height="48.90517"
+       id="rect22883-37" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath237343">
+      <rect
+         style="fill:none;stroke:#1000d0;stroke-width:0.83882;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke"
+         id="rect237345"
+         width="306.71469"
+         height="185.7993"
+         x="28.995981"
+         y="27.510418" />
+    </clipPath>
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(173.95501,-9.3353002)">
+     transform="translate(164.13394,-21.939503)">
     <g
        id="g2161"
-       transform="matrix(0.62967923,0,0,0.62967923,-178.4791,4.6167638)">
+       transform="matrix(0.62967923,0,0,0.62967923,-178.4791,4.6167638)"
+       clip-path="url(#clipPath237343)">
       <g
          id="g2163">
         <g
@@ -1727,27 +1758,35 @@
     </g>
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,-184.53835,10.393634)"
-       id="text22881"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect22883);fill:#000000;fill-opacity:1;stroke:none"><tspan
-         x="497.42578"
-         y="106.11117"
-         id="tspan236433">charge singlet</tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,-262.13644,84.55511)"
-       id="text22881-6"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect22883-3);fill:#000000;fill-opacity:1;stroke:none"><tspan
-         x="497.42578"
-         y="106.11117"
-         id="tspan236435">spin singlet</tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(0,-0.26458333,0.26458333,0,-127.79471,202.41466)"
+       transform="matrix(0,-0.26458333,0.26458333,0,-222.40032,197.66223)"
        id="text28620"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect28622-0);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="342.95312"
          y="251.01937"
-         id="tspan236437">$sign(E_s - E_c)$</tspan></text>
+         id="tspan243678">$sign(E_s - E_c)$</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-255.76541,86.383828)"
+       id="text22881-6"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect22883-3-2);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="497.42578"
+         y="106.11117"
+         id="tspan243680">spin singlet</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-181.28068,9.5539603)"
+       id="text22881"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect22883-37);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="497.42578"
+         y="106.11117"
+         id="tspan243682">charge singlet</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-163.37167,9.3353002)"
+       id="text240053"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect240055);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="335.70312"
+         y="521.49594"
+         id="tspan243684">$K_0 - J_0$</tspan></text>
   </g>
 </svg>
