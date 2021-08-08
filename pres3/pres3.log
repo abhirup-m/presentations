@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.6.15)  12 JUL 2021 09:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.6.15)  12 JUL 2021 09:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1730,7 +1730,7 @@ pdfTeX warning: pdflatex (file ./phases_V_pres.pdf): PDF inclusion: multiple pdf
 <figures/two_site_problem.png, id=577, 663.22781pt x 280.04625pt>
 File: figures/two_site_problem.png Graphic file (type png)
 <use figures/two_site_problem.png>
-Package pdftex.def Info: figures/two_site_problem.png  used on input line 340.
+Package pdftex.def Info: figures/two_site_problem.png  used on input line 339.
 (pdftex.def)             Requested size: 206.28249pt x 87.09973pt.
  (./gstate_pres.pdf_tex
 <gstate_pres.pdf, id=578, page=1, 560.647pt x 362.02602pt>
@@ -1739,7 +1739,7 @@ File: gstate_pres.pdf Graphic file (type pdf)
 Package pdftex.def Info: gstate_pres.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 185.65297pt x 119.87773pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 61--340
+Underfull \hbox (badness 10000) in paragraph at lines 61--339
 
  []
 
@@ -1751,12 +1751,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--340
 <figures/chi_T.pdf, id=705, 594.22pt x 391.4625pt>
 File: figures/chi_T.pdf Graphic file (type pdf)
 <use figures/chi_T.pdf>
-Package pdftex.def Info: figures/chi_T.pdf  used on input line 383.
+Package pdftex.def Info: figures/chi_T.pdf  used on input line 382.
 (pdftex.def)             Requested size: 198.02942pt x 130.46129pt.
 <figures/chi.pdf, id=706, 589.20125pt x 400.49625pt>
 File: figures/chi.pdf Graphic file (type pdf)
 <use figures/chi.pdf>
-Package pdftex.def Info: figures/chi.pdf  used on input line 383.
+Package pdftex.def Info: figures/chi.pdf  used on input line 382.
 (pdftex.def)             Requested size: 198.02942pt x 134.6086pt.
  [30
 
@@ -1764,12 +1764,12 @@ Package pdftex.def Info: figures/chi.pdf  used on input line 383.
 <figures/chi_c.pdf, id=805, 589.20125pt x 431.6125pt>
 File: figures/chi_c.pdf Graphic file (type pdf)
 <use figures/chi_c.pdf>
-Package pdftex.def Info: figures/chi_c.pdf  used on input line 398.
+Package pdftex.def Info: figures/chi_c.pdf  used on input line 397.
 (pdftex.def)             Requested size: 198.02942pt x 145.06691pt.
 <figures/T_chi_c.pdf, id=806, 592.2125pt x 414.54875pt>
 File: figures/T_chi_c.pdf Graphic file (type pdf)
 <use figures/T_chi_c.pdf>
-Package pdftex.def Info: figures/T_chi_c.pdf  used on input line 398.
+Package pdftex.def Info: figures/T_chi_c.pdf  used on input line 397.
 (pdftex.def)             Requested size: 198.02942pt x 138.61691pt.
  [31
 
@@ -1777,7 +1777,7 @@ Package pdftex.def Info: figures/T_chi_c.pdf  used on input line 398.
 <figures/spec_func_merged_2.png, id=902, 1483.04062pt x 477.28313pt>
 File: figures/spec_func_merged_2.png Graphic file (type png)
 <use figures/spec_func_merged_2.png>
-Package pdftex.def Info: figures/spec_func_merged_2.png  used on input line 406.
+Package pdftex.def Info: figures/spec_func_merged_2.png  used on input line 405.
 (pdftex.def)             Requested size: 412.56497pt x 132.77171pt.
  [32
 
@@ -1785,12 +1785,12 @@ Package pdftex.def Info: figures/spec_func_merged_2.png  used on input line 406.
 <figures/spec_func_journey_one_marked.pdf, id=913, 749.04843pt x 542.77782pt>
 File: figures/spec_func_journey_one_marked.pdf Graphic file (type pdf)
 <use figures/spec_func_journey_one_marked.pdf>
-Package pdftex.def Info: figures/spec_func_journey_one_marked.pdf  used on input line 413.
+Package pdftex.def Info: figures/spec_func_journey_one_marked.pdf  used on input line 412.
 (pdftex.def)             Requested size: 193.90604pt x 140.50603pt.
 <figures/spec_func_journey_three_marked.pdf, id=914, 719.68875pt x 566.86781pt>
 File: figures/spec_func_journey_three_marked.pdf Graphic file (type pdf)
 <use figures/spec_func_journey_three_marked.pdf>
-Package pdftex.def Info: figures/spec_func_journey_three_marked.pdf  used on input line 413.
+Package pdftex.def Info: figures/spec_func_journey_three_marked.pdf  used on input line 412.
 (pdftex.def)             Requested size: 185.65297pt x 146.23174pt.
  [33
 
@@ -1800,7 +1800,7 @@ Package pdftex.def Info: figures/spec_func_journey_three_marked.pdf  used on inp
 <figures/Fkkqq.pdf, id=930, 594.22pt x 391.4625pt>
 File: figures/Fkkqq.pdf Graphic file (type pdf)
 <use figures/Fkkqq.pdf>
-Package pdftex.def Info: figures/Fkkqq.pdf  used on input line 424.
+Package pdftex.def Info: figures/Fkkqq.pdf  used on input line 423.
 (pdftex.def)             Requested size: 185.65297pt x 122.30783pt.
  [35
 
@@ -1808,12 +1808,12 @@ Package pdftex.def Info: figures/Fkkqq.pdf  used on input line 424.
 <figures/reverse-rg.png, id=978, 790.0359pt x 678.29314pt>
 File: figures/reverse-rg.png Graphic file (type png)
 <use figures/reverse-rg.png>
-Package pdftex.def Info: figures/reverse-rg.png  used on input line 436.
+Package pdftex.def Info: figures/reverse-rg.png  used on input line 435.
 (pdftex.def)             Requested size: 206.28249pt x 177.09724pt.
 <figures/rev-rg-bonds-diag.png, id=979, 1037.61145pt x 1030.06519pt>
 File: figures/rev-rg-bonds-diag.png Graphic file (type png)
 <use figures/rev-rg-bonds-diag.png>
-Package pdftex.def Info: figures/rev-rg-bonds-diag.png  used on input line 436.
+Package pdftex.def Info: figures/rev-rg-bonds-diag.png  used on input line 435.
 (pdftex.def)             Requested size: 185.65297pt x 184.30351pt.
  [36
 
@@ -1821,12 +1821,12 @@ Package pdftex.def Info: figures/rev-rg-bonds-diag.png  used on input line 436.
 <figures/mutI_ee.png, id=989, 594.12326pt x 392.98627pt>
 File: figures/mutI_ee.png Graphic file (type png)
 <use figures/mutI_ee.png>
-Package pdftex.def Info: figures/mutI_ee.png  used on input line 445.
+Package pdftex.def Info: figures/mutI_ee.png  used on input line 444.
 (pdftex.def)             Requested size: 185.65297pt x 122.80191pt.
 <figures/mutI_ed.png, id=990, 601.66953pt x 387.47168pt>
 File: figures/mutI_ed.png Graphic file (type png)
 <use figures/mutI_ed.png>
-Package pdftex.def Info: figures/mutI_ed.png  used on input line 445.
+Package pdftex.def Info: figures/mutI_ed.png  used on input line 444.
 (pdftex.def)             Requested size: 185.65297pt x 119.55922pt.
  [37
 
@@ -1834,12 +1834,12 @@ Package pdftex.def Info: figures/mutI_ed.png  used on input line 445.
 <figures/corr_diag.png, id=999, 608.6353pt x 374.1206pt>
 File: figures/corr_diag.png Graphic file (type png)
 <use figures/corr_diag.png>
-Package pdftex.def Info: figures/corr_diag.png  used on input line 454.
+Package pdftex.def Info: figures/corr_diag.png  used on input line 453.
 (pdftex.def)             Requested size: 185.65297pt x 114.11517pt.
 <figures/corr_od.png, id=1000, 606.89386pt x 370.05724pt>
 File: figures/corr_od.png Graphic file (type png)
 <use figures/corr_od.png>
-Package pdftex.def Info: figures/corr_od.png  used on input line 454.
+Package pdftex.def Info: figures/corr_od.png  used on input line 453.
 (pdftex.def)             Requested size: 185.65297pt x 113.20326pt.
  [38
 
@@ -1847,12 +1847,12 @@ Package pdftex.def Info: figures/corr_od.png  used on input line 454.
 <figures/contours.png, id=1008, 354.57469pt x 210.03468pt>
 File: figures/contours.png Graphic file (type png)
 <use figures/contours.png>
-Package pdftex.def Info: figures/contours.png  used on input line 476.
+Package pdftex.def Info: figures/contours.png  used on input line 475.
 (pdftex.def)             Requested size: 148.52011pt x 87.97679pt.
 <figures/wind_num.png, id=1009, 458.46281pt x 239.39438pt>
 File: figures/wind_num.png Graphic file (type png)
 <use figures/wind_num.png>
-Package pdftex.def Info: figures/wind_num.png  used on input line 476.
+Package pdftex.def Info: figures/wind_num.png  used on input line 475.
 (pdftex.def)             Requested size: 148.52011pt x 77.5502pt.
  [39
 
@@ -1860,7 +1860,7 @@ Package pdftex.def Info: figures/wind_num.png  used on input line 476.
 <figures/luttinger_top_change.png, id=1019, 1754.80594pt x 1275.26437pt>
 File: figures/luttinger_top_change.png Graphic file (type png)
 <use figures/luttinger_top_change.png>
-Package pdftex.def Info: figures/luttinger_top_change.png  used on input line 498.
+Package pdftex.def Info: figures/luttinger_top_change.png  used on input line 497.
 (pdftex.def)             Requested size: 185.65611pt x 134.90884pt.
  [40
 
@@ -1880,7 +1880,7 @@ Package pdftex.def Info: figures/luttinger_top_change.png  used on input line 49
 <figures/summary.png, id=1076, 5339.69907pt x 2848.6425pt>
 File: figures/summary.png Graphic file (type png)
 <use figures/summary.png>
-Package pdftex.def Info: figures/summary.png  used on input line 684.
+Package pdftex.def Info: figures/summary.png  used on input line 683.
 (pdftex.def)             Requested size: 412.56497pt x 220.07204pt.
  [47
 
@@ -1902,36 +1902,36 @@ Package pdftex.def Info: figures/summary.png  used on input line 684.
 
 ]
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/sc' in size <10> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/sc' tried instead on input line 714.
+(Font)              Font shape `T1/FiraSans-OsF/regular/sc' tried instead on input line 713.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/sc' will be
-(Font)              scaled to size 10.0pt on input line 714.
-LaTeX Font Info:    Trying to load font information for TS1+FiraSans-OsF on input line 714.
+(Font)              scaled to size 10.0pt on input line 713.
+LaTeX Font Info:    Trying to load font information for TS1+FiraSans-OsF on input line 713.
  (/usr/share/texmf-dist/tex/latex/fira/TS1FiraSans-OsF.fd
 File: TS1FiraSans-OsF.fd 2019/10/10 (autoinst) Font definitions for TS1/FiraSans-OsF.
 )
 LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/m/n' in size <6> not available
-(Font)              Font shape `TS1/FiraSans-OsF/regular/n' tried instead on input line 714.
+(Font)              Font shape `TS1/FiraSans-OsF/regular/n' tried instead on input line 713.
 LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 714.
+(Font)              scaled to size 6.0pt on input line 713.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/sc' in size <6> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/sc' tried instead on input line 714.
+(Font)              Font shape `T1/FiraSans-OsF/regular/sc' tried instead on input line 713.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/sc' will be
-(Font)              scaled to size 6.0pt on input line 714.
-LaTeX Font Info:    Trying to load font information for T1+FiraMono-TOsF on input line 714.
+(Font)              scaled to size 6.0pt on input line 713.
+LaTeX Font Info:    Trying to load font information for T1+FiraMono-TOsF on input line 713.
  (/usr/share/texmf-dist/tex/latex/fira/T1FiraMono-TOsF.fd
 File: T1FiraMono-TOsF.fd 2019/10/10 (autoinst) Font definitions for T1/FiraMono-TOsF.
 )
 LaTeX Font Info:    Font shape `T1/FiraMono-TOsF/m/n' in size <6> not available
-(Font)              Font shape `T1/FiraMono-TOsF/regular/n' tried instead on input line 714.
+(Font)              Font shape `T1/FiraMono-TOsF/regular/n' tried instead on input line 713.
 LaTeX Font Info:    Font shape `T1/FiraMono-TOsF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 714.
+(Font)              scaled to size 6.0pt on input line 713.
  [56
 
 ]
 <figures/pms.png, id=1164, 419.31656pt x 447.17062pt>
 File: figures/pms.png Graphic file (type png)
 <use figures/pms.png>
-Package pdftex.def Info: figures/pms.png  used on input line 758.
+Package pdftex.def Info: figures/pms.png  used on input line 757.
 (pdftex.def)             Requested size: 129.9565pt x 138.58734pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1940,7 +1940,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <figures/pms_vs_urg.png, id=1177, 996.39723pt x 642.59349pt>
 File: figures/pms_vs_urg.png Graphic file (type png)
 <use figures/pms_vs_urg.png>
-Package pdftex.def Info: figures/pms_vs_urg.png  used on input line 758.
+Package pdftex.def Info: figures/pms_vs_urg.png  used on input line 757.
 (pdftex.def)             Requested size: 181.94194pt x 117.3287pt.
  [59
 
@@ -1972,7 +1972,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  131i,20n,132p,1839b,1828s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_d4q673.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_d67aat.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_337jzs.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_2mfh3o.enc}</usr/share/texmf-dist/fonts/type1/public/fira/FiraMono-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Bold.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Italic.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on pres3.pdf (61 pages, 3397439 bytes).
+Output written on pres3.pdf (61 pages, 3398037 bytes).
 PDF statistics:
  1319 PDF objects out of 1440 (max. 8388607)
  934 compressed objects within 10 object streams

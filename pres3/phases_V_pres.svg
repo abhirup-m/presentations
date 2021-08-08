@@ -68,8 +68,8 @@
     <rect
        x="1915.2642"
        y="293.57874"
-       width="454.52795"
-       height="212.32326"
+       width="490.72109"
+       height="208.86533"
        id="rect64502" />
     <rect
        x="2145.7349"
@@ -10150,14 +10150,14 @@
     <rect
        x="1915.2642"
        y="293.57874"
-       width="454.52795"
-       height="212.32326"
+       width="514.09258"
+       height="210.76466"
        id="rect64502-6-8" />
     <rect
        x="1915.2642"
        y="293.57874"
-       width="454.52795"
-       height="212.32326"
+       width="521.50571"
+       height="207.92931"
        id="rect64502-6-9" />
   </defs>
   <sodipodi:namedview
@@ -10168,8 +10168,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.51562396"
-     inkscape:cx="1318.7905"
-     inkscape:cy="549.81929"
+     inkscape:cx="1016.2445"
+     inkscape:cy="681.69834"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -10232,7 +10232,7 @@
     <rect
        style="opacity:0.500868;fill:#4840ff;fill-opacity:1;stroke-width:1.85158;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect1003"
-       width="139.65308"
+       width="139.653"
        height="136.60545"
        x="139.18311"
        y="58.961731"
@@ -10287,21 +10287,21 @@
        style="font-style:normal;font-weight:normal;font-size:48px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect64502);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="1915.2637"
          y="334.57013"
-         id="tspan234716"><tspan
+         id="tspan58816"><tspan
            style="-inkscape-font-specification:sans-serif"
-           id="tspan234714">$0 \leq U^* \ll U_0$
+           id="tspan58814">$0\lesssim U^*\ll U_0$
 </tspan></tspan><tspan
          x="1915.2637"
          y="394.57013"
-         id="tspan234720"><tspan
+         id="tspan58820"><tspan
            style="-inkscape-font-specification:sans-serif"
-           id="tspan234718">
+           id="tspan58818">
 </tspan></tspan><tspan
          x="1915.2637"
          y="454.57013"
-         id="tspan234724"><tspan
+         id="tspan58824"><tspan
            style="-inkscape-font-specification:sans-serif"
-           id="tspan234722">$0 \leq J_0 \ll J^*$</tspan></tspan></text>
+           id="tspan58822">$0 \leq J_0 \ll J^*$</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,9.1778028,38.655668)"
@@ -10309,19 +10309,19 @@
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect74239);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="1162.3926"
          y="169.05844"
-         id="tspan234726">screened spin
+         id="tspan58826">screened spin
 </tspan><tspan
          x="1162.3926"
          y="219.05844"
-         id="tspan234728">
+         id="tspan58828">
 </tspan><tspan
          x="1162.3926"
          y="269.05844"
-         id="tspan234730">ground state is
+         id="tspan58830">ground state is
 </tspan><tspan
          x="1162.3926"
          y="319.05844"
-         id="tspan234732">spin singlet</tspan></text>
+         id="tspan58832">spin singlet</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(-0.26458333,0,0,-0.26458333,296.3822,353.94215)"
@@ -10334,11 +10334,11 @@
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect161650);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="90.035156"
          y="1031.8123"
-         id="tspan234734">screened 
+         id="tspan58834">screened 
 </tspan><tspan
          x="90.035156"
          y="1081.8123"
-         id="tspan234736">isospin</tspan></text>
+         id="tspan58836">isospin</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-149.64706,28.072334)"
@@ -10346,11 +10346,11 @@
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect166243);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="-10.630859"
          y="841.96469"
-         id="tspan234738">groundstate is 
+         id="tspan58838">groundstate is 
 </tspan><tspan
          x="-10.630859"
          y="891.96469"
-         id="tspan234740">isospin singlet</tspan></text>
+         id="tspan58840">isospin singlet</tspan></text>
     <g
        id="g192675"
        transform="translate(5.2916667)">
@@ -10398,7 +10398,7 @@
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect210569);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="1684.4297"
          y="564.03305"
-         id="tspan234742">$J-K$</tspan></text>
+         id="tspan58842">$J-K$</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-146.79772,43.947335)"
@@ -10406,7 +10406,7 @@
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect213595);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="1102.7441"
          y="-0.62515625"
-         id="tspan234744">$U$</tspan></text>
+         id="tspan58844">$U$</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-492.23232,162.9784)"
@@ -10414,21 +10414,21 @@
        style="font-style:normal;font-weight:normal;font-size:48px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect64502-6);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="1915.2637"
          y="334.57013"
-         id="tspan234748"><tspan
+         id="tspan58848"><tspan
            style="-inkscape-font-specification:sans-serif"
-           id="tspan234746">$0 \leq U_0 \ll U^*$
+           id="tspan58846">$0\geq U_0 \gg U^*$
 </tspan></tspan><tspan
          x="1915.2637"
          y="394.57013"
-         id="tspan234752"><tspan
+         id="tspan58852"><tspan
            style="-inkscape-font-specification:sans-serif"
-           id="tspan234750">
+           id="tspan58850">
 </tspan></tspan><tspan
          x="1915.2637"
          y="454.57013"
-         id="tspan234756"><tspan
+         id="tspan58856"><tspan
            style="-inkscape-font-specification:sans-serif"
-           id="tspan234754">$0 \leq K_0 \ll K^*$</tspan></tspan></text>
+           id="tspan58854">$0 \leq K_0 \ll K^*$</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-492.2323,26.372965)"
@@ -10436,21 +10436,21 @@
        style="font-style:normal;font-weight:normal;font-size:48px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect64502-6-8);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="1915.2637"
          y="334.57013"
-         id="tspan234760"><tspan
+         id="tspan58860"><tspan
            style="-inkscape-font-specification:sans-serif"
-           id="tspan234758">$0 \leq U^* \ll U_0$
+           id="tspan58858">$0\lesssim U^*\ll U_0$
 </tspan></tspan><tspan
          x="1915.2637"
          y="394.57013"
-         id="tspan234764"><tspan
+         id="tspan58864"><tspan
            style="-inkscape-font-specification:sans-serif"
-           id="tspan234762">
+           id="tspan58862">
 </tspan></tspan><tspan
          x="1915.2637"
          y="454.57013"
-         id="tspan234768"><tspan
+         id="tspan58868"><tspan
            style="-inkscape-font-specification:sans-serif"
-           id="tspan234766">$0 \leq K_0 \ll K^*$</tspan></tspan></text>
+           id="tspan58866">$0 \leq K_0 \ll K^*$</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-352.57924,162.97843)"
@@ -10458,20 +10458,20 @@
        style="font-style:normal;font-weight:normal;font-size:48px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect64502-6-9);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="1915.2637"
          y="334.57013"
-         id="tspan234772"><tspan
+         id="tspan58872"><tspan
            style="-inkscape-font-specification:sans-serif"
-           id="tspan234770">$0 \leq U^* \ll U_0$
+           id="tspan58870">$0 \gtrsim U^* \gg U_0$
 </tspan></tspan><tspan
          x="1915.2637"
          y="394.57013"
-         id="tspan234776"><tspan
+         id="tspan58876"><tspan
            style="-inkscape-font-specification:sans-serif"
-           id="tspan234774">
+           id="tspan58874">
 </tspan></tspan><tspan
          x="1915.2637"
          y="454.57013"
-         id="tspan234780"><tspan
+         id="tspan58880"><tspan
            style="-inkscape-font-specification:sans-serif"
-           id="tspan234778">$0 \leq J_0 \ll J^*$</tspan></tspan></text>
+           id="tspan58878">$0 \leq J_0 \ll J^*$</tspan></tspan></text>
   </g>
 </svg>

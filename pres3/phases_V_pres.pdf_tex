@@ -54,15 +54,15 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{phases_V_pres.pdf}}%
-    \put(0.56726062,0.43248259){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0 \leq U^* \ll U_0$\\\\$0 \leq J_0 \ll J^*$\end{tabular}}}}%
+    \put(0.56726062,0.43248259){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0\lesssim U^*\ll U_0$\\\\$0 \leq J_0 \ll J^*$\end{tabular}}}}%
     \put(0.87247098,0.49093578){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}screened spin\\\\ground state is\\spin singlet\end{tabular}}}}%
     \put(0.08265814,0.04642783){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}screened \\isospin\end{tabular}}}}%
     \put(-0.00068935,0.17929836){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}groundstate is \\isospin singlet\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{phases_V_pres.pdf}}%
     \put(0.83924606,0.28660596){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$J-K$\end{tabular}}}}%
     \put(0.55282926,0.56463865){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$U$\end{tabular}}}}%
-    \put(0.31005086,0.17807396){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0 \leq U_0 \ll U^*$\\\\$0 \leq K_0 \ll K^*$\end{tabular}}}}%
-    \put(0.31005089,0.43229748){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0 \leq U^* \ll U_0$\\\\$0 \leq K_0 \ll K^*$\end{tabular}}}}%
-    \put(0.56994605,0.17807391){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0 \leq U^* \ll U_0$\\\\$0 \leq J_0 \ll J^*$\end{tabular}}}}%
+    \put(0.31005086,0.17807396){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0\geq U_0 \gg U^*$\\\\$0 \leq K_0 \ll K^*$\end{tabular}}}}%
+    \put(0.31005089,0.43229748){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0\lesssim U^*\ll U_0$\\\\$0 \leq K_0 \ll K^*$\end{tabular}}}}%
+    \put(0.56994605,0.17807391){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0 \gtrsim U^* \gg U_0$\\\\$0 \leq J_0 \ll J^*$\end{tabular}}}}%
   \end{picture}%
 \endgroup%
