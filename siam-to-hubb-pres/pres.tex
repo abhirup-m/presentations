@@ -13,7 +13,7 @@ to the Hubbard Model}
 \vspace*{\fill}
 }
 \vspace*{\fill}
-\author{Dr. Siddhartha Lal, Abhirup Mukherjee}
+\author{Abhirup Mukherjee, Dr. Siddhartha Lal}
 \vspace*{\fill}
 \institute{Department of Physical Sciences\\IISER Kolkata}
 \vspace*{\fill}
@@ -26,15 +26,39 @@ to the Hubbard Model}
 
 \begin{frame}{Overview of the Process}
 \begin{itemize}[<alert@+>]
-	\item Rewrite Hubbard Hamiltonian as sum of two-site Hubbard models
-	\item Express Hamiltonian equation as relation between inverse Greens function matrix elements of full Hubbard model and those of the Hubbard dimer
-	\item Use translational invariance and tight-binding nature to construct full inverse Greens function matrix 
-	\item Fourier transform inverse Greens function to diagonalize it
-	\item Invert the diagonal matrix to obtain full Greens function matrix in terms of inverse Greens function matrix elements of the dimer
+	\item Choose correlated Anderson model as the auxiliary model and perform URG analysis and extract zero mode to obtain Hubbard dimer as the effective low energy Hamiltonian.
+	\item Translate this Hubbard dimer Hamiltonian to recreate a new/renormalized Hubbard model. This Hubbard model is assumed to be linked to the parent Hubbard model via a similarity transformation.
+	\item Express equation between renormalized Hubbard and Hubbard dimers as relation between inverse Greens function matrix elements of full Hubbard model and those of the Hubbard dimer.
+	\item Obtain Greens functions of the parent Hubbard model in terms of those of the Hubbard dimer.
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Writing the Hubbard Model Hamiltonian}
+\begin{frame}{Cluster-Bath Approach}
+	\begin{figure}[htpb]
+		\centering
+		\includegraphics[width=0.6\textwidth]{./cluster-bath.png}
+	\end{figure}
+
+\begin{minipage}{0.49\textwidth}
+\begin{equation*}
+-t^H\sum_{\sigma,\left<i,j \right>}\left(c^\dagger_{i\sigma} c_{j\sigma} + \text{h.c.}\right) + U^H\sum_i \tau_{i \uparrow} \tau_{i \downarrow}
+\end{equation*}
+\end{minipage}
+\begin{minipage}{0.49\textwidth}
+	\begin{equation*}\begin{aligned}
+\sum_{k\sigma}\tilde\epsilon_k\tau_{k\sigma} + U^A \tau_{d \uparrow} \tau_{d \downarrow} + U_b \sum_{kk^\prime}\hat n_k \hat n_{k^\prime}\\
+-t^A\sum_{k\sigma}\left(c^\dagger_{d\sigma}c_{k\sigma} + \text{h.c.}\right)
+\end{aligned}\end{equation*}
+\end{minipage}
+\end{frame}
+\begin{frame}{RG Analysis of Auxiliary System}
+	\[\sum_{k\sigma}\tilde\epsilon_k\tau_{k\sigma} + U \tau_{d \uparrow} \tau_{d \downarrow} + U_b \sum_{kk^\prime}\hat n_k \hat n_{k^\prime} -t\sum_{k\sigma}\left(c^\dagger_{d\sigma}c_{k\sigma} + \text{h.c.}\right)\]
+	\[\Bigg\downarrow U H U^\dagger\]
+	\[\sum_{k\sigma}^*\left[\tilde\epsilon_k\tau_{k\sigma} -{t}^*\left(c^\dagger_{d\sigma}c_{k\sigma} + \text{h.c.}\right)\right] + U^* \tau_{d \uparrow} \tau_{d \downarrow} + U^* \sum_{kk^\prime}^*\hat n_k \hat n_{k^\prime} \]
+	\[\Bigg\downarrow \text{zero mode}\]
+	\[-{t}^*\sum_{\sigma}^*\left(c^\dagger_{d\sigma}c_{z\sigma} + \text{h.c.}\right) + U^* \tau_{d \uparrow} \tau_{d \downarrow} + U^* \tau_{z \uparrow} \tau_{z \downarrow} \]
+\end{frame}
+\begin{frame}{RG Analysis of Auxiliary System}
 	\only<+>{
 \cen{\focus{Lattice of \(N\) sites and \(Z\) nearest neighburs at each site}}
 \begin{equation*}

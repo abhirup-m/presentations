@@ -1,4 +1,4 @@
-PWD /home/kirito/storage/work/presentations/siam-to-hubb-arghya sir
+PWD /home/abhirup/presentations/siam-to-hubb-pres
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
 INPUT pres.tex
@@ -1514,7 +1514,11 @@ INPUT /usr/share/texmf-dist/fonts/vf/public/fira/FiraSans-Regular-osf-t1.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/public/fira/FiraSans-Regular-osf-t1--base.tfm
 INPUT /usr/share/texmf-dist/fonts/vf/public/fira/FiraSans-Regular-osf-t1.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/public/fira/FiraSans-Regular-osf-t1--base.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-t1.tfm
+INPUT ./cluster-bath.png
+INPUT ./cluster-bath.png
+INPUT ./cluster-bath.png
+INPUT ./cluster-bath.png
+INPUT ./cluster-bath.png
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -1543,6 +1547,11 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/fira/FiraSans-Italic-osf-t1.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/fira/FiraSans-Italic-osf-t1.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/fira/FiraSans-Italic-osf-t1.tfm
+INPUT /usr/share/texmf-dist/fonts/vf/public/fira/FiraSans-Italic-osf-t1.vf
+INPUT /usr/share/texmf-dist/fonts/tfm/public/fira/FiraSans-Italic-osf-t1--base.tfm
+INPUT /usr/share/texmf-dist/fonts/vf/public/fira/FiraSans-Italic-osf-t1.vf
+INPUT /usr/share/texmf-dist/fonts/tfm/public/fira/FiraSans-Italic-osf-t1--base.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-t1.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
@@ -1563,10 +1572,6 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/fira/FiraSans-Italic-osf-t1.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/fira/FiraSans-Italic-osf-t1.tfm
 INPUT /usr/share/texmf-dist/fonts/vf/public/fira/FiraSans-Bold-osf-t1.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-t1--base.tfm
-INPUT /usr/share/texmf-dist/fonts/vf/public/fira/FiraSans-Italic-osf-t1.vf
-INPUT /usr/share/texmf-dist/fonts/tfm/public/fira/FiraSans-Italic-osf-t1--base.tfm
-INPUT /usr/share/texmf-dist/fonts/vf/public/fira/FiraSans-Italic-osf-t1.vf
-INPUT /usr/share/texmf-dist/fonts/tfm/public/fira/FiraSans-Italic-osf-t1--base.tfm
 INPUT /usr/share/texmf-dist/fonts/vf/public/fira/FiraSans-Italic-osf-t1.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/public/fira/FiraSans-Italic-osf-t1--base.tfm
 INPUT /usr/share/texmf-dist/fonts/vf/public/fira/FiraSans-Italic-osf-t1.vf
@@ -1646,4 +1651,5 @@ INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
