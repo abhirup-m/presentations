@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.28)  12 AUG 2021 20:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.15)  12 AUG 2021 23:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -945,142 +945,171 @@ LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
 ] [5
 
 ]
-<./cluster-bath.png, id=42, 612.03656pt x 258.21469pt>
+<./cluster-bath.png, id=42, 672.5928pt x 258.4857pt>
 File: ./cluster-bath.png Graphic file (type png)
 <use ./cluster-bath.png>
-Package pdftex.def Info: ./cluster-bath.png  used on input line 53.
-(pdftex.def)             Requested size: 247.54149pt x 104.43452pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 53.
+Package pdftex.def Info: ./cluster-bath.png  used on input line 51.
+(pdftex.def)             Requested size: 247.54149pt x 95.13335pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 53.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <10.95> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 53.
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 51.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 10.95pt on input line 53.
+(Font)              scaled to size 10.95pt on input line 51.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <8> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 53.
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 51.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 8.0pt on input line 53.
+(Font)              scaled to size 8.0pt on input line 51.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <6> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 53.
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 51.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 6.0pt on input line 53.
- [6
+(Font)              scaled to size 6.0pt on input line 51.
+
+Overfull \hbox (18.61354pt too wide) detected at line 51
+\T1/FiraSans-OsF/regular/it/10.95 H[] \OT1/cmss/m/n/10.95 = \OMS/cmsy/m/n/10.95 ^^@\T1/FiraSans-OsF/regular/it/10.95 t[] [] [] \OT1/cmss/m/n/10.95 + \T1/FiraSans-OsF/regular/it/10.95 U[] [] \OML/cmm/m/it/10.95 ^^\[]^^\[]
+ []
+
+[6
 
  <./cluster-bath.png>] [7
 
 ]
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10.95> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 103.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 10.95pt on input line 103.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <10> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 103.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 103.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <7> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 103.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 7.0pt on input line 103.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <14.4> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 103.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 14.4pt on input line 103.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <10> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 103.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 103.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <7> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 103.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 7.0pt on input line 103.
- [8
+Overfull \hbox (1.17838pt too wide) detected at line 73
+\T1/FiraSans-OsF/regular/it/10.95 H[] \OT1/cmss/m/n/10.95 = \OMS/cmsy/m/n/10.95 ^^@\T1/FiraSans-OsF/regular/it/10.95 t[] [] [] \OT1/cmss/m/n/10.95 + \T1/FiraSans-OsF/regular/it/10.95 U[] []
+ []
 
-] [9
-
-]
-<./hubb_dim.png, id=77, 633.86812pt x 206.27063pt>
+<./hubb_dim.png, id=64, 633.86812pt x 206.27063pt>
 File: ./hubb_dim.png Graphic file (type png)
 <use ./hubb_dim.png>
-Package pdftex.def Info: ./hubb_dim.png  used on input line 103.
-(pdftex.def)             Requested size: 226.91199pt x 73.83875pt.
- [10
+Package pdftex.def Info: ./hubb_dim.png  used on input line 73.
+(pdftex.def)             Requested size: 170.18399pt x 55.37906pt.
+<./tiling.png, id=65, 299.4387pt x 361.1091pt>
+File: ./tiling.png Graphic file (type png)
+<use ./tiling.png>
+Package pdftex.def Info: ./tiling.png  used on input line 73.
+(pdftex.def)             Requested size: 148.52011pt x 179.10495pt.
 
- <./hubb_dim.png>] [11
+Overfull \vbox (2.66269pt too high) detected at line 73
+ []
+
+[8
+
+ <./hubb_dim.png> <./tiling.png>]
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10.95> not available
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 142.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
+(Font)              scaled to size 10.95pt on input line 142.
+ [9
+
+] [10
+
+] [11
 
 ] [12
 
-] [13
-
-] [14
-
 ]
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <12> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 166.
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 179.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 12.0pt on input line 166.
- [15
+(Font)              scaled to size 12.0pt on input line 179.
+ [13
 
 ]
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <12> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 181.
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 194.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 181.
- [16
-
-] [17
-
-] [18
-
-] [19
+(Font)              scaled to size 12.0pt on input line 194.
+ [14
 
 ]
-<./bethe.png, id=131, 336.50719pt x 314.67563pt>
+Overfull \hbox (19.95174pt too wide) detected at line 194
+[][]
+ []
+
+[15
+
+]
+Overfull \hbox (19.95174pt too wide) detected at line 194
+[][]
+ []
+
+[16
+
+]
+Overfull \hbox (19.95174pt too wide) detected at line 194
+[][]
+ []
+
+[17
+
+]
+<./bethe.png, id=124, 336.50719pt x 314.67563pt>
 File: ./bethe.png Graphic file (type png)
 <use ./bethe.png>
-Package pdftex.def Info: ./bethe.png  used on input line 215.
+Package pdftex.def Info: ./bethe.png  used on input line 228.
 (pdftex.def)             Requested size: 115.51591pt x 108.02063pt.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <9> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 215.
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 228.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 215.
+(Font)              scaled to size 9.0pt on input line 228.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <9> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 215.
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 228.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 9.0pt on input line 215.
- [20
+(Font)              scaled to size 9.0pt on input line 228.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <10> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 228.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 228.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <7> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 228.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 7.0pt on input line 228.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <14.4> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 228.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 14.4pt on input line 228.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <10> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 228.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 10.0pt on input line 228.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <7> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 228.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 7.0pt on input line 228.
+ [18
 
  <./bethe.png>]
 File: ./bethe.png Graphic file (type png)
 <use ./bethe.png>
-Package pdftex.def Info: ./bethe.png  used on input line 215.
+Package pdftex.def Info: ./bethe.png  used on input line 228.
 (pdftex.def)             Requested size: 115.51591pt x 108.02063pt.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <9> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 215.
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 228.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 9.0pt on input line 215.
+(Font)              scaled to size 9.0pt on input line 228.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <5> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 215.
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 228.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 5.0pt on input line 215.
+(Font)              scaled to size 5.0pt on input line 228.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <14.4> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 215.
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 228.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 215.
+(Font)              scaled to size 14.4pt on input line 228.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 215.
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 228.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 215.
+(Font)              scaled to size 10.0pt on input line 228.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <7> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 215.
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 228.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 7.0pt on input line 215.
- [21
+(Font)              scaled to size 7.0pt on input line 228.
+ [19
 
 ]
 \tf@nav=\write5
@@ -1094,18 +1123,18 @@ LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
 
  (./pres.aux) ) 
 Here is how much of TeX's memory you used:
- 26275 strings out of 478994
- 499797 string characters out of 5864751
+ 26281 strings out of 478994
+ 499832 string characters out of 5864751
  776061 words of memory out of 5000000
- 43128 multiletter control sequences out of 15000+600000
- 906427 words of font info for 128 fonts, out of 8000000 for 9000
+ 43137 multiletter control sequences out of 15000+600000
+ 907442 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,16n,132p,435b,878s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_2mfh3o.enc}</usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Bold.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Italic.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on pres.pdf (21 pages, 279305 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_2mfh3o.enc}</usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Bold.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Italic.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on pres.pdf (19 pages, 342900 bytes).
 PDF statistics:
  199 PDF objects out of 1000 (max. 8388607)
- 150 compressed objects within 2 object streams
- 43 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 148 compressed objects within 2 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
