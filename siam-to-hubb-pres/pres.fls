@@ -1653,6 +1653,8 @@ INPUT ./dimer_dispersion_selfenergy.png
 INPUT ./dimer_dispersion_selfenergy.png
 INPUT ./dimer_dispersion_selfenergy.png
 INPUT ./dimer_dispersion_selfenergy.png
+INPUT /usr/share/texmf-dist/fonts/vf/public/fira/FiraSans-Regular-osf-t1.vf
+INPUT /usr/share/texmf-dist/fonts/tfm/public/fira/FiraSans-Regular-osf-t1--base.tfm
 OUTPUT pres.nav
 OUTPUT pres.toc
 OUTPUT pres.snm

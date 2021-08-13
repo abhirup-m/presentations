@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1628830777 "pres.tex" "pres.pdf" "pres" 1628830779
+["pdflatex"] 1628831199 "pres.tex" "pres.pdf" "pres" 1628831201
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1617738065 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_2mfh3o.enc" 1617690507 3443 c184b8b1bd90c3ec5d4289b992e64d96 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc" 1617690507 3071 cfa92ee28d698dd9275559d9d1c3a233 ""
@@ -265,14 +265,14 @@
   "dimer_dispersion.png" 1628773222 44338 57d6c926187327ce0915b222f3489ad6 ""
   "dimer_dispersion_selfenergy.png" 1628830545 43539 b70980fd742e468db46db45c1c9f0495 ""
   "hubb_dim.png" 1628827786 30401 3350fc8e5121e458b5be80f80385f71f ""
-  "pres.aux" 1628830779 2463 f636397e687d86bcc4ab95885b3baa55 "pdflatex"
-  "pres.nav" 1628830779 1216 4382e53726a16e775c6abe3068d63219 "pdflatex"
-  "pres.tex" 1628830777 13146 9b18b67e24913f535ed08dd5101d069b ""
+  "pres.aux" 1628831201 2592 04e007948106571f15e2496412660247 "pdflatex"
+  "pres.nav" 1628831201 1309 66846632e99da47e46763ef9763f1bbc "pdflatex"
+  "pres.tex" 1628831199 13223 1c1eeb6779e0ef1baf63f6b2898799ed ""
   "tiling.png" 1628827786 28754 0a66b0a6375f7b06435b68e28655d218 ""
   (generated)
-  "pres.log"
-  "pres.pdf"
-  "pres.snm"
-  "pres.toc"
-  "pres.nav"
   "pres.aux"
+  "pres.pdf"
+  "pres.log"
+  "pres.snm"
+  "pres.nav"
+  "pres.toc"
