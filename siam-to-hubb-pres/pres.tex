@@ -1,6 +1,6 @@
 \documentclass[aspectratio=169]{beamer}
 \usepackage{braket,caption}
-\usetheme{focus}
+%\usetheme{focus}
 \newcommand{\focus}[1]{\textcolor{blue}{\textbf{#1}}}
 \newcommand{\cen}[1]{\begin{center}{#1}\end{center}}
 
@@ -33,29 +33,25 @@ to the Hubbard Model}
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Cluster-Bath Approach}
-	\begin{figure}[htpb]
+\begin{frame}{Auxiliary System Approach}
+	%\begin{figure}[htpb]
 		\centering
-		\includegraphics[width=0.6\textwidth]{./cluster-bath.png}
-	\end{figure}
+		\includegraphics[width=0.7\textwidth]{./cluster-bath.png}
+	%\end{figure}
+%{\small (SIAM with correlated bath)}
 
-\begin{minipage}{0.45\textwidth}
-	\[H^H = -t^H\sum_{\sigma,\left<i,j \right>}\left(c^\dagger_{i\sigma} c_{j\sigma} + \text{h.c.}\right) + U^H\sum_i \tau_{i \uparrow} \tau_{i \downarrow}\]
-\end{minipage}
-\hspace*{15pt}
-\begin{minipage}{0.5\textwidth}
-	\begin{equation*}\begin{aligned}
-H^A = \sum_{k\sigma}\tilde\epsilon_k\tau_{k\sigma} + U^A \tau_{d \uparrow} \tau_{d \downarrow} + U_b \sum_{kk^\prime}\hat n_k \hat n_{k^\prime}\\
--t^A\sum_{k\sigma}\left(c^\dagger_{d\sigma}c_{k\sigma} + \text{h.c.}\right)
-\end{aligned}\end{equation*}
-\end{minipage}
+\[\mathrm{Hubbard}~~H^H = -t^H\sum_{\sigma,\left<i,j \right>}\left(c^\dagger_{i\sigma} c_{j\sigma} + \text{h.c.}\right) + U^H\sum_i \tau_{i \uparrow} \tau_{i \downarrow}\]
+\[
+\mathrm{SIAM}~~H^A = \sum_{k\sigma}\tilde\epsilon_k\tau_{k\sigma} + U^A \tau_{d \uparrow} \tau_{d \downarrow} + U_b \sum_{kk^\prime}\hat n_k \hat n_{k^\prime} -t^A\sum_{k\sigma}\left(c^\dagger_{d\sigma}c_{k\sigma} + \text{h.c.}\right)\]
+\[(\tilde{\epsilon}_{k} = \epsilon_{k} + \Sigma (k,\omega)) \]
 \end{frame}
 \begin{frame}{RG Analysis of Auxiliary System}
-	\[\sum_{k\sigma}\tilde\epsilon_k\tau_{k\sigma} + U \tau_{d \uparrow} \tau_{d \downarrow} + U_b \sum_{kk^\prime}\hat n_k \hat n_{k^\prime} -t\sum_{k\sigma}\left(c^\dagger_{d\sigma}c_{k\sigma} + \text{h.c.}\right)\]
-	\[\Bigg\downarrow U H U^\dagger\]
-	\[\sum_{k\sigma}^*\left[\tilde\epsilon_k\tau_{k\sigma} -{t}^*\left(c^\dagger_{d\sigma}c_{k\sigma} + \text{h.c.}\right)\right] + U^* \tau_{d \uparrow} \tau_{d \downarrow} + U^* \sum_{kk^\prime}^*\hat n_k \hat n_{k^\prime} \]
+	\[H^{A} = \sum_{k\sigma}\tilde\epsilon_k\tau_{k\sigma} + U^{A} \tau_{d \uparrow} \tau_{d \downarrow} + U_b \sum_{kk^\prime}\hat n_k \hat n_{k^\prime} -t^{A}\sum_{k\sigma}\left(c^\dagger_{d\sigma}c_{k\sigma} + \text{h.c.}\right)\]
+	\[\Bigg\downarrow U_{A} H^{A} U^{\dagger}_{A}~~(URG)\]
+	\[ H ^{A*} = \sum_{k\sigma}^*\left[\tilde\epsilon_k\tau_{k\sigma} -{t}^{A*}\left(c^\dagger_{d\sigma}c_{k\sigma} + \text{h.c.}\right)\right] + U^{A*} \tau_{d \uparrow} \tau_{d \downarrow} + U_{b}^* \sum_{kk^\prime}^*\hat n_k \hat n_{k^\prime} \]
+	\[ (U_{b}^{*} = U^{A*}) \]
 	\[\Bigg\downarrow \text{zero mode}\]
-	\[-{t}^*\sum_{\sigma}\left(c^\dagger_{d\sigma}c_{z\sigma} + \text{h.c.}\right) + U^* \tau_{d \uparrow} \tau_{d \downarrow} + U^* \tau_{z \uparrow} \tau_{z \downarrow} \]
+	\[ H^{D} = -{t}^{D}\sum_{\sigma}\left(c^\dagger_{d\sigma}c_{z\sigma} + \text{h.c.}\right) + U^{D} (\tau_{d \uparrow} \tau_{d \downarrow} + \tau_{z \uparrow} \tau_{z \downarrow}) \]
 \end{frame}
 \begin{frame}{Restoring Translational Invariance}
 \begin{minipage}{0.55\textwidth}
@@ -64,82 +60,62 @@ H^A = \sum_{k\sigma}\tilde\epsilon_k\tau_{k\sigma} + U^A \tau_{d \uparrow} \tau_
 	\[H^D = -{t}^D\sum_{\sigma}\left(c^\dagger_{i\sigma}c_{j\sigma} + \text{h.c.}\right) + U^D\left(\tau_{i \uparrow} \tau_{i \downarrow} + \tau_{j \uparrow} \tau_{j \downarrow}\right)\]
 	\includegraphics[width=0.75\textwidth]{./hubb_dim.png}
 	\[\tilde t \equiv \frac{2}{Nw}t^D, \quad\tilde U \equiv \frac{2}{Nw}U^D\]
-	\[\tilde H = \mathcal{U}H^H\mathcal{U}^{-1} \quad\left[\tilde G\left(\tilde r,\tilde r^\prime)\right) = G^H\left( r, r^\prime)\right)\right]\]
 \end{minipage}
 \hspace*{\fill}
 \begin{minipage}{0.4\textwidth}
 	\centering
-	\includegraphics[width=0.9\textwidth]{./tiling.png}
+	\includegraphics[width=0.9\textwidth]{./tiling.png}\\
+	\vspace*{-20pt}
+	{\small (Tiling 2D square lattice with dimers)}\\
+	{\small ($N$ sites, $w$ coordination number)}
 \end{minipage}
 \end{frame}
-% \begin{frame}{Restoring Translational Invariance}
-% 	\only<+>{
-% \cen{\focus{Lattice of \(N\) sites and \(w\) nearest neighburs at each site}}
-% \begin{equation*}
-% 	H = -t^H \sum_{\left<ij\right>}\left(c^\dagger_{i\sigma}c_{j\sigma} + \text{h.c.}\right) + \sum_i U^H \hat n_{i \uparrow} \hat n_{i \downarrow} - \mu^H \hat N
-% \end{equation*}
-% \begin{itemize}
-% 	\item For particle-hole symmetry, choose \(U^H = \frac{1}{2}\mu^H\)
-% 	\item Define \(\tau = \hat n - \frac{1}{2}\).
-% \end{itemize}
-% {\Large
-% \begin{equation*}\begin{aligned}
-% 	H = -t^H \sum_{\left<ij\right>}\left(c^\dagger_{i\sigma}c_{j\sigma} + \text{h.c.}\right) + \sum_i U^H\tau_{i \uparrow}\tau_{i \downarrow}
-% \end{aligned}\end{equation*}
-% }
-% }
-% \only<+>{
-% 	\begin{itemize}
-% 		\item Express entire thing in terms of nearest-neighbour pairs
-% \begin{equation*}\begin{aligned}
-% 	  &= -t^H \sum_{\left<ij\right>}\left(c^\dagger_{i\sigma}c_{j\sigma} + \text{h.c.}\right) + \frac{1}{w}\sum_{\left<ij\right>} U^H\left[\tau_{i \uparrow}\tau_{i \downarrow} + \tau_{j \uparrow}\tau_{j \downarrow}\right]\\
-% 	  &= \frac{1}{w}\sum_{\left<ij\right>}\left[-wt^H \left(c^\dagger_{i\sigma}c_{j\sigma} + \text{h.c.}\right) +  U^H\left(\tau_{i \uparrow}\tau_{i \downarrow} + \tau_{j \uparrow}\tau_{j \downarrow}\right)\right]\\
-% \end{aligned}\end{equation*}
-% \item Since total number of nearest neighbours pairs is \(\frac{Nw}{2}\), pull out the same factor
-% \begin{equation}\begin{aligned}
-% 	H &= \frac{2}{Nw}\sum_{\left<ij\right>}\left[-\frac{Nwt^H}{2} \left(c^\dagger_{i\sigma}c_{j\sigma} + \text{h.c.}\right) +  \frac{NU^H}{2}\left(\tau_{i \uparrow}\tau_{i \downarrow} + \tau_{j \uparrow}\tau_{j \downarrow}\right)\right]\\
-% \end{aligned}\end{equation}
-% \end{itemize}
-% }
-% \only<+>{
-% 	\cen{\focus{The final Hamiltonian is a sum of Hubbard dimers}}
-% \begin{equation*}
-% 	H = \frac{2}{Nw}\sum_{\left<ij \right>}H^D\left(i, j, t^D = \frac{Nwt^H}{2}, U^D = \frac{NU^H}{2}\right)
-% \end{equation*}
-% \centering
-% 	\includegraphics[width=0.55\textwidth]{./hubb_dim.png}
-% \vspace*{\fill}
-% 	\Large
-% 	\begin{equation*}\begin{aligned}
-% 		H^D = -t^D\left(c^\dagger_{0\sigma}c_{1\sigma} + \text{h.c.}\right) + U^D\left(\tau_{0 \uparrow}\tau_{0 \downarrow} + \tau_{1 \uparrow}\tau_{1 \downarrow}\right)
-% 	\end{aligned}\end{equation*}
-% }
-% \end{frame}
+\begin{frame}{Relating the original and reconstructed Hubbard models}
+\begin{itemize}
+\item We chose an auxiliary model appropriate to the original Hubbard model ($H^{H}$).
+\item We then performed the URG on it, and took the zero mode of the stable fixed point theory to obtain a Hubbard dimer. 
+\item Finally, we tiled the 2D square lattice with the dimer to obtain a reconstructed Hubbard model ($\tilde{H}$) with new parameters. 
+\end{itemize}
+In principle, $H^{H}$ and $\tilde{H}$ are related via a unitary (or atleast similarity) transformation.
+\[\tilde H = \mathcal{U}H^H\mathcal{U}^{-1}~~,~~ \mathcal{U} = T Z U_{A}\]
+\[Z:~\mathrm{zero~mode~projection}~,~ T:~\mathrm{lattice~tiling~operation}\] 
+\[\therefore~\tilde G (\tilde r,\tilde r^\prime) = G^H ( r, r^\prime)\]
+\[\left(\text{where }\ket{\tilde r} \equiv \mathcal{U}\ket{r}\right)\]
+\end{frame}
 
 \begin{frame}{Inverse Greens function from Hamiltonian}
+	\only<1>{
 	\cen{\focus{Write equation in terms of inverse Greens function \(G^{-1}(\omega) = \omega - H\)}}
 	\begin{equation*}\begin{aligned}
 		\omega - \tilde G^{-1} &= \frac{2}{Nw}\sum_{\left<ij \right>}\left[\omega - G^{-1}_D(\omega, i, j)\right]\\
 	\longrightarrow \tilde G^{-1} &= \frac{2}{Nw}\sum_{\left<ij \right>}G^{-1}_D(\omega, i, j)
 \end{aligned}\end{equation*}
+}
+	\only<2-4>{\[\tilde G^{-1} = \frac{2}{Nw}\sum_{\left<ij \right>}G^{-1}_D(\omega, i, j)\]
 \begin{itemize}
-	\only<+>{
-	\item Take diagonal matrix element \(\bra{\tilde i}G^{-1}\ket{\tilde i}\), against excitations above the \textit{exact ground state}. On the RHS, there are \(w\) terms that have the index \(i\).
+	\only<2>{\item Take diagonal matrix element \(\bra{\tilde i}G^{-1}\ket{\tilde i}\), against excitations above the \textit{exact ground state}:
+		\[\ket{\tilde i} \equiv \mathcal{U}\ket{i} = \mathcal{U}c^\dagger_i \ket{0}\]
+On the RHS, there are \(w\) terms that have the index \(i\).
 	\begin{equation*}
 		\left(\tilde G^{-1}\right)_{\tilde i, \tilde i} = \left(G^{-1}\right)_{i,i} = \frac{2}{Nw}\times \left(G_D^{-1}\right)_{ii}\times w = \frac{2}{N}\left(G_D^{-1}\right)_{00} \equiv g_0
 	\end{equation*}
+	\begin{center}
+	(due to translation invariance)
+	\end{center}
 }
-\only<+>{
-\item Take nearest-neighbour matrix element \(\bra{\tilde i}\tilde G^{-1}\ket{\tilde j}\). On the RHS, there's just one term that has both indices \(i\) and \(j\).
+\only<3>{\item Take nearest-neighbour matrix element \(\bra{\tilde i}\tilde G^{-1}\ket{\tilde j}\). On the RHS, there's just one term that has both indices \(i\) and \(j\).
 	\begin{equation*}
 		\left(\tilde G^{-1}\right)_{\tilde i, \tilde j} = \left(G^{-1}\right)_{i, j} = \frac{2}{Nw}\times \left(G_D^{-1}\right)_{ij} = \frac{2}{Nw}\left(G_D^{-1}\right)_{01} \equiv g_1
 	\end{equation*}
+	\begin{center}
+	(due to translation invariance)
+	\end{center}
 }
-\only<+>{
-\item \focus{All other matrix elements are zero}, because no term in the Hamiltonian scatters between non-nearest-neighbour sites \\
-	\(\longrightarrow\) \focus{tri-diagonal inverse Greens function matrix}
+\only<4>{\item \focus{All other matrix elements are zero}, because no term in the Hamiltonian scatters between non-nearest-neighbour sites \\
+	\(\longrightarrow\) \focus{inverse Greens function matrix has contributions only from nearest neighbour sites, and respects the lattice geometry}
 }
 \end{itemize}
+}
 \end{frame}
 
 \begin{frame}{Diagonalizing the inverse Greens function matrix}
@@ -157,9 +133,9 @@ H^A = \sum_{k\sigma}\tilde\epsilon_k\tau_{k\sigma} + U^A \tau_{d \uparrow} \tau_
 				0 &0 & ...&
 	\end{pmatrix}
 \end{equation*}
-\begin{equation*}
-	\xi_{\vec k} = \sum_\text{i=1}^w \cos (a_i q_i)
-\end{equation*}
+\[\xi_{\vec k} = \sum_\text{i=1}^w \cos (a_i k_i)\]
+\[k_i \equiv \text{ projection of $\vec k$ on the $i^\text{th}$ primitive vector}, a_i \equiv \text{ lattice spacing along $i^\text{th}$ dimension}\]
+\cen{$\xi_{\vec k}$ arises from lattice geometry and \focus{introduces non-locality in $G^{-1}$}.}
 }
 \only<2>{
 {\large
@@ -178,17 +154,17 @@ H^A = \sum_{k\sigma}\tilde\epsilon_k\tau_{k\sigma} + U^A \tau_{d \uparrow} \tau_
 }
 }
 \end{frame}
-\begin{frame}{Compute Single-particle Greens functions and other stuff}
+\begin{frame}{Single-particle Greens functions and related quantities}
 \large
 \begin{equation*}\begin{aligned}
 	\only<1-4>{
-	\text{\focus{$\color{blue}{\vec k}$-space Greens function: }}\quad G_H (\vec k, \omega) &= \frac{N}{2}\left\{\left[G_{D}^{-1}(\omega)\right]_{00} + \frac{1}{w}\left[G_{D}^{-1}(\omega)\right]_{01}\xi_{\vec k}\right\}^{-1}\\[20pt]}
+	\text{\focus{$\color{blue}{\vec k}$-space Greens function: }} G_H (\vec k, \omega) &= \frac{N}{2}\left\{\left[G_{D}^{-1}(\omega)\right]_{00} + \frac{1}{w}\left[G_{D}^{-1}(\omega)\right]_{01}\xi_{\vec k}\right\}^{-1}\\[20pt]}
 	\only<2-4>{
-	\text{$\color{blue}{\vec r}$\focus{-space Greens function: }}\quad G_H (\vec r, \omega) &= \frac{1}{2}\sum_{\vec k}e^{i \vec{k}\cdot\vec{r}}\left\{\left[G_{D}^{-1}(\omega)\right]_{00} + \frac{1}{w}\left[G_{D}^{-1}(\omega)\right]_{01}\xi_{\vec k}\right\}^{-1}\\[20pt]}
+	\text{$\color{blue}{\vec r}$\focus{-space Greens function: }} G_H (\vec r, \omega) &= \sum_{\vec k}\frac{e^{i \vec{k}\cdot\vec{r}}}{2}\left\{\left[G_{D}^{-1}(\omega)\right]_{00} + \left[G_{D}^{-1}(\omega)\right]_{01}\frac{\xi_{\vec k}}{w}\right\}^{-1}\\[20pt]}
 	\only<3-4>{
-	\text{\focus{self-energy: }}\quad \Sigma_H (\vec k, \omega) &= \omega - g_0 + \left(t^H - g_1\right)\xi_{\vec k}\\[20pt]}
+	\text{\focus{self-energy: }} \Sigma_H (\vec k, \omega) &= \omega - g_0 + \left(t^H - g_1\right)\xi_{\vec k}\\[20pt]}
 \only<4-4>{
-	\text{\focus{Spectral function: }}\quad A_{H}(\vec{k},\omega) &= -\frac{1}{\pi} \textrm{Im}(G_{H}(\vec{k},\omega)) = -\frac{1}{\pi} \textrm{Im}\left[ (g_{0} + g_{1}\xi_{\vec{k}})^{-1}\right]
+	\text{\focus{Spectral function: }} A_{H}(\vec{k},\omega) &= -\frac{1}{\pi} \textrm{Im}(G_{H}(\vec{k},\omega)) = -\frac{1}{\pi} \textrm{Im}\left[ (g_{0} + g_{1}\xi_{\vec{k}})^{-1}\right]
 }
 \end{aligned}\end{equation*}
 \end{frame}
@@ -199,12 +175,16 @@ H^A = \sum_{k\sigma}\tilde\epsilon_k\tau_{k\sigma} + U^A \tau_{d \uparrow} \tau_
 \only<+>{
 Hamiltonian scaling arguments suggest \footnotemark
 \begin{equation*}
-	G_{ij} = G_{ii}\delta_{ij}
+%	G_{ij} = G_{ii}\delta_{ij}
+t^{H} \to t^{H}/\sqrt{w}
 \end{equation*}
-(\focus{Greens function becomes local})
+\begin{itemize}
+	\item In an auxiliary model treatment of the Hubbard model on this lattice, \focus{there is only one (direct) path linking the impurity to a given neighbouring bath site.}\\[10pt]
+\item This ensures that the impurity self-energy is related \focus{simply to the local part of the bath Greens function.}
+\end{itemize} 
 }
 \only<+>{
-Also emerges from this formulation:
+A locality also emerges from our formulation:
 
 \begin{equation*}
 G^{-1}_{ii} = \frac{2}{N}\left[G^{-1}_D\right]_{00} \to \text{finite}
@@ -217,31 +197,37 @@ G^{-1}_{ii} = \frac{2}{N}\left[G^{-1}_D\right]_{00} \to \text{finite}
 
 \(G^{-1}_{ij}\) becomes diagonal
 \(\longrightarrow \color{blue}{G_{ij}} \) \focus{becomes diagonal}
+\[\Sigma_H (\vec k, \omega) \to \omega - g_0 + t^H \xi_{\vec k} \]
 }
 \end{minipage}
 \begin{minipage}{0.4\textwidth}
 	\centering
 	\includegraphics[width=0.7\textwidth]{./bethe.png}\\[20pt]
-	Bethe lattice with \(w=3\)
+	Bethe lattice with \(w=3\)\\[10pt]
+	No non-trivial loops on this lattice. Any pair of sites $(i,j)$ are only connected via a direct path (if it exists).
 \end{minipage}
 \footnotetext{Vollhardt, Krzysztof and Marcus, Dynamical Mean-Field Theory, 2012, Springer Berlin Heidelberg}
 \end{frame}
-
 \begin{frame}{Choosing ground state wavefunctions}
-These are some strategies for choosing the ground state with which to measure the Greens functions:
-\vspace*{\fill}
+Note that our formulation is in principle exact if we use the exact ground state eigenfunction of the Hubbard model. Putting this into practice is however difficult.
+\end{frame}
+\begin{frame}{Choosing ground state wavefunctions}
+\begin{itemize}
+\item These are some strategies for choosing the ground state with which to measure the Greens functions:
+\end{itemize}
+%\vspace*{\fill}
 \begin{itemize}
 	\only<+>{
 	\item Localized limit: \[\ket{\tilde 0} = \sum_{\left<ij \right>}\ket{0^D_{ij}}\otimes\ket{\Phi}\]
 		\begin{itemize}
-			\item Simple expressions for $g_0$ and $g_1$
-			\item However, huge loss in entanglement
+			\item Analytic expressions for $g_0$ and $g_1$
+			\item However, reduction of many-particle entanglement to only short-ranged
 		\end{itemize}
 	}
 	\only<+>{
 	\item Compute exact wavefunctions numerically for given values of $U^H$ and $t^H$:
 		\begin{itemize}
-			\item In principle exact, however size of lattice has to be small to allow exact diagonalization
+			\item In principle exact, however size of lattice has to be small to allow exact diagonalization (or any other numerical method)
 			\item High accuracy but no analytical insight
 		\end{itemize}
 	}
@@ -281,14 +267,15 @@ These are some strategies for choosing the ground state with which to measure th
 \begin{frame}{Future Goals}
 	\begin{itemize}
 		\item Obtain expressions for two-particle Greens functions, in order to study holon/doublon excitations
-		\item Recreate the metal-insulator transition, either just from the dispersive bath, or by inserting suitable self-energy $\Sigma(k,\omega)$ in the bath dispersion.
+		\item Recreate the metal-insulator transition for the Hubbard model on (say) the 2D square lattice either just from the dispersive bath, or by inserting suitable self-energy $\Sigma(k,\omega)$ in the bath dispersion.
 		\item Once some numerical accuracy is achieved, we can extend the method to other strongly-correlated models like the Heiseberg model for spins, or the periodic Anderson and Kondo models
 	\end{itemize}
 \end{frame}
 
 \begin{frame}
-	\centering
+	\begin{center}
 	\Large
 	Thank you for your attention.
+	\end{center}
 \end{frame}
 \end{document}
