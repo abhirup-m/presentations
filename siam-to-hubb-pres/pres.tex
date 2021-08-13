@@ -42,7 +42,8 @@ to the Hubbard Model}
 \begin{minipage}{0.45\textwidth}
 	\[H^H = -t^H\sum_{\sigma,\left<i,j \right>}\left(c^\dagger_{i\sigma} c_{j\sigma} + \text{h.c.}\right) + U^H\sum_i \tau_{i \uparrow} \tau_{i \downarrow}\]
 \end{minipage}
-\begin{minipage}{0.53\textwidth}
+\hspace*{15pt}
+\begin{minipage}{0.5\textwidth}
 	\begin{equation*}\begin{aligned}
 H^A = \sum_{k\sigma}\tilde\epsilon_k\tau_{k\sigma} + U^A \tau_{d \uparrow} \tau_{d \downarrow} + U_b \sum_{kk^\prime}\hat n_k \hat n_{k^\prime}\\
 -t^A\sum_{k\sigma}\left(c^\dagger_{d\sigma}c_{k\sigma} + \text{h.c.}\right)
@@ -123,7 +124,7 @@ H^A = \sum_{k\sigma}\tilde\epsilon_k\tau_{k\sigma} + U^A \tau_{d \uparrow} \tau_
 \end{aligned}\end{equation*}
 \begin{itemize}
 	\only<+>{
-		\item Take diagonal matrix element \(\bra{\tilde i}G^{-1}\ket{\tilde i}\). On the RHS, there are \(w\) terms that have the index \(i\). Because of translational invariance, all such terms will be same.
+	\item Take diagonal matrix element \(\bra{\tilde i}G^{-1}\ket{\tilde i}\), against excitations above the \textit{exact ground state}. On the RHS, there are \(w\) terms that have the index \(i\).
 	\begin{equation*}
 		\left(\tilde G^{-1}\right)_{\tilde i, \tilde i} = \left(G^{-1}\right)_{i,i} = \frac{2}{Nw}\times \left(G_D^{-1}\right)_{ii}\times w = \frac{2}{N}\left(G_D^{-1}\right)_{00} \equiv g_0
 	\end{equation*}
@@ -180,7 +181,6 @@ H^A = \sum_{k\sigma}\tilde\epsilon_k\tau_{k\sigma} + U^A \tau_{d \uparrow} \tau_
 \begin{frame}{Compute Single-particle Greens functions and other stuff}
 \large
 \begin{equation*}\begin{aligned}
-	\hspace*{-100pt}
 	\only<1-4>{
 	\text{\focus{$\color{blue}{\vec k}$-space Greens function: }}\quad G_H (\vec k, \omega) &= \frac{N}{2}\left\{\left[G_{D}^{-1}(\omega)\right]_{00} + \frac{1}{w}\left[G_{D}^{-1}(\omega)\right]_{01}\xi_{\vec k}\right\}^{-1}\\[20pt]}
 	\only<2-4>{
@@ -225,6 +225,65 @@ G^{-1}_{ii} = \frac{2}{N}\left[G^{-1}_D\right]_{00} \to \text{finite}
 	Bethe lattice with \(w=3\)
 \end{minipage}
 \footnotetext{Vollhardt, Krzysztof and Marcus, Dynamical Mean-Field Theory, 2012, Springer Berlin Heidelberg}
+\end{frame}
+
+\begin{frame}{Choosing ground state wavefunctions}
+These are some strategies for choosing the ground state with which to measure the Greens functions:
+\vspace*{\fill}
+\begin{itemize}
+	\only<+>{
+	\item Localized limit: \[\ket{\tilde 0} = \sum_{\left<ij \right>}\ket{0^D_{ij}}\otimes\ket{\Phi}\]
+		\begin{itemize}
+			\item Simple expressions for $g_0$ and $g_1$
+			\item However, huge loss in entanglement
+		\end{itemize}
+	}
+	\only<+>{
+	\item Compute exact wavefunctions numerically for given values of $U^H$ and $t^H$:
+		\begin{itemize}
+			\item In principle exact, however size of lattice has to be small to allow exact diagonalization
+			\item High accuracy but no analytical insight
+		\end{itemize}
+	}
+	\only<+>{
+	\item Improve the wavefunction by connecting the Hubbard dimer to a bath:
+		\begin{minipage}{0.65\textwidth}
+		\[\underbrace{H^D}_\text{Hubbard dimer} + \underbrace{\sum_{k\sigma}\epsilon_{k\sigma}\tau_{k\sigma}}_\text{bath} \quad \underbrace{- t \sum_{k\sigma}\left(c^\dagger_{\tilde i\sigma}c_{k\sigma} + c^\dagger_{\tilde j\sigma}c_{k\sigma} + \text{h.c.}\right)}_\text{bath-dimer hybridisation}\]
+		\begin{itemize}
+			\item Allows systematic improvement by increasing number of momentum states in bath
+			\item Introduces more entanglement, because the electrons of the dimer can now traverse through the bath
+			\item Introduces a three peak spectral function , and hence of observing a metal-insulator transition
+		\end{itemize}
+		\end{minipage}
+		\hspace*{\fill}
+		\begin{minipage}{0.25\textwidth}
+			\includegraphics[width=0.9\textwidth]{./dimer_dispersion.png}
+		\end{minipage}
+	}
+	\only<+>{
+	\item Further improve the wavefunction by introducint self-energy into the bath:
+		\begin{minipage}{0.65\textwidth}
+			\[\epsilon_k \to \epsilon_k + \Sigma(k, \omega)\]
+		\begin{itemize}
+			\item Singular $\Sigma$ would introduce gap in bath spectrum and potentially lead to insulating phase
+			\item Regular $\Sigma$ (for eg., $\sim \omega^2$) allows low energy excitations and might result in metallic phase
+			\item Overall, greater control over the physics
+		\end{itemize}
+		\end{minipage}
+		\hspace*{\fill}
+		\begin{minipage}{0.25\textwidth}
+			\includegraphics[width=0.9\textwidth]{./dimer_dispersion_selfenergy.png}
+		\end{minipage}
+	}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Future Goals}
+	\begin{itemize}
+		\item Obtain expressions for two-particle Greens functions, in order to study holon/doublon excitations
+		\item Recreate the metal-insulator transition, either just from the dispersive bath, or by inserting suitable self-energy $\Sigma(k,\omega)$ in the bath dispersion.
+		\item Once some numerical accuracy is achieved, we can extend the method to other strongly-correlated models like the Heiseberg model for spins, or the periodic Anderson and Kondo models
+	\end{itemize}
 \end{frame}
 
 \end{document}
