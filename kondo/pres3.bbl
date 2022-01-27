@@ -184,6 +184,70 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{anirbanurg1}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MA}{%
+         family={Mukherjee},
+         familyi={M\bibinitperiod},
+         given={Anirban},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Lal},
+         familyi={L\bibinitperiod},
+         given={Siddhartha},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MALS1}
+    \strng{fullhash}{MALS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{pages}{115170}
+    \field{title}{Unitary renormalisation group for correlated electrons-I: a
+  tensor network approach}
+    \field{volume}{960}
+    \field{journaltitle}{Nuclear Physics B}
+    \field{year}{2020}
+  \endentry
+
+  \entry{anirbanurg2}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MA}{%
+         family={Mukherjee},
+         familyi={M\bibinitperiod},
+         given={Anirban},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Lal},
+         familyi={L\bibinitperiod},
+         given={Siddhartha},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MALS1}
+    \strng{fullhash}{MALS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{pages}{115163}
+    \field{title}{Unitary renormalisation group for correlated electrons-II:
+  insights on fermionic criticality}
+    \field{volume}{960}
+    \field{journaltitle}{Nuclear Physics B}
+    \field{year}{2020}
+  \endentry
+
   \entry{wiegmann_kondoexact_1981}{article}{}
     \name{author}{1}{}{%
       {{hash=WPB}{%

@@ -72,55 +72,81 @@ Kondo model}
 \begin{minipage}{0.6\textwidth}
 \begin{itemize}[<+-|alert@+>]
 \item Kondo coupling \(J\) renormalises to infinity\\[10pt]
-\item \(\chi\) constant at low temperatures, \(C_v\) linear\\[10pt]
 \item low energy phase of metal is local Fermi liquid\\[10pt]
+\item \(\chi\) constant at low temperatures, \(C_v\) linear\\[10pt]
 \item thermal quantities functions of single scale \(T/T_K\)\\[10pt]
 \end{itemize}
 \end{minipage}
 \begin{minipage}{0.35\textwidth}
-	\only<2>{\includegraphics{}}
-	\only<3>{\includegraphics{}}
-	\only<4>{\includegraphics{}}
-	\only<5>{\includegraphics{}}
+	\only<2-3>{\includegraphics[width=\textwidth]{figures/cloud_lFL.pdf}}
+	\only<4-5>{\includegraphics[width=\textwidth]{figures/chi_schematic.pdf}}
 \end{minipage}
 \footcite{anderson1969exact,anderson1970,wilson1975,andreiKondoreview,andrei_kondo,wiegmann_kondoexact_1981}
 }
 \end{frame}
-\end{document}
 
-\section{Some Outstanding Questions}
-\begin{frame}[noframenumbering]{Some Outstanding Questions}
+\section{What's left to understand?}
+\begin{frame}[noframenumbering]{What's Left To Understand?}
   
-\begin{itemize}
-	\uncover<1-5>{\item Is it possible to get \focus{non-perturbative scaling equations} for the whole journey?
-	\vspace*{10pt}
-}
-	\uncover<2-5>{\item What is the nature of the strong-coupling fixed point for a \focus{finite system} where \(V \neq \infty\)?
-	\vspace*{10pt}
-	}
-	\uncover<3-5>{\item Is it possible to show the \focus{transfer of spectral weight} along the flow, possibly by tracking the spectral function?
-	\vspace*{10pt}
-	}
-	\uncover<4-5>{\item How does the renormalization affect the \focus{many-particle entanglement} between the electrons?
-	\vspace*{10pt}
-	}
-	\uncover<5>{\item Are there any interesting \focus{topological aspects} of the fixed points?}
+\begin{itemize}[<+-|alert@+>]
+	\item Finite \(J\) effective Hamiltonian at fixed point
+	\vspace*{20pt}
+	\item Effective Hamiltonian for the itinerant electrons forming the Kondo cloud
+	\vspace*{20pt}
+	\item Nature of correlations inside the Kondo cloud: Fermi liquid vs off-diagonal
+	\vspace*{20pt}
+	\item Behaviour of many-particle entanglement and many-particle correlations under RG flow
 \end{itemize}
 
 \end{frame}
 
-\section{The Unitary Renormalization Group}
-\begin{frame}[noframenumbering]{Unitary Renormalization Group: Overview}
+\section{The Unitary Renormalization Group Method}
+\begin{frame}[noframenumbering]{The Unitary Renormalization Group: Overview}
 
-	\only<+>{\begin{minipage}{200pt}\cen{\textbf{The Short Version}}Apply \textit{unitary many-body transformations} to the Hamiltonian so as to successively \textit{decouple} high energy states and hence obtain scaling equations.\end{minipage}\begin{minipage}{250pt}\begin{figure}
-\def\svgwidth{\columnwidth}
 \centering
-\scalebox{0.5}{\input{urg_short.pdf_tex}}
-\end{figure}\end{minipage}}
-\footcite{holography1}
+\textbf{\large The General Idea}\\[10pt]
+\only<1-3>{
+\begin{minipage}{0.8\textwidth}
+\begin{itemize}[<+-|alert@+>]
+	\item Apply unitary many-body transformations to the Hamiltonian\\[10pt]
+	\item Successively decouple high energy states\\[10pt]
+	\item Obtain sequence of Hamiltonians and hence scaling equations
+\end{itemize}
+\end{minipage}
+}
+\hspace*{\fill}
+\begin{minipage}{0.15\textwidth}
+\begin{figure}
+	\includegraphics[width=0.7\textwidth]{figures/urg_schematic.pdf}
+\end{figure}
+\end{minipage}
+\footcite{anirbanurg1,anirbanurg2}
 \end{frame}
-\begin{frame}[noframenumbering]{URG: Formalism}
-\only<+>{\begin{minipage}{200pt}\cen{\large{\textbf{Step 1:}}}Start with the electrons farthest from the Fermi surface. Write the Hamiltonian as \textit{diagonal and off-diagonal terms} in this basis.\end{minipage}\begin{minipage}{300pt}
+\begin{frame}[noframenumbering]{The Unitary Renormalization Group: Formalism}
+\centering
+\only<+>{
+\large{\textbf{Step 1: Select a UV-IR Scheme}}
+\vspace*{\fill}
+
+\begin{minipage}{0.5\textwidth}
+\centering
+\(k_N \equiv \text{UV state}\)\\
+\(\cdot\)\\
+\(\cdot\)\\
+\(k_j\)\\
+\(\cdot\)\\
+\(\cdot\)\\
+\(k_1 \equiv \text{IR state (Fermi surface)}\)
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.4\textwidth}
+\includegraphics[width=0.9\textwidth]{figures/uv_ir_scheme.pdf}
+\end{minipage}
+}
+
+\only<+>{
+\large{\textbf{Step 1: Select a UV-IR Scheme}}
+\begin{minipage}{200pt}Start with the electrons farthest from the Fermi surface. Write the Hamiltonian as \textit{diagonal and off-diagonal terms} in this basis.\end{minipage}\begin{minipage}{300pt}
 	\begin{figure}
 \def\svgwidth{\columnwidth}
 \centering
@@ -143,20 +169,21 @@ Kondo model}
 \end{figure}}
 \end{frame}
 
+\begin{frame}[noframenumbering]{The Unitary Renormalization Group: Salient Features}
+\vspace*{\fill}
+\begin{itemize}[<+-|alert@+>]
+	{\item Presence of the quantum fluctuation energy scale \(\omega\)
+	\vspace{10pt}}
+	{\item Presence of finite-valued fixed points
+	\vspace{10pt}}
+	{\item Spectrum-preserving transformations
+	\vspace{10pt}}
+	\item Tractable low-energy effective Hamiltonians
+\end{itemize}
+\vspace*{\fill}
+\end{frame}
 
-% \begin{frame}[noframenumbering]{URG: Salient Features}
-% \vspace*{\fill}
-% \begin{itemize}
-% 	\Large\only<1-4>{\item Presence of the quantum fluctuation energy scale \(\omega\)
-% 	\vspace{10pt}}
-% 	\only<2-4>{\item Presence of finite-valued fixed points
-% 	\vspace{10pt}}
-% 	\only<3-4>{\item Spectrum-preserving transformations
-% 	\vspace{10pt}}
-% 	\only<4>{\item Tractable low-energy effective Hamiltonians}
-% \end{itemize}
-% \vspace*{\fill}
-% \end{frame}
+\end{document}
 
 \section{Generalized SIAM}
 \begin{frame}[noframenumbering]{Model: Generalized SIAM}
@@ -164,6 +191,7 @@ Kondo model}
 \scalebox{1.3}{\(H = H_\text{SIAM} + J \vec{S_d}\cdot\vec{s} + K \vec{C_d}\cdot\vec{c}\)}
 }
 \vspace*{20pt}
+
 \begin{minipage}{0.6\textwidth}
 	\centering
 	\includegraphics[width=\textwidth]{figures/gen_siam.png}
