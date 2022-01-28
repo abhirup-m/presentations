@@ -45,15 +45,29 @@
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {14}{16}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{0}{3}{17/20}{}{0}}
+\headcommand {\slideentry {3}{0}{3}{17/21}{}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {17}{20}}
+\headcommand {\beamer@framepages {17}{21}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{0}{4}{21/24}{}{0}}
+\headcommand {\slideentry {3}{0}{4}{22/25}{}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {21}{24}}
-\headcommand {\beamer@partpages {1}{24}}
-\headcommand {\beamer@subsectionpages {13}{24}}
-\headcommand {\beamer@sectionpages {13}{24}}
-\headcommand {\beamer@documentpages {24}}
+\headcommand {\beamer@framepages {22}{25}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {13}{25}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {13}{25}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {4}{URG of the Kondo Model}{26}{URG of the Kondo Model}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{1}{26/26}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {26}{26}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{2}{27/30}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {27}{30}}
+\headcommand {\beamer@partpages {1}{30}}
+\headcommand {\beamer@subsectionpages {26}{30}}
+\headcommand {\beamer@sectionpages {26}{30}}
+\headcommand {\beamer@documentpages {30}}
 \headcommand {\gdef \inserttotalframenumber {-1}}

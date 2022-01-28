@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.12.31)  28 JAN 2022 02:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.12.31)  28 JAN 2022 13:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1341,7 +1341,12 @@ Package pdftex.def Info: figures/chi_schematic.pdf  used on input line 86.
 
 ] [8
 
-] [9
+]
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10.95> not available
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 101.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
+(Font)              scaled to size 10.95pt on input line 101.
+ [9
 
 ] [10
 
@@ -1352,465 +1357,133 @@ Package pdftex.def Info: figures/chi_schematic.pdf  used on input line 86.
 ] [13
 
 ]
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10.95> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 124.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 10.95pt on input line 124.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <12> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 124.
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 123.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 124.
-<figures/urg_schematic.pdf, id=148, 124.438pt x 262.98471pt>
+(Font)              scaled to size 12.0pt on input line 123.
+<figures/urg_schematic.pdf, id=151, 124.438pt x 262.98471pt>
 File: figures/urg_schematic.pdf Graphic file (type pdf)
 <use figures/urg_schematic.pdf>
-Package pdftex.def Info: figures/urg_schematic.pdf  used on input line 124.
+Package pdftex.def Info: figures/urg_schematic.pdf  used on input line 123.
 (pdftex.def)             Requested size: 43.31735pt x 91.54442pt.
  [14
 
  <./figures/urg_schematic.pdf>]
 File: figures/urg_schematic.pdf Graphic file (type pdf)
 <use figures/urg_schematic.pdf>
-Package pdftex.def Info: figures/urg_schematic.pdf  used on input line 124.
+Package pdftex.def Info: figures/urg_schematic.pdf  used on input line 123.
 (pdftex.def)             Requested size: 43.31735pt x 91.54442pt.
  [15
 
 ]
 File: figures/urg_schematic.pdf Graphic file (type pdf)
 <use figures/urg_schematic.pdf>
-Package pdftex.def Info: figures/urg_schematic.pdf  used on input line 124.
+Package pdftex.def Info: figures/urg_schematic.pdf  used on input line 123.
 (pdftex.def)             Requested size: 43.31735pt x 91.54442pt.
  [16
 
 ]
-<figures/uv_ir_scheme.pdf, id=176, 686.48897pt x 686.48897pt>
+<figures/uv_ir_scheme.pdf, id=178, 686.48897pt x 686.48897pt>
 File: figures/uv_ir_scheme.pdf Graphic file (type pdf)
 <use figures/uv_ir_scheme.pdf>
-Package pdftex.def Info: figures/uv_ir_scheme.pdf  used on input line 170.
+Package pdftex.def Info: figures/uv_ir_scheme.pdf  used on input line 219.
 (pdftex.def)             Requested size: 148.52011pt x 148.51404pt.
  [17
 
- <./figures/uv_ir_scheme.pdf>] (./matrix.pdf_tex
-<matrix.pdf, id=184, page=1, 218.04697pt x 159.20662pt>
-File: matrix.pdf Graphic file (type pdf)
-<use matrix.pdf, page 1>
-Package pdftex.def Info: matrix.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 300.0pt x 219.05916pt.
-<matrix.pdf, id=185, page=2, 218.04697pt x 159.20662pt>
-File: matrix.pdf Graphic file (type pdf)
-<use matrix.pdf, page 2>
-Package pdftex.def Info: matrix.pdf , page2 used on input line 61.
-(pdftex.def)             Requested size: 300.0pt x 219.05916pt.
-<matrix.pdf, id=186, page=3, 218.04697pt x 159.20662pt>
-File: matrix.pdf Graphic file (type pdf)
-<use matrix.pdf, page 3>
-Package pdftex.def Info: matrix.pdf , page3 used on input line 64.
-(pdftex.def)             Requested size: 300.0pt x 219.05916pt.
-<matrix.pdf, id=187, page=4, 218.04697pt x 159.20662pt>
-File: matrix.pdf Graphic file (type pdf)
-<use matrix.pdf, page 4>
-Package pdftex.def Info: matrix.pdf , page4 used on input line 66.
-(pdftex.def)             Requested size: 300.0pt x 219.05916pt.
-)
-Overfull \hbox (87.43503pt too wide) in paragraph at lines 170--170
- []$$[]$ 
+ <./figures/uv_ir_scheme.pdf>]
+Overfull \hbox (64.86829pt too wide) detected at line 219
+[] [][]\OMS/lmsy/m/n/12 ! []
  []
 
-
-Overfull \vbox (17.7461pt too high) detected at line 170
- []
-
+<figures/urg_ham.pdf, id=189, 638.09737pt x 473.68864pt>
+File: figures/urg_ham.pdf Graphic file (type pdf)
+<use figures/urg_ham.pdf>
+Package pdftex.def Info: figures/urg_ham.pdf  used on input line 219.
+(pdftex.def)             Requested size: 185.65297pt x 137.81432pt.
 [18
 
- <./matrix.pdf> <./matrix.pdf
+ <./figures/urg_ham.pdf>]
 
-pdfTeX warning: pdflatex (file ./matrix.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./matrix.pdf
+Package amsmath Warning: Foreign command \atop;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 219.
 
-pdfTeX warning: pdflatex (file ./matrix.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./matrix.pdf
 
-pdfTeX warning: pdflatex (file ./matrix.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] (./rotation.pdf_tex
-<rotation.pdf, id=195, page=1, 721.63394pt x 273.49762pt>
-File: rotation.pdf Graphic file (type pdf)
-<use rotation.pdf, page 1>
-Package pdftex.def Info: rotation.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 412.56497pt x 156.36266pt.
-<rotation.pdf, id=196, page=2, 721.63394pt x 273.49762pt>
-File: rotation.pdf Graphic file (type pdf)
-<use rotation.pdf, page 2>
-Package pdftex.def Info: rotation.pdf , page2 used on input line 59.
-(pdftex.def)             Requested size: 412.56497pt x 156.36266pt.
-<rotation.pdf, id=197, page=3, 721.63394pt x 273.49762pt>
-File: rotation.pdf Graphic file (type pdf)
-<use rotation.pdf, page 3>
-Package pdftex.def Info: rotation.pdf , page3 used on input line 61.
-(pdftex.def)             Requested size: 412.56497pt x 156.36266pt.
-LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <14.4> not available
-(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 63.
-LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 63.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 63.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <14.4> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 63.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 14.4pt on input line 63.
-<rotation.pdf, id=198, page=4, 721.63394pt x 273.49762pt>
-File: rotation.pdf Graphic file (type pdf)
-<use rotation.pdf, page 4>
-Package pdftex.def Info: rotation.pdf , page4 used on input line 64.
-(pdftex.def)             Requested size: 412.56497pt x 156.36266pt.
-<rotation.pdf, id=199, page=5, 721.63394pt x 273.49762pt>
-File: rotation.pdf Graphic file (type pdf)
-<use rotation.pdf, page 5>
-Package pdftex.def Info: rotation.pdf , page5 used on input line 69.
-(pdftex.def)             Requested size: 412.56497pt x 156.36266pt.
-<rotation.pdf, id=200, page=6, 721.63394pt x 273.49762pt>
-File: rotation.pdf Graphic file (type pdf)
-<use rotation.pdf, page 6>
-Package pdftex.def Info: rotation.pdf , page6 used on input line 71.
-(pdftex.def)             Requested size: 412.56497pt x 156.36266pt.
-<rotation.pdf, id=201, page=7, 721.63394pt x 273.49762pt>
-File: rotation.pdf Graphic file (type pdf)
-<use rotation.pdf, page 7>
-Package pdftex.def Info: rotation.pdf , page7 used on input line 76.
-(pdftex.def)             Requested size: 412.56497pt x 156.36266pt.
-) [19
+Overfull \hbox (8.93108pt too wide) detected at line 219
+\OML/lmm/m/it/12 ^^Q[] \OT1/FiraSans-OsF/regular/n/12 = []\T1/FiraSans-OsF/regular/it/12 c[]T[] \OMS/lmsy/m/n/12 ! []
+ []
 
- <./rotation.pdf> <./rotation.pdf
+<figures/urg_rot.pdf, id=199, 746.58543pt x 746.58537pt>
+File: figures/urg_rot.pdf Graphic file (type pdf)
+<use figures/urg_rot.pdf>
+Package pdftex.def Info: figures/urg_rot.pdf  used on input line 219.
+(pdftex.def)             Requested size: 165.02661pt x 165.02394pt.
+[19
 
-pdfTeX warning: pdflatex (file ./rotation.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./rotation.pdf
+ <./figures/urg_rot.pdf>]
+<figures/urg_next.pdf, id=210, 718.92056pt x 703.8643pt>
+File: figures/urg_next.pdf Graphic file (type pdf)
+<use figures/urg_next.pdf>
+Package pdftex.def Info: figures/urg_next.pdf  used on input line 219.
+(pdftex.def)             Requested size: 185.65297pt x 181.76529pt.
+ [20
 
-pdfTeX warning: pdflatex (file ./rotation.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./rotation.pdf
-
-pdfTeX warning: pdflatex (file ./rotation.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./rotation.pdf
-
-pdfTeX warning: pdflatex (file ./rotation.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./rotation.pdf
-
-pdfTeX warning: pdflatex (file ./rotation.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./rotation.pdf
-
-pdfTeX warning: pdflatex (file ./rotation.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] (./repeat.pdf_tex
-<repeat.pdf, id=235, page=1, 680.96976pt x 258.51381pt>
-File: repeat.pdf Graphic file (type pdf)
-<use repeat.pdf, page 1>
-Package pdftex.def Info: repeat.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 412.56497pt x 156.62419pt.
-<repeat.pdf, id=236, page=2, 680.96976pt x 258.51381pt>
-File: repeat.pdf Graphic file (type pdf)
-<use repeat.pdf, page 2>
-Package pdftex.def Info: repeat.pdf , page2 used on input line 61.
-(pdftex.def)             Requested size: 412.56497pt x 156.62419pt.
-<repeat.pdf, id=237, page=3, 680.96976pt x 258.51381pt>
-File: repeat.pdf Graphic file (type pdf)
-<use repeat.pdf, page 3>
-Package pdftex.def Info: repeat.pdf , page3 used on input line 64.
-(pdftex.def)             Requested size: 412.56497pt x 156.62419pt.
-<repeat.pdf, id=238, page=4, 680.96976pt x 258.51381pt>
-File: repeat.pdf Graphic file (type pdf)
-<use repeat.pdf, page 4>
-Package pdftex.def Info: repeat.pdf , page4 used on input line 66.
-(pdftex.def)             Requested size: 412.56497pt x 156.62419pt.
-<repeat.pdf, id=239, page=5, 680.96976pt x 258.51381pt>
-File: repeat.pdf Graphic file (type pdf)
-<use repeat.pdf, page 5>
-Package pdftex.def Info: repeat.pdf , page5 used on input line 69.
-(pdftex.def)             Requested size: 412.56497pt x 156.62419pt.
-) [20
-
- <./repeat.pdf> <./repeat.pdf
-
-pdfTeX warning: pdflatex (file ./repeat.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./repeat.pdf
-
-pdfTeX warning: pdflatex (file ./repeat.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./repeat.pdf
-
-pdfTeX warning: pdflatex (file ./repeat.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./repeat.pdf
-
-pdfTeX warning: pdflatex (file ./repeat.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-./pres3.tex:184: Extra }, or forgotten \endgroup.
-\beamer@doifinframe ...\(\omega \) \vspace {10pt}}
-                                                   {\item Presence of finite...
-l.184 \end{frame}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./pres3.tex:184: Missing } inserted.
-<inserted text> 
-                }
-l.184 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./pres3.tex:184: Extra }, or forgotten \endgroup.
-\beamer@doifinframe ...ixed points \vspace {10pt}}
-                                                   {\item Spectrum-preservin...
-l.184 \end{frame}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./pres3.tex:184: Missing } inserted.
-<inserted text> 
-                }
-l.184 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./pres3.tex:184: Extra }, or forgotten \endgroup.
-\beamer@doifinframe ...sformations \vspace {10pt}}
-                                                   \item Tractable low-energ...
-l.184 \end{frame}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./pres3.tex:184: Missing } inserted.
-<inserted text> 
-                }
-l.184 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[21
+ <./figures/urg_next.pdf>] [21
 
 ]
-./pres3.tex:184: Extra }, or forgotten \endgroup.
-\beamer@doifinframe ...\(\omega \) \vspace {10pt}}
-                                                   {\item Presence of finite...
-l.184 \end{frame}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./pres3.tex:184: Missing } inserted.
-<inserted text> 
-                }
-l.184 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./pres3.tex:184: Extra }, or forgotten \endgroup.
-\beamer@doifinframe ...ixed points \vspace {10pt}}
-                                                   {\item Spectrum-preservin...
-l.184 \end{frame}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./pres3.tex:184: Missing } inserted.
-<inserted text> 
-                }
-l.184 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./pres3.tex:184: Extra }, or forgotten \endgroup.
-\beamer@doifinframe ...sformations \vspace {10pt}}
-                                                   \item Tractable low-energ...
-l.184 \end{frame}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./pres3.tex:184: Missing } inserted.
-<inserted text> 
-                }
-l.184 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+Overfull \hbox (10.32481pt too wide) detected at line 244
+\OT1/FiraSans-OsF/regular/n/12 ^^A\T1/FiraSans-OsF/regular/it/12 H[] \OT1/FiraSans-OsF/regular/n/12 = [] []
+ []
 
 [22
 
 ]
-./pres3.tex:184: Extra }, or forgotten \endgroup.
-\beamer@doifinframe ...\(\omega \) \vspace {10pt}}
-                                                   {\item Presence of finite...
-l.184 \end{frame}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./pres3.tex:184: Missing } inserted.
-<inserted text> 
-                }
-l.184 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./pres3.tex:184: Extra }, or forgotten \endgroup.
-\beamer@doifinframe ...ixed points \vspace {10pt}}
-                                                   {\item Spectrum-preservin...
-l.184 \end{frame}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./pres3.tex:184: Missing } inserted.
-<inserted text> 
-                }
-l.184 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./pres3.tex:184: Extra }, or forgotten \endgroup.
-\beamer@doifinframe ...sformations \vspace {10pt}}
-                                                   \item Tractable low-energ...
-l.184 \end{frame}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./pres3.tex:184: Missing } inserted.
-<inserted text> 
-                }
-l.184 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+Overfull \hbox (10.32481pt too wide) detected at line 244
+\OT1/FiraSans-OsF/regular/n/12 ^^A\T1/FiraSans-OsF/regular/it/12 H[] \OT1/FiraSans-OsF/regular/n/12 = [] []
+ []
 
 [23
 
 ]
-./pres3.tex:184: Extra }, or forgotten \endgroup.
-\beamer@doifinframe ...\(\omega \) \vspace {10pt}}
-                                                   {\item Presence of finite...
-l.184 \end{frame}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./pres3.tex:184: Missing } inserted.
-<inserted text> 
-                }
-l.184 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./pres3.tex:184: Extra }, or forgotten \endgroup.
-\beamer@doifinframe ...ixed points \vspace {10pt}}
-                                                   {\item Spectrum-preservin...
-l.184 \end{frame}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./pres3.tex:184: Missing } inserted.
-<inserted text> 
-                }
-l.184 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./pres3.tex:184: Extra }, or forgotten \endgroup.
-\beamer@doifinframe ...sformations \vspace {10pt}}
-                                                   \item Tractable low-energ...
-l.184 \end{frame}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./pres3.tex:184: Missing } inserted.
-<inserted text> 
-                }
-l.184 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+Overfull \hbox (10.32481pt too wide) detected at line 244
+\OT1/FiraSans-OsF/regular/n/12 ^^A\T1/FiraSans-OsF/regular/it/12 H[] \OT1/FiraSans-OsF/regular/n/12 = [] []
+ []
 
 [24
+
+]
+Overfull \hbox (10.32481pt too wide) detected at line 244
+\OT1/FiraSans-OsF/regular/n/12 ^^A\T1/FiraSans-OsF/regular/it/12 H[] \OT1/FiraSans-OsF/regular/n/12 = [] []
+ []
+
+[25
+
+] [26
+
+] [27
+
+]
+<figures/RG_flow.pdf, id=259, 1267.31267pt x 760.26723pt>
+File: figures/RG_flow.pdf Graphic file (type pdf)
+<use figures/RG_flow.pdf>
+Package pdftex.def Info: figures/RG_flow.pdf  used on input line 294.
+(pdftex.def)             Requested size: 198.03394pt x 118.79146pt.
+ [28
+
+ <./figures/RG_flow.pdf>]
+<figures/kondo_phase.pdf, id=287, 479.97662pt x 93.26073pt>
+File: figures/kondo_phase.pdf Graphic file (type pdf)
+<use figures/kondo_phase.pdf>
+Package pdftex.def Info: figures/kondo_phase.pdf  used on input line 294.
+(pdftex.def)             Requested size: 247.54149pt x 48.0974pt.
+
+Overfull \hbox (3.86975pt too wide) in paragraph at lines 294--294
+   [] 
+ []
+
+[29
+
+ <./figures/kondo_phase.pdf>] [30
 
 ]
 \tf@nav=\write6
@@ -1828,13 +1501,13 @@ Package logreq Info: Writing requests to 'pres3.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33908 strings out of 478353
- 679998 string characters out of 5854634
- 1279513 words of memory out of 5000000
- 51299 multiletter control sequences out of 15000+600000
- 858501 words of font info for 117 fonts, out of 8000000 for 9000
+ 33899 strings out of 478353
+ 679540 string characters out of 5854634
+ 1273620 words of memory out of 5000000
+ 51280 multiletter control sequences out of 15000+600000
+ 868487 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,19n,122p,1850b,1795s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,15n,122p,1850b,1791s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{cite.0@anirbanurg2} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.0@anirbanurg1} has been referenced but does not exist, replaced by a fixed one
@@ -1851,11 +1524,11 @@ pdfTeX warning (dest): name{cite.0@anderson1970} has been referenced but does no
 
 pdfTeX warning (dest): name{cite.0@anderson1969exact} has been referenced but does not exist, replaced by a fixed one
 
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_337jzs.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_2mfh3o.enc}</usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Bold.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Italic.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on pres3.pdf (24 pages, 341002 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_337jzs.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_2mfh3o.enc}</usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Bold.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Italic.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
+Output written on pres3.pdf (30 pages, 471125 bytes).
 PDF statistics:
- 347 PDF objects out of 1000 (max. 8388607)
- 251 compressed objects within 3 object streams
- 60 named destinations out of 1000 (max. 500000)
- 182 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 392 PDF objects out of 1000 (max. 8388607)
+ 308 compressed objects within 4 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 135 words of extra memory for PDF output out of 10000 (max. 10000000)
 

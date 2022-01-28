@@ -5,3 +5,5 @@
 \beamer@sectionintoc {2}{What's left to understand?}{8}{0}{2}
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {3}{The Unitary Renormalization Group Method}{13}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{URG of the Kondo Model}{26}{0}{4}
