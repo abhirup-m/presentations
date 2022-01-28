@@ -1,0 +1,19 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{The Model}{2}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{What's left to understand?}{8}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{The Unitary Renormalization Group Method}{13}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{URG of the Kondo Model}{26}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Zero-bandwidth limit of fixed point Hamiltonian}{32}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {6}{Effective Hamiltonian for the Kondo Cloud}{38}{0}{6}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {7}{Many-particle entanglement \& many-body correlation}{46}{0}{7}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {8}{Discussions \& Conclusions}{52}{0}{8}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {9}{That's all. Thank you!}{57}{0}{9}
