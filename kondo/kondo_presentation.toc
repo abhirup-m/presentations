@@ -15,5 +15,3 @@
 \beamer@sectionintoc {7}{Many-particle entanglement \& many-body correlation}{46}{0}{7}
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {8}{Discussions \& Conclusions}{52}{0}{8}
-\defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {9}{That's all. Thank you!}{57}{0}{9}

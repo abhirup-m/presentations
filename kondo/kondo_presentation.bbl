@@ -221,6 +221,69 @@
     \field{year}{2021}
   \endentry
 
+  \entry{Goldhaber-Gordon1998}{article}{}
+    \name{author}{6}{}{%
+      {{hash=GGD}{%
+         family={Goldhaber-Gordon},
+         familyi={G\bibinithyphendelim G\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Shtrikman},
+         familyi={S\bibinitperiod},
+         given={Hadas},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={Mahalu},
+         familyi={M\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=AMD}{%
+         family={Abusch-Magder},
+         familyi={A\bibinithyphendelim M\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MU}{%
+         family={Meirav},
+         familyi={M\bibinitperiod},
+         given={U.},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=KMA}{%
+         family={Kastner},
+         familyi={K\bibinitperiod},
+         given={M.\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GGD+1}
+    \strng{fullhash}{GGDSHMDAMDMUKMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1998}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb 10.1038/34373
+    \endverb
+    \field{issn}{1476-4687}
+    \field{number}{6663}
+    \field{pages}{156\bibrangedash 159}
+    \field{title}{Kondo effect in a single-electron transistor}
+    \verb{url}
+    \verb https://doi.org/10.1038/34373
+    \endverb
+    \field{volume}{391}
+    \field{journaltitle}{Nature}
+    \field{year}{1998}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{hewson1993}{book}{}
     \name{author}{1}{}{%
       {{hash=HAC}{%
@@ -243,6 +306,34 @@
     \field{sortinithash}{H}
     \field{title}{The Kondo Problem to Heavy Fermions}
     \field{year}{1993}
+  \endentry
+
+  \entry{kondo1964resistance}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KJ}{%
+         family={Kondo},
+         familyi={K\bibinitperiod},
+         given={Jun},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{KJ1}
+    \strng{fullhash}{KJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1964}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{number}{1}
+    \field{pages}{37\bibrangedash 49}
+    \field{title}{Resistance minimum in dilute magnetic alloys}
+    \field{volume}{32}
+    \field{journaltitle}{Progress of theoretical physics}
+    \field{year}{1964}
   \endentry
 
   \entry{anirbanurg1}{article}{}
@@ -309,6 +400,34 @@
     \field{year}{2020}
   \endentry
 
+  \entry{nozieres1974fermi}{article}{}
+    \name{author}{1}{}{%
+      {{hash=NP}{%
+         family={Nozieres},
+         familyi={N\bibinitperiod},
+         given={P},
+         giveni={P},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{NP1}
+    \strng{fullhash}{NP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1974}
+    \field{labeldatesource}{}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{pages}{31}
+    \field{title}{A ``Fermi-liquid" description of the Kondo problem at low
+  temperatures}
+    \field{volume}{17}
+    \field{journaltitle}{Journal of Low Temperature Physics}
+    \field{year}{1974}
+  \endentry
+
   \entry{siddharthacpi}{article}{}
     \name{author}{2}{}{%
       {{hash=PS}{%
@@ -347,6 +466,88 @@
     \field{volume}{104}
     \field{journaltitle}{Phys. Rev. B}
     \field{year}{2021}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Schrieffer_Wolff}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SJR}{%
+         family={Schrieffer},
+         familyi={S\bibinitperiod},
+         given={J.\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WPA}{%
+         family={Wolff},
+         familyi={W\bibinitperiod},
+         given={P.\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{SJRWPA1}
+    \strng{fullhash}{SJRWPA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1966}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1103/PhysRev.149.491
+    \endverb
+    \field{issue}{2}
+    \field{pages}{491\bibrangedash 492}
+    \field{title}{Relation between the Anderson and Kondo Hamiltonians}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRev.149.491
+    \endverb
+    \field{volume}{149}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{1966}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{sorensen_erik_affleck_1996}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SES}{%
+         family={S\o{}rensen},
+         familyi={S\bibinitperiod},
+         given={Erik\bibnamedelima S.},
+         giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=AI}{%
+         family={Affleck},
+         familyi={A\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{SESAI1}
+    \strng{fullhash}{SESAI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1103/PhysRevB.53.9153
+    \endverb
+    \field{issue}{14}
+    \field{pages}{9153\bibrangedash 9167}
+    \field{title}{Scaling theory of the Kondo screening cloud}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevB.53.9153
+    \endverb
+    \field{volume}{53}
+    \field{journaltitle}{Phys. Rev. B}
+    \field{year}{1996}
     \warn{\item Invalid format of field 'month'}
   \endentry
 

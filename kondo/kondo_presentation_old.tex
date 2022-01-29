@@ -1,29 +1,24 @@
 \documentclass[aspectratio=169]{beamer}
-
-\usepackage{lmodern,graphicx,amsthm,amsmath,amssymb,braket}
-\usepackage[absolute,overlay]{textpos}
-
-\usetheme{focus}
-
 \usepackage[backend=bibtex,style=authoryear]{biblatex}
 \bibliography{kondo_presentation}
+% \setbeamertemplate{bibliography item}{}
 \AtBeginBibliography{\tiny}
-
+\usepackage{lmodern,graphicx,amsthm,amsmath,amssymb,braket}
+\usepackage[absolute,overlay]{textpos}
+\usetheme{focus}
 \newcommand{\head}[1]{
 \begin{textblock*}{\textwidth}(20pt, 40pt)
 \textbf{\Large {#1}}
-\end{textblock*}
-}
+\end{textblock*}}
+\definecolor{maroon}{HTML}{540000}
 \newcommand{\focus}[1]{\textcolor{maroon}{\textbf{#1}}}
+\newcommand{\cen}[1]{\begin{center}{#1}\end{center}}
+% \setbeamercolor{itemize/enumerate body}{fg=gray}
+
 \renewcommand{\thefootnote}{}
 \renewcommand*\footnoterule{}
-
-\definecolor{maroon}{HTML}{540000}
-\definecolor{lblue}{HTML}{8888ff}
-\definecolor{lyellow}{HTML}{ffcc99}
 \setbeamercolor{footnote}{fg=blue}
 \setbeamerfont{footnote}{size=\small}
-\setbeamertemplate{bibliography item}[triangle]
 
 \AtBeginSection[]{
 \begin{frame}[noframenumbering]
@@ -39,34 +34,26 @@
 \title{
 \LARGE{Unveiling the Kondo cloud: \\
 unitary RG study of the Kondo\\
-model%
+model}
 }
-}
-\subtitle{\bf\large\color{lyellow}\href{https://arxiv.org/abs/2111.10580}{arXiv:2111.10580v2[cond-mat.str-el]}}
+\subtitle{}
 \date{\today}
-\author{\large Anirban Mukherjee \inst{1}, Abhirup Mukherjee \inst{1}, N. S. Vidhyadhiraja \inst{2},\\ A. Taraphder \inst{3}, Siddhartha Lal \inst{1}}
+\author{\large Anirban Mukherjee \inst{1}, Abhirup MUkherjee \inst{1}, N. S. Vidhyadhiraja \inst{2},\\ A. Taraphder \inst{3}, Siddhartha Lal \inst{1}}
 
 
-\institute{\small\inst{1} Department of Physical Sciences,IISER Kolkata, ~ ~ \inst{2} Theoretical Sciences Unit, JNCASR, ~ ~ \inst{3} Department of Physics, IIT Kharagpur}
+\institute{\small\inst{1} Department of Physical Sciences,IISER Kolkata\\ 
+\inst{2} Theoretical Sciences Unit, JNCASR \\
+\inst{3} Department of Physics, IIT Kharagpur}
+
 \date{\large\today}
 
 \begin{document}
 
 \begin{frame}[noframenumbering]
 \maketitle
-\begin{textblock*}{0.45\textwidth}(9.4cm, 0.7cm)
+\begin{textblock*}{0.45\textwidth}(9.4cm, 0.9cm)
 	\centering
 	\includegraphics[width=\textwidth]{figures/kondo_zeromode_banner.pdf}
-\end{textblock*}
-\begin{textblock*}{0.7\textwidth}(5.5cm, 6.5cm)
-	\centering
-	\includegraphics[width=0.15\textwidth]{figures/epqm_logo_mod.jpeg}
-	\hspace*{\fill}
-	\includegraphics[width=0.15\textwidth]{figures/dps_logo.jpeg}
-	\hspace*{\fill}
-	\includegraphics[width=0.15\textwidth]{figures/jncasr_logo.pdf}
-	\hspace*{\fill}
-	\includegraphics[width=0.15\textwidth]{figures/kgp_logo.pdf}
 \end{textblock*}
 \end{frame}
 
@@ -81,15 +68,11 @@ model%
 
 \begin{figure}
 \hspace*{\fill}
-\includegraphics[width=0.3\textwidth]{figures/2dKondoTN.pdf}
+\includegraphics[width=0.35\textwidth]{figures/2dKondoTN.pdf}
 \hspace*{\fill}
-\includegraphics[width=0.3\textwidth]{figures/kondoSetup.pdf}
+\includegraphics[width=0.4\textwidth]{figures/kondoSetup.pdf}
 \hspace*{\fill}
 \end{figure}
-\begin{textblock*}{0.45\textwidth}(9.4cm, 0.85\textheight)
-	\includegraphics[height=40pt]{figures/kondo.jpeg}
-\end{textblock*}
-\footcite{kondo1964resistance,Schrieffer_Wolff}
 }
 \only<2-5>{
 \begin{minipage}{0.6\textwidth}
@@ -104,17 +87,7 @@ model%
 	\only<2-3>{\includegraphics[width=\textwidth]{figures/cloud_lFL.pdf}}
 	\only<4-5>{\includegraphics[width=\textwidth]{figures/chi_schematic.pdf}}
 \end{minipage}
-\begin{textblock*}{\textwidth}(40pt, 0.8\textheight)
-	\centering
-	\hspace*{\fill}
-	\includegraphics[height=30pt]{figures/pwanderson.jpg}
-	\hspace*{\fill}
-	\includegraphics[height=30pt]{figures/kgwilson.jpg}
-	\hspace*{\fill}
-	\includegraphics[height=30pt]{figures/nozieres.jpg}
-	\hspace*{\fill}
-\end{textblock*}
-\footcite{anderson1969exact,anderson1970,wilson1975,andreiKondoreview,andrei_kondo,wiegmann_kondoexact_1981,nozieres1974fermi}
+\footcite{anderson1969exact,anderson1970,wilson1975,andreiKondoreview,andrei_kondo,wiegmann_kondoexact_1981}
 }
 \end{frame}
 
@@ -124,11 +97,11 @@ model%
 \begin{itemize}[<+-|alert@+>]
 	\item Finite \(J\) effective Hamiltonian at fixed point
 	\vspace*{20pt}
-	\item Hamiltonian for the itinerant electrons forming the \focus{macroscopic singlet}
+	\item Hamiltonian for the itinerant electrons forming the \textbf{macroscopic singlet}
 	\vspace*{20pt}
-	\item Nature of correlations inside the Kondo cloud: \focus{Fermi liquid vs off-diagonal}
+	\item Nature of correlations inside the Kondo cloud: \textbf{Fermi liquid vs off-diagonal}
 	\vspace*{20pt}
-	\item Behaviour of \focus{many-particle entanglement} and many-body correlation under RG flow
+	\item Behaviour of \textbf{many-particle entanglement} and many-body correlation under RG flow
 \end{itemize}
 
 \end{frame}
@@ -239,20 +212,13 @@ V \longrightarrow \text{off-diagonal part}
 \vspace*{-30pt}
 \head{RG Equations and Denominator Fixed Point}
 
-\vspace*{40pt}
-\begin{minipage}{0.4\textwidth}
-	\centering
+\vspace*{\fill}
+
 \[ \Delta H_{(j)} = \left(\hat n_j - \frac{1}{2}\right) \left\{c^\dagger_j T, \eta_{(j)}\right\} \]
 
 \[\eta^\dagger_{(j)} = \frac{1}{\hat \omega_{(j)} - H_D}c^\dagger_j T\] 
 
 \[\text{\focus{Fixed point:}}~ ~ ~\hat \omega_{(j^*)} - \left(H_D\right)^* = 0\]
-\end{minipage}
-\hspace*{\fill}
-\begin{minipage}{0.58\textwidth}
-	\centering
-	\includegraphics[width=0.65\textwidth]{figures/urg_ham_full.pdf}
-\end{minipage}
 \vspace*{\fill}
 }
 \end{frame}
@@ -265,7 +231,7 @@ V \longrightarrow \text{off-diagonal part}
 	\item \focus{Quantum fluctuation scale} \(\hat \omega\)	that tracks all orders of renormalisation\\[10pt]
 	\item Finite-valued fixed points for finite systems - leads to \focus{emergent degrees of freedom}\\[10pt]
 	\item \focus{Spectrum-preserving} unitary transformations - partition function does not change\\[10pt]
-	\item Tractable low-energy effective Hamiltonians - allows \focus{renormalised perturbation theory} around them 
+	\item Tractable low-energy effective Hamiltonians - allows renormalised perturbation theory around them 
 \end{itemize}
 \end{minipage}
 \hspace*{\fill}
@@ -287,9 +253,12 @@ V \longrightarrow \text{off-diagonal part}
 	\only<4>{\head{Fixed point Hamiltonian}}
 	\only<5>{\head{Approach towards the continuum}}
 
-\centering
+	\only<1>{
+	Assumption:  isotropic energy surfaces: \(\epsilon_{\vec k_j} \equiv D_j\)
 
+}
 \begin{minipage}{0.35\textwidth}
+		\centering
 {
 	\[\Delta J_{(j)} = \frac{n_j ~ J_{(j)}^2 ~ \left(\omega_{(j)} - \frac{D_j}{2}\right)}{\left(\omega_{(j)} - \frac{D_j}{2}\right)^2 - \frac{1}{16}J_{(j)}^2}\]
 	\[ J^* = 4\left(\omega^* - \frac{1}{2}D^*\right)\]
@@ -297,20 +266,18 @@ V \longrightarrow \text{off-diagonal part}
 	\only<2->{\[\omega_{(j)} > \frac{D_j}{2}\]}
 }
 \end{minipage}
+	\only<1>{
+		\\
+		\focus{For \(J_{(j)} \ll D_j\), we recover weak-coupling form: \(\frac{\Delta J_{(j)}}{\Delta \ln D_j} \sim n_j ~ J_{(j)}^2\)}
+		\footcite{anderson1970}
+	}
+\only<2->{
 \hspace*{\fill}
 \begin{minipage}{0.6\textwidth}
-\centering
-\only<1>{
-
-\includegraphics[width=\textwidth]{figures/kondo_fp_1D.pdf}
-\\[10pt]
-
-\focus{For \(J_{(j)} \ll D_j\), we recover weak-coupling form}: 
-\[\frac{\Delta J_{(j)}}{\Delta \ln D_j} \sim n_j ~ J_{(j)}^2\]
-}
-\only<2>{
-\[K_{(j)} = J_{(j)}\left(\omega^* - \frac{1}{2}D^*\right)^{-1}, ~ ~ K^* = 4\]
-\includegraphics[width=\textwidth]{figures/RG_flow.pdf}
+	\centering
+	\only<2>{
+	\[K_{(j)} = J_{(j)}\left(\omega^* - \frac{1}{2}D^*\right)^{-1}, ~ ~ K^* = 4\]
+	\includegraphics[width=\textwidth]{figures/RG_flow.pdf}
 }
 	\only<3>{
 	\includegraphics[width=\textwidth]{figures/kondo_phase.pdf}
@@ -330,8 +297,7 @@ V \longrightarrow \text{off-diagonal part}
 		\includegraphics[width=0.8\textwidth]{figures/KondoCouplingVst.pdf}
 }
 \end{minipage}
-
-\only<1>{\footcite{anderson1970,sorensen_erik_affleck_1996}}
+}
 \only<5>{\footcite{wilson1975}}
 
 \end{frame}
@@ -362,47 +328,41 @@ V \longrightarrow \text{off-diagonal part}
 	\includegraphics[width=0.4\textwidth]{figures/kondo_zeromode.pdf}
 
 	\[\text{Singlet ground state: }~ ~\ket{\Psi}_\text{gs} = \frac{1}{\sqrt 2}\left(\ket{\uparrow,\downarrow} - \ket{\downarrow, \uparrow}\right) \otimes_{j=j^*}^N \ket{n_j}\]
-\footcite{Goldhaber-Gordon1998}
 }
 
 \only<3->{
-\head{Impurity magnetic susceptibility}
-\footcite{wilson1975,andrei_kondo,wiegmann_kondoexact_1981}
-\begin{minipage}{0.4\textwidth}
-\[H^*_\text{zero}(B) = J^* \vec{S}_d\cdot\vec{s}_< + B S_d^z\]
+	\head{Impurity magnetic susceptibility}
+	\footcite{wilson1975,andrei_kondo,wiegmann_kondoexact_1981}
+	\begin{minipage}{0.4\textwidth}
+	\[H^*_\text{zero}(B) = J^* \vec{S}_d\cdot\vec{s}_< + B S_d^z\]
 
-\[\chi =\lim_{B\to 0}\frac{d}{dB}\left(\frac{k_{B}T}{Z(B)}\frac{dZ(B)}{dB}\right)\]
+	\[\chi =\lim_{B\to 0}\frac{d}{dB}\left(\frac{k_{B}T}{Z(B)}\frac{dZ(B)}{dB}\right)\]
 
-\[\chi = \frac{\frac{\beta}{4}+\frac{1}{2J^{*}}e^{\beta\frac{J^{*}}{2}}\sinh(\frac{\beta}{2}J^{*})}{1+e^{\beta\frac{J^{*}}{2}}\cosh(\frac{\beta}{2}J^{*})}\]
-\end{minipage}
-\begin{minipage}{0.57\textwidth}
-\centering
-\only<3>{
-\(\chi\times T(T \to \infty) = \frac{1}{4}\), ~ ~ \focus{Curie paramagnetism}
-\includegraphics[width=0.95\textwidth]{figures/chi_times_T_parts.pdf}
-\vspace*{-20pt}
-}
-\only<4>{
-\[\chi(T \to 0) = \frac{1}{2 J^*}, ~ ~ 4 T_K \chi(T \to 0) = W \sim 0.413\]
-\focus{LM is screened} ~ ~ \(W=\)Wilson number
-\includegraphics[width=0.85\textwidth]{figures/WilsonNumber.pdf}
-\vspace*{-20pt}
-}
-\only<5>{
-\focus{Maximum in \(\chi\) at \(T_K\)}
+	\[\chi = \frac{\frac{\beta}{4}+\frac{1}{2J^{*}}e^{\beta\frac{J^{*}}{2}}\sinh(\frac{\beta}{2}J^{*})}{1+e^{\beta\frac{J^{*}}{2}}\cosh(\frac{\beta}{2}J^{*})}\]
+	\end{minipage}
+	\begin{minipage}{0.57\textwidth}
+	\centering
+	\only<3>{
+		\(\chi\times T(T \to \infty) = \frac{1}{4}\), ~ ~ \focus{Curie paramagnetism}
+		\includegraphics[width=0.95\textwidth]{figures/chi_times_T_parts.pdf}
+		\vspace*{-20pt}
+	}
+	\only<4>{
+		\[\chi(T \to 0) = \frac{1}{2 J^*}, ~ ~ 4 T_K \chi(T \to 0) = W \sim 0.413\]
+		\focus{screened LM} ~ ~ \(W-\)Wilson number
+		\includegraphics[width=0.85\textwidth]{figures/WilsonNumber.pdf}
+		\vspace*{-20pt}
+	}
+	\only<5>{
+		\focus{Maximum in \(\chi\) at \(T_K\)}
 
-Contribution from polarised states vanish
-\includegraphics[width=1.05\textwidth]{figures/chi_parts.pdf}
-\vspace*{-40pt}
+		Contribution from polarised states vanish
+		\includegraphics[width=1.05\textwidth]{figures/chi_parts.pdf}
+		\vspace*{-40pt}
 }
-\end{minipage}
+	\end{minipage}
 }
 
-\only<3>{
-	\begin{textblock*}{\textwidth}(0pt, 0.85\textheight)
-\includegraphics[height=40pt]{figures/andrei.jpg}
-\end{textblock*}
-}
 \end{frame}
 
 \section{Effective Hamiltonian for the Kondo Cloud}
@@ -417,17 +377,10 @@ Contribution from polarised states vanish
 
 			\[H_\text{eff} = H_D + V \frac{1}{E_\text{gs} - H_D} V^\dagger + V^\dagger \frac{1}{E_\text{gs} - H_D} V\]}
 
-\only<+->{
-\item Resolve \(k-\)space part by expanding denominator in \(\epsilon_k/E_\text{gs}\):
+	\only<+->{ \item Resolve \(k-\)space part by expanding denominator in \(\epsilon_k/E_\text{gs}\):
 
-\[V \frac{1}{E_\text{gs} - H_D} V^\dagger = V \left(\frac{1}{E_\text{gs}} + \frac{H_D}{E_\text{gs}^2} + \ldots\right) \]}
-\end{itemize}
-
-}
-\only<2-3>{
-\begin{textblock*}{\textwidth}(0.95\textwidth, 0.85\textheight)
-\includegraphics[height=40pt]{figures/hewson.jpg}
-\end{textblock*}
+		\[V \frac{1}{E_\text{gs} - H_D} V^\dagger = V \left(\frac{1}{E_\text{gs}} + \frac{H_D}{E_\text{gs}^2} + \ldots\right) \]}
+	\end{itemize}
 }
 \only<4>{
 \head{Form of Kondo cloud Hamiltonian}
@@ -586,12 +539,6 @@ C_\text{imp} = \sum_{k,\sigma}\frac{1}{T^2}\left[\frac{(\bar{\epsilon}_{k})^{2}e
 	\end{itemize}
 \end{frame}
 
-\begin{frame}[noframenumbering]{That's all. Thank you!}
-The authors thank to P. Majumdar, A. Mitchell, S. Sen, S. Patra, M. Mahankali and R. K. Singh for several discussions and feedback. Anirban Mukherjee thanks the CSIR, Govt. of India and IISER Kolkata for funding through a research fellowship. Abhirup Mukherjee thanks IISER Kolkata for funding through a research fellowship. AM and SL thank JNCASR, Bangalore for hospitality at the inception of this work. SL acknowledges funding from an SERB grant. NSV acknowledges funding from JNCASR and a SERB grant (EMR/2017/005398)
-\end{frame}
-
-\begin{frame}[noframenumbering]{References}
-\printbibliography
-\end{frame}
+\section{That's all. Thank you!}
 
 \end{document}
