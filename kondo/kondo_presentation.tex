@@ -5,9 +5,9 @@
 
 \usetheme{focus}
 
-\usepackage[backend=bibtex,style=authoryear]{biblatex}
+\usepackage[backend=bibtex,url=false,doi=false,style=authoryear]{biblatex}
 \bibliography{kondo_presentation}
-\AtBeginBibliography{\tiny}
+\AtBeginBibliography{\scriptsize}
 
 \newcommand{\head}[1]{
 \begin{textblock*}{\textwidth}(20pt, 40pt)
@@ -126,7 +126,7 @@ model%
 	\vspace*{20pt}
 	\item Hamiltonian for the itinerant electrons forming the \focus{macroscopic singlet}
 	\vspace*{20pt}
-	\item Nature of correlations inside the Kondo cloud: \focus{Fermi liquid vs off-diagonal}
+	\item Nature of correlations inside the Kondo cloud: \focus{Fermi liquid vs off-diagonal} - what leads to the maximally entangled singlet?
 	\vspace*{20pt}
 	\item Behaviour of \focus{many-particle entanglement} and many-body correlation under RG flow
 \end{itemize}
@@ -284,8 +284,9 @@ V \longrightarrow \text{off-diagonal part}
 	\only<1>{\head{RG Equation}}
 	\only<2>{\head{RG flows and fixed points}}
 	\only<3>{\head{Phase diagram}}
-	\only<4>{\head{Fixed point Hamiltonian}}
-	\only<5>{\head{Approach towards the continuum}}
+	\only<4>{\head{Kondo cloud length \(\xi_K\)}}
+	\only<5>{\head{Fixed point Hamiltonian}}
+	\only<6>{\head{Approach towards the continuum}}
 
 \centering
 
@@ -300,7 +301,7 @@ V \longrightarrow \text{off-diagonal part}
 \hspace*{\fill}
 \begin{minipage}{0.6\textwidth}
 \centering
-\only<1>{
+\only<+>{
 
 \includegraphics[width=\textwidth]{figures/kondo_fp_1D.pdf}
 \\[10pt]
@@ -308,26 +309,32 @@ V \longrightarrow \text{off-diagonal part}
 \focus{For \(J_{(j)} \ll D_j\), we recover weak-coupling form}: 
 \[\frac{\Delta J_{(j)}}{\Delta \ln D_j} \sim n_j ~ J_{(j)}^2\]
 }
-\only<2>{
+\only<+>{
 \[K_{(j)} = J_{(j)}\left(\omega^* - \frac{1}{2}D^*\right)^{-1}, ~ ~ K^* = 4\]
 \includegraphics[width=\textwidth]{figures/RG_flow.pdf}
 }
-	\only<3>{
-	\includegraphics[width=\textwidth]{figures/kondo_phase.pdf}
+\only<+>{
+\includegraphics[width=0.9\textwidth]{figures/kondo_phase.pdf}
 
-	\begin{itemize}
-		\item {Decay towards FM fixed point for \(J<0\)}\\[10pt]
-		\item {Attractive flow towards AFM fixed point for \(J>0\)}
-	\end{itemize}
+\begin{itemize}
+\item {Decay towards FM fixed point for \(J<0\)}\\[10pt]
+\item {Attractive flow towards AFM fixed point for \(J>0\)}
+\end{itemize}
 }
-	\only<4>{
-		\[H^* = \underbrace{\sum_{k < k^*,\sigma}\epsilon_{k}\hat{n}_{k\sigma} ~ + ~ J^* \vec{S}_d\cdot \vec{s}_<}_\text{emergent window} ~ + ~\underbrace{\sum_{j=j^*}^N J^{j}S_d^{z}\sum_{|q| = q_j}s^{z}_{q_j}}_\text{integrals of motion}\]
-		\[\vec{s}_< = \frac{1}{2}\sum_{k,k^\prime < k^*}c^{\dagger}_{k\alpha}\vec{\sigma}_{\alpha\beta}c_{k^\prime,\beta}, ~ ~ s^z_{q} = \frac{1}{2}\left(\hat n_{q \uparrow} - \hat n_{q \downarrow}\right)\]
-		\[ T_K = \frac{\hbar v_F \Lambda^*}{k_B} = \frac{\hbar v_{F}\Lambda_{0}}{k_{B}}\exp\left(\frac{1}{2n(0)}-\frac{1}{n(0)K_{0}}-\frac{K_{0}}{n(0)16}\right)\]
+\only<+>{
+	\centering
+	% \[ \xi_K = \frac{2\pi}{\Lambda^*} = \frac{2\pi}{\Lambda_{0}}\exp\left(-\frac{1}{2n(0)}+\frac{1}{n(0)K_{0}}+\frac{K_{0}}{n(0)16}\right)\]
+	\[\hspace*{-10pt} T_K = \frac{\hbar v_{F}\Lambda_{0}}{k_{B}}\exp\left(\frac{1}{2n(0)}-\frac{1}{n(0)K_{0}}-\frac{K_{0}}{n(0)16}\right), ~ ~ \xi_K = \frac{h v_F}{k_B \xi_K}\]
+	\includegraphics[width=0.8\textwidth]{figures/xi_k.pdf}
 }
-	\only<5>{
-		\[J^* \to \infty \text{ in thermodynamic limit}\]
-		\includegraphics[width=0.8\textwidth]{figures/KondoCouplingVst.pdf}
+\only<+>{
+	\[H^* = \underbrace{\sum_{k < k^*,\sigma}\epsilon_{k}\hat{n}_{k\sigma} ~ + ~ J^* \vec{S}_d\cdot \vec{s}_<}_\text{emergent window} ~ + ~\underbrace{\sum_{j=j^*}^N J^{j}S_d^{z}\sum_{|q| = q_j}s^{z}_{q_j}}_\text{integrals of motion}\]
+	\[\vec{s}_< = \frac{1}{2}\sum_{k,k^\prime < k^*}c^{\dagger}_{k\alpha}\vec{\sigma}_{\alpha\beta}c_{k^\prime,\beta}\]
+	\[s^z_{q} = \frac{1}{2}\left(\hat n_{q \uparrow} - \hat n_{q \downarrow}\right)\]
+}
+\only<+>{
+\[J^* \to \infty \text{ in thermodynamic limit}\]
+\includegraphics[width=0.8\textwidth]{figures/KondoCouplingVst.pdf}
 }
 \end{minipage}
 
@@ -411,7 +418,7 @@ Contribution from polarised states vanish
 	\begin{itemize}
 	\only<+->{	\item Restore the kinetic energy part:
 
-			\[H^* = \sum_{k < k^*,\sigma}\epsilon_{k}\hat{n}_{k\sigma} ~ + ~ J^* \vec{S}_d\cdot \vec{s}_< = \underbrace{\sum_{k < k^*,\sigma}\epsilon_{k}\hat{n}_{k\sigma} ~ + ~ J^* S_d^z s_<^z}_{H_D} ~+~ \underbrace{{S}_d^+ {s}_<^- + \text{h.c.}}_{V ~+~ V^\dagger}\]}
+			\[H^* = \sum_{k < k^*,\sigma}\epsilon_{k}\hat{n}_{k\sigma} ~ + ~ J^* \vec{S}_d\cdot \vec{s}_< = \underbrace{\sum_{k < k^*,\sigma}\epsilon_{k}\hat{n}_{k\sigma} ~ + ~ J^* S_d^z s_<^z}_{H_D} ~+~ \underbrace{J^*{S}_d^+ {s}_<^- + \text{h.c.}}_{V ~+~ V^\dagger}\]}
 
  	\only<+->{	\item Freeze impurity dynamics by integrating out \(V\)\footcite{hewson1993}:
 
@@ -436,13 +443,13 @@ Contribution from polarised states vanish
 \[V_{1234} = \left( \epsilon_{k_1} - \epsilon_{k_3} \right)\left[1 - \frac{2}{J^*}\left(\epsilon_{k_3} - \epsilon_{{k_1}} + \epsilon_{{k_2}} + \epsilon_{{k_4}}\right)\right]\]
 
 \begin{itemize}
-	\item Mixture of \focus{Fermi liquid} and \focus{two-particle interaction part}
+	\item Mixture of \focus{Fermi liquid} and \focus{two-particle off-diagonal scattering term}
 		\vspace*{\fill}
-	\item Fermi liquid part: result of \focus{Ising scattering}
+	\item Fermi liquid part: \focus{result of Ising scattering}
 		\vspace*{\fill}
-	\item Non-Fermi liquid part: result of \focus{spin-flip scattering}
+	\item 2P off-diagonal term: \focus{Non-Fermi liquid} in character - \focus{result of spin-flip scattering}
 		\vspace*{\fill}
-	\item \focus{NFL part leads to screening} and formation of singlet
+	\item NFL part \focus{leads to screening} and formation of singlet
 \end{itemize}
 }
 
@@ -460,6 +467,11 @@ C_\text{imp} = \sum_{k,\sigma}\frac{1}{T^2}\left[\frac{(\bar{\epsilon}_{k})^{2}e
 }
 \end{itemize}
 \end{minipage}
+\only<5>{
+\begin{minipage}{0.48\textwidth}
+\includegraphics[width=\textwidth]{figures/FL_self_energy.pdf}
+\end{minipage}
+}
 \only<6>{
 \footcite{wilson1975,andrei_kondo,wiegmann_kondoexact_1981}
 \begin{minipage}{0.48\textwidth}
@@ -586,12 +598,68 @@ C_\text{imp} = \sum_{k,\sigma}\frac{1}{T^2}\left[\frac{(\bar{\epsilon}_{k})^{2}e
 	\end{itemize}
 \end{frame}
 
-\begin{frame}[noframenumbering]{That's all. Thank you!}
-The authors thank to P. Majumdar, A. Mitchell, S. Sen, S. Patra, M. Mahankali and R. K. Singh for several discussions and feedback. Anirban Mukherjee thanks the CSIR, Govt. of India and IISER Kolkata for funding through a research fellowship. Abhirup Mukherjee thanks IISER Kolkata for funding through a research fellowship. AM and SL thank JNCASR, Bangalore for hospitality at the inception of this work. SL acknowledges funding from an SERB grant. NSV acknowledges funding from JNCASR and a SERB grant (EMR/2017/005398)
+\begin{frame}[noframenumbering]{}
+
+{\hspace*{\fill}\bf \Large That's all. Thank you! \hspace*{\fill}}
+
+\vspace*{\fill}
+
+Anirban Mukherjee thanks the CSIR, Govt. of India and IISER Kolkata for funding through a research fellowship. Abhirup Mukherjee thanks IISER Kolkata for funding through a research fellowship. AM and SL thank JNCASR, Bangalore for hospitality at the inception of this work. SL acknowledges funding from a SERB grant. NSV acknowledges funding from JNCASR and a SERB grant (EMR/2017/005398)
+
+\vspace*{\fill}
+\begin{figure}
+	\hspace*{\fill}
+	\includegraphics[height=60pt]{figures/am.png}
+	\hspace*{\fill}
+	\includegraphics[height=60pt]{figures/dp.jpg}
+	\hspace*{\fill}
+	\includegraphics[height=60pt]{figures/ns.jpeg}
+	\hspace*{\fill}
+	\includegraphics[height=60pt]{figures/arghyat.png}
+	\hspace*{\fill}
+	\includegraphics[height=60pt]{figures/slal.jpg}
+	\hspace*{\fill}
+\end{figure}
 \end{frame}
 
-\begin{frame}[noframenumbering]{References}
+\begin{frame}[noframenumbering,allowframebreaks]{References}
 \printbibliography
+\end{frame}
+
+\begin{frame}[noframenumbering]{}
+	\centering
+\only<+>{
+\head{Spectral function}
+
+\vspace*{\fill}
+\begin{minipage}{0.45\textwidth}
+\includegraphics[width=\textwidth]{figures/kondo_spec_func.pdf}
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+\includegraphics[width=\textwidth]{figures/Kondo_length.pdf}
+\end{minipage}
+}
+\only<+>{
+	\head{\(\chi \times T\) and thermal entropy via zero-bandwidth model}
+
+	\vspace*{\fill}
+	\includegraphics[width=0.45\textwidth]{figures/chi_times_T_parts.pdf}
+	\includegraphics[width=0.45\textwidth]{figures/entropy_therm.pdf}
+}
+\only<+>{
+	\head{Mutual Information}
+	
+	\vspace*{\fill}
+	\includegraphics[width=0.45\textwidth]{figures/mut_I_ee.pdf}
+	\includegraphics[width=0.45\textwidth]{figures/mut_I_ie.pdf}
+}
+\only<+>{
+	\head{Many-body correlation}
+
+	\vspace*{\fill}
+	\includegraphics[width=0.45\textwidth]{figures/corr_opp.pdf}
+	\includegraphics[width=0.45\textwidth]{figures/corr_od.pdf}
+}
 \end{frame}
 
 \end{document}

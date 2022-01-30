@@ -8,10 +8,10 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {4}{URG of the Kondo Model}{26}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{Zero-bandwidth limit of fixed point Hamiltonian}{32}{0}{5}
+\beamer@sectionintoc {5}{Zero-bandwidth limit of fixed point Hamiltonian}{33}{0}{5}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {6}{Effective Hamiltonian for the Kondo Cloud}{38}{0}{6}
+\beamer@sectionintoc {6}{Effective Hamiltonian for the Kondo Cloud}{39}{0}{6}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {7}{Many-particle entanglement \& many-body correlation}{46}{0}{7}
+\beamer@sectionintoc {7}{Many-particle entanglement \& many-body correlation}{47}{0}{7}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {8}{Discussions \& Conclusions}{52}{0}{8}
+\beamer@sectionintoc {8}{Discussions \& Conclusions}{53}{0}{8}
