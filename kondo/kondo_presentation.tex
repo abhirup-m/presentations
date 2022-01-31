@@ -73,11 +73,8 @@ model%
 \section{The Model}
 \begin{frame}[noframenumbering]{The Model}
 \only<+>{\centering
-\scalebox{1.5}{
-	\(\mathcal{H} = \sum_{k\sigma}\epsilon_k \hat n_{k\sigma} + J \vec{S}_d\cdot\vec{s}, ~ ~ ~ ~ ~ \vec s \equiv \sum_{kk^\prime,\alpha,\beta}\vec \sigma_{\alpha\beta}c^\dagger_{k\alpha}c_{k^\prime\beta}
-\)
-}
-\vspace*{\fill}
+	\[H = \sum_{k\sigma}\epsilon_k \hat n_{k\sigma} + J \vec{S}_d\cdot\vec{s}, ~ ~ ~ ~ ~ \vec s \equiv \sum_{kk^\prime,\alpha,\beta}\vec \sigma_{\alpha\beta}c^\dagger_{k\alpha}c_{k^\prime\beta}, ~ ~ ~ ~ ~\vec S_d \longrightarrow\text{impurity spin}\]
+	\focus{local \(s-\)wave interaction} between impurity spin \(\vec S_d\) and conduction electrons \(\vec s\)
 
 \begin{figure}
 \hspace*{\fill}
@@ -187,7 +184,7 @@ model%
 \[
  {2^{j-1} \text{-dim.}} \longrightarrow \begin{cases}
 	H_1, H_0 \longrightarrow \text{diagonal parts}\\
-V \longrightarrow \text{off-diagonal part}
+T \longrightarrow \text{off-diagonal part}
 \end{cases}
 \]
 \end{minipage}
@@ -208,6 +205,7 @@ V \longrightarrow \text{off-diagonal part}
 	\[H_{(j-1)} = U_{(j)} H_{(j)} U_{(j)}^\dagger\]
 	\[U_{(j)} = \frac{1}{\sqrt 2}\left(1 - \eta_{(j)} + \eta_{(j)}^\dagger\right) \]
 	\[ \eta^\dagger_{(j)} = \frac{1}{\hat \omega_{(j)} - H_D}c^\dagger_j T \Bigg \} \rightarrow {\text{many-particle}\atop{\text{rotation}}}\]
+\[ \left\{\eta_{(j)}, \eta^\dagger_{(j)}\right\} = 1\]
 \vspace*{\fill}
 \end{minipage}
 \hspace*{\fill}
@@ -324,7 +322,7 @@ V \longrightarrow \text{off-diagonal part}
 \only<+>{
 	\centering
 	% \[ \xi_K = \frac{2\pi}{\Lambda^*} = \frac{2\pi}{\Lambda_{0}}\exp\left(-\frac{1}{2n(0)}+\frac{1}{n(0)K_{0}}+\frac{K_{0}}{n(0)16}\right)\]
-	\[\hspace*{-10pt} T_K = \frac{\hbar v_{F}\Lambda_{0}}{k_{B}}\exp\left(\frac{1}{2n(0)}-\frac{1}{n(0)K_{0}}-\frac{K_{0}}{n(0)16}\right), ~ ~ \xi_K = \frac{h v_F}{k_B \xi_K}\]
+	\[\hspace*{-10pt} T_K = \frac{\hbar v_{F}\Lambda_{0}}{k_{B}}\exp\left(\frac{1}{2n(0)}-\frac{1}{n(0)K_{0}}-\frac{K_{0}}{n(0)16}\right), ~ ~ \xi_K = \frac{h v_F}{k_B T_K}\]
 	\includegraphics[width=0.8\textwidth]{figures/xi_k.pdf}
 }
 \only<+>{
@@ -364,7 +362,7 @@ V \longrightarrow \text{off-diagonal part}
 	\head{Effective two-site problem}
 	\centering
 
-	\[H^*_\text{zero} = J^* \vec{S}_d\cdot\vec{s}_< + H^*_\text{OMS}\]
+	\[H^*_\text{zero} = J^* \vec{S}_d\cdot\vec{s}_< + H^*_\text{IOMS}\]
 
 	\includegraphics[width=0.4\textwidth]{figures/kondo_zeromode.pdf}
 
@@ -626,40 +624,60 @@ Anirban Mukherjee thanks the CSIR, Govt. of India and IISER Kolkata for funding 
 \printbibliography
 \end{frame}
 
-\begin{frame}[noframenumbering]{}
-	\centering
-\only<+>{
-\head{Spectral function}
-
-\vspace*{\fill}
+\section{Other Results}
+\begin{frame}[noframenumbering]{Spectral function}
 \begin{minipage}{0.45\textwidth}
 \includegraphics[width=\textwidth]{figures/kondo_spec_func.pdf}
 \end{minipage}
 \begin{minipage}{0.45\textwidth}
 \includegraphics[width=\textwidth]{figures/Kondo_length.pdf}
 \end{minipage}
-}
-\only<+>{
-	\head{\(\chi \times T\) and thermal entropy via zero-bandwidth model}
+\end{frame}
 
-	\vspace*{\fill}
+\begin{frame}[noframenumbering]{\(\chi \times T\) and thermal entropy via zero-bandwidth model}
 	\includegraphics[width=0.45\textwidth]{figures/chi_times_T_parts.pdf}
 	\includegraphics[width=0.45\textwidth]{figures/entropy_therm.pdf}
-}
-\only<+>{
-	\head{Mutual Information}
-	
-	\vspace*{\fill}
+\end{frame}
+\begin{frame}[noframenumbering]{Mutual Information (Kondo regime of SIAM)}
 	\includegraphics[width=0.45\textwidth]{figures/mut_I_ee.pdf}
 	\includegraphics[width=0.45\textwidth]{figures/mut_I_ie.pdf}
-}
-\only<+>{
-	\head{Many-body correlation}
-
-	\vspace*{\fill}
+\end{frame}
+\begin{frame}[noframenumbering]{Many-body correlation (Kondo regime of SIAM)}
 	\includegraphics[width=0.45\textwidth]{figures/corr_opp.pdf}
 	\includegraphics[width=0.45\textwidth]{figures/corr_od.pdf}
+\end{frame}
+
+\begin{frame}[noframenumbering]{Local Fermi liquid excitations}
+\head{Effective Hamiltonian in singlet subspace}
+\begin{minipage}{0.5\textwidth}
+\only<1>{We approximate the dispersion as a \focus{real-space nearest neighbour hopping}:
+\[H^* = J^* \vec{S}_d\cdot\vec{s}_< - t\sum_{i\sigma}\left(c^\dagger_{i\sigma}c_{i+1,\sigma} + \text{h.c.}\right)\]
+\[t \ll J\]
 }
+\only<2>{Initially consider \focus{just the first site}. Treat \focus{hopping as perturbation}:
+\[\ket{\Psi}^*_0 = \frac{1}{\sqrt 2}\left(\ket{\uparrow,\downarrow} - \ket{\downarrow,\uparrow}\right) \]
+\[ V =- t\sum_{\sigma}\left(c^\dagger_{0\sigma}c_{1,\sigma} + \text{h.c.}\right)\]
+}
+\only<3>{At \focus{fourth order}, effective Hamiltonian is
+	\[H^*_\text{eff} = -\frac{16\alpha t^4}{3 {J^*}^3}\mathcal{P}_\text{spin} + \frac{32\alpha t^4}{3 {J^*}^3}\mathcal{P}_\text{charge}\]
+\[\mathcal{P}_\text{spin} \longrightarrow \text{projector onto }\hat n_1 = 1\]
+\[\mathcal{P}_\text{charge} \longrightarrow \text{projector onto }\hat n_1 \neq 1\]
+\begin{itemize}
+	\item charge sector  has a \focus{repulsive term}
+	\item so, first site harbours a local FL
+\end{itemize}
+}
+\only<4>{On reinstating the \focus{rest of the sites}, the complete effective Hamiltonian is
+	\[H^*_\text{eff} = |\mathcal{C}_\text{LFL}|\mathcal{P}_\text{charge} - t\sum_{i>0,\sigma}\left(c^\dagger_{i\sigma}c_{i+1,\sigma} + \text{h.c.}\right)\]
+}
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.4\textwidth}
+	\only<1>{\includegraphics[width=0.9\textwidth]{figures/noz_1D.pdf}}
+	\only<2>{\includegraphics[width=0.9\textwidth]{figures/noz_1D_approx.pdf}}
+	\only<3>{\includegraphics[width=0.9\textwidth]{figures/lattice_eff.pdf}}
+	\only<4>{\includegraphics[width=0.9\textwidth]{figures/lattice_eff_full.pdf}}
+\end{minipage}
 \end{frame}
 
 \end{document}
