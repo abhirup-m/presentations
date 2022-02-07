@@ -91,7 +91,7 @@ model%
 \only<2-6>{
 \begin{minipage}{0.68\textwidth}
 \begin{itemize}[<+-|alert@+>]
-\item Resistance of metal \focus{reveals a minimum} at low \(T\) - possibly due to \focus{spin-flip scattering}\\[10pt]
+\item Resistance of metal \focus{reveals non-monotonicity} at low \(T\) - owing to \focus{spin-flip scattering}\\[10pt]
 \item "Poor Man's scaling" \& numerical RG showed - spin-exchange coupling \focus{renormalises to \(\infty\)}\\[10pt]
 \item low energy phase of metal is \focus{local Fermi liquid}\\[10pt]
 \item \(\chi_\text{imp}\) becomes constant at low temperatures - \(C_\text{imp}\) becomes linear - total resistance \(R\) rises after going through a minimum\\[10pt]
@@ -186,6 +186,7 @@ model%
 T \longrightarrow \text{off-diagonal part}
 \end{cases}
 \]
+\[ (j) : j^\text{th} \text{ RG step}\]
 \end{minipage}
 \hspace*{\fill}
 \begin{minipage}{0.5\textwidth}
@@ -282,8 +283,9 @@ T \longrightarrow \text{off-diagonal part}
 	\only<2>{\head{RG flows and fixed points}}
 	\only<3>{\head{Phase diagram}}
 	\only<4>{\head{Kondo cloud length \(\xi_K\)}}
-	\only<5>{\head{Fixed point Hamiltonian}}
-	\only<6>{\head{Approach towards the continuum}}
+	\only<5>{\head{Kondo temperature \(T_\mathrm{K}\)}}
+	\only<6>{\head{Fixed point Hamiltonian}}
+	\only<7>{\head{Approach towards the continuum}}
 
 \centering
 
@@ -307,7 +309,7 @@ T \longrightarrow \text{off-diagonal part}
 \[\frac{\Delta J_{(j)}}{\Delta \ln D_j} \sim n_j ~ J_{(j)}^2\]
 }
 \only<+>{
-\[K_{(j)} = J_{(j)}\left(\omega^* - \frac{1}{2}D^*\right)^{-1}, ~ ~ K^* = 4\]
+\[K_{(j)} = J_{(j)}\left(\omega_{(j)} - \frac{1}{2}D_{(j)}\right)^{-1}, ~ ~ K^* = 4\]
 \includegraphics[width=\textwidth]{figures/RG_flow.pdf}
 }
 \only<+>{
@@ -320,9 +322,16 @@ T \longrightarrow \text{off-diagonal part}
 }
 \only<+>{
 	\centering
-	% \[ \xi_K = \frac{2\pi}{\Lambda^*} = \frac{2\pi}{\Lambda_{0}}\exp\left(-\frac{1}{2n(0)}+\frac{1}{n(0)K_{0}}+\frac{K_{0}}{n(0)16}\right)\]
 	\[\hspace*{-10pt} T_K = \frac{\hbar v_{F}\Lambda_{0}}{k_{B}}\exp\left(\frac{1}{2n(0)}-\frac{1}{n(0)K_{0}}-\frac{K_{0}}{n(0)16}\right), ~ ~ \xi_K = \frac{h v_F}{k_B T_K}\]
-	\includegraphics[width=0.8\textwidth]{figures/xi_k.pdf}
+	\includegraphics[width=0.8\textwidth]{figures/Jstar_Xik.pdf}
+}
+\only<+>{
+	\centering
+	Exponential growth of \(T_K\) at \focus{low \(J\)}
+	
+	\vspace*{10pt}
+	\includegraphics[width=0.8\textwidth]{figures/TK.pdf}
+	\vspace*{-20pt}
 }
 \only<+>{
 	\[H^* = \underbrace{\sum_{k < k^*,\sigma}\epsilon_{k}\hat{n}_{k\sigma} ~ + ~ J^* \vec{S}_d\cdot \vec{s}_<}_\text{emergent window} ~ + ~\underbrace{\sum_{j=j^*}^N J^{j}S_d^{z}\sum_{|q| = q_j}s^{z}_{q_j}}_\text{integrals of motion}\]
@@ -336,7 +345,8 @@ T \longrightarrow \text{off-diagonal part}
 \end{minipage}
 
 \only<1>{\footcite{anderson1970,sorensen_erik_affleck_1996}}
-\only<5>{\footcite{wilson1975}}
+\only<5>{\footcite{wilson1975,hrk_wilson_1980,haldane1978scaling,martin2019}}
+\only<7>{\footcite{wilson1975}}
 
 \end{frame}
 
@@ -382,7 +392,7 @@ T \longrightarrow \text{off-diagonal part}
 \begin{minipage}{0.57\textwidth}
 \centering
 \only<3>{
-\(\chi\times T(T \to \infty) = \frac{1}{4}\), ~ ~ \focus{Curie paramagnetism}
+	\(\left(\chi\times T\right)\bigg\vert_{T \to \infty} = \frac{1}{4}\), ~ ~ \focus{Curie paramagnetism}
 \includegraphics[width=0.95\textwidth]{figures/chi_times_T_parts.pdf}
 \vspace*{-20pt}
 }
@@ -415,7 +425,7 @@ Contribution from polarised states vanish
 	\begin{itemize}
 	\only<+->{	\item Restore the kinetic energy part:
 
-			\[H^* = \sum_{k < k^*,\sigma}\epsilon_{k}\hat{n}_{k\sigma} ~ + ~ J^* \vec{S}_d\cdot \vec{s}_< = \underbrace{\sum_{k < k^*,\sigma}\epsilon_{k}\hat{n}_{k\sigma} ~ + ~ J^* S_d^z s_<^z}_{H_D} ~+~ \underbrace{J^*{S}_d^+ {s}_<^- + \text{h.c.}}_{V ~+~ V^\dagger}\]}
+			\[H^* = \underbrace{\sum_{k < k^*,\sigma}\epsilon_{k}\hat{n}_{k\sigma}}_{H_0^*} ~ + ~ J^* \vec{S}_d\cdot \vec{s}_< = \underbrace{\sum_{k < k^*,\sigma}\epsilon_{k}\hat{n}_{k\sigma} ~ + ~ J^* S_d^z s_<^z}_{H_D} ~+~ \underbrace{J^*{S}_d^+ {s}_<^- + \text{h.c.}}_{V ~+~ V^\dagger}\]}
 
  	\only<+->{	\item Freeze impurity dynamics by integrating out \(V\)\footcite{hewson1993}:
 
@@ -637,13 +647,20 @@ Anirban Mukherjee thanks the CSIR, Govt. of India and IISER Kolkata for funding 
 	\includegraphics[width=0.45\textwidth]{figures/chi_times_T_parts.pdf}
 	\includegraphics[width=0.45\textwidth]{figures/entropy_therm.pdf}
 \end{frame}
+
 \begin{frame}[noframenumbering]{Mutual Information (Kondo regime of SIAM)}
 	\includegraphics[width=0.45\textwidth]{figures/mut_I_ee.pdf}
 	\includegraphics[width=0.45\textwidth]{figures/mut_I_ie.pdf}
 \end{frame}
+
 \begin{frame}[noframenumbering]{Many-body correlation (Kondo regime of SIAM)}
 	\includegraphics[width=0.45\textwidth]{figures/corr_opp.pdf}
 	\includegraphics[width=0.45\textwidth]{figures/corr_od.pdf}
+\end{frame}
+
+\begin{frame}[noframenumbering]{Impurity spectral function (Gen. SIAM)}
+	\centering
+	\includegraphics[width=0.95\textwidth]{figures/gen_siam_spec_func.pdf}
 \end{frame}
 
 \begin{frame}[noframenumbering]{Local Fermi liquid excitations}

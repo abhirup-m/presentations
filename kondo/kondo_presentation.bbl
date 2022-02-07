@@ -284,6 +284,34 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{haldane1978scaling}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HF}{%
+         family={Haldane},
+         familyi={H\bibinitperiod},
+         given={FDM},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{HF1}
+    \strng{fullhash}{HF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1978}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{number}{6}
+    \field{pages}{416}
+    \field{title}{Scaling theory of the asymmetric Anderson model}
+    \field{volume}{40}
+    \field{journaltitle}{Physical Review Letters}
+    \field{year}{1978}
+  \endentry
+
   \entry{hewson1993}{book}{}
     \name{author}{1}{}{%
       {{hash=HAC}{%
@@ -334,6 +362,54 @@
     \field{volume}{32}
     \field{journaltitle}{Progress of theoretical physics}
     \field{year}{1964}
+  \endentry
+
+  \entry{hrk_wilson_1980}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KmHR}{%
+         family={Krishna-murthy},
+         familyi={K\bibinithyphendelim m\bibinitperiod},
+         given={H.\bibnamedelima R.},
+         giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WJW}{%
+         family={Wilkins},
+         familyi={W\bibinitperiod},
+         given={J.\bibnamedelima W.},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=WKG}{%
+         family={Wilson},
+         familyi={W\bibinitperiod},
+         given={K.\bibnamedelima G.},
+         giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{KmHRWJWWKG1}
+    \strng{fullhash}{KmHRWJWWKG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1980}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1103/PhysRevB.21.1003
+    \endverb
+    \field{issue}{3}
+    \field{pages}{1003\bibrangedash 1043}
+    \field{title}{Renormalization-group approach to the Anderson model of
+  dilute magnetic alloys. I. Static properties for the symmetric case}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevB.21.1003
+    \endverb
+    \field{volume}{21}
+    \field{journaltitle}{Phys. Rev. B}
+    \field{year}{1980}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{anirbanurg1}{article}{}
@@ -467,6 +543,49 @@
     \field{journaltitle}{Phys. Rev. B}
     \field{year}{2021}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{martin2019}{article}{}
+    \name{author}{4}{}{%
+      {{hash=RLC}{%
+         family={Ribeiro},
+         familyi={R\bibinitperiod},
+         given={L.\bibnamedelima C.},
+         giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=MGB}{%
+         family={Martins},
+         familyi={M\bibinitperiod},
+         given={G.\bibnamedelima B.},
+         giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=GSG}{%
+         family={Gomez-Silva},
+         familyi={G\bibinithyphendelim S\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=AEV}{%
+         family={Anda},
+         familyi={A\bibinitperiod},
+         given={E.\bibnamedelima V.},
+         giveni={E\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{RLC+1}
+    \strng{fullhash}{RLCMGBGSGAEV1}
+    \field{labelnamesource}{author}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{pages}{085139}
+    \field{volume}{99}
+    \field{journaltitle}{Phys. Rev. B}
+    \field{year}{2019}
   \endentry
 
   \entry{Schrieffer_Wolff}{article}{}

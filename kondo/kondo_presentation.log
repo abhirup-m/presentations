@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.2.1)  4 FEB 2022 09:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.2.1)  7 FEB 2022 20:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1113,6 +1113,11 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'hrk_wilson_1980':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'siddharthacpi':
 (biblatex)                - Invalid format of field 'month'.
 
@@ -1372,11 +1377,11 @@ LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
  [3
 
  <./figures/2dKondoTN.pdf> <./figures/kondoSetup.pdf> <./figures/kondo.jpeg>]
-<figures/kondo_res_schematic.pdf, id=119, 427.47191pt x 283.98032pt>
+<figures/kondo_res_schematic.pdf, id=119, 369.11258pt x 283.77898pt>
 File: figures/kondo_res_schematic.pdf Graphic file (type pdf)
 <use figures/kondo_res_schematic.pdf>
 Package pdftex.def Info: figures/kondo_res_schematic.pdf  used on input line 115.
-(pdftex.def)             Requested size: 123.77074pt x 82.22218pt.
+(pdftex.def)             Requested size: 123.77074pt x 95.15422pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 115--115
 
@@ -1449,11 +1454,11 @@ Package pdftex.def Info: figures/nozieres.jpg  used on input line 115.
 [6
 
 ]
-<figures/chi_schematic.pdf, id=172, 427.47191pt x 283.98032pt>
+<figures/chi_schematic.pdf, id=172, 429.01779pt x 273.51544pt>
 File: figures/chi_schematic.pdf Graphic file (type pdf)
 <use figures/chi_schematic.pdf>
 Package pdftex.def Info: figures/chi_schematic.pdf  used on input line 115.
-(pdftex.def)             Requested size: 123.77074pt x 82.22218pt.
+(pdftex.def)             Requested size: 123.77074pt x 78.90843pt.
 File: figures/pwanderson.jpg Graphic file (type jpg)
 <use figures/pwanderson.jpg>
 Package pdftex.def Info: figures/pwanderson.jpg  used on input line 115.
@@ -1472,7 +1477,7 @@ Package pdftex.def Info: figures/nozieres.jpg  used on input line 115.
 File: figures/chi_schematic.pdf Graphic file (type pdf)
 <use figures/chi_schematic.pdf>
 Package pdftex.def Info: figures/chi_schematic.pdf  used on input line 115.
-(pdftex.def)             Requested size: 123.77074pt x 82.22218pt.
+(pdftex.def)             Requested size: 123.77074pt x 78.90843pt.
 File: figures/pwanderson.jpg Graphic file (type jpg)
 <use figures/pwanderson.jpg>
 Package pdftex.def Info: figures/pwanderson.jpg  used on input line 115.
@@ -1503,21 +1508,21 @@ Package pdftex.def Info: figures/nozieres.jpg  used on input line 115.
 <figures/urg_schematic.pdf, id=238, 124.438pt x 262.98471pt>
 File: figures/urg_schematic.pdf Graphic file (type pdf)
 <use figures/urg_schematic.pdf>
-Package pdftex.def Info: figures/urg_schematic.pdf  used on input line 255.
+Package pdftex.def Info: figures/urg_schematic.pdf  used on input line 256.
 (pdftex.def)             Requested size: 43.31735pt x 91.54442pt.
  [15
 
  <./figures/urg_schematic.pdf>]
 File: figures/urg_schematic.pdf Graphic file (type pdf)
 <use figures/urg_schematic.pdf>
-Package pdftex.def Info: figures/urg_schematic.pdf  used on input line 255.
+Package pdftex.def Info: figures/urg_schematic.pdf  used on input line 256.
 (pdftex.def)             Requested size: 43.31735pt x 91.54442pt.
  [16
 
 ]
 File: figures/urg_schematic.pdf Graphic file (type pdf)
 <use figures/urg_schematic.pdf>
-Package pdftex.def Info: figures/urg_schematic.pdf  used on input line 255.
+Package pdftex.def Info: figures/urg_schematic.pdf  used on input line 256.
 (pdftex.def)             Requested size: 43.31735pt x 91.54442pt.
  [17
 
@@ -1525,30 +1530,30 @@ Package pdftex.def Info: figures/urg_schematic.pdf  used on input line 255.
 <figures/uv_ir_scheme.pdf, id=264, 686.48897pt x 686.48897pt>
 File: figures/uv_ir_scheme.pdf Graphic file (type pdf)
 <use figures/uv_ir_scheme.pdf>
-Package pdftex.def Info: figures/uv_ir_scheme.pdf  used on input line 255.
+Package pdftex.def Info: figures/uv_ir_scheme.pdf  used on input line 256.
 (pdftex.def)             Requested size: 148.52011pt x 148.51404pt.
  [18
 
  <./figures/uv_ir_scheme.pdf>]
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <14.4> not available
-(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 255.
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 256.
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 255.
+(Font)              scaled to size 14.4pt on input line 256.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 255.
+(Font)              <14.4> on input line 256.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <14.4> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 255.
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 256.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 14.4pt on input line 255.
+(Font)              scaled to size 14.4pt on input line 256.
 
-Overfull \hbox (46.78697pt too wide) detected at line 255
+Overfull \hbox (46.78697pt too wide) detected at line 256
 [] [][]\OMS/lmsy/m/n/10.95 ! []
  []
 
 <figures/urg_ham.pdf, id=274, 638.09737pt x 473.68864pt>
 File: figures/urg_ham.pdf Graphic file (type pdf)
 <use figures/urg_ham.pdf>
-Package pdftex.def Info: figures/urg_ham.pdf  used on input line 255.
+Package pdftex.def Info: figures/urg_ham.pdf  used on input line 256.
 (pdftex.def)             Requested size: 185.65297pt x 137.81432pt.
 [19
 
@@ -1556,20 +1561,20 @@ Package pdftex.def Info: figures/urg_ham.pdf  used on input line 255.
 
 Package amsmath Warning: Foreign command \atop;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 255.
+(amsmath)                 on input line 256.
 
-<figures/urg_rot.pdf, id=286, 779.5817pt x 746.58537pt>
+<figures/urg_rot.pdf, id=286, 746.58543pt x 746.58537pt>
 File: figures/urg_rot.pdf Graphic file (type pdf)
 <use figures/urg_rot.pdf>
-Package pdftex.def Info: figures/urg_rot.pdf  used on input line 255.
-(pdftex.def)             Requested size: 165.02661pt x 158.04066pt.
+Package pdftex.def Info: figures/urg_rot.pdf  used on input line 256.
+(pdftex.def)             Requested size: 165.02661pt x 165.02394pt.
 [20
 
  <./figures/urg_rot.pdf>]
 <figures/urg_next.pdf, id=297, 718.92056pt x 703.8643pt>
 File: figures/urg_next.pdf Graphic file (type pdf)
 <use figures/urg_next.pdf>
-Package pdftex.def Info: figures/urg_next.pdf  used on input line 255.
+Package pdftex.def Info: figures/urg_next.pdf  used on input line 256.
 (pdftex.def)             Requested size: 185.65297pt x 181.76529pt.
  [21
 
@@ -1577,7 +1582,7 @@ Package pdftex.def Info: figures/urg_next.pdf  used on input line 255.
 <figures/urg_ham_full.pdf, id=307, 664.46204pt x 664.46204pt>
 File: figures/urg_ham_full.pdf Graphic file (type pdf)
 <use figures/urg_ham_full.pdf>
-Package pdftex.def Info: figures/urg_ham_full.pdf  used on input line 255.
+Package pdftex.def Info: figures/urg_ham_full.pdf  used on input line 256.
 (pdftex.def)             Requested size: 155.53601pt x 155.53012pt.
  [22
 
@@ -1592,191 +1597,201 @@ Package pdftex.def Info: figures/urg_ham_full.pdf  used on input line 255.
 ] [27
 
 ]
-<figures/kondo_fp_1D.pdf, id=343, 442.97762pt x 78.22047pt>
+<figures/kondo_fp_1D.pdf, id=343, 853.11949pt x 237.22192pt>
 File: figures/kondo_fp_1D.pdf Graphic file (type pdf)
 <use figures/kondo_fp_1D.pdf>
-Package pdftex.def Info: figures/kondo_fp_1D.pdf  used on input line 341.
-(pdftex.def)             Requested size: 247.54149pt x 43.71124pt.
+Package pdftex.def Info: figures/kondo_fp_1D.pdf  used on input line 351.
+(pdftex.def)             Requested size: 247.54149pt x 68.8324pt.
  [28
 
  <./figures/kondo_fp_1D.pdf>]
-<figures/RG_flow.pdf, id=357, 1267.31267pt x 760.26723pt>
+<figures/RG_flow.pdf, id=357, 1301.93163pt x 766.17921pt>
 File: figures/RG_flow.pdf Graphic file (type pdf)
 <use figures/RG_flow.pdf>
-Package pdftex.def Info: figures/RG_flow.pdf  used on input line 341.
-(pdftex.def)             Requested size: 247.54149pt x 148.50092pt.
+Package pdftex.def Info: figures/RG_flow.pdf  used on input line 351.
+(pdftex.def)             Requested size: 247.54149pt x 145.66908pt.
  [29
 
  <./figures/RG_flow.pdf>]
-<figures/kondo_phase.pdf, id=385, 484.35658pt x 97.13278pt>
+<figures/kondo_phase.pdf, id=384, 484.35658pt x 97.13278pt>
 File: figures/kondo_phase.pdf Graphic file (type pdf)
 <use figures/kondo_phase.pdf>
-Package pdftex.def Info: figures/kondo_phase.pdf  used on input line 341.
+Package pdftex.def Info: figures/kondo_phase.pdf  used on input line 351.
 (pdftex.def)             Requested size: 222.78583pt x 44.67717pt.
  [30
 
  <./figures/kondo_phase.pdf>]
-Overfull \hbox (10.17645pt too wide) detected at line 341
+Overfull \hbox (10.17645pt too wide) detected at line 351
 | \T1/FiraSans-OsF/regular/it/10.95 T[] \OT1/FiraSans-OsF/regular/n/10.95 = [] [] [] \OML/lmm/m/it/10.95 ;  [] []^^X[] \OT1/FiraSans-OsF/regular/n/10.95 = []
  []
 
-<figures/xi_k.pdf, id=393, 984.4356pt x 765.73271pt>
-File: figures/xi_k.pdf Graphic file (type pdf)
-<use figures/xi_k.pdf>
-Package pdftex.def Info: figures/xi_k.pdf  used on input line 341.
-(pdftex.def)             Requested size: 198.03394pt x 154.03181pt.
+<figures/Jstar_Xik.pdf, id=392, 1111.30368pt x 765.73271pt>
+File: figures/Jstar_Xik.pdf Graphic file (type pdf)
+<use figures/Jstar_Xik.pdf>
+Package pdftex.def Info: figures/Jstar_Xik.pdf  used on input line 351.
+(pdftex.def)             Requested size: 198.03394pt x 136.4472pt.
 [31
 
- <./figures/xi_k.pdf>] [32
+ <./figures/Jstar_Xik.pdf>]
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 351.
+ (/usr/share/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+<figures/TK.pdf, id=414, 1032.00461pt x 765.73271pt>
+File: figures/TK.pdf Graphic file (type pdf)
+<use figures/TK.pdf>
+Package pdftex.def Info: figures/TK.pdf  used on input line 351.
+(pdftex.def)             Requested size: 198.03394pt x 146.92787pt.
+ [32
+
+ <./figures/TK.pdf>] [33
 
 ]
-<figures/KondoCouplingVst.pdf, id=422, 1017.96405pt x 760.26723pt>
+<figures/KondoCouplingVst.pdf, id=447, 1017.96405pt x 760.26723pt>
 File: figures/KondoCouplingVst.pdf Graphic file (type pdf)
 <use figures/KondoCouplingVst.pdf>
-Package pdftex.def Info: figures/KondoCouplingVst.pdf  used on input line 341.
+Package pdftex.def Info: figures/KondoCouplingVst.pdf  used on input line 351.
 (pdftex.def)             Requested size: 198.03394pt x 147.89769pt.
- [33
+ [34
 
- <./figures/KondoCouplingVst.pdf>] [34
+ <./figures/KondoCouplingVst.pdf>] [35
 
-] [35
+] [36
 
 ]
-<figures/kondo_zeromode.pdf, id=453, 356.64822pt x 151.8097pt>
+<figures/kondo_zeromode.pdf, id=479, 356.64822pt x 151.8097pt>
 File: figures/kondo_zeromode.pdf Graphic file (type pdf)
 <use figures/kondo_zeromode.pdf>
-Package pdftex.def Info: figures/kondo_zeromode.pdf  used on input line 410.
+Package pdftex.def Info: figures/kondo_zeromode.pdf  used on input line 420.
 (pdftex.def)             Requested size: 165.02347pt x 70.2433pt.
- [36
-
- <./figures/kondo_zeromode.pdf>]
-<figures/chi_times_T_parts.pdf, id=466, 1144.02309pt x 765.8196pt>
-File: figures/chi_times_T_parts.pdf Graphic file (type pdf)
-<use figures/chi_times_T_parts.pdf>
-Package pdftex.def Info: figures/chi_times_T_parts.pdf  used on input line 410.
-(pdftex.def)             Requested size: 223.40608pt x 149.5504pt.
-<figures/andrei.jpg, id=467, 150.5625pt x 175.65625pt>
-File: figures/andrei.jpg Graphic file (type jpg)
-<use figures/andrei.jpg>
-Package pdftex.def Info: figures/andrei.jpg  used on input line 410.
-(pdftex.def)             Requested size: 34.28633pt x 40.0pt.
  [37
 
- <./figures/chi_times_T_parts.pdf> <./figures/andrei.jpg>]
-<figures/WilsonNumber.pdf, id=491, 1068.69405pt x 760.26723pt>
-File: figures/WilsonNumber.pdf Graphic file (type pdf)
-<use figures/WilsonNumber.pdf>
-Package pdftex.def Info: figures/WilsonNumber.pdf  used on input line 410.
-(pdftex.def)             Requested size: 199.89172pt x 142.20172pt.
+ <./figures/kondo_zeromode.pdf>]
+<figures/chi_times_T_parts.pdf, id=493, 1144.02309pt x 765.8196pt>
+File: figures/chi_times_T_parts.pdf Graphic file (type pdf)
+<use figures/chi_times_T_parts.pdf>
+Package pdftex.def Info: figures/chi_times_T_parts.pdf  used on input line 420.
+(pdftex.def)             Requested size: 223.40608pt x 149.5504pt.
+<figures/andrei.jpg, id=494, 150.5625pt x 175.65625pt>
+File: figures/andrei.jpg Graphic file (type jpg)
+<use figures/andrei.jpg>
+Package pdftex.def Info: figures/andrei.jpg  used on input line 420.
+(pdftex.def)             Requested size: 34.28633pt x 40.0pt.
  [38
 
+ <./figures/chi_times_T_parts.pdf> <./figures/andrei.jpg>]
+<figures/WilsonNumber.pdf, id=517, 1068.69405pt x 760.26723pt>
+File: figures/WilsonNumber.pdf Graphic file (type pdf)
+<use figures/WilsonNumber.pdf>
+Package pdftex.def Info: figures/WilsonNumber.pdf  used on input line 420.
+(pdftex.def)             Requested size: 199.89172pt x 142.20172pt.
+ [39
+
  <./figures/WilsonNumber.pdf>]
-<figures/chi_parts.pdf, id=509, 1125.67842pt x 765.8196pt>
+<figures/chi_parts.pdf, id=535, 1125.67842pt x 765.8196pt>
 File: figures/chi_parts.pdf Graphic file (type pdf)
 <use figures/chi_parts.pdf>
-Package pdftex.def Info: figures/chi_parts.pdf  used on input line 410.
+Package pdftex.def Info: figures/chi_parts.pdf  used on input line 420.
 (pdftex.def)             Requested size: 246.92401pt x 167.97835pt.
 
-Overfull \hbox (11.75896pt too wide) in paragraph at lines 410--410
+Overfull \hbox (11.75896pt too wide) in paragraph at lines 420--420
  [] 
  []
 
-[39
+[40
 
- <./figures/chi_parts.pdf>] [40
+ <./figures/chi_parts.pdf>] [41
 
-] [41
+] [42
 
 ]
-<figures/hewson.jpg, id=544, 250.9375pt x 309.155pt>
+<figures/hewson.jpg, id=570, 250.9375pt x 309.155pt>
 File: figures/hewson.jpg Graphic file (type jpg)
 <use figures/hewson.jpg>
-Package pdftex.def Info: figures/hewson.jpg  used on input line 497.
+Package pdftex.def Info: figures/hewson.jpg  used on input line 507.
 (pdftex.def)             Requested size: 32.46602pt x 40.0pt.
- [42
+ [43
 
  <./figures/hewson.jpg>]
 File: figures/hewson.jpg Graphic file (type jpg)
 <use figures/hewson.jpg>
-Package pdftex.def Info: figures/hewson.jpg  used on input line 497.
+Package pdftex.def Info: figures/hewson.jpg  used on input line 507.
 (pdftex.def)             Requested size: 32.46602pt x 40.0pt.
- [43
+ [44
 
-] [44
+] [45
 
 ]
-<figures/FL_self_energy.pdf, id=563, 920.86374pt x 642.24997pt>
+<figures/FL_self_energy.pdf, id=589, 920.86374pt x 642.24997pt>
 File: figures/FL_self_energy.pdf Graphic file (type pdf)
 <use figures/FL_self_energy.pdf>
-Package pdftex.def Info: figures/FL_self_energy.pdf  used on input line 497.
+Package pdftex.def Info: figures/FL_self_energy.pdf  used on input line 507.
 (pdftex.def)             Requested size: 198.02942pt x 138.11044pt.
- [45
-
- <./figures/FL_self_energy.pdf>]
-<figures/gamma_imp.pdf, id=585, 1006.63664pt x 637.80232pt>
-File: figures/gamma_imp.pdf Graphic file (type pdf)
-<use figures/gamma_imp.pdf>
-Package pdftex.def Info: figures/gamma_imp.pdf  used on input line 497.
-(pdftex.def)             Requested size: 198.02942pt x 125.4658pt.
  [46
 
- <./figures/gamma_imp.pdf>]
-<figures/wilsonratio.pdf, id=605, 1011.07852pt x 637.80232pt>
-File: figures/wilsonratio.pdf Graphic file (type pdf)
-<use figures/wilsonratio.pdf>
-Package pdftex.def Info: figures/wilsonratio.pdf  used on input line 497.
-(pdftex.def)             Requested size: 222.78583pt x 140.53105pt.
+ <./figures/FL_self_energy.pdf>]
+<figures/gamma_imp.pdf, id=611, 1006.63664pt x 637.80232pt>
+File: figures/gamma_imp.pdf Graphic file (type pdf)
+<use figures/gamma_imp.pdf>
+Package pdftex.def Info: figures/gamma_imp.pdf  used on input line 507.
+(pdftex.def)             Requested size: 198.02942pt x 125.4658pt.
  [47
 
- <./figures/wilsonratio.pdf>] [48
+ <./figures/gamma_imp.pdf>]
+<figures/wilsonratio.pdf, id=631, 1011.07852pt x 637.80232pt>
+File: figures/wilsonratio.pdf Graphic file (type pdf)
+<use figures/wilsonratio.pdf>
+Package pdftex.def Info: figures/wilsonratio.pdf  used on input line 507.
+(pdftex.def)             Requested size: 222.78583pt x 140.53105pt.
+ [48
+
+ <./figures/wilsonratio.pdf>] [49
 
 ]
-<figures/flowChart_new.pdf, id=632, 108.18732pt x 41.25394pt>
+<figures/flowChart_new.pdf, id=659, 108.18732pt x 41.25394pt>
 File: figures/flowChart_new.pdf Graphic file (type pdf)
 <use figures/flowChart_new.pdf>
-Package pdftex.def Info: figures/flowChart_new.pdf  used on input line 586.
+Package pdftex.def Info: figures/flowChart_new.pdf  used on input line 596.
 (pdftex.def)             Requested size: 247.54149pt x 94.40549pt.
- [49
+ [50
 
  <./figures/flowChart_new.pdf>]
-<figures/KC.pdf, id=645, 110.96698pt x 60.40994pt>
+<figures/KC.pdf, id=672, 110.96698pt x 60.40994pt>
 File: figures/KC.pdf Graphic file (type pdf)
 <use figures/KC.pdf>
-Package pdftex.def Info: figures/KC.pdf  used on input line 586.
+Package pdftex.def Info: figures/KC.pdf  used on input line 596.
 (pdftex.def)             Requested size: 123.77074pt x 67.38303pt.
- [50
+ [51
 
  <./figures/KC.pdf>]
 File: figures/KC.pdf Graphic file (type pdf)
 <use figures/KC.pdf>
-Package pdftex.def Info: figures/KC.pdf  used on input line 586.
+Package pdftex.def Info: figures/KC.pdf  used on input line 596.
 (pdftex.def)             Requested size: 123.77074pt x 67.38303pt.
-<figures/KC_2.pdf, id=655, 111.52927pt x 65.35077pt>
+<figures/KC_2.pdf, id=682, 111.52927pt x 65.35077pt>
 File: figures/KC_2.pdf Graphic file (type pdf)
 <use figures/KC_2.pdf>
-Package pdftex.def Info: figures/KC_2.pdf  used on input line 586.
+Package pdftex.def Info: figures/KC_2.pdf  used on input line 596.
 (pdftex.def)             Requested size: 123.77074pt x 72.52724pt.
- [51
-
- <./figures/KC_2.pdf>]
-<figures/MIkondo.pdf, id=663, 1009.14276pt x 751.3777pt>
-File: figures/MIkondo.pdf Graphic file (type pdf)
-<use figures/MIkondo.pdf>
-Package pdftex.def Info: figures/MIkondo.pdf  used on input line 586.
-(pdftex.def)             Requested size: 222.7823pt x 165.87686pt.
  [52
 
- <./figures/MIkondo.pdf>]
-<figures/corrKondo.pdf, id=685, 1144.02309pt x 760.26723pt>
-File: figures/corrKondo.pdf Graphic file (type pdf)
-<use figures/corrKondo.pdf>
-Package pdftex.def Info: figures/corrKondo.pdf  used on input line 586.
-(pdftex.def)             Requested size: 222.7823pt x 148.0485pt.
+ <./figures/KC_2.pdf>]
+<figures/MIkondo.pdf, id=689, 1009.14276pt x 751.3777pt>
+File: figures/MIkondo.pdf Graphic file (type pdf)
+<use figures/MIkondo.pdf>
+Package pdftex.def Info: figures/MIkondo.pdf  used on input line 596.
+(pdftex.def)             Requested size: 222.7823pt x 165.87686pt.
  [53
 
- <./figures/corrKondo.pdf>] [54
+ <./figures/MIkondo.pdf>]
+<figures/corrKondo.pdf, id=711, 1144.02309pt x 760.26723pt>
+File: figures/corrKondo.pdf Graphic file (type pdf)
+<use figures/corrKondo.pdf>
+Package pdftex.def Info: figures/corrKondo.pdf  used on input line 596.
+(pdftex.def)             Requested size: 222.7823pt x 148.0485pt.
+ [54
 
-] [55
+ <./figures/corrKondo.pdf>] [55
 
 ] [56
 
@@ -1784,138 +1799,152 @@ Package pdftex.def Info: figures/corrKondo.pdf  used on input line 586.
 
 ] [58
 
+] [59
+
 ]
-<figures/am.png, id=735, 712.6625pt x 857.2025pt>
+<figures/am.png, id=761, 712.6625pt x 857.2025pt>
 File: figures/am.png Graphic file (type png)
 <use figures/am.png>
-Package pdftex.def Info: figures/am.png  used on input line 620.
+Package pdftex.def Info: figures/am.png  used on input line 630.
 (pdftex.def)             Requested size: 49.88058pt x 60.0pt.
-<figures/dp.jpg, id=736, 581.17125pt x 434.62375pt>
+<figures/dp.jpg, id=762, 581.17125pt x 434.62375pt>
 File: figures/dp.jpg Graphic file (type jpg)
 <use figures/dp.jpg>
-Package pdftex.def Info: figures/dp.jpg  used on input line 620.
+Package pdftex.def Info: figures/dp.jpg  used on input line 630.
 (pdftex.def)             Requested size: 80.22832pt x 60.0pt.
-<figures/ns.jpeg, id=737, 263.48438pt x 263.48438pt>
+<figures/ns.jpeg, id=763, 263.48438pt x 263.48438pt>
 File: figures/ns.jpeg Graphic file (type jpg)
 <use figures/ns.jpeg>
-Package pdftex.def Info: figures/ns.jpeg  used on input line 620.
+Package pdftex.def Info: figures/ns.jpeg  used on input line 630.
 (pdftex.def)             Requested size: 59.99706pt x 60.0pt.
-<figures/arghyat.png, id=738, 87.32625pt x 111.41624pt>
+<figures/arghyat.png, id=764, 87.32625pt x 111.41624pt>
 File: figures/arghyat.png Graphic file (type png)
 <use figures/arghyat.png>
-Package pdftex.def Info: figures/arghyat.png  used on input line 620.
+Package pdftex.def Info: figures/arghyat.png  used on input line 630.
 (pdftex.def)             Requested size: 47.02754pt x 60.0pt.
-<figures/slal.jpg, id=739, 700.6175pt x 876.27374pt>
+<figures/slal.jpg, id=765, 700.6175pt x 876.27374pt>
 File: figures/slal.jpg Graphic file (type jpg)
 <use figures/slal.jpg>
-Package pdftex.def Info: figures/slal.jpg  used on input line 620.
+Package pdftex.def Info: figures/slal.jpg  used on input line 630.
 (pdftex.def)             Requested size: 47.96849pt x 60.0pt.
- [59
+ [60
 
  <./figures/am.png> <./figures/dp.jpg> <./figures/ns.jpeg> <./figures/arghyat.png> <./figures/slal.jpg>]
-LaTeX Font Info:    Trying to load font information for TS1+FiraSans-OsF on input line 624.
+LaTeX Font Info:    Trying to load font information for TS1+FiraSans-OsF on input line 634.
  (/usr/share/texmf-dist/tex/latex/fira/TS1FiraSans-OsF.fd
 File: TS1FiraSans-OsF.fd 2019/10/10 (autoinst) Font definitions for TS1/FiraSans-OsF.
 )
 LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/m/n' in size <8> not available
-(Font)              Font shape `TS1/FiraSans-OsF/regular/n' tried instead on input line 624.
+(Font)              Font shape `TS1/FiraSans-OsF/regular/n' tried instead on input line 634.
 LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 624.
- [60
-
-] [61
-
+(Font)              scaled to size 8.0pt on input line 634.
+ [61
 
 ] [62
 
+
+] [63
+
 ]
-<figures/kondo_spec_func.pdf, id=768, 1208.47261pt x 687.82085pt>
+<figures/kondo_spec_func.pdf, id=795, 1208.47261pt x 687.82085pt>
 File: figures/kondo_spec_func.pdf Graphic file (type pdf)
 <use figures/kondo_spec_func.pdf>
-Package pdftex.def Info: figures/kondo_spec_func.pdf  used on input line 634.
+Package pdftex.def Info: figures/kondo_spec_func.pdf  used on input line 644.
 (pdftex.def)             Requested size: 185.65297pt x 105.66655pt.
-<figures/Kondo_length.pdf, id=769, 719.20593pt x 212.50893pt>
+<figures/Kondo_length.pdf, id=796, 719.20593pt x 212.50893pt>
 File: figures/Kondo_length.pdf Graphic file (type pdf)
 <use figures/Kondo_length.pdf>
-Package pdftex.def Info: figures/Kondo_length.pdf  used on input line 634.
+Package pdftex.def Info: figures/Kondo_length.pdf  used on input line 644.
 (pdftex.def)             Requested size: 185.65297pt x 54.85541pt.
- [63
+ [64
 
  <./figures/kondo_spec_func.pdf> <./figures/Kondo_length.pdf>]
 File: figures/chi_times_T_parts.pdf Graphic file (type pdf)
 <use figures/chi_times_T_parts.pdf>
-Package pdftex.def Info: figures/chi_times_T_parts.pdf  used on input line 639.
+Package pdftex.def Info: figures/chi_times_T_parts.pdf  used on input line 649.
 (pdftex.def)             Requested size: 185.65297pt x 124.27477pt.
-<figures/entropy_therm.pdf, id=801, 1021.0177pt x 656.69186pt>
+<figures/entropy_therm.pdf, id=827, 1021.0177pt x 656.69186pt>
 File: figures/entropy_therm.pdf Graphic file (type pdf)
 <use figures/entropy_therm.pdf>
-Package pdftex.def Info: figures/entropy_therm.pdf  used on input line 639.
+Package pdftex.def Info: figures/entropy_therm.pdf  used on input line 649.
 (pdftex.def)             Requested size: 185.65297pt x 119.40187pt.
- [64
+ [65
 
  <./figures/entropy_therm.pdf>]
-<figures/mut_I_ee.pdf, id=817, 874.4729pt x 642.24997pt>
+<figures/mut_I_ee.pdf, id=843, 739.75438pt x 515.34323pt>
 File: figures/mut_I_ee.pdf Graphic file (type pdf)
 <use figures/mut_I_ee.pdf>
-Package pdftex.def Info: figures/mut_I_ee.pdf  used on input line 643.
-(pdftex.def)             Requested size: 185.65297pt x 136.34645pt.
-<figures/mut_I_ie.pdf, id=818, 808.84526pt x 642.24997pt>
+Package pdftex.def Info: figures/mut_I_ee.pdf  used on input line 654.
+(pdftex.def)             Requested size: 185.65297pt x 129.33089pt.
+<figures/mut_I_ie.pdf, id=844, 753.51292pt x 515.34323pt>
 File: figures/mut_I_ie.pdf Graphic file (type pdf)
 <use figures/mut_I_ie.pdf>
-Package pdftex.def Info: figures/mut_I_ie.pdf  used on input line 643.
-(pdftex.def)             Requested size: 185.65297pt x 147.41058pt.
- [65
+Package pdftex.def Info: figures/mut_I_ie.pdf  used on input line 654.
+(pdftex.def)             Requested size: 185.65297pt x 126.97183pt.
+ [66
 
  <./figures/mut_I_ee.pdf> <./figures/mut_I_ie.pdf
 
 pdfTeX warning: pdflatex (file ./figures/mut_I_ie.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<figures/corr_opp.pdf, id=853, 810.35904pt x 642.24997pt>
+<figures/corr_opp.pdf, id=879, 670.15236pt x 515.34323pt>
 File: figures/corr_opp.pdf Graphic file (type pdf)
 <use figures/corr_opp.pdf>
-Package pdftex.def Info: figures/corr_opp.pdf  used on input line 647.
-(pdftex.def)             Requested size: 185.65297pt x 147.13618pt.
-<figures/corr_od.pdf, id=854, 825.09206pt x 642.24997pt>
+Package pdftex.def Info: figures/corr_opp.pdf  used on input line 659.
+(pdftex.def)             Requested size: 185.65297pt x 142.76173pt.
+<figures/corr_od.pdf, id=880, 680.38284pt x 515.34323pt>
 File: figures/corr_od.pdf Graphic file (type pdf)
 <use figures/corr_od.pdf>
-Package pdftex.def Info: figures/corr_od.pdf  used on input line 647.
-(pdftex.def)             Requested size: 185.65297pt x 144.5098pt.
- [66
+Package pdftex.def Info: figures/corr_od.pdf  used on input line 659.
+(pdftex.def)             Requested size: 185.65297pt x 140.615pt.
+ [67
 
  <./figures/corr_opp.pdf> <./figures/corr_od.pdf
 
 pdfTeX warning: pdflatex (file ./figures/corr_od.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<figures/noz_1D.pdf, id=889, 573.44052pt x 217.60785pt>
+<figures/gen_siam_spec_func.pdf, id=923, 1113.04492pt x 627.8023pt>
+File: figures/gen_siam_spec_func.pdf Graphic file (type pdf)
+<use figures/gen_siam_spec_func.pdf>
+Package pdftex.def Info: figures/gen_siam_spec_func.pdf  used on input line 664.
+(pdftex.def)             Requested size: 391.93546pt x 221.06564pt.
+
+Overfull \vbox (2.10925pt too high) detected at line 664
+ []
+
+[68
+
+ <./figures/gen_siam_spec_func.pdf>]
+<figures/noz_1D.pdf, id=939, 573.44052pt x 217.60785pt>
 File: figures/noz_1D.pdf Graphic file (type pdf)
 <use figures/noz_1D.pdf>
-Package pdftex.def Info: figures/noz_1D.pdf  used on input line 680.
+Package pdftex.def Info: figures/noz_1D.pdf  used on input line 697.
 (pdftex.def)             Requested size: 148.52011pt x 56.35754pt.
- [67
-
- <./figures/noz_1D.pdf>]
-<figures/noz_1D_approx.pdf, id=899, 369.28223pt x 137.4862pt>
-File: figures/noz_1D_approx.pdf Graphic file (type pdf)
-<use figures/noz_1D_approx.pdf>
-Package pdftex.def Info: figures/noz_1D_approx.pdf  used on input line 680.
-(pdftex.def)             Requested size: 148.52011pt x 55.29349pt.
- [68
-
- <./figures/noz_1D_approx.pdf>]
-<figures/lattice_eff.pdf, id=907, 289.01169pt x 138.32745pt>
-File: figures/lattice_eff.pdf Graphic file (type pdf)
-<use figures/lattice_eff.pdf>
-Package pdftex.def Info: figures/lattice_eff.pdf  used on input line 680.
-(pdftex.def)             Requested size: 148.52011pt x 71.0864pt.
  [69
 
+ <./figures/noz_1D.pdf>]
+<figures/noz_1D_approx.pdf, id=947, 369.28223pt x 137.4862pt>
+File: figures/noz_1D_approx.pdf Graphic file (type pdf)
+<use figures/noz_1D_approx.pdf>
+Package pdftex.def Info: figures/noz_1D_approx.pdf  used on input line 697.
+(pdftex.def)             Requested size: 148.52011pt x 55.29349pt.
+ [70
+
+ <./figures/noz_1D_approx.pdf>]
+<figures/lattice_eff.pdf, id=955, 289.01169pt x 138.32745pt>
+File: figures/lattice_eff.pdf Graphic file (type pdf)
+<use figures/lattice_eff.pdf>
+Package pdftex.def Info: figures/lattice_eff.pdf  used on input line 697.
+(pdftex.def)             Requested size: 148.52011pt x 71.0864pt.
+ [71
+
  <./figures/lattice_eff.pdf>]
-<figures/lattice_eff_full.pdf, id=919, 469.9901pt x 138.32745pt>
+<figures/lattice_eff_full.pdf, id=967, 469.9901pt x 138.32745pt>
 File: figures/lattice_eff_full.pdf Graphic file (type pdf)
 <use figures/lattice_eff_full.pdf>
-Package pdftex.def Info: figures/lattice_eff_full.pdf  used on input line 680.
+Package pdftex.def Info: figures/lattice_eff_full.pdf  used on input line 697.
 (pdftex.def)             Requested size: 148.52011pt x 43.71268pt.
- [70
+ [72
 
  <./figures/lattice_eff_full.pdf>]
 \tf@nav=\write6
@@ -1933,18 +1962,18 @@ Package logreq Info: Writing requests to 'kondo_presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34640 strings out of 478353
- 697217 string characters out of 5854636
- 1284984 words of memory out of 5000000
- 51871 multiletter control sequences out of 15000+600000
- 904110 words of font info for 124 fonts, out of 8000000 for 9000
+ 34721 strings out of 478353
+ 699143 string characters out of 5854636
+ 1286198 words of memory out of 5000000
+ 51934 multiletter control sequences out of 15000+600000
+ 925042 words of font info for 131 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,1865b,1980s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_d67aat.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_337jzs.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_2mfh3o.enc}</usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Bold.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Italic.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on kondo_presentation.pdf (70 pages, 3585916 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_d67aat.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_337jzs.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_2mfh3o.enc}</usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Bold.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Italic.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on kondo_presentation.pdf (72 pages, 3635706 bytes).
 PDF statistics:
- 1071 PDF objects out of 1200 (max. 8388607)
- 870 compressed objects within 9 object streams
- 167 named destinations out of 1000 (max. 500000)
- 398 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1126 PDF objects out of 1200 (max. 8388607)
+ 918 compressed objects within 10 object streams
+ 174 named destinations out of 1000 (max. 500000)
+ 408 words of extra memory for PDF output out of 10000 (max. 10000000)
 
