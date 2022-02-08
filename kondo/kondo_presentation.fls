@@ -1903,6 +1903,8 @@ INPUT /usr/share/texmf-dist/fonts/vf/public/fira/FiraSans-Italic-osf-t1.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/public/fira/FiraSans-Italic-osf-t1--base.tfm
 INPUT /usr/share/texmf-dist/fonts/vf/public/fira/FiraSans-Italic-osf-t1.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/public/fira/FiraSans-Italic-osf-t1--base.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-t1.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-t1.tfm
 INPUT ./figures/urg_rot.pdf
 INPUT ./figures/urg_rot.pdf
 INPUT figures/urg_rot.pdf
@@ -1913,8 +1915,6 @@ INPUT ./figures/urg_next.pdf
 INPUT figures/urg_next.pdf
 INPUT ./figures/urg_next.pdf
 INPUT ./figures/urg_next.pdf
-INPUT /usr/share/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-t1.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-t1.tfm
 INPUT ./figures/urg_ham_full.pdf
 INPUT ./figures/urg_ham_full.pdf
 INPUT figures/urg_ham_full.pdf

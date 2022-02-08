@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex kondo_presentation"] 1644245775 "kondo_presentation.aux" "kondo_presentation.bbl" "kondo_presentation" 1644245920
+["bibtex kondo_presentation"] 1644327757 "kondo_presentation.aux" "kondo_presentation.bbl" "kondo_presentation" 1644328136
   "/usr/share/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1640598170 65407 88927b81d8f6cedfef1300ccf61cbd6b ""
-  "kondo_presentation-blx.bib" 1644245919 340 7bdce33d370fce05909e24f547f8d889 "pdflatex"
-  "kondo_presentation.aux" 1644245919 29805 1d69c641d62046ac1fa82d39532badb5 "pdflatex"
+  "kondo_presentation-blx.bib" 1644328136 340 7bdce33d370fce05909e24f547f8d889 "pdflatex"
+  "kondo_presentation.aux" 1644328136 29805 6df8c41500f12bba23f4c267b6287da7 "pdflatex"
   "kondo_presentation.bib" 1644210548 308819 7bbf66b287e70ce3d4e230ae4bc94224 ""
   (generated)
   "kondo_presentation.bbl"
   "kondo_presentation.blg"
-["pdflatex"] 1644245916 "kondo_presentation.tex" "kondo_presentation.pdf" "kondo_presentation" 1644245920
+["pdflatex"] 1644328133 "kondo_presentation.tex" "kondo_presentation.pdf" "kondo_presentation" 1644328136
   "/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_2mfh3o.enc" 1640612286 3443 c184b8b1bd90c3ec5d4289b992e64d96 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_337jzs.enc" 1640612286 2952 6101deaf2e29800c3f438cc30978a854 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_d67aat.enc" 1640612286 3385 21a7e8c8dac3c39de5acda2c56e7bd7e ""
@@ -355,15 +355,15 @@
   "figures/urg_ham.pdf" 1643601279 13555 a83d470572e11ec12d01e52c7916743f ""
   "figures/urg_ham_full.pdf" 1643601279 10935 252cd348ae5504f1c73368df63823558 ""
   "figures/urg_next.pdf" 1643601279 6975 2c0bedc1b6f5fc2f20e9838862e696d3 ""
-  "figures/urg_rot.pdf" 1644245909 20983 1494d08a36249c34501f1baec229c4af ""
+  "figures/urg_rot.pdf" 1644326924 21130 5d852fe3c38a6ea5857493f1ef05e686 ""
   "figures/urg_schematic.pdf" 1643601279 4181 7508383514ada3c1c0adc3126111b563 ""
   "figures/uv_ir_scheme.pdf" 1643601279 4182 3365484db8cc833bdcd422076df66527 ""
   "figures/wilsonratio.pdf" 1637556220 99221 d4f3f94880bd84289b9d38a8ecdb8ca0 ""
-  "kondo_presentation.aux" 1644245919 29805 1d69c641d62046ac1fa82d39532badb5 "pdflatex"
-  "kondo_presentation.bbl" 1644245775 20680 4b4fca30788953a23232959bd5999eb0 "bibtex kondo_presentation"
-  "kondo_presentation.nav" 1644245919 7731 488d67263047fcf1150b05dd55a7d55f "pdflatex"
-  "kondo_presentation.run.xml" 1644245919 2662 1e50f24502af5bf04ee366498558bae8 "pdflatex"
-  "kondo_presentation.tex" 1644245916 24949 8e0a4f4cf667aec3aaa69997a054f10c ""
+  "kondo_presentation.aux" 1644328136 29805 6df8c41500f12bba23f4c267b6287da7 "pdflatex"
+  "kondo_presentation.bbl" 1644327757 20680 4b4fca30788953a23232959bd5999eb0 "bibtex kondo_presentation"
+  "kondo_presentation.nav" 1644328136 7731 488d67263047fcf1150b05dd55a7d55f "pdflatex"
+  "kondo_presentation.run.xml" 1644328136 2662 1e50f24502af5bf04ee366498558bae8 "pdflatex"
+  "kondo_presentation.tex" 1644328133 25150 23c26af57a92b4b5ce694c6d40166284 ""
   (generated)
   "kondo_presentation-blx.bib"
   "kondo_presentation.aux"
