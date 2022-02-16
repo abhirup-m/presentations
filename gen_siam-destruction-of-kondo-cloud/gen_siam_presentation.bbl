@@ -1,0 +1,745 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{anderson_impurity_1961}{article}{}
+    \name{author}{1}{}{%
+      {{hash=APW}{%
+         family={Anderson},
+         familyi={A\bibinitperiod},
+         given={P.\bibnamedelima W.},
+         giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{APW1}
+    \strng{fullhash}{APW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1961}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1103/PhysRev.124.41
+    \endverb
+    \field{issue}{1}
+    \field{pages}{41\bibrangedash 53}
+    \field{title}{Localized Magnetic States in Metals}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRev.124.41
+    \endverb
+    \field{volume}{124}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{1961}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{anderson1970}{article}{}
+    \name{author}{1}{}{%
+      {{hash=APW}{%
+         family={Anderson},
+         familyi={A\bibinitperiod},
+         given={P\bibnamedelima W},
+         giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{IOP} Publishing}%
+    }
+    \strng{namehash}{APW2}
+    \strng{fullhash}{APW2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1970}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1088/0022-3719/3/12/008
+    \endverb
+    \field{number}{12}
+    \field{pages}{2436\bibrangedash 2441}
+    \field{title}{A poor man{\textquotesingle}s derivation of scaling laws for
+  the Kondo problem}
+    \verb{url}
+    \verb https://doi.org/10.1088/0022-3719/3/12/008
+    \endverb
+    \field{volume}{3}
+    \field{journaltitle}{Journal of Physics C: Solid State Physics}
+    \field{year}{1970}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{anderson1969exact}{article}{}
+    \name{author}{2}{}{%
+      {{hash=APW}{%
+         family={Anderson},
+         familyi={A\bibinitperiod},
+         given={Philip\bibnamedelima W},
+         giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=YG}{%
+         family={Yuval},
+         familyi={Y\bibinitperiod},
+         given={Gideon},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{APWYG1}
+    \strng{fullhash}{APWYG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1969}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{2}
+    \field{pages}{89}
+    \field{title}{Exact results in the Kondo problem: equivalence to a
+  classical one-dimensional Coulomb gas}
+    \field{volume}{23}
+    \field{journaltitle}{Physical Review Letters}
+    \field{year}{1969}
+  \endentry
+
+  \entry{andreiKondoreview}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AN}{%
+         family={Andrei},
+         familyi={A\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=FK}{%
+         family={Furuya},
+         familyi={F\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=LJH}{%
+         family={Lowenstein},
+         familyi={L\bibinitperiod},
+         given={J.\bibnamedelima H.},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{ANFKLJH1}
+    \strng{fullhash}{ANFKLJH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1983}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1103/RevModPhys.55.331
+    \endverb
+    \field{issue}{2}
+    \field{pages}{331\bibrangedash 402}
+    \field{title}{Solution of the Kondo problem}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/RevModPhys.55.331
+    \endverb
+    \field{volume}{55}
+    \field{journaltitle}{Rev. Mod. Phys.}
+    \field{year}{1983}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{andrei_kondo}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AN}{%
+         family={Andrei},
+         familyi={A\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=FK}{%
+         family={Furuya},
+         familyi={F\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=LJH}{%
+         family={Lowenstein},
+         familyi={L\bibinitperiod},
+         given={J.\bibnamedelima H.},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{ANFKLJH1}
+    \strng{fullhash}{ANFKLJH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1983}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1103/RevModPhys.55.331
+    \endverb
+    \field{issue}{2}
+    \field{pages}{331\bibrangedash 402}
+    \field{title}{Solution of the Kondo problem}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/RevModPhys.55.331
+    \endverb
+    \field{volume}{55}
+    \field{journaltitle}{Rev. Mod. Phys.}
+    \field{year}{1983}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{1dhubjhep}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AMSP}{%
+         family={Anirban\bibnamedelima Mukherjee},
+         familyi={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={Siddhartha\bibnamedelima Patra},
+         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Lal},
+         familyi={L\bibinitperiod},
+         given={Siddhartha},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AMSPLS1}
+    \strng{fullhash}{AMSPLS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1007/JHEP04(2021)148
+    \endverb
+    \field{number}{148}
+    \field{title}{Fermionic criticality is shaped by Fermi surface topology: a
+  case study of the Tomonaga-Luttinger liquid}
+    \verb{url}
+    \verb https://doi.org/10.1007/JHEP04(2021)148
+    \endverb
+    \field{volume}{2021}
+    \field{journaltitle}{Journal of High Energy Physics}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Goldhaber-Gordon1998}{article}{}
+    \name{author}{6}{}{%
+      {{hash=GGD}{%
+         family={Goldhaber-Gordon},
+         familyi={G\bibinithyphendelim G\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Shtrikman},
+         familyi={S\bibinitperiod},
+         given={Hadas},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={Mahalu},
+         familyi={M\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=AMD}{%
+         family={Abusch-Magder},
+         familyi={A\bibinithyphendelim M\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MU}{%
+         family={Meirav},
+         familyi={M\bibinitperiod},
+         given={U.},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=KMA}{%
+         family={Kastner},
+         familyi={K\bibinitperiod},
+         given={M.\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GGD+1}
+    \strng{fullhash}{GGDSHMDAMDMUKMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1998}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb 10.1038/34373
+    \endverb
+    \field{issn}{1476-4687}
+    \field{number}{6663}
+    \field{pages}{156\bibrangedash 159}
+    \field{title}{Kondo effect in a single-electron transistor}
+    \verb{url}
+    \verb https://doi.org/10.1038/34373
+    \endverb
+    \field{volume}{391}
+    \field{journaltitle}{Nature}
+    \field{year}{1998}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{haldane1978scaling}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HF}{%
+         family={Haldane},
+         familyi={H\bibinitperiod},
+         given={FDM},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{HF1}
+    \strng{fullhash}{HF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1978}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{number}{6}
+    \field{pages}{416}
+    \field{title}{Scaling theory of the asymmetric Anderson model}
+    \field{volume}{40}
+    \field{journaltitle}{Physical Review Letters}
+    \field{year}{1978}
+  \endentry
+
+  \entry{hewson1993}{book}{}
+    \name{author}{1}{}{%
+      {{hash=HAC}{%
+         family={Hewson},
+         familyi={H\bibinitperiod},
+         given={A.\bibnamedelima C.},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{HAC1}
+    \strng{fullhash}{HAC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1993}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{The Kondo Problem to Heavy Fermions}
+    \field{year}{1993}
+  \endentry
+
+  \entry{hrk_wilson_1980}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KmHR}{%
+         family={Krishna-murthy},
+         familyi={K\bibinithyphendelim m\bibinitperiod},
+         given={H.\bibnamedelima R.},
+         giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WJW}{%
+         family={Wilkins},
+         familyi={W\bibinitperiod},
+         given={J.\bibnamedelima W.},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=WKG}{%
+         family={Wilson},
+         familyi={W\bibinitperiod},
+         given={K.\bibnamedelima G.},
+         giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{KmHRWJWWKG1}
+    \strng{fullhash}{KmHRWJWWKG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1980}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1103/PhysRevB.21.1003
+    \endverb
+    \field{issue}{3}
+    \field{pages}{1003\bibrangedash 1043}
+    \field{title}{Renormalization-group approach to the Anderson model of
+  dilute magnetic alloys. I. Static properties for the symmetric case}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevB.21.1003
+    \endverb
+    \field{volume}{21}
+    \field{journaltitle}{Phys. Rev. B}
+    \field{year}{1980}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{anirbanurg1}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MA}{%
+         family={Mukherjee},
+         familyi={M\bibinitperiod},
+         given={Anirban},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Lal},
+         familyi={L\bibinitperiod},
+         given={Siddhartha},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MALS1}
+    \strng{fullhash}{MALS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{pages}{115170}
+    \field{title}{Unitary renormalisation group for correlated electrons-I: a
+  tensor network approach}
+    \field{volume}{960}
+    \field{journaltitle}{Nuclear Physics B}
+    \field{year}{2020}
+  \endentry
+
+  \entry{anirbanurg2}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MA}{%
+         family={Mukherjee},
+         familyi={M\bibinitperiod},
+         given={Anirban},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Lal},
+         familyi={L\bibinitperiod},
+         given={Siddhartha},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MALS1}
+    \strng{fullhash}{MALS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{pages}{115163}
+    \field{title}{Unitary renormalisation group for correlated electrons-II:
+  insights on fermionic criticality}
+    \field{volume}{960}
+    \field{journaltitle}{Nuclear Physics B}
+    \field{year}{2020}
+  \endentry
+
+  \entry{nozieres1974fermi}{article}{}
+    \name{author}{1}{}{%
+      {{hash=NP}{%
+         family={Nozieres},
+         familyi={N\bibinitperiod},
+         given={P},
+         giveni={P},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{NP1}
+    \strng{fullhash}{NP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1974}
+    \field{labeldatesource}{}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{pages}{31}
+    \field{title}{A ``Fermi-liquid" description of the Kondo problem at low
+  temperatures}
+    \field{volume}{17}
+    \field{journaltitle}{Journal of Low Temperature Physics}
+    \field{year}{1974}
+  \endentry
+
+  \entry{siddharthacpi}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PS}{%
+         family={Patra},
+         familyi={P\bibinitperiod},
+         given={Siddhartha},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Lal},
+         familyi={L\bibinitperiod},
+         given={Siddhartha},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{PSLS1}
+    \strng{fullhash}{PSLS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \verb{doi}
+    \verb 10.1103/PhysRevB.104.144514
+    \endverb
+    \field{issue}{14}
+    \field{pages}{144514}
+    \field{title}{Origin of topological order in a Cooper-pair insulator}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevB.104.144514
+    \endverb
+    \field{volume}{104}
+    \field{journaltitle}{Phys. Rev. B}
+    \field{year}{2021}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{martin2019}{article}{}
+    \name{author}{4}{}{%
+      {{hash=RLC}{%
+         family={Ribeiro},
+         familyi={R\bibinitperiod},
+         given={L.\bibnamedelima C.},
+         giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=MGB}{%
+         family={Martins},
+         familyi={M\bibinitperiod},
+         given={G.\bibnamedelima B.},
+         giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=GSG}{%
+         family={Gomez-Silva},
+         familyi={G\bibinithyphendelim S\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=AEV}{%
+         family={Anda},
+         familyi={A\bibinitperiod},
+         given={E.\bibnamedelima V.},
+         giveni={E\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{RLC+1}
+    \strng{fullhash}{RLCMGBGSGAEV1}
+    \field{labelnamesource}{author}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{pages}{085139}
+    \field{volume}{99}
+    \field{journaltitle}{Phys. Rev. B}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Schrieffer_Wolff}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SJR}{%
+         family={Schrieffer},
+         familyi={S\bibinitperiod},
+         given={J.\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WPA}{%
+         family={Wolff},
+         familyi={W\bibinitperiod},
+         given={P.\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{SJRWPA1}
+    \strng{fullhash}{SJRWPA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1966}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1103/PhysRev.149.491
+    \endverb
+    \field{issue}{2}
+    \field{pages}{491\bibrangedash 492}
+    \field{title}{Relation between the Anderson and Kondo Hamiltonians}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRev.149.491
+    \endverb
+    \field{volume}{149}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{1966}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{sorensen_erik_affleck_1996}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SES}{%
+         family={S\o{}rensen},
+         familyi={S\bibinitperiod},
+         given={Erik\bibnamedelima S.},
+         giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=AI}{%
+         family={Affleck},
+         familyi={A\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{SESAI1}
+    \strng{fullhash}{SESAI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1103/PhysRevB.53.9153
+    \endverb
+    \field{issue}{14}
+    \field{pages}{9153\bibrangedash 9167}
+    \field{title}{Scaling theory of the Kondo screening cloud}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevB.53.9153
+    \endverb
+    \field{volume}{53}
+    \field{journaltitle}{Phys. Rev. B}
+    \field{year}{1996}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{wiegmann_kondoexact_1981}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WPB}{%
+         family={Wiegmann},
+         familyi={W\bibinitperiod},
+         given={P\bibnamedelima B},
+         giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{IOP} Publishing}%
+    }
+    \strng{namehash}{WPB1}
+    \strng{fullhash}{WPB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1981}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \verb{doi}
+    \verb 10.1088/0022-3719/14/10/014
+    \endverb
+    \field{number}{10}
+    \field{pages}{1463\bibrangedash 1478}
+    \field{title}{Exact solution of the s-d exchange model (Kondo problem)}
+    \verb{url}
+    \verb https://doi.org/10.1088/0022-3719/14/10/014
+    \endverb
+    \field{volume}{14}
+    \field{journaltitle}{Journal of Physics C: Solid State Physics}
+    \field{year}{1981}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{wilson1975}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WKG}{%
+         family={Wilson},
+         familyi={W\bibinitperiod},
+         given={Kenneth\bibnamedelima G.},
+         giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{WKG1}
+    \strng{fullhash}{WKG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1975}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{issue}{4}
+    \field{pages}{773\bibrangedash 840}
+    \field{title}{The renormalization group: Critical phenomena and the Kondo
+  problem}
+    \field{volume}{47}
+    \field{journaltitle}{Rev. Mod. Phys.}
+    \field{year}{1975}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+\enddatalist
+\endinput
