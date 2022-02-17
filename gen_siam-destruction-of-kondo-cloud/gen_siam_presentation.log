@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.2.1)  16 FEB 2022 20:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.2.1)  17 FEB 2022 20:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1094,42 +1094,12 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'anderson1970':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'andreiKondoreview':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'andrei_kondo':
 (biblatex)                - Invalid format of field 'month'.
 
 
 Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Goldhaber-Gordon1998':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'hrk_wilson_1980':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'siddharthacpi':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'Schrieffer_Wolff':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'sorensen_erik_affleck_1996':
 (biblatex)                - Invalid format of field 'month'.
 
 
@@ -1322,634 +1292,298 @@ LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
 
 ]
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <10.95> not available
-(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 103.
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 88.
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 103.
+(Font)              scaled to size 10.95pt on input line 88.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 103.
+(Font)              <10.95> on input line 88.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <10.95> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 103.
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 88.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 10.95pt on input line 103.
+(Font)              scaled to size 10.95pt on input line 88.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10.95> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 103.
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 88.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 10.95pt on input line 103.
+(Font)              scaled to size 10.95pt on input line 88.
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+[]\T1/FiraSans-OsF/regular/n/10.95 supplement 1-particle
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+\T1/FiraSans-OsF/bold/n/10.95 exchange[] \T1/FiraSans-OsF/regular/n/10.95 and []\T1/FiraSans-OsF/bold/n/10.95 charge
+ []
+
 <figures/gen_siam.pdf, id=34, 482.35034pt x 199.11116pt>
 File: figures/gen_siam.pdf Graphic file (type pdf)
 <use figures/gen_siam.pdf>
-Package pdftex.def Info: figures/gen_siam.pdf  used on input line 103.
-(pdftex.def)             Requested size: 247.54149pt x 102.18335pt.
+Package pdftex.def Info: figures/gen_siam.pdf  used on input line 88.
+(pdftex.def)             Requested size: 241.34659pt x 99.6252pt.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <9> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 103.
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 88.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 103.
- [3
+(Font)              scaled to size 9.0pt on input line 88.
+[3
 
  <./figures/gen_siam.pdf>]
-<figures/kondo_res_schematic.pdf, id=54, 369.11258pt x 283.77898pt>
-File: figures/kondo_res_schematic.pdf Graphic file (type pdf)
-<use figures/kondo_res_schematic.pdf>
-Package pdftex.def Info: figures/kondo_res_schematic.pdf  used on input line 103.
-(pdftex.def)             Requested size: 123.77074pt x 95.15422pt.
+File: figures/gen_siam.pdf Graphic file (type pdf)
+<use figures/gen_siam.pdf>
+Package pdftex.def Info: figures/gen_siam.pdf  used on input line 88.
+(pdftex.def)             Requested size: 241.34659pt x 99.6252pt.
+ [4
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-
- []
-
-<figures/pwanderson.jpg, id=55, 1084.05pt x 821.31844pt>
-File: figures/pwanderson.jpg Graphic file (type jpg)
-<use figures/pwanderson.jpg>
-Package pdftex.def Info: figures/pwanderson.jpg  used on input line 103.
-(pdftex.def)             Requested size: 39.5832pt x 30.0pt.
-<figures/kgwilson.jpg, id=56, 91.91261pt x 137.86893pt>
-File: figures/kgwilson.jpg Graphic file (type jpg)
-<use figures/kgwilson.jpg>
-Package pdftex.def Info: figures/kgwilson.jpg  used on input line 103.
-(pdftex.def)             Requested size: 19.99924pt x 30.0pt.
-<figures/nozieres.jpg, id=57, 338.76563pt x 451.6875pt>
-File: figures/nozieres.jpg Graphic file (type jpg)
-<use figures/nozieres.jpg>
-Package pdftex.def Info: figures/nozieres.jpg  used on input line 103.
-(pdftex.def)             Requested size: 22.4961pt x 30.0pt.
-[4
-
- <./figures/kondo_res_schematic.pdf> <./figures/pwanderson.jpg> <./figures/kgwilson.jpg> <./figures/nozieres.jpg>]
-<figures/cloud_lFL.pdf, id=79, 488.62355pt x 192.57526pt>
-File: figures/cloud_lFL.pdf Graphic file (type pdf)
-<use figures/cloud_lFL.pdf>
-Package pdftex.def Info: figures/cloud_lFL.pdf  used on input line 103.
-(pdftex.def)             Requested size: 123.77074pt x 48.7784pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-
- []
-
-File: figures/pwanderson.jpg Graphic file (type jpg)
-<use figures/pwanderson.jpg>
-Package pdftex.def Info: figures/pwanderson.jpg  used on input line 103.
-(pdftex.def)             Requested size: 39.5832pt x 30.0pt.
-File: figures/kgwilson.jpg Graphic file (type jpg)
-<use figures/kgwilson.jpg>
-Package pdftex.def Info: figures/kgwilson.jpg  used on input line 103.
-(pdftex.def)             Requested size: 19.99924pt x 30.0pt.
-File: figures/nozieres.jpg Graphic file (type jpg)
-<use figures/nozieres.jpg>
-Package pdftex.def Info: figures/nozieres.jpg  used on input line 103.
-(pdftex.def)             Requested size: 22.4961pt x 30.0pt.
-[5
-
- <./figures/cloud_lFL.pdf>]
-File: figures/cloud_lFL.pdf Graphic file (type pdf)
-<use figures/cloud_lFL.pdf>
-Package pdftex.def Info: figures/cloud_lFL.pdf  used on input line 103.
-(pdftex.def)             Requested size: 123.77074pt x 48.7784pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-
- []
-
-File: figures/pwanderson.jpg Graphic file (type jpg)
-<use figures/pwanderson.jpg>
-Package pdftex.def Info: figures/pwanderson.jpg  used on input line 103.
-(pdftex.def)             Requested size: 39.5832pt x 30.0pt.
-File: figures/kgwilson.jpg Graphic file (type jpg)
-<use figures/kgwilson.jpg>
-Package pdftex.def Info: figures/kgwilson.jpg  used on input line 103.
-(pdftex.def)             Requested size: 19.99924pt x 30.0pt.
-File: figures/nozieres.jpg Graphic file (type jpg)
-<use figures/nozieres.jpg>
-Package pdftex.def Info: figures/nozieres.jpg  used on input line 103.
-(pdftex.def)             Requested size: 22.4961pt x 30.0pt.
-[6
+] [5
 
 ]
-<figures/chi_schematic.pdf, id=106, 429.01779pt x 273.51544pt>
-File: figures/chi_schematic.pdf Graphic file (type pdf)
-<use figures/chi_schematic.pdf>
-Package pdftex.def Info: figures/chi_schematic.pdf  used on input line 103.
-(pdftex.def)             Requested size: 123.77074pt x 78.90843pt.
-File: figures/pwanderson.jpg Graphic file (type jpg)
-<use figures/pwanderson.jpg>
-Package pdftex.def Info: figures/pwanderson.jpg  used on input line 103.
-(pdftex.def)             Requested size: 39.5832pt x 30.0pt.
-File: figures/kgwilson.jpg Graphic file (type jpg)
-<use figures/kgwilson.jpg>
-Package pdftex.def Info: figures/kgwilson.jpg  used on input line 103.
-(pdftex.def)             Requested size: 19.99924pt x 30.0pt.
-File: figures/nozieres.jpg Graphic file (type jpg)
-<use figures/nozieres.jpg>
-Package pdftex.def Info: figures/nozieres.jpg  used on input line 103.
-(pdftex.def)             Requested size: 22.4961pt x 30.0pt.
+Overfull \hbox (13.1628pt too wide) detected at line 129
+\OT1/FiraSans-OsF/regular/n/10.95 ^^A\T1/FiraSans-OsF/regular/it/10.95 V \OT1/FiraSans-OsF/regular/n/10.95 = [] [] \OML/lmm/m/it/10.95 > \T1/FiraSans-OsF/regular/n/10.95 0
+ []
+
+<figures/U_irr,U>0,V.pdf, id=68, 669.06909pt x 516.9829pt>
+File: figures/U_irr,U>0,V.pdf Graphic file (type pdf)
+<use figures/U_irr,U>0,V.pdf>
+Package pdftex.def Info: figures/U_irr,U>0,V.pdf  used on input line 129.
+(pdftex.def)             Requested size: 136.64078pt x 105.57986pt.
+<figures/U_irr,U>0,J.pdf, id=69, 669.06909pt x 516.9829pt>
+File: figures/U_irr,U>0,J.pdf Graphic file (type pdf)
+<use figures/U_irr,U>0,J.pdf>
+Package pdftex.def Info: figures/U_irr,U>0,J.pdf  used on input line 129.
+(pdftex.def)             Requested size: 136.64078pt x 105.57986pt.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <14.4> not available
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 129.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 14.4pt on input line 129.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 129.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <14.4> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 129.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 14.4pt on input line 129.
+[6
+
+ <./figures/U_irr,U>0,V.pdf> <./figures/U_irr,U>0,J.pdf>]
+<figures/U_irr,U>0,U.pdf, id=110, 665.02303pt x 516.9829pt>
+File: figures/U_irr,U>0,U.pdf Graphic file (type pdf)
+<use figures/U_irr,U>0,U.pdf>
+Package pdftex.def Info: figures/U_irr,U>0,U.pdf  used on input line 129.
+(pdftex.def)             Requested size: 181.94194pt x 141.44104pt.
+<figures/U_rel,U>0,U.pdf, id=111, 669.06909pt x 516.9829pt>
+File: figures/U_rel,U>0,U.pdf Graphic file (type pdf)
+<use figures/U_rel,U>0,U.pdf>
+Package pdftex.def Info: figures/U_rel,U>0,U.pdf  used on input line 129.
+(pdftex.def)             Requested size: 181.94194pt x 140.58119pt.
  [7
 
- <./figures/chi_schematic.pdf>]
-File: figures/chi_schematic.pdf Graphic file (type pdf)
-<use figures/chi_schematic.pdf>
-Package pdftex.def Info: figures/chi_schematic.pdf  used on input line 103.
-(pdftex.def)             Requested size: 123.77074pt x 78.90843pt.
-File: figures/pwanderson.jpg Graphic file (type jpg)
-<use figures/pwanderson.jpg>
-Package pdftex.def Info: figures/pwanderson.jpg  used on input line 103.
-(pdftex.def)             Requested size: 39.5832pt x 30.0pt.
-File: figures/kgwilson.jpg Graphic file (type jpg)
-<use figures/kgwilson.jpg>
-Package pdftex.def Info: figures/kgwilson.jpg  used on input line 103.
-(pdftex.def)             Requested size: 19.99924pt x 30.0pt.
-File: figures/nozieres.jpg Graphic file (type jpg)
-<use figures/nozieres.jpg>
-Package pdftex.def Info: figures/nozieres.jpg  used on input line 103.
-(pdftex.def)             Requested size: 22.4961pt x 30.0pt.
- [8
+ <./figures/U_irr,U>0,U.pdf> <./figures/U_rel,U>0,U.pdf>]
+Overfull \hbox (6.04143pt too wide) detected at line 142
+\T1/FiraSans-OsF/regular/it/10.95 H[] \OT1/FiraSans-OsF/regular/n/10.95 = [] \OML/lmm/m/it/10.95 ^^O[][] [] \OT1/FiraSans-OsF/regular/n/10.95 + [] [][]  [] + \T1/FiraSans-OsF/regular/it/10.95 J[][] \OMS/lmsy/m/n/10.95 ^^A []
+ []
 
-] [9
+<figures/kondo_fp_1D.pdf, id=141, 853.11949pt x 237.22192pt>
+File: figures/kondo_fp_1D.pdf Graphic file (type pdf)
+<use figures/kondo_fp_1D.pdf>
+Package pdftex.def Info: figures/kondo_fp_1D.pdf  used on input line 142.
+(pdftex.def)             Requested size: 206.28249pt x 57.35793pt.
+[8
+
+ <./figures/kondo_fp_1D.pdf>] [9
 
 ] [10
 
-] [11
-
-] [12
-
-] [13
-
-] [14
-
 ]
-<figures/urg_schematic.pdf, id=173, 124.438pt x 262.98471pt>
-File: figures/urg_schematic.pdf Graphic file (type pdf)
-<use figures/urg_schematic.pdf>
-Package pdftex.def Info: figures/urg_schematic.pdf  used on input line 245.
-(pdftex.def)             Requested size: 43.31735pt x 91.54442pt.
- [15
-
- <./figures/urg_schematic.pdf>]
-File: figures/urg_schematic.pdf Graphic file (type pdf)
-<use figures/urg_schematic.pdf>
-Package pdftex.def Info: figures/urg_schematic.pdf  used on input line 245.
-(pdftex.def)             Requested size: 43.31735pt x 91.54442pt.
- [16
-
-]
-File: figures/urg_schematic.pdf Graphic file (type pdf)
-<use figures/urg_schematic.pdf>
-Package pdftex.def Info: figures/urg_schematic.pdf  used on input line 245.
-(pdftex.def)             Requested size: 43.31735pt x 91.54442pt.
- [17
-
-]
-<figures/uv_ir_scheme.pdf, id=199, 686.48897pt x 686.48897pt>
-File: figures/uv_ir_scheme.pdf Graphic file (type pdf)
-<use figures/uv_ir_scheme.pdf>
-Package pdftex.def Info: figures/uv_ir_scheme.pdf  used on input line 245.
-(pdftex.def)             Requested size: 148.52011pt x 148.51404pt.
- [18
-
- <./figures/uv_ir_scheme.pdf>]
-LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <14.4> not available
-(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 245.
-LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 245.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 245.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <14.4> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 245.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 14.4pt on input line 245.
-
-Overfull \hbox (46.78697pt too wide) detected at line 245
-[] [][]\OMS/lmsy/m/n/10.95 ! []
- []
-
-<figures/urg_ham.pdf, id=209, 638.09737pt x 473.68864pt>
-File: figures/urg_ham.pdf Graphic file (type pdf)
-<use figures/urg_ham.pdf>
-Package pdftex.def Info: figures/urg_ham.pdf  used on input line 245.
-(pdftex.def)             Requested size: 185.65297pt x 137.81432pt.
-[19
-
- <./figures/urg_ham.pdf>]
-
-Package amsmath Warning: Foreign command \atop;
-(amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 245.
-
-<figures/urg_rot.pdf, id=221, 746.58543pt x 746.58537pt>
-File: figures/urg_rot.pdf Graphic file (type pdf)
-<use figures/urg_rot.pdf>
-Package pdftex.def Info: figures/urg_rot.pdf  used on input line 245.
-(pdftex.def)             Requested size: 165.02661pt x 165.02394pt.
-[20
-
- <./figures/urg_rot.pdf>]
-<figures/urg_next.pdf, id=231, 718.92056pt x 703.8643pt>
-File: figures/urg_next.pdf Graphic file (type pdf)
-<use figures/urg_next.pdf>
-Package pdftex.def Info: figures/urg_next.pdf  used on input line 245.
-(pdftex.def)             Requested size: 185.65297pt x 181.76529pt.
- [21
-
- <./figures/urg_next.pdf>]
-<figures/urg_ham_full.pdf, id=241, 664.46204pt x 664.46204pt>
-File: figures/urg_ham_full.pdf Graphic file (type pdf)
-<use figures/urg_ham_full.pdf>
-Package pdftex.def Info: figures/urg_ham_full.pdf  used on input line 245.
-(pdftex.def)             Requested size: 155.53601pt x 155.53012pt.
- [22
-
- <./figures/urg_ham_full.pdf>] [23
-
-] [24
-
-] [25
-
-] [26
-
-] [27
-
-]
-<figures/kondo_fp_1D.pdf, id=278, 853.11949pt x 237.22192pt>
-File: figures/kondo_fp_1D.pdf Graphic file (type pdf)
-<use figures/kondo_fp_1D.pdf>
-Package pdftex.def Info: figures/kondo_fp_1D.pdf  used on input line 340.
-(pdftex.def)             Requested size: 247.54149pt x 68.8324pt.
- [28
-
- <./figures/kondo_fp_1D.pdf>]
-<figures/RG_flow.pdf, id=293, 1301.93163pt x 766.17921pt>
-File: figures/RG_flow.pdf Graphic file (type pdf)
-<use figures/RG_flow.pdf>
-Package pdftex.def Info: figures/RG_flow.pdf  used on input line 340.
-(pdftex.def)             Requested size: 247.54149pt x 145.66908pt.
- [29
-
- <./figures/RG_flow.pdf>]
-<figures/kondo_phase.pdf, id=320, 484.35658pt x 97.13278pt>
-File: figures/kondo_phase.pdf Graphic file (type pdf)
-<use figures/kondo_phase.pdf>
-Package pdftex.def Info: figures/kondo_phase.pdf  used on input line 340.
-(pdftex.def)             Requested size: 222.78583pt x 44.67717pt.
- [30
-
- <./figures/kondo_phase.pdf>]
-Overfull \hbox (10.17645pt too wide) detected at line 340
-| \T1/FiraSans-OsF/regular/it/10.95 T[] \OT1/FiraSans-OsF/regular/n/10.95 = [] [] [] \OML/lmm/m/it/10.95 ;  [] []^^X[] \OT1/FiraSans-OsF/regular/n/10.95 = []
- []
-
-<figures/Jstar_Xik.pdf, id=328, 1111.30368pt x 765.73271pt>
-File: figures/Jstar_Xik.pdf Graphic file (type pdf)
-<use figures/Jstar_Xik.pdf>
-Package pdftex.def Info: figures/Jstar_Xik.pdf  used on input line 340.
-(pdftex.def)             Requested size: 198.03394pt x 136.4472pt.
-[31
-
- <./figures/Jstar_Xik.pdf>]
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 340.
- (/usr/share/texmf-dist/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-<figures/TK.pdf, id=350, 1032.00461pt x 765.73271pt>
-File: figures/TK.pdf Graphic file (type pdf)
-<use figures/TK.pdf>
-Package pdftex.def Info: figures/TK.pdf  used on input line 340.
-(pdftex.def)             Requested size: 198.03394pt x 146.92787pt.
- [32
-
- <./figures/TK.pdf>] [33
-
-]
-<figures/KondoCouplingVst.pdf, id=382, 1017.96405pt x 760.26723pt>
-File: figures/KondoCouplingVst.pdf Graphic file (type pdf)
-<use figures/KondoCouplingVst.pdf>
-Package pdftex.def Info: figures/KondoCouplingVst.pdf  used on input line 340.
-(pdftex.def)             Requested size: 198.03394pt x 147.89769pt.
- [34
-
- <./figures/KondoCouplingVst.pdf>] [35
-
-] [36
-
-]
-<figures/kondo_zeromode.pdf, id=414, 356.64822pt x 151.8097pt>
+<figures/kondo_zeromode.pdf, id=167, 334.17535pt x 125.65724pt>
 File: figures/kondo_zeromode.pdf Graphic file (type pdf)
 <use figures/kondo_zeromode.pdf>
-Package pdftex.def Info: figures/kondo_zeromode.pdf  used on input line 409.
-(pdftex.def)             Requested size: 165.02347pt x 70.2433pt.
- [37
+Package pdftex.def Info: figures/kondo_zeromode.pdf  used on input line 172.
+(pdftex.def)             Requested size: 247.54149pt x 93.08075pt.
+ [11
 
- <./figures/kondo_zeromode.pdf>]
-<figures/chi_times_T_parts.pdf, id=429, 1144.02309pt x 765.8196pt>
-File: figures/chi_times_T_parts.pdf Graphic file (type pdf)
-<use figures/chi_times_T_parts.pdf>
-Package pdftex.def Info: figures/chi_times_T_parts.pdf  used on input line 409.
-(pdftex.def)             Requested size: 223.40608pt x 149.5504pt.
-<figures/andrei.jpg, id=430, 150.5625pt x 175.65625pt>
-File: figures/andrei.jpg Graphic file (type jpg)
-<use figures/andrei.jpg>
-Package pdftex.def Info: figures/andrei.jpg  used on input line 409.
-(pdftex.def)             Requested size: 34.28633pt x 40.0pt.
- [38
-
- <./figures/chi_times_T_parts.pdf> <./figures/andrei.jpg>]
-<figures/WilsonNumber.pdf, id=453, 1068.69405pt x 760.26723pt>
-File: figures/WilsonNumber.pdf Graphic file (type pdf)
-<use figures/WilsonNumber.pdf>
-Package pdftex.def Info: figures/WilsonNumber.pdf  used on input line 409.
-(pdftex.def)             Requested size: 199.89172pt x 142.20172pt.
- [39
-
- <./figures/WilsonNumber.pdf>]
-<figures/chi_parts.pdf, id=471, 1125.67842pt x 765.8196pt>
-File: figures/chi_parts.pdf Graphic file (type pdf)
-<use figures/chi_parts.pdf>
-Package pdftex.def Info: figures/chi_parts.pdf  used on input line 409.
-(pdftex.def)             Requested size: 246.92401pt x 167.97835pt.
-
-Overfull \hbox (11.75896pt too wide) in paragraph at lines 409--409
- [] 
- []
-
-[40
-
- <./figures/chi_parts.pdf>] [41
-
-] [42
+ <./figures/kondo_zeromode.pdf>] [12
 
 ]
-<figures/hewson.jpg, id=505, 250.9375pt x 309.155pt>
-File: figures/hewson.jpg Graphic file (type jpg)
-<use figures/hewson.jpg>
-Package pdftex.def Info: figures/hewson.jpg  used on input line 496.
-(pdftex.def)             Requested size: 32.46602pt x 40.0pt.
- [43
+<figures/noz_1D.pdf, id=182, 406.50523pt x 284.3199pt>
+File: figures/noz_1D.pdf Graphic file (type pdf)
+<use figures/noz_1D.pdf>
+Package pdftex.def Info: figures/noz_1D.pdf  used on input line 205.
+(pdftex.def)             Requested size: 148.52011pt x 103.87784pt.
+ [13
 
- <./figures/hewson.jpg>]
-File: figures/hewson.jpg Graphic file (type jpg)
-<use figures/hewson.jpg>
-Package pdftex.def Info: figures/hewson.jpg  used on input line 496.
-(pdftex.def)             Requested size: 32.46602pt x 40.0pt.
- [44
+ <./figures/noz_1D.pdf>]
+<figures/noz_1D_approx.pdf, id=191, 400.92387pt x 277.5737pt>
+File: figures/noz_1D_approx.pdf Graphic file (type pdf)
+<use figures/noz_1D_approx.pdf>
+Package pdftex.def Info: figures/noz_1D_approx.pdf  used on input line 205.
+(pdftex.def)             Requested size: 148.52011pt x 102.82349pt.
+ [14
 
-] [45
+ <./figures/noz_1D_approx.pdf>]
+<figures/lattice_eff.pdf, id=199, 521.55325pt x 302.59901pt>
+File: figures/lattice_eff.pdf Graphic file (type pdf)
+<use figures/lattice_eff.pdf>
+Package pdftex.def Info: figures/lattice_eff.pdf  used on input line 205.
+(pdftex.def)             Requested size: 148.52011pt x 86.16772pt.
+ [15
 
-]
-<figures/FL_self_energy.pdf, id=524, 920.86374pt x 642.24997pt>
-File: figures/FL_self_energy.pdf Graphic file (type pdf)
-<use figures/FL_self_energy.pdf>
-Package pdftex.def Info: figures/FL_self_energy.pdf  used on input line 496.
-(pdftex.def)             Requested size: 198.02942pt x 138.11044pt.
- [46
-
- <./figures/FL_self_energy.pdf>]
-<figures/gamma_imp.pdf, id=547, 1006.63664pt x 637.80232pt>
-File: figures/gamma_imp.pdf Graphic file (type pdf)
-<use figures/gamma_imp.pdf>
-Package pdftex.def Info: figures/gamma_imp.pdf  used on input line 496.
-(pdftex.def)             Requested size: 198.02942pt x 125.4658pt.
- [47
-
- <./figures/gamma_imp.pdf>]
-<figures/wilsonratio.pdf, id=567, 1011.07852pt x 637.80232pt>
-File: figures/wilsonratio.pdf Graphic file (type pdf)
-<use figures/wilsonratio.pdf>
-Package pdftex.def Info: figures/wilsonratio.pdf  used on input line 496.
-(pdftex.def)             Requested size: 222.78583pt x 140.53105pt.
- [48
-
- <./figures/wilsonratio.pdf>] [49
+ <./figures/lattice_eff.pdf>] [16
 
 ]
-<figures/flowChart_new.pdf, id=595, 108.18732pt x 41.25394pt>
-File: figures/flowChart_new.pdf Graphic file (type pdf)
-<use figures/flowChart_new.pdf>
-Package pdftex.def Info: figures/flowChart_new.pdf  used on input line 585.
-(pdftex.def)             Requested size: 247.54149pt x 94.40549pt.
- [50
+<figures/seven_site.pdf, id=215, 1086.91127pt x 271.93207pt>
+File: figures/seven_site.pdf Graphic file (type pdf)
+<use figures/seven_site.pdf>
+Package pdftex.def Info: figures/seven_site.pdf  used on input line 219.
+(pdftex.def)             Requested size: 330.05322pt x 82.57193pt.
+ [17
 
- <./figures/flowChart_new.pdf>]
-<figures/KC.pdf, id=607, 110.96698pt x 60.40994pt>
-File: figures/KC.pdf Graphic file (type pdf)
-<use figures/KC.pdf>
-Package pdftex.def Info: figures/KC.pdf  used on input line 585.
-(pdftex.def)             Requested size: 123.77074pt x 67.38303pt.
- [51
-
- <./figures/KC.pdf>]
-File: figures/KC.pdf Graphic file (type pdf)
-<use figures/KC.pdf>
-Package pdftex.def Info: figures/KC.pdf  used on input line 585.
-(pdftex.def)             Requested size: 123.77074pt x 67.38303pt.
-<figures/KC_2.pdf, id=617, 111.52927pt x 65.35077pt>
-File: figures/KC_2.pdf Graphic file (type pdf)
-<use figures/KC_2.pdf>
-Package pdftex.def Info: figures/KC_2.pdf  used on input line 585.
-(pdftex.def)             Requested size: 123.77074pt x 72.52724pt.
- [52
-
- <./figures/KC_2.pdf>]
-<figures/MIkondo.pdf, id=624, 1009.14276pt x 751.3777pt>
-File: figures/MIkondo.pdf Graphic file (type pdf)
-<use figures/MIkondo.pdf>
-Package pdftex.def Info: figures/MIkondo.pdf  used on input line 585.
-(pdftex.def)             Requested size: 222.7823pt x 165.87686pt.
- [53
-
- <./figures/MIkondo.pdf>]
-<figures/corrKondo.pdf, id=646, 1144.02309pt x 760.26723pt>
-File: figures/corrKondo.pdf Graphic file (type pdf)
-<use figures/corrKondo.pdf>
-Package pdftex.def Info: figures/corrKondo.pdf  used on input line 585.
-(pdftex.def)             Requested size: 222.7823pt x 148.0485pt.
- [54
-
- <./figures/corrKondo.pdf>] [55
-
-]
-<figures/par-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf, id=678, 678.42993pt x 647.80232pt>
-File: figures/par-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
-<use figures/par-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf>
-Package pdftex.def Info: figures/par-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf  used on input line 601.
+ <./figures/seven_site.pdf>]
+<figures/par-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf, id=223, 678.42993pt x 647.80232pt>
+File: figures/par-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf Graphic file (type pdf)
+<use figures/par-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>
+Package pdftex.def Info: figures/par-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf  used on input line 236.
 (pdftex.def)             Requested size: 123.77074pt x 118.18092pt.
-<figures/gap-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf, id=679, 676.77654pt x 647.80232pt>
-File: figures/gap-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
-<use figures/gap-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf>
-Package pdftex.def Info: figures/gap-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf  used on input line 601.
-(pdftex.def)             Requested size: 123.77074pt x 118.46758pt.
-<figures/lfl-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf, id=680, 683.51675pt x 647.80232pt>
-File: figures/lfl-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
-<use figures/lfl-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf>
-Package pdftex.def Info: figures/lfl-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf  used on input line 601.
+<figures/gap-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf, id=224, 663.01799pt x 647.80232pt>
+File: figures/gap-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf Graphic file (type pdf)
+<use figures/gap-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>
+Package pdftex.def Info: figures/gap-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf  used on input line 236.
+(pdftex.def)             Requested size: 123.77074pt x 120.92886pt.
+<figures/lfl-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf, id=225, 683.51675pt x 647.80232pt>
+File: figures/lfl-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf Graphic file (type pdf)
+<use figures/lfl-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>
+Package pdftex.def Info: figures/lfl-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf  used on input line 236.
 (pdftex.def)             Requested size: 123.77074pt x 117.3012pt.
- [56
+ [18
 
- <./figures/par-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf> <./figures/gap-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf
-
-pdfTeX warning: pdflatex (file ./figures/gap-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./figures/lfl-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf
-
-pdfTeX warning: pdflatex (file ./figures/lfl-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-<figures/mi-dk-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf, id=720, 671.17761pt x 647.80232pt>
-File: figures/mi-dk-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
-<use figures/mi-dk-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf>
-Package pdftex.def Info: figures/mi-dk-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf  used on input line 622.
+ <./figures/par-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf> <./figures/gap-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf> <./figures/lfl-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>]
+<figures/mi-dk-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf, id=264, 671.17761pt x 647.80232pt>
+File: figures/mi-dk-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf Graphic file (type pdf)
+<use figures/mi-dk-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>
+Package pdftex.def Info: figures/mi-dk-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf  used on input line 264.
 (pdftex.def)             Requested size: 165.02347pt x 159.27144pt.
-<figures/corr-k-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf, id=721, 671.17761pt x 647.80232pt>
-File: figures/corr-k-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
-<use figures/corr-k-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf>
-Package pdftex.def Info: figures/corr-k-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf  used on input line 622.
-(pdftex.def)             Requested size: 165.02347pt x 159.27144pt.
- [57
+<figures/corr-k-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf, id=265, 671.17761pt x 648.14075pt>
+File: figures/corr-k-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf Graphic file (type pdf)
+<use figures/corr-k-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>
+Package pdftex.def Info: figures/corr-k-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf  used on input line 264.
+(pdftex.def)             Requested size: 165.02347pt x 159.35464pt.
+ [19
 
- <./figures/mi-dk-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf> <./figures/corr-k-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf
-
-pdfTeX warning: pdflatex (file ./figures/corr-k-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-<figures/corr-k-diag-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf, id=750, 673.06995pt x 647.80232pt>
-File: figures/corr-k-diag-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
-<use figures/corr-k-diag-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf>
-Package pdftex.def Info: figures/corr-k-diag-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf  used on input line 622.
+ <./figures/mi-dk-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf> <./figures/corr-k-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>]
+<figures/corr-k-diag-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf, id=295, 673.06995pt x 647.80232pt>
+File: figures/corr-k-diag-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf Graphic file (type pdf)
+<use figures/corr-k-diag-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>
+Package pdftex.def Info: figures/corr-k-diag-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf  used on input line 264.
 (pdftex.def)             Requested size: 165.02347pt x 158.82663pt.
-<figures/corr-k-od-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf, id=751, 701.22554pt x 647.80232pt>
-File: figures/corr-k-od-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
-<use figures/corr-k-od-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf>
-Package pdftex.def Info: figures/corr-k-od-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf  used on input line 622.
+<figures/corr-k-od-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf, id=296, 701.22554pt x 647.80232pt>
+File: figures/corr-k-od-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf Graphic file (type pdf)
+<use figures/corr-k-od-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>
+Package pdftex.def Info: figures/corr-k-od-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf  used on input line 264.
 (pdftex.def)             Requested size: 165.02347pt x 152.45102pt.
- [58
+ [20
 
- <./figures/corr-k-diag-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf> <./figures/corr-k-od-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf
-
-pdfTeX warning: pdflatex (file ./figures/corr-k-od-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-<figures/mi-d0-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf, id=780, 671.17761pt x 647.80232pt>
-File: figures/mi-d0-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
-<use figures/mi-d0-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf>
-Package pdftex.def Info: figures/mi-d0-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf  used on input line 678.
+ <./figures/corr-k-diag-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf> <./figures/corr-k-od-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>]
+<figures/mi-d0-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf, id=324, 671.17761pt x 647.80232pt>
+File: figures/mi-d0-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf Graphic file (type pdf)
+<use figures/mi-d0-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>
+Package pdftex.def Info: figures/mi-d0-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf  used on input line 336.
 (pdftex.def)             Requested size: 132.0238pt x 127.42308pt.
-<figures/mi-01-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf, id=781, 684.93617pt x 647.80232pt>
-File: figures/mi-01-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
-<use figures/mi-01-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf>
-Package pdftex.def Info: figures/mi-01-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf  used on input line 678.
+<figures/mi-01-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf, id=325, 684.93617pt x 647.80232pt>
+File: figures/mi-01-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf Graphic file (type pdf)
+<use figures/mi-01-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>
+Package pdftex.def Info: figures/mi-01-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf  used on input line 336.
 (pdftex.def)             Requested size: 132.0238pt x 124.86295pt.
-<figures/mi-d1-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf, id=782, 684.93617pt x 647.80232pt>
-File: figures/mi-d1-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
-<use figures/mi-d1-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf>
-Package pdftex.def Info: figures/mi-d1-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf  used on input line 678.
+<figures/mi-d1-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf, id=326, 684.93617pt x 647.80232pt>
+File: figures/mi-d1-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf Graphic file (type pdf)
+<use figures/mi-d1-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>
+Package pdftex.def Info: figures/mi-d1-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf  used on input line 336.
 (pdftex.def)             Requested size: 132.0238pt x 124.86295pt.
- [59
+ [21
 
- <./figures/mi-d0-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf> <./figures/mi-01-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf
-
-pdfTeX warning: pdflatex (file ./figures/mi-01-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./figures/mi-d1-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf
-
-pdfTeX warning: pdflatex (file ./figures/mi-d1-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-<figures/EE-d-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf, id=829, 671.17761pt x 647.80232pt>
-File: figures/EE-d-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
-<use figures/EE-d-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf>
-Package pdftex.def Info: figures/EE-d-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf  used on input line 678.
+ <./figures/mi-d0-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf> <./figures/mi-01-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf> <./figures/mi-d1-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>]
+<figures/EE-d-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf, id=371, 671.17761pt x 647.80232pt>
+File: figures/EE-d-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf Graphic file (type pdf)
+<use figures/EE-d-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>
+Package pdftex.def Info: figures/EE-d-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf  used on input line 336.
 (pdftex.def)             Requested size: 165.02347pt x 159.27144pt.
- [60
+ [22
 
- <./figures/EE-d-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf>]
-<figures/corr-d0-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf, id=850, 705.37556pt x 647.80232pt>
-File: figures/corr-d0-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
-<use figures/corr-d0-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf>
-Package pdftex.def Info: figures/corr-d0-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf  used on input line 678.
+ <./figures/EE-d-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>]
+<figures/corr-d0-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf, id=391, 705.37556pt x 647.80232pt>
+File: figures/corr-d0-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf Graphic file (type pdf)
+<use figures/corr-d0-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>
+Package pdftex.def Info: figures/corr-d0-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf  used on input line 336.
 (pdftex.def)             Requested size: 132.0238pt x 121.24516pt.
-<figures/corr-d1-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf, id=851, 695.80074pt x 647.80232pt>
-File: figures/corr-d1-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
-<use figures/corr-d1-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf>
-Package pdftex.def Info: figures/corr-d1-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf  used on input line 678.
+<figures/corr-d1-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf, id=392, 695.80074pt x 647.80232pt>
+File: figures/corr-d1-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf Graphic file (type pdf)
+<use figures/corr-d1-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>
+Package pdftex.def Info: figures/corr-d1-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf  used on input line 336.
 (pdftex.def)             Requested size: 132.0238pt x 122.91568pt.
-<figures/r-vec-corr-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf, id=852, 719.13412pt x 647.80232pt>
-File: figures/r-vec-corr-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
-<use figures/r-vec-corr-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf>
-Package pdftex.def Info: figures/r-vec-corr-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf  used on input line 678.
+<figures/r-vec-corr-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf, id=393, 719.13412pt x 647.80232pt>
+File: figures/r-vec-corr-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf Graphic file (type pdf)
+<use figures/r-vec-corr-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>
+Package pdftex.def Info: figures/r-vec-corr-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf  used on input line 336.
 (pdftex.def)             Requested size: 132.0238pt x 118.92227pt.
- [61
+ [23
 
- <./figures/corr-d0-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf> <./figures/corr-d1-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf
+ <./figures/corr-d0-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf> <./figures/corr-d1-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf> <./figures/r-vec-corr-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>]
+<figures/r1p-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf, id=436, 687.46706pt x 647.80232pt>
+File: figures/r1p-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf Graphic file (type pdf)
+<use figures/r1p-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>
+Package pdftex.def Info: figures/r1p-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf  used on input line 336.
+(pdftex.def)             Requested size: 132.0238pt x 124.40826pt.
+<figures/r-od-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf, id=437, 714.9841pt x 647.80232pt>
+File: figures/r-od-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf Graphic file (type pdf)
+<use figures/r-od-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>
+Package pdftex.def Info: figures/r-od-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf  used on input line 336.
+(pdftex.def)             Requested size: 132.0238pt x 119.6142pt.
+<figures/r-ising-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf, id=438, 685.02304pt x 647.80232pt>
+File: figures/r-ising-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf Graphic file (type pdf)
+<use figures/r-ising-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>
+Package pdftex.def Info: figures/r-ising-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf  used on input line 336.
+(pdftex.def)             Requested size: 132.0238pt x 124.84319pt.
+ [24
 
-pdfTeX warning: pdflatex (file ./figures/corr-d1-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./figures/r-vec-corr-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf
-
-pdfTeX warning: pdflatex (file ./figures/r-vec-corr-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-<figures/r1p-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf, id=896, 687.46706pt x 647.80232pt>
-File: figures/r1p-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
-<use figures/r1p-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf>
-Package pdftex.def Info: figures/r1p-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf  used on input line 678.
-(pdftex.def)             Requested size: 165.02347pt x 155.4955pt.
-<figures/r-od-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf, id=897, 714.9841pt x 647.80232pt>
-File: figures/r-od-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
-<use figures/r-od-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf>
-Package pdftex.def Info: figures/r-od-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf  used on input line 678.
-(pdftex.def)             Requested size: 165.02347pt x 149.51527pt.
- [62
-
- <./figures/r1p-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf> <./figures/r-od-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf
-
-pdfTeX warning: pdflatex (file ./figures/r-od-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-<figures/r-par-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf, id=927, 700.58699pt x 647.80232pt>
-File: figures/r-par-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
-<use figures/r-par-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf>
-Package pdftex.def Info: figures/r-par-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf  used on input line 678.
-(pdftex.def)             Requested size: 165.02347pt x 152.5894pt.
-<figures/r-ising-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf, id=928, 685.02304pt x 647.80232pt>
-File: figures/r-ising-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
-<use figures/r-ising-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf>
-Package pdftex.def Info: figures/r-ising-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf  used on input line 678.
-(pdftex.def)             Requested size: 165.02347pt x 156.04904pt.
- [63
-
- <./figures/r-par-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf> <./figures/r-ising-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf
-
-pdfTeX warning: pdflatex (file ./figures/r-ising-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-<figures/corr-di-min-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf, id=957, 705.37556pt x 666.34952pt>
-File: figures/corr-di-min-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
-<use figures/corr-di-min-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf>
-Package pdftex.def Info: figures/corr-di-min-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf  used on input line 678.
+ <./figures/r1p-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf> <./figures/r-od-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf> <./figures/r-ising-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>]
+<figures/corr-di-min-t=1.000,J=1_over_U,V=J,N=6,U=0.010,100.000,100.pdf, id=477, 705.37556pt x 666.34952pt>
+File: figures/corr-di-min-t=1.000,J=1_over_U,V=J,N=6,U=0.010,100.000,100.pdf Graphic file (type pdf)
+<use figures/corr-di-min-t=1.000,J=1_over_U,V=J,N=6,U=0.010,100.000,100.pdf>
+Package pdftex.def Info: figures/corr-di-min-t=1.000,J=1_over_U,V=J,N=6,U=0.010,100.000,100.pdf  used on input line 336.
 (pdftex.def)             Requested size: 165.02347pt x 155.89058pt.
-<figures/corr-di-max-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf, id=958, 760.40979pt x 642.24997pt>
-File: figures/corr-di-max-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
-<use figures/corr-di-max-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf>
-Package pdftex.def Info: figures/corr-di-max-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf  used on input line 678.
-(pdftex.def)             Requested size: 165.02347pt x 139.37463pt.
- [64
+<figures/corr-di-max-t=1.000,J=1_over_U,V=J,N=6,U=0.010,100.000,100.pdf, id=478, 760.40979pt x 642.24997pt>
+File: figures/corr-di-max-t=1.000,J=1_over_U,V=J,N=6,U=0.010,100.000,100.pdf Graphic file (type pdf)
+<use figures/corr-di-max-t=1.000,J=1_over_U,V=J,N=6,U=0.010,100.000,100.pdf>
+Package pdftex.def Info: figures/corr-di-max-t=1.000,J=1_over_U,V=J,N=6,U=0.010,100.000,100.pdf  used on input line 336.
+(pdftex.def)             Requested size: 185.65297pt x 156.79892pt.
+ [25
 
- <./figures/corr-di-min-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf> <./figures/corr-di-max-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf
+ <./figures/corr-di-min-t=1.000,J=1_over_U,V=J,N=6,U=0.010,100.000,100.pdf> <./figures/corr-di-max-t=1.000,J=1_over_U,V=J,N=6,U=0.010,100.000,100.pdf
 
-pdfTeX warning: pdflatex (file ./figures/corr-di-max-t=1.000,J=1_over_U,V=J,N=4,U=0.010,100.000,100.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./figures/corr-di-max-t=1.000,J=1_over_U,V=J,N=6,U=0.010,100.000,100.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<figures/spec-func-gen-siam-U_by_J=0.100.pdf, id=987, 533.01888pt x 430.09578pt>
+<figures/spec-func-gen-siam-U_by_J=0.100.pdf, id=508, 533.01888pt x 430.09578pt>
 File: figures/spec-func-gen-siam-U_by_J=0.100.pdf Graphic file (type pdf)
 <use figures/spec-func-gen-siam-U_by_J=0.100.pdf>
-Package pdftex.def Info: figures/spec-func-gen-siam-U_by_J=0.100.pdf  used on input line 687.
+Package pdftex.def Info: figures/spec-func-gen-siam-U_by_J=0.100.pdf  used on input line 345.
 (pdftex.def)             Requested size: 123.77074pt x 99.87154pt.
-<figures/spec-func-gen-siam-U_by_J=9.000.pdf, id=988, 505.23099pt x 430.09578pt>
+<figures/spec-func-gen-siam-U_by_J=9.000.pdf, id=509, 505.23099pt x 430.09578pt>
 File: figures/spec-func-gen-siam-U_by_J=9.000.pdf Graphic file (type pdf)
 <use figures/spec-func-gen-siam-U_by_J=9.000.pdf>
-Package pdftex.def Info: figures/spec-func-gen-siam-U_by_J=9.000.pdf  used on input line 687.
+Package pdftex.def Info: figures/spec-func-gen-siam-U_by_J=9.000.pdf  used on input line 345.
 (pdftex.def)             Requested size: 123.77074pt x 105.36453pt.
-<figures/spec-func-gen-siam-U_by_J=16.000.pdf, id=989, 505.23099pt x 430.09578pt>
+<figures/spec-func-gen-siam-U_by_J=16.000.pdf, id=510, 505.23099pt x 430.09578pt>
 File: figures/spec-func-gen-siam-U_by_J=16.000.pdf Graphic file (type pdf)
 <use figures/spec-func-gen-siam-U_by_J=16.000.pdf>
-Package pdftex.def Info: figures/spec-func-gen-siam-U_by_J=16.000.pdf  used on input line 687.
+Package pdftex.def Info: figures/spec-func-gen-siam-U_by_J=16.000.pdf  used on input line 345.
 (pdftex.def)             Requested size: 123.77074pt x 105.36453pt.
-<figures/spec-func-gen-siam-U_by_J=20.250.pdf, id=990, 505.23099pt x 430.09578pt>
+<figures/spec-func-gen-siam-U_by_J=20.250.pdf, id=511, 505.23099pt x 430.09578pt>
 File: figures/spec-func-gen-siam-U_by_J=20.250.pdf Graphic file (type pdf)
 <use figures/spec-func-gen-siam-U_by_J=20.250.pdf>
-Package pdftex.def Info: figures/spec-func-gen-siam-U_by_J=20.250.pdf  used on input line 687.
+Package pdftex.def Info: figures/spec-func-gen-siam-U_by_J=20.250.pdf  used on input line 345.
 (pdftex.def)             Requested size: 123.77074pt x 105.36453pt.
-<figures/spec-func-gen-siam-U_by_J=36.000.pdf, id=991, 518.98953pt x 432.9861pt>
+<figures/spec-func-gen-siam-U_by_J=36.000.pdf, id=512, 518.98953pt x 432.9861pt>
 File: figures/spec-func-gen-siam-U_by_J=36.000.pdf Graphic file (type pdf)
 <use figures/spec-func-gen-siam-U_by_J=36.000.pdf>
-Package pdftex.def Info: figures/spec-func-gen-siam-U_by_J=36.000.pdf  used on input line 687.
+Package pdftex.def Info: figures/spec-func-gen-siam-U_by_J=36.000.pdf  used on input line 345.
 (pdftex.def)             Requested size: 123.77074pt x 103.2581pt.
- [65
+ [26
 
  <./figures/spec-func-gen-siam-U_by_J=0.100.pdf> <./figures/spec-func-gen-siam-U_by_J=9.000.pdf
 
@@ -1963,162 +1597,259 @@ pdfTeX warning: pdflatex (file ./figures/spec-func-gen-siam-U_by_J=20.250.pdf): 
 > <./figures/spec-func-gen-siam-U_by_J=36.000.pdf
 
 pdfTeX warning: pdflatex (file ./figures/spec-func-gen-siam-U_by_J=36.000.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [66
+>]
+<figures/sc-lm.pdf, id=570, 1668.77518pt x 830.87894pt>
+File: figures/sc-lm.pdf Graphic file (type pdf)
+<use figures/sc-lm.pdf>
+Package pdftex.def Info: figures/sc-lm.pdf  used on input line 349.
+(pdftex.def)             Requested size: 371.30595pt x 184.87315pt.
+ [27
 
-] [67
+ <./figures/sc-lm.pdf>] [28
 
-] [68
+] [29
 
-] [69
+] [30
 
-] [70
+] [31
+
+] [32
+
+] [33
 
 ]
-<figures/am.png, id=1077, 712.6625pt x 857.2025pt>
-File: figures/am.png Graphic file (type png)
-<use figures/am.png>
-Package pdftex.def Info: figures/am.png  used on input line 721.
-(pdftex.def)             Requested size: 49.88058pt x 60.0pt.
-<figures/dp.jpg, id=1078, 581.17125pt x 434.62375pt>
-File: figures/dp.jpg Graphic file (type jpg)
-<use figures/dp.jpg>
-Package pdftex.def Info: figures/dp.jpg  used on input line 721.
-(pdftex.def)             Requested size: 80.22832pt x 60.0pt.
-<figures/ns.jpeg, id=1079, 263.48438pt x 263.48438pt>
-File: figures/ns.jpeg Graphic file (type jpg)
-<use figures/ns.jpeg>
-Package pdftex.def Info: figures/ns.jpeg  used on input line 721.
-(pdftex.def)             Requested size: 59.99706pt x 60.0pt.
-<figures/arghyat.png, id=1080, 87.32625pt x 111.41624pt>
-File: figures/arghyat.png Graphic file (type png)
-<use figures/arghyat.png>
-Package pdftex.def Info: figures/arghyat.png  used on input line 721.
-(pdftex.def)             Requested size: 47.02754pt x 60.0pt.
-<figures/slal.jpg, id=1081, 700.6175pt x 876.27374pt>
-File: figures/slal.jpg Graphic file (type jpg)
-<use figures/slal.jpg>
-Package pdftex.def Info: figures/slal.jpg  used on input line 721.
-(pdftex.def)             Requested size: 47.96849pt x 60.0pt.
- [71
+<figures/r-opp-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf, id=622, 714.34555pt x 647.80232pt>
+File: figures/r-opp-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf Graphic file (type pdf)
+<use figures/r-opp-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>
+Package pdftex.def Info: figures/r-opp-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf  used on input line 370.
+(pdftex.def)             Requested size: 132.0238pt x 119.72293pt.
+<figures/r-charge-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf, id=623, 685.02304pt x 647.80232pt>
+File: figures/r-charge-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf Graphic file (type pdf)
+<use figures/r-charge-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>
+Package pdftex.def Info: figures/r-charge-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf  used on input line 370.
+(pdftex.def)             Requested size: 132.0238pt x 124.84319pt.
+ [34
 
- <./figures/am.png> <./figures/dp.jpg> <./figures/ns.jpeg> <./figures/arghyat.png> <./figures/slal.jpg>]
-LaTeX Font Info:    Trying to load font information for TS1+FiraSans-OsF on input line 725.
- (/usr/share/texmf-dist/tex/latex/fira/TS1FiraSans-OsF.fd
-File: TS1FiraSans-OsF.fd 2019/10/10 (autoinst) Font definitions for TS1/FiraSans-OsF.
-)
-LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/m/n' in size <8> not available
-(Font)              Font shape `TS1/FiraSans-OsF/regular/n' tried instead on input line 725.
-LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 725.
- [72
+ <./figures/r-opp-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf> <./figures/r-charge-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>]
+<figures/corr-all-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf, id=652, 918.86003pt x 627.8023pt>
+File: figures/corr-all-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf Graphic file (type pdf)
+<use figures/corr-all-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>
+Package pdftex.def Info: figures/corr-all-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf  used on input line 379.
+(pdftex.def)             Requested size: 185.65297pt x 126.84187pt.
+<figures/I-all-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf, id=653, 893.05397pt x 627.8023pt>
+File: figures/I-all-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf Graphic file (type pdf)
+<use figures/I-all-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>
+Package pdftex.def Info: figures/I-all-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf  used on input line 379.
+(pdftex.def)             Requested size: 185.65297pt x 130.51082pt.
+ [35
 
-] [73
-
-
-] [74
+ <./figures/corr-all-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf> <./figures/I-all-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf>] [36
 
 ]
-<figures/kondo_spec_func.pdf, id=1110, 1208.47261pt x 687.82085pt>
-File: figures/kondo_spec_func.pdf Graphic file (type pdf)
-<use figures/kondo_spec_func.pdf>
-Package pdftex.def Info: figures/kondo_spec_func.pdf  used on input line 735.
-(pdftex.def)             Requested size: 185.65297pt x 105.66655pt.
-<figures/Kondo_length.pdf, id=1111, 719.20593pt x 212.50893pt>
-File: figures/Kondo_length.pdf Graphic file (type pdf)
-<use figures/Kondo_length.pdf>
-Package pdftex.def Info: figures/Kondo_length.pdf  used on input line 735.
-(pdftex.def)             Requested size: 185.65297pt x 54.85541pt.
- [75
+<figures/par-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf, id=692, 719.70554pt x 658.21887pt>
+File: figures/par-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
+<use figures/par-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf>
+Package pdftex.def Info: figures/par-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf  used on input line 396.
+(pdftex.def)             Requested size: 123.77074pt x 113.19135pt.
+<figures/gap-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf, id=693, 676.77654pt x 647.80232pt>
+File: figures/gap-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
+<use figures/gap-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf>
+Package pdftex.def Info: figures/gap-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf  used on input line 396.
+(pdftex.def)             Requested size: 123.77074pt x 118.46758pt.
+<figures/lfl-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf, id=694, 683.51675pt x 647.80232pt>
+File: figures/lfl-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
+<use figures/lfl-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf>
+Package pdftex.def Info: figures/lfl-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf  used on input line 396.
+(pdftex.def)             Requested size: 123.77074pt x 117.3012pt.
+ [37
 
- <./figures/kondo_spec_func.pdf> <./figures/Kondo_length.pdf>]
-File: figures/chi_times_T_parts.pdf Graphic file (type pdf)
-<use figures/chi_times_T_parts.pdf>
-Package pdftex.def Info: figures/chi_times_T_parts.pdf  used on input line 740.
-(pdftex.def)             Requested size: 185.65297pt x 124.27477pt.
-<figures/entropy_therm.pdf, id=1143, 1021.0177pt x 656.69186pt>
-File: figures/entropy_therm.pdf Graphic file (type pdf)
-<use figures/entropy_therm.pdf>
-Package pdftex.def Info: figures/entropy_therm.pdf  used on input line 740.
-(pdftex.def)             Requested size: 185.65297pt x 119.40187pt.
- [76
+ <./figures/par-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf> <./figures/gap-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf
 
- <./figures/entropy_therm.pdf>]
-<figures/mut_I_ee.pdf, id=1159, 739.75438pt x 515.34323pt>
-File: figures/mut_I_ee.pdf Graphic file (type pdf)
-<use figures/mut_I_ee.pdf>
-Package pdftex.def Info: figures/mut_I_ee.pdf  used on input line 745.
-(pdftex.def)             Requested size: 185.65297pt x 129.33089pt.
-<figures/mut_I_ie.pdf, id=1160, 753.51292pt x 515.34323pt>
-File: figures/mut_I_ie.pdf Graphic file (type pdf)
-<use figures/mut_I_ie.pdf>
-Package pdftex.def Info: figures/mut_I_ie.pdf  used on input line 745.
-(pdftex.def)             Requested size: 185.65297pt x 126.97183pt.
- [77
+pdfTeX warning: pdflatex (file ./figures/gap-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures/lfl-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf
 
- <./figures/mut_I_ee.pdf> <./figures/mut_I_ie.pdf
-
-pdfTeX warning: pdflatex (file ./figures/mut_I_ie.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./figures/lfl-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<figures/corr_opp.pdf, id=1195, 670.15236pt x 515.34323pt>
-File: figures/corr_opp.pdf Graphic file (type pdf)
-<use figures/corr_opp.pdf>
-Package pdftex.def Info: figures/corr_opp.pdf  used on input line 750.
-(pdftex.def)             Requested size: 185.65297pt x 142.76173pt.
-<figures/corr_od.pdf, id=1196, 680.38284pt x 515.34323pt>
-File: figures/corr_od.pdf Graphic file (type pdf)
-<use figures/corr_od.pdf>
-Package pdftex.def Info: figures/corr_od.pdf  used on input line 750.
-(pdftex.def)             Requested size: 185.65297pt x 140.615pt.
- [78
+<figures/mi-dk-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf, id=735, 671.17761pt x 647.80232pt>
+File: figures/mi-dk-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
+<use figures/mi-dk-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf>
+Package pdftex.def Info: figures/mi-dk-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf  used on input line 417.
+(pdftex.def)             Requested size: 165.02347pt x 159.27144pt.
+<figures/corr-k-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf, id=736, 671.17761pt x 654.26593pt>
+File: figures/corr-k-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
+<use figures/corr-k-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf>
+Package pdftex.def Info: figures/corr-k-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf  used on input line 417.
+(pdftex.def)             Requested size: 165.02347pt x 160.86061pt.
+ [38
 
- <./figures/corr_opp.pdf> <./figures/corr_od.pdf
+ <./figures/mi-dk-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf> <./figures/corr-k-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf
 
-pdfTeX warning: pdflatex (file ./figures/corr_od.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./figures/corr-k-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<figures/gen_siam_spec_func.pdf, id=1237, 1113.04492pt x 627.8023pt>
+<figures/corr-k-diag-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf, id=765, 673.06995pt x 647.80232pt>
+File: figures/corr-k-diag-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
+<use figures/corr-k-diag-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf>
+Package pdftex.def Info: figures/corr-k-diag-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf  used on input line 417.
+(pdftex.def)             Requested size: 165.02347pt x 158.82663pt.
+<figures/corr-k-od-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf, id=766, 701.22554pt x 647.80232pt>
+File: figures/corr-k-od-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
+<use figures/corr-k-od-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf>
+Package pdftex.def Info: figures/corr-k-od-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf  used on input line 417.
+(pdftex.def)             Requested size: 165.02347pt x 152.45102pt.
+ [39
+
+ <./figures/corr-k-diag-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf> <./figures/corr-k-od-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf
+
+pdfTeX warning: pdflatex (file ./figures/corr-k-od-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<figures/mi-d0-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf, id=796, 671.17761pt x 647.80232pt>
+File: figures/mi-d0-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
+<use figures/mi-d0-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf>
+Package pdftex.def Info: figures/mi-d0-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf  used on input line 473.
+(pdftex.def)             Requested size: 132.0238pt x 127.42308pt.
+<figures/mi-01-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf, id=797, 684.93617pt x 647.80232pt>
+File: figures/mi-01-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
+<use figures/mi-01-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf>
+Package pdftex.def Info: figures/mi-01-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf  used on input line 473.
+(pdftex.def)             Requested size: 132.0238pt x 124.86295pt.
+<figures/mi-d1-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf, id=798, 684.93617pt x 647.80232pt>
+File: figures/mi-d1-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
+<use figures/mi-d1-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf>
+Package pdftex.def Info: figures/mi-d1-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf  used on input line 473.
+(pdftex.def)             Requested size: 132.0238pt x 124.86295pt.
+ [40
+
+ <./figures/mi-d0-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf> <./figures/mi-01-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf
+
+pdfTeX warning: pdflatex (file ./figures/mi-01-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures/mi-d1-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf
+
+pdfTeX warning: pdflatex (file ./figures/mi-d1-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<figures/EE-d-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf, id=844, 671.17761pt x 647.80232pt>
+File: figures/EE-d-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
+<use figures/EE-d-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf>
+Package pdftex.def Info: figures/EE-d-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf  used on input line 473.
+(pdftex.def)             Requested size: 165.02347pt x 159.27144pt.
+ [41
+
+ <./figures/EE-d-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf>]
+<figures/corr-d0-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf, id=865, 719.13412pt x 647.80232pt>
+File: figures/corr-d0-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
+<use figures/corr-d0-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf>
+Package pdftex.def Info: figures/corr-d0-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf  used on input line 473.
+(pdftex.def)             Requested size: 132.0238pt x 118.92227pt.
+<figures/corr-d1-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf, id=866, 695.80074pt x 655.23114pt>
+File: figures/corr-d1-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
+<use figures/corr-d1-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf>
+Package pdftex.def Info: figures/corr-d1-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf  used on input line 473.
+(pdftex.def)             Requested size: 132.0238pt x 124.32524pt.
+<figures/r-vec-corr-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf, id=867, 719.13412pt x 647.80232pt>
+File: figures/r-vec-corr-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
+<use figures/r-vec-corr-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf>
+Package pdftex.def Info: figures/r-vec-corr-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf  used on input line 473.
+(pdftex.def)             Requested size: 132.0238pt x 118.92227pt.
+ [42
+
+ <./figures/corr-d0-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf> <./figures/corr-d1-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf
+
+pdfTeX warning: pdflatex (file ./figures/corr-d1-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures/r-vec-corr-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf
+
+pdfTeX warning: pdflatex (file ./figures/r-vec-corr-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<figures/r1p-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf, id=911, 687.46706pt x 647.80232pt>
+File: figures/r1p-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
+<use figures/r1p-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf>
+Package pdftex.def Info: figures/r1p-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf  used on input line 473.
+(pdftex.def)             Requested size: 165.02347pt x 155.4955pt.
+<figures/r-od-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf, id=912, 714.9841pt x 647.80232pt>
+File: figures/r-od-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
+<use figures/r-od-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf>
+Package pdftex.def Info: figures/r-od-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf  used on input line 473.
+(pdftex.def)             Requested size: 165.02347pt x 149.51527pt.
+ [43
+
+ <./figures/r1p-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf> <./figures/r-od-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf
+
+pdfTeX warning: pdflatex (file ./figures/r-od-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<figures/r-par-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf, id=942, 700.58699pt x 647.80232pt>
+File: figures/r-par-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
+<use figures/r-par-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf>
+Package pdftex.def Info: figures/r-par-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf  used on input line 473.
+(pdftex.def)             Requested size: 165.02347pt x 152.5894pt.
+<figures/r-ising-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf, id=943, 685.02304pt x 647.80232pt>
+File: figures/r-ising-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
+<use figures/r-ising-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf>
+Package pdftex.def Info: figures/r-ising-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf  used on input line 473.
+(pdftex.def)             Requested size: 165.02347pt x 156.04904pt.
+ [44
+
+ <./figures/r-par-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf> <./figures/r-ising-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf
+
+pdfTeX warning: pdflatex (file ./figures/r-ising-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<figures/corr-di-min-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf, id=972, 719.13412pt x 666.34952pt>
+File: figures/corr-di-min-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
+<use figures/corr-di-min-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf>
+Package pdftex.def Info: figures/corr-di-min-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf  used on input line 473.
+(pdftex.def)             Requested size: 165.02347pt x 152.91145pt.
+<figures/corr-di-max-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf, id=973, 719.13412pt x 666.34952pt>
+File: figures/corr-di-max-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf Graphic file (type pdf)
+<use figures/corr-di-max-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf>
+Package pdftex.def Info: figures/corr-di-max-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf  used on input line 473.
+(pdftex.def)             Requested size: 165.02347pt x 152.91145pt.
+ [45
+
+ <./figures/corr-di-min-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf> <./figures/corr-di-max-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf
+
+pdfTeX warning: pdflatex (file ./figures/corr-di-max-t=1.000,V=1_over_U,J=0,N=4,U=0.010,100.000,100.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<figures/gen_siam_spec_func.pdf, id=1002, 1113.04492pt x 627.8023pt>
 File: figures/gen_siam_spec_func.pdf Graphic file (type pdf)
 <use figures/gen_siam_spec_func.pdf>
-Package pdftex.def Info: figures/gen_siam_spec_func.pdf  used on input line 755.
+Package pdftex.def Info: figures/gen_siam_spec_func.pdf  used on input line 478.
 (pdftex.def)             Requested size: 391.93546pt x 221.06564pt.
 
-Overfull \vbox (2.10925pt too high) detected at line 755
+Overfull \vbox (2.10925pt too high) detected at line 478
  []
 
-[79
+[46
 
- <./figures/gen_siam_spec_func.pdf>]
-<figures/noz_1D.pdf, id=1255, 573.44052pt x 217.60785pt>
-File: figures/noz_1D.pdf Graphic file (type pdf)
-<use figures/noz_1D.pdf>
-Package pdftex.def Info: figures/noz_1D.pdf  used on input line 788.
-(pdftex.def)             Requested size: 148.52011pt x 56.35754pt.
- [80
+ <./figures/gen_siam_spec_func.pdf>] [47
 
- <./figures/noz_1D.pdf>]
-<figures/noz_1D_approx.pdf, id=1263, 369.28223pt x 137.4862pt>
-File: figures/noz_1D_approx.pdf Graphic file (type pdf)
-<use figures/noz_1D_approx.pdf>
-Package pdftex.def Info: figures/noz_1D_approx.pdf  used on input line 788.
-(pdftex.def)             Requested size: 148.52011pt x 55.29349pt.
- [81
+] [48
 
- <./figures/noz_1D_approx.pdf>]
-<figures/lattice_eff.pdf, id=1271, 289.01169pt x 138.32745pt>
-File: figures/lattice_eff.pdf Graphic file (type pdf)
-<use figures/lattice_eff.pdf>
-Package pdftex.def Info: figures/lattice_eff.pdf  used on input line 788.
-(pdftex.def)             Requested size: 148.52011pt x 71.0864pt.
- [82
+] [49
 
- <./figures/lattice_eff.pdf>]
-<figures/lattice_eff_full.pdf, id=1283, 469.9901pt x 138.32745pt>
-File: figures/lattice_eff_full.pdf Graphic file (type pdf)
-<use figures/lattice_eff_full.pdf>
-Package pdftex.def Info: figures/lattice_eff_full.pdf  used on input line 788.
-(pdftex.def)             Requested size: 148.52011pt x 43.71268pt.
- [83
+] [50
 
- <./figures/lattice_eff_full.pdf>]
+]
+<figures/FL_self_energy.pdf, id=1040, 920.86374pt x 642.24997pt>
+File: figures/FL_self_energy.pdf Graphic file (type pdf)
+<use figures/FL_self_energy.pdf>
+Package pdftex.def Info: figures/FL_self_energy.pdf  used on input line 543.
+(pdftex.def)             Requested size: 198.02942pt x 138.11044pt.
+ [51
+
+ <./figures/FL_self_energy.pdf>]
+<figures/gamma_imp.pdf, id=1062, 1006.63664pt x 637.80232pt>
+File: figures/gamma_imp.pdf Graphic file (type pdf)
+<use figures/gamma_imp.pdf>
+Package pdftex.def Info: figures/gamma_imp.pdf  used on input line 543.
+(pdftex.def)             Requested size: 198.02942pt x 125.4658pt.
+ [52
+
+ <./figures/gamma_imp.pdf>]
+<figures/wilsonratio.pdf, id=1085, 1011.07852pt x 637.80232pt>
+File: figures/wilsonratio.pdf Graphic file (type pdf)
+<use figures/wilsonratio.pdf>
+Package pdftex.def Info: figures/wilsonratio.pdf  used on input line 543.
+(pdftex.def)             Requested size: 222.78583pt x 140.53105pt.
+ [53
+
+ <./figures/wilsonratio.pdf>]
 \tf@nav=\write6
 \openout6 = `gen_siam_presentation.nav'.
 
@@ -2134,18 +1865,28 @@ Package logreq Info: Writing requests to 'gen_siam_presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34897 strings out of 478353
- 710351 string characters out of 5854636
- 1286359 words of memory out of 5000000
- 52067 multiletter control sequences out of 15000+600000
- 925042 words of font info for 131 fonts, out of 8000000 for 9000
+ 34440 strings out of 478353
+ 707190 string characters out of 5854636
+ 1275936 words of memory out of 5000000
+ 51714 multiletter control sequences out of 15000+600000
+ 903406 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,1868b,1980s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_d67aat.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_337jzs.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_2mfh3o.enc}</usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Bold.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Italic.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on gen_siam_presentation.pdf (83 pages, 2912551 bytes).
+ 128i,16n,122p,1868b,1938s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{cite.0@wiegmann_kondoexact_1981} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.0@andrei_kondo} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.0@wilson1975} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.0@anderson_impurity_1961} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.0@Schrieffer_Wolff} has been referenced but does not exist, replaced by a fixed one
+
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_337jzs.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_2mfh3o.enc}</usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Bold.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Italic.pfb></usr/share/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
+Output written on gen_siam_presentation.pdf (53 pages, 917014 bytes).
 PDF statistics:
- 1450 PDF objects out of 1728 (max. 8388607)
- 1197 compressed objects within 12 object streams
- 197 named destinations out of 1000 (max. 500000)
- 516 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1215 PDF objects out of 1440 (max. 8388607)
+ 998 compressed objects within 10 object streams
+ 120 named destinations out of 1000 (max. 500000)
+ 437 words of extra memory for PDF output out of 10000 (max. 10000000)
 

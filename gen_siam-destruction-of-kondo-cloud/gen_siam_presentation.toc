@@ -2,20 +2,16 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {1}{The Generalised SIAM Model}{2}{0}{1}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {2}{What's left to understand?}{9}{0}{2}
+\beamer@sectionintoc {2}{URG of Generalised SIAM}{5}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {3}{The Unitary Renormalization Group Method}{14}{0}{3}
+\beamer@sectionintoc {3}{Zero-bandwidth limit of fixed point Hamiltonian}{9}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {4}{URG of the Kondo Model}{27}{0}{4}
+\beamer@sectionintoc {4}{Local Fermi liquid excitations}{12}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{Zero-bandwidth limit of fixed point Hamiltonian}{35}{0}{5}
+\beamer@sectionintoc {5}{Signatures of breakdown of screening - Journey towards local moment phase}{16}{0}{5}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {6}{Effective Hamiltonian for the Kondo Cloud}{41}{0}{6}
+\beamer@sectionintoc {6}{Discussions \& Further Work}{28}{0}{6}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {7}{Many-particle entanglement \& many-body correlation}{49}{0}{7}
+\beamer@sectionintoc {7}{Other measures of correlation in gen. SIAM}{33}{0}{7}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {8}{Signatures of breakdown of screening - Journey towards local moment phase}{55}{0}{8}
-\defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {9}{Discussions \& Conclusions}{66}{0}{9}
-\defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {11}{Other Results}{74}{0}{10}
+\beamer@sectionintoc {8}{Measures of correlation in pure SIAM}{36}{0}{8}
