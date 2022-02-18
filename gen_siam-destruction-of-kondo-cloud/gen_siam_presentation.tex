@@ -40,7 +40,6 @@
 \LARGE{Destruction of the Kondo cloud in the generalised SIAM: Unitary RG perspective
 }
 }
-\subtitle{\bf\large\color{lyellow}\href{https://arxiv.org/abs/2111.10580}{arXiv:2111.10580v2[cond-mat.str-el]}}
 \date{\today}
 \author{\large Abhirup Mukherjee \inst{1}, Siddhartha Lal \inst{1}}
 
@@ -100,8 +99,8 @@
 \begin{minipage}{0.3\textwidth}
 \centering
 \[\Delta V = \frac{3n_j VJ}{8}\left(\frac{1}{|d_2|} + \frac{1}{|d_1|}\right) > 0\]
-\[\Delta J= \frac{n_j J^2}{|d_2|} > 0\]
-\[\Delta K= \frac{n_j K^2}{|d_3|} > 0\]
+\[\Delta J = \frac{n_j J^2}{|d_2|} > 0\]
+\[\Delta |K| = -\frac{n_j K^2}{|d_3|} < 0\]
 \focus{(\(K\) is irrelevant)}
 \end{minipage}
 \hspace*{15pt}
@@ -111,7 +110,7 @@
 \end{minipage}
 }
 \only<+>{
-\[4V^2 n_j\left(\frac{1}{d_1} - \frac{1}{d_0}\right) - n_j\frac{J^2}{d_2}\]
+\[\Delta U = 4V^2 n_j\left(\frac{1}{d_1} - \frac{1}{d_0}\right) - n_j\frac{J^2}{d_2}\]
 
 \vspace*{-25pt}
 \begin{minipage}{0.49\textwidth}
@@ -215,13 +214,18 @@
 \end{itemize}
 
 \vspace*{20pt}
-\includegraphics[width=0.8\textwidth]{figures/seven_site.pdf}
+\hspace{\fill}
+\includegraphics[width=0.45\textwidth]{figures/seven_site.pdf}
+\hspace{\fill}
+\includegraphics[width=0.3\textwidth]{figures/seven_site2.pdf}
+\hspace{\fill}
 \end{frame}
 
 \begin{frame}[noframenumbering]{Breakdown of renormalised perturbation theory}
 
 \head{Perturbation parameter, zero mode gap and local FL strength}
 
+\vspace*{25pt}
 {
 \centering
 \includegraphics[width=0.3\textwidth]{figures/par-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf}
@@ -231,6 +235,9 @@
 \includegraphics[width=0.3\textwidth]{figures/lfl-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf}
 
 \focus{closing of gap},~ ~ ~ ~ breakdown of p. theory,~ ~ ~ ~  extremely \focus{correlated} LFL
+
+\vspace*{5pt}
+\includegraphics[width=0.95\textwidth]{figures/gap_lfl.pdf}
 }
 
 \end{frame}
@@ -240,26 +247,39 @@
 \head{Mutual information within the Kondo cloud}
 \vspace*{20pt}
 \begin{center}
-\includegraphics[width=0.4\textwidth]{figures/mi-dk-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf}
-\hspace*{\fill}
-\includegraphics[width=0.4\textwidth]{figures/corr-k-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf}
+\includegraphics[width=0.35\textwidth]{figures/mi-dk-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf}
+\includegraphics[width=0.35\textwidth]{figures/corr-k-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf}
+\end{center}
+
+\vspace{-20pt}
+\begin{minipage}{0.7\textwidth}
 \begin{itemize}
 	\item loss of spin-flip scattering and \focus{disappearance of Kondo cloud}
 \end{itemize}
-\end{center}
+\end{minipage}
+\begin{minipage}{0.2\textwidth}
+\includegraphics[width=\textwidth]{figures/seven_site2.pdf}
+\end{minipage}
 }
 
 \only<+>{
 \head{Many-particle correlations in \(k-\)space}
 \vspace*{20pt}
+
 \begin{center}
-\includegraphics[width=0.4\textwidth]{figures/corr-k-diag-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf}
-\hspace*{\fill}
-\includegraphics[width=0.4\textwidth]{figures/corr-k-od-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf}
+\includegraphics[width=0.35\textwidth]{figures/corr-k-diag-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf}
+\includegraphics[width=0.37\textwidth]{figures/corr-k-od-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf}
 \end{center}
+
+\vspace{-20pt}
+\begin{minipage}{0.7\textwidth}
 \begin{itemize}
 	\item loss of entanglement within the K cloud, \focus{breakdown of screening}
 \end{itemize}
+\end{minipage}
+\begin{minipage}{0.2\textwidth}
+\includegraphics[width=\textwidth]{figures/seven_site2.pdf}
+\end{minipage}
 }
 \end{frame}
 
@@ -274,19 +294,30 @@
 \includegraphics[width=0.32\textwidth]{figures/mi-d1-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf}
 \end{center}
 
+\begin{minipage}{0.65\textwidth}
 \begin{itemize}
 	\item \(d\) and \(0\) disentangle, \(0\) gets entangled with the lattice
 \end{itemize}
+\end{minipage}
+\begin{minipage}{0.29\textwidth}
+\includegraphics[width=\textwidth]{figures/seven_site.pdf}
+\end{minipage}
 }
 \only<+>{
 \head{Impurity entanglement entropy}
 \vspace*{20pt}
 \begin{center}
-\includegraphics[width=0.4\textwidth]{figures/EE-d-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf}
+\includegraphics[width=0.35\textwidth]{figures/EE-d-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf}
 \end{center}
+
+\begin{minipage}{0.65\textwidth}
 \begin{itemize}
 	\item impurity site \focus{disentangles from the lattice}
 \end{itemize}
+\end{minipage}
+\begin{minipage}{0.29\textwidth}
+\includegraphics[width=\textwidth]{figures/seven_site.pdf}
+\end{minipage}
 }
 \only<+>{
 \head{Real space spin-spin correlations}
@@ -298,10 +329,18 @@
 \hspace*{\fill}
 \includegraphics[width=0.32\textwidth]{figures/r-vec-corr-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf}
 \end{center}
+
+\hspace*{-30pt}
+\begin{minipage}{0.73\textwidth}
 \begin{itemize}
 	\item impurity\focus{ spin compensation vanishes} (loss of screening)
 	\item Spin correlation between 0 and 1 increases
 \end{itemize}
+\end{minipage}
+\hspace{\fill}
+\begin{minipage}{0.29\textwidth}
+\includegraphics[width=\textwidth]{figures/seven_site.pdf}
+\end{minipage}
 }
 \only<+>{
 \head{Real space diagonal and off-diagonal correlations}
@@ -313,10 +352,16 @@
 \includegraphics[width=0.32\textwidth]{figures/r-ising-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf}
 \hspace*{\fill}
 \end{center}
+
+\begin{minipage}{0.7\textwidth}
 \begin{itemize}
 	\item \focus{Correlations between 0 and 1 increase}
 	\item Result of tight-binding hopping \focus{breaking the singlet}
 \end{itemize}
+\end{minipage}
+\begin{minipage}{0.29\textwidth}
+\includegraphics[width=\textwidth]{figures/seven_site.pdf}
+\end{minipage}
 }
 \only<+>{
 \head{Variation of real-space correlations with distance}
@@ -335,17 +380,30 @@
 }
 \end{frame}
 
-\begin{frame}[noframenumbering]{Variation of spectral function}
+\begin{frame}[noframenumbering]{Variation of Impurity Spectral Function}
 \centering
 \includegraphics[width=0.3\textwidth]{figures/spec-func-gen-siam-U_by_J=0.100.pdf}
 \includegraphics[width=0.3\textwidth]{figures/spec-func-gen-siam-U_by_J=9.000.pdf}
 \includegraphics[width=0.3\textwidth]{figures/spec-func-gen-siam-U_by_J=16.000.pdf}
 \includegraphics[width=0.3\textwidth]{figures/spec-func-gen-siam-U_by_J=20.250.pdf}
 \includegraphics[width=0.3\textwidth]{figures/spec-func-gen-siam-U_by_J=36.000.pdf}
+\includegraphics[width=0.3\textwidth]{figures/seven_site2.pdf}
 \end{frame}
 
 \begin{frame}[noframenumbering]{What's happening?}
 \includegraphics[width=0.9\textwidth]{figures/sc-lm.pdf}
+\end{frame}
+
+
+\begin{frame}[noframenumbering]{Auxiliary Model $\rightarrow$ bulk}
+\includegraphics[width=0.9\textwidth]{figures/cloud_lattice.pdf}
+
+\begin{itemize}
+	\item At large \(J,V\), we have \focus{large overlapping} Kondo clouds (gray regions)
+	\item As we go towards the local moment phase, the \focus{Kondo clouds shrink}
+	\item At \(V,J \sim 0\), the Kondo \focus{length scale diverges} and the system becomes insulating
+\end{itemize}
+
 \end{frame}
 
 \section{Discussions \& Further Work}
@@ -356,6 +414,9 @@
  		\item Stabilising the insulating phase under RG \focus{still remains to be done}.
  		\item For this, we will insert a \focus{Hubbard term on the zeroth site}, and check the RG flows.
 	\end{itemize}
+	\only<4>{
+\includegraphics[width=0.6\textwidth]{figures/kondo_zeromode_Ubath.pdf}
+	}
 \end{frame}
 
 \section{Other measures of correlation in gen. SIAM}
@@ -376,6 +437,11 @@
 \includegraphics[width=0.45\textwidth]{figures/I-all-t=1.000,J=1_over_U,V=J,N=4,U=0.016,100.000,95.pdf}
 \end{center}
 
+\end{frame}
+
+\begin{frame}[noframenumbering]{Impurity spectral function (Gen. SIAM)}
+	\centering
+	\includegraphics[width=0.95\textwidth]{figures/gen_siam_spec_func.pdf}
 \end{frame}
 
 \section{Measures of correlation in pure SIAM}
@@ -472,15 +538,8 @@
 }
 \end{frame}
 
-\begin{frame}[noframenumbering]{Impurity spectral function (Gen. SIAM)}
-	\centering
-	\includegraphics[width=0.95\textwidth]{figures/gen_siam_spec_func.pdf}
-\end{frame}
-
-\begin{frame}{}
+\begin{frame}[noframenumbering]{Form of Kondo cloud Hamiltonian}
 	
-\only<4>{
-\head{Form of Kondo cloud Hamiltonian}
 \centering
 \[H_\text{eff}=2H^{*}_{0} ~+~ \frac{2}{J^*}{H^{*}_{0}}^2 ~+~ \sum_{1234}V_{1234}c^\dagger_{{k_4} \uparrow}c^\dagger_{{k_3} \downarrow}c_{{k_2} \downarrow}c_{{k_1} \uparrow}\label{eff_Ham_Kondo}\]
 \[V_{1234} = \left( \epsilon_{k_1} - \epsilon_{k_3} \right)\left[1 - \frac{2}{J^*}\left(\epsilon_{k_3} - \epsilon_{{k_1}} + \epsilon_{{k_2}} + \epsilon_{{k_4}}\right)\right]\]
@@ -494,51 +553,6 @@
 		\vspace*{\fill}
 	\item NFL part \focus{leads to screening} and formation of singlet
 \end{itemize}
-}
 
-\only<5-6>{
-\head{Impurity specific heat}
-\begin{minipage}{0.5\textwidth}
-\begin{itemize}
-	\item Fermi-liquid part renormalises one-particle \focus{self-energy}
-		\[\bar{\epsilon}_{k}=\epsilon_{k}+\Sigma_{k}\]
-	\[\Sigma_{k}=\sum_{k^\prime\sigma^\prime}\frac{\epsilon_{k^\prime}\epsilon_{k}}{J^{*}}\delta n_{k^\prime,\sigma^\prime}\]
-	\only<6>{\item Compute renormalisation in \(C_V\):
-		\[
-C_\text{imp} = \sum_{k,\sigma}\frac{1}{T^2}\left[\frac{(\bar{\epsilon}_{k})^{2}e^{\beta\bar{\epsilon}_{k}}}{(e^{\beta\bar{\epsilon}_{k}}+1)^{2}}-\frac{(\epsilon_{k})^{2}e^{\beta\epsilon_{k}}}{(e^{\beta\epsilon_{k}}+1)^{2}}\right]
-\]
-}
-\end{itemize}
-\end{minipage}
-\only<5>{
-\begin{minipage}{0.48\textwidth}
-\includegraphics[width=\textwidth]{figures/FL_self_energy.pdf}
-\end{minipage}
-}
-\only<6>{
-\footcite{wilson1975,andrei_kondo,wiegmann_kondoexact_1981}
-\begin{minipage}{0.48\textwidth}
-	\[ C_V = \gamma \times T\]
-	\includegraphics[width=\textwidth]{figures/gamma_imp.pdf}
-\end{minipage}
-}
-}
-\only<7>{
-\head{Wilson ratio}
-\footcite{wilson1975,andrei_kondo,wiegmann_kondoexact_1981}
-
-\begin{minipage}{0.35\textwidth}
-\begin{flushleft}
-	\(R = \frac{\chi}{\gamma}\)\\[15pt]
-	\(\chi(T \to 0) = \frac{1}{2J^*}\)\\[15pt]
-	\(\gamma(T \to 0) = \frac{1}{4J^*}\)\\[15pt]
-	\focus{\(R\) saturates to 2 as \(T \to 0\)}
-\end{flushleft}
-\end{minipage}
-\hspace*{\fill}
-\begin{minipage}{0.6\textwidth}
-\includegraphics[width=0.9\textwidth]{figures/wilsonratio.pdf}
-\end{minipage}
-}
 \end{frame}
 \end{document}

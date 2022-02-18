@@ -22,44 +22,44 @@ Database file #2: kondo_presentation.bib
 Biblatex version: 3.16
 Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
-You've used 6 entries,
+You've used 3 entries,
             6393 wiz_defined-function locations,
-            1247 strings with 9944 characters,
-and the built_in function-call counts, 33320 in all, are:
-= -- 2312
-> -- 687
-< -- 246
-+ -- 645
-- -- 222
-* -- 2407
-:= -- 3157
+            1222 strings with 9408 characters,
+and the built_in function-call counts, 14608 in all, are:
+= -- 1016
+> -- 315
+< -- 102
++ -- 281
+- -- 103
+* -- 1011
+:= -- 1500
 add.period$ -- 0
-call.type$ -- 6
-change.case$ -- 174
-chr.to.int$ -- 47
-cite$ -- 10
-duplicate$ -- 3091
-empty$ -- 3151
-format.name$ -- 300
-if$ -- 7215
+call.type$ -- 3
+change.case$ -- 74
+chr.to.int$ -- 44
+cite$ -- 4
+duplicate$ -- 1231
+empty$ -- 1370
+format.name$ -- 116
+if$ -- 3177
 int.to.chr$ -- 0
-int.to.str$ -- 15
+int.to.str$ -- 6
 missing$ -- 0
-newline$ -- 207
-num.names$ -- 334
-pop$ -- 1712
+newline$ -- 96
+num.names$ -- 138
+pop$ -- 705
 preamble$ -- 1
-purify$ -- 193
+purify$ -- 81
 quote$ -- 0
-skip$ -- 1269
+skip$ -- 568
 stack$ -- 0
-substring$ -- 4004
-swap$ -- 968
-text.length$ -- 151
-text.prefix$ -- 5
+substring$ -- 1825
+swap$ -- 392
+text.length$ -- 70
+text.prefix$ -- 2
 top$ -- 1
-type$ -- 192
+type$ -- 90
 warning$ -- 0
-while$ -- 396
+while$ -- 192
 width$ -- 0
-write$ -- 202
+write$ -- 94

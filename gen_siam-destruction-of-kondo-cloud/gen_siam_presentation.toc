@@ -10,8 +10,8 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {5}{Signatures of breakdown of screening - Journey towards local moment phase}{16}{0}{5}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {6}{Discussions \& Further Work}{28}{0}{6}
+\beamer@sectionintoc {6}{Discussions \& Further Work}{29}{0}{6}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {7}{Other measures of correlation in gen. SIAM}{33}{0}{7}
+\beamer@sectionintoc {7}{Other measures of correlation in gen. SIAM}{34}{0}{7}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {8}{Measures of correlation in pure SIAM}{36}{0}{8}
+\beamer@sectionintoc {8}{Measures of correlation in pure SIAM}{38}{0}{8}
