@@ -1,0 +1,17 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{The Model}{2}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{URG Analysis: \(U_b=0\)}{4}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{URG Analysis: \(U_b \neq 0\)}{9}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Evolution of two-site groundstate and correlations across the transition}{12}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Zero-bandwidth limit of fixed point Hamiltonian}{24}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {6}{Local Fermi liquid excitations}{27}{0}{6}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {7}{Signatures of breakdown of screening - Journey towards local moment phase}{31}{0}{7}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {8}{Discussions \& Further Work}{35}{0}{8}
