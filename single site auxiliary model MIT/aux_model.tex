@@ -6,6 +6,7 @@
 \usepackage[absolute,overlay]{textpos}
 
 \usetheme{metropolis}
+\usepackage[sfdefault]{roboto} 
 \setbeamertemplate{footline}{}
 % \usetheme{focus}
 
@@ -41,7 +42,7 @@
 }
 
 \title{
-{New Auxiliary Model Approach to the Mott MIT
+{\LARGE A New Unitary RG-Based Auxiliary Model Approach: a Look into the Mott Metal-Insulator Transition
 }
 }
 \date{\today}
@@ -284,8 +285,8 @@ T \longrightarrow \text{off-diagonal part}
 \hspace*{-50pt}
 \vspace*{-20pt}
 
-	\includegraphics[width=0.49\textwidth]{figures/U_irr,U>0,V.pdf}
-	\includegraphics[width=0.49\textwidth]{figures/U_irr,U>0,J.pdf}
+	\includegraphics[width=0.49\textwidth]{figures/U_irr,U_gt_0,V.pdf}
+	\includegraphics[width=0.49\textwidth]{figures/U_irr,U_gt_0,J.pdf}
 }
 \only<+>{
 {\large \(\Delta U = 4V^2 n_j\left(\frac{1}{d_1} - \frac{1}{d_0}\right) - n_j\frac{J^2}{d_2}\)}
@@ -296,13 +297,13 @@ T \longrightarrow \text{off-diagonal part}
 \centering
 {\large\( V > J\)}
 
-\includegraphics[width=\textwidth]{figures/U_irr,U>0,U.pdf}
+\includegraphics[width=\textwidth]{figures/U_irr,U_gt_0,U.pdf}
 \end{minipage}
 \begin{minipage}{0.49\textwidth}
 \centering
 {\large\( V < J\)}
 
-\includegraphics[width=\textwidth]{figures/U_rel,U>0,U.pdf}
+\includegraphics[width=\textwidth]{figures/U_rel,U_gt_0,U.pdf}
 \end{minipage}
 }
 
@@ -321,12 +322,32 @@ T \longrightarrow \text{off-diagonal part}
 \end{minipage}
 \end{frame}
 
+\begin{frame}[noframenumbering]{Phase Diagram}
+\centering
+\begin{minipage}{0.5\textwidth}
+	\begin{itemize}
+	\item only strong-coupling phase is stable
+	\item impurity always screened
+	\item no phase transition
+	\end{itemize}
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.4\textwidth}
+\includegraphics[width=\textwidth]{./figures/phase_diagram_zero.pdf}
+\end{minipage}
+\end{frame}
+
 \begin{frame}[noframenumbering]{Impurity Spectral Function}
 \centering
 
-\focus{no gap} at arbitrarily large $U$
+{\large \focus{no gap} at arbitrarily large $U$}
 
-\includegraphics[width=0.6\textwidth]{./figures/gen_siam_spec_func.pdf}
+\includegraphics[width=0.3\textwidth]{./figures/spec_func_Ub=0_U_by_delta=0.00.pdf}
+\includegraphics[width=0.3\textwidth]{./figures/spec_func_Ub=0_U_by_delta=3.00.pdf}
+\includegraphics[width=0.3\textwidth]{./figures/spec_func_Ub=0_U_by_delta=5.00.pdf}
+
+\includegraphics[width=0.3\textwidth]{./figures/spec_func_Ub=0_U_by_delta=10.00.pdf}
+\includegraphics[width=0.3\textwidth]{./figures/spec_func_Ub=0_U_by_delta=25.00.pdf}
 
 \end{frame}
 
@@ -400,67 +421,115 @@ T \longrightarrow \text{off-diagonal part}
 \label{transition}
 
 \begin{frame}[noframenumbering]{Overlap of ground state against spin singlet and charge triplet zero states}
-	\centering
-\only<1>{\(J_0/D_0 = 10^{-4}\)
+\centering
 
-\vspace*{-20pt}
-\includegraphics[width=\textwidth]{./figures/overlaps_gs-J=0.100.pdf}
+\only<1>{
+\hspace*{-50pt}
+\begin{minipage}{0.65\textwidth}
+\includegraphics[width=1.2\textwidth]{./figures/overlaps_gs-J=0.100.pdf}
+\end{minipage}
+\hspace*{15pt}
+\begin{minipage}{0.32\textwidth}
+\includegraphics[width=1.2\textwidth]{./figures/phase-map-MIT-small-1.pdf}
+\end{minipage}
 }
 
-\only<2>{\(J_0/D_0 = 10^{-2}\)
+\only<2>{
+\hspace*{-50pt}
+\begin{minipage}{0.65\textwidth}
+\includegraphics[width=1.2\textwidth]{./figures/overlaps_gs-J=10.000.pdf}
+\end{minipage}
+\hspace*{15pt}
+\begin{minipage}{0.32\textwidth}
+\includegraphics[width=1.2\textwidth]{./figures/phase-map-MIT-small-2.pdf}
+\end{minipage}
+}
 
-\vspace*{-20pt}
-\includegraphics[width=\textwidth]{./figures/overlaps_gs-J=10.000.pdf}}
-
-\only<3>{\(J_0/D_0 = 10^{-1}\)
-
-\vspace*{-20pt}
-\includegraphics[width=\textwidth]{./figures/overlaps_gs-J=50.000.pdf}}
+\only<3>{
+\hspace*{-50pt}
+\begin{minipage}{0.65\textwidth}
+\includegraphics[width=1.2\textwidth]{./figures/overlaps_gs-J=50.000.pdf}
+\end{minipage}
+\hspace*{15pt}
+\begin{minipage}{0.32\textwidth}
+\includegraphics[width=1.2\textwidth]{./figures/phase-map-MIT-small-3.pdf}
+\end{minipage}
+}
 
 \end{frame}
 
 \begin{frame}[noframenumbering]{Spin and charge correlations in ground state}
-	\centering
-\only<1>{\(J_0/D_0 = 10^{-4}\)
-
-\vspace*{-20pt}
-\includegraphics[width=\textwidth]{./figures/corrs_gs-J=0.100.pdf}
+\centering
+\only<1>{
+\hspace*{-50pt}
+\begin{minipage}{0.65\textwidth}
+\includegraphics[width=1.2\textwidth]{./figures/corrs_gs-J=0.100.pdf}
+\end{minipage}
+\hspace*{15pt}
+\begin{minipage}{0.32\textwidth}
+\includegraphics[width=1.2\textwidth]{./figures/phase-map-MIT-small-1.pdf}
+\end{minipage}
 }
 
-\only<2>{\(J_0/D_0 = 10^{-2}\)
+\only<2>{
+\hspace*{-50pt}
+\begin{minipage}{0.65\textwidth}
+\includegraphics[width=1.2\textwidth]{./figures/corrs_gs-J=10.000.pdf}
+\end{minipage}
+\hspace*{15pt}
+\begin{minipage}{0.32\textwidth}
+\includegraphics[width=1.2\textwidth]{./figures/phase-map-MIT-small-2.pdf}
+\end{minipage}
+}
 
-\vspace*{-20pt}
-\includegraphics[width=\textwidth]{./figures/corrs_gs-J=10.000.pdf}}
-
-\only<3>{\(J_0/D_0 = 10^{-1}\)
-
-\vspace*{-20pt}
-\includegraphics[width=\textwidth]{./figures/corrs_gs-J=50.000.pdf}}
+\only<3>{
+\hspace*{-50pt}
+\begin{minipage}{0.65\textwidth}
+\includegraphics[width=1.2\textwidth]{./figures/corrs_gs-J=50.000.pdf}
+\end{minipage}
+\hspace*{15pt}
+\begin{minipage}{0.32\textwidth}
+\includegraphics[width=1.2\textwidth]{./figures/phase-map-MIT-small-3.pdf}
+\end{minipage}
+}
 
 \end{frame}
 
 \begin{frame}[noframenumbering]{Correlation measures: Local Fermi liquid}
-\vspace*{20pt}
-\includegraphics[width=0.49\textwidth]{./figures/gap-t=1.000,J=10.000,0.000,40,V=3J,Ubath=-U_by_10,N=4,U=1.000,1000.000,40.pdf}
-\includegraphics[width=0.49\textwidth]{./figures/lfl-t=1.000,J=10.000,0.000,40,V=3J,Ubath=-U_by_10,N=4,U=1.000,1000.000,40.pdf}
+
+\begin{textblock*}{0.3\textwidth}(11.5cm, 1cm)
+	\includegraphics[width=\textwidth]{./figures/phase-map-MIT-small-2.pdf}
+\end{textblock*}
+
+\includegraphics[width=0.4\textwidth]{./figures/gap-t=1.000,J=10.000,0.000,40,V=3J,Ubath=-U_by_10,N=4,U=1.000,1000.000,40.pdf}
+\includegraphics[width=0.4\textwidth]{./figures/lfl-t=1.000,J=10.000,0.000,40,V=3J,Ubath=-U_by_10,N=4,U=1.000,1000.000,40.pdf}
 \end{frame}
 
 
 \begin{frame}[noframenumbering]{Correlation measures: Kondo cloud}
-\vspace*{20pt}
-\includegraphics[width=0.49\textwidth]{./figures/corr-k-t=1.000,J=10.000,0.000,40,V=3J,Ubath=-U_by_10,N=4,U=1.000,1000.000,40.pdf}
-\includegraphics[width=0.49\textwidth]{./figures/mi-dk-t=1.000,J=10.000,0.000,40,V=3J,Ubath=-U_by_10,N=4,U=1.000,1000.000,40.pdf}
+\begin{textblock*}{0.3\textwidth}(11.5cm, 1cm)
+	\includegraphics[width=\textwidth]{./figures/phase-map-MIT-small-2.pdf}
+\end{textblock*}
+\includegraphics[width=0.4\textwidth]{./figures/corr-k-t=1.000,J=10.000,0.000,40,V=3J,Ubath=-U_by_10,N=4,U=1.000,1000.000,40.pdf}
+\includegraphics[width=0.4\textwidth]{./figures/mi-dk-t=1.000,J=10.000,0.000,40,V=3J,Ubath=-U_by_10,N=4,U=1.000,1000.000,40.pdf}
 \end{frame}
 
 \begin{frame}[noframenumbering]{Correlation measures: Real space mutual information}
-\vspace*{20pt}
-\includegraphics[width=0.49\textwidth]{./figures/mi-01-t=1.000,J=10.000,0.000,40,V=3J,Ubath=-U_by_10,N=4,U=1.000,1000.000,40.pdf}
-\includegraphics[width=0.49\textwidth]{./figures/mi-d0-t=1.000,J=10.000,0.000,40,V=3J,Ubath=-U_by_10,N=4,U=1.000,1000.000,40.pdf}
+\begin{textblock*}{0.3\textwidth}(11.5cm, 1cm)
+	\includegraphics[width=\textwidth]{./figures/phase-map-MIT-small-2.pdf}
+\end{textblock*}
+
+\vspace*{50pt}
+\includegraphics[width=0.4\textwidth]{./figures/mi-01-t=1.000,J=10.000,0.000,40,V=3J,Ubath=-U_by_10,N=4,U=1.000,1000.000,40.pdf}
+\includegraphics[width=0.4\textwidth]{./figures/mi-d0-t=1.000,J=10.000,0.000,40,V=3J,Ubath=-U_by_10,N=4,U=1.000,1000.000,40.pdf}
 \end{frame}
 
 
 \begin{frame}[noframenumbering]{Correlation measures: Impurity entanglement entropy and spin-spin correlations}
-\vspace*{20pt}
+\begin{textblock*}{0.3\textwidth}(11.5cm, 1cm)
+	\includegraphics[width=\textwidth]{./figures/phase-map-MIT-small-2.pdf}
+\end{textblock*}
+\vspace*{60pt}
 	\includegraphics[width=0.32\textwidth]{./figures/EE-d-t=1.000,J=10.000,0.000,40,V=3J,Ubath=-U_by_10,N=4,U=1.000,1000.000,40.pdf}
 	\includegraphics[width=0.32\textwidth]{./figures/corr-d0-t=1.000,J=10.000,0.000,40,V=3J,Ubath=-U_by_10,N=4,U=1.000,1000.000,40.pdf}
 	\includegraphics[width=0.32\textwidth]{./figures/r-vec-corr-01-t=1.000,J=10.000,0.000,40,V=3J,Ubath=-U_by_10,N=4,U=1.000,1000.000,40.pdf}
@@ -468,17 +537,21 @@ T \longrightarrow \text{off-diagonal part}
 
 
 \begin{frame}[noframenumbering]{Correlation measures: Real-space correlations}
-\vspace*{20pt}
-\includegraphics[width=0.49\textwidth]{./figures/r1p-t=1.000,J=10.000,0.000,40,V=3J,Ubath=-U_by_10,N=4,U=1.000,1000.000,40.pdf}
-\includegraphics[width=0.49\textwidth]{./figures/r-od-t=1.000,J=10.000,0.000,40,V=3J,Ubath=-U_by_10,N=4,U=1.000,1000.000,40.pdf}
+\begin{textblock*}{0.3\textwidth}(11.5cm, 1cm)
+	\includegraphics[width=\textwidth]{./figures/phase-map-MIT-small-2.pdf}
+\end{textblock*}
+
+\includegraphics[width=0.4\textwidth]{./figures/r1p-t=1.000,J=10.000,0.000,40,V=3J,Ubath=-U_by_10,N=4,U=1.000,1000.000,40.pdf}
+\includegraphics[width=0.4\textwidth]{./figures/r-od-t=1.000,J=10.000,0.000,40,V=3J,Ubath=-U_by_10,N=4,U=1.000,1000.000,40.pdf}
 \end{frame}
 
 
 \begin{frame}[noframenumbering]{Correlation measures: Impurity spectral function}
-\centering
 \includegraphics[width=0.32\textwidth]{./figures/spec_func_Ub_by_J=-0.100.pdf}
 \includegraphics[width=0.32\textwidth]{./figures/spec_func_Ub_by_J=-0.145.pdf}
 \includegraphics[width=0.32\textwidth]{./figures/spec_func_Ub_by_J=-0.188.pdf}
+
+\includegraphics[width=0.32\textwidth]{./figures/sf_pointer1.pdf}
 \includegraphics[width=0.32\textwidth]{./figures/spec_func_Ub_by_J=-0.250.pdf}
 \includegraphics[width=0.32\textwidth]{./figures/spec_func_Ub_by_J=-0.26.pdf}
 \end{frame}
@@ -489,6 +562,8 @@ T \longrightarrow \text{off-diagonal part}
 \includegraphics[width=0.32\textwidth]{./figures/spec_func_d0_Ub_by_J=-0.100.pdf}
 \includegraphics[width=0.32\textwidth]{./figures/spec_func_d0_Ub_by_J=-0.145.pdf}
 \includegraphics[width=0.32\textwidth]{./figures/spec_func_d0_Ub_by_J=-0.188.pdf}
+
+\includegraphics[width=0.32\textwidth]{./figures/sf_pointer3.pdf}
 \includegraphics[width=0.32\textwidth]{./figures/spec_func_d0_Ub_by_J=-0.250.pdf}
 \includegraphics[width=0.32\textwidth]{./figures/spec_func_d0_Ub_by_J=-0.26.pdf}
 \end{frame}
@@ -496,16 +571,13 @@ T \longrightarrow \text{off-diagonal part}
 
 \begin{frame}[noframenumbering]{Correlation measures: Bath spectral function \(A_{00}\)}
 \centering
-\hspace*{\fill}
 \includegraphics[width=0.33\textwidth]{./figures/spec_func_00_Ub_by_J=-0.000.pdf}
-\hspace*{\fill}
 \includegraphics[width=0.33\textwidth]{./figures/spec_func_00_Ub_by_J=-0.125.pdf}
-\hspace*{\fill}
 
+\includegraphics[width=0.32\textwidth]{./figures/sf_pointer2.pdf}
+\includegraphics[width=0.32\textwidth]{./figures/spec_func_00_Ub_by_J=-0.250.pdf}
 \hspace*{\fill}
-\includegraphics[width=0.33\textwidth]{./figures/spec_func_00_Ub_by_J=-0.250.pdf}
-\hspace*{\fill}
-\includegraphics[width=0.29\textwidth]{./figures/spec_func_00_Ub_by_J=-0.26.pdf}
+\includegraphics[width=0.32\textwidth]{./figures/spec_func_00_Ub_by_J=-0.26.pdf}
 \hspace*{\fill}
 \end{frame}
 
@@ -513,28 +585,35 @@ T \longrightarrow \text{off-diagonal part}
 \label{aux-method}
 
 \begin{frame}[noframenumbering]{General philosophy}
-\vspace*{-20pt}
-	\[H = \overbrace{H_\text{cluster}}^\text{simple} + \underbrace{H_\text{bath} + H_\text{cl-bath}}_\text{complicated}\]
+\begin{minipage}{0.5\textwidth}
 \begin{itemize}
 	\item find "appropriate" bath and then solve the cluster+bath problem
 	\item appropriate = physical + solvable
 \end{itemize}
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+	\[H = \overbrace{H_\text{cluster}}^\text{simple} + \underbrace{H_\text{bath} + H_\text{cl-bath}}_\text{complicated}\]
+\end{minipage}
 
 \centering
-\includegraphics[width=0.8\textwidth]{./figures/cluster-bath.pdf}
+\vspace*{20pt}
+\includegraphics[width=0.75\textwidth]{./figures/cluster-bath.pdf}
 \end{frame}
 
 \begin{frame}[noframenumbering]{The present method}
 \centering
-\begin{itemize}[<+->]
-\item \focus{Choose an auxiliary model} \(H_\text{aux}\) consisting of a correlated impurity interacting with a minimally correlated bath
-\item \focus{Solve} this impurity model \(H_\text{aux}\) using the unitary RG
-\item Create a \focus{bulk lattice model} \(H_\text{bulk}\) from this auxiliary model \(H_\text{aux}\) by applying translation operators on the latter
-\item The relation hence obtained between the impurity and bulk models then allows us to \focus{relate the physics} of the two.
+\begin{itemize}
+\only<1->{\item \focus{Choose an auxiliary model} \(H_\text{aux}\) consisting of a correlated impurity interacting with a minimally correlated bath}
+
+\only<1->{
+\includegraphics[height=0.4\textheight]{./figures/gen_siam.pdf}
+}
+
+\only<2->{\item \focus{Solve} this impurity model \(H_\text{aux}\) using the unitary RG}
+\only<3->{\item Create a \focus{bulk lattice model} \(H_\text{bulk}\) from this auxiliary model \(H_\text{aux}\) by applying translation operators on the latter}
+\only<4->{\item The relation hence obtained between the impurity and bulk models then allows us to \focus{relate the physics} of the two.}
 \end{itemize}
 
-\only<1>{
-\includegraphics[height=0.4\textheight]{./figures/gen_siam.pdf}}
 \end{frame}
 
 \section{The Tiling Process}
@@ -634,11 +713,11 @@ where
 			\[d^p_m = \bra{\Phi_m}c^\dagger_{d\sigma}\ket{\Phi_0} \to d^h_m = \bra{\Phi_m}c_{d\sigma}\ket{\Phi_0}\]
 	\end{itemize} 
 The corresponding relations are
-\[\left(\mathcal{G}^{-1}_{H-H}(-\omega)\right)^h_{ii} = \sum_{n} |d^h_n|^2 \left(\mathcal{G}^{-1}_\text{aux}(d, -\omega)\right)_{nn}\]
-\[\left(\mathcal{G}^{-1}_{H-H}\left(-\omega\right) \right)^h_{i,i+1} = \frac{1}{w} \sum_n \left(d^h_n\right)^* z^h_n \left(\mathcal{G}^{-1}_\text{aux}(d, -\omega) \right)_{nn}\]
+\[\left(\mathcal{G}^{-1}_{H-H}(-\omega)\right)^h_{ii} = \sum_{m} |d^h_m|^2 \left(\mathcal{G}^{-1}_\text{aux}(d, -\omega)\right)_{mm}\]
+\[\left(\mathcal{G}^{-1}_{H-H}\left(-\omega\right) \right)^h_{i,i+1} = \frac{1}{w} \sum_m \left(d^h_m\right)^* z^h_m \left(\mathcal{G}^{-1}_\text{aux}(d, -\omega) \right)_{mm}\]
 \end{frame}
 
-\begin{frame}[noframenumbering]{Summary}
+\begin{frame}[noframenumbering]{What's been achieved?}
 	\begin{itemize}
 	\item We have expressed matrix elements of the bulk in terms of those of the auxiliary model
 	\item The spectral representation allows the right-hand side to have only diagonal matrix elements
@@ -647,13 +726,20 @@ The corresponding relations are
 \end{frame}
 
 \begin{frame}[noframenumbering]{Inversion and single-particle Greens functions}
-	Since \(\mathcal{G}^{-1}_\text{aux}(d, -\omega)\) is diagonal in the basis of \(\ket{\Phi_n}\), we can simply write
-	\[\left(\mathcal{G}^{-1}_{H-H}(\omega)\right)^p_{ii} = \sum_{m} |d^p_m|^2 \left(\mathcal{G}^{-1}_\text{aux}(d, \omega)\right)_{mm} \implies \left(\mathcal{G}_{H-H}(\omega)\right)^p_{ii} = \sum_{n} |d^p_n|^2 \left(\mathcal{G}_\text{aux}(d, \omega)\right)_{nn}\]
+\only<1>{
+	Since \(\mathcal{G}^{-1}_\text{aux}(d, -\omega)\) is diagonal in the basis of \(\ket{\Phi_m}\), we can simply write
+	\[\left(\mathcal{G}^{-1}_{H-H}(\omega)\right)^p_{ii} = \sum_{m} |d^p_m|^2 \left(\mathcal{G}^{-1}_\text{aux}(d, \omega)\right)_{mm} \implies \left(\mathcal{G}_{H-H}(\omega)\right)^p_{ii} = \sum_{m} |d^p_m|^2 \left(\mathcal{G}_\text{aux}(d, \omega)\right)_{mm}\]
 The Greens function can be related to the Greens operator:
 \[G({i}, j, \omega) = \bra{{i}} \mathcal{G}(\omega, H) \ket{j} - \bra{\tilde{j}} \mathcal{G}(-\omega, H) \ket{\tilde{i}}\]
+}
+
+\only<2>{
 Using this, we can finally write down the Greens functions:
-\[\left(G_{H-H}(\omega)\right)_\text{loc} = \sum_n \left[|d^p_n|^2 \left(\mathcal{G}_\text{aux}(d, \omega)\right)_{nn} - |d^h_n|^2 \left(\mathcal{G}_\text{aux}(d, -\omega)\right)_{nn}\right]\]
-\[\left(G_{H-H}(\omega)\right)_\text{n-n} = \frac{1}{w}\sum_n \left[\left(d^p_n\right)^* z^p_n \left(\mathcal{G}_\text{aux}(d, \omega) \right)_{nn} - \left(z^h_n\right)^* d^h_n \left(\mathcal{G}_\text{aux}(d, -\omega)\right)_{nn}\right]\]
+\[\left(G_{H-H}(\omega)\right)_\text{loc} = \sum_m \left[|d^p_m|^2 \left(\mathcal{G}_\text{aux}(d, \omega)\right)_{mm} - |d^h_m|^2 \left(\mathcal{G}_\text{aux}(d, -\omega)\right)_{mm}\right]\]
+\[\left(G_{H-H}(\omega)\right)_\text{n-n} = \frac{1}{w}\sum_m \left[\left(d^p_m\right)^* z^p_m \left(\mathcal{G}_\text{aux}(d, \omega) \right)_{mm} - \left(z^h_m\right)^* d^h_m \left(\mathcal{G}_\text{aux}(d, -\omega)\right)_{mm}\right]\]
+
+\(\left(G_{H-H}(\omega)\right)_\text{n-n}\) vanishes on a \focus{Bethe lattice} with infinite coordination number \((w \to \infty)\)
+}
 \end{frame}
 
 \begin{frame}[noframenumbering]{\(k-\)space Greens function, spectral function and self-energy}
@@ -669,29 +755,40 @@ From Dyson's equation, we get \focus{self-energy}:
 \label{mit}
 
 \begin{frame}[noframenumbering]{Evidence for Mott MIT}
-\begin{itemize}[<+->]
-	\item \focus{one-to-one mapping} between Greens functions of the bulk and the auxiliary models
-	\item low energy resonance in the impurity excitations implies \focus{propagation} of $e^{-}$s across lattice
-	\item gap in the impurity excitations implies $e^{-}$s are "stuck" and \focus{spectral flow is not possible}
-	\item Constraining \(U_b\) to, say, \(-U/10\), we get a critical ratio:
-		\[\frac{U_\text{H-H}^*}{J^*_\text{H-H}} = \frac{w}{4}\left(\frac{U^*}{J^*} - \frac{1}{2}\right) = 2\]
-		where we used \(w=4\) for a  2D square lattice.
-\end{itemize}
-\vspace*{-40pt}
-\only<1>{
 \centering
+
+\only<1>{\focus{one-to-one mapping} between Greens functions of the bulk and the auxiliary models, as well as spectral functions
+\[A_{H-H} (\vec k, \omega) = A_\text{aux}(dd, \omega) + \frac{\xi_{\vec k}}{w}A_\text{aux}(d0, \omega)\]
+
+\vspace*{10pt}
+
+{\bf \hspace*{\fill} metal \hspace*{\fill} critical point \hspace*{\fill} insulator \hspace*{\fill}
+
 \includegraphics[height=0.24\textwidth]{./figures/spec_func_Ub_by_J=-0.100.pdf}
 \includegraphics[height=0.24\textwidth]{./figures/spec_func_Ub_by_J=-0.250.pdf}
 \includegraphics[height=0.24\textwidth]{./figures/spec_func_Ub_by_J=-0.26.pdf}
 }
+}
+
 \only<2>{
-\centering
+	low energy resonance in the impurity excitations implies \focus{propagation} of $e^{-}$s across lattice
+
+\vspace*{10pt}
 \includegraphics[height=0.25\textheight]{./figures/metal_prop.pdf}
 }
+
 \only<3>{
-\centering
+gap in the impurity excitations implies $e^{-}$s are "stuck" and \focus{spectral flow is not possible}
+
+\vspace*{10pt}
 \includegraphics[height=0.25\textheight]{./figures/ins_prop.pdf}
 }
+
+\only<4>{
+Choosing \(U_b = -U/10\) and setting \(w=4\) for 2D square lattice, we get a critical ratio:
+	\[\frac{U_\text{H-H}^*}{J^*_\text{H-H}} = \frac{w}{4}\left(\frac{U^*}{J^*} - \frac{1}{2}\right) = 2\]
+}
+
 \end{frame}
 
 \section{Final Remarks}
@@ -699,9 +796,9 @@ From Dyson's equation, we get \focus{self-energy}:
 
 \begin{frame}[noframenumbering]{Conclusions}
 	\begin{itemize}[<+->]
-		\item The auxiliary model method described here provides a \focus{constructionist} approach to studying systems of strong correlations
+		\item The auxiliary model method described here provides a \focus{constructionist}/bottoms-up approach to studying systems of strong correlations
 		\item \focus{Minimal attractive interaction} on bath leads to a metal-insulator transition in the Hubbard-Heisenberg model
-		\item The transition derives from a competition between \focus{Kondo} spin-flip physics and the physics of \focus{pairing} instability.
+		\item The transition derives from a competition between \focus{Kondo} spin-flip physics and the physics of \focus{pairing} tendency on the partner site.
 \end{itemize}
 \end{frame}
 
@@ -711,7 +808,11 @@ From Dyson's equation, we get \focus{self-energy}:
 	\item Breaking particle-hole symmetry on the impurity will allow us to study bulk models \focus{away from half-filling}.
 	\item For more accurate results, one can consider \focus{multiple impurities} in the cluster.
 \end{itemize}
-\only<3>{\centering\includegraphics[height=0.3\textheight]{./figures/dimer_dispersion.pdf}}
+\only<3>{\centering
+\includegraphics[height=0.2\textheight]{./figures/dimer_dispersion.pdf}
+
+\includegraphics[height=0.25\textheight]{./figures/ins_prop_cluster.pdf}
+}
 \end{frame}
 
 \section{Thank you.}

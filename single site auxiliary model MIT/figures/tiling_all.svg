@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="450.12524mm"
-   height="170.75mm"
-   viewBox="0 0 450.12523 170.75001"
+   width="544.09668mm"
+   height="137.7171mm"
+   viewBox="0 0 544.09666 137.71711"
    version="1.1"
    id="svg5"
    sodipodi:docname="tiling_all.svg"
@@ -27,13 +27,13 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:snap-object-midpoints="true"
-     inkscape:zoom="0.79877151"
-     inkscape:cx="652.25161"
-     inkscape:cy="445.6844"
-     inkscape:window-width="1916"
-     inkscape:window-height="1052"
+     inkscape:zoom="0.39938576"
+     inkscape:cx="887.61303"
+     inkscape:cy="155.23839"
+     inkscape:window-width="1024"
+     inkscape:window-height="736"
      inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:window-y="32"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:snap-grids="true"
@@ -45,12 +45,22 @@
        id="grid824"
        enabled="true"
        empspacing="150"
-       originx="-51.737525"
-       originy="-416.35175"
+       originx="-51.737511"
+       originy="-617.19319"
        dotted="false" />
   </sodipodi:namedview>
   <defs
      id="defs2">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect11141"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect10908"
+       is_visible="true"
+       lpeversion="1" />
     <marker
        style="overflow:visible"
        id="Arrow2Lend"
@@ -1553,204 +1563,124 @@
            id="id-1f892709-c691-4709-bcf5-5863b9dd023a-7" />
       </symbol>
     </g>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect10908-0"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect11141-2"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect11141-1"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect11141-2-8"
+       is_visible="true"
+       lpeversion="1" />
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-51.737648,-416.3512)">
+     transform="translate(-51.73764,-617.1925)">
     <rect
-       style="fill:none;fill-opacity:1;stroke:#000005;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect50328"
-       width="95.916588"
+       style="fill:none;fill-opacity:1;stroke:#000005;stroke-width:1.10433;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect50328-7"
+       width="116.97498"
        height="95.916573"
-       x="89.349693"
-       y="453.76791" />
+       x="88.130714"
+       y="637.90857" />
     <rect
-       style="fill:none;fill-opacity:1;stroke:#000005;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect50328-0"
-       width="95.916588"
+       style="fill:none;fill-opacity:1;stroke:#000005;stroke-width:1.10433;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect50328-7-5"
+       width="116.97498"
        height="95.916573"
-       x="208.99818"
-       y="453.52573" />
+       x="265.79968"
+       y="638.00073" />
     <rect
-       style="fill:none;fill-opacity:1;stroke:#000005;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect50328-13"
-       width="95.916588"
+       style="fill:none;fill-opacity:1;stroke:#000005;stroke-width:1.10433;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect50328-7-5-3"
+       width="116.97498"
        height="95.916573"
-       x="368.13885"
-       y="453.52573" />
+       x="443.56073"
+       y="638.18488" />
     <path
        style="fill:#ff2b00;fill-opacity:1;stroke:#fc1b00;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 137.30797,541.4137 c 10e-6,-39.6875 10e-6,-39.6875 10e-6,-39.6875"
-       id="path25482-9-1-7" />
+       d="m 146.61821,725.55436 c 1e-5,-39.6875 1e-5,-39.6875 1e-5,-39.6875"
+       id="path25482-9-1-7-8" />
     <path
        style="fill:#ff2b00;fill-opacity:1;stroke:#fc1b00;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 137.30797,501.7262 c 10e-6,-39.6875 10e-6,-39.6875 10e-6,-39.6875"
-       id="path25482-9-1-3-4" />
+       d="m 146.61821,685.86686 c 1e-5,-39.6875 1e-5,-39.6875 1e-5,-39.6875"
+       id="path25482-9-1-3-4-8" />
     <path
        style="fill:#ff2b00;fill-opacity:1;stroke:#fc1b00;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 217.269,501.48401 c 39.68749,0 39.68749,0 39.68749,0"
-       id="path25482-9-1-77" />
-    <circle
-       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.281302;stroke-miterlimit:4;stroke-dasharray:0.562606, 0.562606;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-06-9-34"
-       cx="217.26901"
-       cy="501.48401"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3"
-       cx="97.620491"
-       cy="462.0387"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-2"
-       cx="97.620491"
-       cy="501.7262"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-9"
-       cx="97.620491"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.281302;stroke-miterlimit:4;stroke-dasharray:0.562606, 0.562606;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-06-9-6-3-2"
-       cx="137.30798"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-27"
-       cx="176.99548"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-0"
-       cx="176.99548"
-       cy="501.7262"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-93"
-       cx="176.99548"
-       cy="462.0387"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.281302;stroke-miterlimit:4;stroke-dasharray:0.562606, 0.562606;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-06-9-6"
-       cx="137.30798"
-       cy="462.0387"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.281302;stroke-miterlimit:4;stroke-dasharray:0.562606, 0.562606;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-06-9-6-3"
-       cx="176.99548"
-       cy="501.7262"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
+       d="m 106.93073,685.86686 c 39.68749,0 39.68749,0 39.68749,0"
+       id="path25482-9-1-8" />
     <path
        style="fill:#ff2b00;fill-opacity:1;stroke:#fc1b00;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 97.620488,501.7262 c 39.687492,0 39.687492,0 39.687492,0"
-       id="path25482-9-1" />
-    <path
-       style="fill:#ff2b00;fill-opacity:1;stroke:#fc1b00;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 137.30799,501.7262 c 39.68749,0 39.68749,0 39.68749,0"
-       id="path25482-9-1-3" />
+       d="m 146.61823,685.86686 c 39.68749,0 39.68749,0 39.68749,0"
+       id="path25482-9-1-3-9" />
     <circle
        style="fill:#ff2b00;fill-opacity:1;stroke:none;stroke-width:0.325941;stroke-miterlimit:4;stroke-dasharray:0.651883, 0.651883;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-06"
-       cx="137.30798"
-       cy="501.7262"
+       id="path1623-3-06-7"
+       cx="146.61823"
+       cy="685.86682"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        r="6" />
+    <path
+       style="fill:#ff2b00;fill-opacity:1;stroke:#fc1b00;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 324.28717,725.64651 c 10e-6,-39.6875 10e-6,-39.6875 10e-6,-39.6875"
+       id="path25482-9-1-7-7" />
+    <path
+       style="fill:#ff2b00;fill-opacity:1;stroke:#fc1b00;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 324.28717,685.95901 c 10e-6,-39.6875 10e-6,-39.6875 10e-6,-39.6875"
+       id="path25482-9-1-3-4-6" />
+    <path
+       style="fill:#ff2b00;fill-opacity:1;stroke:#fc1b00;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 284.59969,685.95901 c 39.68749,0 39.68749,0 39.68749,0"
+       id="path25482-9-1-4" />
+    <path
+       style="fill:#ff2b00;fill-opacity:1;stroke:#fc1b00;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 324.28719,685.95901 c 39.68749,0 39.68749,0 39.68749,0"
+       id="path25482-9-1-3-3" />
     <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-3-2"
-       cx="97.42514"
-       cy="-580.85901"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       transform="scale(1,-1)"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-1-9"
-       cx="176.99548"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-0-6"
-       cx="97.42514"
-       cy="-580.85901"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       transform="scale(1,-1)"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-27-7"
-       cx="216.68298"
-       cy="541.4137"
+       style="fill:#ff2b00;fill-opacity:1;stroke:none;stroke-width:0.325941;stroke-miterlimit:4;stroke-dasharray:0.651883, 0.651883;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-06-0"
+       cx="324.28717"
+       cy="685.95905"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        r="6" />
+    <path
+       style="fill:#ff2b00;fill-opacity:1;stroke:#fc1b00;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 502.0482,725.83066 c 10e-6,-39.6875 10e-6,-39.6875 10e-6,-39.6875"
+       id="path25482-9-1-7-3" />
+    <path
+       style="fill:#ff2b00;fill-opacity:1;stroke:#fc1b00;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 502.0482,686.14316 c 10e-6,-39.6875 10e-6,-39.6875 10e-6,-39.6875"
+       id="path25482-9-1-3-4-0" />
+    <path
+       style="fill:#ff2b00;fill-opacity:1;stroke:#fc1b00;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 462.36072,686.14316 c 39.68749,0 39.68749,0 39.68749,0"
+       id="path25482-9-1-9" />
+    <path
+       style="fill:#ff2b00;fill-opacity:1;stroke:#fc1b00;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 502.04822,686.14316 c 39.68749,0 39.68749,0 39.68749,0"
+       id="path25482-9-1-3-2" />
     <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-93-6"
-       cx="216.68298"
-       cy="462.0387"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-1"
-       cx="176.99548"
-       cy="462.0387"
+       style="fill:#ff2b00;fill-opacity:1;stroke:none;stroke-width:0.325941;stroke-miterlimit:4;stroke-dasharray:0.651883, 0.651883;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-06-5"
+       cx="502.04822"
+       cy="686.14319"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
@@ -1800,84 +1730,30 @@
       </g>
     </g>
     <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254"
-       cx="97.620491"
-       cy="462.0387"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25256"
-       cx="97.620491"
-       cy="501.7262"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-20-7-1"
+       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-2"
        cx="57.737659"
-       cy="-580.85901"
+       cy="-623.1925"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        transform="scale(1,-1)"
        r="6" />
     <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25258"
-       cx="97.620491"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-20"
-       cx="57.932999"
-       cy="462.0387"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-2-2"
-       cx="57.932999"
-       cy="501.7262"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
        style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-8-0"
-       cx="97.42514"
-       cy="-580.85901"
+       id="path1623-3-6-5-8-0-3"
+       cx="102.22397"
+       cy="-623.28461"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        transform="scale(1,-1)"
        r="6" />
     <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-9-3"
-       cx="57.932999"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
        style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-2-6-6"
+       id="path1623-3-6-5-8-0-7"
        cx="57.737659"
-       cy="-580.85901"
+       cy="-654.66779"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
@@ -1885,164 +1761,9 @@
        r="6" />
     <circle
        style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-1-7"
-       cx="97.620491"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5"
-       cx="97.620491"
-       cy="462.0387"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-2"
-       cx="57.932999"
-       cy="462.0387"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-3"
-       cx="97.425133"
-       cy="422.59338"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-0"
-       cx="97.425133"
-       cy="422.59338"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-20-7"
-       cx="57.737648"
-       cy="422.59338"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-8"
-       cx="97.425133"
-       cy="422.59338"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-2-6"
-       cx="57.737648"
-       cy="422.59338"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-8"
-       cx="216.87833"
-       cy="422.59338"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-8"
-       cx="216.87833"
-       cy="422.59338"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-20-4"
-       cx="177.19083"
-       cy="422.59338"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-3"
-       cx="216.87833"
-       cy="422.59338"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-2-1"
-       cx="177.19083"
-       cy="422.59338"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25256-2"
-       cx="57.932999"
-       cy="501.7262"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25256-2-4"
-       cx="137.30798"
-       cy="422.59338"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-8-1"
-       cx="176.99551"
-       cy="-541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       transform="scale(1,-1)"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-8-5"
-       cx="176.99551"
-       cy="-541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       transform="scale(1,-1)"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-20-4-9"
-       cx="177.19083"
-       cy="-580.85901"
+       id="path1623-3-6-5-8-0-59"
+       cx="102.22397"
+       cy="-654.57574"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
@@ -2050,9 +1771,9 @@
        r="6" />
     <circle
        style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-3-4"
-       cx="176.99551"
-       cy="-541.4137"
+       id="path1623-3-6-5-8-0-2-1"
+       cx="146.61819"
+       cy="-623.28461"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
@@ -2060,9 +1781,29 @@
        r="6" />
     <circle
        style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-2-1-9"
-       cx="177.19083"
-       cy="-580.85901"
+       id="path1623-3-6-5-8-0-3-0"
+       cx="191.10451"
+       cy="-623.37671"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       r="6" />
+    <circle
+       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-7-6"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       cx="146.61819"
+       cy="-654.23071"
+       r="8" />
+    <circle
+       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-59-3"
+       cx="191.10451"
+       cy="-654.66785"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
@@ -2070,9 +1811,9 @@
        r="6" />
     <circle
        style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25256-2-4-0"
-       cx="137.30798"
-       cy="-580.85901"
+       id="path1623-3-6-5-8-0-2-6"
+       cx="235.49875"
+       cy="-623.37671"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
@@ -2080,346 +1821,9 @@
        r="6" />
     <circle
        style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25258-8"
-       cx="57.932999"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.281302;stroke-miterlimit:4;stroke-dasharray:0.562606, 0.562606;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-06-9"
-       cx="97.620491"
-       cy="501.7262"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-1"
-       cx="217.0737"
-       cy="580.85901"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-93-9"
-       cx="296.44867"
-       cy="580.85901"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.281302;stroke-miterlimit:4;stroke-dasharray:0.562606, 0.562606;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-06-9-6-6"
-       cx="256.76117"
-       cy="580.85901"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-93-6-4"
-       cx="336.13617"
-       cy="580.85901"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-1-8"
-       cx="296.44867"
-       cy="580.85901"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-1"
-       cx="217.0737"
-       cy="580.85901"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-20-44"
-       cx="177.3862"
-       cy="580.85901"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-1"
-       cx="217.0737"
-       cy="580.85901"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-2-7"
-       cx="177.3862"
-       cy="580.85901"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-3-5"
-       cx="216.87833"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-0-9"
-       cx="216.87833"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-20-7-6"
-       cx="177.19084"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-8-2"
-       cx="216.87833"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-2-6-1"
-       cx="177.19084"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <path
-       style="fill:#ff2b00;fill-opacity:1;stroke:#fc1b00;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 256.95648,541.17151 c 10e-6,-39.6875 10e-6,-39.6875 10e-6,-39.6875"
-       id="path25482-9-1-7-1" />
-    <path
-       style="fill:#ff2b00;fill-opacity:1;stroke:#fc1b00;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 256.95648,501.48401 c 10e-6,-39.6875 10e-6,-39.6875 10e-6,-39.6875"
-       id="path25482-9-1-3-4-3" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-30"
-       cx="217.26901"
-       cy="461.79651"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-9-92"
-       cx="217.26901"
-       cy="541.17151"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.281302;stroke-miterlimit:4;stroke-dasharray:0.562606, 0.562606;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-06-9-6-3-2-4"
-       cx="256.95648"
-       cy="541.17151"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-27-59"
-       cx="296.64398"
-       cy="541.17151"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-0-4"
-       cx="296.64398"
-       cy="501.48401"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-93-69"
-       cx="296.64398"
-       cy="461.79651"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.281302;stroke-miterlimit:4;stroke-dasharray:0.562606, 0.562606;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-06-9-6-2"
-       cx="256.95648"
-       cy="461.79651"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.281302;stroke-miterlimit:4;stroke-dasharray:0.562606, 0.562606;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-06-9-6-3-24"
-       cx="296.64398"
-       cy="501.48401"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <path
-       style="fill:#ff2b00;fill-opacity:1;stroke:#fc1b00;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 256.9565,501.48401 c 39.68749,0 39.68749,0 39.68749,0"
-       id="path25482-9-1-3-54" />
-    <circle
-       style="fill:#ff2b00;fill-opacity:1;stroke:none;stroke-width:0.325941;stroke-miterlimit:4;stroke-dasharray:0.651883, 0.651883;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-06-8"
-       cx="256.95648"
-       cy="501.48401"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-1-9-8"
-       cx="296.64398"
-       cy="541.17151"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-27-7-3"
-       cx="336.33148"
-       cy="541.17151"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-0-3-6"
-       cx="336.33148"
-       cy="501.48401"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-93-6-8"
-       cx="336.33148"
-       cy="461.79651"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-1-0"
-       cx="296.64398"
-       cy="461.79651"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-21"
-       cx="217.26901"
-       cy="461.79651"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25258-1"
-       cx="217.26901"
-       cy="541.17151"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-20-0"
-       cx="177.58151"
-       cy="461.79651"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-2-2-8"
-       cx="177.58151"
-       cy="501.48401"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-8-0-5"
-       cx="217.07364"
-       cy="-580.61682"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       transform="scale(1,-1)"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-9-3-0"
-       cx="177.58151"
-       cy="541.17151"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-2-6-6-64"
-       cx="177.38617"
-       cy="-580.61682"
+       id="path1623-3-6-5-8-0-3-1"
+       cx="279.98505"
+       cy="-623.46881"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
@@ -2427,154 +1831,9 @@
        r="6" />
     <circle
        style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-1-7-6"
-       cx="217.26901"
-       cy="541.17151"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-2"
-       cx="217.26901"
-       cy="461.79651"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-2-5"
-       cx="177.58151"
-       cy="461.79651"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-3-8"
-       cx="217.07364"
-       cy="422.3512"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-0-62"
-       cx="217.07364"
-       cy="422.3512"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-20-7-8"
-       cx="177.38615"
-       cy="422.3512"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-8-4"
-       cx="217.07364"
-       cy="422.3512"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-2-6-7"
-       cx="177.38615"
-       cy="422.3512"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-8-2"
-       cx="336.52682"
-       cy="422.3512"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-8-4"
-       cx="336.52682"
-       cy="422.3512"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-20-4-0"
-       cx="296.83932"
-       cy="422.3512"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-3-6"
-       cx="336.52682"
-       cy="422.3512"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-2-1-2"
-       cx="296.83932"
-       cy="422.3512"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25256-2-9"
-       cx="177.58151"
-       cy="501.48401"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25256-2-4-9"
-       cx="256.95648"
-       cy="422.3512"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-8-1-0"
-       cx="296.64401"
-       cy="-541.17151"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       transform="scale(1,-1)"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-8-5-8"
-       cx="296.64401"
-       cy="-541.17151"
+       id="path1623-3-6-5-8-0-7-5"
+       cx="235.49875"
+       cy="-654.85199"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
@@ -2582,9 +1841,9 @@
        r="6" />
     <circle
        style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-3-4-3"
-       cx="296.64401"
-       cy="-541.17151"
+       id="path1623-3-6-5-8-0-59-5"
+       cx="279.98505"
+       cy="-654.75995"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
@@ -2592,9 +1851,9 @@
        r="6" />
     <circle
        style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-2-1-9-1"
-       cx="296.83932"
-       cy="-580.61682"
+       id="path1623-3-6-5-8-0-2-65"
+       cx="324.2872"
+       cy="-623.37671"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
@@ -2602,9 +1861,29 @@
        r="6" />
     <circle
        style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25256-2-4-0-1"
-       cx="256.95648"
-       cy="-580.61682"
+       id="path1623-3-6-5-8-0-3-6"
+       cx="368.7735"
+       cy="-623.46881"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       r="6" />
+    <circle
+       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-7-9"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       cx="324.2872"
+       cy="-654.32281"
+       r="8" />
+    <circle
+       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-59-37"
+       cx="368.7735"
+       cy="-654.75995"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
@@ -2612,619 +1891,9 @@
        r="6" />
     <circle
        style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25258-8-0"
-       cx="177.58151"
-       cy="541.17151"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-1-9"
-       cx="336.7222"
-       cy="580.61682"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-2-7-3"
-       cx="297.0347"
-       cy="580.61682"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-3-5-3"
-       cx="336.52682"
-       cy="541.17151"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-0-9-8"
-       cx="336.52682"
-       cy="541.17151"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-20-7-6-0"
-       cx="296.83936"
-       cy="541.17151"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-8-2-5"
-       cx="336.52682"
-       cy="541.17151"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-2-6-1-6"
-       cx="296.83936"
-       cy="541.17151"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-13"
-       cx="97.620491"
-       cy="581.1012"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-93-5"
-       cx="176.99548"
-       cy="581.1012"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-1-2-8"
-       cx="137.30798"
-       cy="581.1012"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-93-6-42"
-       cx="216.68298"
-       cy="581.1012"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-1-2"
-       cx="176.99548"
-       cy="581.1012"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-20"
-       cx="97.620491"
-       cy="581.1012"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-20-9"
-       cx="57.932999"
-       cy="581.1012"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-0"
-       cx="97.620491"
-       cy="581.1012"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-2-4"
-       cx="57.932999"
-       cy="581.1012"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-3-0"
-       cx="97.425133"
-       cy="541.65588"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-0-91"
-       cx="97.425133"
-       cy="541.65588"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-20-7-9"
-       cx="57.737648"
-       cy="541.65588"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-8-6"
-       cx="97.425133"
-       cy="541.65588"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-2-6-2"
-       cx="57.737648"
-       cy="541.65588"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-8-5"
-       cx="216.87833"
-       cy="541.65588"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-8-44"
-       cx="216.87833"
-       cy="541.65588"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-20-4-99"
-       cx="177.19083"
-       cy="541.65588"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-3-3"
-       cx="216.87833"
-       cy="541.65588"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-2-1-6"
-       cx="177.19083"
-       cy="541.65588"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25256-2-4-5"
-       cx="137.30798"
-       cy="541.65588"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-8-7"
-       cx="336.33151"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-8-8"
-       cx="336.33151"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-20-4-5"
-       cx="296.64401"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-3-7"
-       cx="336.33151"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-2-1-4"
-       cx="296.64401"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25256-2-4-8"
-       cx="256.76117"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-27-7-38"
-       cx="375.82367"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <path
-       style="fill:#ff2b00;fill-opacity:1;stroke:#fc1b00;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 376.40967,501.48401 c 39.68749,0 39.68749,0 39.68749,0"
-       id="path25482-9-1-77-3" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-93-6-3"
-       cx="375.82367"
-       cy="462.0387"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-8-3"
-       cx="376.01901"
-       cy="422.59338"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-8-80"
-       cx="376.01901"
-       cy="422.59338"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-3-47"
-       cx="376.01901"
-       cy="422.59338"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-1-6"
-       cx="376.21439"
-       cy="580.85901"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-93-9-8"
-       cx="455.58936"
-       cy="580.85901"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.281302;stroke-miterlimit:4;stroke-dasharray:0.562606, 0.562606;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-06-9-6-6-7"
-       cx="415.90186"
-       cy="580.85901"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-93-6-4-9"
-       cx="495.27686"
-       cy="580.85901"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-1-8-0"
-       cx="455.58936"
-       cy="580.85901"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-1-3"
-       cx="376.21439"
-       cy="580.85901"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-1-3"
-       cx="376.21439"
-       cy="580.85901"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-3-5-37"
-       cx="376.01901"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-0-9-3"
-       cx="376.01901"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-8-2-2"
-       cx="376.01901"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <path
-       style="fill:#ff2b00;fill-opacity:1;stroke:#fc1b00;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 416.09715,541.17151 c 10e-6,-39.6875 10e-6,-39.6875 10e-6,-39.6875"
-       id="path25482-9-1-7-1-6" />
-    <path
-       style="fill:#ff2b00;fill-opacity:1;stroke:#fc1b00;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 416.09715,501.48401 c 10e-6,-39.6875 10e-6,-39.6875 10e-6,-39.6875"
-       id="path25482-9-1-3-4-3-8" />
-    <circle
-       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.281302;stroke-miterlimit:4;stroke-dasharray:0.562606, 0.562606;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-06-9-34-3"
-       cx="376.4097"
-       cy="501.48401"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-30-7"
-       cx="376.4097"
-       cy="461.79651"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-9-92-6"
-       cx="376.4097"
-       cy="541.17151"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.281302;stroke-miterlimit:4;stroke-dasharray:0.562606, 0.562606;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-06-9-6-3-2-4-4"
-       cx="416.09717"
-       cy="541.17151"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-27-59-9"
-       cx="455.78467"
-       cy="541.17151"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-0-4-3"
-       cx="455.78467"
-       cy="501.48401"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-93-69-9"
-       cx="455.78467"
-       cy="461.79651"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.281302;stroke-miterlimit:4;stroke-dasharray:0.562606, 0.562606;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-06-9-6-2-2"
-       cx="416.09717"
-       cy="461.79651"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.281302;stroke-miterlimit:4;stroke-dasharray:0.562606, 0.562606;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-06-9-6-3-24-8"
-       cx="455.78467"
-       cy="501.48401"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <path
-       style="fill:#ff2b00;fill-opacity:1;stroke:#fc1b00;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 416.09717,501.48401 c 39.68749,0 39.68749,0 39.68749,0"
-       id="path25482-9-1-3-54-0" />
-    <circle
-       style="fill:#ff2b00;fill-opacity:1;stroke:none;stroke-width:0.325941;stroke-miterlimit:4;stroke-dasharray:0.651883, 0.651883;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-06-8-1"
-       cx="416.09717"
-       cy="501.48401"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-1-9-8-8"
-       cx="455.78467"
-       cy="541.17151"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-27-7-3-1"
-       cx="495.47217"
-       cy="541.17151"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-0-3-6-5"
-       cx="495.47217"
-       cy="501.48401"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-93-6-8-4"
-       cx="495.47217"
-       cy="461.79651"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-1-0-9"
-       cx="455.78467"
-       cy="461.79651"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-21-2"
-       cx="376.4097"
-       cy="461.79651"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25258-1-7"
-       cx="376.4097"
-       cy="541.17151"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-8-0-5-4"
-       cx="376.21432"
-       cy="-580.61682"
+       id="path1623-3-6-5-8-0-2-5"
+       cx="413.16772"
+       cy="-623.46881"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
@@ -3232,118 +1901,9 @@
        r="6" />
     <circle
        style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-1-7-6-9"
-       cx="376.4097"
-       cy="541.17151"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-2-9"
-       cx="376.4097"
-       cy="461.79651"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-3-8-4"
-       cx="376.21432"
-       cy="422.3512"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-0-62-5"
-       cx="376.21432"
-       cy="422.3512"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-8-4-9"
-       cx="376.21432"
-       cy="422.3512"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-8-2-3"
-       cx="495.66751"
-       cy="422.3512"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-8-4-5"
-       cx="495.66751"
-       cy="422.3512"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-20-4-0-7"
-       cx="455.98001"
-       cy="422.3512"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-3-6-0"
-       cx="495.66751"
-       cy="422.3512"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-2-1-2-8"
-       cx="455.98001"
-       cy="422.3512"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25256-2-4-9-1"
-       cx="416.09717"
-       cy="422.3512"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-8-1-0-9"
-       cx="455.7847"
-       cy="-541.17151"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       transform="scale(1,-1)"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-8-5-8-9"
-       cx="455.7847"
-       cy="-541.17151"
+       id="path1623-3-6-5-8-0-3-4"
+       cx="457.65402"
+       cy="-623.56091"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
@@ -3351,9 +1911,9 @@
        r="6" />
     <circle
        style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-3-4-3-8"
-       cx="455.7847"
-       cy="-541.17151"
+       id="path1623-3-6-5-8-0-7-7"
+       cx="413.16772"
+       cy="-654.94409"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
@@ -3361,9 +1921,9 @@
        r="6" />
     <circle
        style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-2-1-9-1-2"
-       cx="455.98001"
-       cy="-580.61682"
+       id="path1623-3-6-5-8-0-59-4"
+       cx="457.65402"
+       cy="-654.85205"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
@@ -3371,9 +1931,49 @@
        r="6" />
     <circle
        style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25256-2-4-0-1-5"
-       cx="416.09717"
-       cy="-580.61682"
+       id="path1623-3-6-5-8-0-3-4-8"
+       cx="502.04825"
+       cy="-623.56091"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       r="6" />
+    <circle
+       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-59-4-6"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       cx="502.04825"
+       cy="-654.32288"
+       r="8" />
+    <circle
+       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-2-9"
+       cx="57.737656"
+       cy="-685.77478"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       r="6" />
+    <circle
+       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-3-5"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       cx="102.22397"
+       cy="-685.86688"
+       r="8" />
+    <circle
+       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-7-0"
+       cx="57.737656"
+       cy="-717.25006"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
@@ -3381,156 +1981,373 @@
        r="6" />
     <circle
        style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-1-9-1"
-       cx="495.86288"
-       cy="580.61682"
+       id="path1623-3-6-5-8-0-59-48"
+       cx="102.22397"
+       cy="-717.15802"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       r="6" />
+    <circle
+       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-3-0-9"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       cx="191.10451"
+       cy="-685.95898"
+       r="8" />
+    <circle
+       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-7-6-4"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       cx="146.61819"
+       cy="-717.34216"
+       r="8" />
+    <circle
+       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-59-3-9"
+       cx="191.10451"
+       cy="-717.25012"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
        r="6" />
     <circle
        style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-2-7-3-9"
-       cx="456.17538"
-       cy="580.61682"
+       id="path1623-3-6-5-8-0-2-6-1"
+       cx="235.49875"
+       cy="-685.95898"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
        r="6" />
     <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-3-5-3-6"
-       cx="495.66751"
-       cy="541.17151"
+       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-3-1-7"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       r="6" />
+       transform="scale(1,-1)"
+       cx="279.98505"
+       cy="-686.05109"
+       r="8" />
     <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-0-9-8-2"
-       cx="495.66751"
-       cy="541.17151"
+       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-7-5-7"
+       cx="235.49875"
+       cy="-717.43427"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-20-7-6-0-1"
-       cx="455.98004"
-       cy="541.17151"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
        r="6" />
     <circle
        style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-8-2-5-2"
-       cx="495.66751"
-       cy="541.17151"
+       id="path1623-3-6-5-8-0-59-5-1"
+       cx="279.98505"
+       cy="-717.34222"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       r="6" />
+    <circle
+       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-3-6-7"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       cx="368.7735"
+       cy="-686.05109"
+       r="8" />
+    <circle
+       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-7-9-7"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       cx="324.28717"
+       cy="-717.43427"
+       r="8" />
+    <circle
+       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-59-37-6"
+       cx="368.7735"
+       cy="-717.34222"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
        r="6" />
     <circle
        style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-2-6-1-6-0"
-       cx="455.98004"
-       cy="541.17151"
+       id="path1623-3-6-5-8-0-2-5-6"
+       cx="413.16772"
+       cy="-686.05109"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       r="6" />
+    <circle
+       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-3-4-5"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       cx="457.65399"
+       cy="-686.14319"
+       r="8" />
+    <circle
+       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-7-7-6"
+       cx="413.16772"
+       cy="-717.52637"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
        r="6" />
     <circle
        style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-93-6-42-3"
-       cx="375.82367"
-       cy="581.1012"
+       id="path1623-3-6-5-8-0-59-4-3"
+       cx="457.65399"
+       cy="-717.43433"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
        r="6" />
     <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-8-5-1"
-       cx="376.01901"
-       cy="541.65588"
+       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-59-4-6-4"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       r="6" />
+       transform="scale(1,-1)"
+       cx="502.04822"
+       cy="-717.43433"
+       r="8" />
     <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-8-44-1"
-       cx="376.01901"
-       cy="541.65588"
+       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-2-2"
+       cx="57.73764"
+       cy="-748.5412"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
        r="6" />
     <circle
        style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-3-3-9"
-       cx="376.01901"
-       cy="541.65588"
+       id="path1623-3-6-5-8-0-3-9"
+       cx="102.22395"
+       cy="-748.6333"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-8-7-0"
-       cx="495.4722"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-8-8-5"
-       cx="495.4722"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       r="6" />
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-20-4-5-6"
-       cx="455.7847"
-       cy="541.4137"
-       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
        r="6" />
     <circle
        style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="path1623-3-6-5-3-7-7"
-       cx="495.4722"
-       cy="541.4137"
+       id="path1623-3-6-5-8-0-2-1-9"
+       cx="146.61818"
+       cy="-748.6333"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
        r="6" />
     <circle
        style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25254-2-1-4-7"
-       cx="455.7847"
-       cy="541.4137"
+       id="path1623-3-6-5-8-0-3-0-8"
+       cx="191.10449"
+       cy="-748.7254"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
        r="6" />
     <circle
        style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle25256-2-4-8-4"
-       cx="415.90186"
-       cy="541.4137"
+       id="path1623-3-6-5-8-0-2-6-4"
+       cx="235.49873"
+       cy="-748.7254"
        inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       r="6" />
+    <circle
+       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-3-1-4"
+       cx="279.98505"
+       cy="-748.8175"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       r="6" />
+    <circle
+       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-2-65-3"
+       cx="324.28717"
+       cy="-748.7254"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       r="6" />
+    <circle
+       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-3-6-1"
+       cx="368.77347"
+       cy="-748.8175"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       r="6" />
+    <circle
+       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-2-5-1"
+       cx="413.16769"
+       cy="-748.8175"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       r="6" />
+    <circle
+       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-2-5-3"
+       cx="589.83435"
+       cy="-623.56091"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       r="6" />
+    <circle
+       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-7-7-8"
+       cx="589.83435"
+       cy="-655.03619"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       r="6" />
+    <circle
+       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-2-5-6-6"
+       cx="589.83435"
+       cy="-686.14319"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       r="6" />
+    <circle
+       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-7-7-6-0"
+       cx="589.83435"
+       cy="-717.61847"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       r="6" />
+    <circle
+       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-2-5-1-4"
+       cx="589.83435"
+       cy="-748.90961"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       r="6" />
+    <circle
+       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-3-4-7"
+       cx="457.65399"
+       cy="-748.90961"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       r="6" />
+    <circle
+       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-3-4-8-7"
+       cx="502.04822"
+       cy="-748.90961"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       r="6" />
+    <circle
+       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-3-4-8-8"
+       cx="546.4425"
+       cy="-623.56091"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       r="6" />
+    <circle
+       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-59-4-6-3"
+       cx="546.4425"
+       cy="-654.85205"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       r="6" />
+    <circle
+       style="fill:#905b03;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-3-4-8-9-9"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       cx="546.4425"
+       cy="-686.14319"
+       r="8" />
+    <circle
+       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-59-4-6-4-6"
+       cx="546.4425"
+       cy="-717.43433"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
+       r="6" />
+    <circle
+       style="fill:#008663;fill-opacity:1;stroke:none;stroke-width:0.206741;stroke-miterlimit:4;stroke-dasharray:0.413483, 0.413483;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1623-3-6-5-8-0-3-4-8-7-3"
+       cx="546.4425"
+       cy="-748.90961"
+       inkscape:export-filename="/home/abhirup/SIAM-to-Hubbard/lattice.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(1,-1)"
        r="6" />
   </g>
 </svg>
