@@ -44,11 +44,11 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>aux_model.aux</file>
-      <file>aux_model-blx.bib</file>
+      <file>local-mit.aux</file>
+      <file>local-mit-blx.bib</file>
     </provides>
     <requires type="dynamic">
-      <file>aux_model.bbl</file>
+      <file>local-mit.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -68,23 +68,23 @@
     <cmdline>
       <binary>bibtex</binary>
       <option>-min-crossrefs 2</option>
-      <infile>aux_model</infile>
+      <infile>local-mit</infile>
     </cmdline>
     <input>
-      <file>aux_model.aux</file>
+      <file>local-mit.aux</file>
     </input>
     <output>
-      <file>aux_model.bbl</file>
+      <file>local-mit.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>aux_model.bbl</file>
+      <file>local-mit.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>aux_model.aux</file>
-      <file>aux_model-blx.bib</file>
+      <file>local-mit.aux</file>
+      <file>local-mit-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>aux_model.bib</file>
+      <file>local-mit.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

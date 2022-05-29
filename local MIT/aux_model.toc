@@ -1,7 +1,0 @@
-\beamer@sectionintoc {1}{Why another impurity model?}{2}{0}{1}
-\beamer@sectionintoc {2}{Brief Summary of Results}{4}{0}{2}
-\beamer@sectionintoc {3}{Outline}{9}{0}{3}
-\beamer@sectionintoc {4}{The Model}{16}{0}{4}
-\beamer@sectionintoc {5}{The Unitary Renormalization Group Method}{18}{0}{5}
-\beamer@sectionintoc {6}{Final Remarks}{31}{0}{6}
-\beamer@sectionintoc {7}{Thank you.}{38}{0}{7}

@@ -1,0 +1,8 @@
+\beamer@sectionintoc {1}{Why another impurity model?}{2}{0}{1}
+\beamer@sectionintoc {2}{Brief Summary of Results}{5}{0}{2}
+\beamer@sectionintoc {3}{Extending the Anderson impurity model}{7}{0}{3}
+\beamer@sectionintoc {4}{The Unitary RG Method}{9}{0}{4}
+\beamer@sectionintoc {5}{RG Flows \& Phase Diagram}{17}{0}{5}
+\beamer@sectionintoc {6}{Low-energy effective Hamiltonian and the ground state}{21}{0}{6}
+\beamer@sectionintoc {7}{Descriptors of the transition}{26}{0}{7}
+\beamer@sectionintoc {8}{Final Remarks}{36}{0}{8}

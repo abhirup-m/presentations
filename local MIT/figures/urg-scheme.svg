@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="161.99658mm"
+   width="160.81276mm"
    height="78.195427mm"
-   viewBox="0 0 161.99657 78.195426"
+   viewBox="0 0 160.81275 78.195426"
    version="1.1"
    id="svg5"
    sodipodi:docname="urg-scheme.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -27,15 +27,17 @@
      showgrid="false"
      inkscape:snap-midpoints="true"
      inkscape:snap-global="true"
-     inkscape:zoom="0.50511364"
-     inkscape:cx="369.22385"
-     inkscape:cy="287.06412"
-     inkscape:window-width="1024"
-     inkscape:window-height="736"
+     inkscape:zoom="1.2277704"
+     inkscape:cx="318.87069"
+     inkscape:cy="184.88799"
+     inkscape:window-width="1916"
+     inkscape:window-height="1052"
      inkscape:window-x="0"
-     inkscape:window-y="32"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs2">
     <linearGradient
@@ -1063,7 +1065,7 @@
        inkscape:path-effect="#path-effect8129"
        inkscape:original-d="m 36.803306,84.190618 c 3.108389,7.129049 6.216512,14.25789 9.324372,21.386522 3.107856,7.12863 -6.215983,14.25789 -9.324372,21.38652" />
     <rect
-       style="opacity:1;fill:url(#linearGradient20323);fill-opacity:1;stroke:#ffffff;stroke-width:2.36765;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       style="opacity:1;fill:url(#linearGradient20323);fill-opacity:1;stroke:none;stroke-width:2.36765;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect10084"
        width="159.57382"
        height="10.166804"
