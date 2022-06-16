@@ -7,7 +7,7 @@
 
 \setbeamersize{text margin left=5mm,text margin right=5mm} 
 
-\usepackage{amsthm,amsmath,amssymb,braket,fontspec}
+\usepackage{amsthm,amsmath,amssymb,braket,fontspec,unicode-math}
 \usepackage[absolute,overlay]{textpos}
 
 \usetheme[numbering=none,nofirafonts]{focus}
@@ -16,8 +16,9 @@
 \setbeamerfont{footnote}{size=\small}
 \setbeamertemplate{bibliography item}[triangle]
 
-\setmainfont{Fira Sans}
+\setmainfont{FiraCode Nerd Font}
 \setsansfont{Fira Sans}
+\setmathfont{Fira Math}
 \setbeamerfont{title}{size=\LARGE, shape=\scshape}
 \setbeamerfont{author}{size=\large, shape=\scshape}
 \setbeamerfont{institute}{size=\normalsize, shape=\scshape}
@@ -168,6 +169,30 @@
 
 \end{frame}
 
+\section{Reduction to \(1+1-\)D systems}
+
+\begin{frame}{Reduction to \(1+1-\)D systems}
+\vspace*{20pt}
+	\only<1>{In presence of flux: ~ ~ ~{\Large\(\mathcal{L} = \int dx dy ~ ~ ~\overline\Psi(x) \left(i\gamma_\mu + eA_\mu\right)\partial_\mu \Psi(x)\)}\\[20pt]
+	Periodic boundary conditions along \(\vec x\): ~ ~ ~ {\Large \(k_x^n = \frac{2\pi n }{L_x},~ ~ n \in \mathbb{Z} \)}\\[20pt]
+	Introduce Fourier modes: ~ ~ ~ {\Large \(\Psi(x) = \sum_{n=-\infty}^\infty e^{i x k_x^n}\Psi(k_x^n)\)}
+}
+\only<2>{
+Decouples into \(1D\) modes: ~ ~ {\Large \(\mathcal{L}=\sum_{n} \int dy ~ \overline\Psi(k_x,y) \left(i\gamma_\mu \partial_\mu - M\right) \Psi(k_x, y)\)}\\
+
+\vspace*{20pt}
+
+\includegraphics[width=0.7\textwidth]{figures/dim-reduc.pdf}
+}
+\only<3>{
+	\(2D\) system is described by sum over \(1D\) modes.\\[10pt]
+	{\LARGE\(\downarrow\)}\\[10pt]
+	Modes do not couple - no inter-mode entanglement.\\[10pt]
+	{\LARGE\(\downarrow\)}\\[10pt]
+Total entanglement is sum of each part: ~ {\Large\(S = \sum_n S_n\)}\\[10pt]
+\[S_n(\phi) =- c \ln \left(\epsilon \frac{2\pi |n+\phi|}{L_x}\right) \]
+}
+\end{frame}
 
 \begin{frame}[allowframebreaks]{References}
 \printbibliography
