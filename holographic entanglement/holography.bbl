@@ -16,5 +16,40 @@
   {}
 \endgroup
 
-\datalist[entry]{nyt/global//global/global}\enddatalist
+\datalist[entry]{nyt/global//global/global}
+  \entry{calabrese2004}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CP}{%
+         family={Calabrese},
+         familyi={C\bibinitperiod},
+         given={Pasquale},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Cardy},
+         familyi={C\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{CP+1}
+    \strng{fullhash}{CPCJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{number}{06}
+    \field{pages}{P06002}
+    \field{title}{Entanglement entropy and quantum field theory}
+    \field{volume}{2004}
+    \field{journaltitle}{Journal of Statistical Mechanics: Theory and
+  Experiment}
+    \field{year}{2004}
+  \endentry
+\enddatalist
 \endinput

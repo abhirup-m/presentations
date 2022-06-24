@@ -19,6 +19,7 @@
 \setmainfont{FiraCode Nerd Font}
 \setsansfont{Fira Sans}
 \setmathfont{Fira Math}
+\setmathfont{Latin Modern Math}[range={frak,\bigcap,\bigcup}]
 \setbeamerfont{title}{size=\LARGE, shape=\scshape}
 \setbeamerfont{author}{size=\large, shape=\scshape}
 \setbeamerfont{institute}{size=\normalsize, shape=\scshape}
@@ -29,7 +30,7 @@
 \bibliography{bib}
 \AtBeginBibliography{\scriptsize}
 
-\newcommand{\focus}[1]{\textcolor{red}{#1}}
+\newcommand{\focus}[1]{\textcolor{red}{\bf{#1}}}
 
 \definecolor{red}{HTML}{CC0000}
 \setbeamertemplate{bibliography item}[triangle]
@@ -129,16 +130,6 @@
 
 	\begin{minipage}{0.6\textwidth}
 		\vspace{15pt}
-	\(1D\)-line of massless fermions: \(~ ~ ~ ~ \frac{1}{3} \ln \left( \frac{2L}{\pi a} \sin \frac{\pi l}{L}\right) \)
-		\vspace{15pt}
-	\end{minipage}
-	\begin{minipage}{0.39\textwidth}
-		\centering
-		\includegraphics[width=\textwidth]{figures/open.pdf}
-	\end{minipage}
-
-	\begin{minipage}{0.6\textwidth}
-		\vspace{15pt}
 	\(1D\)-line of relativistic fermions: \(~ ~ ~ ~ -\frac{1}{3} \ln \left( m a\right) \)
 		\vspace{15pt}
 	\end{minipage}
@@ -155,6 +146,7 @@
 		\centering
 		\includegraphics[width=0.5\textwidth]{figures/torus-EE.pdf}
 	\end{minipage}
+	\footcite{calabrese2004}
 \end{frame}
 
 \section{What are we going after?}
@@ -178,10 +170,9 @@
 	Introduce Fourier modes: ~ ~ ~ {\Large \(\Psi(x) = \sum_{n=-\infty}^\infty e^{i x k_x^n}\Psi(k_x^n)\)}
 }
 \only<2>{
-Decouples into \(1D\) modes: ~ ~ {\Large \(\mathcal{L}=\sum_{n} \int dy ~ \overline\Psi(k_x,y) \left(i\gamma_\mu \partial_\mu - M\right) \Psi(k_x, y)\)}\\
-
-\vspace*{20pt}
-
+	\vspace*{-15pt}
+	Decouples into massive \(1D\) modes: ~ ~ {\large \(\mathcal{L}=\sum_{n} \int dy ~ \overline\Psi(k_x,y) \left(i\gamma_\mu \partial_\mu - M\right) \Psi(k_x, y)\)}\\[10pt]
+Mass of each mode: ~ ~ {\(M(n,\phi) = \frac{2\pi}{L_x}|n + \phi|\)}\\[10pt]
 \includegraphics[width=0.7\textwidth]{figures/dim-reduc.pdf}
 }
 \only<3>{
@@ -190,8 +181,212 @@ Decouples into \(1D\) modes: ~ ~ {\Large \(\mathcal{L}=\sum_{n} \int dy ~ \overl
 	Modes do not couple - no inter-mode entanglement.\\[10pt]
 	{\LARGE\(\downarrow\)}\\[10pt]
 Total entanglement is sum of each part: ~ {\Large\(S = \sum_n S_n\)}\\[10pt]
-\[S_n(\phi) =- c \ln \left(\epsilon \frac{2\pi |n+\phi|}{L_x}\right) \]
+\[S_n(\phi) = \underbrace{c \log \left(\alpha L_x\right)}_\text{modified area law} - \underbrace{c \log |n + \phi|}_\text{mass correction} \]
 }
+\end{frame}
+
+\section{Entanglement hierarchy in mixed momentum and real space}
+
+\begin{frame}{Creating subsystems}
+	\[k_x^n = \frac{2\pi }{L_x} n,~ ~ n \in \mathbb{Z};~~~ \text{define \focus{distance}} = \Delta n = 1\]
+	\focus{Simplest} choice: the entire set
+	\[\text{distance} = 1 \longrightarrow n \in \left\{-N,-(N-1),-(N-2),\ldots,-1,0,1,\ldots,N-2,N-1,N\right\} \]
+	\focus{Coarser} choices: increase distance
+	\[\text{distance} = 2 \longrightarrow n \in \left\{-N,-(N-2),-(N-4),\ldots,-2,0,2,\ldots,N-4,N-2,N\right\} \]
+	\[\text{distance} = 4 \longrightarrow n \in \left\{-N,-(N-4),-(N-8),\ldots,-4,0,4,\ldots,N-8,N-4,N\right\} \]
+	\centering
+	\vspace*{\fill}
+	\includegraphics[width=0.4\textwidth]{figures/A_mi.pdf}
+\end{frame}
+
+\begin{frame}{Sequence of subsystems}
+	Define \focus{sequence} of subsystems\\[10pt]
+{\large \(~ ~ \mathcal{A}_{z}(j): ~ ~ t_z(j) = 2^{j^z}\)}
+\[\text{sequence index:}~ ~ ~ j = 0,1,2,\ldots\]
+\[\text{strength of coarse/fine-graining:}~ ~ ~ z = \pm 1,\pm 2,\pm 3,\ldots\]
+\begin{minipage}{0.48\textwidth}
+\centering
+\[ z = 1\]
+\includegraphics[width=0.99\textwidth]{./figures/coarse-graining.pdf}
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.49\textwidth}
+\centering
+\[ z = -1\]
+\includegraphics[width=0.99\textwidth]{./figures/fine-graining.pdf}
+\end{minipage}
+\end{frame}
+
+\begin{frame}{The sequence as a renormalisation group flow}
+	Sequence of Hamiltonians {\LARGE \(\longleftrightarrow\)} \focus{renormalisation} group flow\\[10pt]
+	RG \(\longrightarrow\) transformation of Hamiltonian via change of scale\\
+	\[\text{Superset of all members:}~ ~ ~ \mathcal{A}_z^{(0)} = \bigcup_j \mathcal{A}_z(j)\]
+	\[\text{"Super-Hamiltonian":}~ ~ ~\mathcal{H}^{(0)} = \sum_{k_x \in \mathcal{A}_z^{(0)}} \mathcal{H}\left( k_x \right)\]
+	\[\text{RG equation:}~ ~ ~\mathcal{H}_z(j) = \underbrace{\mathcal{P}_z(j)}_\text{projector} ~ \mathcal{H}^{(0)} ~ \mathcal{P}_z(j)\]
+\end{frame}
+
+\begin{frame}{What, exactly, is getting renormalised?}
+	Several ways to look at this\\[10pt]
+	\begin{itemize}
+		\item renormalisation in \focus{entanglement}: \(\Delta \log S_z(j) \sim \Delta f_z(j) \)\\[10pt]
+		\item renormalisation in 1-particle \focus{spectral gap}: \(M(n,\phi) \sim |n + \phi|\)\\[10pt]
+		\item renormalisation in real space \focus{quantum fluctuation}\\[10pt]
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Fraction of maximum states}
+	\centering
+	\[f_z(j) = \text{fraction of maximum states} = 1/t_z(j)\]
+	\includegraphics[width=0.5\textwidth]{figures/fraction.pdf}
+\end{frame}
+
+
+\begin{frame}{Sequence of subsystems}
+\hspace*{\fill}
+\begin{minipage}{0.35\textwidth}
+\(j=0: ~ ~ ~ \mathcal{A}_z(0): ~ ~ ~\text{annulus}\)
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.5\textwidth}
+	\includegraphics[width=0.7\textwidth]{figures/A_m1.pdf}
+\end{minipage}
+
+\vspace*{\fill}
+\begin{minipage}{0.4\textwidth}
+	\large \( \Delta n \sim \Delta k_x \sim 1/L_x \)
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+	\[ z > 0: \text{decreasing system size}\]
+	\[ z < 0: \text{increasing system size}\]
+\end{minipage}
+\end{frame}
+
+\begin{frame}{Subsystem entanglement entropy}
+Modes are decoupled \(\longrightarrow\) entanglement is additive
+\[S_{\mathcal{A}_z(j)} = \sum_{n \in \mathcal{A}_z(j)} S_n = f_z(j) c \alpha L_x - c \log \big|2\sin\left(\pi f_z(j)\phi\right)\big|\]
+\[i < j, ~ ~ S_{i\cup j} =
+	\begin{cases}
+	S_{i}, ~ ~ z > 0\\
+	S_{j}, ~ ~ z < 0
+	\end{cases}
+\]
+\end{frame}
+	
+\begin{frame}{Entanglement hierarchy}
+\[i < j, ~ ~ S_{i\cup j} =
+	\begin{cases}
+	S_{i}, ~ ~ z > 0\\
+	S_{j}, ~ ~ z < 0
+	\end{cases}
+\]
+presents a \focus{hierarchy} of entanglement \(\longrightarrow\) EE distributed across levels
+\\[10pt]
+RG transformation \(\longrightarrow\) reveals entanglement
+\\[10pt]
+distribution of entanglement also present in \focus{multipartite} entanglement
+\end{frame}
+
+\section{Holographic nature of the RG flow}
+\begin{frame}{Mutual information = distance}
+	\focus{Mutual information}: ~ \(I^2(A:B) \equiv S(A) + S(B) - S(A \cup B)\)\\[10pt]
+	information gained about \(B\) upon measuring \(A\)\\[10pt]
+	define distance along the RG: ~ ~ \(d_z(j) \equiv \log I^2_\text{max} - \log I_z^2(0:j) = \log t_z(j)\)
+
+	\vspace*{\fill}
+
+	\begin{minipage}{0.4\textwidth}
+	\includegraphics[width=\textwidth]{figures/distance1.pdf}
+	\end{minipage}
+	\hspace*{\fill}
+	\begin{minipage}{0.55\textwidth}
+		\centering
+		For \(z > 0\):
+		\begin{itemize}
+			\item mut. info. is maximum for small \(j\)\\
+			\item decreases for large \(j\)\\
+			\item corresponds to \focus{increasing distance}
+		\end{itemize}
+	\end{minipage}
+\end{frame}
+
+\begin{frame}{RG evolution = emergent distance}
+	Define \(2-\)dimensional \(x-y\) structure\\[20pt]
+	\begin{minipage}{0.55\textwidth}
+	\includegraphics[width=\textwidth]{figures/curvature-scheme.pdf}
+	\end{minipage}
+	\begin{minipage}{0.44\textwidth}
+	\[x_z(j) = d_z(j) = \log t_z(j)\]
+	\\[10pt]
+	\[y_z(j) = \log I^2_\text{max} - \log I_z^2(\mathcal{B}_j^1:\mathcal{B}_j^2)\]
+\[= \log t_z(j \pm 1)\]
+	\end{minipage}
+\end{frame}
+
+\begin{frame}{RG evolution = emergent distance}
+	Define coupling that measures spectral gap:~ ~ \(g_z(j) = \log \frac{M_{n+1}(\phi) - M_n(\phi)}{2\pi/L_x} = \log t_z(j)\)\\[10pt]
+	RG beta function for its evolution: ~ ~ \(\beta_z(j) = \Delta \log g_z(j) = z \log\left( 1 + j^{-1} \right) \)
+
+	\vspace*{10pt}
+	\includegraphics[width=0.45\textwidth]{figures/coupling.pdf}
+	\hspace*{30pt}
+	\includegraphics[width=0.45\textwidth]{figures/mass-beta.pdf}
+\end{frame}
+
+\begin{frame}{RG evolution = emergent distance}
+	RG beta function can be related to the \(x,y-\)distances
+	\[x_z = \left( e^\frac{\beta_z}{z} - 1 \right)^{-z} \ln 2\]
+	\[y_z = \begin{cases}
+		x_z e^\beta,~~ &z > 0\\
+		x_z \left(2 - e^\frac{\beta}{z}\right)^z,~~ &z < 0\\
+	\end{cases}\]
+	\\[10pt]
+	explicit relation between the RG flow and the emergent \focus{geometry}
+\end{frame}
+
+\begin{frame}{Curvature of the emergent space}
+	Define first and second derivatives in emergent space
+	\[v_z(j) \equiv \frac{\Delta y_z(j)}{\Delta x_z(j)} =\begin{cases}
+		\frac{\left(j+2\right)^z - \left(j+1\right)^z}{\left(j+1\right)^z - j^z},~ ~ z > 0\\
+		\frac{\left(j\right)^z - \left(j-1\right)^z}{\left(j+1\right)^z - j^z},~ ~ z < 0\\
+	\end{cases}
+\]
+\[
+	v^\prime_z(j) \equiv \frac{v_z(j+1) - v_z(j)}{x_z(j+1) - x_z(j)}
+\]
+Define curvature using them: {\Large\(\kappa_{z}(j) = \frac{v^\prime_z(j)}{\left[1 + v_z(j)^2\right]^\frac{3}{2}}\)}\\[10pt]
+\(\longrightarrow\) can be expressed in terms of \(\beta_z(j)\)
+\end{frame}
+
+\begin{frame}{Curvature of the emergent space}
+\begin{minipage}{0.45\textwidth}
+	\includegraphics[width=\textwidth]{figures/curvature-pos.pdf}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+	\begin{itemize}
+		\item positive curvature for \(z < 0\)\\[10pt]
+		\item zero curvature for \(z = 1\)\\[10pt]
+		\item negative curvature for \(z  > 1\)\\[10pt]
+		\item \focus{asymptotically flat} for large \(j\), at all \(z\)
+	\end{itemize}
+\end{minipage}
+\end{frame}
+
+\begin{frame}{The sign of the curvature is topological}
+	Curvature can be written as the product of \focus{winding numbers}:
+	\[\text{sign}\left[\kappa_z\right] = \mathcal{W}_z\left( \gamma^* \right) \times \left[2\mathcal{W}^\prime_z\left( \alpha^* \right) - 1\right] \]
+	\includegraphics[width=0.49\textwidth]{figures/curvature-winding.pdf}
+	\includegraphics[width=0.49\textwidth]{figures/alpha-winding.pdf}\\[10pt]
+	winding numbers count singularities, robust against deformations
+\end{frame}
+
+\begin{frame}{The sign of the curvature is topological}
+	Where exactly is the topology changing?
+	\vspace*{\fill}
+	\begin{itemize}
+		\item \(z\) acts as the \focus{anomalous dimension} of the effective field theory\\[10pt]
+		\item change in \(z\) can be interpreted as a change in the underlying \focus{interacting theory}\\[10pt]
+		\item change in sign of \(z\) is therefore a \focus{topological phase transition} in the microscopic theory
+	\end{itemize}
 \end{frame}
 
 \begin{frame}[allowframebreaks]{References}
