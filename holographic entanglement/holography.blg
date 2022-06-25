@@ -1,65 +1,65 @@
-This is BibTeX, Version 0.99d (TeX Live 2022/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2022/Arch Linux)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: holography.aux
 The style file: biblatex.bst
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated glb_str_ptr (elt_size=8) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_end (elt_size=8) to 20 items from 10.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
 Database file #1: holography-blx.bib
 Database file #2: bib.bib
 Biblatex version: 3.17
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 2 entries,
+Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+You've used 26 entries,
             6399 wiz_defined-function locations,
-            1210 strings with 9151 characters,
-and the built_in function-call counts, 8338 in all, are:
-= -- 581
-> -- 183
-< -- 40
-+ -- 239
-- -- 65
-* -- 515
-:= -- 1065
+            1384 strings with 13256 characters,
+and the built_in function-call counts, 185246 in all, are:
+= -- 14097
+> -- 2898
+< -- 902
++ -- 4993
+- -- 1010
+* -- 13636
+:= -- 19660
 add.period$ -- 0
-call.type$ -- 2
-change.case$ -- 26
-chr.to.int$ -- 42
-cite$ -- 2
-duplicate$ -- 788
-empty$ -- 702
-format.name$ -- 63
-if$ -- 1734
+call.type$ -- 26
+change.case$ -- 574
+chr.to.int$ -- 53
+cite$ -- 50
+duplicate$ -- 19976
+empty$ -- 16512
+format.name$ -- 1626
+if$ -- 38116
 int.to.chr$ -- 0
-int.to.str$ -- 3
+int.to.str$ -- 86
 missing$ -- 0
-newline$ -- 54
-num.names$ -- 58
-pop$ -- 396
+newline$ -- 963
+num.names$ -- 1402
+pop$ -- 8857
 preamble$ -- 1
-purify$ -- 30
+purify$ -- 680
 quote$ -- 0
-skip$ -- 288
+skip$ -- 5101
 stack$ -- 0
-substring$ -- 973
-swap$ -- 177
-text.length$ -- 46
-text.prefix$ -- 1
+substring$ -- 24508
+swap$ -- 4532
+text.length$ -- 678
+text.prefix$ -- 29
 top$ -- 1
-type$ -- 56
+type$ -- 872
 warning$ -- 0
-while$ -- 154
+while$ -- 2469
 width$ -- 0
-write$ -- 53
+write$ -- 938

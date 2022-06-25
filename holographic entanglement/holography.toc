@@ -1,5 +1,6 @@
 \beamer@sectionintoc {1}{Introduction}{2}{0}{1}
-\beamer@sectionintoc {2}{What are we going after?}{11}{0}{2}
-\beamer@sectionintoc {3}{Reduction to \((1+1)-\)D systems}{13}{0}{3}
+\beamer@sectionintoc {2}{Reduction of \(2-\)D system to \((1+1)-\)D systems}{11}{0}{2}
+\beamer@sectionintoc {3}{What are we going after?}{15}{0}{3}
 \beamer@sectionintoc {4}{Entanglement hierarchy in mixed momentum and real space}{17}{0}{4}
 \beamer@sectionintoc {5}{Holographic nature of the RG flow}{26}{0}{5}
+\beamer@sectionintoc {6}{Conclusions}{38}{0}{6}
