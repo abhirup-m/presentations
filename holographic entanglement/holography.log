@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.6.29)  29 JUN 2022 15:07
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.6.29)  30 JUN 2022 15:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1352,33 +1352,31 @@ File: figures/dps_logo.jpeg Graphic file (type bmp)
 
 ]
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 10.95116pt on input line 89.
+(Font)              scaled to size 10.95116pt on input line 91.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 7.88484pt on input line 89.
+(Font)              scaled to size 7.88484pt on input line 91.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 6.35167pt on input line 89.
+(Font)              scaled to size 6.35167pt on input line 91.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 89.
+(Font)              scaled to size 10.94882pt on input line 91.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 7.88315pt on input line 89.
+(Font)              scaled to size 7.88315pt on input line 91.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 6.35031pt on input line 89.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 89.
+(Font)              scaled to size 6.35031pt on input line 91.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 91.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 89.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 91.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 File: figures/torus.pdf Graphic file (type pdf)
 <use figures/torus.pdf>
-File: figures/dirac.pdf Graphic file (type pdf)
-<use figures/dirac.pdf>
  [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 
  []
 
@@ -1389,7 +1387,7 @@ File: figures/subsystem-torus.pdf Graphic file (type pdf)
 [4
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 
  []
 
@@ -1400,7 +1398,7 @@ File: figures/subsystem-torus.pdf Graphic file (type pdf)
 [5
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 
  []
 
@@ -1411,7 +1409,7 @@ File: figures/subsystem-torus.pdf Graphic file (type pdf)
 [6
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 
  []
 
@@ -1433,43 +1431,43 @@ File: figures/nonlocal.pdf Graphic file (type pdf)
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 134.
+(hyperref)                removing `math shift' on input line 136.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 134.
+(hyperref)                removing `math shift' on input line 136.
 
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 17.28183pt on input line 134.
+(Font)              scaled to size 17.28183pt on input line 136.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 134.
+(Font)              scaled to size 12.00128pt on input line 136.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 134.
+(Font)              scaled to size 10.00107pt on input line 136.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 17.27815pt on input line 134.
+(Font)              scaled to size 17.27815pt on input line 136.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 134.
+(Font)              scaled to size 11.99872pt on input line 136.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 134.
+(Font)              scaled to size 9.99893pt on input line 136.
 [11
 
 ]
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 14.40152pt on input line 163.
+(Font)              scaled to size 14.40152pt on input line 165.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 163.
+(Font)              scaled to size 7.00075pt on input line 165.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 14.39845pt on input line 163.
+(Font)              scaled to size 14.39845pt on input line 165.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 163.
+(Font)              scaled to size 6.99925pt on input line 165.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 8.00085pt on input line 163.
+(Font)              scaled to size 8.00085pt on input line 165.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 163.
+(Font)              scaled to size 6.00064pt on input line 165.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 163.
+(Font)              scaled to size 7.99915pt on input line 165.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 163.
+(Font)              scaled to size 5.99936pt on input line 165.
  [12
 
 ]
@@ -1496,7 +1494,7 @@ File: ./figures/coarse-graining.pdf Graphic file (type pdf)
 File: ./figures/fine-graining.pdf Graphic file (type pdf)
 <use ./figures/fine-graining.pdf>
 
-Overfull \vbox (2.78958pt too high) detected at line 206
+Overfull \vbox (2.78958pt too high) detected at line 208
  []
 
 [19
@@ -1514,12 +1512,12 @@ File: figures/fraction.pdf Graphic file (type pdf)
 File: figures/A_m1.pdf Graphic file (type pdf)
 <use figures/A_m1.pdf>
 
-Overfull \hbox (10.53026pt too wide) detected at line 257
+Overfull \hbox (10.53026pt too wide) detected at line 259
 [] [] [] [] []
  []
 
 
-Overfull \hbox (7.51901pt too wide) detected at line 257
+Overfull \hbox (7.51901pt too wide) detected at line 259
 [] [] [] [] []
  []
 
@@ -1577,7 +1575,7 @@ File: figures/curvature-contour.pdf Graphic file (type pdf)
 File: figures/curvature-winding.pdf Graphic file (type pdf)
 <use figures/curvature-winding.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
+Underfull \hbox (badness 10000) in paragraph at lines 475--475
 [][]
  []
 
@@ -1595,7 +1593,7 @@ File: figures/alpha-winding.pdf Graphic file (type pdf)
 ] [38
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 502--502
+Underfull \hbox (badness 10000) in paragraph at lines 504--504
 
  []
 
@@ -1613,7 +1611,7 @@ File: figures/theta.pdf Graphic file (type pdf)
 ] [43
 
 ]
-Overfull \vbox (2.83276pt too high) detected at line 527
+Overfull \vbox (2.83276pt too high) detected at line 529
  []
 
 [44
@@ -1624,9 +1622,9 @@ Overfull \vbox (2.83276pt too high) detected at line 527
 
 ]
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 531.
+(Font)              scaled to size 5.00053pt on input line 533.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 531.
+(Font)              scaled to size 4.99947pt on input line 533.
  [47
 
 ] [48
@@ -1656,12 +1654,12 @@ Package logreq Info: Writing requests to 'holography.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38918 strings out of 476156
- 807495 string characters out of 5814963
- 1395352 words of memory out of 5000000
- 58933 multiletter control sequences out of 15000+600000
+ 38910 strings out of 476156
+ 807316 string characters out of 5814963
+ 1395402 words of memory out of 5000000
+ 58926 multiletter control sequences out of 15000+600000
  480904 words of font info for 174 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,11n,122p,1842b,5230s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on holography.xdv (50 pages, 420732 bytes).
+Output written on holography.xdv (50 pages, 420572 bytes).

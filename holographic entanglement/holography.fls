@@ -1576,9 +1576,6 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT ./figures/torus.pdf
 INPUT ./figures/torus.pdf
 INPUT figures/torus.pdf
-INPUT ./figures/dirac.pdf
-INPUT ./figures/dirac.pdf
-INPUT figures/dirac.pdf
 INPUT ./figures/subsystem-A.pdf
 INPUT ./figures/subsystem-A.pdf
 INPUT figures/subsystem-A.pdf

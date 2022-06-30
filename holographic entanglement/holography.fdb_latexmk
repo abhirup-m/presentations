@@ -1,17 +1,17 @@
 # Fdb version 3
-["bibtex holography"] 1656486590 "holography.aux" "holography.bbl" "holography" 1656495456
+["bibtex holography"] 1656486590 "holography.aux" "holography.bbl" "holography" 1656584235
   "/usr/share/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1650185741 65483 fc69f364ef63c07bf68a2ab4b323f197 ""
   "bib.bib" 1656304952 316808 21b493e329ad71f07308dfc3d61195d0 ""
-  "holography-blx.bib" 1656495455 340 2d33f68db8eb3b96dd26dcb5b6bf9ee5 "xelatex"
-  "holography.aux" 1656495455 18833 814d878945721bc40b1bf3f84b241b13 "xelatex"
+  "holography-blx.bib" 1656584234 340 2d33f68db8eb3b96dd26dcb5b6bf9ee5 "xelatex"
+  "holography.aux" 1656584234 18833 814d878945721bc40b1bf3f84b241b13 "xelatex"
   (generated)
   "holography.bbl"
   "holography.blg"
-["xdvipdfmx"] 1656495455 "holography.xdv" "holography.pdf" "holography" 1656495456
-  "holography.xdv" 1656495455 420732 917f6f3d1241e6d0fcd7c140a9100ca9 "xelatex"
+["xdvipdfmx"] 1656584235 "holography.xdv" "holography.pdf" "holography" 1656584235
+  "holography.xdv" 1656584234 420572 958dca3e7fe3de09ad19484e7b95964b "xelatex"
   (generated)
   "holography.pdf"
-["xelatex"] 1656495452 "holography.tex" "holography.xdv" "holography" 1656495456
+["xelatex"] 1656584231 "holography.tex" "holography.xdv" "holography" 1656584235
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1650183167 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1650183167 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -246,7 +246,6 @@
   "figures/curvature-scheme.pdf" 1655784046 19181 eb0aebb8d76a96c36056f20c0f0f0b5c ""
   "figures/curvature-winding.pdf" 1656484888 10185 7c99574ceffaeb329be8d9f67ab9d0b6 ""
   "figures/dim-reduc.pdf" 1655784638 10001 392eedd0ee07ed4e8788edf51b8d54c7 ""
-  "figures/dirac.pdf" 1655355658 5796 2eef07978ddc852aadc58990b50c2f75 ""
   "figures/distance1.pdf" 1655782822 123744 bf5399f6aee212311cce602636d198e5 ""
   "figures/dps_logo.jpeg" 1655350956 20761 e8535e6761fde402f9f56468af289052 ""
   "figures/epqm_logo_mod.jpeg" 1655350956 32918 342f7075feaf0c0d04d5a5ad9ea62011 ""
@@ -261,11 +260,11 @@
   "figures/theta.pdf" 1655782832 101221 796cc4409165d88affe7f8434a1018d3 ""
   "figures/thetap.pdf" 1656304952 100711 caa678f77dbe95e2e37862547bfa8d3e ""
   "figures/torus.pdf" 1655180812 4588 9a115bc1a7faa33499eea4a4d878f2e0 ""
-  "holography.aux" 1656495455 18833 814d878945721bc40b1bf3f84b241b13 "xelatex"
+  "holography.aux" 1656584234 18833 814d878945721bc40b1bf3f84b241b13 "xelatex"
   "holography.bbl" 1656486590 26373 ff071823044d94e3db2f488574e68291 "bibtex holography"
-  "holography.nav" 1656495455 4584 738988b849c16cdc8259162a01ad00a8 "xelatex"
-  "holography.run.xml" 1656495455 2610 ddc452c3a713f2fe949cecb0fec2d5b4 "xelatex"
-  "holography.tex" 1656495452 19604 8b9149c5ae34ce9b9dc16a2df09e52ce ""
+  "holography.nav" 1656584234 4584 738988b849c16cdc8259162a01ad00a8 "xelatex"
+  "holography.run.xml" 1656584234 2610 ddc452c3a713f2fe949cecb0fec2d5b4 "xelatex"
+  "holography.tex" 1656584231 19626 dbcb79a7901d9c3d20912f2951571e7f ""
   (generated)
   "holography-blx.bib"
   "holography.aux"
