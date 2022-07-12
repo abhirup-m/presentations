@@ -91,6 +91,7 @@
 \section{Single-channel Kondo problem}
 
 \begin{frame}{Single-channel Kondo problem}
+\footcite{kondo1964resistance,wilson1975,andreiKondoreview,hewson1993,nozieres1974fermi,anderson1970,tsvelickKondoreview,affleck1993exact,Goldhaber-Gordon1998,Borzenets2020,sakai_osamu_shimizu,costi_hewson_1990,nozaki2012,affleck1995conformal}
 Model of impurity interacting with conduction electrons through spin-flips\\[20pt]
 
 \begin{minipage}{0.59\textwidth}
@@ -109,6 +110,7 @@ Model of impurity interacting with conduction electrons through spin-flips\\[20p
 \section{Multi-channel Kondo problem}
 
 \begin{frame}{Multi-channel Kondo problem}
+\footcite{Noz_blandin_1980,Tsvelick_weigmann_mchannel_1985,affleck1993exact,Gan_mchannel_1994,affleck_1991_overscreen,emery_kivelson,bulla_1998}
 Model of impurity interacting with multiple conduction electron channels \\[20pt]
 
 \begin{minipage}{0.59\textwidth}
@@ -128,6 +130,7 @@ Model of impurity interacting with multiple conduction electron channels \\[20pt
 \section{Local metal-insulator transition in extended Anderson impurity model}
 
 \begin{frame}{Extended Anderson impurity model}
+\footcite{anderson_1961,hrk_wilson_1980,hewson1993}
 Standard Anderson impurity model \(\longrightarrow\) only one stable phase (strong-coupling) \\[10pt]
 \focus{no possibility of phase transition} \(\longrightarrow\) Introduce additional correlation\\[20pt]
 \begin{itemize}
@@ -252,6 +255,7 @@ RG transformation \(\longrightarrow\) reveals entanglement
 \end{frame}
 
 \begin{frame}{RG evolution = emergent distance}
+	\footcite{maldacena1999large,ryu2006aspects,holzhey_1994}
 \begin{itemize}
 	\item Distances and curvature can be related to an RG \focus{beta function}\\[10pt]
 	\item Amounts to an \focus{explicit demonstration} of the holographic principle\\[10pt]
@@ -261,6 +265,7 @@ RG transformation \(\longrightarrow\) reveals entanglement
 \end{frame}
 
 \begin{frame}{Topological nature of geometry-independent term}
+	\footcite{luttinger1960ground,luttinger1960fermi,oshikawa2000topological,seki2017topological,anirbanurg1,Heath_2020}
 	\[S_{\mathcal{A}_z(j)} = f_z(j) c \alpha L_x - \underbrace{c \log \big|2\sin\left(\pi f_z(j)\phi\right)\big|}_{=Q(\phi),\text{geometry-independent term}}\]
 	\begin{itemize}
 	\item \(Q(\phi)\) is periodic in the flux \(\phi\), ~ \(\phi=1\) transports a charge across Fermi surface\\[10pt]
@@ -270,4 +275,73 @@ RG transformation \(\longrightarrow\) reveals entanglement
 	
 \end{frame}
 
+\section{Future Prospects}
+
+\begin{frame}{A novel auxiliary model approach}
+\begin{itemize}
+\only<1>{
+	\item Using local impurity models to create bulk lattice models (Bloch's theorem)
+		\[ H_\text{bulk} = \sum_i H_\text{local}(i), ~ ~\Psi_\text{bulk}(\vec k) \sim \sum_i e^{i \vec{k}\cdot\vec{r}_i}\Psi_\text{local}(i)\]
+	\item Relates bulk correlation functions to those of the auxiliary model\\[20pt]
+	\item phase transition in the extended AIM \(\longrightarrow\) phase transition inthe bulk model, \focus{metal-insulator transition} in Hubbard-Heisenberg model\\[20pt]
+}
+\only<2>{
+	\item Should be useful for studying other models of strong-correlations
+		\begin{itemize}
+			\item periodic Anderson/Kondo models
+			\item Heisenberg models\\[20pt]
+		\end{itemize}
+	\item Another potential application: topologically active systems:
+		\begin{itemize}
+			\item Fractional quantum hall systems
+		\end{itemize}
+}
+\only<3>{
+	\item Method can be made more powerful by using multiple impurities\\[20pt]
+	\item Allows entangled liquid-like insulating phases\\[20pt]
+	\item Might also provide \(k-\)space resolution 
+		\begin{itemize}
+			\item partial gapping of Fermi surface?
+			\item pseudogap phases\\[20pt]
+		\end{itemize}
+	\item Extend the formalism towards higher order Greens functions
+		\begin{itemize}
+			\item two-particle Greens functions, doublon-holon correlations
+			\item can provide more info on the MIT
+		\end{itemize}
+}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Heavy-fermion materials}
+\begin{itemize}
+	\item Materials with very high quasiparticle masses\\[20pt]
+	\item Outstanding questions exist about the nature of phases and phase transitions
+		\begin{itemize}
+			\item microscopic justification of certain phases
+			\item theory for the strange metal excitations
+			\item microscopic justification for the origin of unconventional superconductivity\\[20pt]
+		\end{itemize}
+	\item the URG, MERG and auxiliary model methods should prove useful
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Acknowledgements}
+\flushleft
+Grateful to\\[10pt]
+\begin{itemize}
+	\item my collaborators Siddhartha Patra, Anirban Mukherjee, Prof. Arghya Taraphdar, Prof. N. S. Vidhyadhiraja, and \\[10pt]
+	\item IISER Kolkata for funding \\[10pt]
+\end{itemize}
+
+Special thanks to Prof. Horacio Casini, Prof. Narayan Banerjee and Shibendu G. Chowdhury for some very fruitful discussions.
+	
+	
+
+	
+\end{frame}
+	
+\begin{frame}[allowframebreaks]{References}
+\printbibliography
+\end{frame}
 \end{document}

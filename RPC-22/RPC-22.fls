@@ -1620,6 +1620,16 @@ INPUT figures/nested.png
 INPUT ./figures//curvature-pos.pdf
 INPUT ./figures//curvature-pos.pdf
 INPUT ./figures//curvature-pos.pdf
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 OUTPUT RPC-22.nav
 OUTPUT RPC-22.toc
 OUTPUT RPC-22.snm
