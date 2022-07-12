@@ -39,14 +39,12 @@
 \graphicspath{{./figures/}} % Change the path
 
 \AtBeginSection[]{
-\begin{frame}
   \vfill
   \centering
   \begin{beamercolorbox}[sep=20pt,rounded=true,center]{frametitle}
     \usebeamerfont{title}\insertsectionhead\par%
   \end{beamercolorbox}
   \vfill
-\end{frame}
 }
 \title{Emergence in free and correlated fermions: from impurity models to the bulk}
 
@@ -79,8 +77,10 @@
 
 \begin{frame}{Summary of Work}
 \begin{enumerate}
-\item 1-channel Kondo problem: {\it as second author}, \focus{published} in Phys. Rev. B\\[20pt]
-	\item Multi-channel Kondo problem: {\it as second author}, \focus{under review} at Phys. Rev. B\\[20pt]
+\item 1-channel Kondo problem: {\it as second author}, {published} in Phys. Rev. B\\
+	\focus{Phys. Rev. B 105, 085119}\\[20pt]
+	\item Multi-channel Kondo problem: {\it as second author}, {under review} at Phys. Rev. B\\
+		\focus{arXiv:2205.00790}\\[20pt]
 	\item Generalised Anderson impurity model: manuscript \focus{in preparation}\\[20pt]
 	\item Entanglement scaling in free fermions: manuscript \focus{in preparation}\\[20pt]
 	\item New auxiliary model approach to correlated systems: \focus{ongoing project}
@@ -88,7 +88,11 @@
 
 \end{frame}
 
+\begin{frame}{}
 \section{Single-channel Kondo problem}
+\small{Phys. Rev. B 105, 085119\\[10pt]
+Anirban Mukherjee, {\it Abhirup Mukherjee}, N. S. Vidhyadhiraja, A. Taraphder, and Siddhartha Lal}
+\end{frame}
 
 \begin{frame}{Single-channel Kondo problem}
 \footcite{kondo1964resistance,wilson1975,andreiKondoreview,hewson1993,nozieres1974fermi,anderson1970,tsvelickKondoreview,affleck1993exact,Goldhaber-Gordon1998,Borzenets2020,sakai_osamu_shimizu,costi_hewson_1990,nozaki2012,affleck1995conformal}
@@ -107,7 +111,11 @@ Model of impurity interacting with conduction electrons through spin-flips\\[20p
 
 \end{frame}
 
+\begin{frame}{}
 \section{Multi-channel Kondo problem}
+\small{arXiv:2205.00790\\[10pt]
+Siddhartha Patra, Abhirup Mukherjee, Anirban Mukherjee, N. S. Vidhyadhiraja, A. Taraphder, Siddhartha Lal}
+\end{frame}
 
 \begin{frame}{Multi-channel Kondo problem}
 \footcite{Noz_blandin_1980,Tsvelick_weigmann_mchannel_1985,affleck1993exact,Gan_mchannel_1994,affleck_1991_overscreen,emery_kivelson,bulla_1998}
@@ -127,7 +135,9 @@ Model of impurity interacting with multiple conduction electron channels \\[20pt
 
 \end{frame}
 
+\begin{frame}{}
 \section{Local metal-insulator transition in extended Anderson impurity model}
+\end{frame}
 
 \begin{frame}{Extended Anderson impurity model}
 \footcite{anderson_1961,hrk_wilson_1980,hewson1993}
@@ -157,7 +167,7 @@ RG equations reveal critical point where \(J,V\) \focus{become irrelevant}\\[10p
 \end{enumerate}
 \end{minipage}
 \begin{minipage}{0.5\textwidth}
-	\[r = U_b/J\]
+	\[r = -U_b/J\]
 	\includegraphics[width=\textwidth]{phase-map-MIT.pdf}
 \end{minipage}
 
@@ -165,8 +175,17 @@ RG equations reveal critical point where \(J,V\) \focus{become irrelevant}\\[10p
 
 \begin{frame}{Presence of a phase transition}
 
+\begin{minipage}{0.7\textwidth}
 singlet {\LARGE \(\longrightarrow\)} spin+charge liquid {\LARGE \(\longrightarrow\)} local moment\\[10pt]
-impurity spectral function gaps out\\[10pt]
+impurity spectral function gaps out
+\end{minipage}
+\begin{minipage}{0.29\textwidth}
+\[r = -U_b/J\]
+\[\ket{SS} = \ket{\uparrow,\downarrow} - \ket{\downarrow,\uparrow}\]
+\[\ket{CT} = \ket{2,0} + \ket{0,2}\]
+\end{minipage}
+
+\vspace*{\fill}
 
 \begin{minipage}{0.49\textwidth}
 	\includegraphics[width=\textwidth]{corrs_gs.pdf}
@@ -194,7 +213,12 @@ impurity spectral function gaps out\\[10pt]
 
 \end{frame}
 
+\begin{frame}{Presence of subdominant pair fluctuations}
+	
+\end{frame}
+\begin{frame}{}
 \section{Entanglement scaling in free fermions}
+\end{frame}
 
 \begin{frame}{Creating subsystems}
 	\[\text{Free Dirac fermions on torus:}~ ~ ~ k_x^n = \frac{2\pi }{L_x} n,~ ~ n \in \mathbb{Z};~~~ \text{define \focus{sparsity}} = \Delta n = 1\]
@@ -275,7 +299,9 @@ RG transformation \(\longrightarrow\) reveals entanglement
 	
 \end{frame}
 
+\begin{frame}{}
 \section{Future Prospects}
+\end{frame}
 
 \begin{frame}{A novel auxiliary model approach}
 \begin{itemize}

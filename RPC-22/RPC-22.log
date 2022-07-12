@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.6.29)  12 JUL 2022 19:23
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.5.3)  12 JUL 2022 22:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -763,10 +763,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/FiraSans(1)/b/n on input line 20.
 
-Package fontspec Info: Could not resolve font "Fira Math/B" (it probably
-(fontspec)             doesn't exist).
-
-
 Package fontspec Info: Font family 'FiraMath(0)' created for font 'Fira Math'
 (fontspec)             with options
 (fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math].
@@ -777,10 +773,9 @@ Package fontspec Info: Font family 'FiraMath(0)' created for font 'Fira Math'
 (fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Fira
 (fontspec)             Math/OT:script=math;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-
-
-Package fontspec Info: Could not resolve font "Fira Math/B" (it probably
-(fontspec)             doesn't exist).
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Fira
+(fontspec)             Math/B/OT:script=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 
 Package fontspec Info: Font family 'FiraMath(1)' created for font 'Fira Math'
@@ -797,6 +792,9 @@ Package fontspec Info: Font family 'FiraMath(1)' created for font 'Fira Math'
 (fontspec)             Math/OT:script=math;language=dflt;+ssty=0;"<-7.1175>"Fira
 (fontspec)             Math/OT:script=math;language=dflt;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Fira
+(fontspec)             Math/B/OT:script=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
 (Font)              `operators' in the math version `normal' on input line 21.
@@ -810,10 +808,6 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 Package fontspec Info: Fira Math scale = 1.0001.
 
 
-Package fontspec Info: Could not resolve font "Fira Math/B" (it probably
-(fontspec)             doesn't exist).
-
-
 Package fontspec Info: Fira Math scale = 1.0001.
 
 
@@ -821,6 +815,9 @@ Package fontspec Info: Fira Math scale = 1.0001.
 
 
 Package fontspec Info: Fira Math scale = 1.0001.
+
+
+Package fontspec Info: Fira Math/B scale = 1.0001.
 
 
 Package fontspec Info: Font family 'FiraMath(2)' created for font 'Fira Math'
@@ -859,6 +856,20 @@ Package fontspec Info: Font family 'FiraMath(2)' created for font 'Fira Math'
 (fontspec)             =3.942pt\relax \fontdimen 19\font =2.7375pt\relax
 (fontspec)             \fontdimen 22\font =3.066pt\relax \fontdimen 20\font
 (fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.0001]"Fira
+(fontspec)             Math/B/OT:script=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =6.351pt\relax \fontdimen 9\font
+(fontspec)             =4.9275pt\relax \fontdimen 10\font =4.9275pt\relax
+(fontspec)             \fontdimen 11\font =7.665pt\relax \fontdimen 12\font
+(fontspec)             =5.256pt\relax \fontdimen 13\font =4.38pt\relax
+(fontspec)             \fontdimen 14\font =4.38pt\relax \fontdimen 15\font
+(fontspec)             =2.9565pt\relax \fontdimen 16\font =3.8325pt\relax
+(fontspec)             \fontdimen 17\font =3.8325pt\relax \fontdimen 18\font
+(fontspec)             =3.942pt\relax \fontdimen 19\font =2.7375pt\relax
+(fontspec)             \fontdimen 22\font =3.066pt\relax \fontdimen 20\font
+(fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
 (Font)              `symbols' in the math version `normal' on input line 21.
@@ -872,10 +883,6 @@ LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 Package fontspec Info: Fira Math scale = 0.9999.
 
 
-Package fontspec Info: Could not resolve font "Fira Math/B" (it probably
-(fontspec)             doesn't exist).
-
-
 Package fontspec Info: Fira Math scale = 0.9999.
 
 
@@ -883,6 +890,9 @@ Package fontspec Info: Fira Math scale = 0.9999.
 
 
 Package fontspec Info: Fira Math scale = 0.9999.
+
+
+Package fontspec Info: Fira Math/B scale = 0.9999.
 
 
 Package fontspec Info: Font family 'FiraMath(3)' created for font 'Fira Math'
@@ -904,6 +914,14 @@ Package fontspec Info: Font family 'FiraMath(3)' created for font 'Fira Math'
 (fontspec)             Math/OT:script=math;language=dflt;+ssty=0;"<-7.1175>s*[0.9999]"Fira
 (fontspec)             Math/OT:script=math;language=dflt;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.8322pt\relax \fontdimen 9\font
+(fontspec)             =1.6425pt\relax \fontdimen 10\font =1.6425pt\relax
+(fontspec)             \fontdimen 11\font =1.6425pt\relax \fontdimen 12\font
+(fontspec)             =6.56999pt\relax \fontdimen 13\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[0.9999]"Fira
+(fontspec)             Math/B/OT:script=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 8\font =0.8322pt\relax \fontdimen 9\font
 (fontspec)             =1.6425pt\relax \fontdimen 10\font =1.6425pt\relax
@@ -1177,33 +1195,33 @@ Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 ))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 56.
+(hyperref)                removing `\\' on input line 54.
 
 \@quotelevel=\count488
 \@quotereset=\count489
 (./RPC-22.aux)
 \openout1 = `RPC-22.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1239,7 +1257,7 @@ LaTeX Font Info:    ... okay on input line 60.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 60.
+Package hyperref Info: Link coloring OFF on input line 58.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1249,9 +1267,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count490
 )
-LaTeX Info: Redefining \ref on input line 60.
-LaTeX Info: Redefining \pageref on input line 60.
-LaTeX Info: Redefining \nameref on input line 60.
+LaTeX Info: Redefining \ref on input line 58.
+LaTeX Info: Redefining \pageref on input line 58.
+LaTeX Info: Redefining \nameref on input line 58.
  (/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/share/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -1266,9 +1284,9 @@ Dictionary: translator-numbers-dictionary, Language: English
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 60.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 60.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 58.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1368,8 +1386,8 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                - Invalid format of field 'month'.
 
 )
-Package biblatex Info: Reference section=0 on input line 60.
-Package biblatex Info: Reference segment=0 on input line 60.
+Package biblatex Info: Reference section=0 on input line 58.
+Package biblatex Info: Reference segment=0 on input line 58.
  (./RPC-22.nav)
 File: figures/epqm_logo_mod.jpeg Graphic file (type bmp)
 <figures/epqm_logo_mod.jpeg>
@@ -1377,30 +1395,31 @@ File: figures/dps_logo.jpeg Graphic file (type bmp)
 <figures/dps_logo.jpeg>
  [1
 
-] [2
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [3
+ [2
 
-] [4
+] [3] [4
 
 ]
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 10.95116pt on input line 108.
+(Font)              scaled to size 10.95116pt on input line 112.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 7.88484pt on input line 108.
+(Font)              scaled to size 7.88484pt on input line 112.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 6.35167pt on input line 108.
+(Font)              scaled to size 6.35167pt on input line 112.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 108.
+(Font)              scaled to size 10.94882pt on input line 112.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 7.88315pt on input line 108.
+(Font)              scaled to size 7.88315pt on input line 112.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 6.35031pt on input line 108.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 108.
+(Font)              scaled to size 6.35031pt on input line 112.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 112.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 108.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 112.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -1429,17 +1448,17 @@ File: ./figures//phase-map-MIT.pdf Graphic file (type pdf)
 
 ]
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 17.28183pt on input line 179.
+(Font)              scaled to size 17.28183pt on input line 197.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 179.
+(Font)              scaled to size 12.00128pt on input line 197.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 179.
+(Font)              scaled to size 10.00107pt on input line 197.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 17.27815pt on input line 179.
+(Font)              scaled to size 17.27815pt on input line 197.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 179.
+(Font)              scaled to size 11.99872pt on input line 197.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 179.
+(Font)              scaled to size 9.99893pt on input line 197.
 File: ./figures//corrs_gs.pdf Graphic file (type pdf)
 <use ./figures//corrs_gs.pdf>
 File: ./figures//Add.pdf Graphic file (type pdf)
@@ -1452,7 +1471,7 @@ File: ./figures//entanglement.pdf Graphic file (type pdf)
 File: ./figures//I_k.pdf Graphic file (type pdf)
 <use ./figures//I_k.pdf>
 
-Overfull \vbox (9.13943pt too high) detected at line 195
+Overfull \vbox (9.13943pt too high) detected at line 213
  []
 
 [12
@@ -1465,7 +1484,7 @@ File: figures/A_mi.pdf Graphic file (type pdf)
 File: figures/subsystem-torus.pdf Graphic file (type pdf)
 <use figures/subsystem-torus.pdf>
 
-Overfull \vbox (7.87048pt too high) detected at line 211
+Overfull \vbox (7.96904pt too high) detected at line 231
  []
 
 [14
@@ -1492,13 +1511,13 @@ File: ./figures//curvature-pos.pdf Graphic file (type pdf)
 
 ]
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 314.
+(Font)              scaled to size 7.00075pt on input line 336.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 314.
+(Font)              scaled to size 5.00053pt on input line 336.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 314.
+(Font)              scaled to size 6.99925pt on input line 336.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 314.
+(Font)              scaled to size 4.99947pt on input line 336.
  [21
 
 ] [22
@@ -1509,13 +1528,13 @@ LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 8.00085pt on input line 346.
+(Font)              scaled to size 8.00085pt on input line 368.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 346.
+(Font)              scaled to size 6.00064pt on input line 368.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 346.
+(Font)              scaled to size 7.99915pt on input line 368.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 346.
+(Font)              scaled to size 5.99936pt on input line 368.
  [25
 
 ] [26
@@ -1546,12 +1565,12 @@ Package logreq Info: Writing requests to 'RPC-22.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38896 strings out of 476156
- 808040 string characters out of 5814963
- 1408533 words of memory out of 5000000
- 58936 multiletter control sequences out of 15000+600000
- 479774 words of font info for 154 fonts, out of 8000000 for 9000
+ 38911 strings out of 476156
+ 808609 string characters out of 5814964
+ 1409023 words of memory out of 5000000
+ 58948 multiletter control sequences out of 15000+600000
+ 479912 words of font info for 157 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,11n,122p,1838b,5220s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on RPC-22.xdv (29 pages, 313748 bytes).
+Output written on RPC-22.xdv (29 pages, 317152 bytes).
