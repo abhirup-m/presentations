@@ -1605,6 +1605,12 @@ INPUT ./figures//entanglement.pdf
 INPUT ./figures//I_k.pdf
 INPUT ./figures//I_k.pdf
 INPUT ./figures//I_k.pdf
+INPUT ./figures//odlro_d0.pdf
+INPUT ./figures//odlro_d0.pdf
+INPUT ./figures//odlro_d0.pdf
+INPUT ./figures//gen-phase-diagram.pdf
+INPUT ./figures//gen-phase-diagram.pdf
+INPUT ./figures//gen-phase-diagram.pdf
 INPUT ./figures/A_mi.pdf
 INPUT ./figures/A_mi.pdf
 INPUT figures/A_mi.pdf
