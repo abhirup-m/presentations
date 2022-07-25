@@ -2,5 +2,9 @@
 \beamer@sectionintoc {2}{Single-channel Kondo problem}{4}{0}{2}
 \beamer@sectionintoc {3}{Multi-channel Kondo problem}{6}{0}{3}
 \beamer@sectionintoc {4}{Local metal-insulator transition in extended Anderson impurity model}{8}{0}{4}
-\beamer@sectionintoc {5}{Entanglement scaling in free fermions}{14}{0}{5}
-\beamer@sectionintoc {6}{Future Prospects}{20}{0}{6}
+\beamer@sectionintoc {5}{Entanglement scaling in free fermions}{10}{0}{5}
+\beamer@sectionintoc {6}{Future Prospects}{12}{0}{6}
+\beamer@sectionintoc {8}{Further Details}{20}{0}{7}
+\beamer@sectionintoc {9}{Local metal-insulator transition in extended Anderson impurity model}{21}{0}{8}
+\beamer@sectionintoc {10}{Entanglement scaling in free fermions}{28}{0}{9}
+\beamer@sectionintoc {11}{Future Prospects}{34}{0}{10}

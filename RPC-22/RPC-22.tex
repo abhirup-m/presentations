@@ -139,6 +139,88 @@ Model of impurity interacting with multiple conduction electron channels \\[20pt
 
 \begin{frame}{}
 \section{Local metal-insulator transition in extended Anderson impurity model}
+\vspace*{\fill}
+\includegraphics[width=0.6\textwidth]{zeromode_bare.pdf}
+\end{frame}
+
+\begin{frame}{Local MIT in an extended Anderson impurity model}
+\hspace*{-40pt}
+\begin{minipage}{0.65\textwidth}
+\begin{itemize}
+\item Competition between $J$ and $U_b$ leads to phase transition from screened singlet phase at \(|U_b| \leq 4J\) to unscreened local moment phase at \(|U_b| > 4J\).
+\item Impurity spectral function becomes gapped beyond the critical point.
+\item Decoupling the impurity model leads to an effective model with the zeroth site as the correlated impurity, demonstrating the symmetry between the impurity and zeroth site.
+\item Geometric entanglement and mutual information track the transition by vanishing beyond the critical point.
+\item Subdominant pairing tendencies are observed near the quantum critical point.
+\end{itemize}
+\end{minipage}
+\hspace*{5pt}
+\begin{minipage}{0.41\textwidth}
+\includegraphics[width=0.9\textwidth]{phase-map-MIT.pdf}
+\includegraphics[width=0.9\textwidth]{odlro_d0.pdf}
+\end{minipage}
+\hspace*{-40pt}
+\end{frame}
+
+\begin{frame}{}
+\section{Entanglement scaling in free fermions}
+
+\includegraphics[width=0.25\textwidth]{figures/subsystem-torus.pdf}
+\end{frame}
+
+\begin{frame}{Entanglement scaling in free fermions}
+\hspace*{-40pt}
+\begin{minipage}{0.65\textwidth}
+\begin{itemize}
+	\item Under coarse-graining or fine-graining in \(k-\)space, entanglement of free Dirac fermions shows hierarchical onion-like structure.
+	\item Entanglement scaling can be used to define distances, leads to additional spatial dimension \(\longrightarrow\) holography
+	\item Emergent distances and curvature can be related to RG beta function; the sign of the curvature is topological.
+	\item Pole structure of the entanglement tracks the Luttinger volume - invariant under the scaling transformations
+\end{itemize}
+\end{minipage}
+\hspace*{5pt}
+\begin{minipage}{0.41\textwidth}
+\includegraphics[width=\textwidth]{figures/A_mi.pdf}
+\includegraphics[width=\textwidth]{curvature-pos.pdf}
+\end{minipage}
+\hspace*{-40pt}
+\end{frame}
+
+\begin{frame}{}
+\section{Future Prospects}
+\end{frame}
+
+\begin{frame}{Future Prospects}
+\begin{itemize}
+	\item Better model can be obtained by taking multiple impurities and general impurity filling\\[20pt]
+\item novel auxiliary model method can used for studying other models of strong-correlations as well as topologically active or flat band systems\\[20pt]
+\item The URG can be applied to heavy-fermion materials towards a study of phase diagram and unconventional superconductivity, as well as Kondo insulators\\[20pt]
+\item Interacting systems in a magnetic field is also a potential area of study, specifically fractional quantum hall effects
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Acknowledgements}
+\flushleft
+Grateful to\\[10pt]
+\begin{itemize}
+	\item my collaborators Siddhartha Patra, Anirban Mukherjee, Prof. Arghya Taraphdar, Prof. N. S. Vidhyadhiraja, and \\[10pt]
+	\item IISER Kolkata for funding \\[10pt]
+\end{itemize}
+
+Special thanks to Prof. Horacio Casini, Prof. Narayan Banerjee and Shibendu G. Chowdhury for some very fruitful discussions.
+	
+\end{frame}
+
+\begin{frame}[allowframebreaks]{References}
+\printbibliography
+\end{frame}
+
+\begin{frame}{}
+\section{Further Details}
+\end{frame}
+
+\begin{frame}{}
+\section{Local metal-insulator transition in extended Anderson impurity model}
 \end{frame}
 
 \begin{frame}{Extended Anderson impurity model}
@@ -196,7 +278,15 @@ impurity spectral function gaps out
 \begin{minipage}{0.49\textwidth}
 	\includegraphics[width=\textwidth]{Add.pdf}
 \end{minipage}
+\end{frame}
 
+\begin{frame}{Bath spectral function: towards self-consistency}
+\begin{itemize}
+\item Decoupling the impurity site leads  to an Anderson impurity model
+	\[H_\text{0+rest} = \underbrace{-\left(U_0 + U_b\right)\left(\hat n_{0\uparrow} - \hat n_{0\downarrow}\right)^2}_\text{new correlated impurity} \underbrace{- t\sum_{j\in \text{n.n. of 0},\atop{\sigma}}\left(c^\dagger_{0\sigma}c_{j\sigma} + \text{h.c.}\right)}_\text{hopping between new impurity \& new bath} \underbrace{-t \sum_{\left<i,j \right>}\left(c^\dagger_{i\sigma}c_{j\sigma} + \text{h.c.}\right)}_\text{K.E. of new bath}\]\\[10pt]
+\item correlated, dominant spin-flip processes lead to repulsive $U_\text{eff} = U_0 + U_b \sim J^*/8$\\[20pt]
+\item \(J\) symmetrises the two sites, leading to similar spectral functions \(\longrightarrow\) essence of self-consistency
+\end{itemize}
 \end{frame}
 
 \begin{frame}{Entanglement as a probe for the transition}
@@ -316,6 +406,23 @@ RG transformation \(\longrightarrow\) reveals entanglement
 \section{Future Prospects}
 \end{frame}
 
+\begin{frame}{Improvements to the auxiliary model}
+\begin{itemize}
+	\item Better model can be obtained by using multiple impurities\\[20pt]
+	\item Allows entangled liquid-like insulating phases\\[20pt]
+	\item Might also provide \(k-\)space resolution 
+	\begin{itemize}
+		\item partial gapping of Fermi surface?
+		\item pseudogap phases\\[20pt]
+	\end{itemize}
+	\item Introducing general impurity filling
+	\begin{itemize}
+		\item new phases?
+		\item dominant pair fluctuations?
+	\end{itemize}
+\end{itemize}
+\end{frame}
+
 \begin{frame}{A novel auxiliary model approach}
 \begin{itemize}
 \only<1>{
@@ -332,16 +439,7 @@ RG transformation \(\longrightarrow\) reveals entanglement
 		\end{itemize}
 	\item Another potential application: topologically active systems:
 		\begin{itemize}
-			\item Fractional quantum hall systems
-		\end{itemize}
-}
-\only<3>{
-	\item Method can be made more powerful by using multiple impurities\\[20pt]
-	\item Allows entangled liquid-like insulating phases\\[20pt]
-	\item Might also provide \(k-\)space resolution 
-		\begin{itemize}
-			\item partial gapping of Fermi surface?
-			\item pseudogap phases\\[20pt]
+			\item Fractional quantum hall systems\\[20pt]
 		\end{itemize}
 	\item Extend the formalism towards higher order Greens functions
 		\begin{itemize}
@@ -365,22 +463,4 @@ RG transformation \(\longrightarrow\) reveals entanglement
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Acknowledgements}
-\flushleft
-Grateful to\\[10pt]
-\begin{itemize}
-	\item my collaborators Siddhartha Patra, Anirban Mukherjee, Prof. Arghya Taraphdar, Prof. N. S. Vidhyadhiraja, and \\[10pt]
-	\item IISER Kolkata for funding \\[10pt]
-\end{itemize}
-
-Special thanks to Prof. Horacio Casini, Prof. Narayan Banerjee and Shibendu G. Chowdhury for some very fruitful discussions.
-	
-	
-
-	
-\end{frame}
-	
-\begin{frame}[allowframebreaks]{References}
-\printbibliography
-\end{frame}
 \end{document}
