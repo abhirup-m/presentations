@@ -1,0 +1,10 @@
+\beamer@sectionintoc {1}{Summary of Work}{2}{0}{1}
+\beamer@sectionintoc {2}{Single-channel Kondo problem}{4}{0}{2}
+\beamer@sectionintoc {3}{Multi-channel Kondo problem}{6}{0}{3}
+\beamer@sectionintoc {4}{Local metal-insulator transition in an extended Anderson impurity model}{8}{0}{4}
+\beamer@sectionintoc {5}{Entanglement scaling in free fermions}{16}{0}{5}
+\beamer@sectionintoc {6}{Future Prospects}{18}{0}{6}
+\beamer@sectionintoc {8}{Further Details}{25}{0}{7}
+\beamer@sectionintoc {9}{Local metal-insulator transition in extended Anderson impurity model}{26}{0}{8}
+\beamer@sectionintoc {10}{Entanglement scaling in free fermions}{27}{0}{9}
+\beamer@sectionintoc {11}{Future Prospects}{33}{0}{10}
