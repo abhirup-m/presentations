@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.6.29)  10 AUG 2022 20:22
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.6.29)  11 AUG 2022 16:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -127,8 +127,8 @@ Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
 ) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count281
-))) (/usr/share/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+))) (/usr/share/texmf-dist/tex/latex/extsizes/size8.clo
+File: size8.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
 ) (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
@@ -528,40 +528,436 @@ Package: amsthm 2020/05/29 v2.20.6
 ) (/usr/share/texmf-dist/tex/latex/beamer/beamerbasethemes.sty)) (/usr/share/texmf-dist/tex/latex/beamer/beamerthemedefault.sty (/usr/share/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
 \beamer@dima=\dimen290
 \beamer@dimb=\dimen291
-) (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/usr/share/texmf-dist/tex/latex/braket/braket.sty) (/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+) (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/usr/share/texmf-dist/tex/latex/beamertheme-metropolis/beamerthememetropolis.sty
+Package: beamerthememetropolis 2017/01/23 v1.2 Metropolis Beamer theme
+ (/usr/share/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks45
+\pgfopts@list@add@b@toks=\toks46
+) (/usr/share/texmf-dist/tex/latex/beamertheme-metropolis/beamerinnerthememetropolis.sty
+Package: beamerinnerthememetropolis 2017/01/23 Metropolis inner theme
+ (/usr/share/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count332
+\calc@Bcount=\count333
+\calc@Adimen=\dimen292
+\calc@Bdimen=\dimen293
+\calc@Askip=\skip64
+\calc@Bskip=\skip65
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count334
+\calc@Cskip=\skip66
+) (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box76
+) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen294
+\pgf@nodesepend=\dimen295
+) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen296
+\pgffor@skip=\dimen297
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
+)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count335
+\pgfplotmarksize=\dimen298
+)
+\tikz@lastx=\dimen299
+\tikz@lasty=\dimen300
+\tikz@lastxsaved=\dimen301
+\tikz@lastysaved=\dimen302
+\tikz@lastmovetox=\dimen303
+\tikz@lastmovetoy=\dimen304
+\tikzleveldistance=\dimen305
+\tikzsiblingdistance=\dimen306
+\tikz@figbox=\box77
+\tikz@figbox@bg=\box78
+\tikz@tempbox=\box79
+\tikz@tempbox@bg=\box80
+\tikztreelevel=\count336
+\tikznumberofchildren=\count337
+\tikznumberofcurrentchild=\count338
+\tikz@fig@count=\count339
+ (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count340
+\pgfmatrixcurrentcolumn=\count341
+\pgf@matrix@numberofcolumns=\count342
+)
+\tikz@expandcount=\count343
+ (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+\metropolis@titleseparator@linewidth=\skip67
+\metropolis@progressonsectionpage=\skip68
+\metropolis@progressonsectionpage@linewidth=\skip69
+\metropolis@blocksep=\skip70
+\metropolis@blockadjust=\skip71
+\metropolis@parskip=\skip72
+) (/usr/share/texmf-dist/tex/latex/beamertheme-metropolis/beamerouterthememetropolis.sty
+Package: beamerouterthememetropolis 2017/01/23 Metropolis outer theme
+\metropolis@frametitle@padding=\skip73
+\metropolis@progressinheadfoot=\skip74
+\metropolis@progressinheadfoot@linewidth=\skip75
+)
+(/usr/share/texmf-dist/tex/latex/beamertheme-metropolis/beamercolorthememetropolis.sty
+Package: beamercolorthememetropolis 2017/01/23 Metropolis color theme
+) (/usr/share/texmf-dist/tex/latex/beamertheme-metropolis/beamerfontthememetropolis.sty
+Package: beamerfontthememetropolis 2017/01/23 Metropolis font theme
+ (/usr/share/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+) (/usr/share/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2022-04-10 L3 programming layer (loader) 
  (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2022-04-14 L3 backend support: XeTeX
-\l__color_backend_stack_int=\count332
-\g__color_backend_stack_int=\count333
-\g__graphics_track_int=\count334
-\l__pdf_internal_box=\box76
-\g__pdf_backend_object_int=\count335
-\g__pdf_backend_annotation_int=\count336
-\g__pdf_backend_link_int=\count337
+\l__color_backend_stack_int=\count344
+\g__color_backend_stack_int=\count345
+\g__graphics_track_int=\count346
+\l__pdf_internal_box=\box81
+\g__pdf_backend_object_int=\count347
+\g__pdf_backend_annotation_int=\count348
+\g__pdf_backend_link_int=\count349
 ))
 Package: xparse 2022-01-12 L3 Experimental document command parser
 )
 Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
  (/usr/share/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
-\l__fontspec_script_int=\count338
-\l__fontspec_language_int=\count339
-\l__fontspec_strnum_int=\count340
-\l__fontspec_tmp_int=\count341
-\l__fontspec_tmpa_int=\count342
-\l__fontspec_tmpb_int=\count343
-\l__fontspec_tmpc_int=\count344
-\l__fontspec_em_int=\count345
-\l__fontspec_emdef_int=\count346
-\l__fontspec_strong_int=\count347
-\l__fontspec_strongdef_int=\count348
-\l__fontspec_tmpa_dim=\dimen292
-\l__fontspec_tmpb_dim=\dimen293
-\l__fontspec_tmpc_dim=\dimen294
+\l__fontspec_script_int=\count350
+\l__fontspec_language_int=\count351
+\l__fontspec_strnum_int=\count352
+\l__fontspec_tmp_int=\count353
+\l__fontspec_tmpa_int=\count354
+\l__fontspec_tmpb_int=\count355
+\l__fontspec_tmpc_int=\count356
+\l__fontspec_em_int=\count357
+\l__fontspec_emdef_int=\count358
+\l__fontspec_strong_int=\count359
+\l__fontspec_strongdef_int=\count360
+\l__fontspec_tmpa_dim=\dimen307
+\l__fontspec_tmpb_dim=\dimen308
+\l__fontspec_tmpc_dim=\dimen309
  (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+) (/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+\c@fontsnotfound=\count361
+
+Package fontspec Info: Font family 'FiraSansLight(0)' created for font 'Fira
+(fontspec)             Sans Light' with options
+(fontspec)             [Ligatures=TeX,ItalicFont={Fira Sans Light
+(fontspec)             Italic},BoldFont={Fira Sans},BoldItalicFont={Fira Sans
+(fontspec)             Italic}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Fira Sans
+(fontspec)             Light/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Fira Sans
+(fontspec)             Light/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Fira
+(fontspec)             Sans/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"Fira
+(fontspec)             Sans/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Fira Sans Light
+(fontspec)             Italic/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"Fira Sans Light
+(fontspec)             Italic/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Fira Sans
+(fontspec)             Italic/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Fira Sans
+(fontspec)             Italic/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: Could not resolve font "Fira Mono Medium/I" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "Fira Mono/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'FiraMono(0)' created for font 'Fira Mono'
+(fontspec)             with options
+(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=WordSpace,BoldFont={Fira
+(fontspec)             Mono Medium}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Fira
+(fontspec)             Mono/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Fira Mono
+(fontspec)             Medium/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Fira
+(fontspec)             Mono/BI/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+)) (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
+ (/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count362
+ (/usr/share/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count363
+\c@listtotal=\count364
+\c@listcount=\count365
+\c@liststart=\count366
+\c@liststop=\count367
+\c@citecount=\count368
+\c@citetotal=\count369
+\c@multicitecount=\count370
+\c@multicitetotal=\count371
+\c@instcount=\count372
+\c@maxnames=\count373
+\c@minnames=\count374
+\c@maxitems=\count375
+\c@minitems=\count376
+\c@citecounter=\count377
+\c@maxcitecounter=\count378
+\c@savedcitecounter=\count379
+\c@uniquelist=\count380
+\c@uniquename=\count381
+\c@refsection=\count382
+\c@refsegment=\count383
+\c@maxextratitle=\count384
+\c@maxextratitleyear=\count385
+\c@maxextraname=\count386
+\c@maxextradate=\count387
+\c@maxextraalpha=\count388
+\c@abbrvpenalty=\count389
+\c@highnamepenalty=\count390
+\c@lownamepenalty=\count391
+\c@maxparens=\count392
+\c@parenlevel=\count393
+\blx@tempcnta=\count394
+\blx@tempcntb=\count395
+\blx@tempcntc=\count396
+\c@blx@maxsection=\count397
+\c@blx@maxsegment@0=\count398
+\blx@notetype=\count399
+\blx@parenlevel@text=\count400
+\blx@parenlevel@foot=\count401
+\c@blx@sectionciteorder@0=\count402
+\blx@entrysetcounter=\count403
+\blx@biblioinstance=\count404
+\labelnumberwidth=\skip76
+\labelalphawidth=\skip77
+\biblabelsep=\skip78
+\bibitemsep=\skip79
+\bibnamesep=\skip80
+\bibinitsep=\skip81
+\bibparsep=\skip82
+\bibhang=\skip83
+\blx@bcfin=\read3
+\blx@bcfout=\write5
+\blx@langwohyphens=\language87
+\c@mincomprange=\count405
+\c@maxcomprange=\count406
+\c@mincompwidth=\count407
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2022/02/02 v3.17 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count408
+\c@savedafterword=\count409
+\c@annotator=\count410
+\c@savedannotator=\count411
+\c@author=\count412
+\c@savedauthor=\count413
+\c@bookauthor=\count414
+\c@savedbookauthor=\count415
+\c@commentator=\count416
+\c@savedcommentator=\count417
+\c@editor=\count418
+\c@savededitor=\count419
+\c@editora=\count420
+\c@savededitora=\count421
+\c@editorb=\count422
+\c@savededitorb=\count423
+\c@editorc=\count424
+\c@savededitorc=\count425
+\c@foreword=\count426
+\c@savedforeword=\count427
+\c@holder=\count428
+\c@savedholder=\count429
+\c@introduction=\count430
+\c@savedintroduction=\count431
+\c@namea=\count432
+\c@savednamea=\count433
+\c@nameb=\count434
+\c@savednameb=\count435
+\c@namec=\count436
+\c@savednamec=\count437
+\c@translator=\count438
+\c@savedtranslator=\count439
+\c@shortauthor=\count440
+\c@savedshortauthor=\count441
+\c@shorteditor=\count442
+\c@savedshorteditor=\count443
+\c@labelname=\count444
+\c@savedlabelname=\count445
+\c@institution=\count446
+\c@savedinstitution=\count447
+\c@lista=\count448
+\c@savedlista=\count449
+\c@listb=\count450
+\c@savedlistb=\count451
+\c@listc=\count452
+\c@savedlistc=\count453
+\c@listd=\count454
+\c@savedlistd=\count455
+\c@liste=\count456
+\c@savedliste=\count457
+\c@listf=\count458
+\c@savedlistf=\count459
+\c@location=\count460
+\c@savedlocation=\count461
+\c@organization=\count462
+\c@savedorganization=\count463
+\c@origlocation=\count464
+\c@savedoriglocation=\count465
+\c@origpublisher=\count466
+\c@savedorigpublisher=\count467
+\c@publisher=\count468
+\c@savedpublisher=\count469
+\c@language=\count470
+\c@savedlanguage=\count471
+\c@origlanguage=\count472
+\c@savedoriglanguage=\count473
+\c@pageref=\count474
+\c@savedpageref=\count475
+\shorthandwidth=\skip84
+\shortjournalwidth=\skip85
+\shortserieswidth=\skip86
+\shorttitlewidth=\skip87
+\shortauthorwidth=\skip88
+\shorteditorwidth=\skip89
+\locallabelnumberwidth=\skip90
+\locallabelalphawidth=\skip91
+\localshorthandwidth=\skip92
+\localshortjournalwidth=\skip93
+\localshortserieswidth=\skip94
+\localshorttitlewidth=\skip95
+\localshortauthorwidth=\skip96
+\localshorteditorwidth=\skip97
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/blx-unicode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/blx-bibtex.def
+File: blx-bibtex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
+\c@textcitecount=\count476
+\c@textcitetotal=\count477
+\c@textcitemaxnames=\count478
+\c@biburlbigbreakpenalty=\count479
+\c@biburlbreakpenalty=\count480
+\c@biburlnumpenalty=\count481
+\c@biburlucpenalty=\count482
+\c@biburllcpenalty=\count483
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count484
+)
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
+File: authoryear.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count485
+\c@bbx:relatedtotal=\count486
+))
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
+File: authoryear.cbx 2022/02/02 v3.17 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2022-04-10 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (/usr/share/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
+)) (/usr/share/texmf-dist/tex/latex/braket/braket.sty) (/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math.sty
 Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
  (/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
 Package: unicode-math-xetex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
@@ -573,141 +969,219 @@ Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
-\g__um_fam_int=\count349
-\g__um_fonts_used_int=\count350
-\l__um_primecount_int=\count351
-\g__um_primekern_muskip=\muskip18
- (/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex))) (/usr/share/texmf-dist/tex/latex/textpos/textpos.sty
+\g__um_fam_int=\count487
+\g__um_fonts_used_int=\count488
+\l__um_primecount_int=\count489
+\g__um_primekern_muskip=\muskip22
+ (/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex))) (/usr/share/texmf-dist/tex/latex/appendixnumberbeamer/appendixnumberbeamer.sty) (/usr/share/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+ (/usr/share/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+ (/usr/share/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+)) (/usr/share/texmf-dist/tex/latex/textpos/textpos.sty
 Package: textpos 2020/09/26 v1.10
 
 Package: textpos 2020/09/26 1.10, absolute positioning of text on the page
 Package textpos Info: choosing support for LaTeX3 on input line 61.
-\TP@textbox=\box77
-\TP@holdbox=\box78
-\TPHorizModule=\dimen295
-\TPVertModule=\dimen296
-\TP@margin=\dimen297
-\TP@absmargin=\dimen298
+\TP@textbox=\box82
+\TP@holdbox=\box83
+\TPHorizModule=\dimen310
+\TPVertModule=\dimen311
+\TP@margin=\dimen312
+\TP@absmargin=\dimen313
 Grid set 16 x 16 = 28.45274pt x 16.00467pt
-\TPboxrulesize=\dimen299
-\TP@ox=\dimen300
-\TP@oy=\dimen301
-\TP@tbargs=\toks45
+\TPboxrulesize=\dimen314
+\TP@ox=\dimen315
+\TP@oy=\dimen316
+\TP@tbargs=\toks49
 TextBlockOrigin set to 0pt x 0pt
-) (/usr/share/texmf-dist/tex/latex/beamertheme-focus/beamerthemefocus.sty
-Package: beamerthemefocus 2022/03/09 v3.3.0 Focus Beamer theme
- (/usr/share/texmf-dist/tex/latex/beamertheme-focus/beamercolorthemefocus.sty) (/usr/share/texmf-dist/tex/latex/beamertheme-focus/beamerfontthemefocus.sty) (/usr/share/texmf-dist/tex/latex/beamertheme-focus/beamerinnerthemefocus.sty (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
- (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box79
-) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen302
-\pgf@nodesepend=\dimen303
-) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
-)) (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
- (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen304
-\pgffor@skip=\dimen305
-\pgffor@stack=\toks46
-\pgffor@toks=\toks47
-)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
- (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count352
-\pgfplotmarksize=\dimen306
 )
-\tikz@lastx=\dimen307
-\tikz@lasty=\dimen308
-\tikz@lastxsaved=\dimen309
-\tikz@lastysaved=\dimen310
-\tikz@lastmovetox=\dimen311
-\tikz@lastmovetoy=\dimen312
-\tikzleveldistance=\dimen313
-\tikzsiblingdistance=\dimen314
-\tikz@figbox=\box80
-\tikz@figbox@bg=\box81
-\tikz@tempbox=\box82
-\tikz@tempbox@bg=\box83
-\tikztreelevel=\count353
-\tikznumberofchildren=\count354
-\tikznumberofcurrentchild=\count355
-\tikz@fig@count=\count356
- (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count357
-\pgfmatrixcurrentcolumn=\count358
-\pgf@matrix@numberofcolumns=\count359
-)
-\tikz@expandcount=\count360
- (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)))) (/usr/share/texmf-dist/tex/latex/beamertheme-focus/beamerouterthemefocus.sty (/usr/share/texmf-dist/tex/latex/appendixnumberbeamer/appendixnumberbeamer.sty) (/usr/share/texmf-dist/tex/latex/bookmark/bookmark.sty
-Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
- (/usr/share/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
-File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
-\BKM@id=\count361
-))
-\c@realframenumber=\count362
-\focus@pbar@height=\skip64
-\focus@pbar@leftoffset=\skip65
-\focus@pbar@rightoffset=\skip66
-))
 
-Package fontspec Info: Could not resolve font "FiraCode Nerd Font/I" (it
-(fontspec)             probably doesn't exist).
+Package fontspec Info: Could not resolve font "Fira Math/B" (it probably
+(fontspec)             doesn't exist).
 
 
-Package fontspec Info: Font family 'FiraCodeNerdFont(0)' created for font
-(fontspec)             'FiraCode Nerd Font' with options [Ligatures=TeX].
+Package fontspec Info: Font family 'FiraMath(0)' created for font 'Fira Math'
+(fontspec)             with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"FiraCode Nerd
-(fontspec)             Font/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Fira
+(fontspec)             Math/OT:script=math;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"FiraCode Nerd
-(fontspec)             Font/B/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"FiraCode
-(fontspec)             Nerd
-(fontspec)             Font/BI/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 
-Package fontspec Info: Could not resolve font "FiraCode Nerd Font/I" (it
-(fontspec)             probably doesn't exist).
+Package fontspec Info: Could not resolve font "Fira Math/B" (it probably
+(fontspec)             doesn't exist).
 
 
-Package fontspec Info: Font family 'FiraCodeNerdFont(1)' created for font
-(fontspec)             'FiraCode Nerd Font' with options [].
+Package fontspec Info: Font family 'FiraMath(1)' created for font 'Fira Math'
+(fontspec)             with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=6.88-},{Size=5.2-6.88,Font=Fira
+(fontspec)             Math,Style=MathScript},{Size=-5.2,Font=Fira
+(fontspec)             Math,Style=MathScriptScript}}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"FiraCode Nerd
-(fontspec)             Font/OT:script=latn;language=dflt;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <6.88->"Fira
+(fontspec)             Math/OT:script=math;language=dflt;"<5.2-6.88>"Fira
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=0;"<-5.2>"Fira
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"FiraCode Nerd
-(fontspec)             Font/B/OT:script=latn;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"FiraCode
-(fontspec)             Nerd Font/BI/OT:script=latn;language=dflt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/FiraCodeNerdFont(1)/m/n on input line 19.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/FiraCodeNerdFont(1)/m/it on input line 19.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/FiraCodeNerdFont(1)/b/n on input line 19.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 55.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/FiraMath(1)/m/n on input line 55.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 55.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/FiraMath(1)/b/n on input line 55.
+
+Package fontspec Info: Fira Math scale = 1.0001.
+
+
+Package fontspec Info: Could not resolve font "Fira Math/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Fira Math scale = 1.0001.
+
+
+Package fontspec Info: Fira Math scale = 1.0001.
+
+
+Package fontspec Info: Fira Math scale = 1.0001.
+
+
+Package fontspec Info: Font family 'FiraMath(2)' created for font 'Fira Math'
+(fontspec)             with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=6.88-},{Size=5.2-6.88,Font=Fira
+(fontspec)             Math,Style=MathScript},{Size=-5.2,Font=Fira
+(fontspec)             Math,Style=MathScriptScript}},ScaleAgain=1.0001,FontAdjustment={\fontdimen
+(fontspec)             8\font =4.64pt\relax \fontdimen 9\font =3.6pt\relax
+(fontspec)             \fontdimen 10\font =3.6pt\relax \fontdimen 11\font
+(fontspec)             =5.6pt\relax \fontdimen 12\font =3.84pt\relax
+(fontspec)             \fontdimen 13\font =3.2pt\relax \fontdimen 14\font
+(fontspec)             =3.2pt\relax \fontdimen 15\font =2.16pt\relax
+(fontspec)             \fontdimen 16\font =2.8pt\relax \fontdimen 17\font
+(fontspec)             =2.8pt\relax \fontdimen 18\font =2.88pt\relax
+(fontspec)             \fontdimen 19\font =2.0pt\relax \fontdimen 22\font
+(fontspec)             =2.24pt\relax \fontdimen 20\font =0pt\relax \fontdimen
+(fontspec)             21\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <6.88->s*[1.0001]"Fira
+(fontspec)             Math/OT:script=math;language=dflt;"<5.2-6.88>s*[1.0001]"Fira
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=0;"<-5.2>s*[1.0001]"Fira
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =4.64pt\relax \fontdimen 9\font
+(fontspec)             =3.6pt\relax \fontdimen 10\font =3.6pt\relax \fontdimen
+(fontspec)             11\font =5.6pt\relax \fontdimen 12\font =3.84pt\relax
+(fontspec)             \fontdimen 13\font =3.2pt\relax \fontdimen 14\font
+(fontspec)             =3.2pt\relax \fontdimen 15\font =2.16pt\relax
+(fontspec)             \fontdimen 16\font =2.8pt\relax \fontdimen 17\font
+(fontspec)             =2.8pt\relax \fontdimen 18\font =2.88pt\relax
+(fontspec)             \fontdimen 19\font =2.0pt\relax \fontdimen 22\font
+(fontspec)             =2.24pt\relax \fontdimen 20\font =0pt\relax \fontdimen
+(fontspec)             21\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 55.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> TU/FiraMath(2)/m/n on input line 55.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 55.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> TU/FiraMath(2)/b/n on input line 55.
+
+Package fontspec Info: Fira Math scale = 0.9999.
+
+
+Package fontspec Info: Could not resolve font "Fira Math/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Fira Math scale = 0.9999.
+
+
+Package fontspec Info: Fira Math scale = 0.9999.
+
+
+Package fontspec Info: Fira Math scale = 0.9999.
+
+
+Package fontspec Info: Font family 'FiraMath(3)' created for font 'Fira Math'
+(fontspec)             with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=6.88-},{Size=5.2-6.88,Font=Fira
+(fontspec)             Math,Style=MathScript},{Size=-5.2,Font=Fira
+(fontspec)             Math,Style=MathScriptScript}},ScaleAgain=0.9999,FontAdjustment={\fontdimen
+(fontspec)             8\font =0.608pt\relax \fontdimen 9\font =1.2pt\relax
+(fontspec)             \fontdimen 10\font =1.2pt\relax \fontdimen 11\font
+(fontspec)             =1.2pt\relax \fontdimen 12\font =4.8pt\relax \fontdimen
+(fontspec)             13\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <6.88->s*[0.9999]"Fira
+(fontspec)             Math/OT:script=math;language=dflt;"<5.2-6.88>s*[0.9999]"Fira
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=0;"<-5.2>s*[0.9999]"Fira
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.608pt\relax \fontdimen 9\font
+(fontspec)             =1.2pt\relax \fontdimen 10\font =1.2pt\relax \fontdimen
+(fontspec)             11\font =1.2pt\relax \fontdimen 12\font =4.8pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 55.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> TU/FiraMath(3)/m/n on input line 55.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 55.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> TU/FiraMath(3)/b/n on input line 55.
+
+Package fontspec Info: Could not resolve font "Latin Modern Math/B" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Font family 'LatinModernMath(0)' created for font
+(fontspec)             'Latin Modern Math' with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=6.88-},{Size=5.2-6.88,Font=Latin
+(fontspec)             Modern Math,Style=MathScript},{Size=-5.2,Font=Latin
+(fontspec)             Modern Math,Style=MathScriptScript}}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <6.88->"Latin Modern
+(fontspec)             Math/OT:script=math;language=dflt;"<5.2-6.88>"Latin
+(fontspec)             Modern
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=0;"<-5.2>"Latin
+(fontspec)             Modern Math/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+\sym__um_fam1=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `normal'
+(Font)                  TU/LatinModernMath(0)/m/n --> TU/LatinModernMath(0)/m/n on input line 55.
+LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `bold'
+(Font)                  TU/LatinModernMath(0)/m/n --> TU/LatinModernMath(0)/b/n on input line 55.
 
 Package fontspec Info: Font family 'FiraSans(0)' created for font 'Fira Sans'
 (fontspec)             with options [Ligatures=TeX].
@@ -759,503 +1233,43 @@ Package fontspec Info: Font family 'FiraSans(1)' created for font 'Fira Sans'
 (fontspec)             <->"Fira Sans/BI/OT:script=latn;language=dflt;+smcp;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/FiraSans(1)/m/n on input line 20.
+(Font)                  OT1/cmss/m/n --> TU/FiraSans(1)/m/n on input line 57.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/FiraSans(1)/b/n on input line 20.
-
-Package fontspec Info: Could not resolve font "Fira Math/B" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Font family 'FiraMath(0)' created for font 'Fira Math'
-(fontspec)             with options
-(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Fira
-(fontspec)             Math/OT:script=math;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-
-
-Package fontspec Info: Could not resolve font "Fira Math/B" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Font family 'FiraMath(1)' created for font 'Fira Math'
-(fontspec)             with options
-(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.6-},{Size=6.5-8.6,Font=Fira
-(fontspec)             Math,Style=MathScript},{Size=-6.5,Font=Fira
-(fontspec)             Math,Style=MathScriptScript}}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <8.6->"Fira
-(fontspec)             Math/OT:script=math;language=dflt;"<6.5-8.6>"Fira
-(fontspec)             Math/OT:script=math;language=dflt;+ssty=0;"<-6.5>"Fira
-(fontspec)             Math/OT:script=math;language=dflt;+ssty=1;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 21.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/FiraMath(1)/m/n on input line 21.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 21.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/FiraMath(1)/b/n on input line 21.
-
-Package fontspec Info: Fira Math scale = 1.0001.
-
-
-Package fontspec Info: Could not resolve font "Fira Math/B" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Fira Math scale = 1.0001.
-
-
-Package fontspec Info: Fira Math scale = 1.0001.
-
-
-Package fontspec Info: Fira Math scale = 1.0001.
-
-
-Package fontspec Info: Font family 'FiraMath(2)' created for font 'Fira Math'
-(fontspec)             with options
-(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.6-},{Size=6.5-8.6,Font=Fira
-(fontspec)             Math,Style=MathScript},{Size=-6.5,Font=Fira
-(fontspec)             Math,Style=MathScriptScript}},ScaleAgain=1.0001,FontAdjustment={\fontdimen
-(fontspec)             8\font =5.8pt\relax \fontdimen 9\font =4.5pt\relax
-(fontspec)             \fontdimen 10\font =4.5pt\relax \fontdimen 11\font
-(fontspec)             =7.0pt\relax \fontdimen 12\font =4.8pt\relax \fontdimen
-(fontspec)             13\font =4.0pt\relax \fontdimen 14\font =4.0pt\relax
-(fontspec)             \fontdimen 15\font =2.7pt\relax \fontdimen 16\font
-(fontspec)             =3.5pt\relax \fontdimen 17\font =3.5pt\relax \fontdimen
-(fontspec)             18\font =3.6pt\relax \fontdimen 19\font =2.5pt\relax
-(fontspec)             \fontdimen 22\font =2.8pt\relax \fontdimen 20\font
-(fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax }].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <8.6->s*[1.0001]"Fira
-(fontspec)             Math/OT:script=math;language=dflt;"<6.5-8.6>s*[1.0001]"Fira
-(fontspec)             Math/OT:script=math;language=dflt;+ssty=0;"<-6.5>s*[1.0001]"Fira
-(fontspec)             Math/OT:script=math;language=dflt;+ssty=1;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 8\font =5.8pt\relax \fontdimen 9\font
-(fontspec)             =4.5pt\relax \fontdimen 10\font =4.5pt\relax \fontdimen
-(fontspec)             11\font =7.0pt\relax \fontdimen 12\font =4.8pt\relax
-(fontspec)             \fontdimen 13\font =4.0pt\relax \fontdimen 14\font
-(fontspec)             =4.0pt\relax \fontdimen 15\font =2.7pt\relax \fontdimen
-(fontspec)             16\font =3.5pt\relax \fontdimen 17\font =3.5pt\relax
-(fontspec)             \fontdimen 18\font =3.6pt\relax \fontdimen 19\font
-(fontspec)             =2.5pt\relax \fontdimen 22\font =2.8pt\relax \fontdimen
-(fontspec)             20\font =0pt\relax \fontdimen 21\font =0pt\relax 
-
-LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 21.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> TU/FiraMath(2)/m/n on input line 21.
-LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 21.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> TU/FiraMath(2)/b/n on input line 21.
-
-Package fontspec Info: Fira Math scale = 0.9999.
-
-
-Package fontspec Info: Could not resolve font "Fira Math/B" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Fira Math scale = 0.9999.
-
-
-Package fontspec Info: Fira Math scale = 0.9999.
-
-
-Package fontspec Info: Fira Math scale = 0.9999.
-
-
-Package fontspec Info: Font family 'FiraMath(3)' created for font 'Fira Math'
-(fontspec)             with options
-(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.6-},{Size=6.5-8.6,Font=Fira
-(fontspec)             Math,Style=MathScript},{Size=-6.5,Font=Fira
-(fontspec)             Math,Style=MathScriptScript}},ScaleAgain=0.9999,FontAdjustment={\fontdimen
-(fontspec)             8\font =0.76pt\relax \fontdimen 9\font =1.5pt\relax
-(fontspec)             \fontdimen 10\font =1.5pt\relax \fontdimen 11\font
-(fontspec)             =1.5pt\relax \fontdimen 12\font =6.0pt\relax \fontdimen
-(fontspec)             13\font =0pt\relax }].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <8.6->s*[0.9999]"Fira
-(fontspec)             Math/OT:script=math;language=dflt;"<6.5-8.6>s*[0.9999]"Fira
-(fontspec)             Math/OT:script=math;language=dflt;+ssty=0;"<-6.5>s*[0.9999]"Fira
-(fontspec)             Math/OT:script=math;language=dflt;+ssty=1;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 8\font =0.76pt\relax \fontdimen 9\font
-(fontspec)             =1.5pt\relax \fontdimen 10\font =1.5pt\relax \fontdimen
-(fontspec)             11\font =1.5pt\relax \fontdimen 12\font =6.0pt\relax
-(fontspec)             \fontdimen 13\font =0pt\relax 
-
-LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 21.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> TU/FiraMath(3)/m/n on input line 21.
-LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 21.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> TU/FiraMath(3)/b/n on input line 21.
-
-Package fontspec Info: Could not resolve font "Latin Modern Math/B" (it
-(fontspec)             probably doesn't exist).
-
-
-Package fontspec Info: Font family 'LatinModernMath(0)' created for font
-(fontspec)             'Latin Modern Math' with options
-(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.6-},{Size=6.5-8.6,Font=Latin
-(fontspec)             Modern Math,Style=MathScript},{Size=-6.5,Font=Latin
-(fontspec)             Modern Math,Style=MathScriptScript}}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <8.6->"Latin Modern
-(fontspec)             Math/OT:script=math;language=dflt;"<6.5-8.6>"Latin
-(fontspec)             Modern
-(fontspec)             Math/OT:script=math;language=dflt;+ssty=0;"<-6.5>"Latin
-(fontspec)             Modern Math/OT:script=math;language=dflt;+ssty=1;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-
-\sym__um_fam1=\mathgroup6
-LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `normal'
-(Font)                  TU/LatinModernMath(0)/m/n --> TU/LatinModernMath(0)/m/n on input line 21.
-LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `bold'
-(Font)                  TU/LatinModernMath(0)/m/n --> TU/LatinModernMath(0)/b/n on input line 21.
- (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
- (/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count363
- (/usr/share/texmf-dist/tex/latex/logreq/logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (/usr/share/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
-)
-\c@tabx@nest=\count364
-\c@listtotal=\count365
-\c@listcount=\count366
-\c@liststart=\count367
-\c@liststop=\count368
-\c@citecount=\count369
-\c@citetotal=\count370
-\c@multicitecount=\count371
-\c@multicitetotal=\count372
-\c@instcount=\count373
-\c@maxnames=\count374
-\c@minnames=\count375
-\c@maxitems=\count376
-\c@minitems=\count377
-\c@citecounter=\count378
-\c@maxcitecounter=\count379
-\c@savedcitecounter=\count380
-\c@uniquelist=\count381
-\c@uniquename=\count382
-\c@refsection=\count383
-\c@refsegment=\count384
-\c@maxextratitle=\count385
-\c@maxextratitleyear=\count386
-\c@maxextraname=\count387
-\c@maxextradate=\count388
-\c@maxextraalpha=\count389
-\c@abbrvpenalty=\count390
-\c@highnamepenalty=\count391
-\c@lownamepenalty=\count392
-\c@maxparens=\count393
-\c@parenlevel=\count394
-\blx@tempcnta=\count395
-\blx@tempcntb=\count396
-\blx@tempcntc=\count397
-\c@blx@maxsection=\count398
-\c@blx@maxsegment@0=\count399
-\blx@notetype=\count400
-\blx@parenlevel@text=\count401
-\blx@parenlevel@foot=\count402
-\c@blx@sectionciteorder@0=\count403
-\blx@entrysetcounter=\count404
-\blx@biblioinstance=\count405
-\labelnumberwidth=\skip67
-\labelalphawidth=\skip68
-\biblabelsep=\skip69
-\bibitemsep=\skip70
-\bibnamesep=\skip71
-\bibinitsep=\skip72
-\bibparsep=\skip73
-\bibhang=\skip74
-\blx@bcfin=\read3
-\blx@bcfout=\write5
-\blx@langwohyphens=\language87
-\c@mincomprange=\count406
-\c@maxcomprange=\count407
-\c@mincompwidth=\count408
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
- (/usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2022/02/02 v3.17 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'authoryear.dbx' not found.
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count409
-\c@savedafterword=\count410
-\c@annotator=\count411
-\c@savedannotator=\count412
-\c@author=\count413
-\c@savedauthor=\count414
-\c@bookauthor=\count415
-\c@savedbookauthor=\count416
-\c@commentator=\count417
-\c@savedcommentator=\count418
-\c@editor=\count419
-\c@savededitor=\count420
-\c@editora=\count421
-\c@savededitora=\count422
-\c@editorb=\count423
-\c@savededitorb=\count424
-\c@editorc=\count425
-\c@savededitorc=\count426
-\c@foreword=\count427
-\c@savedforeword=\count428
-\c@holder=\count429
-\c@savedholder=\count430
-\c@introduction=\count431
-\c@savedintroduction=\count432
-\c@namea=\count433
-\c@savednamea=\count434
-\c@nameb=\count435
-\c@savednameb=\count436
-\c@namec=\count437
-\c@savednamec=\count438
-\c@translator=\count439
-\c@savedtranslator=\count440
-\c@shortauthor=\count441
-\c@savedshortauthor=\count442
-\c@shorteditor=\count443
-\c@savedshorteditor=\count444
-\c@labelname=\count445
-\c@savedlabelname=\count446
-\c@institution=\count447
-\c@savedinstitution=\count448
-\c@lista=\count449
-\c@savedlista=\count450
-\c@listb=\count451
-\c@savedlistb=\count452
-\c@listc=\count453
-\c@savedlistc=\count454
-\c@listd=\count455
-\c@savedlistd=\count456
-\c@liste=\count457
-\c@savedliste=\count458
-\c@listf=\count459
-\c@savedlistf=\count460
-\c@location=\count461
-\c@savedlocation=\count462
-\c@organization=\count463
-\c@savedorganization=\count464
-\c@origlocation=\count465
-\c@savedoriglocation=\count466
-\c@origpublisher=\count467
-\c@savedorigpublisher=\count468
-\c@publisher=\count469
-\c@savedpublisher=\count470
-\c@language=\count471
-\c@savedlanguage=\count472
-\c@origlanguage=\count473
-\c@savedoriglanguage=\count474
-\c@pageref=\count475
-\c@savedpageref=\count476
-\shorthandwidth=\skip75
-\shortjournalwidth=\skip76
-\shortserieswidth=\skip77
-\shorttitlewidth=\skip78
-\shortauthorwidth=\skip79
-\shorteditorwidth=\skip80
-\locallabelnumberwidth=\skip81
-\locallabelalphawidth=\skip82
-\localshorthandwidth=\skip83
-\localshortjournalwidth=\skip84
-\localshortserieswidth=\skip85
-\localshorttitlewidth=\skip86
-\localshortauthorwidth=\skip87
-\localshorteditorwidth=\skip88
-Package biblatex Info: Trying to load enhanced support for Unicode engines...
-Package biblatex Info: ... file 'blx-unicode.def' found.
- (/usr/share/texmf-dist/tex/latex/biblatex/blx-unicode.def)
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
- (/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load BibTeX backend compatibility...
-Package biblatex Info: ... file 'blx-bibtex.def' found.
- (/usr/share/texmf-dist/tex/latex/biblatex/blx-bibtex.def
-File: blx-bibtex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
-
-
-Package biblatex Warning: Using fall-back BibTeX(8) backend:
-(biblatex)                functionality may be reduced/unavailable.
-
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
- (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
-\c@textcitecount=\count477
-\c@textcitetotal=\count478
-\c@textcitemaxnames=\count479
-\c@biburlbigbreakpenalty=\count480
-\c@biburlbreakpenalty=\count481
-\c@biburlnumpenalty=\count482
-\c@biburlucpenalty=\count483
-\c@biburllcpenalty=\count484
-\biburlbigskip=\muskip19
-\biburlnumskip=\muskip20
-\biburlucskip=\muskip21
-\biburllcskip=\muskip22
-\c@smartand=\count485
-)
-Package biblatex Info: Trying to load bibliography style 'authoryear'...
-Package biblatex Info: ... file 'authoryear.bbx' found.
- (/usr/share/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
-File: authoryear.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
- (/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count486
-\c@bbx:relatedtotal=\count487
-))
-Package biblatex Info: Trying to load citation style 'authoryear'...
-Package biblatex Info: ... file 'authoryear.cbx' found.
- (/usr/share/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
-File: authoryear.cbx 2022/02/02 v3.17 biblatex citation style (PK/MW)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
- (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg
-File: biblatex.cfg 
-)
-Package biblatex Info: XeTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
-Package biblatex Info: Document encoding is UTF8 ....
-Package biblatex Info: ... and expl3
-(biblatex)             2022-04-10 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
- (/usr/share/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
-Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
-))
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 54.
+(Font)                  OT1/cmss/bx/n --> TU/FiraSans(1)/bx/n on input line 57.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 54.
+(hyperref)                removing `\translate ' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@centercr' on input line 54.
+(hyperref)                removing `\\' on input line 80.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightskip' on input line 54.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@flushglue' on input line 54.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leftskip' on input line 54.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@flushglue' on input line 54.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\finalhyphendemerits' on input line 54.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 54.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\parindent' on input line 54.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 54.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\parfillskip' on input line 54.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@skip' on input line 54.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 54.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 54.
-
-\@quotelevel=\count488
-\@quotereset=\count489
+\@quotelevel=\count490
+\@quotereset=\count491
 (./jrf-srf.aux)
 \openout1 = `jrf-srf.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1265,23 +1279,23 @@ LaTeX Font Info:    ... okay on input line 59.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(21.33955pt, 412.56497pt, 21.33955pt)
+* h-part:(L,W,R)=(28.45274pt, 398.3386pt, 28.45274pt)
 * v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
 * \paperwidth=455.24408pt
 * \paperheight=256.0748pt
-* \textwidth=412.56497pt
+* \textwidth=398.3386pt
 * \textheight=227.62207pt
-* \oddsidemargin=-50.93044pt
-* \evensidemargin=-50.93044pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
-* \topskip=10.0pt
+* \topskip=9.0pt
 * \footskip=14.22636pt
-* \marginparwidth=3.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=7.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1291,7 +1305,7 @@ LaTeX Font Info:    ... okay on input line 59.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 59.
+Package hyperref Info: Link coloring OFF on input line 86.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1299,11 +1313,15 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count490
+\c@section@level=\count492
 )
-LaTeX Info: Redefining \ref on input line 59.
-LaTeX Info: Redefining \pageref on input line 59.
-LaTeX Info: Redefining \nameref on input line 59.
+LaTeX Info: Redefining \ref on input line 86.
+LaTeX Info: Redefining \pageref on input line 86.
+LaTeX Info: Redefining \nameref on input line 86.
+ (./jrf-srf.out) (./jrf-srf.out)
+\@outlinefile=\write6
+\openout6 = `jrf-srf.out'.
+
  (/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/share/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -1317,10 +1335,6 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (/usr/share/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 59.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 59.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1342,6 +1356,16 @@ Package biblatex Info: ... file 'jrf-srf.bbl' found.
 
 Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'anderson_1961':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'anderson_1978':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'andrei_1980':
 (biblatex)                - Invalid format of field 'month'.
 
 
@@ -1376,6 +1400,11 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Cox1988':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'emery_kivelson':
 (biblatex)                - Invalid format of field 'month'.
 
@@ -1396,7 +1425,17 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'kotliar_rmp_2006':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'hrk_wilson_1980':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'maier_2005':
 (biblatex)                - Invalid format of field 'month'.
 
 
@@ -1416,6 +1455,16 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'ohashi_2008':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'parcollet_2004':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'Tsvelick_weigmann_mchannel_1985':
 (biblatex)                - Invalid format of field 'month'.
 
@@ -1430,8 +1479,18 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                - Invalid format of field 'month'.
 
 )
-Package biblatex Info: Reference section=0 on input line 59.
-Package biblatex Info: Reference segment=0 on input line 59.
+Package biblatex Info: Reference section=0 on input line 86.
+Package biblatex Info: Reference segment=0 on input line 86.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  TU/FiraMath(1)/m/n --> TU/lmr/m/n on input line 86.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 86.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 86.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 86.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/bx/n on input line 86.
  (./jrf-srf.nav)
 File: figures/epqm_logo_mod.jpeg Graphic file (type bmp)
 <figures/epqm_logo_mod.jpeg>
@@ -1439,25 +1498,27 @@ File: figures/dps_logo.jpeg Graphic file (type bmp)
 <figures/dps_logo.jpeg>
 File: figures/IISER-K_Logo.png Graphic file (type bmp)
 <figures/IISER-K_Logo.png>
- [1
 
-] [2
+Overfull \vbox (21.19493pt too high) detected at line 100
+ []
 
-] [3
+[1
 
 ]
+File: ./figures/summary.pdf Graphic file (type pdf)
+<use ./figures/summary.pdf>
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 114.
+(Font)              scaled to size 8.00085pt on input line 114.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 7.20076pt on input line 114.
+(Font)              scaled to size 5.7606pt on input line 114.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 5.80061pt on input line 114.
+(Font)              scaled to size 4.64049pt on input line 114.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 114.
+(Font)              scaled to size 7.99915pt on input line 114.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 7.19922pt on input line 114.
+(Font)              scaled to size 5.75937pt on input line 114.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 5.79938pt on input line 114.
+(Font)              scaled to size 4.6395pt on input line 114.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 114.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1466,144 +1527,128 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 114.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-File: ./figures//kondo-effect.pdf Graphic file (type pdf)
-<use ./figures//kondo-effect.pdf>
- [4
+File: ./figures/summary2.pdf Graphic file (type pdf)
+<use ./figures/summary2.pdf>
+ [2
 
-]
-File: ./figures//chi_parts.pdf Graphic file (type pdf)
-<use ./figures//chi_parts.pdf>
-File: ./figures//entropy_therm.pdf Graphic file (type pdf)
-<use ./figures//entropy_therm.pdf>
- [5
-
-]
-File: ./figures//stargraph.pdf Graphic file (type pdf)
-<use ./figures//stargraph.pdf>
- [6
-
-]
-File: ./figures//CentralFieldChiPowerlaw.pdf Graphic file (type pdf)
-<use ./figures//CentralFieldChiPowerlaw.pdf>
-File: ./figures//discmagimpgen.pdf Graphic file (type pdf)
-<use ./figures//discmagimpgen.pdf>
- [7
+] [3
 
 ]
 File: ./figures//DMFT.pdf Graphic file (type pdf)
 <use ./figures//DMFT.pdf>
 File: ./figures//dos_diff.pdf Graphic file (type pdf)
 <use ./figures//dos_diff.pdf>
- [8
+ [4
 
-]
-File: ./figures//phase-map-MIT.pdf Graphic file (type pdf)
-<use ./figures//phase-map-MIT.pdf>
-File: ./figures//odlro_d0.pdf Graphic file (type pdf)
-<use ./figures//odlro_d0.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 191--191
-[][]
- []
-
-
-Overfull \vbox (3.82332pt too high) detected at line 191
- []
-
-[9
+] [5
 
 ]
 File: ./figures//standard-siam.pdf Graphic file (type pdf)
 <use ./figures//standard-siam.pdf>
 File: ./figures//zeromode_bare.pdf Graphic file (type pdf)
 <use ./figures//zeromode_bare.pdf>
- [10
+ [6
+
+] [7
+
+] [8
+
+] [9
+
+] [10
+
+] [11
+
+] [12
 
 ]
 File: ./figures//phase-map-MIT.pdf Graphic file (type pdf)
 <use ./figures//phase-map-MIT.pdf>
- [11
+File: ./figures//odlro_d0.pdf Graphic file (type pdf)
+<use ./figures//odlro_d0.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--232
+[][]
+ []
+
+[13
+
+]
+File: ./figures//phase-map-MIT.pdf Graphic file (type pdf)
+<use ./figures//phase-map-MIT.pdf>
+ [14
 
 ]
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 17.28183pt on input line 269.
+(Font)              scaled to size 12.00128pt on input line 274.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 269.
+(Font)              scaled to size 6.00064pt on input line 274.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 17.27815pt on input line 269.
+(Font)              scaled to size 11.99872pt on input line 274.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 269.
+(Font)              scaled to size 5.99936pt on input line 274.
 File: ./figures//corrs_gs.pdf Graphic file (type pdf)
 <use ./figures//corrs_gs.pdf>
 File: ./figures//Add.pdf Graphic file (type pdf)
 <use ./figures//Add.pdf>
- [12
+ [15
 
 ]
 
 Package amsmath Warning: Foreign command \atop;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 278.
+(amsmath)                 on input line 283.
 
-[13
+[16
 
 ]
 File: ./figures//entanglement.pdf Graphic file (type pdf)
 <use ./figures//entanglement.pdf>
 File: ./figures//I_k.pdf Graphic file (type pdf)
 <use ./figures//I_k.pdf>
-
-Overfull \vbox (3.75038pt too high) detected at line 294
- []
-
-[14
+ [17
 
 ]
 File: ./figures//odlro_d0.pdf Graphic file (type pdf)
 <use ./figures//odlro_d0.pdf>
 File: ./figures//gen-phase-diagram.pdf Graphic file (type pdf)
 <use ./figures//gen-phase-diagram.pdf>
- [15
+ [18
 
 ]
-File: figures/subsystem-torus.pdf Graphic file (type pdf)
-<use figures/subsystem-torus.pdf>
+File: figures/Matroshka.png Graphic file (type bmp)
+<figures/Matroshka.png>
 File: figures/holography.pdf Graphic file (type pdf)
 <use figures/holography.pdf>
- [16
+ [19
 
 ]
 File: figures/A_mi.pdf Graphic file (type pdf)
 <use figures/A_mi.pdf>
-File: ./figures//curvature-pos.pdf Graphic file (type pdf)
-<use ./figures//curvature-pos.pdf>
- [17
-
-] [18
-
-] [19
-
-] [20
+File: figures/subsystem-torus.pdf Graphic file (type pdf)
+<use figures/subsystem-torus.pdf>
+ [20
 
 ]
-LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 367.
-LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 367.
-LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 367.
-LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 367.
- [21
+File: figures/Matroshka.png Graphic file (type bmp)
+<figures/Matroshka.png>
+File: figures/nested.png Graphic file (type bmp)
+<figures/nested.png>
 
-] [22
+Underfull \hbox (badness 10000) in paragraph at lines 367--367
+[][]
+ []
 
+[21
+
+]
+File: ./figures//curvature-pos.pdf Graphic file (type pdf)
+<use ./figures//curvature-pos.pdf>
+ [22
 
 ] [23
 
-
 ] [24
-
 
 ] [25
 
@@ -1612,69 +1657,89 @@ LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
 ] [27
 
 ]
-File: figures/A_mi.pdf Graphic file (type pdf)
-<use figures/A_mi.pdf>
-File: figures/subsystem-torus.pdf Graphic file (type pdf)
-<use figures/subsystem-torus.pdf>
- [28
 
-]
-File: figures/Matroshka.png Graphic file (type bmp)
-<figures/Matroshka.png>
-File: figures/nested.png Graphic file (type bmp)
-<figures/nested.png>
- [29
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\translate ' on input line 432.
 
-]
-File: ./figures//curvature-pos.pdf Graphic file (type pdf)
-<use ./figures//curvature-pos.pdf>
- [30
+LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 436.
+LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 436.
+[28
+
+] [29
+
+
+] [30
+
 
 ] [31
 
-] [32
-
-] [33
+]
+File: ./figures//kondo-effect.pdf Graphic file (type pdf)
+<use ./figures//kondo-effect.pdf>
+ [32
 
 ]
-LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 9.00096pt on input line 481.
-LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 481.
-LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 481.
-LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 481.
+File: ./figures//chi_parts.pdf Graphic file (type pdf)
+<use ./figures//chi_parts.pdf>
+File: ./figures//entropy_therm.pdf Graphic file (type pdf)
+<use ./figures//entropy_therm.pdf>
+ [33
+
+]
+File: ./figures//stargraph.pdf Graphic file (type pdf)
+<use ./figures//stargraph.pdf>
  [34
 
-] [35
+]
+File: ./figures//CentralFieldChiPowerlaw.pdf Graphic file (type pdf)
+<use ./figures//CentralFieldChiPowerlaw.pdf>
+File: ./figures//discmagimpgen.pdf Graphic file (type pdf)
+<use ./figures//discmagimpgen.pdf>
+ [35
 
-] [36
+]
+File: ./figures//duality.pdf Graphic file (type pdf)
+<use ./figures//duality.pdf>
+ [36
 
 ] [37
 
+] [38
+
+] [39
+
+] [40
+
+] [41
+
+] [42
+
 ]
-\tf@nav=\write6
-\openout6 = `jrf-srf.nav'.
+\tf@nav=\write7
+\openout7 = `jrf-srf.nav'.
 
-\tf@toc=\write7
-\openout7 = `jrf-srf.toc'.
+\tf@toc=\write8
+\openout8 = `jrf-srf.toc'.
 
-\tf@snm=\write8
-\openout8 = `jrf-srf.snm'.
+\tf@snm=\write9
+\openout9 = `jrf-srf.snm'.
 
  (./jrf-srf.aux)
+Package rerunfilecheck Info: File `jrf-srf.out' has not changed.
+(rerunfilecheck)             Checksum: C4E2490695A8BA942BFA9F86C8B7A345;3581.
 Package logreq Info: Writing requests to 'jrf-srf.run.xml'.
 \openout1 = `jrf-srf.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39038 strings out of 476156
- 811495 string characters out of 5814963
- 1415029 words of memory out of 5000000
- 59071 multiletter control sequences out of 15000+600000
- 478746 words of font info for 147 fonts, out of 8000000 for 9000
+ 39417 strings out of 476156
+ 826260 string characters out of 5814963
+ 1442559 words of memory out of 5000000
+ 59420 multiletter control sequences out of 15000+600000
+ 477472 words of font info for 138 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,11n,122p,1839b,5220s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,13n,134p,1913b,5226s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on jrf-srf.xdv (37 pages, 398360 bytes).
+Output written on jrf-srf.xdv (42 pages, 426136 bytes).

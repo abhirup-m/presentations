@@ -1,35 +1,70 @@
 % !TEX program = xelatex
-\documentclass[10pt,aspectratio=169]{beamer}
+\documentclass[8pt,aspectratio=169]{beamer}
+\usetheme[numbering=none,block=fill]{metropolis}
+\usepackage[backend=bibtex,url=false,doi=false,maxcitenames=1, style=authoryear]{biblatex}
+\usepackage{amsthm,amsmath,amssymb,braket,fontspec,unicode-math,appendixnumberbeamer,pifont}
+\usepackage[absolute,overlay]{textpos}
+
+\setbeamertemplate{frametitle continuation}{}
+\setbeamerfont{alerted text}{series=\bfseries}
 
 \makeatletter
 \def\@makefnmark{}
 \makeatletter
 
-\setbeamersize{text margin left=5mm,text margin right=5mm} 
+\makeatletter
+\setlength{\metropolis@titleseparator@linewidth}{2pt}
+\setlength{\metropolis@progressonsectionpage@linewidth}{2pt}
+\setlength{\metropolis@progressinheadfoot@linewidth}{2pt}
+\makeatother
 
-\usepackage{amsthm,amsmath,amssymb,braket,fontspec,unicode-math}
-\usepackage[absolute,overlay]{textpos}
 
-\usetheme[numbering=none,nofirafonts]{focus}
+
+\setbeamertemplate{footline}{%
+  \begin{beamercolorbox}[wd=\textwidth, sep=1ex]{footline}%
+    \hspace{0.3cm}
+    \usebeamerfont{page number in head/foot}%
+    \usebeamertemplate*{frame footer}
+    \hfill%
+    \usebeamertemplate*{frame numbering}
+  \end{beamercolorbox}%
+}
+
+
+\setbeamertemplate{section page}{
+  \begin{minipage}{\linewidth}
+  \centering
+  \raggedright
+  \usebeamercolor[fg]{section title}
+  \usebeamerfont{section title}
+  {\huge \insertsectionhead}\\[-1ex]
+  \usebeamertemplate*{progress bar in section page}
+  \par
+  \ifx\insertsubsectionhead\@empty\else%
+    \usebeamercolor[fg]{subsection title}%
+    \usebeamerfont{subsection title}%
+    \insertsubsectionhead
+  \fi
+  \end{minipage}
+  \par
+  \vspace{\baselineskip}
+}
+
+
+\setmathfont{Fira Math}
+\setmathfont{Latin Modern Math}[range={frak,\bigcap,\bigcup}]
+\setsansfont{Fira Sans}
+
 
 \setbeamercolor{footnote}{fg=blue}
 \setbeamerfont{footnote}{size=\scriptsize}
+\setbeamerfont{title}{size=\huge}
 
-\setmainfont{FiraCode Nerd Font}
-\setsansfont{Fira Sans}
-\setmathfont{Fira Math}
-\setmathfont{Latin Modern Math}[range={frak,\bigcap,\bigcup}]
-\setbeamerfont{title}{size=\LARGE, shape=\scshape}
-\setbeamerfont{author}{size=\large, shape=\scshape}
-\setbeamerfont{institute}{size=\normalsize, shape=\scshape}
-\setbeamerfont{date}{size=\normalsize, shape=\scshape}
-\setbeamerfont{frametitle}{size=\large, shape=\scshape}
-
-\usepackage[backend=bibtex,url=false,doi=false,maxcitenames=1, style=authoryear]{biblatex}
 \bibliography{bib}
 \AtBeginBibliography{\scriptsize}
 
 \newcommand{\focus}[1]{\textcolor{red}{\bf{#1}}}
+\newcommand{\nitem}{\item[\ding{51}]}
 
 \definecolor{red}{HTML}{CC0000}
 \definecolor{lred}{HTML}{e24a33}
@@ -38,23 +73,15 @@
 
 \graphicspath{{./figures/}} % Change the path
 
-\AtBeginSection[]{
-  \vfill
-  \centering
-  \begin{beamercolorbox}[sep=20pt,rounded=true,center]{frametitle}
-    \usebeamerfont{title}\insertsectionhead\par%
-  \end{beamercolorbox}
-  \vfill
-}
 \title{Emergence in free and correlated fermions: from impurity models to the bulk}
 
 \author{
-\centering
-{\Large Abhirup Mukherjee}\vspace*{10pt}\\
-JRF-to-SRF Presentation\hspace*{\fill}Supervisor: Dr. Siddhartha Lal}
+JRF-to-SRF Presentation \hspace*{0.25\textwidth}\today\\[10pt]
+{\bf Abhirup Mukherjee} \hspace*{0.29\textwidth}Supervisor: Dr. Siddhartha Lal}
 
-\institute{Department of Physical Sciences\\
-IISER Kolkata, Mohanpur}
+\institute{\small Department of Physical Sciences, IISER Kolkata, Mohanpur}
+
+\date{}
 
 \begin{document}
 
@@ -62,21 +89,28 @@ IISER Kolkata, Mohanpur}
 
 \begin{frame}
 \maketitle
-\begin{textblock*}{0.6\textwidth}(7cm, 6.5cm)
+\begin{textblock*}{\textwidth}(0.5cm, 7.3cm)
 	\centering
-	\vspace*{\fill}
-
-	\includegraphics[width=0.25\textwidth]{figures/epqm_logo_mod.jpeg}
+	\includegraphics[width=0.1\textwidth]{figures/epqm_logo_mod.jpeg}
 	\hspace*{\fill}
-	\includegraphics[width=0.25\textwidth]{figures/dps_logo.jpeg}
+	\includegraphics[width=0.1\textwidth]{figures/dps_logo.jpeg}
 	\hspace*{\fill}
-	\includegraphics[width=0.25\textwidth]{figures/IISER-K_Logo.png}
-	\vspace*{\fill}
+	\includegraphics[width=0.1\textwidth]{figures/IISER-K_Logo.png}
 \end{textblock*}
 \end{frame}
 
 \begin{frame}{}
+\flushleft
+\includegraphics[width=0.6\textwidth]{./figures/summary.pdf}
+
+\vspace*{40pt}
+
 \section{Summary of Work}
+
+\vspace*{30pt}
+
+\flushright
+\includegraphics[width=0.6\textwidth]{./figures/summary2.pdf}
 \end{frame}
 
 \begin{frame}{Summary of Work}
@@ -84,94 +118,114 @@ IISER Kolkata, Mohanpur}
 {\bf Completed Projects}
 \vspace*{\fill}
 \begin{itemize}
-	\item Single-channel Kondo problem: {\bf Phys. Rev. B 105, 085119} arXiv:2111.10580v3 \\
-	{\small A. Mukherjee, {\it Abhirup Mukherjee}, N. S. Vidhyadhiraja, A. Taraphder, and S. Lal}\\[10pt]
-\item Multi-channel Kondo problem: {\bf under review at PRB}, arXiv:2205.00790\\
-{\small S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphder, S. Lal} \\[10pt]
+\nitem Unveiling the Kondo cloud: Unitary renormalization-group study of the Kondo model \\[2pt]
+\footnotesize{\alert{Phys. Rev. B 105, 085119}, arXiv:2111.10580v3 \\
+A. Mukherjee, {\it Abhirup Mukherjee}, N. S. Vidhyadhiraja, A. Taraphder, and S. Lal}\\[10pt]
+\nitem Frustration shapes multi-channel Kondo physics: A star graph perspective\\[2pt]
+\footnotesize{\alert{under review at PRB}, arXiv:2205.00790\\
+S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphder, S. Lal} \\[10pt]
 \end{itemize}
 \vspace*{\fill}
 
 {\bf Ongoing Projects}
 \vspace*{\fill}
 \begin{itemize}
-	\item Metal-insulator transition in an extended Anderson impurity model\\[10pt]
-	\item Holography and topology of entanglement scaling in free fermions\\[10pt]
-	\item URG-based auxiliary model approach to correlated systems
+	\nitem \underline{Metal-insulator transition in an extended Anderson impurity model} ({\it \footnotesize manuscript in preparation})\\[10pt]
+	\nitem Holography and topology of entanglement scaling in free fermions ({\it \footnotesize manuscript in preparation})\\[10pt]
+	\nitem URG-based auxiliary model approach to correlated systems ({\it \footnotesize ongoing})
 \end{itemize}
 
 \end{frame}
 
 \begin{frame}{}
-\section{Single-channel Kondo problem}
-\begin{minipage}{0.55\textwidth}
-\small{Phys. Rev. B 105, 085119\\[10pt]
-Anirban Mukherjee, {\bf Abhirup Mukherjee}, N. S. Vidhyadhiraja, A. Taraphder, and Siddhartha Lal}
-\end{minipage}
-\hspace*{\fill}
-\begin{minipage}{0.4\textwidth}
-	\includegraphics[width=\textwidth]{kondo-effect.pdf}
-\end{minipage}
-\end{frame}
-
-\begin{frame}{Single-channel Kondo problem ~ ~ Phys. Rev. B 105, 085119}
-\footcite{kondo1964resistance,wilson1975,andreiKondoreview,hewson1993,nozieres1974fermi,anderson1970,tsvelickKondoreview,affleck1993exact,Goldhaber-Gordon1998,Borzenets2020,sakai_osamu_shimizu,costi_hewson_1990,nozaki2012,affleck1995conformal}
-
-\begin{itemize}
-	\item Comparison of impurity spectral function and magnetic susceptibility with NRG
-\item Calculation of local Fermi liq., orthogonality catastrophe and thermal entropy
-\end{itemize}
-\vspace*{\fill}
-
-\includegraphics[width=0.4\textwidth]{chi_parts.pdf}
-\hspace*{\fill}
-\includegraphics[width=0.4\textwidth]{entropy_therm.pdf}
-
-\end{frame}
-
-\begin{frame}{}
-\section{Multi-channel Kondo problem}
-\begin{minipage}{0.55\textwidth}
-\small{arXiv:2205.00790\\[10pt]
-Siddhartha Patra, {\bf Abhirup Mukherjee}, Anirban Mukherjee, N. S. Vidhyadhiraja, A. Taraphder, Siddhartha Lal}
-\end{minipage}
-\hspace*{\fill}
-\begin{minipage}{0.4\textwidth}
-	\includegraphics[width=\textwidth]{stargraph.pdf}
-\end{minipage}
-\end{frame}
-
-\begin{frame}{Multi-channel Kondo problem ~ ~ arXiv:2205.00790}
-\footcite{Noz_blandin_1980,Tsvelick_weigmann_mchannel_1985,affleck1993exact,Gan_mchannel_1994,affleck_1991_overscreen,emery_kivelson,bulla_1998}
-
-\begin{enumerate}
-	\item Intermediate-coupling RG fixed point Hamiltonian and \focus{degenerate} ground states
-	\item Degree of compensation, magnetization and susceptibility show \focus{incomplete screening}
-	\item Local \focus{marginal Fermi liquid} within the low-energy excitations of the bath
-	\item \focus{Duality} relations constrain the RG flows of the MCK model
-\end{enumerate}
-\vspace*{\fill}
-
-\includegraphics[width=0.4\textwidth]{CentralFieldChiPowerlaw.pdf}
-\hspace*{\fill}
-\includegraphics[width=0.4\textwidth]{discmagimpgen.pdf}
-
-\end{frame}
-
-\begin{frame}{}
-\section{Local metal-insulator transition in an extended Anderson impurity model}
-\vspace*{\fill}
+\section{Local MIT in an extended Anderson impurity model}
 
 \begin{minipage}{0.5\textwidth}
-\includegraphics[width=\textwidth]{DMFT.pdf}
+\includegraphics[width=0.8\textwidth]{DMFT.pdf}
 \end{minipage}
 \hspace*{\fill}
 \begin{minipage}{0.45\textwidth}
-\includegraphics[width=\textwidth]{dos_diff.pdf}
+\includegraphics[width=0.8\textwidth]{dos_diff.pdf}
 \end{minipage}
 
 \end{frame}
 
-\begin{frame}{Local metal-insulator transition in an extended Anderson impurity model}
+\begin{frame}{}
+\section{Introducing the extended Anderson impurity model}
+\end{frame}
+
+\begin{frame}{Introducing the extended Anderson impurity model}
+\footcite{anderson_1961,anderson_1978,wilson1974,nozieres1974fermi,hrk_wilson_1980,andrei_1980,tsvelickKondoreview,hewson1993,costi_hewson_1990,costi2000,kuramoto1987,Cox1988,metzner_volhardt_1989,kotliar1996,parcollet_2004,maier_2005,kotliar_rmp_2006,ohashi_2008}
+
+\begin{minipage}{0.5\textwidth}
+{\bf Standard Anderson impurity model\\}
+\begin{itemize}
+	\item no local-moment phase, \(A(\omega)\) gapless
+	\item cannot explain insulating phase of DMFT
+\end{itemize}
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.45\textwidth}
+\includegraphics[width=\textwidth]{standard-siam.pdf}
+\end{minipage}
+
+\vspace*{20pt}
+
+\alert{Gap in spectral function requires additional physics!}
+
+\vspace*{20pt}
+
+\begin{minipage}{0.5\textwidth}
+\textbf{{\it Extended} Anderson impurity model\\}
+\begin{itemize}
+\item impurity-bath spin correlation: \(J\)
+\item bath zeroth site local correlation: \(U_b\)
+\end{itemize}
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.48\textwidth}
+\includegraphics[width=\textwidth]{zeromode_bare.pdf}
+\end{minipage}
+
+\end{frame}
+
+\begin{frame}{}
+\section{Phase Diagram \& Ground-States}
+- phase diagram
+- effective Hamiltonians
+- ground states
+\end{frame}
+
+\begin{frame}{}
+\section{Nature of the transition}
+- gapping of the spectral function
+- destruction of Kondo cloud
+- growth of pairing fluctuations in the bath
+\end{frame}
+
+\begin{frame}{}
+\section{Universal theory near the transition}
+- J-Ub theory
+- two site model level crossing
+\end{frame}
+
+\begin{frame}{}
+\section{Insights into DMFT}
+- equivalence of two sites, as seen through the bath spectral function
+- explanation of coexistence region from the two site spectrum
+- comparison of correlation functions from held-toshi and lee-von delft
+\end{frame}
+
+\begin{frame}{}
+\section{Low-energy excitations of the bath}
+- effective Hamiltonian for the excitations of the bath near the transition
+- emergence of NFL terms at the critical point
+\end{frame}
+
+\begin{frame}{RG Phase diagram: }
+\end{frame}
+
+\begin{frame}{Local MIT in an extended Anderson impurity model}
 \hspace*{-40pt}
 \begin{minipage}{0.65\textwidth}
 \begin{itemize}
@@ -190,44 +244,8 @@ Siddhartha Patra, {\bf Abhirup Mukherjee}, Anirban Mukherjee, N. S. Vidhyadhiraj
 \hspace*{-40pt}
 \end{frame}
 
-\begin{frame}{Introducing the extended Anderson impurity model}
-\footcite{anderson_1961,hrk_wilson_1980,hewson1993,costi_hewson_1990,costi2000,metzner_volhardt_1989,kotliar1996}
-\vspace*{-20pt}
-
-\begin{minipage}{0.5\textwidth}
-	{\bf Standard Anderson impurity model\\}
-\begin{itemize}
-	\item no local-moment phase, \(A(\omega)\) gapless
-	\item cannot explain insulating phase of DMFT
-\end{itemize}
-\end{minipage}
-\hspace*{\fill}
-\begin{minipage}{0.45\textwidth}
-\includegraphics[width=\textwidth]{standard-siam.pdf}
-\end{minipage}
-
-\vspace*{30pt}
-
-\focus{Gap in spectral function requires additional physics!}
-
-\vspace*{30pt}
-
-\begin{minipage}{0.5\textwidth}
-\textbf{ {\it Extended} Anderson impurity model\\}
-\begin{itemize}
-\item impurity-bath spin correlation: \(J\)
-\item bath zeroth site local correlation: \(U_b\)
-\end{itemize}
-\end{minipage}
-\hspace*{\fill}
-\begin{minipage}{0.48\textwidth}
-\includegraphics[width=\textwidth]{zeromode_bare.pdf}
-\end{minipage}
-
-\end{frame}
-
 \begin{frame}{RG Phase Diagram}
-RG equations reveal critical point where \(J,V\) \focus{become irrelevant}\\[10pt]
+RG equations reveal critical point where \(J,V\) \alert{become irrelevant}\\[10pt]
 
 \hspace*{-20pt}
 \begin{minipage}{0.52\textwidth}
@@ -296,8 +314,8 @@ impurity spectral function gaps out
 \begin{frame}{Presence of subdominant pair fluctuations}
 	
 \begin{itemize}
-	\item \focus{pairing tendencies} observed near the quantum critical point\\[10pt]
-	\item might lead to \focus{superconductivity} with doping\\[10pt]
+	\item \alert{pairing tendencies} observed near the quantum critical point\\[10pt]
+	\item might lead to \alert{superconductivity} with doping\\[10pt]
 	\item seen in cuprates, heavy-fermions materials, pnictides, etc\\[10pt]
 \end{itemize}
 \includegraphics[width=0.45\textwidth]{odlro_d0.pdf}
@@ -306,85 +324,23 @@ impurity spectral function gaps out
 \end{frame}
 
 \begin{frame}{}
-\section{Entanglement scaling in free fermions}
+\section{Entanglement scaling in free fermions: holography \& topology}
 
-\hspace*{-10pt}
-\begin{minipage}{0.2\textwidth}
-\includegraphics[width=\textwidth]{figures/subsystem-torus.pdf}
+\begin{minipage}{0.3\textwidth}
+	\includegraphics[width=\textwidth]{figures/Matroshka.png}
 \end{minipage}
 \hspace*{\fill}
-\begin{minipage}{0.7\textwidth}
+\begin{minipage}{0.5\textwidth}
 \includegraphics[width=\textwidth]{figures/holography.pdf}
 \end{minipage}
-\hspace*{-10pt}
-\end{frame}
 
-\begin{frame}{Entanglement scaling in free fermions}
-\hspace*{-40pt}
-\begin{minipage}{0.65\textwidth}
-\begin{itemize}
-	\item Under coarse-graining or fine-graining in \(k-\)space, entanglement of free Dirac fermions shows hierarchical onion-like structure.
-	\item Entanglement scaling can be used to define distances, leads to additional spatial dimension \(\longrightarrow\) holography
-	\item Emergent distances and curvature can be related to RG beta function; the sign of the curvature is topological.
-	\item Pole structure of the entanglement tracks the Luttinger volume - invariant under the scaling transformations
-\end{itemize}
-\end{minipage}
-\hspace*{5pt}
-\begin{minipage}{0.41\textwidth}
-\includegraphics[width=\textwidth]{figures/A_mi.pdf}
-\includegraphics[width=\textwidth]{curvature-pos.pdf}
-\end{minipage}
-\hspace*{-40pt}
-\end{frame}
-
-\begin{frame}{}
-\section{Future Prospects}
-\end{frame}
-
-\begin{frame}{Future Prospects}
-\begin{itemize}
-	\item Better model can be obtained by taking multiple impurities and general impurity filling\\[20pt]
-\item novel auxiliary model method can used for studying other models of strong-correlations as well as topologically active or flat band systems\\[20pt]
-\item The URG can be applied to heavy-fermion materials towards a study of phase diagram and unconventional superconductivity, as well as Kondo insulators\\[20pt]
-\item Interacting systems in a magnetic field is also a potential area of study, specifically fractional Chern insulators (e.g. the fractional quantum hall effects)
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Acknowledgements}
-\flushleft
-Gracious thanks to\\[10pt]
-\begin{itemize}
-	\item my collaborators S. Patra, A. Mukherjee, Prof. A. Taraphdar and Prof. N. S. Vidhyadhiraja,
-	\item Prof. Ritesh Singh and Prof. Anandamohan Ghosh for instructive feedback,
-	\item Prof. H. Casini, Prof. N. Banerjee and Shibendu G. Chowdhury for very fruitful discussions, and
-	\item IISER Kolkata for funding.
-\end{itemize}
-
-\end{frame}
-
-\begin{frame}[allowframebreaks]{References}
-\printbibliography
-\end{frame}
-
-\begin{frame}{}
-\section{Further Details}
-\end{frame}
-
-\begin{frame}{}
-\section{Local metal-insulator transition in extended Anderson impurity model}
-\end{frame}
-
-
-
-\begin{frame}{}
-\section{Entanglement scaling in free fermions}
 \end{frame}
 
 \begin{frame}{Creating subsystems}
-	\[\text{Free Dirac fermions on torus:}~ ~ ~ k_x^n = \frac{2\pi }{L_x} n,~ ~ n \in \mathbb{Z};~~~ \text{define \focus{sparsity}} = \Delta n = 1\]
-	\focus{Simplest} choice: the entire set
+	\[\text{Free Dirac fermions on torus:}~ ~ ~ k_x^n = \frac{2\pi }{L_x} n,~ ~ n \in \mathbb{Z};~~~ \text{define \alert{sparsity}} = \Delta n = 1\]
+	\alert{Simplest} choice: the entire set
 	\[\text{sparsity} = 1 \longrightarrow n \in \left\{-N,-(N-1),-(N-2),\ldots,-1,0,1,\ldots,N-2,N-1,N\right\} \]
-	\focus{Coarser} choices: increase sparsity
+	\alert{Coarser} choices: increase sparsity
 	\[\text{sparsity} = 2 \longrightarrow n \in \left\{-N,-(N-2),-(N-4),\ldots,-2,0,2,\ldots,N-4,N-2,N\right\} \]
 	\[\text{sparsity} = 4 \longrightarrow n \in \left\{-N,-(N-4),-(N-8),\ldots,-4,0,4,\ldots,N-8,N-4,N\right\} \]
 	\centering
@@ -414,18 +370,18 @@ Gracious thanks to\\[10pt]
 
 \begin{itemize}
 	\item 
-presents a \focus{hierarchy} of entanglement \(\longrightarrow\) EE distributed across RG steps\\
+presents a \alert{hierarchy} of entanglement \(\longrightarrow\) EE distributed across RG steps\\
 RG transformation \(\longrightarrow\) reveals entanglement
 
 \vspace*{\fill}
-\item distribution of entanglement also present in \focus{multipartite} entanglement
+\item distribution of entanglement also present in \alert{multipartite} entanglement
 \end{itemize}
 
 \end{frame}
 
 \begin{frame}{Mutual information = distance}
 \footcite{van2010building,lee2016,anirban_mott_2022,lee2010,lee2014,qi2013,lee2016,anirbanurg1,anirbanurg2,ryu2006,ryu2006aspects,nozaki2012}
-\focus{Mutual information}: ~ \(I^2(A:B) \equiv S(A) + S(B) - S(A \cup B)\) ~ ~ ~ (non-negative)\\[10pt]
+\alert{Mutual information}: ~ \(I^2(A:B) \equiv S(A) + S(B) - S(A \cup B)\) ~ ~ ~ (non-negative)\\[10pt]
 
 	\begin{minipage}{0.5\textwidth}
 	Define distances using mut. info.
@@ -441,9 +397,9 @@ RG transformation \(\longrightarrow\) reveals entanglement
 \begin{frame}{RG evolution = emergent distance}
 	\footcite{maldacena1999large,ryu2006aspects,holzhey_1994}
 \begin{itemize}
-	\item Distances and curvature can be related to an RG \focus{beta function}\\[10pt]
-	\item Amounts to an \focus{explicit demonstration} of the holographic principle\\[10pt]
-	\item Sign of curvature is \focus{topological}, can be written in terms of winding numbers\\[10pt]
+	\item Distances and curvature can be related to an RG \alert{beta function}\\[10pt]
+	\item Amounts to an \alert{explicit demonstration} of the holographic principle\\[10pt]
+	\item Sign of curvature is \alert{topological}, can be written in terms of winding numbers\\[10pt]
 \end{itemize}
 	
 \end{frame}
@@ -458,6 +414,123 @@ RG transformation \(\longrightarrow\) reveals entanglement
 	\end{itemize}
 	
 \end{frame}
+
+\begin{frame}{}
+\section{Future Prospects}
+\end{frame}
+
+\begin{frame}{Future Prospects}
+\begin{itemize}
+	\item Better model can be obtained by taking multiple impurities and general impurity filling\\[20pt]
+\item novel auxiliary model method can used for studying other models of strong-correlations as well as topologically active or flat band systems\\[20pt]
+\item The URG can be applied to heavy-fermion materials towards a study of phase diagram and unconventional superconductivity, as well as Kondo insulators\\[20pt]
+\item Interacting systems in a magnetic field is also a potential area of study, specifically fractional Chern insulators (e.g. the fractional quantum hall effects)
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Acknowledgements}
+
+\flushleft
+Gracious thanks to\\[10pt]
+\begin{itemize}
+	\item my collaborators S. Patra, A. Mukherjee, Prof. A. Taraphdar and Prof. N. S. Vidhyadhiraja,
+	\item Prof. Ritesh Singh and Prof. Anandamohan Ghosh for instructive feedback,
+	\item Prof. H. Casini, Prof. N. Banerjee and Shibendu G. Chowdhury for very fruitful discussions, and
+	\item IISER Kolkata for funding.
+\end{itemize}
+
+\end{frame}
+
+\appendix
+
+\begin{frame}[allowframebreaks]{References}
+\printbibliography[heading=none]
+\end{frame}
+
+\begin{frame}{}
+\section{Further Details}
+\end{frame}
+
+\begin{frame}{}
+\section{Theory for the single-channel Kondo cloud}
+\begin{minipage}{0.55\textwidth}
+	\small{{\bf Phys. Rev. B 105, 085119}\\[10pt]
+Anirban Mukherjee, \alert{Abhirup Mukherjee}, N. S. Vidhyadhiraja, A. Taraphder, and Siddhartha Lal}
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.4\textwidth}
+	\includegraphics[width=\textwidth]{kondo-effect.pdf}
+\end{minipage}
+\end{frame}
+
+\begin{frame}{Theory for the single-channel Kondo cloud}
+\footcite{kondo1964resistance,wilson1975,andreiKondoreview,hewson1993,nozieres1974fermi,anderson1970,tsvelickKondoreview,affleck1993exact,Goldhaber-Gordon1998,Borzenets2020,sakai_osamu_shimizu,costi_hewson_1990,nozaki2012,affleck1995conformal}
+
+\begin{minipage}{0.49\textwidth}
+\centering
+\begin{itemize}
+\nitem spectral function \& magnetic susceptibility
+\end{itemize}
+
+\vspace*{10pt}
+
+\includegraphics[width=0.8\textwidth]{chi_parts.pdf}
+\end{minipage}
+\begin{minipage}{0.49\textwidth}
+\centering
+\includegraphics[width=0.8\textwidth]{entropy_therm.pdf}
+
+\vspace*{10pt}
+
+\begin{itemize}
+\nitem local Fermi liq. \& orthogonality catastrophe
+\nitem thermal entropy
+\end{itemize}
+\end{minipage}
+
+\end{frame}
+
+\begin{frame}{}
+\section{Role of degeneracy in the multi-channel Kondo problem}
+\begin{minipage}{0.55\textwidth}
+	\small{{\bf arXiv:2205.00790}\\[10pt]
+Siddhartha Patra, \alert{Abhirup Mukherjee}, Anirban Mukherjee, N. S. Vidhyadhiraja, A. Taraphder, Siddhartha Lal}
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.4\textwidth}
+	\includegraphics[width=\textwidth]{stargraph.pdf}
+\end{minipage}
+\end{frame}
+
+\begin{frame}{Role of degeneracy in the multi-channel Kondo problem}
+\footcite{Noz_blandin_1980,Tsvelick_weigmann_mchannel_1985,affleck1993exact,Gan_mchannel_1994,affleck_1991_overscreen,emery_kivelson,bulla_1998}
+
+\begin{enumerate}
+	\only<1>{\nitem Intermediate-coupling RG fixed point Hamiltonian and \alert{degenerate} ground states
+	\nitem Degree of compensation, magnetization and susceptibility show \alert{incomplete screening}}
+	\only<2>{\nitem Local \alert{marginal Fermi liquid} within the low-energy excitations of the bath
+\nitem \alert{Duality} relations constrain the RG flows of the MCK model}
+\end{enumerate}
+\vspace*{\fill}
+
+\only<1>{
+\includegraphics[width=0.4\textwidth]{CentralFieldChiPowerlaw.pdf}
+\hspace*{\fill}
+\includegraphics[width=0.4\textwidth]{discmagimpgen.pdf}
+}
+
+\only<2>{
+\includegraphics[width=0.7\textwidth]{duality.pdf}
+}
+
+\end{frame}
+
+
+\begin{frame}{}
+\section{Holography and topology of entanglement scaling in free fermions}
+\end{frame}
+
 
 \begin{frame}{}
 \section{Future Prospects}
@@ -486,7 +559,7 @@ RG transformation \(\longrightarrow\) reveals entanglement
 	\item Using local impurity models to create bulk lattice models (Bloch's theorem)
 		\[ H_\text{bulk} = \sum_i H_\text{local}(i), ~ ~\Psi_\text{bulk}(\vec k) \sim \sum_i e^{i \vec{k}\cdot\vec{r}_i}\Psi_\text{local}(i)\]
 	\item Relates bulk correlation functions to those of the auxiliary model\\[20pt]
-	\item phase transition in the extended AIM \(\longrightarrow\) phase transition inthe bulk model, \focus{metal-insulator transition} in Hubbard-Heisenberg model\\[20pt]
+	\item phase transition in the extended AIM \(\longrightarrow\) phase transition inthe bulk model, \alert{metal-insulator transition} in Hubbard-Heisenberg model\\[20pt]
 }
 \only<2>{
 	\item Should be useful for studying other models of strong-correlations

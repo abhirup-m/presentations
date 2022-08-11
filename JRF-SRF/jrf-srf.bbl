@@ -150,6 +150,41 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{anderson_1978}{article}{}
+    \name{author}{1}{}{%
+      {{hash=APW}{%
+         family={Anderson},
+         familyi={A\bibinitperiod},
+         given={P.\bibnamedelima W.},
+         giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{APW1}
+    \strng{fullhash}{APW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1978}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1103/RevModPhys.50.191
+    \endverb
+    \field{issue}{2}
+    \field{pages}{191\bibrangedash 201}
+    \field{title}{Local moments and localized states}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/RevModPhys.50.191
+    \endverb
+    \field{volume}{50}
+    \field{journaltitle}{Rev. Mod. Phys.}
+    \field{year}{1978}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{anderson1970}{article}{}
     \name{author}{1}{}{%
       {{hash=AP}{%
@@ -177,6 +212,41 @@
     \field{volume}{3}
     \field{journaltitle}{Journal of Physics C: Solid State Physics}
     \field{year}{1970}
+  \endentry
+
+  \entry{andrei_1980}{article}{}
+    \name{author}{1}{}{%
+      {{hash=AN}{%
+         family={Andrei},
+         familyi={A\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{AN1}
+    \strng{fullhash}{AN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1980}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.45.379
+    \endverb
+    \field{issue}{5}
+    \field{pages}{379\bibrangedash 382}
+    \field{title}{Diagonalization of the Kondo Hamiltonian}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevLett.45.379
+    \endverb
+    \field{volume}{45}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{1980}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{andreiKondoreview}{article}{}
@@ -542,6 +612,44 @@
     \field{year}{1990}
   \endentry
 
+  \entry{Cox1988}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CDL}{%
+         family={Cox},
+         familyi={C\bibinitperiod},
+         given={D.\bibnamedelima L.},
+         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=GN}{%
+         family={Grewe},
+         familyi={G\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CDL+1}
+    \strng{fullhash}{CDLGN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1988}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \verb{doi}
+    \verb 10.1007/BF01312492
+    \endverb
+    \field{number}{3}
+    \field{pages}{321\bibrangedash 340}
+    \field{title}{Transport properties of the Anderson lattice}
+    \verb{url}
+    \verb https://doi.org/10.1007/BF01312492
+    \endverb
+    \field{volume}{71}
+    \field{journaltitle}{Zeitschrift f{\"u}r Physik B Condensed Matter}
+    \field{year}{1988}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{emery_kivelson}{article}{}
     \name{author}{2}{}{%
       {{hash=EVJ}{%
@@ -853,6 +961,72 @@
     \field{year}{1964}
   \endentry
 
+  \entry{kotliar_rmp_2006}{article}{}
+    \name{author}{6}{}{%
+      {{hash=KG}{%
+         family={Kotliar},
+         familyi={K\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SSY}{%
+         family={Savrasov},
+         familyi={S\bibinitperiod},
+         given={S.\bibnamedelima Y.},
+         giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=HK}{%
+         family={Haule},
+         familyi={H\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=OVS}{%
+         family={Oudovenko},
+         familyi={O\bibinitperiod},
+         given={V.\bibnamedelima S.},
+         giveni={V\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=PO}{%
+         family={Parcollet},
+         familyi={P\bibinitperiod},
+         given={O.},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=MCA}{%
+         family={Marianetti},
+         familyi={M\bibinitperiod},
+         given={C.\bibnamedelima A.},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{KG+1}
+    \strng{fullhash}{KGSSYHKOVSPOMCA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1103/RevModPhys.78.865
+    \endverb
+    \field{issue}{3}
+    \field{pages}{865\bibrangedash 951}
+    \field{title}{Electronic structure calculations with dynamical mean-field
+  theory}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/RevModPhys.78.865
+    \endverb
+    \field{volume}{78}
+    \field{journaltitle}{Rev. Mod. Phys.}
+    \field{year}{2006}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{hrk_wilson_1980}{article}{}
     \name{author}{3}{}{%
       {{hash=KmHR}{%
@@ -899,6 +1073,40 @@
     \field{journaltitle}{Phys. Rev. B}
     \field{year}{1980}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{kuramoto1987}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=KY}{%
+         family={Kuramoto},
+         familyi={K\bibinitperiod},
+         given={Y},
+         giveni={Y},
+      }}%
+      {{hash=WT}{%
+         family={Watanabe},
+         familyi={W\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{KY+1}
+    \strng{fullhash}{KYWT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1987}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{booktitle}{Proceedings of the Yamada Conference XVIII on
+  Superconductivity in Highly Correlated Fermion Systems}
+    \field{pages}{80\bibrangedash 83}
+    \field{title}{Theory of momentum-dependent magnetic response in
+  heavy-fermion systems}
+    \field{year}{1987}
   \endentry
 
   \entry{lee2016}{article}{}
@@ -1052,6 +1260,59 @@
     \field{volume}{118}
     \field{journaltitle}{Physical Review}
     \field{year}{1960}
+  \endentry
+
+  \entry{maier_2005}{article}{}
+    \name{author}{4}{}{%
+      {{hash=MT}{%
+         family={Maier},
+         familyi={M\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=JM}{%
+         family={Jarrell},
+         familyi={J\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Pruschke},
+         familyi={P\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HMH}{%
+         family={Hettler},
+         familyi={H\bibinitperiod},
+         given={Matthias\bibnamedelima H.},
+         giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{MT+1}
+    \strng{fullhash}{MTJMPTHMH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.1103/RevModPhys.77.1027
+    \endverb
+    \field{issue}{3}
+    \field{pages}{1027\bibrangedash 1080}
+    \field{title}{Quantum cluster theories}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/RevModPhys.77.1027
+    \endverb
+    \field{volume}{77}
+    \field{journaltitle}{Rev. Mod. Phys.}
+    \field{year}{2005}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{maldacena1999large}{article}{}
@@ -1382,6 +1643,60 @@
     \field{year}{1980}
   \endentry
 
+  \entry{ohashi_2008}{article}{}
+    \name{author}{4}{}{%
+      {{hash=OT}{%
+         family={Ohashi},
+         familyi={O\bibinitperiod},
+         given={Takuma},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MT}{%
+         family={Momoi},
+         familyi={M\bibinitperiod},
+         given={Tsutomu},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=TH}{%
+         family={Tsunetsugu},
+         familyi={T\bibinitperiod},
+         given={Hirokazu},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=KN}{%
+         family={Kawakami},
+         familyi={K\bibinitperiod},
+         given={Norio},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{OT+1}
+    \strng{fullhash}{OTMTTHKN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.100.076402
+    \endverb
+    \field{issue}{7}
+    \field{pages}{076402}
+    \field{title}{Finite Temperature Mott Transition in Hubbard Model on
+  Anisotropic Triangular Lattice}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevLett.100.076402
+    \endverb
+    \field{volume}{100}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{2008}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{oshikawa2000topological}{article}{}
     \name{author}{1}{}{%
       {{hash=OM}{%
@@ -1409,6 +1724,53 @@
     \field{volume}{84}
     \field{journaltitle}{Physical Review Letters}
     \field{year}{2000}
+  \endentry
+
+  \entry{parcollet_2004}{article}{}
+    \name{author}{3}{}{%
+      {{hash=PO}{%
+         family={Parcollet},
+         familyi={P\bibinitperiod},
+         given={O.},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=BG}{%
+         family={Biroli},
+         familyi={B\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=KG}{%
+         family={Kotliar},
+         familyi={K\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{PO+1}
+    \strng{fullhash}{POBGKG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.92.226402
+    \endverb
+    \field{issue}{22}
+    \field{pages}{226402}
+    \field{title}{Cluster Dynamical Mean Field Analysis of the Mott Transition}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevLett.92.226402
+    \endverb
+    \field{volume}{92}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{2004}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{qi2013}{article}{}
@@ -1824,6 +2186,37 @@
     \field{journaltitle}{Rev. Mod. Phys.}
     \field{year}{1975}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{wilson1974}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WKG}{%
+         family={Wilson},
+         familyi={W\bibinitperiod},
+         given={Kenneth\bibnamedelima G.},
+         giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Kogut},
+         familyi={K\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WKG+1}
+    \strng{fullhash}{WKGKJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1974}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{number}{2}
+    \field{pages}{75 \bibrangedash  199}
+    \field{title}{The renormalization group and the $\epsilon$-expansion}
+    \field{volume}{12}
+    \field{journaltitle}{Physics Reports}
+    \field{year}{1974}
   \endentry
 \enddatalist
 \endinput
