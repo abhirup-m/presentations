@@ -236,7 +236,8 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \begin{frame}{Low-energy effective Hamiltonians and ground-states}
 
 \only<1>{
-{\Large\underline{\(U_b > -J/4\)}}\\
+{\Large\underline{\(|U_b| < J/4\)}}\\
+\vspace*{\fill}
 \begin{minipage}{0.4\textwidth}
 \includegraphics[width=\textwidth]{singlet.pdf}
 \end{minipage}
@@ -250,21 +251,23 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 }
 
 \only<2>{
-{\Large\underline{\(U_b \sim -J/4\)}}\\
+{\Large\underline{\(|U_b| \sim J/4\)}}\\
+\vspace*{\fill}
+\begin{minipage}{0.4\textwidth}
+\includegraphics[width=\textwidth]{siam-JV.pdf}
+\end{minipage}
+\hspace*{\fill}
 \begin{minipage}{0.48\textwidth}
 \begin{enumerate}
 	\nitem \alert{spin+charge} dimer with attractive zeroth site\\[6pt]
 \nitem spin-singlet + charge triplet zero in ground state
 \end{enumerate}
 \end{minipage}
-\hspace*{\fill}
-\begin{minipage}{0.4\textwidth}
-\includegraphics[width=\textwidth]{siam-JV.pdf}
-\end{minipage}
 }
 
 \only<3>{
-{\Large\underline{\(U_b < -J/4\)}}\\
+{\Large\underline{\(|U_b| > J/4\)}}\\
+\vspace*{\fill}
 \begin{minipage}{0.4\textwidth}
 \includegraphics[width=\textwidth]{local-moment.pdf}
 \end{minipage}
@@ -285,29 +288,48 @@ Ground-state overlap with spin singlet and charge triplet zero\\
 \end{frame}
 
 \begin{frame}{}
-\section{Nature of the transition}
+\section{Nature of the Transition}
 \end{frame}
 
 \begin{frame}{Gapping of the impurity spectral function}
+\begin{minipage}{0.25\textwidth}
 \begin{itemize}
-\nitem Broad central peak at \(|U_b| \ll J/4\)\\[10pt]
-\nitem Correlated \alert{three peak} structure at \(|U_b| \lesssim J/4\)\\[10pt]
-\nitem hard central \alert{gap} for  \(|U_b| > J/4\)\
+\nitem Broad central peak at \(|U_b| \ll J/4\)
 \end{itemize}
+\end{minipage}
+\hspace{\fill}
+\begin{minipage}{0.45\textwidth}
+\begin{itemize}
+\nitem Correlated \alert{three peak} structure at \(|U_b| \lesssim J/4\)\\[10pt]
+\end{itemize}
+\includegraphics[width=\textwidth]{Add.pdf}
+\end{minipage}
+\hspace{\fill}
+\begin{minipage}{0.25\textwidth}
+\begin{itemize}
+\nitem hard central \alert{gap} for  \(|U_b| > J/4\)
+\end{itemize}
+\end{minipage}
 
-\includegraphics[width=0.45\textwidth]{Add.pdf}
 \end{frame}
 
 \begin{frame}{Destruction of the Kondo cloud}
 \centering
-\alert{The Kondo cloud gets destroyed during the transition.}
+\alert{The Kondo cloud gets destroyed} during the transition.
 
 \vspace*{\fill}
 
+\begin{minipage}{0.4\textwidth}
 \begin{itemize}
 	\nitem vanishing of impurity-bath correlations
+\end{itemize}
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.4\textwidth}
+\begin{itemize}
 	\nitem transfer of entanglement into the bath
 \end{itemize}
+\end{minipage}
 
 \vspace*{\fill}
 
@@ -318,14 +340,21 @@ Ground-state overlap with spin singlet and charge triplet zero\\
 
 \begin{frame}{Growth of pairing fluctuations in the bath}
 \centering
-\alert{Subdominant pairing fluctuations, near the transition}
+\alert{Subdominant pairing fluctuations}, near the transition...
 
 \vspace*{\fill}
 
+\begin{minipage}{0.42\textwidth}
 \begin{itemize}
 	\nitem growth of fluctuations in Cooper channel, at the cost of spin-flip fluctuations
-	\nitem mutual information in the same channel maximised after transition
 \end{itemize}
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.4\textwidth}
+\begin{itemize}
+	\nitem mutual information within the bath maximised after transition
+\end{itemize}
+\end{minipage}
 
 \vspace*{\fill}
 
@@ -335,7 +364,7 @@ Ground-state overlap with spin singlet and charge triplet zero\\
 \end{frame}
 
 \begin{frame}{}
-\section{Universal theory near the transition}
+\section{Universal Theory near the Transition}
 \end{frame}
 \begin{frame}{Minimal effective model for the transition}
 \centering
@@ -347,9 +376,11 @@ Ground-state overlap with spin singlet and charge triplet zero\\
 \[ \Delta \tilde J \sim \tilde J \left( \tilde J  + 4U_b \right) \]
 \end{itemize}
 
+\includegraphics[width=0.6\textwidth]{universal-theory.pdf}
+
 \vspace*{\fill}
 
-\underline{Suggests that $J$ and $U_b$ are the \alert{minimal \& universal} ingredients for transition!}
+Suggests that \alert{$J$ and $U_b$ are the minimal \& universal ingredients} for transition!
 
 \end{frame}
 
@@ -362,16 +393,68 @@ Ground-state overlap with spin singlet and charge triplet zero\\
 
 \vspace*{\fill}
 
-\includegraphics[width=0.6\textwidth]{twosite_spectrum.pdf}
+\includegraphics[width=0.5\textwidth]{twosite_spectrum.pdf}
 \end{frame}
 
 \begin{frame}{}
 \section{Insights into DMFT}
 \end{frame}
-\begin{frame}{equivalence of two sites, as seen through the bath spectral function}
+
+\begin{frame}{Equivalence of the impurity site and the bath zeroth site}
+\begin{itemize}
+\only<1>{
+	\nitem \alert{Integrate out impurity site} from fixed point Hamiltonian via a single URG transformation\\[10pt]
+\nitem Generates additional correlation $U_0$ on zeroth site
+\vspace*{\fill}
+\begin{center}
+\includegraphics[width=0.6\textwidth]{decouple-impurity.pdf}
+\end{center}
+}
+\only<2>{
+	\nitem \(J\) is relevant and the largest scale \(\longrightarrow\) \alert{repulsive correlation}:
+	\[U_0 + U_b \simeq J > 0\]
+\nitem \(J\) acts a \alert{symmetrisation mechanism} between impurity and zeroth sites\\[10pt]
+\nitem \alert{Coherent} spin-flip scatterings ensure similarity of spectral functions
+}
+\end{itemize}
+\vspace*{\fill}
+Essence of \alert{self-consistency}: Equivalence of impurity and zeroth sites!
 \end{frame}
-\begin{frame}{explanation of coexistence region from the two site spectrum}
+
+
+\begin{frame}{Observation of a coexistence region}
+\only<1>{
+\begin{itemize}
+	\nitem DMFT observes a \alert{coexistence region} near the critical point, for \(U_{c1} < U < U_{c2}\)\\
+\begin{center}
+\includegraphics[width=0.5\textwidth]{coexistence.png}\\
+\footnotesize{(D.E. Logan and M.R Galpin 2016 JPCM 28 025601) }\\[10pt]
+\end{center}
+\nitem Insulating when coming in from the insulator, metallic when coming in from the metal\\[10pt]
+\nitem True transition believed to occur at \(U_{c2}\)
+\end{itemize}
+}
+\only<2->{
+\alert{Can be explained} heuristically using the two site spectrum\\[10pt]
+\vspace*{\fill}
+\begin{itemize}
+\only<2>{\nitem Initial point is when the side peaks get separated (near-zeroes in the spectral function)}
+\only<3>{\nitem \(U_{c2}\) is the point where the levels cross}
+\only<4>{\nitem Coming from \(U > U_{c2}\), \alert{adiabatic continuity} allows DMFT to stay on the local moment state...}
+\only<5>{\nitem For \(U < U_{c1}\), local moment state is too unstable, \alert{relaxes} to the true ground state.}
+\end{itemize}
+
+\vspace*{\fill}
+\begin{center}
+\only<2>{\includegraphics[width=0.7\textwidth]{coexistence-explain.pdf}}
+\only<3>{\includegraphics[width=0.7\textwidth]{coexistence-explain1.pdf}}
+\only<4>{\includegraphics[width=0.7\textwidth]{coexistence-explain2.pdf}}
+\only<5>{\includegraphics[width=0.7\textwidth]{coexistence-explain3.pdf}}
+\end{center}
+}
 \end{frame}
+
+
 \begin{frame}{comparison of correlation functions from held-toshi and lee-von delft}
 \end{frame}
 

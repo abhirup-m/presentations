@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.5.3)  11 AUG 2022 23:43
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.6.29)  12 AUG 2022 11:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1583,13 +1583,13 @@ File: ./figures//phase-map-MIT.png Graphic file (type bmp)
 
 ]
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 10.95116pt on input line 285.
+(Font)              scaled to size 10.95116pt on input line 288.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 285.
+(Font)              scaled to size 6.00064pt on input line 288.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 285.
+(Font)              scaled to size 10.94882pt on input line 288.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 285.
+(Font)              scaled to size 5.99936pt on input line 288.
 File: ./figures//singlet.pdf Graphic file (type pdf)
 <use ./figures//singlet.pdf>
  [10
@@ -1632,7 +1632,10 @@ File: ./figures//I_k.pdf Graphic file (type pdf)
 
 ] [18
 
-] [19
+]
+File: ./figures//universal-theory.pdf Graphic file (type pdf)
+<use ./figures//universal-theory.pdf>
+ [19
 
 ]
 File: ./figures//twosite_spectrum.pdf Graphic file (type pdf)
@@ -1641,19 +1644,47 @@ File: ./figures//twosite_spectrum.pdf Graphic file (type pdf)
 
 ] [21
 
-] [22
+]
+File: ./figures//decouple-impurity.pdf Graphic file (type pdf)
+<use ./figures//decouple-impurity.pdf>
+ [22
 
 ] [23
 
-] [24
+]
+File: ./figures//coexistence.png Graphic file (type bmp)
+<./figures//coexistence.png>
+ [24
 
-] [25
+]
+File: ./figures//coexistence-explain.pdf Graphic file (type pdf)
+<use ./figures//coexistence-explain.pdf>
+ [25
 
-] [26
+]
+File: ./figures//coexistence-explain1.pdf Graphic file (type pdf)
+<use ./figures//coexistence-explain1.pdf>
+ [26
 
-] [27
+]
+File: ./figures//coexistence-explain2.pdf Graphic file (type pdf)
+<use ./figures//coexistence-explain2.pdf>
+ [27
 
-] [28
+]
+File: ./figures//coexistence-explain3.pdf Graphic file (type pdf)
+<use ./figures//coexistence-explain3.pdf>
+ [28
+
+] [29
+
+] [30
+
+] [31
+
+] [32
+
+] [33
 
 ]
 File: ./figures//phase-map-MIT.pdf Graphic file (type pdf)
@@ -1661,58 +1692,58 @@ File: ./figures//phase-map-MIT.pdf Graphic file (type pdf)
 File: ./figures//odlro_d0.pdf Graphic file (type pdf)
 <use ./figures//odlro_d0.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--406
+Underfull \hbox (badness 10000) in paragraph at lines 489--489
 [][]
  []
 
-[29
+[34
 
 ]
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 429.
+(Font)              scaled to size 12.00128pt on input line 512.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 429.
+(Font)              scaled to size 11.99872pt on input line 512.
 File: ./figures//corrs_gs.pdf Graphic file (type pdf)
 <use ./figures//corrs_gs.pdf>
 File: ./figures//Add.pdf Graphic file (type pdf)
 <use ./figures//Add.pdf>
- [30
+ [35
 
 ]
 
 Package amsmath Warning: Foreign command \atop;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 438.
+(amsmath)                 on input line 521.
 
-[31
+[36
 
 ]
 File: ./figures//entanglement.pdf Graphic file (type pdf)
 <use ./figures//entanglement.pdf>
 File: ./figures//I_k.pdf Graphic file (type pdf)
 <use ./figures//I_k.pdf>
- [32
+ [37
 
 ]
 File: ./figures//odlro_d0.pdf Graphic file (type pdf)
 <use ./figures//odlro_d0.pdf>
 File: ./figures//gen-phase-diagram.pdf Graphic file (type pdf)
 <use ./figures//gen-phase-diagram.pdf>
- [33
+ [38
 
 ]
 File: figures/Matroshka.png Graphic file (type bmp)
 <figures/Matroshka.png>
 File: figures/holography.pdf Graphic file (type pdf)
 <use figures/holography.pdf>
- [34
+ [39
 
 ]
 File: figures/A_mi.pdf Graphic file (type pdf)
 <use figures/A_mi.pdf>
 File: figures/subsystem-torus.pdf Graphic file (type pdf)
 <use figures/subsystem-torus.pdf>
- [35
+ [40
 
 ]
 File: figures/Matroshka.png Graphic file (type bmp)
@@ -1720,86 +1751,86 @@ File: figures/Matroshka.png Graphic file (type bmp)
 File: figures/nested.png Graphic file (type bmp)
 <figures/nested.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 522--522
+Underfull \hbox (badness 10000) in paragraph at lines 605--605
 [][]
  []
 
-[36
+[41
 
 ]
 File: ./figures//curvature-pos.pdf Graphic file (type pdf)
 <use ./figures//curvature-pos.pdf>
- [37
+ [42
 
-] [38
+] [43
 
-] [39
+] [44
 
-] [40
+] [45
 
-] [41
+] [46
 
-] [42
+] [47
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\translate ' on input line 587.
+(hyperref)                removing `\translate ' on input line 670.
 
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 591.
+(Font)              scaled to size 5.00053pt on input line 674.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 591.
-[43
+(Font)              scaled to size 4.99947pt on input line 674.
+[48
 
-] [44
-
-
-] [45
+] [49
 
 
-] [46
+] [50
+
+
+] [51
 
 ]
 File: ./figures//kondo-effect.pdf Graphic file (type pdf)
 <use ./figures//kondo-effect.pdf>
- [47
+ [52
 
 ]
 File: ./figures//chi_parts.pdf Graphic file (type pdf)
 <use ./figures//chi_parts.pdf>
 File: ./figures//entropy_therm.pdf Graphic file (type pdf)
 <use ./figures//entropy_therm.pdf>
- [48
+ [53
 
 ]
 File: ./figures//stargraph.pdf Graphic file (type pdf)
 <use ./figures//stargraph.pdf>
- [49
+ [54
 
 ]
 File: ./figures//CentralFieldChiPowerlaw.pdf Graphic file (type pdf)
 <use ./figures//CentralFieldChiPowerlaw.pdf>
 File: ./figures//discmagimpgen.pdf Graphic file (type pdf)
 <use ./figures//discmagimpgen.pdf>
- [50
+ [55
 
 ]
 File: ./figures//duality.pdf Graphic file (type pdf)
 <use ./figures//duality.pdf>
- [51
-
-] [52
-
-] [53
-
-] [54
-
-] [55
-
-] [56
+ [56
 
 ] [57
+
+] [58
+
+] [59
+
+] [60
+
+] [61
+
+] [62
 
 ]
 \tf@nav=\write7
@@ -1813,18 +1844,18 @@ File: ./figures//duality.pdf Graphic file (type pdf)
 
  (./jrf-srf.aux)
 Package rerunfilecheck Info: File `jrf-srf.out' has not changed.
-(rerunfilecheck)             Checksum: B76A20C32043013990AA99C4646AF2CF;3550.
+(rerunfilecheck)             Checksum: CEEB22022D659919B594FDA5C5771093;3550.
 Package logreq Info: Writing requests to 'jrf-srf.run.xml'.
 \openout1 = `jrf-srf.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39554 strings out of 476156
- 829864 string characters out of 5814964
- 1444233 words of memory out of 5000000
- 59543 multiletter control sequences out of 15000+600000
+ 39617 strings out of 476156
+ 832127 string characters out of 5814963
+ 1443590 words of memory out of 5000000
+ 59599 multiletter control sequences out of 15000+600000
  478637 words of font info for 148 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,13n,134p,1913b,5226s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on jrf-srf.xdv (57 pages, 505532 bytes).
+Output written on jrf-srf.xdv (62 pages, 544508 bytes).
