@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.6.29)  12 AUG 2022 11:36
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.6.29)  12 AUG 2022 18:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1263,37 +1263,37 @@ LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `bold'
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\translate ' on input line 81.
+(hyperref)                removing `\new@ifnextchar' on input line 98.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 81.
+(hyperref)                removing `\fill' on input line 98.
 
 \@quotelevel=\count490
 \@quotereset=\count491
 (./jrf-srf.aux)
 \openout1 = `jrf-srf.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1329,7 +1329,7 @@ LaTeX Font Info:    ... okay on input line 87.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 87.
+Package hyperref Info: Link coloring OFF on input line 98.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1339,9 +1339,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count492
 )
-LaTeX Info: Redefining \ref on input line 87.
-LaTeX Info: Redefining \pageref on input line 87.
-LaTeX Info: Redefining \nameref on input line 87.
+LaTeX Info: Redefining \ref on input line 98.
+LaTeX Info: Redefining \pageref on input line 98.
+LaTeX Info: Redefining \nameref on input line 98.
  (./jrf-srf.out) (./jrf-srf.out)
 \@outlinefile=\write6
 \openout6 = `jrf-srf.out'.
@@ -1503,12 +1503,12 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                - Invalid format of field 'month'.
 
 )
-Package biblatex Info: Reference section=0 on input line 87.
-Package biblatex Info: Reference segment=0 on input line 87.
+Package biblatex Info: Reference section=0 on input line 98.
+Package biblatex Info: Reference segment=0 on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 87.
+(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/b/n on input line 87.
+(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/b/n on input line 98.
  (./jrf-srf.nav)
 File: figures/epqm_logo_mod.jpeg Graphic file (type bmp)
 <figures/epqm_logo_mod.jpeg>
@@ -1517,37 +1517,32 @@ File: figures/dps_logo.jpeg Graphic file (type bmp)
 File: figures/IISER-K_Logo.png Graphic file (type bmp)
 <figures/IISER-K_Logo.png>
 
-Overfull \vbox (21.19493pt too high) detected at line 101
+Overfull \vbox (21.19493pt too high) detected at line 112
  []
 
 [1
 
 ]
-File: ./figures/summary.pdf Graphic file (type pdf)
-<use ./figures/summary.pdf>
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 8.00085pt on input line 115.
+(Font)              scaled to size 8.00085pt on input line 126.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 5.7606pt on input line 115.
+(Font)              scaled to size 5.7606pt on input line 126.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 4.64049pt on input line 115.
+(Font)              scaled to size 4.64049pt on input line 126.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 115.
+(Font)              scaled to size 7.99915pt on input line 126.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 5.75937pt on input line 115.
+(Font)              scaled to size 5.75937pt on input line 126.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 4.6395pt on input line 115.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 115.
+(Font)              scaled to size 4.6395pt on input line 126.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 126.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 115.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 126.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-File: ./figures/summary2.pdf Graphic file (type pdf)
-<use ./figures/summary2.pdf>
- [2
+) [2
 
 ] [3
 
@@ -1583,13 +1578,13 @@ File: ./figures//phase-map-MIT.png Graphic file (type bmp)
 
 ]
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 10.95116pt on input line 288.
+(Font)              scaled to size 10.95116pt on input line 314.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 288.
+(Font)              scaled to size 6.00064pt on input line 314.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 288.
+(Font)              scaled to size 10.94882pt on input line 314.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 288.
+(Font)              scaled to size 5.99936pt on input line 314.
 File: ./figures//singlet.pdf Graphic file (type pdf)
 <use ./figures//singlet.pdf>
  [10
@@ -1686,64 +1681,118 @@ File: ./figures//coexistence-explain3.pdf Graphic file (type pdf)
 
 ] [33
 
+] [34
+
+] [35
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\translate ' on input line 523.
+
+LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 527.
+LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 527.
+[36
+
+] [37
+
+
+] [38
+
+
+] [39
+
+]
+File: ./figures//kondo-effect.pdf Graphic file (type pdf)
+<use ./figures//kondo-effect.pdf>
+ [40
+
+]
+File: ./figures//chi_parts.pdf Graphic file (type pdf)
+<use ./figures//chi_parts.pdf>
+File: ./figures//entropy_therm.pdf Graphic file (type pdf)
+<use ./figures//entropy_therm.pdf>
+ [41
+
+]
+File: ./figures//stargraph.pdf Graphic file (type pdf)
+<use ./figures//stargraph.pdf>
+ [42
+
+]
+File: ./figures//CentralFieldChiPowerlaw.pdf Graphic file (type pdf)
+<use ./figures//CentralFieldChiPowerlaw.pdf>
+File: ./figures//discmagimpgen.pdf Graphic file (type pdf)
+<use ./figures//discmagimpgen.pdf>
+ [43
+
+]
+File: ./figures//duality.pdf Graphic file (type pdf)
+<use ./figures//duality.pdf>
+ [44
+
+] [45
+
 ]
 File: ./figures//phase-map-MIT.pdf Graphic file (type pdf)
 <use ./figures//phase-map-MIT.pdf>
 File: ./figures//odlro_d0.pdf Graphic file (type pdf)
 <use ./figures//odlro_d0.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 489--489
+Underfull \hbox (badness 10000) in paragraph at lines 627--627
 [][]
  []
 
-[34
+[46
 
 ]
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 512.
+(Font)              scaled to size 12.00128pt on input line 650.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 512.
+(Font)              scaled to size 11.99872pt on input line 650.
 File: ./figures//corrs_gs.pdf Graphic file (type pdf)
 <use ./figures//corrs_gs.pdf>
 File: ./figures//Add.pdf Graphic file (type pdf)
 <use ./figures//Add.pdf>
- [35
+ [47
 
 ]
 
 Package amsmath Warning: Foreign command \atop;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 521.
+(amsmath)                 on input line 659.
 
-[36
+[48
 
 ]
 File: ./figures//entanglement.pdf Graphic file (type pdf)
 <use ./figures//entanglement.pdf>
 File: ./figures//I_k.pdf Graphic file (type pdf)
 <use ./figures//I_k.pdf>
- [37
+ [49
 
 ]
 File: ./figures//odlro_d0.pdf Graphic file (type pdf)
 <use ./figures//odlro_d0.pdf>
 File: ./figures//gen-phase-diagram.pdf Graphic file (type pdf)
 <use ./figures//gen-phase-diagram.pdf>
- [38
+ [50
 
 ]
 File: figures/Matroshka.png Graphic file (type bmp)
 <figures/Matroshka.png>
 File: figures/holography.pdf Graphic file (type pdf)
 <use figures/holography.pdf>
- [39
+ [51
 
 ]
 File: figures/A_mi.pdf Graphic file (type pdf)
 <use figures/A_mi.pdf>
 File: figures/subsystem-torus.pdf Graphic file (type pdf)
 <use figures/subsystem-torus.pdf>
- [40
+ [52
 
 ]
 File: figures/Matroshka.png Graphic file (type bmp)
@@ -1751,74 +1800,20 @@ File: figures/Matroshka.png Graphic file (type bmp)
 File: figures/nested.png Graphic file (type bmp)
 <figures/nested.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--605
+Underfull \hbox (badness 10000) in paragraph at lines 743--743
 [][]
  []
 
-[41
+[53
 
 ]
 File: ./figures//curvature-pos.pdf Graphic file (type pdf)
 <use ./figures//curvature-pos.pdf>
- [42
-
-] [43
-
-] [44
-
-] [45
-
-] [46
-
-] [47
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\translate ' on input line 670.
-
-LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 674.
-LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 674.
-[48
-
-] [49
-
-
-] [50
-
-
-] [51
-
-]
-File: ./figures//kondo-effect.pdf Graphic file (type pdf)
-<use ./figures//kondo-effect.pdf>
- [52
-
-]
-File: ./figures//chi_parts.pdf Graphic file (type pdf)
-<use ./figures//chi_parts.pdf>
-File: ./figures//entropy_therm.pdf Graphic file (type pdf)
-<use ./figures//entropy_therm.pdf>
- [53
-
-]
-File: ./figures//stargraph.pdf Graphic file (type pdf)
-<use ./figures//stargraph.pdf>
  [54
 
-]
-File: ./figures//CentralFieldChiPowerlaw.pdf Graphic file (type pdf)
-<use ./figures//CentralFieldChiPowerlaw.pdf>
-File: ./figures//discmagimpgen.pdf Graphic file (type pdf)
-<use ./figures//discmagimpgen.pdf>
- [55
+] [55
 
-]
-File: ./figures//duality.pdf Graphic file (type pdf)
-<use ./figures//duality.pdf>
- [56
+] [56
 
 ] [57
 
@@ -1844,18 +1839,18 @@ File: ./figures//duality.pdf Graphic file (type pdf)
 
  (./jrf-srf.aux)
 Package rerunfilecheck Info: File `jrf-srf.out' has not changed.
-(rerunfilecheck)             Checksum: CEEB22022D659919B594FDA5C5771093;3550.
+(rerunfilecheck)             Checksum: 9CFE80FACA970602539DEE85D4F3C7D7;3558.
 Package logreq Info: Writing requests to 'jrf-srf.run.xml'.
 \openout1 = `jrf-srf.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39617 strings out of 476156
- 832127 string characters out of 5814963
- 1443590 words of memory out of 5000000
- 59599 multiletter control sequences out of 15000+600000
- 478637 words of font info for 148 fonts, out of 8000000 for 9000
+ 39620 strings out of 476156
+ 832259 string characters out of 5814963
+ 1443032 words of memory out of 5000000
+ 59603 multiletter control sequences out of 15000+600000
+ 478661 words of font info for 151 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,13n,134p,1913b,5226s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,13n,134p,1913b,5224s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on jrf-srf.xdv (62 pages, 544508 bytes).
+Output written on jrf-srf.xdv (62 pages, 547252 bytes).

@@ -1,17 +1,17 @@
 # Fdb version 3
-["bibtex jrf-srf"] 1660283002 "jrf-srf.aux" "jrf-srf.bbl" "jrf-srf" 1660284384
+["bibtex jrf-srf"] 1660310607 "jrf-srf.aux" "jrf-srf.bbl" "jrf-srf" 1660310931
   "/usr/share/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1650185741 65483 fc69f364ef63c07bf68a2ab4b323f197 ""
   "bib.bib" 1656304952 316808 21b493e329ad71f07308dfc3d61195d0 ""
-  "jrf-srf-blx.bib" 1660284379 340 2d33f68db8eb3b96dd26dcb5b6bf9ee5 "xelatex"
-  "jrf-srf.aux" 1660284379 32426 812870cc8159b2262d91ddfd77bd9fcb "xelatex"
+  "jrf-srf-blx.bib" 1660310926 340 2d33f68db8eb3b96dd26dcb5b6bf9ee5 "xelatex"
+  "jrf-srf.aux" 1660310926 32434 07df36f0b872c6022db47c34294e2a94 "xelatex"
   (generated)
   "jrf-srf.bbl"
   "jrf-srf.blg"
-["xdvipdfmx"] 1660284379 "jrf-srf.xdv" "jrf-srf.pdf" "jrf-srf" 1660284384
-  "jrf-srf.xdv" 1660284379 544508 095f8bc860d0835c3831d9bf9ded8470 "xelatex"
+["xdvipdfmx"] 1660310926 "jrf-srf.xdv" "jrf-srf.pdf" "jrf-srf" 1660310931
+  "jrf-srf.xdv" 1660310926 547252 4c40d86b599fb189258a0e794e626429 "xelatex"
   (generated)
   "jrf-srf.pdf"
-["xelatex"] 1660284374 "jrf-srf.tex" "jrf-srf.xdv" "jrf-srf" 1660284384
+["xelatex"] 1660310921 "jrf-srf.tex" "jrf-srf.xdv" "jrf-srf" 1660310931
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1650183167 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1650183167 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -275,7 +275,7 @@
   "figures//stargraph.pdf" 1660210595 3226 5fbdcd0dc7a2a1a6f5189400999d474f ""
   "figures//twosite_spectrum.pdf" 1660275657 122252 8ddd443ccfef518b70710df4babf9ba7 ""
   "figures//universal-theory.pdf" 1660278602 14648 da2309788a518cd85638176c996fb018 ""
-  "figures//zeromode_bare.pdf" 1657257778 15827 04e87224a301b4d9adbb76a99c56c53a ""
+  "figures//zeromode_bare.pdf" 1660299277 16945 ca89c253e79b976b68ab97900f8e2e9a ""
   "figures/A_mi.pdf" 1655180812 5639 b2d70925f865f7dc9ed2e59b04684ca2 ""
   "figures/IISER-K_Logo.png" 1660122627 75899 1aaddd7d7eb5df1519137f74c4fa966c ""
   "figures/Matroshka.png" 1656494712 637134 32ea14a232faa63e6f9639f6e809654d ""
@@ -284,14 +284,12 @@
   "figures/holography.pdf" 1660211265 14277 1ffe26770906ef47020a38eaed043f0d ""
   "figures/nested.png" 1656494791 751724 25b4bafa1c7a0ad5f7d666deb66dd4b2 ""
   "figures/subsystem-torus.pdf" 1655378078 6250 8e5130c6d4a446fec168b3a840f72a78 ""
-  "figures/summary.pdf" 1660210046 5085 97918dd209a16c146d6cdef88d314e22 ""
-  "figures/summary2.pdf" 1660210485 18788 a09e4167004c79b47b331ce044ab207c ""
-  "jrf-srf.aux" 1660284379 32426 812870cc8159b2262d91ddfd77bd9fcb "xelatex"
-  "jrf-srf.bbl" 1660283002 62887 fb35cc6f2ac5a6813c6ac64417bdf563 "bibtex jrf-srf"
-  "jrf-srf.nav" 1660284379 8436 2c262e08871b6426c88ca2850973c6b0 "xelatex"
-  "jrf-srf.out" 1660284379 3550 ceeb22022d659919b594fda5c5771093 "xelatex"
-  "jrf-srf.run.xml" 1660284379 2583 5017990387c90bd43ed02933c8d8ed7a "xelatex"
-  "jrf-srf.tex" 1660284374 27232 f2813d6e1c67fb83cb7aca6376ba9568 ""
+  "jrf-srf.aux" 1660310926 32434 07df36f0b872c6022db47c34294e2a94 "xelatex"
+  "jrf-srf.bbl" 1660310607 62887 fb35cc6f2ac5a6813c6ac64417bdf563 "bibtex jrf-srf"
+  "jrf-srf.nav" 1660310926 8444 c6eeb79b6f8a60a39933ef3a5c88a045 "xelatex"
+  "jrf-srf.out" 1660310926 3558 9cfe80faca970602539dee85d4f3c7d7 "xelatex"
+  "jrf-srf.run.xml" 1660310926 2583 5017990387c90bd43ed02933c8d8ed7a "xelatex"
+  "jrf-srf.tex" 1660310921 28076 4f19e4092aaec5454ec61ef9a221579b ""
   (generated)
   "jrf-srf-blx.bib"
   "jrf-srf.aux"

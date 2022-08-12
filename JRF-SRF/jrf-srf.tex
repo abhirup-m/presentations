@@ -57,9 +57,9 @@
 \setmathfont{Latin Modern Math}[range={frak,\bigcap,\bigcup}]
 
 
-\setbeamercolor{footnote}{fg=blue}
-\setbeamerfont{footnote}{size=\scriptsize}
-\setbeamerfont{title}{size=\huge}
+\setbeamercolor{footnote}{fg=navyblue}
+\setbeamerfont{footnote}{series=\bfseries}
+\setbeamerfont{title}{size=\huge,shape=\scshape}
 
 \bibliography{bib}
 \AtBeginBibliography{\scriptsize}
@@ -70,19 +70,30 @@
 \definecolor{red}{HTML}{CC0000}
 \definecolor{lred}{HTML}{e24a33}
 \definecolor{lblue}{HTML}{348abd}
+\definecolor{navyblue}{HTML}{000080}
 \setbeamertemplate{bibliography item}[triangle]
 
 \graphicspath{{./figures/}} % Change the path
 
-\title{Emergence in free and correlated fermions: from impurity models to the bulk}
+\setbeamerfont{institute}{size=\large}
+\setbeamerfont{author}{size=\large}
+\setbeamerfont{date}{size=\large}
 
+\title{\vspace*{\fill}Emergence in free and correlated fermions: from impurity models to the bulk}
+\subtitle{JRF-to-SRF Upgradation Presentation}
 \author{
-JRF-to-SRF Presentation \hspace*{0.25\textwidth}\today\\[10pt]
-{\bf Abhirup Mukherjee} \hspace*{0.29\textwidth}Supervisor: Dr. Siddhartha Lal}
+{\bf Abhirup Mukherjee}}
 
-\institute{\small Department of Physical Sciences, IISER Kolkata, Mohanpur}
+\date{\today \hspace*{0.25\textwidth} Supervisor: Dr. Siddhartha Lal}
 
-\date{}
+\institute{Department of Physical Sciences, IISER Kolkata, Mohanpur\\[20pt]
+\includegraphics[width=0.1\textwidth]{figures/epqm_logo_mod.jpeg}
+\hspace*{\fill}
+\includegraphics[width=0.1\textwidth]{figures/dps_logo.jpeg}
+\hspace*{\fill}
+\includegraphics[width=0.1\textwidth]{figures/IISER-K_Logo.png}
+\vspace*{-20pt}
+}
 
 \begin{document}
 
@@ -90,28 +101,28 @@ JRF-to-SRF Presentation \hspace*{0.25\textwidth}\today\\[10pt]
 
 \begin{frame}
 \maketitle
-\begin{textblock*}{\textwidth}(0.5cm, 7.3cm)
-	\centering
-	\includegraphics[width=0.1\textwidth]{figures/epqm_logo_mod.jpeg}
-	\hspace*{\fill}
-	\includegraphics[width=0.1\textwidth]{figures/dps_logo.jpeg}
-	\hspace*{\fill}
-	\includegraphics[width=0.1\textwidth]{figures/IISER-K_Logo.png}
-\end{textblock*}
+% \begin{textblock*}{\textwidth}(0.5cm, 7.3cm)
+% 	\centering
+% 	\includegraphics[width=0.1\textwidth]{figures/epqm_logo_mod.jpeg}
+% 	\hspace*{\fill}
+% 	\includegraphics[width=0.1\textwidth]{figures/dps_logo.jpeg}
+% 	\hspace*{\fill}
+% 	\includegraphics[width=0.1\textwidth]{figures/IISER-K_Logo.png}
+% \end{textblock*}
 \end{frame}
 
 \begin{frame}{}
-\flushleft
-\includegraphics[width=0.6\textwidth]{./figures/summary.pdf}
+% \flushleft
+% \includegraphics[width=0.6\textwidth]{./figures/summary.pdf}
 
-\vspace*{40pt}
+% \vspace*{40pt}
 
 \section{Summary of Work}
 
-\vspace*{30pt}
+% \vspace*{30pt}
 
-\flushright
-\includegraphics[width=0.6\textwidth]{./figures/summary2.pdf}
+% \flushright
+% \includegraphics[width=0.6\textwidth]{./figures/summary2.pdf}
 \end{frame}
 
 \begin{frame}{Summary of Work}
@@ -120,11 +131,11 @@ JRF-to-SRF Presentation \hspace*{0.25\textwidth}\today\\[10pt]
 \vspace*{\fill}
 \begin{itemize}
 \nitem Unveiling the Kondo cloud: Unitary renormalization-group study of the Kondo model \\[2pt]
-{\footnotesize\alert{Phys. Rev. B 105, 085119}, arXiv:2111.10580v3}\\
-{\footnotesize A. Mukherjee, {\it Abhirup Mukherjee}, N. S. Vidhyadhiraja, A. Taraphder, and S. Lal}\\[10pt]
+{\small\alert{Phys. Rev. B 105, 085119}, arXiv:2111.10580v3}\\
+{\small A. Mukherjee, {\it Abhirup Mukherjee}, N. S. Vidhyadhiraja, A. Taraphder, and S. Lal}\\[10pt]
 
 \nitem Frustration shapes multi-channel Kondo physics: A star graph perspective\\[2pt]
-\footnotesize{\alert{under review at PRB}, arXiv:2205.00790\\
+\small{\alert{under review at PRB}, arXiv:2205.00790\\
 S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphder, S. Lal} \\[10pt]
 \end{itemize}
 \vspace*{\fill}
@@ -132,9 +143,9 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 {\bf Ongoing Projects}
 \vspace*{\fill}
 \begin{itemize}
-	\nitem \underline{Metal-insulator transition in an extended Anderson impurity model} ({\it \footnotesize{manuscript in preparation}})\\[10pt]
-	\nitem Holography and topology of entanglement scaling in free fermions ({\it \footnotesize{manuscript in preparation}})\\[10pt]
-	\nitem URG-based auxiliary model approach to correlated systems ({\it \footnotesize{ongoing}})
+	\nitem \underline{Metal-insulator transition in an extended Anderson impurity model} ({\it \small{manuscript in preparation}})\\[10pt]
+	\nitem Holography and topology of entanglement scaling in free fermions ({\it \small{manuscript in preparation}})\\[10pt]
+	\nitem URG-based auxiliary model approach to correlated systems ({\it \small{ongoing}})
 \end{itemize}
 
 \end{frame}
@@ -147,7 +158,7 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \end{minipage}
 \hspace*{\fill}
 \begin{minipage}{0.45\textwidth}
-\includegraphics[width=0.8\textwidth]{dos_diff.pdf}
+\includegraphics[width=\textwidth]{dos_diff.pdf}
 \end{minipage}
 
 \end{frame}
@@ -214,22 +225,37 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \begin{frame}{RG Phase Diagram}
 \centering
 
-\begin{minipage}{0.49\textwidth}
+\flushright
+\begin{minipage}{0.7\textwidth}
 \begin{enumerate}
-	\nitem orange phase \(\longrightarrow\) \(U_b > -J/4\) \\[10pt]
-	\(V,J\) are \alert{relevant} \(\longrightarrow\) strong-coupling flows\\[10pt]
-\end{enumerate}
-\end{minipage}
-\begin{minipage}{0.49\textwidth}
-\begin{enumerate}
-	\nitem blue phase \(\longrightarrow\) \(U_b > -J/4\)\\[10pt]
-	\(V,J\) are \alert{irrelevant} \(\longrightarrow\) local moment flows
+\nitem blue phase \(\longrightarrow\) \(U_b < -J/4\) : \(V,J\) are \alert{irrelevant} \(\longrightarrow\) local moment flows
 \end{enumerate}
 \end{minipage}
 
-\[r = - U_b/J\]
+\vspace*{\fill}
 
-\includegraphics[width=0.5\textwidth]{phase-map-MIT.png}
+\begin{minipage}{0.45\textwidth}
+\begin{enumerate}
+\nitem yellow phase: \(J \ll D_0\): involves \alert{\(V,U,U_b\)}\\[5pt]
+{\it vanishes for large systems}\\
+\vspace*{40pt}
+\nitem gray phase: \(J \sim D_0\): \alert{all} couplings irrelevant\\[5pt]
+{\it vanishes for large systems}
+\end{enumerate}
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.5\textwidth}
+\includegraphics[width=\textwidth]{phase-map-MIT.png}
+\end{minipage}
+
+\vspace*{\fill}
+
+\flushright
+\begin{minipage}{0.7\textwidth}
+\begin{enumerate}
+\nitem red phase \(\longrightarrow\) \(U_b > -J/4\): \(V,J\) are \alert{relevant} \(\longrightarrow\) strong-coupling flows
+\end{enumerate}
+\end{minipage}
 
 \end{frame}
 
@@ -455,7 +481,8 @@ Essence of \alert{self-consistency}: Equivalence of impurity and zeroth sites!
 \end{frame}
 
 
-\begin{frame}{comparison of correlation functions from held-toshi and lee-von delft}
+\begin{frame}{Comparison of correlation functions}
+held-toshi and lee-von delft
 \end{frame}
 
 \begin{frame}{}
@@ -464,6 +491,117 @@ Essence of \alert{self-consistency}: Equivalence of impurity and zeroth sites!
 \begin{frame}{effective Hamiltonian for the excitations of the bath near the transition}
 \end{frame}
 \begin{frame}{emergence of NFL terms at the critical point}
+\end{frame}
+
+\begin{frame}{}
+\section{Future Prospects}
+\end{frame}
+
+\begin{frame}{Future Prospects}
+\begin{itemize}
+	\nitem Better model can be obtained by taking multiple impurities and general impurity filling\\[20pt]
+\nitem novel auxiliary model method can used for studying other models of strong-correlations as well as topologically active or flat band systems\\[20pt]
+\nitem The URG can be applied to heavy-fermion materials towards a study of phase diagram and unconventional superconductivity, as well as Kondo insulators\\[20pt]
+\nitem Interacting systems in a magnetic field is also a potential area of study, specifically fractional Chern insulators (e.g. the fractional quantum hall effects)
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Acknowledgements}
+
+\flushleft
+Gracious thanks to\\[10pt]
+\begin{itemize}
+	\nitem my collaborators \alert{S. Patra, A. Mukherjee, Prof. A. Taraphdar} and \alert{Prof. N. S. Vidhyadhiraja},\\[10pt]
+	\nitem \alert{Prof. Ritesh Singh} and \alert{Prof. Anandamohan Ghosh} for instructive feedback,\\[10pt]
+	\nitem \alert{Prof. H. Casini, Prof. N. Banerjee} and \alert{Shibendu G. Chowdhury} for very fruitful discussions, and\\[10pt]
+	\nitem IISER Kolkata for funding.
+\end{itemize}
+
+\end{frame}
+
+\appendix
+
+\begin{frame}[allowframebreaks]{References}
+\printbibliography[heading=none]
+\end{frame}
+
+\begin{frame}{}
+\section{Further Details}
+\end{frame}
+
+\begin{frame}{}
+\section{Theory for the single-channel Kondo cloud}
+\begin{minipage}{0.55\textwidth}
+	\small{{\bf Phys. Rev. B 105, 085119}\\[10pt]
+Anirban Mukherjee, \alert{Abhirup Mukherjee}, N. S. Vidhyadhiraja, A. Taraphder, and Siddhartha Lal}
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.4\textwidth}
+	\includegraphics[width=\textwidth]{kondo-effect.pdf}
+\end{minipage}
+\end{frame}
+
+\begin{frame}{Theory for the single-channel Kondo cloud}
+\footcite{kondo1964resistance,wilson1975,andreiKondoreview,hewson1993,nozieres1974fermi,anderson1970,tsvelickKondoreview,affleck1993exact,Goldhaber-Gordon1998,Borzenets2020,sakai_osamu_shimizu,costi_hewson_1990,nozaki2012,affleck1995conformal}
+
+\begin{minipage}{0.49\textwidth}
+\centering
+\begin{itemize}
+\nitem spectral function \& magnetic susceptibility
+\end{itemize}
+
+\vspace*{10pt}
+
+\includegraphics[width=0.8\textwidth]{chi_parts.pdf}
+\end{minipage}
+\begin{minipage}{0.49\textwidth}
+\centering
+\includegraphics[width=0.8\textwidth]{entropy_therm.pdf}
+
+\vspace*{10pt}
+
+\begin{itemize}
+\nitem local Fermi liq. \& orthogonality catastrophe
+\nitem thermal entropy
+\end{itemize}
+\end{minipage}
+
+\end{frame}
+
+\begin{frame}{}
+\section{Role of degeneracy in the multi-channel Kondo problem}
+\begin{minipage}{0.55\textwidth}
+	\small{{\bf arXiv:2205.00790}\\[10pt]
+Siddhartha Patra, \alert{Abhirup Mukherjee}, Anirban Mukherjee, N. S. Vidhyadhiraja, A. Taraphder, Siddhartha Lal}
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.4\textwidth}
+	\includegraphics[width=\textwidth]{stargraph.pdf}
+\end{minipage}
+\end{frame}
+
+\begin{frame}{Role of degeneracy in the multi-channel Kondo problem}
+\footcite{Noz_blandin_1980,Tsvelick_weigmann_mchannel_1985,affleck1993exact,Gan_mchannel_1994,affleck_1991_overscreen,emery_kivelson,bulla_1998}
+
+\begin{enumerate}
+	\only<1>{\nitem Intermediate-coupling RG fixed point Hamiltonian and \alert{degenerate} ground states
+	\nitem Degree of compensation, magnetization and susceptibility show \alert{incomplete screening}}
+	\only<2>{\nitem Local \alert{marginal Fermi liquid} within the low-energy excitations of the bath
+\nitem \alert{Duality} relations constrain the RG flows of the MCK model}
+\end{enumerate}
+\vspace*{\fill}
+
+\only<1>{
+\includegraphics[width=0.4\textwidth]{CentralFieldChiPowerlaw.pdf}
+\hspace*{\fill}
+\includegraphics[width=0.4\textwidth]{discmagimpgen.pdf}
+}
+
+\only<2>{
+\includegraphics[width=0.7\textwidth]{duality.pdf}
+}
+
 \end{frame}
 
 \begin{frame}{RG Phase diagram: }
@@ -639,118 +777,6 @@ RG transformation \(\longrightarrow\) reveals entanglement
 	\end{itemize}
 	
 \end{frame}
-
-\begin{frame}{}
-\section{Future Prospects}
-\end{frame}
-
-\begin{frame}{Future Prospects}
-\begin{itemize}
-	\nitem Better model can be obtained by taking multiple impurities and general impurity filling\\[20pt]
-\nitem novel auxiliary model method can used for studying other models of strong-correlations as well as topologically active or flat band systems\\[20pt]
-\nitem The URG can be applied to heavy-fermion materials towards a study of phase diagram and unconventional superconductivity, as well as Kondo insulators\\[20pt]
-\nitem Interacting systems in a magnetic field is also a potential area of study, specifically fractional Chern insulators (e.g. the fractional quantum hall effects)
-\end{itemize}
-\end{frame}
-
-
-\begin{frame}{Acknowledgements}
-
-\flushleft
-Gracious thanks to\\[10pt]
-\begin{itemize}
-	\nitem my collaborators S. Patra, A. Mukherjee, Prof. A. Taraphdar and Prof. N. S. Vidhyadhiraja,
-	\nitem Prof. Ritesh Singh and Prof. Anandamohan Ghosh for instructive feedback,
-	\nitem Prof. H. Casini, Prof. N. Banerjee and Shibendu G. Chowdhury for very fruitful discussions, and
-	\nitem IISER Kolkata for funding.
-\end{itemize}
-
-\end{frame}
-
-\appendix
-
-\begin{frame}[allowframebreaks]{References}
-\printbibliography[heading=none]
-\end{frame}
-
-\begin{frame}{}
-\section{Further Details}
-\end{frame}
-
-\begin{frame}{}
-\section{Theory for the single-channel Kondo cloud}
-\begin{minipage}{0.55\textwidth}
-	\small{{\bf Phys. Rev. B 105, 085119}\\[10pt]
-Anirban Mukherjee, \alert{Abhirup Mukherjee}, N. S. Vidhyadhiraja, A. Taraphder, and Siddhartha Lal}
-\end{minipage}
-\hspace*{\fill}
-\begin{minipage}{0.4\textwidth}
-	\includegraphics[width=\textwidth]{kondo-effect.pdf}
-\end{minipage}
-\end{frame}
-
-\begin{frame}{Theory for the single-channel Kondo cloud}
-\footcite{kondo1964resistance,wilson1975,andreiKondoreview,hewson1993,nozieres1974fermi,anderson1970,tsvelickKondoreview,affleck1993exact,Goldhaber-Gordon1998,Borzenets2020,sakai_osamu_shimizu,costi_hewson_1990,nozaki2012,affleck1995conformal}
-
-\begin{minipage}{0.49\textwidth}
-\centering
-\begin{itemize}
-\nitem spectral function \& magnetic susceptibility
-\end{itemize}
-
-\vspace*{10pt}
-
-\includegraphics[width=0.8\textwidth]{chi_parts.pdf}
-\end{minipage}
-\begin{minipage}{0.49\textwidth}
-\centering
-\includegraphics[width=0.8\textwidth]{entropy_therm.pdf}
-
-\vspace*{10pt}
-
-\begin{itemize}
-\nitem local Fermi liq. \& orthogonality catastrophe
-\nitem thermal entropy
-\end{itemize}
-\end{minipage}
-
-\end{frame}
-
-\begin{frame}{}
-\section{Role of degeneracy in the multi-channel Kondo problem}
-\begin{minipage}{0.55\textwidth}
-	\small{{\bf arXiv:2205.00790}\\[10pt]
-Siddhartha Patra, \alert{Abhirup Mukherjee}, Anirban Mukherjee, N. S. Vidhyadhiraja, A. Taraphder, Siddhartha Lal}
-\end{minipage}
-\hspace*{\fill}
-\begin{minipage}{0.4\textwidth}
-	\includegraphics[width=\textwidth]{stargraph.pdf}
-\end{minipage}
-\end{frame}
-
-\begin{frame}{Role of degeneracy in the multi-channel Kondo problem}
-\footcite{Noz_blandin_1980,Tsvelick_weigmann_mchannel_1985,affleck1993exact,Gan_mchannel_1994,affleck_1991_overscreen,emery_kivelson,bulla_1998}
-
-\begin{enumerate}
-	\only<1>{\nitem Intermediate-coupling RG fixed point Hamiltonian and \alert{degenerate} ground states
-	\nitem Degree of compensation, magnetization and susceptibility show \alert{incomplete screening}}
-	\only<2>{\nitem Local \alert{marginal Fermi liquid} within the low-energy excitations of the bath
-\nitem \alert{Duality} relations constrain the RG flows of the MCK model}
-\end{enumerate}
-\vspace*{\fill}
-
-\only<1>{
-\includegraphics[width=0.4\textwidth]{CentralFieldChiPowerlaw.pdf}
-\hspace*{\fill}
-\includegraphics[width=0.4\textwidth]{discmagimpgen.pdf}
-}
-
-\only<2>{
-\includegraphics[width=0.7\textwidth]{duality.pdf}
-}
-
-\end{frame}
-
 
 \begin{frame}{}
 \section{Holography and topology of entanglement scaling in free fermions}
