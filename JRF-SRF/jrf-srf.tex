@@ -5,6 +5,12 @@
 \usepackage{amsthm,amsmath,amssymb,braket,fontspec,unicode-math,appendixnumberbeamer,pifont}
 \usepackage[absolute,overlay]{textpos}
 
+\setmainfont{Fira Sans}
+\setsansfont{Fira Sans}
+\setmathfont{Fira Math}
+\setmathfont{Latin Modern Math}[range={frak,\bigcap,\bigcup}]
+
+
 \setbeamertemplate{frametitle continuation}{}
 \setbeamerfont{alerted text}{series=\bfseries}
 
@@ -51,13 +57,7 @@
 }
 
 
-\setmainfont{Fira Sans}
-\setsansfont{Fira Sans}
-\setmathfont{Fira Math}
-\setmathfont{Latin Modern Math}[range={frak,\bigcap,\bigcup}]
-
-
-\setbeamercolor{footnote}{fg=navyblue}
+\setbeamercolor{footnote}{fg=gray}
 \setbeamerfont{footnote}{series=\bfseries}
 \setbeamerfont{title}{size=\huge,shape=\scshape}
 
@@ -79,7 +79,7 @@
 \setbeamerfont{author}{size=\large}
 \setbeamerfont{date}{size=\large}
 
-\title{\vspace*{\fill}Emergence in free and correlated fermions: from impurity models to the bulk}
+\title{\vspace*{\fill}Local metal-insulator transition in an extended Anderson impurity model}
 \subtitle{JRF-to-SRF Upgradation Presentation}
 \author{
 {\bf Abhirup Mukherjee}}
@@ -101,28 +101,12 @@
 
 \begin{frame}
 \maketitle
-% \begin{textblock*}{\textwidth}(0.5cm, 7.3cm)
-% 	\centering
-% 	\includegraphics[width=0.1\textwidth]{figures/epqm_logo_mod.jpeg}
-% 	\hspace*{\fill}
-% 	\includegraphics[width=0.1\textwidth]{figures/dps_logo.jpeg}
-% 	\hspace*{\fill}
-% 	\includegraphics[width=0.1\textwidth]{figures/IISER-K_Logo.png}
-% \end{textblock*}
 \end{frame}
 
 \begin{frame}{}
-% \flushleft
-% \includegraphics[width=0.6\textwidth]{./figures/summary.pdf}
-
-% \vspace*{40pt}
 
 \section{Summary of Work}
 
-% \vspace*{30pt}
-
-% \flushright
-% \includegraphics[width=0.6\textwidth]{./figures/summary2.pdf}
 \end{frame}
 
 \begin{frame}{Summary of Work}
@@ -143,7 +127,8 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 {\bf Ongoing Projects}
 \vspace*{\fill}
 \begin{itemize}
-	\nitem \underline{Metal-insulator transition in an extended Anderson impurity model} ({\it \small{manuscript in preparation}})\\[10pt]
+	\nitem Metal-insulator transition in an extended Anderson impurity model ({\it \small{manuscript in preparation}})\\
+	\rule{0.6\textwidth}{2pt}\\[10pt]
 	\nitem Holography and topology of entanglement scaling in free fermions ({\it \small{manuscript in preparation}})\\[10pt]
 	\nitem URG-based auxiliary model approach to correlated systems ({\it \small{ongoing}})
 \end{itemize}
@@ -167,8 +152,43 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \section{Introducing the extended Anderson impurity model}
 \end{frame}
 
+\begin{frame}{DMFT on the Bethe lattice: Exact in \(d=\infty\)}
+\footcite{metzner_volhardt_1989,kotliar1996,parcollet_2004,maier_2005,kotliar_rmp_2006,ohashi_2008,held_2013,sen_2020}
+
+\begin{itemize}
+\begin{minipage}{0.4\textwidth}
+\nitem shows \alert{metal-insulator transition} on the Bethe lattice with \(\infty\) coordination number
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.45\textwidth}
+\includegraphics[width=\textwidth]{bethe-lattice.pdf}
+\end{minipage}
+
+\vspace*{\fill}
+
+\begin{minipage}{0.45\textwidth}
+\includegraphics[width=\textwidth]{dmft-sf.pdf}
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.4\textwidth}
+\nitem Spectral function develops three peaks and then \alert{gaps out}
+\end{minipage}
+
+\vspace*{\fill}
+
+\begin{minipage}{0.4\textwidth}
+\nitem Conduction bath obtained by imposing self-consistency shows \alert{non-trivial correlations}
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.45\textwidth}
+\includegraphics[width=\textwidth]{dos_diff.pdf}
+\end{minipage}
+\end{itemize}
+	
+\end{frame}
+
 \begin{frame}{Introducing the extended Anderson impurity model}
-\footcite{anderson_1961,anderson_1978,wilson1974,nozieres1974fermi,hrk_wilson_1980,andrei_1980,tsvelickKondoreview,hewson1993,costi_hewson_1990,costi2000,kuramoto1987,Cox1988,metzner_volhardt_1989,kotliar1996,parcollet_2004,maier_2005,kotliar_rmp_2006,ohashi_2008}
+\footcite{anderson_1961,anderson_1978,wilson1974,nozieres1974fermi,hrk_wilson_1980,andrei_1980,tsvelickKondoreview,hewson1993,costi_hewson_1990,costi2000,kuramoto1987,Cox1988}
 
 \begin{minipage}{0.5\textwidth}
 {\bf Standard Anderson impurity model\\}
@@ -209,8 +229,9 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \begin{frame}{Nature of RG flows}
 
 \begin{itemize}
-\nitem URG Equations reveal \alert{critical} point at  \(r = -U_b / J = 1/4\)\\[10pt]
-\nitem allows averting strong-coupling behaviour\\[10pt]
+	\nitem URG Equations reveal \alert{critical} point at  \(r = -U_b / J = 1/4\)
+	\[\Delta J = J(J + 4U_b)/|d_3|\]
+\nitem allows averting strong-coupling behaviour\\[5pt]
 \nitem \(U_b\) always marginal
 \end{itemize}
 
@@ -262,52 +283,111 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \begin{frame}{Low-energy effective Hamiltonians and ground-states}
 
 \only<1>{
-{\Large\underline{\(|U_b| < J/4\)}}\\
-\vspace*{\fill}
+{\Large \bf Regime 1: ~ \(|U_b| < J/4\)}
+
 \begin{minipage}{0.4\textwidth}
-\includegraphics[width=\textwidth]{singlet.pdf}
+\begin{itemize}
+\nitem \(J\) relevant,\\[5pt]
+\nitem \(V\) subdominant,\\[5pt]
+\nitem \(U\) irrelevant\\[10pt]
+\end{itemize}
+\[H = J \vec{S}_d\cdot\vec{S}_0 - U_b\left( \hat n_{0 \uparrow} - \hat n_{0 \downarrow} \right)^2 + \sum_{k < \Lambda^*}\epsilon_k \hat n_{k\sigma}\]
 \end{minipage}
 \hspace*{\fill}
-\begin{minipage}{0.48\textwidth}
+\begin{minipage}{0.4\textwidth}
+\includegraphics[width=\textwidth]{phase-map-MIT1.pdf}
+\end{minipage}
+
+\vspace*{20pt}
+
+{\Large \bf Zero-bandwidth limit}
+
+\begin{minipage}{0.4\textwidth}
+\includegraphics[width=\textwidth]{singlet.pdf}
+\[H = J \vec{S}_d\cdot\vec{S}_0 - U_b\left( \hat n_{0 \uparrow} - \hat n_{0 \downarrow} \right)^2\]
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.45\textwidth}
+\vspace*{\fill}
 \begin{enumerate}
 \nitem two-spin Heisenberg, attractive zeroth site \\[6pt]
-\nitem \alert{singlet} ground state
+\nitem \alert{singlet} ground state\\[10pt]
 \end{enumerate}
+\[\ket{\Psi}_\text{GS} = \frac{1}{\sqrt 2}\left[\ket{\uparrow_d \downarrow_0} - \ket{\downarrow_d \uparrow_0}\right] \]
 \end{minipage}
 }
 
 \only<2>{
-{\Large\underline{\(|U_b| \sim J/4\)}}\\
-\vspace*{\fill}
+{\Large \bf Regime 2: ~ \(|U_b| \sim J/4\)}
+
 \begin{minipage}{0.4\textwidth}
-\includegraphics[width=\textwidth]{siam-JV.pdf}
+\begin{itemize}
+\nitem \(J\) relevant,\\[5pt]
+\nitem \(V\) relevant,\\[5pt]
+\nitem \(U\) irrelevant\\[10pt]
+\end{itemize}
+\[H = J \vec{S}_d\cdot\vec{S}_0 + V \sum_\sigma \left( c^\dagger_{d\sigma}c_{0\sigma} + \text{h.c.} \right) - U_b\left( \hat n_{0 \uparrow} - \hat n_{0 \downarrow} \right)^2 + \sum_{k < \Lambda^*}\epsilon_k \hat n_{k\sigma}\]
 \end{minipage}
 \hspace*{\fill}
-\begin{minipage}{0.48\textwidth}
+\begin{minipage}{0.4\textwidth}
+\includegraphics[width=\textwidth]{phase-map-MIT2.pdf}
+\end{minipage}
+
+\vspace*{20pt}
+
+{\Large \bf Zero-bandwidth limit}
+
+\begin{minipage}{0.4\textwidth}
+\includegraphics[width=\textwidth]{siam-JV.pdf}
+\[H = J \vec{S}_d\cdot\vec{S}_0 + V \sum_\sigma \left( c^\dagger_{d\sigma}c_{0\sigma} + \text{h.c.} \right) - U_b\left( \hat n_{0 \uparrow} - \hat n_{0 \downarrow} \right)^2\]
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.45\textwidth}
+\vspace*{\fill}
 \begin{enumerate}
-	\nitem \alert{spin+charge} dimer with attractive zeroth site\\[6pt]
-\nitem spin-singlet + charge triplet zero in ground state
+\nitem \alert{spin+charge} dimer with attractive zeroth site\\[6pt]
+\nitem spin-singlet + charge-triplet-zero in gr-state\\[10pt]
 \end{enumerate}
+\[\ket{\Psi}_\text{GS} = \frac{1}{2\sqrt 2}\left[\ket{\uparrow_d \downarrow_0} - \ket{\downarrow_d \uparrow_0}\right] ~ + ~ \frac{1}{2\sqrt 2}\left[\ket{2_d, 0_0} - \ket{0_d, 2_0} \right] \]
 \end{minipage}
 }
 
 \only<3>{
-{\Large\underline{\(|U_b| > J/4\)}}\\
-\vspace*{\fill}
+{\Large \bf Regime 3: ~ \(|U_b| > J/4\)}
+
 \begin{minipage}{0.4\textwidth}
-\includegraphics[width=\textwidth]{local-moment.pdf}
+\begin{itemize}
+\nitem \(J,V\) irrelevant,\\[5pt]
+\nitem \(U\) relevant,\\[5pt]
+\end{itemize}
+\[H = - U/2\left( \hat n_{d \uparrow} - \hat n_{d \downarrow} \right)^2 - U_b\left( \hat n_{0 \uparrow} - \hat n_{0 \downarrow} \right)^2 + \sum_{k < \Lambda^*}\epsilon_k \hat n_{k\sigma}\]
 \end{minipage}
 \hspace*{\fill}
-\begin{minipage}{0.48\textwidth}
+\begin{minipage}{0.4\textwidth}
+\includegraphics[width=\textwidth]{phase-map-MIT3.pdf}
+\end{minipage}
+
+\vspace*{20pt}
+
+{\Large \bf Zero-bandwidth limit}
+
+\begin{minipage}{0.4\textwidth}
+\includegraphics[width=\textwidth]{local-moment.pdf}
+\[H = - U/2\left( \hat n_{d \uparrow} - \hat n_{d \downarrow} \right)^2 - U_b\left( \hat n_{0 \uparrow} - \hat n_{0 \downarrow} \right)^2\]
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.45\textwidth}
+\vspace*{\fill}
 \begin{enumerate}
 \nitem impurity site detaches from bath\\[6pt]
-\nitem \alert{local moment} ground-state
+\nitem \alert{local moment} ground-state\\[10pt]
 \end{enumerate}
+\[\ket{\Psi}_\text{GS} = \ket{\uparrow,\downarrow}_d\otimes\ket{0,2}_0 \]
 \end{minipage}
 }
 
 \only<4>{
-Ground-state overlap with spin singlet and charge triplet zero\\
+\alert{Ground-state overlaps} with spin singlet and charge triplet zero\\
 \vspace*{\fill}
 \includegraphics[width=0.6\textwidth]{corrs_gs.pdf}
 }
@@ -341,7 +421,7 @@ Ground-state overlap with spin singlet and charge triplet zero\\
 
 \begin{frame}{Destruction of the Kondo cloud}
 \centering
-\alert{The Kondo cloud gets destroyed} during the transition.
+The Kondo cloud \alert{weakens, and is destroyed} at the transition.
 
 \vspace*{\fill}
 
@@ -394,15 +474,24 @@ Ground-state overlap with spin singlet and charge triplet zero\\
 \end{frame}
 \begin{frame}{Minimal effective model for the transition}
 \centering
+\begin{minipage}{0.65\textwidth}
 \begin{itemize}
 	\nitem For \(|U_b| \lesssim J/4\), central peak and side peaks are \alert{well-separated} \\[10pt]
 	\nitem \alert{Integrate out} charge fluctuations through Schrieffer-Wolff transformation
 \[H_\text{eff} = \tilde J \vec{S}_d\cdot\vec{S}_0 - U_b\left(\hat n_{0 \uparrow} - \hat n_{0 \downarrow}\right)^2 + H_\text{K.E.}\]
-\nitem \alert{captures} the criticality and the strong-coupling and local moment phases
-\[ \Delta \tilde J \sim \tilde J \left( \tilde J  + 4U_b \right) \]
+\[ \text{RG equation for } \tilde J: ~ \Delta \tilde J \sim \tilde J \left( \tilde J  + 4U_b \right) \]
+\end{itemize}
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.3\textwidth}
+\includegraphics[width=\textwidth]{separation.pdf}
+\end{minipage}
+
+\begin{itemize}
+\nitem \alert{captures} the criticality, and the strong-coupling and local moment phases
 \end{itemize}
 
-\includegraphics[width=0.6\textwidth]{universal-theory.pdf}
+\includegraphics[width=0.7\textwidth]{universal-theory.pdf}
 
 \vspace*{\fill}
 
@@ -426,6 +515,11 @@ Suggests that \alert{$J$ and $U_b$ are the minimal \& universal ingredients} for
 \section{Insights into DMFT}
 \end{frame}
 
+\begin{frame}{Extended SIAM in the context of DMFT}
+\centering
+\hspace*{-20pt}\includegraphics[width=1.1\textwidth]{contrast.pdf}
+	
+\end{frame}
 \begin{frame}{Equivalence of the impurity site and the bath zeroth site}
 \begin{itemize}
 \only<1>{
@@ -439,24 +533,44 @@ Suggests that \alert{$J$ and $U_b$ are the minimal \& universal ingredients} for
 \only<2>{
 	\nitem \(J\) is relevant and the largest scale \(\longrightarrow\) \alert{repulsive correlation}:
 	\[U_0 + U_b \simeq J > 0\]
-\nitem \(J\) acts a \alert{symmetrisation mechanism} between impurity and zeroth sites\\[10pt]
+\nitem \(J\) acts a \alert{symmetrisation mechanism} between impurity and zeroth sites
+\begin{center}
+\includegraphics[width=0.5\textwidth]{standard-siam.pdf}\\[5pt]
+\end{center}
 \nitem \alert{Coherent} spin-flip scatterings ensure similarity of spectral functions
 }
 \end{itemize}
 \vspace*{\fill}
-Essence of \alert{self-consistency}: Equivalence of impurity and zeroth sites!
+{\bf \large Essence of \alert{self-consistency}: Equivalence of impurity and zeroth sites!}
 \end{frame}
 
 
 \begin{frame}{Observation of a coexistence region}
 \only<1>{
 \begin{itemize}
-	\nitem DMFT observes a \alert{coexistence region} near the critical point, for \(U_{c1} < U < U_{c2}\)\\
+\nitem DMFT observes a \alert{coexistence region} near the critical point, for \(U_{c1} < U < U_{c2}\)\\
+\begin{minipage}{0.45\textwidth}
+\nitem Insulating when coming in from the insulator, metallic when coming in from the metal
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.49\textwidth}
 \begin{center}
-\includegraphics[width=0.5\textwidth]{coexistence.png}\\
+\includegraphics[width=\textwidth]{coexistence.png}\\
 \footnotesize{(D.E. Logan and M.R Galpin 2016 JPCM 28 025601) }\\[10pt]
 \end{center}
-\nitem Insulating when coming in from the insulator, metallic when coming in from the metal\\[10pt]
+\end{minipage}
+
+\vspace*{\fill}
+
+\begin{minipage}{0.45\textwidth}
+\nitem spectral function shows preformed gap from metallic side
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.45\textwidth}
+\begin{center}
+\includegraphics[width=\textwidth]{pre-gap.pdf}\\[10pt]
+\end{center}
+\end{minipage}
 \nitem True transition believed to occur at \(U_{c2}\)
 \end{itemize}
 }
@@ -499,10 +613,10 @@ held-toshi and lee-von delft
 
 \begin{frame}{Future Prospects}
 \begin{itemize}
-	\nitem Better model can be obtained by taking multiple impurities and general impurity filling\\[20pt]
-\nitem novel auxiliary model method can used for studying other models of strong-correlations as well as topologically active or flat band systems\\[20pt]
-\nitem The URG can be applied to heavy-fermion materials towards a study of phase diagram and unconventional superconductivity, as well as Kondo insulators\\[20pt]
-\nitem Interacting systems in a magnetic field is also a potential area of study, specifically fractional Chern insulators (e.g. the fractional quantum hall effects)
+	\nitem The extended SIAM can be improved by considering \alert{multiple impurities} and general impurity \alert{filling}.\\[20pt]
+	\nitem We are developing a new \alert{tiling-based auxiliary model method} can used for studying other models of strong-correlations as well as topologically active or flat band systems.\\[20pt]
+	\nitem The URG can be applied to \alert{heavy-fermion materials} towards a study of phase diagram and unconventional superconductivity, as well as Kondo insulators.\\[20pt]
+	\nitem Interacting systems in a magnetic field is also a potential area of study, specifically \alert{fractional Chern insulators} (e.g. the fractional quantum hall effects).
 \end{itemize}
 \end{frame}
 

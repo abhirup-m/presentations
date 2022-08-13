@@ -865,6 +865,54 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{held_2013}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HK}{%
+         family={Held},
+         familyi={H\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=PR}{%
+         family={Peters},
+         familyi={P\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Toschi},
+         familyi={T\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{HK+1}
+    \strng{fullhash}{HKPRTA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.110.246402
+    \endverb
+    \field{issue}{24}
+    \field{pages}{246402}
+    \field{title}{Poor Man's Understanding of Kinks Originating from Strong
+  Electronic Correlations}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevLett.110.246402
+    \endverb
+    \field{volume}{110}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{2013}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{hewson1993}{book}{}
     \name{author}{1}{}{%
       {{hash=HAC}{%
@@ -1945,6 +1993,53 @@
     \field{volume}{96}
     \field{journaltitle}{Physical Review B}
     \field{year}{2017}
+  \endentry
+
+  \entry{sen_2020}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SS}{%
+         family={Sen},
+         familyi={S\bibinitperiod},
+         given={Sudeshna},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WPJ}{%
+         family={Wong},
+         familyi={W\bibinitperiod},
+         given={Patrick\bibnamedelima J.},
+         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MAK}{%
+         family={Mitchell},
+         familyi={M\bibinitperiod},
+         given={Andrew\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{SS+1}
+    \strng{fullhash}{SSWPJMAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1103/PhysRevB.102.081110
+    \endverb
+    \field{issue}{8}
+    \field{pages}{081110}
+    \field{title}{The Mott transition as a topological phase transition}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevB.102.081110
+    \endverb
+    \field{volume}{102}
+    \field{journaltitle}{Phys. Rev. B}
+    \field{year}{2020}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{tsvelickKondoreview}{article}{}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.6.29)  12 AUG 2022 18:58
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.5.3)  13 AUG 2022 22:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1051,15 +1051,15 @@ Package fontspec Info: Font family 'FiraSans(1)' created for font 'Fira Sans'
 (fontspec)             <->"Fira Sans/BI/OT:script=latn;language=dflt;+smcp;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/FiraSans(1)/m/n on input line 55.
+(Font)                  OT1/cmr/m/n --> TU/FiraSans(1)/m/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/FiraSans(1)/m/it on input line 55.
+(Font)                  OT1/cmr/m/it --> TU/FiraSans(1)/m/it on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/FiraSans(1)/b/n on input line 55.
+(Font)                  OT1/cmr/bx/n --> TU/FiraSans(1)/b/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/FiraSans(1)/m/n on input line 56.
+(Font)                  OT1/cmss/m/n --> TU/FiraSans(1)/m/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/FiraSans(1)/b/n on input line 56.
+(Font)                  OT1/cmss/bx/n --> TU/FiraSans(1)/b/n on input line 10.
 
 Package fontspec Info: Font family 'FiraMath(0)' created for font 'Fira Math'
 (fontspec)             with options
@@ -1095,13 +1095,13 @@ Package fontspec Info: Font family 'FiraMath(1)' created for font 'Fira Math'
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 57.
+(Font)              `operators' in the math version `normal' on input line 11.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/FiraMath(1)/m/n on input line 57.
+(Font)                  OT1/cmr/m/n --> TU/FiraMath(1)/m/n on input line 11.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 57.
+(Font)              `operators' in the math version `bold' on input line 11.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/FiraMath(1)/b/n on input line 57.
+(Font)                  OT1/cmr/bx/n --> TU/FiraMath(1)/b/n on input line 11.
 
 Package fontspec Info: Fira Math scale = 1.0001.
 
@@ -1170,13 +1170,13 @@ Package fontspec Info: Font family 'FiraMath(2)' created for font 'Fira Math'
 (fontspec)             21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 57.
+(Font)              `symbols' in the math version `normal' on input line 11.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> TU/FiraMath(2)/m/n on input line 57.
+(Font)                  OMS/cmsy/m/n --> TU/FiraMath(2)/m/n on input line 11.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 57.
+(Font)              `symbols' in the math version `bold' on input line 11.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> TU/FiraMath(2)/b/n on input line 57.
+(Font)                  OMS/cmsy/b/n --> TU/FiraMath(2)/b/n on input line 11.
 
 Package fontspec Info: Fira Math scale = 0.9999.
 
@@ -1227,13 +1227,13 @@ Package fontspec Info: Font family 'FiraMath(3)' created for font 'Fira Math'
 (fontspec)             \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 57.
+(Font)              `largesymbols' in the math version `normal' on input line 11.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> TU/FiraMath(3)/m/n on input line 57.
+(Font)                  OMX/cmex/m/n --> TU/FiraMath(3)/m/n on input line 11.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 57.
+(Font)              `largesymbols' in the math version `bold' on input line 11.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> TU/FiraMath(3)/b/n on input line 57.
+(Font)                  OMX/cmex/m/n --> TU/FiraMath(3)/b/n on input line 11.
 
 Package fontspec Info: Could not resolve font "Latin Modern Math/B" (it
 (fontspec)             probably doesn't exist).
@@ -1257,9 +1257,9 @@ Package fontspec Info: Font family 'LatinModernMath(0)' created for font
 
 \sym__um_fam1=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `normal'
-(Font)                  TU/LatinModernMath(0)/m/n --> TU/LatinModernMath(0)/m/n on input line 57.
+(Font)                  TU/LatinModernMath(0)/m/n --> TU/LatinModernMath(0)/m/n on input line 11.
 LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `bold'
-(Font)                  TU/LatinModernMath(0)/m/n --> TU/LatinModernMath(0)/b/n on input line 57.
+(Font)                  TU/LatinModernMath(0)/m/n --> TU/LatinModernMath(0)/b/n on input line 11.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1449,6 +1449,11 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'held_2013':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'kotliar_rmp_2006':
 (biblatex)                - Invalid format of field 'month'.
 
@@ -1489,6 +1494,11 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'sen_2020':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'Tsvelick_weigmann_mchannel_1985':
 (biblatex)                - Invalid format of field 'month'.
 
@@ -1517,29 +1527,29 @@ File: figures/dps_logo.jpeg Graphic file (type bmp)
 File: figures/IISER-K_Logo.png Graphic file (type bmp)
 <figures/IISER-K_Logo.png>
 
-Overfull \vbox (21.19493pt too high) detected at line 112
+Overfull \vbox (21.19493pt too high) detected at line 104
  []
 
 [1
 
 ]
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 8.00085pt on input line 126.
+(Font)              scaled to size 8.00085pt on input line 110.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 5.7606pt on input line 126.
+(Font)              scaled to size 5.7606pt on input line 110.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 4.64049pt on input line 126.
+(Font)              scaled to size 4.64049pt on input line 110.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 126.
+(Font)              scaled to size 7.99915pt on input line 110.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 5.75937pt on input line 126.
+(Font)              scaled to size 5.75937pt on input line 110.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 4.6395pt on input line 126.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 126.
+(Font)              scaled to size 4.6395pt on input line 110.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 110.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 126.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 110.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [2
@@ -1556,124 +1566,199 @@ File: ./figures//dos_diff.pdf Graphic file (type pdf)
 ] [5
 
 ]
+Underfull \hbox (badness 4467) in paragraph at lines 188--188
+[]\TU/FiraSans(0)/m/n/8 shows []\TU/FiraSans(0)/b/n/8 metal-insulator transition[] \TU/FiraSans(0)/m/n/8 on the
+ []
+
+File: ./figures//bethe-lattice.pdf Graphic file (type pdf)
+<use ./figures//bethe-lattice.pdf>
+File: ./figures//dmft-sf.pdf Graphic file (type pdf)
+<use ./figures//dmft-sf.pdf>
+File: ./figures//dos_diff.pdf Graphic file (type pdf)
+<use ./figures//dos_diff.pdf>
+LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
+(Font)              scaled to size 10.00107pt on input line 188.
+LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
+(Font)              scaled to size 7.00075pt on input line 188.
+LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 188.
+LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 188.
+LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 188.
+LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 188.
+[6
+
+]
 File: ./figures//standard-siam.pdf Graphic file (type pdf)
 <use ./figures//standard-siam.pdf>
 File: ./figures//zeromode_bare.pdf Graphic file (type pdf)
 <use ./figures//zeromode_bare.pdf>
- [6
+ [7
 
-] [7
+] [8
 
 ]
 File: ./figures//V_Ub.pdf Graphic file (type pdf)
 <use ./figures//V_Ub.pdf>
 File: ./figures//U_Ub.pdf Graphic file (type pdf)
 <use ./figures//U_Ub.pdf>
- [8
+ [9
 
 ]
 File: ./figures//phase-map-MIT.png Graphic file (type bmp)
 <./figures//phase-map-MIT.png>
- [9
-
-]
-LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 10.95116pt on input line 314.
-LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 314.
-LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 314.
-LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 314.
-File: ./figures//singlet.pdf Graphic file (type pdf)
-<use ./figures//singlet.pdf>
  [10
 
 ]
-File: ./figures//siam-JV.pdf Graphic file (type pdf)
-<use ./figures//siam-JV.pdf>
+LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
+(Font)              scaled to size 10.95116pt on input line 394.
+LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
+(Font)              scaled to size 6.00064pt on input line 394.
+LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
+(Font)              scaled to size 10.94882pt on input line 394.
+LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 394.
+File: ./figures//phase-map-MIT1.pdf Graphic file (type pdf)
+<use ./figures//phase-map-MIT1.pdf>
+File: ./figures//singlet.pdf Graphic file (type pdf)
+<use ./figures//singlet.pdf>
  [11
 
 ]
+Overfull \hbox (38.32326pt too wide) detected at line 394
+[] [] [][] [] [] [] [] [] [] [] [][] [][] [] [] [][][]
+ []
+
+File: ./figures//phase-map-MIT2.pdf Graphic file (type pdf)
+<use ./figures//phase-map-MIT2.pdf>
+File: ./figures//siam-JV.pdf Graphic file (type pdf)
+<use ./figures//siam-JV.pdf>
+
+Overfull \hbox (1.23657pt too wide) detected at line 394
+[] [] [][] [] [] [] [] [] [] [] [][] [][]
+ []
+
+
+Overfull \hbox (18.59608pt too wide) detected at line 394
+[][] [] [] []  [] []  [][] []
+ []
+
+
+Overfull \vbox (12.881pt too high) detected at line 394
+ []
+
+[12
+
+]
+Overfull \hbox (8.78355pt too wide) detected at line 394
+[] [] [][][][] [][] [] [][] [][] [] [] [][][]
+ []
+
+File: ./figures//phase-map-MIT3.pdf Graphic file (type pdf)
+<use ./figures//phase-map-MIT3.pdf>
 File: ./figures//local-moment.pdf Graphic file (type pdf)
 <use ./figures//local-moment.pdf>
- [12
+[13
 
 ]
 File: ./figures//corrs_gs.pdf Graphic file (type pdf)
 <use ./figures//corrs_gs.pdf>
- [13
+ [14
 
-] [14
+] [15
 
 ]
 File: ./figures//Add.pdf Graphic file (type pdf)
 <use ./figures//Add.pdf>
- [15
+ [16
 
 ]
 File: ./figures//pairing.pdf Graphic file (type pdf)
 <use ./figures//pairing.pdf>
 File: ./figures//I_r.pdf Graphic file (type pdf)
 <use ./figures//I_r.pdf>
- [16
+ [17
 
 ]
 File: ./figures//spinflip-pairing.pdf Graphic file (type pdf)
 <use ./figures//spinflip-pairing.pdf>
 File: ./figures//I_k.pdf Graphic file (type pdf)
 <use ./figures//I_k.pdf>
- [17
+ [18
 
-] [18
+] [19
 
 ]
+File: ./figures//separation.pdf Graphic file (type pdf)
+<use ./figures//separation.pdf>
 File: ./figures//universal-theory.pdf Graphic file (type pdf)
 <use ./figures//universal-theory.pdf>
- [19
+ [20
 
 ]
 File: ./figures//twosite_spectrum.pdf Graphic file (type pdf)
 <use ./figures//twosite_spectrum.pdf>
- [20
+ [21
 
-] [21
+] [22
+
+]
+File: ./figures//contrast.pdf Graphic file (type pdf)
+<use ./figures//contrast.pdf>
+
+Overfull \hbox (19.83629pt too wide) in paragraph at lines 522--522
+ []| [] 
+ []
+
+[23
 
 ]
 File: ./figures//decouple-impurity.pdf Graphic file (type pdf)
 <use ./figures//decouple-impurity.pdf>
- [22
-
-] [23
+ [24
 
 ]
+File: ./figures//standard-siam.pdf Graphic file (type pdf)
+<use ./figures//standard-siam.pdf>
+ [25
+
+]
+Underfull \hbox (badness 1533) in paragraph at lines 595--595
+[]\TU/FiraSans(0)/m/n/8 Insulating when coming in from the insulator,
+ []
+
 File: ./figures//coexistence.png Graphic file (type bmp)
 <./figures//coexistence.png>
- [24
+
+Underfull \hbox (badness 4328) in paragraph at lines 595--595
+[]\TU/FiraSans(0)/m/n/8 spectral function shows preformed gap from
+ []
+
+File: ./figures//pre-gap.pdf Graphic file (type pdf)
+<use ./figures//pre-gap.pdf>
+[26
 
 ]
 File: ./figures//coexistence-explain.pdf Graphic file (type pdf)
 <use ./figures//coexistence-explain.pdf>
- [25
+ [27
 
 ]
 File: ./figures//coexistence-explain1.pdf Graphic file (type pdf)
 <use ./figures//coexistence-explain1.pdf>
- [26
+ [28
 
 ]
 File: ./figures//coexistence-explain2.pdf Graphic file (type pdf)
 <use ./figures//coexistence-explain2.pdf>
- [27
+ [29
 
 ]
 File: ./figures//coexistence-explain3.pdf Graphic file (type pdf)
 <use ./figures//coexistence-explain3.pdf>
- [28
-
-] [29
-
-] [30
+ [30
 
 ] [31
 
@@ -1685,55 +1770,55 @@ File: ./figures//coexistence-explain3.pdf Graphic file (type pdf)
 
 ] [35
 
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\translate ' on input line 523.
-
-LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 527.
-LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 527.
-[36
+] [36
 
 ] [37
 
+]
 
-] [38
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\translate ' on input line 637.
 
+[38
 
 ] [39
+
+
+] [40
+
+
+] [41
 
 ]
 File: ./figures//kondo-effect.pdf Graphic file (type pdf)
 <use ./figures//kondo-effect.pdf>
- [40
+ [42
 
 ]
 File: ./figures//chi_parts.pdf Graphic file (type pdf)
 <use ./figures//chi_parts.pdf>
 File: ./figures//entropy_therm.pdf Graphic file (type pdf)
 <use ./figures//entropy_therm.pdf>
- [41
+ [43
 
 ]
 File: ./figures//stargraph.pdf Graphic file (type pdf)
 <use ./figures//stargraph.pdf>
- [42
+ [44
 
 ]
 File: ./figures//CentralFieldChiPowerlaw.pdf Graphic file (type pdf)
 <use ./figures//CentralFieldChiPowerlaw.pdf>
 File: ./figures//discmagimpgen.pdf Graphic file (type pdf)
 <use ./figures//discmagimpgen.pdf>
- [43
+ [45
 
 ]
 File: ./figures//duality.pdf Graphic file (type pdf)
 <use ./figures//duality.pdf>
- [44
+ [46
 
-] [45
+] [47
 
 ]
 File: ./figures//phase-map-MIT.pdf Graphic file (type pdf)
@@ -1741,58 +1826,58 @@ File: ./figures//phase-map-MIT.pdf Graphic file (type pdf)
 File: ./figures//odlro_d0.pdf Graphic file (type pdf)
 <use ./figures//odlro_d0.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 627--627
+Underfull \hbox (badness 10000) in paragraph at lines 741--741
 [][]
  []
 
-[46
+[48
 
 ]
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 650.
+(Font)              scaled to size 12.00128pt on input line 764.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 650.
+(Font)              scaled to size 11.99872pt on input line 764.
 File: ./figures//corrs_gs.pdf Graphic file (type pdf)
 <use ./figures//corrs_gs.pdf>
 File: ./figures//Add.pdf Graphic file (type pdf)
 <use ./figures//Add.pdf>
- [47
+ [49
 
 ]
 
 Package amsmath Warning: Foreign command \atop;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 659.
+(amsmath)                 on input line 773.
 
-[48
+[50
 
 ]
 File: ./figures//entanglement.pdf Graphic file (type pdf)
 <use ./figures//entanglement.pdf>
 File: ./figures//I_k.pdf Graphic file (type pdf)
 <use ./figures//I_k.pdf>
- [49
+ [51
 
 ]
 File: ./figures//odlro_d0.pdf Graphic file (type pdf)
 <use ./figures//odlro_d0.pdf>
 File: ./figures//gen-phase-diagram.pdf Graphic file (type pdf)
 <use ./figures//gen-phase-diagram.pdf>
- [50
+ [52
 
 ]
 File: figures/Matroshka.png Graphic file (type bmp)
 <figures/Matroshka.png>
 File: figures/holography.pdf Graphic file (type pdf)
 <use figures/holography.pdf>
- [51
+ [53
 
 ]
 File: figures/A_mi.pdf Graphic file (type pdf)
 <use figures/A_mi.pdf>
 File: figures/subsystem-torus.pdf Graphic file (type pdf)
 <use figures/subsystem-torus.pdf>
- [52
+ [54
 
 ]
 File: figures/Matroshka.png Graphic file (type bmp)
@@ -1800,20 +1885,16 @@ File: figures/Matroshka.png Graphic file (type bmp)
 File: figures/nested.png Graphic file (type bmp)
 <figures/nested.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 743--743
+Underfull \hbox (badness 10000) in paragraph at lines 857--857
 [][]
  []
 
-[53
+[55
 
 ]
 File: ./figures//curvature-pos.pdf Graphic file (type pdf)
 <use ./figures//curvature-pos.pdf>
- [54
-
-] [55
-
-] [56
+ [56
 
 ] [57
 
@@ -1826,6 +1907,10 @@ File: ./figures//curvature-pos.pdf Graphic file (type pdf)
 ] [61
 
 ] [62
+
+] [63
+
+] [64
 
 ]
 \tf@nav=\write7
@@ -1845,12 +1930,12 @@ Package logreq Info: Writing requests to 'jrf-srf.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39620 strings out of 476156
- 832259 string characters out of 5814963
- 1443032 words of memory out of 5000000
- 59603 multiletter control sequences out of 15000+600000
- 478661 words of font info for 151 fonts, out of 8000000 for 9000
+ 39728 strings out of 476156
+ 835539 string characters out of 5814964
+ 1449044 words of memory out of 5000000
+ 59695 multiletter control sequences out of 15000+600000
+ 480008 words of font info for 163 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,13n,134p,1913b,5224s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,13n,134p,1913b,5222s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on jrf-srf.xdv (62 pages, 547252 bytes).
+Output written on jrf-srf.xdv (64 pages, 579960 bytes).
