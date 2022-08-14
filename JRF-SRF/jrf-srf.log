@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.5.3)  13 AUG 2022 22:02
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.5.3)  14 AUG 2022 17:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1732,8 +1732,8 @@ Underfull \hbox (badness 1533) in paragraph at lines 595--595
 File: ./figures//coexistence.png Graphic file (type bmp)
 <./figures//coexistence.png>
 
-Underfull \hbox (badness 4328) in paragraph at lines 595--595
-[]\TU/FiraSans(0)/m/n/8 spectral function shows preformed gap from
+Underfull \hbox (badness 4120) in paragraph at lines 595--595
+[]\TU/FiraSans(0)/m/n/8 spectral function shows []\TU/FiraSans(0)/b/n/8 preformed gap[] \TU/FiraSans(0)/m/n/8 from
  []
 
 File: ./figures//pre-gap.pdf Graphic file (type pdf)
@@ -1760,9 +1760,23 @@ File: ./figures//coexistence-explain3.pdf Graphic file (type pdf)
 <use ./figures//coexistence-explain3.pdf>
  [30
 
-] [31
+]
+File: ./figures//spin-sus.pdf Graphic file (type pdf)
+<use ./figures//spin-sus.pdf>
+ [31
 
-] [32
+]
+File: ./figures//doublon-holon-correlators.pdf Graphic file (type pdf)
+<use ./figures//doublon-holon-correlators.pdf>
+File: ./figures//corrs_gs.pdf Graphic file (type pdf)
+<use ./figures//corrs_gs.pdf>
+File: ./figures//pairing.pdf Graphic file (type pdf)
+<use ./figures//pairing.pdf>
+
+Overfull \vbox (3.86783pt too high) detected at line 622
+ []
+
+[32
 
 ] [33
 
@@ -1774,110 +1788,74 @@ File: ./figures//coexistence-explain3.pdf Graphic file (type pdf)
 
 ] [37
 
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\translate ' on input line 637.
-
-[38
+] [38
 
 ] [39
 
+]
 
-] [40
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\translate ' on input line 668.
 
+[40
 
 ] [41
+
+
+] [42
+
+
+] [43
 
 ]
 File: ./figures//kondo-effect.pdf Graphic file (type pdf)
 <use ./figures//kondo-effect.pdf>
- [42
+ [44
 
 ]
 File: ./figures//chi_parts.pdf Graphic file (type pdf)
 <use ./figures//chi_parts.pdf>
 File: ./figures//entropy_therm.pdf Graphic file (type pdf)
 <use ./figures//entropy_therm.pdf>
- [43
+ [45
 
 ]
 File: ./figures//stargraph.pdf Graphic file (type pdf)
 <use ./figures//stargraph.pdf>
- [44
+ [46
 
 ]
 File: ./figures//CentralFieldChiPowerlaw.pdf Graphic file (type pdf)
 <use ./figures//CentralFieldChiPowerlaw.pdf>
 File: ./figures//discmagimpgen.pdf Graphic file (type pdf)
 <use ./figures//discmagimpgen.pdf>
- [45
+ [47
 
 ]
 File: ./figures//duality.pdf Graphic file (type pdf)
 <use ./figures//duality.pdf>
- [46
-
-] [47
-
-]
-File: ./figures//phase-map-MIT.pdf Graphic file (type pdf)
-<use ./figures//phase-map-MIT.pdf>
-File: ./figures//odlro_d0.pdf Graphic file (type pdf)
-<use ./figures//odlro_d0.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 741--741
-[][]
- []
-
-[48
-
-]
-LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 764.
-LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 764.
-File: ./figures//corrs_gs.pdf Graphic file (type pdf)
-<use ./figures//corrs_gs.pdf>
-File: ./figures//Add.pdf Graphic file (type pdf)
-<use ./figures//Add.pdf>
- [49
-
-]
-
-Package amsmath Warning: Foreign command \atop;
-(amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 773.
-
-[50
-
-]
-File: ./figures//entanglement.pdf Graphic file (type pdf)
-<use ./figures//entanglement.pdf>
-File: ./figures//I_k.pdf Graphic file (type pdf)
-<use ./figures//I_k.pdf>
- [51
-
-]
-File: ./figures//odlro_d0.pdf Graphic file (type pdf)
-<use ./figures//odlro_d0.pdf>
-File: ./figures//gen-phase-diagram.pdf Graphic file (type pdf)
-<use ./figures//gen-phase-diagram.pdf>
- [52
+ [48
 
 ]
 File: figures/Matroshka.png Graphic file (type bmp)
 <figures/Matroshka.png>
 File: figures/holography.pdf Graphic file (type pdf)
 <use figures/holography.pdf>
- [53
+ [49
+
+]
+File: figures/A_mi.pdf Graphic file (type pdf)
+<use figures/A_mi.pdf>
+File: ./figures//curvature-pos.pdf Graphic file (type pdf)
+<use ./figures//curvature-pos.pdf>
+ [50
 
 ]
 File: figures/A_mi.pdf Graphic file (type pdf)
 <use figures/A_mi.pdf>
 File: figures/subsystem-torus.pdf Graphic file (type pdf)
 <use figures/subsystem-torus.pdf>
- [54
+ [51
 
 ]
 File: figures/Matroshka.png Graphic file (type bmp)
@@ -1885,32 +1863,20 @@ File: figures/Matroshka.png Graphic file (type bmp)
 File: figures/nested.png Graphic file (type bmp)
 <figures/nested.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 857--857
+Underfull \hbox (badness 10000) in paragraph at lines 826--826
 [][]
  []
 
-[55
+[52
 
 ]
 File: ./figures//curvature-pos.pdf Graphic file (type pdf)
 <use ./figures//curvature-pos.pdf>
- [56
+ [53
 
-] [57
+] [54
 
-] [58
-
-] [59
-
-] [60
-
-] [61
-
-] [62
-
-] [63
-
-] [64
+] [55
 
 ]
 \tf@nav=\write7
@@ -1924,18 +1890,18 @@ File: ./figures//curvature-pos.pdf Graphic file (type pdf)
 
  (./jrf-srf.aux)
 Package rerunfilecheck Info: File `jrf-srf.out' has not changed.
-(rerunfilecheck)             Checksum: 9CFE80FACA970602539DEE85D4F3C7D7;3558.
+(rerunfilecheck)             Checksum: 531D567C9C5DA401C37E979104B9D547;3020.
 Package logreq Info: Writing requests to 'jrf-srf.run.xml'.
 \openout1 = `jrf-srf.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39728 strings out of 476156
- 835539 string characters out of 5814964
- 1449044 words of memory out of 5000000
- 59695 multiletter control sequences out of 15000+600000
- 480008 words of font info for 163 fonts, out of 8000000 for 9000
+ 39647 strings out of 476156
+ 833630 string characters out of 5814964
+ 1448316 words of memory out of 5000000
+ 59621 multiletter control sequences out of 15000+600000
+ 478614 words of font info for 154 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,13n,134p,1913b,5222s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on jrf-srf.xdv (64 pages, 579960 bytes).
+Output written on jrf-srf.xdv (55 pages, 522840 bytes).
