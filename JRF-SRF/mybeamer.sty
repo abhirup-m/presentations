@@ -1,0 +1,78 @@
+
+\usetheme[numbering=none,block=fill]{metropolis}
+\usepackage[backend=bibtex,url=false,doi=false,maxcitenames=1, style=authoryear]{biblatex}
+\usepackage{amsthm,amsmath,amssymb,braket,fontspec,unicode-math,appendixnumberbeamer,pifont}
+\usepackage[absolute,overlay]{textpos}
+
+\setmainfont{Fira Sans}
+\setsansfont{Fira Sans}
+\setmathfont{Fira Math}
+\setmathfont{Latin Modern Math}[range={frak,\bigcap,\bigcup}]
+
+
+\setbeamertemplate{frametitle continuation}{}
+\setbeamerfont{alerted text}{series=\bfseries}
+
+\makeatletter
+\def\@makefnmark{}
+\makeatletter
+
+\makeatletter
+\setlength{\metropolis@titleseparator@linewidth}{2pt}
+\setlength{\metropolis@progressonsectionpage@linewidth}{2pt}
+\setlength{\metropolis@progressinheadfoot@linewidth}{2pt}
+\makeatother
+
+
+
+\setbeamertemplate{footline}{%
+  \begin{beamercolorbox}[wd=\textwidth, sep=1ex]{footline}%
+    \hspace{0.3cm}
+    \usebeamerfont{page number in head/foot}%
+    \usebeamertemplate*{frame footer}
+    \hfill%
+    \usebeamertemplate*{frame numbering}
+  \end{beamercolorbox}%
+}
+
+
+\setbeamertemplate{section page}{
+  \begin{minipage}{\linewidth}
+  \centering
+  \raggedright
+  \usebeamercolor[fg]{section title}
+  \usebeamerfont{section title}
+  {\huge \insertsectionhead}\\[-1ex]
+  \usebeamertemplate*{progress bar in section page}
+  \par
+  \ifx\insertsubsectionhead\@empty\else%
+    \usebeamercolor[fg]{subsection title}%
+    \usebeamerfont{subsection title}%
+    \insertsubsectionhead
+  \fi
+  \end{minipage}
+  \par
+  \vspace{\baselineskip}
+}
+
+
+\setbeamercolor{footnote}{fg=gray}
+\setbeamerfont{footnote}{series=\bfseries}
+\setbeamerfont{title}{size=\huge,shape=\scshape}
+
+\AtBeginBibliography{\scriptsize}
+
+\setbeamerfont{institute}{size=\large}
+\setbeamerfont{author}{size=\large,series=\bfseries}
+\setbeamerfont{date}{size=\large}
+
+
+\newcommand{\focus}[1]{\textcolor{red}{\bf{#1}}}
+\newcommand{\nitem}{\item[\ding{51}]}
+
+\definecolor{red}{HTML}{CC0000}
+\definecolor{lred}{HTML}{e24a33}
+\definecolor{lblue}{HTML}{348abd}
+\definecolor{navyblue}{HTML}{000080}
+\setbeamertemplate{bibliography item}[triangle]
+
