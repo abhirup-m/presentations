@@ -523,26 +523,33 @@ Suggests that \alert{$J$ and $U_b$ are the minimal \& universal ingredients} for
 \only<1>{
 \large{\alert{Poor Man's scaling} of the effective Kondo model}\hspace*{\fill}\small{\it [K. Held, R. Peters, and A. Toschi. PRL 2013]}\\[10pt]
 \begin{itemize}
-\item shows \alert{quantitative} agreement with NRG-DMFT (crossover scale and kinks in self-energy)\\[5pt]
-\item Suggests that the minimal model can capture \alert{spin susc.}\\[10pt]
+\nitem shows \alert{quantitative} agreement with NRG-DMFT (crossover scale and kinks in self-energy)\\[5pt]
+\nitem Suggests that the minimal model can capture \alert{spin susc.}\\[10pt]
 \begin{center}
 \includegraphics[width=0.5\textwidth]{spin-sus.pdf}\\[5pt]
 \end{center}
-\item Our \(J-U_b\) model \alert{goes further} by capturing physics beyond the transition
+\nitem Our \(J-U_b\) model \alert{goes further} by capturing physics beyond the transition
 \end{itemize}
 }
 \only<2>{
 \large{\alert{Doublon-holon correlators} of the Hubbard model}\hspace*{\fill}\small{\it [S. B. Lee, J. v Delft, and A. Weichselbaum. PRL 2017]}\\[10pt]
-\begin{itemize}
-\item Lee et. al show \alert{peaks} in doublon-holon correlators near zero energy within the central peak.\\[5pt]
+\begin{minipage}{0.3\textwidth}
+Lee et. al show \alert{peaks} in \\[5pt]
+doublon-holon correlators\\[5pt]
+near zero energy \\[5pt]
+within the central peak.
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.65\textwidth}
 \begin{center}
-\includegraphics[width=0.75\textwidth]{doublon-holon-correlators.pdf}\\[5pt]
+\includegraphics[width=\textwidth]{doublon-holon-correlators.pdf}
 \end{center}
-\item We find support for this in the form of \alert{increasing ground-state charge correlations and overlap}.\\[5pt]
+\end{minipage}
+
+We find support for this in the form of \alert{increasing ground-state charge correlations and overlap}.\\[5pt]
 \includegraphics[width=0.4\textwidth]{corrs_gs.pdf}
 \hspace*{\fill}
 \includegraphics[width=0.4\textwidth]{pairing.pdf}
-\end{itemize}
 }
 \end{frame}
 
@@ -553,25 +560,52 @@ Suggests that \alert{$J$ and $U_b$ are the minimal \& universal ingredients} for
 \begin{frame}{Effect on the local Fermi liquid}
 What about the \alert{low-energy excitations} of the bath, that lie above the singlet ground state?
 \begin{itemize}
-\item treat hopping between singlet and bath as perturbation 
+\nitem treat hopping between singlet and bath as perturbation 
 \begin{center}
 \includegraphics[width=0.6\textwidth]{perturbation.pdf}
 \end{center}
-\item Up to fourth order, charge sector becomes repulsive...
+\nitem Up to fourth order, charge sector becomes repulsive...
 	\[H_\text{eff} = \frac{2t^4}{\tilde J\left(3\tilde J/4 + \tilde U_b \right)^2}\left[\hat n_{1 \uparrow}\hat n_{1 \downarrow} + \text{p-h}\right]  + H_\text{K.E.}\]
-\item FL term blows up towards transition, signaling \alert{breakdown} of Fermi liquid theory and loss of adiabaticity.
+\nitem FL term blows up towards transition, signaling \alert{breakdown} of Fermi liquid theory and loss of adiabaticity.
 \end{itemize}
 \end{frame}
 
-\begin{frame}{emergence of NFL terms at the critical point}
+\begin{frame}{Effect on the local Fermi liquid}
+Vanishing of the \alert{Kondo scale} \(T_K\) towards the transition
+\vspace*{\fill}
+
+\begin{itemize}
+	\nitem Near the transition \(r = -U_b/J_0 \to \frac{1}{4}\), the fixed-point momentum scale \(\Lambda^*\) can be approximated as
+	\[\Lambda^* \sim \Lambda_0 \left(1 - 4r\right)^{\frac{|2\omega + U_b + J_0/2|}{8 \rho U_b}}, ~ ~ \Lambda_0 = \text{UV cutoff}, ~ ~ \rho = \text{bath D.O.S}\]
+	\nitem \(\Lambda^*\) vanishes as \(r \to 1/4\)\\[10pt]
+	\nitem Kondo temperature can be defined as \(T_K = \hbar \Lambda^*/k_B\), also vanishes towards the critical point
+	\[T_K \sim \frac{\hbar}{k_B}\Lambda_0 \left(1 - 4r\right)^{\frac{|2\omega + U_b + J_0/2|}{8 \rho U_b}}\]
+\end{itemize}
+\includegraphics[width=0.5\textwidth]{Tk.pdf}
 \end{frame}
+
+\begin{frame}{Effect on the local Fermi liquid}
+	How do the imaginary part of \alert{self-energy} \(\Sigma\) and the \alert{quasiparticle residue} behave near the transition?
+	\vspace*{\fill}
+
+\begin{itemize}
+	\nitem Following the renormalised perturbation theory approach of Hewson~\footcite{hewson1993,coleman2015}, \(\text{Im}\left[\Sigma(\omega)\right] \) is
+	\[\text{Im}\left[\Sigma(\omega)\right] \sim u^2 \omega^2, ~ ~ u = \frac{2t^4}{\tilde J\left(3\tilde J/4 + \tilde U_b \right)^2}\]
+	\nitem As \(r \to 0\), \(u \to \infty\), signalling a vanishing lifetime of the quasiparticles\\[10pt]
+	\nitem Quasiparticle residue \(Z\) for 1-particle excitations is proportional to \(T_K\):
+	\[Z \sim T_K\]
+	\[Z \to 0 \text{ as }r \to 0\]
+\end{itemize}
+\end{frame}
+
 
 \begin{frame}{Broad conclusions}
 \begin{itemize}
-	\item The extended SIAM appears to capture the DMFT transition and \alert{self-consistency}.\\[10pt]
-	\item \alert{Minimal ingredients} are the Kondo physics \(J\) and  the attractive local correlation \(U_b\).\\[10pt]
-	\item Crucial feature of the journey is the enhancement of \alert{pairing fluctuations} in the bath.\\[10pt]
-	\item  SOMETHING ABOUT THE FINAL CALCULATIONS (MAYBE NON-FERMI LIQUID PHYSICS)
+	\nitem The extended SIAM appears to capture the DMFT transition and \alert{self-consistency}.\\[10pt]
+	\nitem The key ingredient is a \alert{competition} between Kondo screening physics and a local attractive correlation in the bath.\\[10pt]
+	\nitem Crucial feature of the journey is the enhancement of \alert{pairing fluctuations} in the bath - leads to destruction of Kondo cloud.\\[10pt]
+	\nitem An emergent self-consistency is achieved through the qualitative similarity of the spectral functions of the impurity and zeroth sites.\\[10pt]
+	\nitem  SOMETHING ABOUT THE FINAL CALCULATIONS (MAYBE NON-FERMI LIQUID PHYSICS)
 \end{itemize}	
 \end{frame}
 
@@ -594,7 +628,7 @@ What about the \alert{low-energy excitations} of the bath, that lie above the si
 \flushleft
 Gracious thanks to\\[10pt]
 \begin{itemize}
-	\nitem my collaborators \alert{S. Patra, A. Mukherjee, Prof. A. Taraphdar} and \alert{Prof. N. S. Vidhyadhiraja},\\[10pt]
+	\nitem my collaborators \alert{S. Patra, A. Mukherjee, Prof. A. Taraphder} and \alert{Prof. N. S. Vidhyadhiraja},\\[10pt]
 	\nitem my RPC members \alert{Prof. Ritesh Singh} and \alert{Prof. Anandamohan Ghosh} for instructive feedback,\\[10pt]
 	\nitem \alert{Prof. H. Casini, Prof. N. Banerjee} and \alert{Shibendu G. Chowdhury} for very fruitful discussions, and\\[10pt]
 	\nitem IISER Kolkata for funding.
@@ -703,10 +737,10 @@ Siddhartha Patra, \alert{Abhirup Mukherjee}, Anirban Mukherjee, N. S. Vidhyadhir
 \hspace*{-40pt}
 \begin{minipage}{0.65\textwidth}
 \begin{itemize}
-	\item Under coarse-graining or fine-graining in \(k-\)space, entanglement of free Dirac fermions shows hierarchical onion-like structure.\\[10pt]
-	\item Entanglement scaling can be used to define distances, leads to additional spatial dimension \(\longrightarrow\) holography.\\[10pt]
-	\item Emergent distances and curvature can be related to RG beta function; the sign of the curvature is topological.\\[10pt]
-	\item Pole structure of the entanglement tracks the Luttinger volume - invariant under the scaling transformations.
+	\nitem Under coarse-graining or fine-graining in \(k-\)space, entanglement of free Dirac fermions shows hierarchical onion-like structure.\\[10pt]
+	\nitem Entanglement scaling can be used to define distances, leads to additional spatial dimension \(\longrightarrow\) holography.\\[10pt]
+	\nitem Emergent distances and curvature can be related to RG beta function; the sign of the curvature is topological.\\[10pt]
+	\nitem Pole structure of the entanglement tracks the Luttinger volume - invariant under the scaling transformations.
 \end{itemize}
 \end{minipage}
 \hspace*{5pt}

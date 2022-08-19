@@ -1771,6 +1771,7 @@ INPUT ./figures//coexistence-explain2.pdf
 INPUT ./figures//coexistence-explain3.pdf
 INPUT ./figures//coexistence-explain3.pdf
 INPUT ./figures//coexistence-explain3.pdf
+INPUT /usr/share/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm
 INPUT ./figures//spin-sus.pdf
 INPUT ./figures//spin-sus.pdf
 INPUT ./figures//spin-sus.pdf
@@ -1786,6 +1787,9 @@ INPUT ./figures//pairing.pdf
 INPUT ./figures//perturbation.pdf
 INPUT ./figures//perturbation.pdf
 INPUT ./figures//perturbation.pdf
+INPUT ./figures//Tk.pdf
+INPUT ./figures//Tk.pdf
+INPUT ./figures//Tk.pdf
 INPUT ./figures//kondo-effect.pdf
 INPUT ./figures//kondo-effect.pdf
 INPUT ./figures//kondo-effect.pdf

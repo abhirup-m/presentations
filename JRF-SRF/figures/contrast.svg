@@ -3,8 +3,8 @@
 
 <svg
    width="662.35596mm"
-   height="304.29089mm"
-   viewBox="0 0 662.35598 304.2909"
+   height="306.68686mm"
+   viewBox="0 0 662.35598 306.68686"
    version="1.1"
    id="svg165413"
    sodipodi:docname="contrast.svg"
@@ -13,7 +13,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:ns12="http://www.iki.fi/pav/software/textext/">
+   xmlns:ns16="http://www.iki.fi/pav/software/textext/">
   <sodipodi:namedview
      id="namedview165415"
      pagecolor="#ffffff"
@@ -25,13 +25,13 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.60382539"
-     inkscape:cx="1444.9541"
-     inkscape:cy="520.01788"
-     inkscape:window-width="1916"
-     inkscape:window-height="1052"
-     inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:zoom="1.7078761"
+     inkscape:cx="1881.8695"
+     inkscape:cy="264.6562"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     inkscape:window-x="1920"
+     inkscape:window-y="151"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      showguides="false" />
@@ -662,7 +662,7 @@
        inkscape:original-d="m 253.98273,50.185195 c -0.97912,-45.6294345 -32.15311,18.40141 -48.23002,27.601704 -16.07686,9.200298 -4.89601,39.894201 -13.58631,53.137111 -8.69028,13.24294 16.62851,25.29704 31.18449,44.64893 14.55594,19.35188 136.60432,-77.963137 147.79378,-74.13018 11.18946,3.83298 -116.18268,-5.628137 -117.16194,-51.257565 z"
        sodipodi:nodetypes="cssssc" />
     <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:5.57508;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#404040;stroke-width:5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 162.22329,208.53425 c -4.144,3.458 -7.37467,8.00082 -9.28083,13.05028 -1.90616,5.04947 -2.48342,10.59394 -1.65832,15.92777 1.17574,7.60051 5.17031,14.62284 10.62528,20.04442 5.45497,5.42158 12.31215,9.30465 19.55389,11.89451 14.48348,5.17972 30.19794,5.27748 45.5573,6.10869 29.82935,1.61429 59.49617,6.21744 88.41217,13.71817"
        id="path174017"
        inkscape:path-effect="#path-effect174019"
@@ -701,15 +701,15 @@
        id="rect165523-4"
        width="195.02831"
        height="6.2502909"
-       x="-93.095749"
-       y="117.68914" />
+       x="-94.68325"
+       y="117.15997" />
     <rect
        style="fill:#707070;fill-opacity:1;stroke:none;stroke-width:0.884508;stroke-dasharray:none;stroke-opacity:1"
        id="rect165523-6-3"
        width="166.08913"
        height="6.3038292"
        x="119.36826"
-       y="182.92963"
+       y="181.87131"
        transform="matrix(0.84111982,-0.54084883,0,1,0,0)" />
     <circle
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-dasharray:none;stroke-opacity:1"
@@ -736,24 +736,24 @@
        cy="37.008007"
        r="6" />
     <path
-       style="fill:none;fill-opacity:1;stroke:#303050;stroke-width:5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker168225-6)"
+       style="fill:none;fill-opacity:1;stroke:#1683c3;stroke-width:5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker168225-6)"
        d="M 7.9459332,77.657625 C -5.2596692,92.608383 -19.149587,106.95467 -33.665771,120.63654 c -16.438369,15.49357 -33.679948,30.1349 -51.632368,43.84553"
        id="path168201-9"
        inkscape:path-effect="#path-effect168203-9"
        inkscape:original-d="m 7.9459332,77.657625 c -16.142811,14.95019 -25.4683542,28.149635 -41.6117042,42.978915 -16.14335,14.82928 -50.368138,24.12806 -51.632368,43.84553"
        sodipodi:nodetypes="csc" />
     <path
-       style="fill:none;fill-opacity:1;stroke:#303050;stroke-width:5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker168225-1-0)"
+       style="fill:none;fill-opacity:1;stroke:#1683c3;stroke-width:5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker168225-1-0)"
        d="m 119.50506,70.04715 c 21.08372,14.985834 36.81835,37.34246 43.80936,62.24676 4.15275,14.79346 5.27961,30.42935 3.29105,45.66541"
        id="path168201-4-3"
        inkscape:path-effect="#path-effect168203-6-9"
        inkscape:original-d="m 119.50506,70.04715 c 16.14282,14.950189 27.66602,47.41748 43.80936,62.24676 16.14335,14.82928 2.02682,25.94794 3.29105,45.66541"
        sodipodi:nodetypes="csc" />
     <rect
-       style="fill:#204060;fill-opacity:1;stroke:none;stroke-width:5.75034;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#5c70a4;fill-opacity:1;stroke:none;stroke-width:5.89499;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect168633"
        width="125.52797"
-       height="47.034374"
+       height="49.430332"
        x="-185.85504"
        y="258.00577" />
     <path
@@ -765,15 +765,15 @@
        sodipodi:nodetypes="csc" />
     <g
        transform="matrix(1.76389,0,0,1.76389,-178.8547,165.33007)"
-       ns12:version="1.8.1"
-       ns12:texconverter="xelatex"
-       ns12:pdfconverter="inkscape"
-       ns12:text="impurity"
-       ns12:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns12:scale="5.0"
-       ns12:alignment="middle center"
-       ns12:stroke-to-path="0"
-       ns12:jacobian_sqrt="1.76389"
+       ns16:version="1.8.1"
+       ns16:texconverter="xelatex"
+       ns16:pdfconverter="inkscape"
+       ns16:text="impurity"
+       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns16:scale="5.0"
+       ns16:alignment="middle center"
+       ns16:stroke-to-path="0"
+       ns16:jacobian_sqrt="1.76389"
        id="g173214">
       <defs
          id="id-3d22538d-1630-4ca0-977d-61000303c1db">
@@ -914,21 +914,21 @@
        r="6.0321293"
        transform="scale(-1,1)" />
     <circle
-       style="fill:#204060;fill-opacity:1;stroke:none;stroke-width:2.38075;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#5c70a4;fill-opacity:1;stroke:none;stroke-width:2.38075;stroke-dasharray:none;stroke-opacity:1"
        id="circle165673-2-3-1"
        cx="-162.85023"
        cy="257.5831"
        r="9.1248741"
        transform="scale(-1,1)" />
     <circle
-       style="fill:#204060;fill-opacity:1;stroke:none;stroke-width:2.38075;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#5c70a4;fill-opacity:1;stroke:none;stroke-width:2.38075;stroke-dasharray:none;stroke-opacity:1"
        id="circle165673-2-3-1-1"
        cx="-211.26961"
        cy="275.10983"
        r="9.1248741"
        transform="scale(-1,1)" />
     <circle
-       style="fill:#204060;fill-opacity:1;stroke:none;stroke-width:2.38075;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#5c70a4;fill-opacity:1;stroke:none;stroke-width:2.38075;stroke-dasharray:none;stroke-opacity:1"
        id="circle165673-2-3-1-4"
        cx="-274.67722"
        cy="280.87674"
@@ -936,15 +936,15 @@
        transform="scale(-1,1)" />
     <g
        transform="matrix(1.76389,0,0,1.76389,178.65098,207.1698)"
-       ns12:version="1.8.1"
-       ns12:texconverter="xelatex"
-       ns12:pdfconverter="inkscape"
-       ns12:text="impurity"
-       ns12:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns12:scale="5.0"
-       ns12:alignment="middle center"
-       ns12:stroke-to-path="0"
-       ns12:jacobian_sqrt="1.76389"
+       ns16:version="1.8.1"
+       ns16:texconverter="xelatex"
+       ns16:pdfconverter="inkscape"
+       ns16:text="impurity"
+       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns16:scale="5.0"
+       ns16:alignment="middle center"
+       ns16:stroke-to-path="0"
+       ns16:jacobian_sqrt="1.76389"
        id="g173214-3">
       <defs
          id="id-3d22538d-1630-4ca0-977d-61000303c1db-8">
@@ -1071,15 +1071,15 @@
     </g>
     <g
        transform="matrix(1.76389,0,0,1.76389,107.42121,209.47149)"
-       ns12:version="1.8.1"
-       ns12:texconverter="xelatex"
-       ns12:pdfconverter="inkscape"
-       ns12:text="$J,V$"
-       ns12:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns12:scale="5.0"
-       ns12:alignment="middle center"
-       ns12:stroke-to-path="0"
-       ns12:jacobian_sqrt="1.76389"
+       ns16:version="1.8.1"
+       ns16:texconverter="xelatex"
+       ns16:pdfconverter="inkscape"
+       ns16:text="$J,V$"
+       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns16:scale="5.0"
+       ns16:alignment="middle center"
+       ns16:stroke-to-path="0"
+       ns16:jacobian_sqrt="1.76389"
        id="g174661">
       <defs
          id="id-1907a126-7f50-4d2e-b570-1f68a2c84dc0">
@@ -1153,15 +1153,15 @@
     </g>
     <g
        transform="matrix(1.76389,0,0,1.76389,173.81261,239.14031)"
-       ns12:version="1.8.1"
-       ns12:texconverter="xelatex"
-       ns12:pdfconverter="inkscape"
-       ns12:text="$U_b$"
-       ns12:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns12:scale="5.0"
-       ns12:alignment="middle center"
-       ns12:stroke-to-path="0"
-       ns12:jacobian_sqrt="1.76389"
+       ns16:version="1.8.1"
+       ns16:texconverter="xelatex"
+       ns16:pdfconverter="inkscape"
+       ns16:text="$U_b$"
+       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns16:scale="5.0"
+       ns16:alignment="middle center"
+       ns16:stroke-to-path="0"
+       ns16:jacobian_sqrt="1.76389"
        id="g175550">
       <defs
          id="id-139de4cb-8151-47ce-8a57-901488725b31">
@@ -1313,23 +1313,23 @@
        inkscape:path-effect="#path-effect180413"
        inkscape:original-d="m 42.170451,95.861826 c -1.26101,-1.38773 -2.52225,-2.77572 -3.78376,-4.16398 -1.2615,-1.38826 -1.51275,-1.17284 -2.26954,-1.75965 -0.75679,-0.58681 -2.92404,-0.0795 -4.38647,-0.11959 -1.46241,-0.0401 -4.12898,-5.22069 -6.19387,-7.83144 -2.06489,-2.61074 0.69694,-2.37209 1.04502,-3.55853 0.34809,-1.18644 -0.51779,-1.62738 -0.77708,-2.44147 -0.25929,-0.81408 -1.71725,-3.01938 -2.57627,-4.52947" />
     <path
-       style="fill:none;fill-opacity:1;stroke:#303050;stroke-width:5.29341;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#1683c3;stroke-width:5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 40.335561,20.940605 C 27.059552,23.582658 15.307193,32.962869 9.7874953,45.322715 4.6068067,56.923443 4.9389589,70.662684 9.820638,82.392375 c 4.881679,11.72969 14.082216,21.439865 25.077914,27.804695 9.633881,5.57655 20.735197,8.69762 31.865704,8.55152 11.130507,-0.14609 22.254286,-3.61311 31.266938,-10.14623 9.012656,-6.53312 15.824286,-16.152043 18.612726,-26.928596 2.78844,-10.776554 1.4473,-22.637297 -4.02012,-32.333525 C 108.17586,41.452018 101.17555,35.159936 93.219551,30.834391 85.263556,26.508846 76.374773,24.078311 67.394441,22.91134 49.573413,20.595544 31.134493,23.233393 14.677581,30.45295"
        id="path168116-0"
        inkscape:path-effect="#path-effect168118-6"
        inkscape:original-d="M 40.335561,20.940605 C 30.282922,28.964731 19.970467,37.195563 9.7874953,45.322715 -0.39546337,53.449844 26.528481,88.572499 34.898552,110.19707 43.268621,131.82161 86.715666,69.626067 112.6238,49.340239 138.53193,29.0544 82.471178,31.721198 67.394441,22.91134 52.317714,14.101482 32.250157,27.939306 14.677581,30.45295" />
     <g
        transform="matrix(1.76389,0,0,1.76389,69.134327,253.83705)"
-       ns12:version="1.8.1"
-       ns12:texconverter="xelatex"
-       ns12:pdfconverter="inkscape"
-       ns12:text="zeroth site"
-       ns12:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns12:scale="5.0"
-       ns12:alignment="middle center"
-       ns12:stroke-to-path="0"
-       ns12:inkscapeversion="1.2.1"
-       ns12:jacobian_sqrt="1.76389"
+       ns16:version="1.8.1"
+       ns16:texconverter="xelatex"
+       ns16:pdfconverter="inkscape"
+       ns16:text="zeroth site"
+       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns16:scale="5.0"
+       ns16:alignment="middle center"
+       ns16:stroke-to-path="0"
+       ns16:inkscapeversion="1.2.1"
+       ns16:jacobian_sqrt="1.76389"
        id="g173214-3-8">
       <defs
          id="id-ea5058bf-1ba9-4735-b18e-891f9e8e12e1">
@@ -1493,7 +1493,7 @@
       </g>
     </g>
     <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.61865;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#404040;stroke-width:5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m -111.03754,186.32445 c -11.99062,5.06889 -23.41751,11.46999 -34.00277,19.04765 -9.37268,6.7096 -18.2457,14.53159 -24.01888,24.50838 -2.88659,4.98839 -4.95738,10.48163 -5.76405,16.18827 -0.80666,5.70664 -0.32407,11.62952 1.69648,17.0271 0.78726,2.10303 1.81088,4.13263 3.19546,5.90053 2.00926,2.56551 4.74428,4.52017 7.73989,5.80284 2.99562,1.28267 6.24716,1.91014 9.50209,2.06625 6.50986,0.31221 12.94969,-1.22276 19.29573,-2.70718 8.00143,-1.87164 16.0503,-3.68913 23.71792,-6.64438 7.66762,-2.95524 15.002966,-7.11879 20.644321,-13.09382 7.523182,-7.96816 11.647243,-19.04555 11.16646,-29.99356 -0.480783,-10.948 -5.560025,-21.62122 -13.752744,-28.89922"
        id="path184470"
        inkscape:path-effect="#path-effect184472"
@@ -1506,16 +1506,16 @@
        inkscape:original-d="m -151.21402,197.72041 c -5.0592,4.22597 -10.11866,8.45167 -15.17838,12.67711 -5.05973,4.22544 -5.12604,4.85097 -7.68946,7.27605 -2.56342,2.42508 -4.44718,10.66314 -6.67117,15.99431" />
     <g
        transform="matrix(2.11667,0,0,2.11667,-131.769,207.553)"
-       ns12:version="1.8.1"
-       ns12:texconverter="xelatex"
-       ns12:pdfconverter="inkscape"
-       ns12:text="$\\Sigma_\\text{imp}$"
-       ns12:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns12:scale="6.0"
-       ns12:alignment="middle center"
-       ns12:stroke-to-path="0"
-       ns12:inkscapeversion="1.2.1"
-       ns12:jacobian_sqrt="2.11667"
+       ns16:version="1.8.1"
+       ns16:texconverter="xelatex"
+       ns16:pdfconverter="inkscape"
+       ns16:text="$\\Sigma_\\text{imp}$"
+       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns16:scale="6.0"
+       ns16:alignment="middle center"
+       ns16:stroke-to-path="0"
+       ns16:inkscapeversion="1.2.1"
+       ns16:jacobian_sqrt="2.11667"
        id="g171384">
       <defs
          id="id-9dcf8cc6-1c6c-409d-93dd-08d20207e467">
@@ -1601,17 +1601,17 @@
       </g>
     </g>
     <g
-       transform="matrix(2.11667,0,0,2.11667,-148.54276,281.51318)"
-       ns12:version="1.8.1"
-       ns12:texconverter="xelatex"
-       ns12:pdfconverter="inkscape"
-       ns12:text="$\\Sigma_\\text{bath}$"
-       ns12:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns12:scale="6.0"
-       ns12:alignment="middle center"
-       ns12:stroke-to-path="0"
-       ns12:inkscapeversion="1.2.1"
-       ns12:jacobian_sqrt="2.11667"
+       transform="matrix(2.11667,0,0,2.11667,-106.54668,277.10069)"
+       ns16:version="1.8.1"
+       ns16:texconverter="xelatex"
+       ns16:pdfconverter="inkscape"
+       ns16:text="$\\Sigma_\\text{bath}$"
+       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns16:scale="6.0"
+       ns16:alignment="middle center"
+       ns16:stroke-to-path="0"
+       ns16:inkscapeversion="1.2.1"
+       ns16:jacobian_sqrt="2.11667"
        style="fill:#ffffff;fill-opacity:1;stroke-width:0"
        id="g171384-8">
       <defs
@@ -1744,16 +1744,16 @@
     </g>
     <g
        transform="matrix(2.11667,0,0,2.11667,-229.69802,275.83154)"
-       ns12:version="1.8.1"
-       ns12:texconverter="xelatex"
-       ns12:pdfconverter="inkscape"
-       ns12:text="bath"
-       ns12:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns12:scale="6.0"
-       ns12:alignment="middle center"
-       ns12:stroke-to-path="0"
-       ns12:inkscapeversion="1.2.1"
-       ns12:jacobian_sqrt="2.11667"
+       ns16:version="1.8.1"
+       ns16:texconverter="xelatex"
+       ns16:pdfconverter="inkscape"
+       ns16:text="bath"
+       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns16:scale="6.0"
+       ns16:alignment="middle center"
+       ns16:stroke-to-path="0"
+       ns16:inkscapeversion="1.2.1"
+       ns16:jacobian_sqrt="2.11667"
        style="fill:#000000;fill-opacity:1;stroke-width:0"
        id="g168811">
       <defs
@@ -1855,16 +1855,16 @@
     </g>
     <g
        transform="matrix(1.76389,0,0,1.76389,208.73446,290.29347)"
-       ns12:version="1.8.1"
-       ns12:texconverter="xelatex"
-       ns12:pdfconverter="inkscape"
-       ns12:text="1"
-       ns12:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns12:scale="5.0"
-       ns12:alignment="middle center"
-       ns12:stroke-to-path="0"
-       ns12:inkscapeversion="1.2.1"
-       ns12:jacobian_sqrt="1.76389"
+       ns16:version="1.8.1"
+       ns16:texconverter="xelatex"
+       ns16:pdfconverter="inkscape"
+       ns16:text="1"
+       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns16:scale="5.0"
+       ns16:alignment="middle center"
+       ns16:stroke-to-path="0"
+       ns16:inkscapeversion="1.2.1"
+       ns16:jacobian_sqrt="1.76389"
        id="g173214-3-8-2">
       <defs
          id="id-4e62660b-d58d-4fee-b152-1c954e575110">
@@ -1900,16 +1900,16 @@
     </g>
     <g
        transform="matrix(1.76389,0,0,1.76389,281.66,290.211)"
-       ns12:version="1.8.1"
-       ns12:texconverter="xelatex"
-       ns12:pdfconverter="inkscape"
-       ns12:text="2"
-       ns12:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns12:scale="5.0"
-       ns12:alignment="middle center"
-       ns12:stroke-to-path="0"
-       ns12:inkscapeversion="1.2.1"
-       ns12:jacobian_sqrt="1.76389"
+       ns16:version="1.8.1"
+       ns16:texconverter="xelatex"
+       ns16:pdfconverter="inkscape"
+       ns16:text="2"
+       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns16:scale="5.0"
+       ns16:alignment="middle center"
+       ns16:stroke-to-path="0"
+       ns16:inkscapeversion="1.2.1"
+       ns16:jacobian_sqrt="1.76389"
        id="g193040">
       <defs
          id="id-f6603747-3f9b-440b-a8d0-0e4da54bf79f">
@@ -1945,16 +1945,16 @@
     </g>
     <g
        transform="matrix(1.27001,0,0,1.27001,-256.492,14.6904)"
-       ns12:version="1.8.1"
-       ns12:texconverter="xelatex"
-       ns12:pdfconverter="inkscape"
-       ns12:text="\\centering\n{\\bf \\large DMFT} represents\\\\\nexcursions from a site into the\\\\\ncorrelated bath in the form of \\\\\nself-energies for the bath and\\\\\nthe impurity. This results\\\\\nin a three-peak DOS\\\\\nof the bath."
-       ns12:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns12:scale="3.6"
-       ns12:alignment="middle center"
-       ns12:stroke-to-path="0"
-       ns12:inkscapeversion="1.2.1"
-       ns12:jacobian_sqrt="1.27001"
+       ns16:version="1.8.1"
+       ns16:texconverter="xelatex"
+       ns16:pdfconverter="inkscape"
+       ns16:text="\\centering\n{\\bf \\large DMFT} represents\\\\\nexcursions from a site into the\\\\\ncorrelated bath in the form of \\\\\nself-energies for the bath and\\\\\nthe impurity. This results\\\\\nin a three-peak DOS\\\\\nof the bath."
+       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns16:scale="3.6"
+       ns16:alignment="middle center"
+       ns16:stroke-to-path="0"
+       ns16:inkscapeversion="1.2.1"
+       ns16:jacobian_sqrt="1.27001"
        style="fill:#000000;fill-opacity:1;stroke-width:0"
        id="g199295">
       <defs
@@ -3828,16 +3828,16 @@
     </g>
     <g
        transform="matrix(1.27,0,0,1.27,199.029,62.1645)"
-       ns12:version="1.8.1"
-       ns12:texconverter="xelatex"
-       ns12:pdfconverter="inkscape"
-       ns12:text="\\centering\nThe {\\bf \\large extended\\\\\nSIAM} represents these\\\\\nexcursions by generating\\\\\ninteractions $J$ and $U_b$. These\\\\\ninteractions mimick the effect\\\\\nof the impurity and bath\\\\\nself-energies as observed\\\\\nwithin DMFT."
-       ns12:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns12:scale="3.6"
-       ns12:alignment="middle center"
-       ns12:stroke-to-path="0"
-       ns12:inkscapeversion="1.2.1"
-       ns12:jacobian_sqrt="1.27"
+       ns16:version="1.8.1"
+       ns16:texconverter="xelatex"
+       ns16:pdfconverter="inkscape"
+       ns16:text="\\centering\nThe {\\bf \\large extended\\\\\nSIAM} represents these\\\\\nexcursions by generating\\\\\ninteractions $J$ and $U_b$. These\\\\\ninteractions mimick the effect\\\\\nof the impurity and bath\\\\\nself-energies as observed\\\\\nwithin DMFT."
+       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns16:scale="3.6"
+       ns16:alignment="middle center"
+       ns16:stroke-to-path="0"
+       ns16:inkscapeversion="1.2.1"
+       ns16:jacobian_sqrt="1.27"
        style="fill:#000000;fill-opacity:1;stroke-width:0"
        id="g211164">
       <defs
@@ -5929,16 +5929,16 @@
     </g>
     <g
        transform="matrix(2.11667,0,0,2.11667,-43.1355,144.348)"
-       ns12:version="1.8.1"
-       ns12:texconverter="xelatex"
-       ns12:pdfconverter="inkscape"
-       ns12:text="DMFT"
-       ns12:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns12:scale="6.0"
-       ns12:alignment="middle center"
-       ns12:stroke-to-path="0"
-       ns12:inkscapeversion="1.2.1"
-       ns12:jacobian_sqrt="2.11667"
+       ns16:version="1.8.1"
+       ns16:texconverter="xelatex"
+       ns16:pdfconverter="inkscape"
+       ns16:text="DMFT"
+       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns16:scale="6.0"
+       ns16:alignment="middle center"
+       ns16:stroke-to-path="0"
+       ns16:inkscapeversion="1.2.1"
+       ns16:jacobian_sqrt="2.11667"
        id="g176321">
       <defs
          id="id-4bdd5af5-2415-44ad-b5d7-4e65af54922b">
@@ -6019,16 +6019,16 @@
     </g>
     <g
        transform="matrix(2.11667,0,0,2.11667,66.6912,144.477)"
-       ns12:version="1.8.1"
-       ns12:texconverter="xelatex"
-       ns12:pdfconverter="inkscape"
-       ns12:text="extended"
-       ns12:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns12:scale="6.0"
-       ns12:alignment="middle center"
-       ns12:stroke-to-path="0"
-       ns12:inkscapeversion="1.2.1"
-       ns12:jacobian_sqrt="2.11667"
+       ns16:version="1.8.1"
+       ns16:texconverter="xelatex"
+       ns16:pdfconverter="inkscape"
+       ns16:text="extended"
+       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns16:scale="6.0"
+       ns16:alignment="middle center"
+       ns16:stroke-to-path="0"
+       ns16:inkscapeversion="1.2.1"
+       ns16:jacobian_sqrt="2.11667"
        id="g194743">
       <defs
          id="id-c3ccfc04-5867-4041-bee5-72fa9d36b252">
@@ -6149,16 +6149,16 @@
     </g>
     <g
        transform="matrix(2.11667,0,0,2.11667,107.322,168.735)"
-       ns12:version="1.8.1"
-       ns12:texconverter="xelatex"
-       ns12:pdfconverter="inkscape"
-       ns12:text="SIAM"
-       ns12:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns12:scale="6.0"
-       ns12:alignment="middle center"
-       ns12:stroke-to-path="0"
-       ns12:inkscapeversion="1.2.1"
-       ns12:jacobian_sqrt="2.11667"
+       ns16:version="1.8.1"
+       ns16:texconverter="xelatex"
+       ns16:pdfconverter="inkscape"
+       ns16:text="SIAM"
+       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns16:scale="6.0"
+       ns16:alignment="middle center"
+       ns16:stroke-to-path="0"
+       ns16:inkscapeversion="1.2.1"
+       ns16:jacobian_sqrt="2.11667"
        id="g176321-5">
       <defs
          id="id-b6b2275f-0d5d-49d1-9377-013c8671677c">

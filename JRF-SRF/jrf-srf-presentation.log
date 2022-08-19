@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.5.3)  15 AUG 2022 21:24
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.6.29)  19 AUG 2022 18:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1558,7 +1558,7 @@ File: ./figures//dos_diff.pdf Graphic file (type pdf)
 ] [5
 
 ]
-Underfull \hbox (badness 4467) in paragraph at lines 113--113
+Underfull \hbox (badness 4378) in paragraph at lines 113--113
 []\TU/FiraSans(0)/m/n/8 shows []\TU/FiraSans(0)/b/n/8 metal-insulator transition[] \TU/FiraSans(0)/m/n/8 on the
  []
 
@@ -1619,7 +1619,7 @@ File: ./figures//singlet.pdf Graphic file (type pdf)
  [11
 
 ]
-Overfull \hbox (38.32326pt too wide) detected at line 319
+Overfull \hbox (38.37926pt too wide) detected at line 319
 [] [] [][] [] [] [] [] [] [] [] [][] [][] [] [] [][][]
  []
 
@@ -1628,7 +1628,7 @@ File: ./figures//phase-map-MIT2.pdf Graphic file (type pdf)
 File: ./figures//siam-JV.pdf Graphic file (type pdf)
 <use ./figures//siam-JV.pdf>
 
-Overfull \hbox (1.23657pt too wide) detected at line 319
+Overfull \hbox (1.29257pt too wide) detected at line 319
 [] [] [][] [] [] [] [] [] [] [] [][] [][]
  []
 
@@ -1638,7 +1638,7 @@ Overfull \hbox (18.59608pt too wide) detected at line 319
  []
 
 
-Overfull \vbox (12.881pt too high) detected at line 319
+Overfull \vbox (12.7515pt too high) detected at line 319
  []
 
 [12
@@ -1717,14 +1717,14 @@ File: ./figures//standard-siam.pdf Graphic file (type pdf)
  [25
 
 ]
-Underfull \hbox (badness 1533) in paragraph at lines 520--520
+Underfull \hbox (badness 1292) in paragraph at lines 520--520
 []\TU/FiraSans(0)/m/n/8 Insulating when coming in from the insulator,
  []
 
 File: ./figures//coexistence.png Graphic file (type bmp)
 <./figures//coexistence.png>
 
-Underfull \hbox (badness 4120) in paragraph at lines 520--520
+Underfull \hbox (badness 3989) in paragraph at lines 520--520
 []\TU/FiraSans(0)/m/n/8 spectral function shows []\TU/FiraSans(0)/b/n/8 preformed gap[] \TU/FiraSans(0)/m/n/8 from
  []
 
@@ -1765,7 +1765,7 @@ File: ./figures//corrs_gs.pdf Graphic file (type pdf)
 File: ./figures//pairing.pdf Graphic file (type pdf)
 <use ./figures//pairing.pdf>
 
-Overfull \vbox (3.86783pt too high) detected at line 547
+Overfull \vbox (2.73434pt too high) detected at line 554
  []
 
 [32
@@ -1777,7 +1777,10 @@ File: ./figures//perturbation.pdf Graphic file (type pdf)
 <use ./figures//perturbation.pdf>
  [34
 
-] [35
+]
+File: ./figures//Tk.pdf Graphic file (type pdf)
+<use ./figures//Tk.pdf>
+ [35
 
 ] [36
 
@@ -1787,70 +1790,72 @@ File: ./figures//perturbation.pdf Graphic file (type pdf)
 
 ] [39
 
+] [40
+
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\translate ' on input line 605.
+(hyperref)                removing `\translate ' on input line 639.
 
-[40
-
-] [41
-
+[41
 
 ] [42
 
 
 ] [43
 
+
+] [44
+
 ]
 File: ./figures//kondo-effect.pdf Graphic file (type pdf)
 <use ./figures//kondo-effect.pdf>
- [44
+ [45
 
 ]
 File: ./figures//chi_parts.pdf Graphic file (type pdf)
 <use ./figures//chi_parts.pdf>
 File: ./figures//entropy_therm.pdf Graphic file (type pdf)
 <use ./figures//entropy_therm.pdf>
- [45
+ [46
 
 ]
 File: ./figures//stargraph.pdf Graphic file (type pdf)
 <use ./figures//stargraph.pdf>
- [46
+ [47
 
 ]
 File: ./figures//CentralFieldChiPowerlaw.pdf Graphic file (type pdf)
 <use ./figures//CentralFieldChiPowerlaw.pdf>
 File: ./figures//discmagimpgen.pdf Graphic file (type pdf)
 <use ./figures//discmagimpgen.pdf>
- [47
+ [48
 
 ]
 File: ./figures//duality.pdf Graphic file (type pdf)
 <use ./figures//duality.pdf>
- [48
+ [49
 
 ]
 File: figures/Matroshka.png Graphic file (type bmp)
 <figures/Matroshka.png>
 File: figures/holography.pdf Graphic file (type pdf)
 <use figures/holography.pdf>
- [49
+ [50
 
 ]
 File: figures/A_mi.pdf Graphic file (type pdf)
 <use figures/A_mi.pdf>
 File: ./figures//curvature-pos.pdf Graphic file (type pdf)
 <use ./figures//curvature-pos.pdf>
- [50
+ [51
 
 ]
 File: figures/A_mi.pdf Graphic file (type pdf)
 <use figures/A_mi.pdf>
 File: figures/subsystem-torus.pdf Graphic file (type pdf)
 <use figures/subsystem-torus.pdf>
- [51
+ [52
 
 ]
 File: figures/Matroshka.png Graphic file (type bmp)
@@ -1858,20 +1863,20 @@ File: figures/Matroshka.png Graphic file (type bmp)
 File: figures/nested.png Graphic file (type bmp)
 <figures/nested.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 763--763
+Underfull \hbox (badness 10000) in paragraph at lines 797--797
 [][]
  []
 
-[52
+[53
 
 ]
 File: ./figures//curvature-pos.pdf Graphic file (type pdf)
 <use ./figures//curvature-pos.pdf>
- [53
-
-] [54
+ [54
 
 ] [55
+
+] [56
 
 ]
 \tf@nav=\write7
@@ -1891,12 +1896,12 @@ Package logreq Info: Writing requests to 'jrf-srf-presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39676 strings out of 476156
- 834817 string characters out of 5814964
- 1448367 words of memory out of 5000000
- 59646 multiletter control sequences out of 15000+600000
- 478614 words of font info for 154 fonts, out of 8000000 for 9000
+ 39694 strings out of 476156
+ 835167 string characters out of 5814963
+ 1448449 words of memory out of 5000000
+ 59663 multiletter control sequences out of 15000+600000
+ 478974 words of font info for 155 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 129i,13n,148p,1927b,5222s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 129i,13n,148p,1927b,5318s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on jrf-srf-presentation.xdv (55 pages, 527700 bytes).
+Output written on jrf-srf-presentation.xdv (56 pages, 546932 bytes).

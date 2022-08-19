@@ -529,6 +529,31 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{coleman2015}{book}{}
+    \name{author}{1}{}{%
+      {{hash=CP}{%
+         family={Coleman},
+         familyi={C\bibinitperiod},
+         given={Piers},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{CP1}
+    \strng{fullhash}{CP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{note}{Chapter:18}
+    \field{title}{Introduction to many-body physics}
+    \field{year}{2015}
+  \endentry
+
   \entry{costi2000}{article}{}
     \name{author}{1}{}{%
       {{hash=CTA}{%
