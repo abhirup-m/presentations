@@ -1,17 +1,17 @@
 # Fdb version 3
-["bibtex jrf-srf-presentation"] 1660976249 "jrf-srf-presentation.aux" "jrf-srf-presentation.bbl" "jrf-srf-presentation" 1660978522
+["bibtex jrf-srf-presentation"] 1660976249 "jrf-srf-presentation.aux" "jrf-srf-presentation.bbl" "jrf-srf-presentation" 1660979315
   "/usr/share/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1650185741 65483 fc69f364ef63c07bf68a2ab4b323f197 ""
-  "bib.bib" 1660973311 318213 426738710503b78b78119f84a02d4d0b ""
-  "jrf-srf-presentation-blx.bib" 1660978517 340 2d33f68db8eb3b96dd26dcb5b6bf9ee5 "xelatex"
-  "jrf-srf-presentation.aux" 1660978517 32046 1185aeac0120e187a6527b6f9214eb77 "xelatex"
+  "bib.bib" 1660979119 318213 426738710503b78b78119f84a02d4d0b ""
+  "jrf-srf-presentation-blx.bib" 1660979312 340 2d33f68db8eb3b96dd26dcb5b6bf9ee5 "xelatex"
+  "jrf-srf-presentation.aux" 1660979312 32046 1185aeac0120e187a6527b6f9214eb77 "xelatex"
   (generated)
   "jrf-srf-presentation.bbl"
   "jrf-srf-presentation.blg"
-["xdvipdfmx"] 1660978519 "jrf-srf-presentation.xdv" "jrf-srf-presentation.pdf" "jrf-srf-presentation" 1660978522
-  "jrf-srf-presentation.xdv" 1660978517 568860 261e167cf97fd683fafbf565b9a0759a "xelatex"
+["xdvipdfmx"] 1660979312 "jrf-srf-presentation.xdv" "jrf-srf-presentation.pdf" "jrf-srf-presentation" 1660979315
+  "jrf-srf-presentation.xdv" 1660979312 568860 e53e45573e435f20d0a85cefea97c82a "xelatex"
   (generated)
   "jrf-srf-presentation.pdf"
-["xelatex"] 1660978513 "jrf-srf-presentation.tex" "jrf-srf-presentation.xdv" "jrf-srf-presentation" 1660978522
+["xelatex"] 1660979307 "jrf-srf-presentation.tex" "jrf-srf-presentation.xdv" "jrf-srf-presentation" 1660979315
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1650183167 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1650183167 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -254,8 +254,8 @@
   "figures//coexistence-explain2.pdf" 1660381489 25374 82ef75834ed938fcecb14c7ccf95fa38 ""
   "figures//coexistence-explain3.pdf" 1660381470 25608 45cc134a6c983dba00c3267c4816034c ""
   "figures//coexistence.png" 1660385659 1332095 3dd725798ae132af73ec2921f571c175 ""
-  "figures//contrast.pdf" 1660976601 295426 5dbc2331c40be42dffc648b5f5943dbb ""
-  "figures//contrast2.pdf" 1660978511 261051 64aecc71d76af95c40b0a66076f97e80 ""
+  "figures//contrast.pdf" 1660979292 295422 379290959d0c2b8798abee5c1f961fb6 ""
+  "figures//contrast2.pdf" 1660979116 261051 68d0f6d3558b8db9c3426253453182d9 ""
   "figures//corrs_gs.pdf" 1660974136 124952 36a4af49871edd94242bacc695c77edc ""
   "figures//curvature-pos.pdf" 1660222313 124177 6a4b6d8b1d2a6c88421276f452e7200f ""
   "figures//decouple-impurity.pdf" 1660380989 11500 c9413bdaf59567e517eba01e7b3d5259 ""
@@ -295,12 +295,12 @@
   "figures/holography.pdf" 1660222313 14277 1ffe26770906ef47020a38eaed043f0d ""
   "figures/nested.png" 1660222313 751724 25b4bafa1c7a0ad5f7d666deb66dd4b2 ""
   "figures/subsystem-torus.pdf" 1660222313 6250 8e5130c6d4a446fec168b3a840f72a78 ""
-  "jrf-srf-presentation.aux" 1660978517 32046 1185aeac0120e187a6527b6f9214eb77 "xelatex"
+  "jrf-srf-presentation.aux" 1660979312 32046 1185aeac0120e187a6527b6f9214eb77 "xelatex"
   "jrf-srf-presentation.bbl" 1660976249 67770 6216382fe6d85bf1a444ef99d9080b46 "bibtex jrf-srf-presentation"
-  "jrf-srf-presentation.nav" 1660978517 7536 30227fe588184c64d5a62d8bd9255677 "xelatex"
-  "jrf-srf-presentation.out" 1660978517 3020 531d567c9c5da401c37e979104b9d547 "xelatex"
-  "jrf-srf-presentation.run.xml" 1660978517 2700 811366bbfd238966fb322ffaf6c4be5b "xelatex"
-  "jrf-srf-presentation.tex" 1660978512 29702 728acbfc89dbf9c5f2afdb45fae6fc81 ""
+  "jrf-srf-presentation.nav" 1660979312 7536 30227fe588184c64d5a62d8bd9255677 "xelatex"
+  "jrf-srf-presentation.out" 1660979312 3020 531d567c9c5da401c37e979104b9d547 "xelatex"
+  "jrf-srf-presentation.run.xml" 1660979312 2700 811366bbfd238966fb322ffaf6c4be5b "xelatex"
+  "jrf-srf-presentation.tex" 1660979309 29702 728acbfc89dbf9c5f2afdb45fae6fc81 ""
   "mybeamer.sty" 1660969390 2010 73fa80eefb1c177d055d2c160596c14a ""
   (generated)
   "jrf-srf-presentation-blx.bib"
