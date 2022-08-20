@@ -1459,6 +1459,66 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{moeller_1995}{article}{}
+    \name{author}{5}{}{%
+      {{hash=MG}{%
+         family={Moeller},
+         familyi={M\bibinitperiod},
+         given={Goetz},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SQ}{%
+         family={Si},
+         familyi={S\bibinitperiod},
+         given={Qimiao},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=KG}{%
+         family={Kotliar},
+         familyi={K\bibinitperiod},
+         given={Gabriel},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Rozenberg},
+         familyi={R\bibinitperiod},
+         given={Marcelo},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FDS}{%
+         family={Fisher},
+         familyi={F\bibinitperiod},
+         given={Daniel\bibnamedelima S.},
+         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{MG+1}
+    \strng{fullhash}{MGSQKGRMFDS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1995}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.74.2082
+    \endverb
+    \field{issue}{11}
+    \field{pages}{2082\bibrangedash 2085}
+    \field{title}{Critical Behavior near the Mott Transition in the Hubbard
+  Model}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevLett.74.2082
+    \endverb
+    \field{volume}{74}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{1995}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{anirbanurg1}{article}{}
     \name{author}{2}{}{%
       {{hash=MA}{%

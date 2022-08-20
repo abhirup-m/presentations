@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="418.56049mm"
+   width="425.20438mm"
    height="140.34943mm"
-   viewBox="0 0 418.56048 140.34942"
+   viewBox="0 0 425.20437 140.34942"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
@@ -13,7 +13,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:ns12="http://www.iki.fi/pav/software/textext/">
+   xmlns:ns16="http://www.iki.fi/pav/software/textext/">
   <sodipodi:namedview
      id="namedview7"
      pagecolor="#ffffff"
@@ -33,9 +33,9 @@
      inkscape:snap-center="true"
      inkscape:snap-bbox="true"
      inkscape:snap-global="true"
-     inkscape:zoom="0.77081263"
-     inkscape:cx="552.01482"
-     inkscape:cy="221.8438"
+     inkscape:zoom="0.50809351"
+     inkscape:cx="468.41771"
+     inkscape:cy="72.821241"
      inkscape:window-width="1916"
      inkscape:window-height="1052"
      inkscape:window-x="0"
@@ -1683,16 +1683,16 @@
        id="path44822" />
     <g
        transform="matrix(1.92788,0,0,1.92788,-322.331,-304.00168)"
-       ns12:version="1.8.1"
-       ns12:texconverter="xelatex"
-       ns12:pdfconverter="inkscape"
-       ns12:text="increasing $U$"
-       ns12:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns12:scale="5.464852340991089"
-       ns12:alignment="middle center"
-       ns12:stroke-to-path="0"
-       ns12:inkscapeversion="1.2.1"
-       ns12:jacobian_sqrt="1.92788"
+       ns16:version="1.8.1"
+       ns16:texconverter="xelatex"
+       ns16:pdfconverter="inkscape"
+       ns16:text="increasing $U$"
+       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns16:scale="5.464852340991089"
+       ns16:alignment="middle center"
+       ns16:stroke-to-path="0"
+       ns16:inkscapeversion="1.2.1"
+       ns16:jacobian_sqrt="1.92788"
        id="g45946">
       <defs
          id="id-7de91f71-08cb-4f01-be37-bbf4706b236f">
@@ -1888,16 +1888,16 @@
        inkscape:original-d="m -131.58937,-179.09766 c 2.6e-4,5.14852 2.6e-4,10.29683 0,15.44492" />
     <g
        transform="matrix(1.92788,0,0,1.92788,-448.40359,-303.68635)"
-       ns12:version="1.8.1"
-       ns12:texconverter="xelatex"
-       ns12:pdfconverter="inkscape"
-       ns12:text="$A(\\omega)$"
-       ns12:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns12:scale="5.464852340991089"
-       ns12:alignment="middle center"
-       ns12:stroke-to-path="0"
-       ns12:inkscapeversion="1.2.1"
-       ns12:jacobian_sqrt="1.92788"
+       ns16:version="1.8.1"
+       ns16:texconverter="xelatex"
+       ns16:pdfconverter="inkscape"
+       ns16:text="$A(\\omega)$"
+       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns16:scale="5.464852340991089"
+       ns16:alignment="middle center"
+       ns16:stroke-to-path="0"
+       ns16:inkscapeversion="1.2.1"
+       ns16:jacobian_sqrt="1.92788"
        id="g68108">
       <defs
          id="id-95bc4188-47ac-466a-8e3a-d58203fb1edd">
@@ -1988,5 +1988,50 @@
        id="path69443"
        inkscape:path-effect="#path-effect69447"
        inkscape:original-d="m -395.11453,-179.09766 c 2.6e-4,5.14852 2.6e-4,10.29683 0,15.44492" />
+    <g
+       transform="matrix(1.92788,0,0,1.92788,-50.356608,-191.67746)"
+       ns16:version="1.8.1"
+       ns16:texconverter="xelatex"
+       ns16:pdfconverter="inkscape"
+       ns16:text="$\\omega$"
+       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns16:scale="5.464852340991089"
+       ns16:alignment="middle center"
+       ns16:stroke-to-path="0"
+       ns16:inkscapeversion="1.2.1"
+       ns16:jacobian_sqrt="1.92788"
+       id="g131048">
+      <defs
+         id="id-ab70979d-867b-4f64-9c11-0d046f1c3f6f">
+        <g
+           id="id-41e409a1-3a7c-40ed-8d3f-a24dccfba08a">
+          <g
+             id="id-1ec92c82-3ce9-44fa-b6f3-e9376555acc2">
+            <path
+               d="m 5.4375,-6.4375 v 5.890625 H 1.34375 V -6.4375 Z m 0.546875,-0.546875 h -5.1875 V 0 h 5.1875 z m -2.75,4.953125 c -0.21875,0 -0.40625,0.1875 -0.40625,0.421875 0,0.21875 0.1875,0.40625 0.40625,0.40625 0.25,0 0.421875,-0.1875 0.421875,-0.40625 0,-0.234375 -0.171875,-0.421875 -0.421875,-0.421875 z M 3.4375,-5.453125 c -0.5,0 -0.90625,0.1875 -1.25,0.59375 l 0.390625,0.28125 C 2.828125,-4.875 3.09375,-5 3.40625,-5 3.765625,-5 4,-4.8125 4,-4.484375 4,-3.84375 2.953125,-3.953125 2.953125,-2.9375 v 0.296875 H 3.5 V -2.90625 c 0,-0.796875 1.078125,-0.65625 1.078125,-1.625 0,-0.46875 -0.375,-0.921875 -1.140625,-0.921875 z m 0,0"
+               id="id-585467fb-bd5e-4294-ade2-e0934d0b18c2" />
+          </g>
+          <g
+             id="id-21329048-5e47-40d4-9488-271be733b5e0">
+            <path
+               d="m 2.0625,0.125 c 0.78125,0 1.28125,-0.375 1.578125,-1.21875 0.015625,0.796875 0.46875,1.21875 1.21875,1.21875 1.625,0 2.203125,-1.765625 2.203125,-3.390625 C 7.0625,-4.0625 6.921875,-4.71875 6.78125,-5.25 H 5.890625 c 0.1875,0.734375 0.265625,1.3125 0.265625,1.90625 0,1.09375 -0.25,2.71875 -1.375,2.71875 -0.609375,0 -0.71875,-0.46875 -0.625,-1.15625 l 0.265625,-1.875 -0.890625,0.125 -0.234375,1.703125 C 3.15625,-0.84375 2.734375,-0.625 2.21875,-0.625 c -0.484375,0 -0.75,-0.296875 -0.75,-1.0625 0,-0.96875 0.265625,-2.015625 1.046875,-3.5625 H 1.59375 c -0.609375,1.109375 -1.03125,2.375 -1.03125,3.5 0,1.328125 0.65625,1.875 1.5,1.875 z m 0,0"
+               id="id-32764471-65f8-4fb3-9ee0-2e190a711f2f" />
+          </g>
+        </g>
+      </defs>
+      <g
+         fill="#000000"
+         fill-opacity="1"
+         id="id-dd139793-c931-4429-901b-d6a52ee978b8"
+         transform="translate(-149.275,-129.515)">
+        <g
+           transform="translate(148.712,134.765)"
+           id="g131045">
+          <path
+             d="m 2.0625,0.125 c 0.78125,0 1.28125,-0.375 1.578125,-1.21875 0.015625,0.796875 0.46875,1.21875 1.21875,1.21875 1.625,0 2.203125,-1.765625 2.203125,-3.390625 C 7.0625,-4.0625 6.921875,-4.71875 6.78125,-5.25 H 5.890625 c 0.1875,0.734375 0.265625,1.3125 0.265625,1.90625 0,1.09375 -0.25,2.71875 -1.375,2.71875 -0.609375,0 -0.71875,-0.46875 -0.625,-1.15625 l 0.265625,-1.875 -0.890625,0.125 -0.234375,1.703125 C 3.15625,-0.84375 2.734375,-0.625 2.21875,-0.625 c -0.484375,0 -0.75,-0.296875 -0.75,-1.0625 0,-0.96875 0.265625,-2.015625 1.046875,-3.5625 H 1.59375 c -0.609375,1.109375 -1.03125,2.375 -1.03125,3.5 0,1.328125 0.65625,1.875 1.5,1.875 z m 0,0"
+             id="id-a1c521cf-56e6-4115-bc5a-3d5f03f2b5b3" />
+        </g>
+      </g>
+    </g>
   </g>
 </svg>

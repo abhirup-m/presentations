@@ -112,6 +112,11 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 	
 \end{frame}
 
+\begin{frame}{DMFT on the Bethe lattice: Exact in \(d=\infty\)}
+\centering
+\hspace*{-20pt}\includegraphics[width=1.1\textwidth]{contrast2.pdf}
+\end{frame}
+
 \begin{frame}{Introducing the extended Anderson impurity model}
 \footcite{anderson_1961,anderson_1978,wilson1974,nozieres1974fermi,hrk_wilson_1980,andrei_1980,tsvelickKondoreview,hewson1993,costi_hewson_1990,costi2000,kuramoto1987,Cox1988}
 
@@ -154,8 +159,9 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \begin{frame}{Nature of RG flows}
 
 \begin{itemize}
-	\nitem URG Equations reveal \alert{critical} point at  \(r = -U_b / J = 1/4\)
-	\[\Delta J = J(J + 4U_b)/|d_3|\]
+	\nitem URG Equations reveal \alert{critical} point at  \(r = -U_b / J = 1/4\):
+	\nitem RG equation for most dominant coupling \(J\):
+	\[\Delta J = J(J + 4U_b)n(D)\frac{1}{\omega - D/2 + U_b/2 + J/4}\]
 \nitem allows averting strong-coupling behaviour\\[5pt]
 \nitem \(U_b\) always marginal
 \end{itemize}
@@ -207,9 +213,12 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 
 \begin{frame}{Low-energy effective Hamiltonians and ground-states}
 
-\only<1>{
+\only<1-2>{
 {\Large \bf Regime 1: ~ \(|U_b| < J/4\)}
 
+\vspace*{\fill}
+
+\only<1>{
 \begin{minipage}{0.4\textwidth}
 \begin{itemize}
 \nitem \(J\) relevant,\\[5pt]
@@ -219,12 +228,11 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \[H = J \vec{S}_d\cdot\vec{S}_0 - U_b\left( \hat n_{0 \uparrow} - \hat n_{0 \downarrow} \right)^2 + \sum_{k < \Lambda^*}\epsilon_k \hat n_{k\sigma}\]
 \end{minipage}
 \hspace*{\fill}
-\begin{minipage}{0.4\textwidth}
-\includegraphics[width=\textwidth]{phase-map-MIT1.pdf}
+\begin{minipage}{0.3\textwidth}
+\includegraphics[width=\textwidth]{sf-1.pdf}
 \end{minipage}
-
-\vspace*{20pt}
-
+}
+\only<2>{
 {\Large \bf Zero-bandwidth limit}
 
 \begin{minipage}{0.4\textwidth}
@@ -242,9 +250,17 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \end{minipage}
 }
 
-\only<2>{
+\vspace*{\fill}
+
+\includegraphics[width=0.45\textwidth]{phase-map-MIT1.pdf}
+}
+
+\only<3-4>{
 {\Large \bf Regime 2: ~ \(|U_b| \sim J/4\)}
 
+\vspace*{\fill}
+
+\only<3>{
 \begin{minipage}{0.4\textwidth}
 \begin{itemize}
 \nitem \(J\) relevant,\\[5pt]
@@ -254,12 +270,12 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \[H = J \vec{S}_d\cdot\vec{S}_0 + V \sum_\sigma \left( c^\dagger_{d\sigma}c_{0\sigma} + \text{h.c.} \right) - U_b\left( \hat n_{0 \uparrow} - \hat n_{0 \downarrow} \right)^2 + \sum_{k < \Lambda^*}\epsilon_k \hat n_{k\sigma}\]
 \end{minipage}
 \hspace*{\fill}
-\begin{minipage}{0.4\textwidth}
-\includegraphics[width=\textwidth]{phase-map-MIT2.pdf}
+\begin{minipage}{0.3\textwidth}
+\includegraphics[width=\textwidth]{sf-3.pdf}
 \end{minipage}
 
-\vspace*{20pt}
-
+}
+\only<4>{
 {\Large \bf Zero-bandwidth limit}
 
 \begin{minipage}{0.4\textwidth}
@@ -277,9 +293,17 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \end{minipage}
 }
 
-\only<3>{
+\vspace*{\fill}
+
+\includegraphics[width=0.45\textwidth]{phase-map-MIT2.pdf}
+}
+
+\only<5-6>{
 {\Large \bf Regime 3: ~ \(|U_b| > J/4\)}
 
+\vspace*{\fill}
+
+\only<5>{
 \begin{minipage}{0.4\textwidth}
 \begin{itemize}
 \nitem \(J,V\) irrelevant,\\[5pt]
@@ -288,12 +312,12 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \[H = - U/2\left( \hat n_{d \uparrow} - \hat n_{d \downarrow} \right)^2 - U_b\left( \hat n_{0 \uparrow} - \hat n_{0 \downarrow} \right)^2 + \sum_{k < \Lambda^*}\epsilon_k \hat n_{k\sigma}\]
 \end{minipage}
 \hspace*{\fill}
-\begin{minipage}{0.4\textwidth}
-\includegraphics[width=\textwidth]{phase-map-MIT3.pdf}
+\begin{minipage}{0.3\textwidth}
+\includegraphics[width=\textwidth]{sf-4.pdf}
 \end{minipage}
 
-\vspace*{20pt}
-
+}
+\only<6>{
 {\Large \bf Zero-bandwidth limit}
 
 \begin{minipage}{0.4\textwidth}
@@ -311,7 +335,12 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \end{minipage}
 }
 
-\only<4>{
+\vspace*{\fill}
+
+\includegraphics[width=0.45\textwidth]{phase-map-MIT3.pdf}
+}
+
+\only<7>{
 \alert{Ground-state overlaps} with spin singlet and charge triplet zero\\
 \vspace*{\fill}
 \includegraphics[width=0.6\textwidth]{corrs_gs.pdf}
@@ -409,7 +438,7 @@ The Kondo cloud \alert{weakens, and is destroyed} at the transition.
 \end{minipage}
 \hspace*{\fill}
 \begin{minipage}{0.3\textwidth}
-\includegraphics[width=\textwidth]{separation.pdf}
+\includegraphics[width=\textwidth]{sf-2.pdf}
 \end{minipage}
 
 \begin{itemize}
@@ -446,18 +475,19 @@ Suggests that \alert{$J$ and $U_b$ are the minimal \& universal ingredients} for
 	
 \end{frame}
 \begin{frame}{Equivalence of the impurity site and the bath zeroth site}
+\footcite{moeller_1995}
 \begin{itemize}
 \only<1>{
 	\nitem \alert{Integrate out impurity site} from fixed point Hamiltonian via a single URG transformation\\[10pt]
 \nitem Generates additional correlation $U_0$ on zeroth site
 \vspace*{\fill}
 \begin{center}
-\includegraphics[width=0.6\textwidth]{decouple-impurity.pdf}
+	\includegraphics[width=0.6\textwidth]{decouple-impurity.pdf}\\[10pt]
 \end{center}
-}
-\only<2>{
 \nitem \(J\) is relevant and the largest scale \(\longrightarrow\) \alert{repulsive correlation}:
 \[U_0 + U_b \simeq J > 0\]
+}
+\only<2>{
 \nitem \(J\) acts a \alert{symmetrisation mechanism} between impurity and zeroth sites\\[10pt]
 \nitem \alert{Coherent} spin-flip scatterings ensure similarity of spectral functions\\[10pt]
 \begin{center}
@@ -465,8 +495,10 @@ Suggests that \alert{$J$ and $U_b$ are the minimal \& universal ingredients} for
 \end{center}
 }
 \end{itemize}
+\only<2>{
 \vspace*{\fill}
 {\bf \large Essence of \alert{self-consistency}: Equivalence of impurity and zeroth sites!}
+}
 \end{frame}
 
 
@@ -511,10 +543,26 @@ Suggests that \alert{$J$ and $U_b$ are the minimal \& universal ingredients} for
 
 \vspace*{\fill}
 \begin{center}
-\only<2>{\includegraphics[width=0.7\textwidth]{coexistence-explain.pdf}}
-\only<3>{\includegraphics[width=0.7\textwidth]{coexistence-explain1.pdf}}
-\only<4>{\includegraphics[width=0.7\textwidth]{coexistence-explain2.pdf}}
-\only<5>{\includegraphics[width=0.7\textwidth]{coexistence-explain3.pdf}}
+\only<2>{
+\includegraphics[width=0.6\textwidth]{coexistence-explain.pdf}
+\hspace*{\fill}
+\includegraphics[width=0.25\textwidth]{sf-2.pdf}
+}
+\only<3>{
+\includegraphics[width=0.6\textwidth]{coexistence-explain1.pdf}
+\hspace*{\fill}
+\includegraphics[width=0.25\textwidth]{sf-3.pdf}
+}
+\only<4>{
+\includegraphics[width=0.6\textwidth]{coexistence-explain2.pdf}
+\hspace*{\fill}
+\includegraphics[width=0.25\textwidth]{sf-4.pdf}
+}
+\only<5>{
+\includegraphics[width=0.6\textwidth]{coexistence-explain3.pdf}
+\hspace*{\fill}
+\includegraphics[width=0.25\textwidth]{sf-1.pdf}
+}
 \end{center}
 }
 \end{frame}

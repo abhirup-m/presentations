@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.6.29)  19 AUG 2022 18:06
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.5.3)  20 AUG 2022 12:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1466,6 +1466,11 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'moeller_1995':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'anirban_mott_2022':
 (biblatex)                - Invalid format of field 'month'.
 
@@ -1558,7 +1563,7 @@ File: ./figures//dos_diff.pdf Graphic file (type pdf)
 ] [5
 
 ]
-Underfull \hbox (badness 4378) in paragraph at lines 113--113
+Underfull \hbox (badness 4467) in paragraph at lines 113--113
 []\TU/FiraSans(0)/m/n/8 shows []\TU/FiraSans(0)/b/n/8 metal-insulator transition[] \TU/FiraSans(0)/m/n/8 on the
  []
 
@@ -1583,179 +1588,218 @@ LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
 [6
 
 ]
+File: ./figures//contrast2.pdf Graphic file (type pdf)
+<use ./figures//contrast2.pdf>
+
+Overfull \hbox (19.83629pt too wide) in paragraph at lines 118--118
+ []| [] 
+ []
+
+[7
+
+]
 File: ./figures//standard-siam.pdf Graphic file (type pdf)
 <use ./figures//standard-siam.pdf>
 File: ./figures//zeromode_bare.pdf Graphic file (type pdf)
 <use ./figures//zeromode_bare.pdf>
- [7
+ [8
 
-] [8
+] [9
 
 ]
 File: ./figures//V_Ub.pdf Graphic file (type pdf)
 <use ./figures//V_Ub.pdf>
 File: ./figures//U_Ub.pdf Graphic file (type pdf)
 <use ./figures//U_Ub.pdf>
- [9
+ [10
 
 ]
 File: ./figures//phase-map-MIT.png Graphic file (type bmp)
 <./figures//phase-map-MIT.png>
- [10
-
-]
-LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 10.95116pt on input line 319.
-LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 319.
-LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 319.
-LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 319.
-File: ./figures//phase-map-MIT1.pdf Graphic file (type pdf)
-<use ./figures//phase-map-MIT1.pdf>
-File: ./figures//singlet.pdf Graphic file (type pdf)
-<use ./figures//singlet.pdf>
  [11
 
 ]
-Overfull \hbox (38.37926pt too wide) detected at line 319
+LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
+(Font)              scaled to size 10.95116pt on input line 348.
+LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
+(Font)              scaled to size 6.00064pt on input line 348.
+LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
+(Font)              scaled to size 10.94882pt on input line 348.
+LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 348.
+File: ./figures//sf-1.pdf Graphic file (type pdf)
+<use ./figures//sf-1.pdf>
+File: ./figures//phase-map-MIT1.pdf Graphic file (type pdf)
+<use ./figures//phase-map-MIT1.pdf>
+ [12
+
+]
+File: ./figures//singlet.pdf Graphic file (type pdf)
+<use ./figures//singlet.pdf>
+File: ./figures//phase-map-MIT1.pdf Graphic file (type pdf)
+<use ./figures//phase-map-MIT1.pdf>
+ [13
+
+]
+Overfull \hbox (38.32326pt too wide) detected at line 348
 [] [] [][] [] [] [] [] [] [] [] [][] [][] [] [] [][][]
  []
 
+File: ./figures//sf-3.pdf Graphic file (type pdf)
+<use ./figures//sf-3.pdf>
 File: ./figures//phase-map-MIT2.pdf Graphic file (type pdf)
 <use ./figures//phase-map-MIT2.pdf>
+[14
+
+]
 File: ./figures//siam-JV.pdf Graphic file (type pdf)
 <use ./figures//siam-JV.pdf>
 
-Overfull \hbox (1.29257pt too wide) detected at line 319
+Overfull \hbox (1.23657pt too wide) detected at line 348
 [] [] [][] [] [] [] [] [] [] [] [][] [][]
  []
 
 
-Overfull \hbox (18.59608pt too wide) detected at line 319
+Overfull \hbox (18.59608pt too wide) detected at line 348
 [][] [] [] []  [] []  [][] []
  []
 
+File: ./figures//phase-map-MIT2.pdf Graphic file (type pdf)
+<use ./figures//phase-map-MIT2.pdf>
 
-Overfull \vbox (12.7515pt too high) detected at line 319
+Overfull \vbox (3.19446pt too high) detected at line 348
  []
 
-[12
+[15
 
 ]
-Overfull \hbox (8.78355pt too wide) detected at line 319
+Overfull \hbox (8.78355pt too wide) detected at line 348
 [] [] [][][][] [][] [] [][] [][] [] [] [][][]
  []
 
+File: ./figures//sf-4.pdf Graphic file (type pdf)
+<use ./figures//sf-4.pdf>
 File: ./figures//phase-map-MIT3.pdf Graphic file (type pdf)
 <use ./figures//phase-map-MIT3.pdf>
+[16
+
+]
 File: ./figures//local-moment.pdf Graphic file (type pdf)
 <use ./figures//local-moment.pdf>
-[13
+File: ./figures//phase-map-MIT3.pdf Graphic file (type pdf)
+<use ./figures//phase-map-MIT3.pdf>
+ [17
 
 ]
 File: ./figures//corrs_gs.pdf Graphic file (type pdf)
 <use ./figures//corrs_gs.pdf>
- [14
+ [18
 
-] [15
+] [19
 
 ]
 File: ./figures//Add.pdf Graphic file (type pdf)
 <use ./figures//Add.pdf>
- [16
+ [20
 
 ]
 File: ./figures//pairing.pdf Graphic file (type pdf)
 <use ./figures//pairing.pdf>
 File: ./figures//I_r.pdf Graphic file (type pdf)
 <use ./figures//I_r.pdf>
- [17
+ [21
 
 ]
 File: ./figures//spinflip-pairing.pdf Graphic file (type pdf)
 <use ./figures//spinflip-pairing.pdf>
 File: ./figures//I_k.pdf Graphic file (type pdf)
 <use ./figures//I_k.pdf>
- [18
+ [22
 
-] [19
+] [23
 
 ]
-File: ./figures//separation.pdf Graphic file (type pdf)
-<use ./figures//separation.pdf>
+File: ./figures//sf-2.pdf Graphic file (type pdf)
+<use ./figures//sf-2.pdf>
 File: ./figures//universal-theory.pdf Graphic file (type pdf)
 <use ./figures//universal-theory.pdf>
- [20
+ [24
 
 ]
 File: ./figures//twosite_spectrum.pdf Graphic file (type pdf)
 <use ./figures//twosite_spectrum.pdf>
- [21
+ [25
 
-] [22
+] [26
 
 ]
 File: ./figures//contrast.pdf Graphic file (type pdf)
 <use ./figures//contrast.pdf>
 
-Overfull \hbox (19.83629pt too wide) in paragraph at lines 447--447
+Overfull \hbox (19.83629pt too wide) in paragraph at lines 476--476
  []| [] 
  []
 
-[23
+[27
 
 ]
 File: ./figures//decouple-impurity.pdf Graphic file (type pdf)
 <use ./figures//decouple-impurity.pdf>
- [24
+ [28
 
 ]
 File: ./figures//standard-siam.pdf Graphic file (type pdf)
 <use ./figures//standard-siam.pdf>
- [25
+ [29
 
 ]
-Underfull \hbox (badness 1292) in paragraph at lines 520--520
+Underfull \hbox (badness 1533) in paragraph at lines 568--568
 []\TU/FiraSans(0)/m/n/8 Insulating when coming in from the insulator,
  []
 
 File: ./figures//coexistence.png Graphic file (type bmp)
 <./figures//coexistence.png>
 
-Underfull \hbox (badness 3989) in paragraph at lines 520--520
+Underfull \hbox (badness 4120) in paragraph at lines 568--568
 []\TU/FiraSans(0)/m/n/8 spectral function shows []\TU/FiraSans(0)/b/n/8 preformed gap[] \TU/FiraSans(0)/m/n/8 from
  []
 
 File: ./figures//pre-gap.pdf Graphic file (type pdf)
 <use ./figures//pre-gap.pdf>
-[26
+[30
 
 ]
 File: ./figures//coexistence-explain.pdf Graphic file (type pdf)
 <use ./figures//coexistence-explain.pdf>
- [27
+File: ./figures//sf-2.pdf Graphic file (type pdf)
+<use ./figures//sf-2.pdf>
+ [31
 
 ]
 File: ./figures//coexistence-explain1.pdf Graphic file (type pdf)
 <use ./figures//coexistence-explain1.pdf>
- [28
+File: ./figures//sf-3.pdf Graphic file (type pdf)
+<use ./figures//sf-3.pdf>
+ [32
 
 ]
 File: ./figures//coexistence-explain2.pdf Graphic file (type pdf)
 <use ./figures//coexistence-explain2.pdf>
- [29
+File: ./figures//sf-4.pdf Graphic file (type pdf)
+<use ./figures//sf-4.pdf>
+ [33
 
 ]
 File: ./figures//coexistence-explain3.pdf Graphic file (type pdf)
 <use ./figures//coexistence-explain3.pdf>
- [30
+File: ./figures//sf-1.pdf Graphic file (type pdf)
+<use ./figures//sf-1.pdf>
+ [34
 
 ]
 File: ./figures//spin-sus.pdf Graphic file (type pdf)
 <use ./figures//spin-sus.pdf>
- [31
+ [35
 
 ]
 File: ./figures//doublon-holon-correlators.pdf Graphic file (type pdf)
@@ -1765,97 +1809,97 @@ File: ./figures//corrs_gs.pdf Graphic file (type pdf)
 File: ./figures//pairing.pdf Graphic file (type pdf)
 <use ./figures//pairing.pdf>
 
-Overfull \vbox (2.73434pt too high) detected at line 554
+Overfull \vbox (2.83134pt too high) detected at line 602
  []
 
-[32
+[36
 
-] [33
+] [37
 
 ]
 File: ./figures//perturbation.pdf Graphic file (type pdf)
 <use ./figures//perturbation.pdf>
- [34
+ [38
 
 ]
 File: ./figures//Tk.pdf Graphic file (type pdf)
 <use ./figures//Tk.pdf>
- [35
-
-] [36
-
-] [37
-
-] [38
-
-] [39
+ [39
 
 ] [40
 
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\translate ' on input line 639.
-
-[41
+] [41
 
 ] [42
 
-
 ] [43
-
 
 ] [44
 
 ]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\translate ' on input line 687.
+
+[45
+
+] [46
+
+
+] [47
+
+
+] [48
+
+]
 File: ./figures//kondo-effect.pdf Graphic file (type pdf)
 <use ./figures//kondo-effect.pdf>
- [45
+ [49
 
 ]
 File: ./figures//chi_parts.pdf Graphic file (type pdf)
 <use ./figures//chi_parts.pdf>
 File: ./figures//entropy_therm.pdf Graphic file (type pdf)
 <use ./figures//entropy_therm.pdf>
- [46
+ [50
 
 ]
 File: ./figures//stargraph.pdf Graphic file (type pdf)
 <use ./figures//stargraph.pdf>
- [47
+ [51
 
 ]
 File: ./figures//CentralFieldChiPowerlaw.pdf Graphic file (type pdf)
 <use ./figures//CentralFieldChiPowerlaw.pdf>
 File: ./figures//discmagimpgen.pdf Graphic file (type pdf)
 <use ./figures//discmagimpgen.pdf>
- [48
+ [52
 
 ]
 File: ./figures//duality.pdf Graphic file (type pdf)
 <use ./figures//duality.pdf>
- [49
+ [53
 
 ]
 File: figures/Matroshka.png Graphic file (type bmp)
 <figures/Matroshka.png>
 File: figures/holography.pdf Graphic file (type pdf)
 <use figures/holography.pdf>
- [50
+ [54
 
 ]
 File: figures/A_mi.pdf Graphic file (type pdf)
 <use figures/A_mi.pdf>
 File: ./figures//curvature-pos.pdf Graphic file (type pdf)
 <use ./figures//curvature-pos.pdf>
- [51
+ [55
 
 ]
 File: figures/A_mi.pdf Graphic file (type pdf)
 <use figures/A_mi.pdf>
 File: figures/subsystem-torus.pdf Graphic file (type pdf)
 <use figures/subsystem-torus.pdf>
- [52
+ [56
 
 ]
 File: figures/Matroshka.png Graphic file (type bmp)
@@ -1863,20 +1907,20 @@ File: figures/Matroshka.png Graphic file (type bmp)
 File: figures/nested.png Graphic file (type bmp)
 <figures/nested.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 797--797
+Underfull \hbox (badness 10000) in paragraph at lines 845--845
 [][]
  []
 
-[53
+[57
 
 ]
 File: ./figures//curvature-pos.pdf Graphic file (type pdf)
 <use ./figures//curvature-pos.pdf>
- [54
+ [58
 
-] [55
+] [59
 
-] [56
+] [60
 
 ]
 \tf@nav=\write7
@@ -1896,12 +1940,12 @@ Package logreq Info: Writing requests to 'jrf-srf-presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39694 strings out of 476156
- 835167 string characters out of 5814963
- 1448449 words of memory out of 5000000
- 59663 multiletter control sequences out of 15000+600000
+ 39739 strings out of 476156
+ 836310 string characters out of 5814964
+ 1452184 words of memory out of 5000000
+ 59704 multiletter control sequences out of 15000+600000
  478974 words of font info for 155 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  129i,13n,148p,1927b,5318s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on jrf-srf-presentation.xdv (56 pages, 546932 bytes).
+Output written on jrf-srf-presentation.xdv (60 pages, 568860 bytes).
