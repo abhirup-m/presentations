@@ -1820,9 +1820,6 @@ INPUT ./figures//pairing.pdf
 INPUT ./figures//perturbation.pdf
 INPUT ./figures//perturbation.pdf
 INPUT ./figures//perturbation.pdf
-INPUT ./figures//Tk.pdf
-INPUT ./figures//Tk.pdf
-INPUT ./figures//Tk.pdf
 INPUT ./figures//kondo-effect.pdf
 INPUT ./figures//kondo-effect.pdf
 INPUT ./figures//kondo-effect.pdf

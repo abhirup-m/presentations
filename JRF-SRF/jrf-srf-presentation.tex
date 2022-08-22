@@ -619,17 +619,17 @@ What about the \alert{low-energy excitations} of the bath, that lie above the si
 \end{frame}
 
 \begin{frame}{Effect on the local Fermi liquid}
+\footcite{held_2013}
 Vanishing of the \alert{Kondo scale} \(T_K\) towards the transition
 \vspace*{\fill}
 
 \begin{itemize}
-	\nitem Near the transition \(r = -U_b/J_0 \to \frac{1}{4}\), the fixed-point momentum scale \(\Lambda^*\) can be approximated as
-	\[\Lambda^* \sim \Lambda_0 \left(1 - 4r\right)^{\frac{|2\omega + U_b + J_0/2|}{8 \rho U_b}}, ~ ~ \Lambda_0 = \text{UV cutoff}, ~ ~ \rho = \text{bath D.O.S}\]
-	\nitem \(\Lambda^*\) vanishes as \(r \to 1/4\)\\[10pt]
-	\nitem Kondo temperature can be defined as \(T_K = \hbar \Lambda^*/k_B\), also vanishes towards the critical point
-	\[T_K \sim \frac{\hbar}{k_B}\Lambda_0 \left(1 - 4r\right)^{\frac{|2\omega + U_b + J_0/2|}{8 \rho U_b}}\]
+	\nitem Kondo temperature scale $T_K$ can be obtained from the \(J-U_b\) model, but with a Lorentzian DOS in the bath, \(\rho = \rho_0 \Gamma^2/(D^2 + \Gamma^2)\).\\[10pt]
+	\nitem Near the transition \(r = -U_b/J_0 \to \frac{1}{4}\), the fixed-point momentum energy scale \(D^*\) can be approximated as
+	\[D^* = D_0 \exp \left[\frac{\left( 2\omega + U_b + J_0/2 \right)^2}{8U_b\rho_0 \Gamma^2}\ln |1 - 4r|\right], ~ ~ D_0 = \text{UV cutoff}~.\]\\[5pt]
+	\nitem Kondo temperature can be defined as \(T_K = \hbar \Lambda^*/k_B\), vanishes towards the critical point
+	\[T_K = \frac{D_0}{k_B} \exp \left[\frac{\left( 2\omega + U_b + J_0/2 \right)^2}{8U_b\rho_0 \Gamma^2}\ln |1 - 4r|\right]\]
 \end{itemize}
-\includegraphics[width=0.5\textwidth]{Tk.pdf}
 \end{frame}
 
 \begin{frame}{Effect on the local Fermi liquid}
