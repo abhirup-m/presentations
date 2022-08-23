@@ -1100,6 +1100,47 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Kotliar_1993}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KG}{%
+         family={Kotliar},
+         familyi={K\bibinitperiod},
+         given={Gabriel},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SQ}{%
+         family={Si},
+         familyi={S\bibinitperiod},
+         given={Qimiao},
+         giveni={Q\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{IOP} Publishing}%
+    }
+    \strng{namehash}{KG+2}
+    \strng{fullhash}{KGSQ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1993}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1088/0031-8949/1993/t49a/027
+    \endverb
+    \field{pages}{165\bibrangedash 171}
+    \field{title}{Quantum chemistry, anomalous dimensions, and the breakdown of
+  Fermi liquid theory in strongly correlated systems}
+    \verb{url}
+    \verb https://doi.org/10.1088/0031-8949/1993/t49a/027
+    \endverb
+    \field{volume}{T49A}
+    \field{journaltitle}{Physica Scripta}
+    \field{year}{1993}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{hrk_wilson_1980}{article}{}
     \name{author}{3}{}{%
       {{hash=KmHR}{%
@@ -2124,6 +2165,48 @@
     \field{volume}{102}
     \field{journaltitle}{Phys. Rev. B}
     \field{year}{2020}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{si_kotliar_1993}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SQ}{%
+         family={Si},
+         familyi={S\bibinitperiod},
+         given={Qimiao},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=KG}{%
+         family={Kotliar},
+         familyi={K\bibinitperiod},
+         given={Gabriel},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{SQ+1}
+    \strng{fullhash}{SQKG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1993}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1103/PhysRevB.48.13881
+    \endverb
+    \field{issue}{18}
+    \field{pages}{13881\bibrangedash 13903}
+    \field{title}{Metallic non-Fermi-liquid phases of an extended Hubbard model
+  in infinite dimensions}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevB.48.13881
+    \endverb
+    \field{volume}{48}
+    \field{journaltitle}{Phys. Rev. B}
+    \field{year}{1993}
     \warn{\item Invalid format of field 'month'}
   \endentry
 

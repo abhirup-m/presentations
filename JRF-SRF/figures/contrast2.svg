@@ -13,7 +13,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:ns16="http://www.iki.fi/pav/software/textext/">
+   xmlns:ns42="http://www.iki.fi/pav/software/textext/">
   <sodipodi:namedview
      id="namedview165415"
      pagecolor="#ffffff"
@@ -25,9 +25,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.518083"
-     inkscape:cx="1253.6601"
-     inkscape:cy="501.85009"
+     inkscape:zoom="0.42969157"
+     inkscape:cx="935.55479"
+     inkscape:cy="563.19467"
      inkscape:window-width="1916"
      inkscape:window-height="1052"
      inkscape:window-x="0"
@@ -37,6 +37,46 @@
      showguides="false" />
   <defs
      id="defs165410">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect28894"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect28854"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect28721"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect28619"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect28257"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect28217"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect28177"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect27119"
+       is_visible="true"
+       lpeversion="1" />
     <inkscape:path-effect
        effect="spiro"
        id="path-effect54591"
@@ -642,12 +682,82 @@
          stdDeviation="3.4442141"
          id="feGaussianBlur65621" />
     </filter>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect27119-6"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect27119-5"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect27119-5-6"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect27119-5-9"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect28217-6"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect28217-62"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect28217-6-1"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect28217-62-8"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect28257-2"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect28619-3"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect28619-5"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect28721-9"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect28854-9"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect28894-7"
+       is_visible="true"
+       lpeversion="1" />
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(280.09109,-0.74924453)">
+     transform="translate(280.09108,-0.74924455)">
     <path
        style="mix-blend-mode:normal;fill:#d0d0d0;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1;filter:url(#filter64175)"
        d="m -176.36196,9.8530963 c -16.59204,-0.032485 -33.27741,-1.9239016 -49.71817,0.3117807 -10.57293,1.437751 -21.10225,4.680678 -29.72296,10.968567 -4.31035,3.143945 -8.10206,7.031949 -10.94723,11.545101 -2.84517,4.513152 -4.72896,9.658395 -5.24714,14.968292 -0.69405,7.112107 1.05923,14.277446 3.78927,20.88128 5.67432,13.725892 15.57998,25.506425 27.48489,34.387383 11.9049,8.88095 25.75883,14.94745 40.1021,18.80344 21.95311,5.90179 45.55405,6.65749 67.32583,0.11839 21.77178,-6.53909 41.540699,-20.69776 53.025591,-40.315803 5.236091,-8.944083 8.751336,-19.077587 8.841649,-29.441231 0.09031,-10.363643 -3.476271,-20.949881 -10.778631,-28.304389 -6.436456,-6.482421 -15.260795,-10.08049 -24.154889,-12.16492 -22.79325,-5.3418524 -46.58951,-1.7120561 -70.00031,-1.7578907 z"
@@ -687,8 +797,8 @@
        style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 67.381089,58.174651 c 4.431875,3.700706 9.874263,5.929028 14.866268,8.830169 2.496003,1.450571 4.904369,3.088712 6.957426,5.118279 2.053057,2.029567 3.746452,4.471358 4.634633,7.218232 1.215588,3.759446 0.839144,7.964805 -0.817916,11.55162 -1.65706,3.586815 -4.544711,6.552249 -7.974918,8.513056 -3.430208,1.960803 -7.381733,2.939323 -11.331341,3.047423 -3.949608,0.1081 -7.897927,-0.63603 -11.625742,-1.94541 C 51.283586,96.712475 42.656236,88.386879 35.631139,79.341331 32.90287,75.828399 30.34699,72.150744 28.443859,68.130515 26.540729,64.110286 25.30288,59.720338 25.312838,55.272412 c 0.01,-4.447926 1.328978,-8.957405 4.100777,-12.436094 1.385899,-1.739345 3.121759,-3.206612 5.096533,-4.229502 1.974774,-1.02289 4.188644,-1.595927 6.412611,-1.59881 2.91176,-0.0038 5.771808,0.965184 8.272158,2.457367 2.500351,1.492183 4.66433,3.492265 6.620774,5.648811 3.912888,4.313091 7.095353,9.327888 11.565398,13.060467 z"
        id="path180022"
-       inkscape:path-effect="#path-effect180024"
-       inkscape:original-d="m 67.381089,58.174651 c 8.81917,7.05529 17.63916,14.11139 26.458327,21.16668 8.819204,7.0553 -21.166347,14.11139 -31.749917,21.166689 -10.5836,7.0553 -17.63863,-14.110859 -26.45836,-21.166689 -8.8197,-7.05582 3.52801,-28.22195 5.29162,-42.333325 1.76358,-14.111375 17.63913,14.111365 26.45833,21.166645 z" />
+       inkscape:original-d="m 67.381089,58.174651 c 8.81917,7.05529 17.63916,14.11139 26.458327,21.16668 8.819204,7.0553 -21.166347,14.11139 -31.749917,21.166689 -10.5836,7.0553 -17.63863,-14.110859 -26.45836,-21.166689 -8.8197,-7.05582 3.52801,-28.22195 5.29162,-42.333325 1.76358,-14.111375 17.63913,14.111365 26.45833,21.166645 z"
+       inkscape:path-effect="#path-effect180024" />
     <rect
        style="fill:#707070;fill-opacity:1;stroke:none;stroke-width:0.954394;stroke-dasharray:none;stroke-opacity:1"
        id="rect165523-4"
@@ -732,9 +842,9 @@
        style="fill:none;fill-opacity:1;stroke:#1659c3;stroke-width:5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker168225-6)"
        d="M 7.9459332,77.657625 C -5.2596692,92.608383 -19.149587,106.95467 -33.665771,120.63654 c -16.438369,15.49357 -33.679948,30.1349 -51.632368,43.84553"
        id="path168201-9"
-       inkscape:path-effect="#path-effect168203-9"
+       sodipodi:nodetypes="csc"
        inkscape:original-d="m 7.9459332,77.657625 c -16.142811,14.95019 -25.4683542,28.149635 -41.6117042,42.978915 -16.14335,14.82928 -50.368138,24.12806 -51.632368,43.84553"
-       sodipodi:nodetypes="csc" />
+       inkscape:path-effect="#path-effect168203-9" />
     <path
        style="fill:none;fill-opacity:1;stroke:#1659c3;stroke-width:5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker168225-1-0)"
        d="m 119.50506,70.04715 c 21.08372,14.985834 36.81835,37.34246 43.80936,62.24676 4.15275,14.79346 5.27961,30.42935 3.29105,45.66541"
@@ -758,15 +868,15 @@
        sodipodi:nodetypes="csc" />
     <g
        transform="matrix(1.76389,0,0,1.76389,-178.8547,165.33007)"
-       ns16:version="1.8.1"
-       ns16:texconverter="xelatex"
-       ns16:pdfconverter="inkscape"
-       ns16:text="impurity"
-       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns16:scale="5.0"
-       ns16:alignment="middle center"
-       ns16:stroke-to-path="0"
-       ns16:jacobian_sqrt="1.76389"
+       ns42:version="1.8.1"
+       ns42:texconverter="xelatex"
+       ns42:pdfconverter="inkscape"
+       ns42:text="impurity"
+       ns42:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns42:scale="5.0"
+       ns42:alignment="middle center"
+       ns42:stroke-to-path="0"
+       ns42:jacobian_sqrt="1.76389"
        id="g173214">
       <defs
          id="id-3d22538d-1630-4ca0-977d-61000303c1db">
@@ -929,15 +1039,15 @@
        transform="scale(-1,1)" />
     <g
        transform="matrix(1.76389,0,0,1.76389,76.263782,207.78984)"
-       ns16:version="1.8.1"
-       ns16:texconverter="xelatex"
-       ns16:pdfconverter="inkscape"
-       ns16:text="impurity"
-       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns16:scale="5.0"
-       ns16:alignment="middle center"
-       ns16:stroke-to-path="0"
-       ns16:jacobian_sqrt="1.76389"
+       ns42:version="1.8.1"
+       ns42:texconverter="xelatex"
+       ns42:pdfconverter="inkscape"
+       ns42:text="impurity"
+       ns42:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns42:scale="5.0"
+       ns42:alignment="middle center"
+       ns42:stroke-to-path="0"
+       ns42:jacobian_sqrt="1.76389"
        id="g173214-3">
       <defs
          id="id-3d22538d-1630-4ca0-977d-61000303c1db-8">
@@ -1145,33 +1255,33 @@
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow4)"
        d="m 83.733869,62.739451 c 1.74676,1.681388 3.69924,3.148853 5.800007,4.35923 2.800808,1.613712 5.870115,2.777082 8.478477,4.68628 1.249846,0.914829 2.385837,2.00015 3.265887,3.274722 0.88006,1.274573 1.49876,2.744063 1.68547,4.281648 0.1891,1.557251 -0.0734,3.166695 -0.74746,4.583173 -0.67407,1.416479 -1.75749,2.635254 -3.085217,3.470677 l -1.06722,8.00014"
        id="path180119"
-       inkscape:path-effect="#path-effect180121"
+       sodipodi:nodetypes="cssssc"
        inkscape:original-d="m 83.733869,62.739451 c 1.9336,1.45334 3.86694,2.90642 5.800007,4.35923 1.93308,1.45282 5.652597,3.12445 8.478477,4.68628 2.825907,1.56183 3.301177,5.03785 4.951357,7.55637 1.65018,2.51853 -2.55487,5.3695 -3.832677,8.05385 0,0 0.1247,5.86586 -1.06722,8.00014"
-       sodipodi:nodetypes="cssssc" />
+       inkscape:path-effect="#path-effect180121" />
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker180453)"
        d="m 42.170451,95.861826 c -1.231461,-1.414681 -2.493097,-2.803095 -3.78376,-4.16398 -0.664574,-0.700731 -1.367428,-1.414866 -2.26954,-1.75965 -0.688438,-0.263119 -1.444249,-0.290261 -2.180169,-0.250253 -0.73592,0.04001 -1.469414,0.143893 -2.206301,0.130663 -1.920194,-0.03448 -3.824052,-0.918139 -5.034018,-2.409552 -1.209967,-1.491413 -1.68034,-3.57326 -1.159852,-5.421888 0.168524,-0.598552 0.43229,-1.165154 0.653358,-1.746355 0.221068,-0.5812 0.40163,-1.190431 0.391662,-1.812175 -0.01381,-0.861583 -0.389574,-1.671823 -0.77708,-2.44147 -0.781451,-1.55208 -1.64168,-3.064493 -2.57627,-4.52947"
        id="path180411"
-       inkscape:path-effect="#path-effect180413"
-       inkscape:original-d="m 42.170451,95.861826 c -1.26101,-1.38773 -2.52225,-2.77572 -3.78376,-4.16398 -1.2615,-1.38826 -1.51275,-1.17284 -2.26954,-1.75965 -0.75679,-0.58681 -2.92404,-0.0795 -4.38647,-0.11959 -1.46241,-0.0401 -4.12898,-5.22069 -6.19387,-7.83144 -2.06489,-2.61074 0.69694,-2.37209 1.04502,-3.55853 0.34809,-1.18644 -0.51779,-1.62738 -0.77708,-2.44147 -0.25929,-0.81408 -1.71725,-3.01938 -2.57627,-4.52947" />
+       inkscape:original-d="m 42.170451,95.861826 c -1.26101,-1.38773 -2.52225,-2.77572 -3.78376,-4.16398 -1.2615,-1.38826 -1.51275,-1.17284 -2.26954,-1.75965 -0.75679,-0.58681 -2.92404,-0.0795 -4.38647,-0.11959 -1.46241,-0.0401 -4.12898,-5.22069 -6.19387,-7.83144 -2.06489,-2.61074 0.69694,-2.37209 1.04502,-3.55853 0.34809,-1.18644 -0.51779,-1.62738 -0.77708,-2.44147 -0.25929,-0.81408 -1.71725,-3.01938 -2.57627,-4.52947"
+       inkscape:path-effect="#path-effect180413" />
     <path
        style="fill:none;fill-opacity:1;stroke:#1659c3;stroke-width:5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 40.335561,20.940605 C 27.059552,23.582658 15.307193,32.962869 9.7874953,45.322715 4.6068067,56.923443 4.9389589,70.662684 9.820638,82.392375 c 4.881679,11.72969 14.082216,21.439865 25.077914,27.804695 9.633881,5.57655 20.735197,8.69762 31.865704,8.55152 11.130507,-0.14609 22.254286,-3.61311 31.266938,-10.14623 9.012656,-6.53312 15.824286,-16.152043 18.612726,-26.928596 2.78844,-10.776554 1.4473,-22.637297 -4.02012,-32.333525 C 108.17586,41.452018 101.17555,35.159936 93.219551,30.834391 85.263556,26.508846 76.374773,24.078311 67.394441,22.91134 49.573413,20.595544 31.134493,23.233393 14.677581,30.45295"
        id="path168116-0"
-       inkscape:path-effect="#path-effect168118-6"
-       inkscape:original-d="M 40.335561,20.940605 C 30.282922,28.964731 19.970467,37.195563 9.7874953,45.322715 -0.39546337,53.449844 26.528481,88.572499 34.898552,110.19707 43.268621,131.82161 86.715666,69.626067 112.6238,49.340239 138.53193,29.0544 82.471178,31.721198 67.394441,22.91134 52.317714,14.101482 32.250157,27.939306 14.677581,30.45295" />
+       inkscape:original-d="M 40.335561,20.940605 C 30.282922,28.964731 19.970467,37.195563 9.7874953,45.322715 -0.39546337,53.449844 26.528481,88.572499 34.898552,110.19707 43.268621,131.82161 86.715666,69.626067 112.6238,49.340239 138.53193,29.0544 82.471178,31.721198 67.394441,22.91134 52.317714,14.101482 32.250157,27.939306 14.677581,30.45295"
+       inkscape:path-effect="#path-effect168118-6" />
     <g
        transform="matrix(1.76389,0,0,1.76389,69.134327,253.83705)"
-       ns16:version="1.8.1"
-       ns16:texconverter="xelatex"
-       ns16:pdfconverter="inkscape"
-       ns16:text="zeroth site"
-       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns16:scale="5.0"
-       ns16:alignment="middle center"
-       ns16:stroke-to-path="0"
-       ns16:inkscapeversion="1.2.1"
-       ns16:jacobian_sqrt="1.76389"
+       ns42:version="1.8.1"
+       ns42:texconverter="xelatex"
+       ns42:pdfconverter="inkscape"
+       ns42:text="zeroth site"
+       ns42:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns42:scale="5.0"
+       ns42:alignment="middle center"
+       ns42:stroke-to-path="0"
+       ns42:inkscapeversion="1.2.1"
+       ns42:jacobian_sqrt="1.76389"
        id="g173214-3-8">
       <defs
          id="id-ea5058bf-1ba9-4735-b18e-891f9e8e12e1">
@@ -1348,16 +1458,16 @@
        inkscape:original-d="m -151.21402,197.72041 c -5.0592,4.22597 -10.11866,8.45167 -15.17838,12.67711 -5.05973,4.22544 -5.12604,4.85097 -7.68946,7.27605 -2.56342,2.42508 -4.44718,10.66314 -6.67117,15.99431" />
     <g
        transform="matrix(2.11667,0,0,2.11667,-131.769,207.553)"
-       ns16:version="1.8.1"
-       ns16:texconverter="xelatex"
-       ns16:pdfconverter="inkscape"
-       ns16:text="$\\Sigma_\\text{imp}$"
-       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns16:scale="6.0"
-       ns16:alignment="middle center"
-       ns16:stroke-to-path="0"
-       ns16:inkscapeversion="1.2.1"
-       ns16:jacobian_sqrt="2.11667"
+       ns42:version="1.8.1"
+       ns42:texconverter="xelatex"
+       ns42:pdfconverter="inkscape"
+       ns42:text="$\\Sigma_\\text{imp}$"
+       ns42:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns42:scale="6.0"
+       ns42:alignment="middle center"
+       ns42:stroke-to-path="0"
+       ns42:inkscapeversion="1.2.1"
+       ns42:jacobian_sqrt="2.11667"
        id="g171384">
       <defs
          id="id-9dcf8cc6-1c6c-409d-93dd-08d20207e467">
@@ -1444,16 +1554,16 @@
     </g>
     <g
        transform="matrix(2.11667,0,0,2.11667,-106.54668,277.10069)"
-       ns16:version="1.8.1"
-       ns16:texconverter="xelatex"
-       ns16:pdfconverter="inkscape"
-       ns16:text="$\\Sigma_\\text{bath}$"
-       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns16:scale="6.0"
-       ns16:alignment="middle center"
-       ns16:stroke-to-path="0"
-       ns16:inkscapeversion="1.2.1"
-       ns16:jacobian_sqrt="2.11667"
+       ns42:version="1.8.1"
+       ns42:texconverter="xelatex"
+       ns42:pdfconverter="inkscape"
+       ns42:text="$\\Sigma_\\text{bath}$"
+       ns42:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns42:scale="6.0"
+       ns42:alignment="middle center"
+       ns42:stroke-to-path="0"
+       ns42:inkscapeversion="1.2.1"
+       ns42:jacobian_sqrt="2.11667"
        style="fill:#000000;fill-opacity:1;stroke-width:1.41732;stroke-dasharray:none"
        id="g171384-8">
       <defs
@@ -1586,16 +1696,16 @@
     </g>
     <g
        transform="matrix(2.11667,0,0,2.11667,-229.69802,275.83154)"
-       ns16:version="1.8.1"
-       ns16:texconverter="xelatex"
-       ns16:pdfconverter="inkscape"
-       ns16:text="bath"
-       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns16:scale="6.0"
-       ns16:alignment="middle center"
-       ns16:stroke-to-path="0"
-       ns16:inkscapeversion="1.2.1"
-       ns16:jacobian_sqrt="2.11667"
+       ns42:version="1.8.1"
+       ns42:texconverter="xelatex"
+       ns42:pdfconverter="inkscape"
+       ns42:text="bath"
+       ns42:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns42:scale="6.0"
+       ns42:alignment="middle center"
+       ns42:stroke-to-path="0"
+       ns42:inkscapeversion="1.2.1"
+       ns42:jacobian_sqrt="2.11667"
        style="fill:#000000;fill-opacity:1;stroke-width:0"
        id="g168811">
       <defs
@@ -1697,16 +1807,16 @@
     </g>
     <g
        transform="matrix(1.76389,0,0,1.76389,208.73446,290.29347)"
-       ns16:version="1.8.1"
-       ns16:texconverter="xelatex"
-       ns16:pdfconverter="inkscape"
-       ns16:text="1"
-       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns16:scale="5.0"
-       ns16:alignment="middle center"
-       ns16:stroke-to-path="0"
-       ns16:inkscapeversion="1.2.1"
-       ns16:jacobian_sqrt="1.76389"
+       ns42:version="1.8.1"
+       ns42:texconverter="xelatex"
+       ns42:pdfconverter="inkscape"
+       ns42:text="1"
+       ns42:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns42:scale="5.0"
+       ns42:alignment="middle center"
+       ns42:stroke-to-path="0"
+       ns42:inkscapeversion="1.2.1"
+       ns42:jacobian_sqrt="1.76389"
        id="g173214-3-8-2">
       <defs
          id="id-4e62660b-d58d-4fee-b152-1c954e575110">
@@ -1742,16 +1852,16 @@
     </g>
     <g
        transform="matrix(1.76389,0,0,1.76389,281.66,290.211)"
-       ns16:version="1.8.1"
-       ns16:texconverter="xelatex"
-       ns16:pdfconverter="inkscape"
-       ns16:text="2"
-       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns16:scale="5.0"
-       ns16:alignment="middle center"
-       ns16:stroke-to-path="0"
-       ns16:inkscapeversion="1.2.1"
-       ns16:jacobian_sqrt="1.76389"
+       ns42:version="1.8.1"
+       ns42:texconverter="xelatex"
+       ns42:pdfconverter="inkscape"
+       ns42:text="2"
+       ns42:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns42:scale="5.0"
+       ns42:alignment="middle center"
+       ns42:stroke-to-path="0"
+       ns42:inkscapeversion="1.2.1"
+       ns42:jacobian_sqrt="1.76389"
        id="g193040">
       <defs
          id="id-f6603747-3f9b-440b-a8d0-0e4da54bf79f">
@@ -1795,16 +1905,16 @@
        transform="matrix(1,0,0,0.69284111,0,16.4347)" />
     <g
        transform="matrix(2.11667,0,0,2.11667,220.0678,204.77225)"
-       ns16:version="1.8.1"
-       ns16:texconverter="xelatex"
-       ns16:pdfconverter="inkscape"
-       ns16:text="\\centering\n{\\bf effective\\\\\nHamiltonian}"
-       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns16:scale="6.0"
-       ns16:alignment="middle center"
-       ns16:stroke-to-path="0"
-       ns16:inkscapeversion="1.2.1"
-       ns16:jacobian_sqrt="2.11667"
+       ns42:version="1.8.1"
+       ns42:texconverter="xelatex"
+       ns42:pdfconverter="inkscape"
+       ns42:text="\\centering\n{\\bf effective\\\\\nHamiltonian}"
+       ns42:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns42:scale="6.0"
+       ns42:alignment="middle center"
+       ns42:stroke-to-path="0"
+       ns42:inkscapeversion="1.2.1"
+       ns42:jacobian_sqrt="2.11667"
        id="g194743">
       <defs
          id="id-298465e7-eb28-43b2-aac1-0fc910455ad9">
@@ -2056,16 +2166,16 @@
     </g>
     <g
        transform="matrix(2.11667,0,0,2.11667,-44.2252,144.298)"
-       ns16:version="1.8.1"
-       ns16:texconverter="xelatex"
-       ns16:pdfconverter="inkscape"
-       ns16:text="{\\bf DMFT}"
-       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns16:scale="6.0"
-       ns16:alignment="middle center"
-       ns16:stroke-to-path="0"
-       ns16:inkscapeversion="1.2.1"
-       ns16:jacobian_sqrt="2.11667"
+       ns42:version="1.8.1"
+       ns42:texconverter="xelatex"
+       ns42:pdfconverter="inkscape"
+       ns42:text="{\\bf DMFT}"
+       ns42:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns42:scale="6.0"
+       ns42:alignment="middle center"
+       ns42:stroke-to-path="0"
+       ns42:inkscapeversion="1.2.1"
+       ns42:jacobian_sqrt="2.11667"
        id="g176321">
       <defs
          id="id-c9b43f40-970c-43f8-941c-ef270236cc2b">
@@ -2146,16 +2256,16 @@
     </g>
     <g
        transform="matrix(1.27001,0,0,1.27001,-255.872,13.4198)"
-       ns16:version="1.8.1"
-       ns16:texconverter="xelatex"
-       ns16:pdfconverter="inkscape"
-       ns16:text="\\centering\n{\\it {\\bf \\large DMFT} represents\\\\\nexcursions from a site into the\\\\\ncorrelated bath in the form of \\\\\nself-energies for the bath and\\\\\nthe impurity. This results\\\\\nin a three-peak DOS\\\\\nof the bath.}"
-       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns16:scale="3.6"
-       ns16:alignment="middle center"
-       ns16:stroke-to-path="0"
-       ns16:inkscapeversion="1.2.1"
-       ns16:jacobian_sqrt="1.27001"
+       ns42:version="1.8.1"
+       ns42:texconverter="xelatex"
+       ns42:pdfconverter="inkscape"
+       ns42:text="\\centering\n{\\it {\\bf \\large DMFT} represents\\\\\nexcursions from a site into the\\\\\ncorrelated bath in the form of \\\\\nself-energies for the bath and\\\\\nthe impurity. This results\\\\\nin a three-peak DOS\\\\\nof the bath.}"
+       ns42:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns42:scale="3.6"
+       ns42:alignment="middle center"
+       ns42:stroke-to-path="0"
+       ns42:inkscapeversion="1.2.1"
+       ns42:jacobian_sqrt="1.27001"
        style="fill:#000000;fill-opacity:1;stroke-width:0"
        id="g199295">
       <defs
@@ -4029,16 +4139,16 @@
     </g>
     <g
        transform="matrix(1.41111,0,0,1.41111,207.856,56.2349)"
-       ns16:version="1.8.1"
-       ns16:texconverter="xelatex"
-       ns16:pdfconverter="inkscape"
-       ns16:text="\\centering\n{\\it\n{\\bf \\large Our Goal:}\\\\[5pt]\nfinding an effective\\\\\nHamiltonian description\\\\\nfor the $\\Sigma$ that gives  rise\\\\\nto the MIT.}"
-       ns16:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
-       ns16:scale="4.0"
-       ns16:alignment="middle center"
-       ns16:stroke-to-path="0"
-       ns16:inkscapeversion="1.2.1"
-       ns16:jacobian_sqrt="1.41111"
+       ns42:version="1.8.1"
+       ns42:texconverter="xelatex"
+       ns42:pdfconverter="inkscape"
+       ns42:text="\\centering\n{\\it\n{\\bf \\large Our Goal:}\\\\[5pt]\nfinding an effective\\\\\nHamiltonian description\\\\\nfor the $\\Sigma$ that gives  rise\\\\\nto the MIT.}"
+       ns42:preamble="/home/kirito/.config/textext/beamer_preamble.tex"
+       ns42:scale="4.0"
+       ns42:alignment="middle center"
+       ns42:stroke-to-path="0"
+       ns42:inkscapeversion="1.2.1"
+       ns42:jacobian_sqrt="1.41111"
        style="fill:#000000;fill-opacity:1;stroke-width:0"
        id="g211164">
       <defs
