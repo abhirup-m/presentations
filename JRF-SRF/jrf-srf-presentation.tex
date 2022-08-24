@@ -113,17 +113,9 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \end{frame}
 
 \begin{frame}{DMFT on the Bethe lattice: Exact in \(d=\infty\)}
+\footcite{si_kotliar_1993,Kotliar_1993}
 \centering
 \hspace*{-20pt}\includegraphics[width=1.1\textwidth]{contrast2.pdf}
-\end{frame}
-
-\begin{frame}{DMFT on the Bethe lattice: Exact in \(d=\infty\)}
-\centering
-\includegraphics[width=\textwidth]{contrast3.pdf}
-
-\vspace*{\fill}
-
-Similar approach was adopted by Si \& Kotliar for an extended Hubbard model~\footcite{si_kotliar_1993,Kotliar_1993}.
 \end{frame}
 
 \begin{frame}{Introducing the extended Anderson impurity model}
@@ -168,11 +160,18 @@ Similar approach was adopted by Si \& Kotliar for an extended Hubbard model~\foo
 \begin{frame}{Nature of RG flows}
 
 \begin{itemize}
-	\nitem URG Equations reveal \alert{critical} point at  \(r = -U_b / J = 1/4\):
+	\nitem URG Equations reveal \alert{critical} point at  \(r = -U_b / J = 1/4\)\\[10pt]
 	\nitem RG equation for most dominant coupling \(J\):
-	\[\Delta J = J(J + 4U_b)n(D)\frac{1}{\omega - D/2 + U_b/2 + J/4}\]
-\nitem allows averting strong-coupling behaviour\\[5pt]
-\nitem \(U_b\) always marginal
+	\[\Delta J = -J(J + 4U_b)n(D)\frac{1}{\omega - D/2 + U_b/2 + J/4}\]\\[5pt]
+	\nitem Numerator structure allows \alert{averting} strong-coupling behaviour\\[10pt]
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Nature of RG flows}
+
+\begin{itemize}
+	\nitem Bath correlation \(U_b\) is always \alert{marginal}
 \end{itemize}
 
 \vspace*{\fill}
@@ -180,6 +179,21 @@ Similar approach was adopted by Si \& Kotliar for an extended Hubbard model~\foo
 \includegraphics[width=0.45\textwidth]{V_Ub.pdf}
 \hspace*{\fill}
 \includegraphics[width=0.45\textwidth]{U_Ub.pdf}
+
+\end{frame}
+
+\begin{frame}{Nature of RG flows}
+
+\begin{itemize}
+	\nitem RG equation reveals competition between Kondo flow and pairing physics
+	\[\Delta J = -\frac{(J + 2U_b)^2 n(D)}{\omega - D/2 + U_b/2 + J/4} + \frac{(2U_b)^2 n(D)}{\omega - D/2 + U_b/2 + J/4}\]
+\end{itemize}
+
+\vspace*{\fill}
+
+\includegraphics[width=0.4\textwidth]{rg-flows1.pdf}
+\hspace*{\fill}
+\includegraphics[width=0.4\textwidth]{rg-flows2.pdf}
 
 \end{frame}
 
@@ -384,7 +398,7 @@ Similar approach was adopted by Si \& Kotliar for an extended Hubbard model~\foo
 
 \begin{frame}{Destruction of the Kondo cloud}
 \centering
-The Kondo cloud \alert{weakens, and is destroyed} at the transition.
+\underline{The Kondo cloud \alert{weakens, and is destroyed} at the transition.}
 
 \vspace*{\fill}
 
@@ -409,7 +423,7 @@ The Kondo cloud \alert{weakens, and is destroyed} at the transition.
 
 \begin{frame}{Growth of pairing fluctuations in the bath}
 \centering
-\alert{Subdominant pairing fluctuations}, near the transition...
+\underline{\alert{Subdominant pairing fluctuations}, near the transition...}
 
 \vspace*{\fill}
 
@@ -458,7 +472,7 @@ The Kondo cloud \alert{weakens, and is destroyed} at the transition.
 
 \vspace*{\fill}
 
-Suggests that \alert{$J$ and $U_b$ are the minimal \& universal ingredients} for transition!
+\underline{Suggests that \alert{$J$ and $U_b$ are the minimal \& universal ingredients} for transition!}
 
 \end{frame}
 
@@ -506,7 +520,7 @@ Suggests that \alert{$J$ and $U_b$ are the minimal \& universal ingredients} for
 \end{itemize}
 \only<2>{
 \vspace*{\fill}
-{\bf \large Essence of \alert{self-consistency}: Equivalence of impurity and zeroth sites!}
+\underline{Essence of \alert{self-consistency}: Equivalence of impurity and zeroth sites!}
 }
 \end{frame}
 
@@ -528,12 +542,12 @@ Suggests that \alert{$J$ and $U_b$ are the minimal \& universal ingredients} for
 
 \vspace*{\fill}
 
-\nitem \alert{True} transition believed to occur at \(U_{c2}\)\\[10pt]
-\nitem Mott gap appears discontinuously after the transition
+\nitem Mott gap appears \alert{discontinuously} after the transition, through a \alert{continuous} sharpening of the central peak.\\[10pt]
+\nitem \alert{True} transition believed to occur at \(U_{c2}\).
 \end{itemize}
 }
 \only<2->{
-{\bf \large \alert{Can be explained} heuristically using the two site spectrum}\\[10pt]
+\underline{\alert{Can be explained} heuristically using the two site spectrum}\\[10pt]
 \vspace*{\fill}
 \begin{itemize}
 \only<2>{\nitem Initial point is when the side peaks get separated (near-zeroes in the spectral function)}
@@ -576,7 +590,8 @@ Suggests that \alert{$J$ and $U_b$ are the minimal \& universal ingredients} for
 
 \begin{frame}{Comparison against NRG-DMFT correlation functions}
 \only<1>{
-\large{\alert{Poor Man's scaling} of the effective Kondo model}\hspace*{\fill}\small{\it [K. Held, R. Peters, and A. Toschi. PRL 2013]}\\[10pt]
+\underline{\alert{Poor Man's scaling} of the effective Kondo model}\\
+\small{\it [K. Held, R. Peters, and A. Toschi. PRL 2013]}\\[10pt]
 \begin{itemize}
 \nitem shows \alert{quantitative} agreement with NRG-DMFT (crossover scale and kinks in self-energy)\\[5pt]
 \nitem Suggests that the minimal model can capture \alert{spin susc.}\\[10pt]
@@ -587,7 +602,8 @@ Suggests that \alert{$J$ and $U_b$ are the minimal \& universal ingredients} for
 \end{itemize}
 }
 \only<2>{
-\large{\alert{Doublon-holon correlators} of the Hubbard model}\hspace*{\fill}\small{\it [S. B. Lee, J. v Delft, and A. Weichselbaum. PRL 2017]}\\[10pt]
+\underline{\alert{Doublon-holon correlators} of the Hubbard model}\\
+\small{\it [S. B. Lee, J. v Delft, and A. Weichselbaum. PRL 2017]}\\[5pt]
 \begin{minipage}{0.3\textwidth}
 Lee et. al show \alert{peaks} in \\[5pt]
 doublon-holon correlators\\[5pt]
@@ -613,7 +629,7 @@ We find support for this in the form of \alert{increasing ground-state charge co
 \end{frame}
 
 \begin{frame}{Effect on the local Fermi liquid}
-What about the \alert{low-energy excitations} of the bath, that lie above the singlet ground state?
+	\underline{What about the \alert{low-energy excitations} of the bath, that lie above the singlet ground state?}
 \begin{itemize}
 \nitem treat hopping between singlet and bath as perturbation 
 \begin{center}
@@ -627,20 +643,20 @@ What about the \alert{low-energy excitations} of the bath, that lie above the si
 
 \begin{frame}{Effect on the local Fermi liquid}
 \footcite{held_2013}
-Vanishing of the \alert{Kondo scale} \(T_K\) towards the transition
+\underline{Vanishing of the \alert{Kondo scale} \(T_K\) towards the transition}
 \vspace*{\fill}
 
 \begin{itemize}
 	\nitem Kondo temperature scale $T_K$ can be obtained from the \(J-U_b\) model, but with a Lorentzian DOS in the bath, \(\rho = \rho_0 \Gamma^2/(D^2 + \Gamma^2)\).\\[10pt]
-	\nitem Near the transition \(r = -U_b/J_0 \to \frac{1}{4}\), the fixed-point momentum energy scale \(D^*\) can be approximated as
+	\nitem Near the transition \(r = -U_b/J_0 \to \frac{1}{4}\) and \(\Gamma \to 0\), the fixed-point momentum energy scale \(D^*\) can be approximated as
 	\[D^* = D_0 \exp \left[\frac{\left( 2\omega + U_b + J_0/2 \right)^2}{8U_b\rho_0 \Gamma^2}\ln |1 - 4r|\right], ~ ~ D_0 = \text{UV cutoff}~.\]\\[5pt]
-	\nitem Kondo temperature can be defined as \(T_K = \hbar \Lambda^*/k_B\), vanishes towards the critical point
+	\nitem Kondo temperature can be defined as \(T_K = D^*/k_B\), vanishes towards the critical point
 	\[T_K = \frac{D_0}{k_B} \exp \left[\frac{\left( 2\omega + U_b + J_0/2 \right)^2}{8U_b\rho_0 \Gamma^2}\ln |1 - 4r|\right]\]
 \end{itemize}
 \end{frame}
 
 \begin{frame}{Effect on the local Fermi liquid}
-	How do the imaginary part of \alert{self-energy} \(\Sigma\) and the \alert{quasiparticle residue} behave near the transition?
+	\underline{How do the imaginary part of \alert{self-energy} \(\Sigma\) and the \alert{quasiparticle residue} behave near the transition?}
 	\vspace*{\fill}
 
 \begin{itemize}

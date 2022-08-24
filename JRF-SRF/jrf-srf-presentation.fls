@@ -1681,9 +1681,6 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT ./figures//contrast2.pdf
 INPUT ./figures//contrast2.pdf
 INPUT ./figures//contrast2.pdf
-INPUT ./figures//contrast3.pdf
-INPUT ./figures//contrast3.pdf
-INPUT ./figures//contrast3.pdf
 INPUT ./figures//standard-siam.pdf
 INPUT ./figures//standard-siam.pdf
 INPUT ./figures//standard-siam.pdf
@@ -1696,6 +1693,12 @@ INPUT ./figures//V_Ub.pdf
 INPUT ./figures//U_Ub.pdf
 INPUT ./figures//U_Ub.pdf
 INPUT ./figures//U_Ub.pdf
+INPUT ./figures//rg-flows1.pdf
+INPUT ./figures//rg-flows1.pdf
+INPUT ./figures//rg-flows1.pdf
+INPUT ./figures//rg-flows2.pdf
+INPUT ./figures//rg-flows2.pdf
+INPUT ./figures//rg-flows2.pdf
 INPUT ./figures//phase-map-MIT.png
 INPUT ./figures//phase-map-MIT.png
 INPUT ./figures//phase-map-MIT.png
