@@ -1,17 +1,17 @@
 # Fdb version 3
-["bibtex jrf-srf-presentation"] 1661351948 "jrf-srf-presentation.aux" "jrf-srf-presentation.bbl" "jrf-srf-presentation" 1661352107
+["bibtex jrf-srf-presentation"] 1661504306 "jrf-srf-presentation.aux" "jrf-srf-presentation.bbl" "jrf-srf-presentation" 1661505587
   "/usr/share/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1650185741 65483 fc69f364ef63c07bf68a2ab4b323f197 ""
   "bib.bib" 1661309369 319094 278c5ef3f4bcebae51ed7a1f82494f78 ""
-  "jrf-srf-presentation-blx.bib" 1661352103 340 2d33f68db8eb3b96dd26dcb5b6bf9ee5 "xelatex"
-  "jrf-srf-presentation.aux" 1661352103 33014 91dd8279b2cad48999856c6fef696bf5 "xelatex"
+  "jrf-srf-presentation-blx.bib" 1661505584 340 2d33f68db8eb3b96dd26dcb5b6bf9ee5 "xelatex"
+  "jrf-srf-presentation.aux" 1661505584 33634 a2408989574029ec4904a93032f5eca2 "xelatex"
   (generated)
   "jrf-srf-presentation.bbl"
   "jrf-srf-presentation.blg"
-["xdvipdfmx"] 1661352104 "jrf-srf-presentation.xdv" "jrf-srf-presentation.pdf" "jrf-srf-presentation" 1661352107
-  "jrf-srf-presentation.xdv" 1661352103 595232 cfb881399490b40a624800bcc90eabf8 "xelatex"
+["xdvipdfmx"] 1661505584 "jrf-srf-presentation.xdv" "jrf-srf-presentation.pdf" "jrf-srf-presentation" 1661505587
+  "jrf-srf-presentation.xdv" 1661505584 634200 4b8a0461f8d9de7402eae7930399bd93 "xelatex"
   (generated)
   "jrf-srf-presentation.pdf"
-["xelatex"] 1661352099 "jrf-srf-presentation.tex" "jrf-srf-presentation.xdv" "jrf-srf-presentation" 1661352107
+["xelatex"] 1661505580 "jrf-srf-presentation.tex" "jrf-srf-presentation.xdv" "jrf-srf-presentation" 1661505587
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1650183167 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1650183167 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -25,6 +25,7 @@
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm" 1650183167 1508 3b32edd0d68f6498a5a375e78f9edc5e ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1650183167 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1650183167 1520 eccf95517727cb11801f4f1aee3a21b4 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm" 1650183167 1524 d89e2d087a9828407a196f428428ef4a ""
   "/usr/share/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1650183167 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1650183167 40635 c40361e206be584d448876bba8a64a3b ""
   "/usr/share/texmf-dist/tex/generic/bitset/bitset.sty" 1650183167 33961 6b5c75130e435b2bfdb9f480a09a39f9 ""
@@ -175,7 +176,7 @@
   "/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx" 1650185741 39965 48ce9ce3350aba9457f1020b1deba5cf ""
   "/usr/share/texmf-dist/tex/latex/braket/braket.sty" 1650181202 3601 193635d942bc4777a5acaaeeffdce692 ""
   "/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1650183167 46845 3b58f70c6e861a13d927bff09d35ecbc ""
-  "/usr/share/texmf-dist/tex/latex/extsizes/size8.clo" 1650183167 6172 5062a8faf7cb200267aa33f36102c207 ""
+  "/usr/share/texmf-dist/tex/latex/extsizes/size9.clo" 1650183167 6172 b9daf86befd6903b2699dddbd6fb97c1 ""
   "/usr/share/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty" 1650183167 162076 2f6d31c4632f2730c57b9c0fda038e15 ""
   "/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg" 1650183167 549 c4adac819276241fea8eb79c5ab7b99e ""
   "/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty" 1650183167 1656 7e824878bad4df5a3e8bba4e463d9126 ""
@@ -281,10 +282,12 @@
   "figures//sf-4.pdf" 1661180220 2938 20181e7bcdbc1d1ff91c574f6cb694d4 ""
   "figures//siam-JV.pdf" 1660638922 10221 f677e1be366287480c8a498b5749aa8e ""
   "figures//singlet.pdf" 1660638922 8093 2f22c4ac493d1873a67e28c2eec22345 ""
+  "figures//spin-defs.pdf" 1661504126 49099 fec9ff6d55fc7c59d19046a3631cf570 ""
   "figures//spin-sus.pdf" 1660638922 44280 f4a3aa99cbbb3031328eb78a736c66c6 ""
   "figures//spinflip-pairing.pdf" 1660638922 102561 9eea71b35d022b6ba0e4c33eaff53838 ""
   "figures//standard-siam.pdf" 1661180220 7580 f4dcb24cb36075f39ccef09113da124f ""
   "figures//stargraph.pdf" 1660210595 3226 5fbdcd0dc7a2a1a6f5189400999d474f ""
+  "figures//stretched.pdf" 1661505218 62340 3166c9a6a14c355cf2abe4a0cba4bfe8 ""
   "figures//twosite_spectrum.pdf" 1660275657 122252 8ddd443ccfef518b70710df4babf9ba7 ""
   "figures//universal-theory.pdf" 1660638922 11798 70195a02017d7e9ed226e39cfc117b63 ""
   "figures//zeromode_bare.pdf" 1660638922 13704 da84f099a01138683e9e41d35bbe204c ""
@@ -296,13 +299,13 @@
   "figures/holography.pdf" 1660211265 14277 1ffe26770906ef47020a38eaed043f0d ""
   "figures/nested.png" 1656494791 751724 25b4bafa1c7a0ad5f7d666deb66dd4b2 ""
   "figures/subsystem-torus.pdf" 1655378078 6250 8e5130c6d4a446fec168b3a840f72a78 ""
-  "jrf-srf-presentation.aux" 1661352103 33014 91dd8279b2cad48999856c6fef696bf5 "xelatex"
-  "jrf-srf-presentation.bbl" 1661351948 70056 102601672030cb3e1a3151bfd75c3e08 "bibtex jrf-srf-presentation"
-  "jrf-srf-presentation.nav" 1661352103 7720 23eb63a3c2a035af00b7ad9eb6a60440 "xelatex"
-  "jrf-srf-presentation.out" 1661352103 3020 531d567c9c5da401c37e979104b9d547 "xelatex"
-  "jrf-srf-presentation.run.xml" 1661352103 2700 811366bbfd238966fb322ffaf6c4be5b "xelatex"
-  "jrf-srf-presentation.tex" 1661352099 30624 ac3b554df090330f51a52f9cc03e3423 ""
-  "mybeamer.sty" 1660887380 2010 73fa80eefb1c177d055d2c160596c14a ""
+  "jrf-srf-presentation.aux" 1661505584 33634 a2408989574029ec4904a93032f5eca2 "xelatex"
+  "jrf-srf-presentation.bbl" 1661504306 71109 53e39831d1a0c63da1ce5aedfa89f281 "bibtex jrf-srf-presentation"
+  "jrf-srf-presentation.nav" 1661505584 7904 12b134bc18005a7ac973db0cf832c65f "xelatex"
+  "jrf-srf-presentation.out" 1661505584 3020 531d567c9c5da401c37e979104b9d547 "xelatex"
+  "jrf-srf-presentation.run.xml" 1661505584 2700 811366bbfd238966fb322ffaf6c4be5b "xelatex"
+  "jrf-srf-presentation.tex" 1661505579 32356 d93aa4897c914cc2b567268919f3f68a ""
+  "mybeamer.sty" 1661495280 2019 17e9281fccaee8e32f26d2b4a44be485 ""
   (generated)
   "jrf-srf-presentation-blx.bib"
   "jrf-srf-presentation.aux"

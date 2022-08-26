@@ -1,5 +1,5 @@
 % !TEX program = xelatex
-\documentclass[8pt,aspectratio=169]{beamer}
+\documentclass[9pt,aspectratio=169]{beamer}
 \usepackage{mybeamer}
 
 \bibliography{bib}
@@ -161,9 +161,11 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 
 \begin{itemize}
 	\nitem URG Equations reveal \alert{critical} point at  \(r = -U_b / J = 1/4\)\\[10pt]
+	\vspace*{\fill}
 	\nitem RG equation for most dominant coupling \(J\):
-	\[\Delta J = -J(J + 4U_b)n(D)\frac{1}{\omega - D/2 + U_b/2 + J/4}\]\\[5pt]
-	\nitem Numerator structure allows \alert{averting} strong-coupling behaviour\\[10pt]
+	\[\Delta J = \frac{-J(J + 4U_b)n(D)}{\omega - D/2 + U_b/2 + J/4}\]
+	\vspace*{\fill}
+	\nitem Numerator structure allows \alert{averting} strong-coupling behaviour
 \end{itemize}
 
 \end{frame}
@@ -186,7 +188,7 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 
 \begin{itemize}
 	\nitem RG equation reveals competition between Kondo flow and pairing physics
-	\[\Delta J = -\frac{(J + 2U_b)^2 n(D)}{\omega - D/2 + U_b/2 + J/4} + \frac{(2U_b)^2 n(D)}{\omega - D/2 + U_b/2 + J/4}\]
+	\[\Delta J = \underbrace{-\frac{(J + 2U_b)^2 n(D)}{\omega - D/2 + U_b/2 + J/4}}_\text{usual Kondo physics} ~ ~ + ~ ~\underbrace{\frac{(2U_b)^2 n(D)}{\omega - D/2 + U_b/2 + J/4}}_\text{competing pairing physics}\]
 \end{itemize}
 
 \vspace*{\fill}
@@ -275,7 +277,7 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 
 \vspace*{\fill}
 
-\includegraphics[width=0.45\textwidth]{phase-map-MIT1.pdf}
+\includegraphics[width=0.4\textwidth]{phase-map-MIT1.pdf}
 }
 
 \only<3-4>{
@@ -306,19 +308,22 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \[H = J \vec{S}_d\cdot\vec{S}_0 + V \sum_\sigma \left( c^\dagger_{d\sigma}c_{0\sigma} + \text{h.c.} \right) - U_b\left( \hat n_{0 \uparrow} - \hat n_{0 \downarrow} \right)^2\]
 \end{minipage}
 \hspace*{\fill}
-\begin{minipage}{0.45\textwidth}
+\begin{minipage}{0.5\textwidth}
 \vspace*{\fill}
 \begin{enumerate}
-\nitem \alert{spin+charge} dimer with attractive zeroth site\\[6pt]
+	\nitem \alert{spin+charge} dimer with attractive \(0^\text{th}\) site\\[6pt]
 \nitem spin-singlet + charge-triplet-zero in gr-state\\[10pt]
 \end{enumerate}
-\[\ket{\Psi}_\text{GS} = \frac{1}{2\sqrt 2}\left[\ket{\uparrow_d \downarrow_0} - \ket{\downarrow_d \uparrow_0}\right] ~ + ~ \frac{1}{2\sqrt 2}\left[\ket{2_d, 0_0} - \ket{0_d, 2_0} \right] \]
+\begin{equation}\begin{aligned}
+\ket{\Psi}_\text{GS} = \frac{1}{2\sqrt 2}\left[\ket{\uparrow_d \downarrow_0} - \ket{\downarrow_d \uparrow_0}\right] + \frac{1}{2\sqrt 2}\left[\ket{2_d, 0_0} - \ket{0_d, 2_0} \right]
+\end{aligned}\end{equation}
+
 \end{minipage}
 }
 
 \vspace*{\fill}
 
-\includegraphics[width=0.45\textwidth]{phase-map-MIT2.pdf}
+\includegraphics[width=0.4\textwidth]{phase-map-MIT2.pdf}
 }
 
 \only<5-6>{
@@ -360,7 +365,7 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 
 \vspace*{\fill}
 
-\includegraphics[width=0.45\textwidth]{phase-map-MIT3.pdf}
+\includegraphics[width=0.4\textwidth]{phase-map-MIT3.pdf}
 }
 
 \only<7>{
@@ -398,7 +403,7 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 
 \begin{frame}{Destruction of the Kondo cloud}
 \centering
-\underline{The Kondo cloud \alert{weakens, and is destroyed} at the transition.}
+\textbf{The Kondo cloud \alert{weakens, and is destroyed} at the transition.}
 
 \vspace*{\fill}
 
@@ -423,7 +428,7 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 
 \begin{frame}{Growth of pairing fluctuations in the bath}
 \centering
-\underline{\alert{Subdominant pairing fluctuations}, near the transition...}
+\textbf{\alert{Subdominant pairing fluctuations}, near the transition...}
 
 \vspace*{\fill}
 
@@ -472,7 +477,7 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 
 \vspace*{\fill}
 
-\underline{Suggests that \alert{$J$ and $U_b$ are the minimal \& universal ingredients} for transition!}
+\textbf{Suggests that \alert{$J$ and $U_b$ are the minimal \& universal ingredients} for transition!}
 
 \end{frame}
 
@@ -520,7 +525,7 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \end{itemize}
 \only<2>{
 \vspace*{\fill}
-\underline{Essence of \alert{self-consistency}: Equivalence of impurity and zeroth sites!}
+\textbf{Essence of \alert{self-consistency}: Equivalence of impurity and zeroth sites!}
 }
 \end{frame}
 
@@ -547,7 +552,7 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \end{itemize}
 }
 \only<2->{
-\underline{\alert{Can be explained} heuristically using the two site spectrum}\\[10pt]
+\textbf{\alert{Can be explained} heuristically using the two site spectrum}\\[10pt]
 \vspace*{\fill}
 \begin{itemize}
 \only<2>{\nitem Initial point is when the side peaks get separated (near-zeroes in the spectral function)}
@@ -590,25 +595,25 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 
 \begin{frame}{Comparison against NRG-DMFT correlation functions}
 \only<1>{
-\underline{\alert{Poor Man's scaling} of the effective Kondo model}\\
-\small{\it [K. Held, R. Peters, and A. Toschi. PRL 2013]}\\[10pt]
+\textbf{\alert{Poor Man's scaling} of the effective Kondo model}\\
+\small{\it [K. Held, R. Peters, and A. Toschi. PRL 2013]}\\[15pt]
 \begin{itemize}
-\nitem shows \alert{quantitative} agreement with NRG-DMFT (crossover scale and kinks in self-energy)\\[5pt]
+\nitem shows \alert{quantitative} agreement with NRG-DMFT (crossover scale and kinks in self-energy)\\[15pt]
 \nitem Suggests that the minimal model can capture \alert{spin susc.}\\[10pt]
 \begin{center}
-\includegraphics[width=0.5\textwidth]{spin-sus.pdf}\\[5pt]
+\includegraphics[width=0.6\textwidth]{spin-sus.pdf}\\[15pt]
 \end{center}
 \nitem Our \(J-U_b\) model \alert{goes further} by capturing physics beyond the transition
 \end{itemize}
 }
 \only<2>{
-\underline{\alert{Doublon-holon correlators} of the Hubbard model}\\
+\textbf{\alert{Doublon-holon correlators} of the Hubbard model}\\
 \small{\it [S. B. Lee, J. v Delft, and A. Weichselbaum. PRL 2017]}\\[5pt]
 \begin{minipage}{0.3\textwidth}
-Lee et. al show \alert{peaks} in \\[5pt]
-doublon-holon correlators\\[5pt]
-near zero energy \\[5pt]
-within the central peak.
+Lee et. al show \alert{peaks} in \\
+doublon-holon correlators\\
+near zero energy within\\
+the central Kondo peak.
 \end{minipage}
 \hspace*{\fill}
 \begin{minipage}{0.65\textwidth}
@@ -629,7 +634,7 @@ We find support for this in the form of \alert{increasing ground-state charge co
 \end{frame}
 
 \begin{frame}{Effect on the local Fermi liquid}
-	\underline{What about the \alert{low-energy excitations} of the bath, that lie above the singlet ground state?}
+	\textbf{What about the \alert{low-energy excitations} of the bath, that lie above the singlet ground state?}
 \begin{itemize}
 \nitem treat hopping between singlet and bath as perturbation 
 \begin{center}
@@ -643,7 +648,7 @@ We find support for this in the form of \alert{increasing ground-state charge co
 
 \begin{frame}{Effect on the local Fermi liquid}
 \footcite{held_2013}
-\underline{Vanishing of the \alert{Kondo scale} \(T_K\) towards the transition}
+\textbf{Vanishing of the \alert{Kondo scale} \(T_K\) towards the transition}
 \vspace*{\fill}
 
 \begin{itemize}
@@ -656,7 +661,7 @@ We find support for this in the form of \alert{increasing ground-state charge co
 \end{frame}
 
 \begin{frame}{Effect on the local Fermi liquid}
-	\underline{How do the imaginary part of \alert{self-energy} \(\Sigma\) and the \alert{quasiparticle residue} behave near the transition?}
+	\textbf{How do the imaginary part of \alert{self-energy} \(\Sigma\) and the \alert{quasiparticle residue} behave near the transition?}
 	\vspace*{\fill}
 
 \begin{itemize}
@@ -669,14 +674,49 @@ We find support for this in the form of \alert{increasing ground-state charge co
 \end{itemize}
 \end{frame}
 
+\begin{frame}{Effective Hamiltonian at the critical point}
+	\textbf{What is the nature of the low-energy excitations \alert{exactly at the critical point}?}
+	\vspace*{\fill}
+
+\only<1>{
+\begin{itemize}
+	\nitem Singlets become degenerate with local moment states at the critical point - \alert{degenerate perturbation theory}.\\[20pt]
+	\nitem Hopping perturbation reduces degeneracy to \(4-\)fold:
+	\[(N_\text{tot}, S^z_\text{tot}) = (2,0), ~ (3, 1/2), ~ (3,-1/2),~ (4, 0)\]\\[10pt]
+	\nitem Non-vanishing degeneracy will lead to critical correlations and \alert{non-Fermi} liquid physics~\footcite{varma2002singular}
+\end{itemize}
+}
+\only<2-3>{
+\begin{itemize}
+	\nitem \(S^z_{\text{tot}} = 0\) first order effective Hamiltonian acquires quasi non-local terms:
+	\[H_\text{eff} = t\vec{S}_d\cdot\left(\vec{\mathcal{S}}^-_1 + \vec{\mathcal{S}}^-_3 - \vec{\mathcal{S}}^+_1 - \vec{\mathcal{S}}^+_3\right) + \frac{t}{4}\mathcal{P}_{01} + H_\text{K.E.}\]
+\only<2>{\centering
+	\includegraphics[width=0.9\textwidth]{spin-defs.pdf}
+}
+\only<3>{
+	\nitem Spreading of bath spin indicates \alert{stretching} of singlet in real space\\[10pt]
+	\begin{center}
+	\includegraphics[width=0.6\textwidth]{stretched.pdf}\\[10pt]
+	\end{center}
+	\nitem Shows the \alert{dispersion} of entanglement across the lattice at critical point. Precursor to decoupling of impurity spin.
+}
+\end{itemize}
+}
+
+\end{frame}
 
 \begin{frame}{Broad conclusions}
 \begin{itemize}
-	\nitem The extended SIAM appears to capture the DMFT transition and \alert{self-consistency}.\\[10pt]
-	\nitem The key ingredient is a \alert{competition} between Kondo screening physics and a local attractive correlation in the bath.\\[10pt]
-	\nitem Crucial feature of the journey is the enhancement of \alert{pairing fluctuations} in the bath - leads to destruction of Kondo cloud.\\[10pt]
-	\nitem An emergent self-consistency is achieved through the qualitative similarity of the spectral functions of the impurity and zeroth sites.\\[10pt]
-	\nitem  SOMETHING ABOUT THE FINAL CALCULATIONS (MAYBE NON-FERMI LIQUID PHYSICS)
+\only<1>{
+	\nitem The extended SIAM appears to capture the phenomenology of the DMFT transition and \alert{self-consistency}.\\[30pt]
+	\nitem The key ingredient is a \alert{competition} between Kondo screening physics and a local attractive correlation in the bath.\\[30pt]
+	\nitem Crucial feature of the journey is the enhancement of \alert{pairing fluctuations} in the bath: leads to destruction of Kondo cloud.
+}
+\only<2>{
+	\nitem An \alert{emergent self-consistency} is achieved through the qualitative similarity of the spectral functions of the impurity and zeroth sites.\\[30pt]
+	\nitem Approach towards criticality is marked by \alert{vanishing} metallic energy scale and quasiparticle residue.\\[30pt]
+	\nitem \alert{Non-Fermi liquid} physics arises at critical point, through the expansion of the singlet into the next lattice site.
+}
 \end{itemize}	
 \end{frame}
 

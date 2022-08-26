@@ -2421,6 +2421,46 @@
     \field{year}{2010}
   \endentry
 
+  \entry{varma2002singular}{article}{}
+    \name{author}{3}{}{%
+      {{hash=VC}{%
+         family={Varma},
+         familyi={V\bibinitperiod},
+         given={CM},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=NZ}{%
+         family={Nussinov},
+         familyi={N\bibinitperiod},
+         given={Z},
+         giveni={Z},
+      }}%
+      {{hash=VSW}{%
+         family={Van\bibnamedelima Saarloos},
+         familyi={V\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={Wim},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{VC+1}
+    \strng{fullhash}{VCNZVSW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2002}
+    \field{labeldatesource}{}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{number}{5-6}
+    \field{pages}{267\bibrangedash 417}
+    \field{title}{Singular or non-Fermi liquids}
+    \field{volume}{361}
+    \field{journaltitle}{Physics Reports}
+    \field{year}{2002}
+  \endentry
+
   \entry{wilson1975}{article}{}
     \name{author}{1}{}{%
       {{hash=WKG}{%
