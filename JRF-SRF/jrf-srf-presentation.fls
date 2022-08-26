@@ -1771,6 +1771,9 @@ INPUT ./figures//sf-2.pdf
 INPUT ./figures//universal-theory.pdf
 INPUT ./figures//universal-theory.pdf
 INPUT ./figures//universal-theory.pdf
+INPUT ./figures//two-site.pdf
+INPUT ./figures//two-site.pdf
+INPUT ./figures//two-site.pdf
 INPUT ./figures//twosite_spectrum.pdf
 INPUT ./figures//twosite_spectrum.pdf
 INPUT ./figures//twosite_spectrum.pdf
@@ -1832,6 +1835,15 @@ INPUT ./figures//pairing.pdf
 INPUT ./figures//perturbation.pdf
 INPUT ./figures//perturbation.pdf
 INPUT ./figures//perturbation.pdf
+INPUT ./figures//lorentzian.pdf
+INPUT ./figures//lorentzian.pdf
+INPUT ./figures//lorentzian.pdf
+INPUT ./figures//perturbation2.pdf
+INPUT ./figures//perturbation2.pdf
+INPUT ./figures//perturbation2.pdf
+INPUT ./figures//perturbation2.pdf
+INPUT ./figures//perturbation2.pdf
+INPUT ./figures//perturbation2.pdf
 INPUT ./figures//spin-defs.pdf
 INPUT ./figures//spin-defs.pdf
 INPUT ./figures//spin-defs.pdf

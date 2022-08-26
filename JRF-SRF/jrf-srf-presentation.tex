@@ -460,8 +460,8 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \begin{itemize}
 	\nitem For \(|U_b| \lesssim J/4\), central peak and side peaks are \alert{well-separated} \\[10pt]
 	\nitem \alert{Integrate out} charge fluctuations through Schrieffer-Wolff transformation
-\[H_\text{eff} = \tilde J \vec{S}_d\cdot\vec{S}_0 - U_b\left(\hat n_{0 \uparrow} - \hat n_{0 \downarrow}\right)^2 + H_\text{K.E.}\]
-\[ \text{RG equation for } \tilde J: ~ \Delta \tilde J \sim \tilde J \left( \tilde J  + 4U_b \right) \]
+\[H_\text{eff} = \tilde J \vec{S}_d\cdot\vec{S}_0 - \tilde U_b\left(\hat n_{0 \uparrow} - \hat n_{0 \downarrow}\right)^2 + H_\text{K.E.}\]
+\[ \text{RG equation for } \tilde J: ~ \Delta \tilde J \sim \tilde J \left( \tilde J  + 4\tilde U_b \right) \]
 \end{itemize}
 \end{minipage}
 \hspace*{\fill}
@@ -470,7 +470,7 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \end{minipage}
 
 \begin{itemize}
-\nitem \alert{captures} the criticality, and the strong-coupling and local moment phases
+\nitem \alert{captures the criticality}, and the strong-coupling and local moment phases
 \end{itemize}
 
 \includegraphics[width=0.7\textwidth]{universal-theory.pdf}
@@ -490,7 +490,13 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 
 \vspace*{\fill}
 
-\includegraphics[width=0.5\textwidth]{twosite_spectrum.pdf}
+\begin{minipage}{0.4\textwidth}
+\includegraphics[width=\textwidth]{two-site.pdf}
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.5\textwidth}
+\includegraphics[width=\textwidth]{twosite_spectrum.pdf}
+\end{minipage}
 \end{frame}
 
 \begin{frame}{}
@@ -599,7 +605,7 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \small{\it [K. Held, R. Peters, and A. Toschi. PRL 2013]}\\[15pt]
 \begin{itemize}
 \nitem shows \alert{quantitative} agreement with NRG-DMFT (crossover scale and kinks in self-energy)\\[15pt]
-\nitem Suggests that the minimal model can capture \alert{spin susc.}\\[10pt]
+\nitem Suggests that the minimal model can capture \alert{spin susceptibility}\\[10pt]
 \begin{center}
 \includegraphics[width=0.6\textwidth]{spin-sus.pdf}\\[15pt]
 \end{center}
@@ -641,7 +647,7 @@ We find support for this in the form of \alert{increasing ground-state charge co
 \includegraphics[width=0.6\textwidth]{perturbation.pdf}
 \end{center}
 \nitem Up to fourth order, charge sector becomes repulsive...
-	\[H_\text{eff} = \frac{2t^4}{\tilde J\left(3\tilde J/4 + \tilde U_b \right)^2}\left[\hat n_{1 \uparrow}\hat n_{1 \downarrow} + \text{p-h}\right]  + H_\text{K.E.}\]
+\[H_\text{eff} = \frac{2t^4}{\tilde J\left(3\tilde J/4 + \tilde U_b \right)^2}\left[\hat n_{1 \uparrow}\hat n_{1 \downarrow} + \left(1 - \hat n_{1 \uparrow}\right)\left(1 - \hat n_{1 \downarrow}\right)\right]  + H_\text{K.E.}\]
 \nitem FL term blows up towards transition, signaling \alert{breakdown} of Fermi liquid theory and loss of adiabaticity.
 \end{itemize}
 \end{frame}
@@ -652,11 +658,26 @@ We find support for this in the form of \alert{increasing ground-state charge co
 \vspace*{\fill}
 
 \begin{itemize}
-	\nitem Kondo temperature scale $T_K$ can be obtained from the \(J-U_b\) model, but with a Lorentzian DOS in the bath, \(\rho = \rho_0 \Gamma^2/(D^2 + \Gamma^2)\).\\[10pt]
-	\nitem Near the transition \(r = -U_b/J_0 \to \frac{1}{4}\) and \(\Gamma \to 0\), the fixed-point momentum energy scale \(D^*\) can be approximated as
-	\[D^* = D_0 \exp \left[\frac{\left( 2\omega + U_b + J_0/2 \right)^2}{8U_b\rho_0 \Gamma^2}\ln |1 - 4r|\right], ~ ~ D_0 = \text{UV cutoff}~.\]\\[5pt]
-	\nitem Kondo temperature can be defined as \(T_K = D^*/k_B\), vanishes towards the critical point
-	\[T_K = \frac{D_0}{k_B} \exp \left[\frac{\left( 2\omega + U_b + J_0/2 \right)^2}{8U_b\rho_0 \Gamma^2}\ln |1 - 4r|\right]\]
+\only<1>{
+	\begin{minipage}{0.4\textwidth}
+		\nitem Consider the \(J-U_b\) model, but with a \alert{Lorentzian DOS} in the bath:\\[5pt]
+	\[\rho = \rho_0 \frac{\Gamma^2}{D^2 + \Gamma^2}\]
+	\end{minipage}
+	\hspace*{\fill}
+	\begin{minipage}{0.3\textwidth}
+	\begin{center}
+	\includegraphics[width=\textwidth]{lorentzian.pdf}
+	\end{center}
+	\end{minipage}\\[20pt]
+	\nitem Near the transition \(r = -U_b/J_0 \to \frac{1}{4}\) and \(\Gamma \to 0\), the \alert{IR energy scale} \(D^*\) can be approximated as
+	\[D^* = D_0 \exp \left[\frac{\left( 2\omega + U_b + J_0/2 \right)^2}{8|U_b|\rho_0 \Gamma^2}\ln |1 - 4r|\right], ~ ~ D_0 = \text{UV cutoff}~.\]
+}
+\only<2>{
+	\nitem \alert{Kondo temperature} can be defined as \(T_K = D^*/k_B\):
+	\[T_K = \frac{D_0}{k_B} \exp \left[\frac{\left( 2\omega + U_b + J_0/2 \right)^2}{8|U_b|\rho_0 \Gamma^2}\ln |1 - 4r|\right]\]\\[10pt]
+	\nitem Kondo temperature vanishes as \(r \to 1/4\):
+	\[T_K \sim (1- 4r)^\alpha \to 0\]
+}
 \end{itemize}
 \end{frame}
 
@@ -670,7 +691,7 @@ We find support for this in the form of \alert{increasing ground-state charge co
 	\nitem As \(r \to 0\), \(u \to \infty\), signalling a vanishing lifetime of the quasiparticles\\[10pt]
 	\nitem Quasiparticle residue \(Z\) for 1-particle excitations is proportional to \(T_K\):
 	\[Z \sim T_K\]
-	\[Z \to 0 \text{ as }r \to 0\]
+	\[Z \to 0 \text{ as }r \to 1/4\]
 \end{itemize}
 \end{frame}
 
@@ -678,27 +699,50 @@ We find support for this in the form of \alert{increasing ground-state charge co
 	\textbf{What is the nature of the low-energy excitations \alert{exactly at the critical point}?}
 	\vspace*{\fill}
 
-\only<1>{
+\only<1-2>{
 \begin{itemize}
-	\nitem Singlets become degenerate with local moment states at the critical point - \alert{degenerate perturbation theory}.\\[20pt]
-	\nitem Hopping perturbation reduces degeneracy to \(4-\)fold:
-	\[(N_\text{tot}, S^z_\text{tot}) = (2,0), ~ (3, 1/2), ~ (3,-1/2),~ (4, 0)\]\\[10pt]
+\only<1>{
+	\nitem Singlets become \alert{degenerate} with local moment states at the critical point:
+	\[\frac{1}{\sqrt 2}\left(\ket{\uparrow,\downarrow} - \ket{\downarrow,\uparrow}\right), ~ ~ \ket{\sigma}\ket{0}, ~ ~\ket{\sigma}\ket{2}\]\\[20pt]
+}
+\nitem \alert{Non-zero degeneracy} exists even in presence of hopping perturbation:
+\begin{minipage}{0.4\textwidth}
+	\[\ket{N_\text{tot}=2,~ S^z_\text{tot}=0},~~\ket{N_\text{tot}=3,~ S^z_\text{tot}=\pm 1/2}~,\]
+	\[\ket{N_\text{tot}=4,~ S^z_\text{tot}=0}\]\\
+	\[N_\text{tot} = \hat n_d + \hat n_0 + \hat n_1, ~ ~ ~ S^z_\text{tot} = S^z_d + S^z_0 + S^z_1\]\\[10pt]
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.5\textwidth}
+\begin{center}
+\includegraphics[width=\textwidth]{perturbation2.pdf}
+\end{center}
+\end{minipage}
+\only<2>{
+	\nitem Presence of magnetic states with \(S^z_\text{tot} \neq 0\) indicates \alert{breakdown of screening}\\[20pt]
 	\nitem Non-vanishing degeneracy will lead to critical correlations and \alert{non-Fermi} liquid physics~\footcite{varma2002singular}
+}
 \end{itemize}
 }
-\only<2-3>{
+\only<3-5>{
 \begin{itemize}
 	\nitem \(S^z_{\text{tot}} = 0\) first order effective Hamiltonian acquires quasi non-local terms:
-	\[H_\text{eff} = t\vec{S}_d\cdot\left(\vec{\mathcal{S}}^-_1 + \vec{\mathcal{S}}^-_3 - \vec{\mathcal{S}}^+_1 - \vec{\mathcal{S}}^+_3\right) + \frac{t}{4}\mathcal{P}_{01} + H_\text{K.E.}\]
-\only<2>{\centering
+	\[H_\text{eff} = t\vec{S}_d\cdot\left(\vec{\mathcal{S}}^-_1 + \vec{\mathcal{S}}^-_3 - \vec{\mathcal{S}}^+_1 - \vec{\mathcal{S}}^+_3\right) + \frac{t}{4}\mathcal{P}_{01} + H_\text{K.E.}\]\\[20pt]
+\only<3>{\centering
 	\includegraphics[width=0.9\textwidth]{spin-defs.pdf}
 }
-\only<3>{
-	\nitem Spreading of bath spin indicates \alert{stretching} of singlet in real space\\[10pt]
-	\begin{center}
-	\includegraphics[width=0.6\textwidth]{stretched.pdf}\\[10pt]
-	\end{center}
-	\nitem Shows the \alert{dispersion} of entanglement across the lattice at critical point. Precursor to decoupling of impurity spin.
+\only<4>{
+	\begin{minipage}{0.4\textwidth}
+		\nitem Ground-state dictated by \(\mathcal{S}^-_1,\mathcal{S}^-_3\):\\ degenerate singlets\\[20pt]
+	\nitem Spreading of extent of bath spin indicates \alert{stretching} of singlet in real space
+	\end{minipage}
+	\hspace*{\fill}
+	\begin{minipage}{0.45\textwidth}
+	\includegraphics[width=\textwidth]{stretched.pdf}
+	\end{minipage}
+}
+\only<5>{
+	\nitem Shows the \alert{dispersion} of entanglement across the lattice at critical point. Precursor to decoupling of impurity spin.\\[30pt]
+	\nitem Degenerate singlets connected by hopping; reminiscent of \alert{multichannel} Kondo physics and source of non-Fermi liquid physics
 }
 \end{itemize}
 }
