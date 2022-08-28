@@ -1,6 +1,6 @@
 % !TEX program = xelatex
 \documentclass[9pt,aspectratio=169]{beamer}
-\usepackage{mybeamer}
+\usepackage{mybeamer,multicol}
 
 \bibliography{bib}
 
@@ -12,7 +12,7 @@
 \author{Abhirup Mukherjee}
 
 \date{Supervisor: Dr. Siddhartha Lal\\[10pt]
-\today} 
+August 29, 2022} 
 
 \institute{Department of Physical Sciences, IISER Kolkata, Mohanpur\\[20pt]
 \includegraphics[width=0.1\textwidth]{figures/epqm_logo_mod.jpeg}
@@ -121,6 +121,7 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \begin{frame}{Introducing the extended Anderson impurity model}
 \footcite{anderson_1961,anderson_1978,wilson1974,nozieres1974fermi,hrk_wilson_1980,andrei_1980,tsvelickKondoreview,hewson1993,costi_hewson_1990,costi2000,kuramoto1987,Cox1988}
 
+\only<1>{
 \begin{minipage}{0.5\textwidth}
 {\bf Standard Anderson impurity model\\}
 \begin{itemize}
@@ -136,9 +137,9 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \vspace*{20pt}
 
 \alert{Gap in spectral function requires additional physics!}
+}
 
-\vspace*{20pt}
-
+\only<2>{
 \begin{minipage}{0.5\textwidth}
 \textbf{{\it Extended} Anderson impurity model\\}
 \begin{itemize}
@@ -150,6 +151,11 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \begin{minipage}{0.48\textwidth}
 \includegraphics[width=\textwidth]{zeromode_bare.pdf}
 \end{minipage}
+
+\vspace*{20pt}
+
+\[H = H_\text{KE} + V\sum_\sigma\left(c^\dagger_{d\sigma}c_{0\sigma} + \text{h.c.}\right) + \frac{U}{2}\left( \hat n_{d \uparrow} - \hat n_{d \downarrow} \right)^2 + J \vec{S}_d\cdot\vec{S}_0 + U_b\left( \hat n_{0 \uparrow} - \hat n_{0 \downarrow} \right)^2\]
+}
 
 \end{frame}
 
@@ -173,6 +179,7 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \begin{frame}{Nature of RG flows}
 
 \begin{itemize}
+	\nitem \(J,V,U\) reverse their behaviour across the critical point; leads to \alert{phase transition} \\[20pt]
 	\nitem Bath correlation \(U_b\) is always \alert{marginal}
 \end{itemize}
 
@@ -315,7 +322,7 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \nitem spin-singlet + charge-triplet-zero in gr-state\\[10pt]
 \end{enumerate}
 \begin{equation}\begin{aligned}
-\ket{\Psi}_\text{GS} = \frac{1}{2\sqrt 2}\left[\ket{\uparrow_d \downarrow_0} - \ket{\downarrow_d \uparrow_0}\right] + \frac{1}{2\sqrt 2}\left[\ket{2_d, 0_0} - \ket{0_d, 2_0} \right]
+\ket{\Psi}_\text{GS} = \frac{1}{2\sqrt 2}\left[\ket{\uparrow_d \downarrow_0} - \ket{\downarrow_d \uparrow_0}\right] + \frac{1}{2\sqrt 2}\left[\ket{2_d, 0_0} + \ket{0_d, 2_0} \right]
 \end{aligned}\end{equation}
 
 \end{minipage}
@@ -455,11 +462,15 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \section{Universal Theory near the Transition}
 \end{frame}
 \begin{frame}{Minimal effective model for the transition}
+\footcite{moeller_1995,held_2013}
+
 \centering
+
+\only<1>{
 \begin{minipage}{0.65\textwidth}
 \begin{itemize}
-	\nitem For \(|U_b| \lesssim J/4\), central peak and side peaks are \alert{well-separated} \\[10pt]
-	\nitem \alert{Integrate out} charge fluctuations through Schrieffer-Wolff transformation
+	\nitem For \(|U_b| \lesssim J/4\), central peak and side peaks are \alert{well-separated} \\[20pt]
+	\nitem \alert{Integrate out} charge fluctuations through Schrieffer-Wolff transformation\\[10pt]
 \[H_\text{eff} = \tilde J \vec{S}_d\cdot\vec{S}_0 - \tilde U_b\left(\hat n_{0 \uparrow} - \hat n_{0 \downarrow}\right)^2 + H_\text{K.E.}\]
 \[ \text{RG equation for } \tilde J: ~ \Delta \tilde J \sim \tilde J \left( \tilde J  + 4\tilde U_b \right) \]
 \end{itemize}
@@ -468,9 +479,11 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \begin{minipage}{0.3\textwidth}
 \includegraphics[width=\textwidth]{sf-2.pdf}
 \end{minipage}
+}
 
+\only<2>{
 \begin{itemize}
-\nitem \alert{captures the criticality}, and the strong-coupling and local moment phases
+	\nitem \alert{captures the criticality}, and the strong-coupling and local moment phases\\[20pt]
 \end{itemize}
 
 \includegraphics[width=0.7\textwidth]{universal-theory.pdf}
@@ -478,6 +491,7 @@ S. Patra, {\it Abhirup Mukherjee}, A. Mukherjee, N. S. Vidhyadhiraja, A. Taraphd
 \vspace*{\fill}
 
 \textbf{Suggests that \alert{$J$ and $U_b$ are the minimal \& universal ingredients} for transition!}
+}
 
 \end{frame}
 
@@ -675,20 +689,26 @@ We find support for this in the form of \alert{increasing ground-state charge co
 \only<2>{
 	\nitem \alert{Kondo temperature} can be defined as \(T_K = D^*/k_B\):
 	\[T_K = \frac{D_0}{k_B} \exp \left[\frac{\left( 2\omega + U_b + J_0/2 \right)^2}{8|U_b|\rho_0 \Gamma^2}\ln |1 - 4r|\right]\]\\[10pt]
+	\begin{minipage}{0.45\textwidth}
 	\nitem Kondo temperature vanishes as \(r \to 1/4\):
 	\[T_K \sim (1- 4r)^\alpha \to 0\]
+	\end{minipage}
+	\hspace*{\fill}
+	\begin{minipage}{0.45\textwidth}
+	\includegraphics[width=\textwidth]{tripartite.pdf}
+	\end{minipage}
 }
 \end{itemize}
 \end{frame}
 
 \begin{frame}{Effect on the local Fermi liquid}
-	\textbf{How do the imaginary part of \alert{self-energy} \(\Sigma\) and the \alert{quasiparticle residue} behave near the transition?}
+	\textbf{How do the imaginary part of \alert{self-energy} and the \alert{qp residue} behave near the transition?}
 	\vspace*{\fill}
 
 \begin{itemize}
 	\nitem Following the renormalised perturbation theory approach of Hewson~\footcite{hewson1993,coleman2015}, \(\text{Im}\left[\Sigma(\omega)\right] \) is
-	\[\text{Im}\left[\Sigma(\omega)\right] \sim u^2 \omega^2, ~ ~ u = \frac{2t^4}{\tilde J\left(3\tilde J/4 + \tilde U_b \right)^2}\]
-	\nitem As \(r \to 0\), \(u \to \infty\), signalling a vanishing lifetime of the quasiparticles\\[10pt]
+	\[\text{Im}\left[\Sigma(\omega)\right] \sim u^2 \omega^2, ~ ~ u = \frac{2t^4}{\tilde J\left(3\tilde J/4 + \tilde U_b \right)^2}\]\\[10pt]
+	\nitem As \(r \to 1/4\), \(u \to \infty\), signalling a vanishing lifetime of the quasiparticles\\[20pt]
 	\nitem Quasiparticle residue \(Z\) for 1-particle excitations is proportional to \(T_K\):
 	\[Z \sim T_K\]
 	\[Z \to 0 \text{ as }r \to 1/4\]
@@ -770,10 +790,18 @@ We find support for this in the form of \alert{increasing ground-state charge co
 
 \begin{frame}{Future Prospects}
 \begin{itemize}
-	\nitem The extended SIAM can be improved by considering \alert{multiple impurities} and general impurity \alert{filling}.\\[20pt]
-	\nitem We are developing a new \alert{tiling-based auxiliary model method} can used for studying other models of strong-correlations as well as topologically active or flat band systems.\\[20pt]
+\only<1>{
+	\begin{minipage}{0.45\textwidth}
+	\nitem The extended SIAM can be improved by considering \alert{multiple impurities} and general impurity \alert{filling}.\\[10pt]
+	\nitem We are developing a new \alert{tiling-based auxiliary model method} can used for studying other models of strong-correlations as well as topologically active or flat band systems.
+	\end{minipage}
+	\hspace*{\fill}
+	\begin{minipage}{0.4\textwidth}
+	\includegraphics[width=\textwidth]{gen-phase-diagram.pdf}
+	\end{minipage}\\[20pt]
 	\nitem The URG can be applied to \alert{heavy-fermion materials} towards a study of phase diagram and unconventional superconductivity, as well as Kondo insulators.\\[20pt]
 	\nitem Interacting systems in a magnetic field is also a potential area of study, specifically \alert{fractional Chern insulators} (e.g. the fractional quantum hall effects).
+}
 \end{itemize}
 \end{frame}
 
@@ -798,8 +826,38 @@ Gracious thanks to\\[10pt]
 \end{frame}
 
 \begin{frame}{}
+\section{More insight into self-consistency}
+\end{frame}
+
+\begin{frame}{More insight into self-consistency}
+
+{\bf Meaning of exact self-consistency}
+
+\vspace*{\fill}
+
+\begin{itemize}
+\only<1>{
+	\nitem Minimal impurity model \(\implies\) qualitative self-consistency \(\implies\) impurity site \(=\) zeroth site\\[10pt]
+	\nitem Full self-consistency \(\implies\) equivalence of self-energy on all sites
+
+\vspace*{\fill}
+
+}
+\only<2>{
+	\nitem Can be achieved through an extended impurity model with \(U_b\) and \(J\) on all sites in the bath
+	\vspace*{\fill}
+	\begin{center}
+		\includegraphics[width=0.9\textwidth]{QImp.pdf}
+	\end{center}
+}
+\end{itemize}
+	
+\end{frame}
+
+\begin{frame}{}
 \section{Other Projects}
 \end{frame}
+
 
 \begin{frame}{}
 \section{Theory for the single-channel Kondo cloud}
