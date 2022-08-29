@@ -1,17 +1,17 @@
 # Fdb version 3
-["bibtex jrf-srf-presentation"] 1661668629 "jrf-srf-presentation.aux" "jrf-srf-presentation.bbl" "jrf-srf-presentation" 1661751214
+["bibtex jrf-srf-presentation"] 1661668629 "jrf-srf-presentation.aux" "jrf-srf-presentation.bbl" "jrf-srf-presentation" 1661780691
   "/usr/share/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1650185741 65483 fc69f364ef63c07bf68a2ab4b323f197 ""
   "bib.bib" 1661309369 319094 278c5ef3f4bcebae51ed7a1f82494f78 ""
-  "jrf-srf-presentation-blx.bib" 1661751207 340 2d33f68db8eb3b96dd26dcb5b6bf9ee5 "xelatex"
-  "jrf-srf-presentation.aux" 1661751207 36260 44797196d929834e1a57c177d4f6bd1d "xelatex"
+  "jrf-srf-presentation-blx.bib" 1661780688 340 2d33f68db8eb3b96dd26dcb5b6bf9ee5 "xelatex"
+  "jrf-srf-presentation.aux" 1661780688 36260 44797196d929834e1a57c177d4f6bd1d "xelatex"
   (generated)
   "jrf-srf-presentation.bbl"
   "jrf-srf-presentation.blg"
-["xdvipdfmx"] 1661751208 "jrf-srf-presentation.xdv" "jrf-srf-presentation.pdf" "jrf-srf-presentation" 1661751214
-  "jrf-srf-presentation.xdv" 1661751207 695176 8b00d0827e8fdb5d6b35142b5339e979 "xelatex"
+["xdvipdfmx"] 1661780688 "jrf-srf-presentation.xdv" "jrf-srf-presentation.pdf" "jrf-srf-presentation" 1661780691
+  "jrf-srf-presentation.xdv" 1661780688 695484 1c9c2b65cae1923dd09394e4438352d4 "xelatex"
   (generated)
   "jrf-srf-presentation.pdf"
-["xelatex"] 1661751195 "jrf-srf-presentation.tex" "jrf-srf-presentation.xdv" "jrf-srf-presentation" 1661751214
+["xelatex"] 1661780683 "jrf-srf-presentation.tex" "jrf-srf-presentation.xdv" "jrf-srf-presentation" 1661780691
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1650183167 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1650183167 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -246,7 +246,7 @@
   "figures//DMFT.pdf" 1657257778 5657 e0942dab6e5ba028292ae679aaf5d705 ""
   "figures//I_k.pdf" 1661745710 122953 055b78b86ed4a1c286f62555d4ace400 ""
   "figures//I_r.pdf" 1661745710 101013 6067b2ac62adeb1e71aaa3dd34b9061c ""
-  "figures//QImp.pdf" 1661745710 350723 ca3ede30d1eff74f2225b12751d876a2 ""
+  "figures//QImp.pdf" 1661780628 350503 3b1d103c5c7ed2686f8e56be56db6af9 ""
   "figures//U_Ub.pdf" 1660638922 92920 4e4945284ea4ec017ebd8ebbbd107e50 ""
   "figures//V_Ub.pdf" 1660638922 122839 5778883f909aedeccdc278c0b44f8510 ""
   "figures//bethe-lattice.pdf" 1660638922 56466 e59076740b6614d6afca6549a41f0100 ""
@@ -271,7 +271,7 @@
   "figures//gen-phase-diagram.pdf" 1661745710 18258 fa68d89afb2d5fc700ef227e4ea7ad75 ""
   "figures//kondo-effect.pdf" 1657615508 3264 dd45adc58396c000b751f5c99cb779d1 ""
   "figures//local-moment.pdf" 1660638922 6922 555c63f81a55418b303d8fdf2f5644cd ""
-  "figures//lorentzian.pdf" 1661745710 4203 558f6b6a7cb4943bf1df8e4c571f577f ""
+  "figures//lorentzian.pdf" 1661780674 4202 062d6a68dcbc4f4b52f17484497b2f4d ""
   "figures//pairing.pdf" 1661745710 132685 c562239c38e09d6801dd69407dc6cc2e ""
   "figures//perturbation.pdf" 1660801176 63313 6418e7afdc60329295d87b3642408e00 ""
   "figures//perturbation2.pdf" 1661745710 63105 4f19516f343feada9830e34fcd8456d3 ""
@@ -306,12 +306,12 @@
   "figures/holography.pdf" 1660211265 14277 1ffe26770906ef47020a38eaed043f0d ""
   "figures/nested.png" 1656494791 751724 25b4bafa1c7a0ad5f7d666deb66dd4b2 ""
   "figures/subsystem-torus.pdf" 1655378078 6250 8e5130c6d4a446fec168b3a840f72a78 ""
-  "jrf-srf-presentation.aux" 1661751207 36260 44797196d929834e1a57c177d4f6bd1d "xelatex"
+  "jrf-srf-presentation.aux" 1661780688 36260 44797196d929834e1a57c177d4f6bd1d "xelatex"
   "jrf-srf-presentation.bbl" 1661504306 71109 53e39831d1a0c63da1ce5aedfa89f281 "bibtex jrf-srf-presentation"
-  "jrf-srf-presentation.nav" 1661751207 8301 67eca0c202b5e2697adc36ad412e6c30 "xelatex"
-  "jrf-srf-presentation.out" 1661751207 3252 d8d7d9db381e688cce077ef2825fdce8 "xelatex"
-  "jrf-srf-presentation.run.xml" 1661751207 2700 811366bbfd238966fb322ffaf6c4be5b "xelatex"
-  "jrf-srf-presentation.tex" 1661751194 35287 043b90134ad63e064c67769cc6e4adc3 ""
+  "jrf-srf-presentation.nav" 1661780688 8301 67eca0c202b5e2697adc36ad412e6c30 "xelatex"
+  "jrf-srf-presentation.out" 1661780688 3252 d8d7d9db381e688cce077ef2825fdce8 "xelatex"
+  "jrf-srf-presentation.run.xml" 1661780688 2700 811366bbfd238966fb322ffaf6c4be5b "xelatex"
+  "jrf-srf-presentation.tex" 1661780683 35316 8efd8857b01a9e9a206bb092752727fa ""
   "mybeamer.sty" 1661495280 2019 17e9281fccaee8e32f26d2b4a44be485 ""
   (generated)
   "jrf-srf-presentation-blx.bib"
