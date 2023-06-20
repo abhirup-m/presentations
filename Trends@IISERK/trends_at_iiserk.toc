@@ -1,0 +1,8 @@
+\beamer@sectionintoc {1}{Introducing the Kondo effect}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Where it all began}{3}{0}{1}
+\beamer@sectionintoc {2}{The single-channel Kondo problem}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{Anatomy of the Kondo cloud}{6}{0}{2}
+\beamer@sectionintoc {3}{Distorting the Kondo singlet}{7}{0}{3}
+\beamer@subsectionintoc {3}{1}{The multi-channel Kondo Problem}{7}{0}{3}
+\beamer@sectionintoc {4}{How to destroy the Kondo cloud}{8}{0}{4}
+\beamer@subsectionintoc {4}{1}{Effect of local interactions in the bath}{8}{0}{4}

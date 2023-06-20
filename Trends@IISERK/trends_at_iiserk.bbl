@@ -1,0 +1,67 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{deHaas1939}{article}{}
+    \name{author}{3}{}{%
+      {{hash=dW}{%
+         family={{de Haas}},
+         familyi={d\bibinitperiod},
+         given={W.J.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=dJ}{%
+         family={{de Boer}},
+         familyi={d\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=vG}{%
+         family={{van dën Berg}},
+         familyi={v\bibinitperiod},
+         given={G.J.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{dW+1}
+    \strng{fullhash}{dWdJvG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1934}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{abstract}{%
+    Summary The resistance curve of the gold wires measured (not very pure) has a minimum. The copper resistances measured show, that it is impossible to apply Matthiesen's rule for these resistances. The calculated “ideal” resistance of lead calculated (by means of Matthiesen's rule) follows Bloch's formula at low temperature. The transition point of lead is 7.20°K.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/S0031-8914(34)80310-2
+    \endverb
+    \field{issn}{0031-8914}
+    \field{number}{7}
+    \field{pages}{1115\bibrangedash 1124}
+    \field{title}{The electrical resistance of gold, copper and lead at low temperatures}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0031891434803102
+    \endverb
+    \field{volume}{1}
+    \field{journaltitle}{Physica}
+    \field{year}{1934}
+  \endentry
+\enddatalist
+\endinput
