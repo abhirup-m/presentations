@@ -1,48 +1,48 @@
-This is BibTeX, Version 0.99d (TeX Live 2022/Arch Linux)
+This is BibTeX, Version 0.99d (TeX Live 2023)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: jrf-srf-presentation.aux
 The style file: biblatex.bst
-Reallocated glb_str_ptr (elt_size=8) to 20 items from 10.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=8) to 20 items from 10.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated field_info (elt_size=8) to 13960 items from 5000.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 13960 items from 5000.
 Database file #1: jrf-srf-presentation-blx.bib
 Database file #2: bib.bib
-Biblatex version: 3.17
-Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
+Biblatex version: 3.19
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 64 entries,
             6399 wiz_defined-function locations,
-            1671 strings with 23442 characters,
-and the built_in function-call counts, 499030 in all, are:
-= -- 39277
+            1671 strings with 23444 characters,
+and the built_in function-call counts, 499042 in all, are:
+= -- 39278
 > -- 7189
 < -- 2319
 + -- 13236
 - -- 2518
-* -- 37335
-:= -- 53316
+* -- 37336
+:= -- 53318
 add.period$ -- 0
 call.type$ -- 64
 change.case$ -- 1471
 chr.to.int$ -- 72
 cite$ -- 126
 duplicate$ -- 52097
-empty$ -- 44659
+empty$ -- 44660
 format.name$ -- 4137
-if$ -- 102544
+if$ -- 102547
 int.to.chr$ -- 0
 int.to.str$ -- 191
 missing$ -- 0
@@ -52,9 +52,9 @@ pop$ -- 22427
 preamble$ -- 1
 purify$ -- 1757
 quote$ -- 0
-skip$ -- 12819
+skip$ -- 12820
 stack$ -- 0
-substring$ -- 71232
+substring$ -- 71235
 swap$ -- 11539
 text.length$ -- 1684
 text.prefix$ -- 73

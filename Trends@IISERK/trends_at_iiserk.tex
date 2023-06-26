@@ -1,14 +1,14 @@
 % !TEX program = xelatex
-\documentclass[aspectratio=169]{beamer}
+\documentclass[10pt,aspectratio=169]{beamer}
 \makeatletter
 \def\@makefnmark{}
 \makeatletter
-%\setbeamersize{text margin left=5mm,text margin right=5mm} 
 \usepackage{amsthm,amsmath,amssymb,braket,fontspec,unicode-math}
 \usepackage[absolute,overlay]{textpos}
 \usetheme[numbering=none]{focus}
 \setbeamercolor{footnote}{fg=azure}
 \setbeamerfont{footnote}{size=\tiny,series=\bfseries}
+\setbeamerfont{alerted text}{series=\bfseries}
 
 %\setmainfont{FiraCode Nerd Font}
 %\setsansfont{Fira Sans}
@@ -94,9 +94,9 @@ Department of Physical Sciences, IISER Kolkata}
 \hspace*{\fill}
 \\
 \vspace*{\fill}
-\alert{\bf $\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim$ }\\
-\alert{\bf A huge thanks to all my collaborators! }\\
-\alert{\bf $\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim$ }\\
+\alert{$\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim$ }\\
+\alert{A huge thanks to all my collaborators! }\\
+\alert{$\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim$ }\\
 \vspace*{\fill}
 
 \hspace*{\fill}
@@ -129,29 +129,177 @@ Department of Physical Sciences, IISER Kolkata}
 \subsection{Where it all began}
 
 \begin{frame}{What is the Kondo effect?}
+\begin{minipage}{0.5\textwidth}
 \begin{itemize}
-	\item metal resistivity is expected to decrease monotonically with temperature: \(\rho \sim T^n\)
-	\item metals with magnetic impurities show an anomalous resistivity minimum
+	\item metal resistivity is \alert{monotonic}: \(\rho \sim T^n\)\\[10pt]
+	\item dilute alloys show anomalous \alert{minimum}\\[10pt]
+	\item resistivity eventually becomes \alert{constant}
+\end{itemize}
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.45\textwidth}
+\centering
+\includegraphics[width=\textwidth]{resistance_minimum.pdf}
+\end{minipage}
+
+\[\text{Can be explained using the \alert{Kondo model}:}\quad H_\text{Kondo} = KE_\text{bath} + J \vec{S}_\text{imp}\cdot\vec{S}_\text{bath}\]
+
+\includegraphics[width=0.9\textwidth]{KondoModel.pdf}
+
+\footcite{deHaas1939,Sarachik1964,Heeger1969}
+\end{frame}
+
+\begin{frame}{How to explain the resistance minimum \& eventual saturation?}
+\footcite{kondo1964resistance}
+\begin{minipage}{0.5\textwidth}
+Second order perturbation theory in \(J\) gives:
+\[\hspace*{-80pt}\rho \sim T^n - \ln T\]
+Explains the \alert{non-monotonic}\\
+behaviour!\\[20pt]
+However, solution \alert{diverges} at \(T \to 0\)!
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+	\includegraphics[width=\textwidth]{secondorder.pdf}
+\end{minipage}
+\begin{textblock*}{0.13\textwidth}(6.5cm, 3.8cm)
+	\includegraphics[width=\textwidth]{kondo.jpg}\\
+	\footnotesize{(Jun Kondo)}
+\end{textblock*}
+\end{frame}
+
+\begin{frame}{How to explain the resistance minimum \& eventual saturation?}
+\footcite{wilson1975,andrei_1980,Wiegmann_1981,affleck1995conformal}
+Breakdown of perturbation theory indicates a \alert{change in ground state}!\\[10pt]
+Obtaining \(T=0\) ground state requires more \alert{powerful  methods}\\[10pt]
+
+\begin{minipage}{0.2\textwidth}
+\centering
+Numerical RG\\[10pt]
+\includegraphics[width=0.5\textwidth]{wilson.jpg}\\
+\footnotesize{(K. G. Wilson)}
+\end{minipage}
+\begin{minipage}{0.2\textwidth}
+\centering
+Bethe ansatz\\[10pt]
+\includegraphics[width=0.5\textwidth]{AndreiN.jpg}\\
+\footnotesize{(Natan Andrei)}
+\end{minipage}
+\begin{minipage}{0.2\textwidth}
+\centering
+Conf. field theory\\[10pt]
+\includegraphics[width=0.5\textwidth]{affleck.jpg}\\
+\footnotesize{(Ian Affleck)}
+\end{minipage}
+\begin{minipage}{0.38\textwidth}
+\begin{itemize}
+	\item impurity becomes \alert{strongly coupled} at low temperatures
+	\item local moment crosses over into \alert{nonmagnetic} singlet
+\end{itemize}
+\end{minipage}
+
+\vspace*{\fill}
+\includegraphics[width=0.9\textwidth]{crossover.pdf}\\
+
+\end{frame}
+
+\section{Some important questions}
+\begin{frame}{Some important questions}
+\begin{minipage}{0.45\textwidth}
+	1. How do we describe the dynamics of the electrons that screen the impurity (the so-called \alert{Kondo cloud})?
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.45\textwidth}
+	\includegraphics[width=0.9\textwidth]{kondocloud.pdf}
+\end{minipage}
+\vspace*{\fill}
+
+\begin{minipage}{0.45\textwidth}
+	\includegraphics[width=0.9\textwidth]{distortsinglet.pdf}
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.45\textwidth}
+	2. What kind of physics can \alert{disturb the Kondo screening} effect and distort the singlet state?
+\end{minipage}
+\vspace*{\fill}
+
+\begin{minipage}{0.45\textwidth}
+	3. What is the simplest impurity model that completely destroys the Kondo effect and leads to a \alert{phase transition}?
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.45\textwidth}
+	\includegraphics[width=0.9\textwidth]{kondobreakdown.pdf}
+\end{minipage}
+\end{frame}
+
+\section{The single-channel Kondo problem:\\ Anatomy of the Kondo cloud}
+\begin{textblock*}{\textwidth}(1cm, 4.5cm)
+\includegraphics[width=\textwidth]{kondocloud_prb.pdf}\\
+\end{textblock*}
+\subsection{~}
+
+\begin{frame}{Unitary RG approach to impurity models}
+\begin{minipage}{0.5\textwidth}
+\begin{itemize}
+	\item Integrate out \alert{high energy fluctuations} to reach strong-coupling low-energy theory
+	\item Leads to \alert{singlet ground state} and decoupled high-energy \(k-\)states
+	\item Decoupling is carried out through \alert{unitary transformations}
 \end{itemize}
 
-\footcite{deHaas1939}
-	\begin{figure}[htpb]
-		\centering
-		\includegraphics[width=0.45\textwidth]{resistance_minimum.pdf}
-		\hspace*{\fill}
-		\includegraphics[width=0.45\textwidth]{metal_impurity.pdf}
-	\end{figure}
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.4\textwidth}
+\includegraphics[width=\textwidth]{kondo_fp_1D.pdf}
+\end{minipage}
+	
 \end{frame}
 
-\begin{frame}{How to explain the resistivity minimum?}
-	\begin{figure}[htpb]
-		\centering
-		\includegraphics[width=\textwidth]{KondoModel.pdf}
-	\end{figure}
+\begin{frame}{Effective Hamiltonian for the Kondo cloud}
+In order to obtain a theory for the Kondo cloud,\\ we \alert{trace out impurity} from fixed point Hamiltonian.
+\vspace*{\fill}
+
+\includegraphics[width=\textwidth]{KondoCloud.pdf}
+
+\vspace*{\fill}
+\begin{itemize}
+	\item all-to-all interactions between momentum states, \alert{large entanglement}
+	\item 2-particle interaction terms \alert{not} present in Fermi liquid, are \alert{responsible for screening}
+\end{itemize}
+
 \end{frame}
 
-\section{The single-channel Kondo problem}
-\subsection{Anatomy of the Kondo cloud}
+\begin{frame}{Quantifying entanglement within the Kondo cloud}
+\only<1-2>{
+\begin{minipage}{0.8\textwidth}
+In order to demonstrate formation of Kondo cloud, we study the \alert{variation of entanglement} and correlations under RG transformations.
+\end{minipage}
+
+\vspace*{\fill}
+\begin{itemize}[<+->]
+	\item Entanglement entropy \(S(A)\) \(\Longrightarrow\) quantifies how much \alert{information is gained} about the rest of the system by measuring \(A\)\\
+	\vspace*{\fill}
+	{\centering
+	\only<1>{\includegraphics[width=0.85\textwidth]{entanglement.pdf}}}
+\item Mutual information \(I_2(A:B)\)\(\Longrightarrow\) quantifies how much \alert{information about subsystem A} is gained by measuring \(B\)\\
+	\vspace*{\fill}
+	{\centering
+	\only<2>{\includegraphics[width=0.85\textwidth]{mutinfo.pdf}}}
+\end{itemize}
+}
+\only<3>{
+Both entanglement and \(k-\)space correlations \alert{increase} as RG proceeds from UV to IR.
+
+\vspace*{\fill}
+\includegraphics[width=0.4\textwidth]{MIkondo.pdf}
+\hspace*{\fill}
+\includegraphics[width=0.4\textwidth]{corrKondo.pdf}
+
+\vspace*{\fill}
+\begin{itemize}
+	\item The former shows the formation of the \alert{Kondo singlet}\\[10pt]
+	\item The latter shows the growth of two-particle correlations in the \alert{Kondo cloud}
+\end{itemize}
+}
+\end{frame}
 
 \section{Distorting the Kondo singlet}
 \subsection{The multi-channel Kondo Problem}

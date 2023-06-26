@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.5.25)  20 JUN 2023 20:40
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.5.25)  26 JUN 2023 20:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -127,8 +127,8 @@ Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ) (/home/kirito/storage/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/home/kirito/storage/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/home/kirito/storage/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
 (/home/kirito/storage/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/home/kirito/storage/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/home/kirito/storage/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/home/kirito/storage/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/home/kirito/storage/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/home/kirito/storage/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/home/kirito/storage/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/home/kirito/storage/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count281
-))) (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+))) (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 ) (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
@@ -684,7 +684,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/FiraSans(1)/bx/n on input line 138.
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 138.
+(Font)              scaled to size 10.0pt on input line 138.
 
 Package fontspec Info: Font family 'FiraSans(2)' created for font 'FiraSans'
 (fontspec)             with options [Ligatures = TeX,Scale = 1,Extension =
@@ -1108,9 +1108,9 @@ Package fontspec Info: Font family 'FiraMono(3)' created for font 'FiraMono'
 
 ) (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/firamath-otf/firamath-otf.sty
 Package: firamath-otf 2023/01/16 v. 0.03a (Herbert Voss) Supports fira math fonts for all luatex/xetex .
-Requested font "Fira Math Regular/OT" at 10.94997pt
+Requested font "Fira Math Regular/OT" at 9.99997pt
  -> /usr/share/fonts/OTF/FiraMath-Regular.otf
-Requested font "Fira Math Regular/OT" at 10.95003pt
+Requested font "Fira Math Regular/OT" at 10.00003pt
  -> /usr/share/fonts/OTF/FiraMath-Regular.otf
 
 
@@ -1123,11 +1123,11 @@ Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (tnum) not
 (fontspec)                available for font 'Fira Math Regular' with script
 (fontspec)                'Math' and language 'Default'.
 
-Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 10.95001pt
+Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 10.00002pt
  -> /usr/share/fonts/OTF/FiraMath-Regular.otf
-Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95001pt
+Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.00002pt
  -> /usr/share/fonts/OTF/FiraMath-Heavy.otf
-Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 10.95003pt
+Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 10.00003pt
  -> /usr/share/fonts/OTF/FiraMath-Regular.otf
 
 Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
@@ -1139,9 +1139,9 @@ Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (tnum) not
 (fontspec)                available for font 'Fira Math Regular' with script
 (fontspec)                'Math' and language 'Default'.
 
-Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
+Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.00003pt
  -> /usr/share/fonts/OTF/FiraMath-Heavy.otf
-Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
+Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.00003pt
  -> /usr/share/fonts/OTF/FiraMath-Heavy.otf
 
 Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
@@ -1169,8 +1169,8 @@ Package fontspec Info: Font family 'FiraMathRegular(0)' created for font 'Fira
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 80.
-Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 10.95pt
+(Font)              scaled to size 10.0pt on input line 80.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 10.0pt
  -> /usr/share/fonts/OTF/FiraMath-Regular.otf
 
 Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
@@ -1182,7 +1182,7 @@ Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (tnum) not
 (fontspec)                available for font 'Fira Math Regular' with script
 (fontspec)                'Math' and language 'Default'.
 
-Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95001pt
+Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.00002pt
  -> /usr/share/fonts/OTF/FiraMath-Heavy.otf
 
 Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
@@ -1214,9 +1214,9 @@ Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (tnum) not
 (fontspec)                available for font 'Fira Math Regular' with script
 (fontspec)                'Math' and language 'Default'.
 
-Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
+Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.00003pt
  -> /usr/share/fonts/OTF/FiraMath-Heavy.otf
-Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
+Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.00003pt
  -> /usr/share/fonts/OTF/FiraMath-Heavy.otf
 
 Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
@@ -1231,19 +1231,18 @@ Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (tnum) not
 
 Package fontspec Info: Font family 'FiraMathRegular(1)' created for font 'Fira
 (fontspec)             Math Regular' with options
-(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9.417-},{Size=7.1175-9.417,Font=Fira
-(fontspec)             Math Regular,Style=MathScript},{Size=-7.1175,Font=Fira
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.6-},{Size=6.5-8.6,Font=Fira
+(fontspec)             Math Regular,Style=MathScript},{Size=-6.5,Font=Fira
 (fontspec)             Math
 (fontspec)             Regular,Style=MathScriptScript}},Scale={1},Numbers={Lining,Monospaced}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <9.417->s*[1]"Fira
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <8.6->s*[1]"Fira Math
+(fontspec)             Regular/OT:script=math;language=dflt;"<6.5-8.6>s*[1]"Fira
 (fontspec)             Math
-(fontspec)             Regular/OT:script=math;language=dflt;"<7.1175-9.417>s*[1]"Fira
-(fontspec)             Math
-(fontspec)             Regular/OT:script=math;language=dflt;+ssty=0;"<-7.1175>s*[1]"Fira
+(fontspec)             Regular/OT:script=math;language=dflt;+ssty=0;"<-6.5>s*[1]"Fira
 (fontspec)             Math Regular/OT:script=math;language=dflt;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1]"Fira Math
@@ -1251,7 +1250,7 @@ Package fontspec Info: Font family 'FiraMathRegular(1)' created for font 'Fira
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(1)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 80.
+(Font)              scaled to size 10.0pt on input line 80.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
 (Font)              `operators' in the math version `normal' on input line 80.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -1273,7 +1272,7 @@ Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (tnum) not
 (fontspec)                available for font 'Fira Math Regular' with script
 (fontspec)                'Math' and language 'Default'.
 
-Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95001pt
+Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.00002pt
  -> /usr/share/fonts/OTF/FiraMath-Heavy.otf
 
 Package fontspec Info: Fira Math Regular scale = 1.0001.
@@ -1314,9 +1313,9 @@ Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (tnum) not
 (fontspec)                available for font 'Fira Math Regular' with script
 (fontspec)                'Math' and language 'Default'.
 
-Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
+Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.00003pt
  -> /usr/share/fonts/OTF/FiraMath-Heavy.otf
-Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
+Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.00003pt
  -> /usr/share/fonts/OTF/FiraMath-Heavy.otf
 
 Package fontspec Info: Fira Math Regular/B scale = 1.0001.
@@ -1334,56 +1333,53 @@ Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (tnum) not
 
 Package fontspec Info: Font family 'FiraMathRegular(2)' created for font 'Fira
 (fontspec)             Math Regular' with options
-(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9.417-},{Size=7.1175-9.417,Font=Fira
-(fontspec)             Math Regular,Style=MathScript},{Size=-7.1175,Font=Fira
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.6-},{Size=6.5-8.6,Font=Fira
+(fontspec)             Math Regular,Style=MathScript},{Size=-6.5,Font=Fira
 (fontspec)             Math
 (fontspec)             Regular,Style=MathScriptScript}},Scale={1},Numbers={Lining,Monospaced},ScaleAgain=1.0001,FontAdjustment={\fontdimen
-(fontspec)             8\font =6.351pt\relax \fontdimen 9\font =4.9275pt\relax
-(fontspec)             \fontdimen 10\font =4.9275pt\relax \fontdimen 11\font
-(fontspec)             =7.665pt\relax \fontdimen 12\font =5.256pt\relax
-(fontspec)             \fontdimen 13\font =4.38pt\relax \fontdimen 14\font
-(fontspec)             =4.38pt\relax \fontdimen 15\font =2.9565pt\relax
-(fontspec)             \fontdimen 16\font =3.8325pt\relax \fontdimen 17\font
-(fontspec)             =3.8325pt\relax \fontdimen 18\font =3.942pt\relax
-(fontspec)             \fontdimen 19\font =2.7375pt\relax \fontdimen 22\font
-(fontspec)             =3.066pt\relax \fontdimen 20\font =0pt\relax \fontdimen
-(fontspec)             21\font =0pt\relax }].
+(fontspec)             8\font =5.8pt\relax \fontdimen 9\font =4.5pt\relax
+(fontspec)             \fontdimen 10\font =4.5pt\relax \fontdimen 11\font
+(fontspec)             =7.0pt\relax \fontdimen 12\font =4.8pt\relax \fontdimen
+(fontspec)             13\font =4.0pt\relax \fontdimen 14\font =4.0pt\relax
+(fontspec)             \fontdimen 15\font =2.7pt\relax \fontdimen 16\font
+(fontspec)             =3.5pt\relax \fontdimen 17\font =3.5pt\relax \fontdimen
+(fontspec)             18\font =3.6pt\relax \fontdimen 19\font =2.5pt\relax
+(fontspec)             \fontdimen 22\font =2.8pt\relax \fontdimen 20\font
+(fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax }].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <9.417->s*[1.0001]"Fira Math
-(fontspec)             Regular/OT:script=math;language=dflt;"<7.1175-9.417>s*[1.0001]"Fira
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <8.6->s*[1.0001]"Fira
 (fontspec)             Math
-(fontspec)             Regular/OT:script=math;language=dflt;+ssty=0;"<-7.1175>s*[1.0001]"Fira
+(fontspec)             Regular/OT:script=math;language=dflt;"<6.5-8.6>s*[1.0001]"Fira
+(fontspec)             Math
+(fontspec)             Regular/OT:script=math;language=dflt;+ssty=0;"<-6.5>s*[1.0001]"Fira
 (fontspec)             Math Regular/OT:script=math;language=dflt;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 8\font =6.351pt\relax \fontdimen 9\font
-(fontspec)             =4.9275pt\relax \fontdimen 10\font =4.9275pt\relax
-(fontspec)             \fontdimen 11\font =7.665pt\relax \fontdimen 12\font
-(fontspec)             =5.256pt\relax \fontdimen 13\font =4.38pt\relax
-(fontspec)             \fontdimen 14\font =4.38pt\relax \fontdimen 15\font
-(fontspec)             =2.9565pt\relax \fontdimen 16\font =3.8325pt\relax
-(fontspec)             \fontdimen 17\font =3.8325pt\relax \fontdimen 18\font
-(fontspec)             =3.942pt\relax \fontdimen 19\font =2.7375pt\relax
-(fontspec)             \fontdimen 22\font =3.066pt\relax \fontdimen 20\font
-(fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
+(fontspec)             \fontdimen 8\font =5.8pt\relax \fontdimen 9\font
+(fontspec)             =4.5pt\relax \fontdimen 10\font =4.5pt\relax \fontdimen
+(fontspec)             11\font =7.0pt\relax \fontdimen 12\font =4.8pt\relax
+(fontspec)             \fontdimen 13\font =4.0pt\relax \fontdimen 14\font
+(fontspec)             =4.0pt\relax \fontdimen 15\font =2.7pt\relax \fontdimen
+(fontspec)             16\font =3.5pt\relax \fontdimen 17\font =3.5pt\relax
+(fontspec)             \fontdimen 18\font =3.6pt\relax \fontdimen 19\font
+(fontspec)             =2.5pt\relax \fontdimen 22\font =2.8pt\relax \fontdimen
+(fontspec)             20\font =0pt\relax \fontdimen 21\font =0pt\relax 
 (fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.0001]"Fira Math
 (fontspec)             Regular/B/OT:script=math;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 8\font =6.351pt\relax \fontdimen 9\font
-(fontspec)             =4.9275pt\relax \fontdimen 10\font =4.9275pt\relax
-(fontspec)             \fontdimen 11\font =7.665pt\relax \fontdimen 12\font
-(fontspec)             =5.256pt\relax \fontdimen 13\font =4.38pt\relax
-(fontspec)             \fontdimen 14\font =4.38pt\relax \fontdimen 15\font
-(fontspec)             =2.9565pt\relax \fontdimen 16\font =3.8325pt\relax
-(fontspec)             \fontdimen 17\font =3.8325pt\relax \fontdimen 18\font
-(fontspec)             =3.942pt\relax \fontdimen 19\font =2.7375pt\relax
-(fontspec)             \fontdimen 22\font =3.066pt\relax \fontdimen 20\font
-(fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
+(fontspec)             \fontdimen 8\font =5.8pt\relax \fontdimen 9\font
+(fontspec)             =4.5pt\relax \fontdimen 10\font =4.5pt\relax \fontdimen
+(fontspec)             11\font =7.0pt\relax \fontdimen 12\font =4.8pt\relax
+(fontspec)             \fontdimen 13\font =4.0pt\relax \fontdimen 14\font
+(fontspec)             =4.0pt\relax \fontdimen 15\font =2.7pt\relax \fontdimen
+(fontspec)             16\font =3.5pt\relax \fontdimen 17\font =3.5pt\relax
+(fontspec)             \fontdimen 18\font =3.6pt\relax \fontdimen 19\font
+(fontspec)             =2.5pt\relax \fontdimen 22\font =2.8pt\relax \fontdimen
+(fontspec)             20\font =0pt\relax \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
 (Font)              `symbols' in the math version `normal' on input line 80.
@@ -1406,7 +1402,7 @@ Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (tnum) not
 (fontspec)                available for font 'Fira Math Regular' with script
 (fontspec)                'Math' and language 'Default'.
 
-Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95001pt
+Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.00002pt
  -> /usr/share/fonts/OTF/FiraMath-Heavy.otf
 
 Package fontspec Info: Fira Math Regular scale = 0.9999.
@@ -1447,9 +1443,9 @@ Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (tnum) not
 (fontspec)                available for font 'Fira Math Regular' with script
 (fontspec)                'Math' and language 'Default'.
 
-Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
+Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.00003pt
  -> /usr/share/fonts/OTF/FiraMath-Heavy.otf
-Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
+Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.00003pt
  -> /usr/share/fonts/OTF/FiraMath-Heavy.otf
 
 Package fontspec Info: Fira Math Regular/B scale = 0.9999.
@@ -1467,38 +1463,38 @@ Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (tnum) not
 
 Package fontspec Info: Font family 'FiraMathRegular(3)' created for font 'Fira
 (fontspec)             Math Regular' with options
-(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9.417-},{Size=7.1175-9.417,Font=Fira
-(fontspec)             Math Regular,Style=MathScript},{Size=-7.1175,Font=Fira
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.6-},{Size=6.5-8.6,Font=Fira
+(fontspec)             Math Regular,Style=MathScript},{Size=-6.5,Font=Fira
 (fontspec)             Math
 (fontspec)             Regular,Style=MathScriptScript}},Scale={1},Numbers={Lining,Monospaced},ScaleAgain=0.9999,FontAdjustment={\fontdimen
-(fontspec)             8\font =0.8322pt\relax \fontdimen 9\font
-(fontspec)             =1.6425pt\relax \fontdimen 10\font =1.6425pt\relax
-(fontspec)             \fontdimen 11\font =1.6425pt\relax \fontdimen 12\font
-(fontspec)             =6.56999pt\relax \fontdimen 13\font =0pt\relax }].
+(fontspec)             8\font =0.76pt\relax \fontdimen 9\font =1.5pt\relax
+(fontspec)             \fontdimen 10\font =1.5pt\relax \fontdimen 11\font
+(fontspec)             =1.5pt\relax \fontdimen 12\font =6.0pt\relax \fontdimen
+(fontspec)             13\font =0pt\relax }].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <9.417->s*[0.9999]"Fira Math
-(fontspec)             Regular/OT:script=math;language=dflt;"<7.1175-9.417>s*[0.9999]"Fira
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <8.6->s*[0.9999]"Fira
 (fontspec)             Math
-(fontspec)             Regular/OT:script=math;language=dflt;+ssty=0;"<-7.1175>s*[0.9999]"Fira
+(fontspec)             Regular/OT:script=math;language=dflt;"<6.5-8.6>s*[0.9999]"Fira
+(fontspec)             Math
+(fontspec)             Regular/OT:script=math;language=dflt;+ssty=0;"<-6.5>s*[0.9999]"Fira
 (fontspec)             Math Regular/OT:script=math;language=dflt;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 8\font =0.8322pt\relax \fontdimen 9\font
-(fontspec)             =1.6425pt\relax \fontdimen 10\font =1.6425pt\relax
-(fontspec)             \fontdimen 11\font =1.6425pt\relax \fontdimen 12\font
-(fontspec)             =6.56999pt\relax \fontdimen 13\font =0pt\relax 
+(fontspec)             \fontdimen 8\font =0.76pt\relax \fontdimen 9\font
+(fontspec)             =1.5pt\relax \fontdimen 10\font =1.5pt\relax \fontdimen
+(fontspec)             11\font =1.5pt\relax \fontdimen 12\font =6.0pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax 
 (fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[0.9999]"Fira Math
 (fontspec)             Regular/B/OT:script=math;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 8\font =0.8322pt\relax \fontdimen 9\font
-(fontspec)             =1.6425pt\relax \fontdimen 10\font =1.6425pt\relax
-(fontspec)             \fontdimen 11\font =1.6425pt\relax \fontdimen 12\font
-(fontspec)             =6.56999pt\relax \fontdimen 13\font =0pt\relax 
+(fontspec)             \fontdimen 8\font =0.76pt\relax \fontdimen 9\font
+(fontspec)             =1.5pt\relax \fontdimen 10\font =1.5pt\relax \fontdimen
+(fontspec)             11\font =1.5pt\relax \fontdimen 12\font =6.0pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 80.
@@ -1509,11 +1505,11 @@ LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> TU/FiraMathRegular(3)/b/n on input line 80.
 \c@mv@pnum=\count352
-Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95001pt
+Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.00002pt
  -> /usr/share/fonts/OTF/FiraMath-Heavy.otf
-Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
+Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.00003pt
  -> /usr/share/fonts/OTF/FiraMath-Heavy.otf
-Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
+Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.00003pt
  -> /usr/share/fonts/OTF/FiraMath-Heavy.otf
 
 Package fontspec Warning: OpenType feature 'Numbers=Proportional' (pnum) not
@@ -1536,14 +1532,14 @@ Package fontspec Info: Font family 'FiraMathRegular(4)' created for font 'Fira
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(4)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 82.
-Requested font "Fira Math Regular/OT:script=math;language=dflt;+pnum;" at 10.95pt
+(Font)              scaled to size 10.0pt on input line 82.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+pnum;" at 10.0pt
  -> /usr/share/fonts/OTF/FiraMath-Regular.otf
-Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95001pt
+Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.00002pt
  -> /usr/share/fonts/OTF/FiraMath-Heavy.otf
-Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
+Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.00003pt
  -> /usr/share/fonts/OTF/FiraMath-Heavy.otf
-Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
+Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.00003pt
  -> /usr/share/fonts/OTF/FiraMath-Heavy.otf
 
 Package fontspec Warning: OpenType feature 'Numbers=Proportional' (pnum) not
@@ -1553,19 +1549,18 @@ Package fontspec Warning: OpenType feature 'Numbers=Proportional' (pnum) not
 
 Package fontspec Info: Font family 'FiraMathRegular(5)' created for font 'Fira
 (fontspec)             Math Regular' with options
-(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9.417-},{Size=7.1175-9.417,Font=Fira
-(fontspec)             Math Regular,Style=MathScript},{Size=-7.1175,Font=Fira
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.6-},{Size=6.5-8.6,Font=Fira
+(fontspec)             Math Regular,Style=MathScript},{Size=-6.5,Font=Fira
 (fontspec)             Math
 (fontspec)             Regular,Style=MathScriptScript}},Numbers={Proportional},Scale={1}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <9.417->s*[1]"Fira
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <8.6->s*[1]"Fira Math
+(fontspec)             Regular/OT:script=math;language=dflt;+pnum;"<6.5-8.6>s*[1]"Fira
 (fontspec)             Math
-(fontspec)             Regular/OT:script=math;language=dflt;+pnum;"<7.1175-9.417>s*[1]"Fira
-(fontspec)             Math
-(fontspec)             Regular/OT:script=math;language=dflt;+pnum;+ssty=0;"<-7.1175>s*[1]"Fira
+(fontspec)             Regular/OT:script=math;language=dflt;+pnum;+ssty=0;"<-6.5>s*[1]"Fira
 (fontspec)             Math
 (fontspec)             Regular/OT:script=math;language=dflt;+pnum;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
@@ -1574,7 +1569,7 @@ Package fontspec Info: Font family 'FiraMathRegular(5)' created for font 'Fira
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(5)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 82.
+(Font)              scaled to size 10.0pt on input line 82.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
 (Font)              `operators' in the math version `pnum' on input line 82.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `pnum'
@@ -1582,7 +1577,7 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `pnum'
 
 Package fontspec Info: Fira Math Regular scale = 1.0001.
 
-Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95001pt
+Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.00002pt
  -> /usr/share/fonts/OTF/FiraMath-Heavy.otf
 
 Package fontspec Info: Fira Math Regular scale = 1.0001.
@@ -1593,9 +1588,9 @@ Package fontspec Info: Fira Math Regular scale = 1.0001.
 
 Package fontspec Info: Fira Math Regular scale = 1.0001.
 
-Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
+Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.00003pt
  -> /usr/share/fonts/OTF/FiraMath-Heavy.otf
-Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
+Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.00003pt
  -> /usr/share/fonts/OTF/FiraMath-Heavy.otf
 
 Package fontspec Info: Fira Math Regular/B scale = 1.0001.
@@ -1608,57 +1603,54 @@ Package fontspec Warning: OpenType feature 'Numbers=Proportional' (pnum) not
 
 Package fontspec Info: Font family 'FiraMathRegular(6)' created for font 'Fira
 (fontspec)             Math Regular' with options
-(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9.417-},{Size=7.1175-9.417,Font=Fira
-(fontspec)             Math Regular,Style=MathScript},{Size=-7.1175,Font=Fira
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.6-},{Size=6.5-8.6,Font=Fira
+(fontspec)             Math Regular,Style=MathScript},{Size=-6.5,Font=Fira
 (fontspec)             Math
 (fontspec)             Regular,Style=MathScriptScript}},Numbers={Proportional},Scale={1},ScaleAgain=1.0001,FontAdjustment={\fontdimen
-(fontspec)             8\font =6.351pt\relax \fontdimen 9\font =4.9275pt\relax
-(fontspec)             \fontdimen 10\font =4.9275pt\relax \fontdimen 11\font
-(fontspec)             =7.665pt\relax \fontdimen 12\font =5.256pt\relax
-(fontspec)             \fontdimen 13\font =4.38pt\relax \fontdimen 14\font
-(fontspec)             =4.38pt\relax \fontdimen 15\font =2.9565pt\relax
-(fontspec)             \fontdimen 16\font =3.8325pt\relax \fontdimen 17\font
-(fontspec)             =3.8325pt\relax \fontdimen 18\font =3.942pt\relax
-(fontspec)             \fontdimen 19\font =2.7375pt\relax \fontdimen 22\font
-(fontspec)             =3.066pt\relax \fontdimen 20\font =0pt\relax \fontdimen
-(fontspec)             21\font =0pt\relax }].
+(fontspec)             8\font =5.8pt\relax \fontdimen 9\font =4.5pt\relax
+(fontspec)             \fontdimen 10\font =4.5pt\relax \fontdimen 11\font
+(fontspec)             =7.0pt\relax \fontdimen 12\font =4.8pt\relax \fontdimen
+(fontspec)             13\font =4.0pt\relax \fontdimen 14\font =4.0pt\relax
+(fontspec)             \fontdimen 15\font =2.7pt\relax \fontdimen 16\font
+(fontspec)             =3.5pt\relax \fontdimen 17\font =3.5pt\relax \fontdimen
+(fontspec)             18\font =3.6pt\relax \fontdimen 19\font =2.5pt\relax
+(fontspec)             \fontdimen 22\font =2.8pt\relax \fontdimen 20\font
+(fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax }].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <9.417->s*[1.0001]"Fira Math
-(fontspec)             Regular/OT:script=math;language=dflt;+pnum;"<7.1175-9.417>s*[1.0001]"Fira
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <8.6->s*[1.0001]"Fira
 (fontspec)             Math
-(fontspec)             Regular/OT:script=math;language=dflt;+pnum;+ssty=0;"<-7.1175>s*[1.0001]"Fira
+(fontspec)             Regular/OT:script=math;language=dflt;+pnum;"<6.5-8.6>s*[1.0001]"Fira
+(fontspec)             Math
+(fontspec)             Regular/OT:script=math;language=dflt;+pnum;+ssty=0;"<-6.5>s*[1.0001]"Fira
 (fontspec)             Math
 (fontspec)             Regular/OT:script=math;language=dflt;+pnum;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 8\font =6.351pt\relax \fontdimen 9\font
-(fontspec)             =4.9275pt\relax \fontdimen 10\font =4.9275pt\relax
-(fontspec)             \fontdimen 11\font =7.665pt\relax \fontdimen 12\font
-(fontspec)             =5.256pt\relax \fontdimen 13\font =4.38pt\relax
-(fontspec)             \fontdimen 14\font =4.38pt\relax \fontdimen 15\font
-(fontspec)             =2.9565pt\relax \fontdimen 16\font =3.8325pt\relax
-(fontspec)             \fontdimen 17\font =3.8325pt\relax \fontdimen 18\font
-(fontspec)             =3.942pt\relax \fontdimen 19\font =2.7375pt\relax
-(fontspec)             \fontdimen 22\font =3.066pt\relax \fontdimen 20\font
-(fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
+(fontspec)             \fontdimen 8\font =5.8pt\relax \fontdimen 9\font
+(fontspec)             =4.5pt\relax \fontdimen 10\font =4.5pt\relax \fontdimen
+(fontspec)             11\font =7.0pt\relax \fontdimen 12\font =4.8pt\relax
+(fontspec)             \fontdimen 13\font =4.0pt\relax \fontdimen 14\font
+(fontspec)             =4.0pt\relax \fontdimen 15\font =2.7pt\relax \fontdimen
+(fontspec)             16\font =3.5pt\relax \fontdimen 17\font =3.5pt\relax
+(fontspec)             \fontdimen 18\font =3.6pt\relax \fontdimen 19\font
+(fontspec)             =2.5pt\relax \fontdimen 22\font =2.8pt\relax \fontdimen
+(fontspec)             20\font =0pt\relax \fontdimen 21\font =0pt\relax 
 (fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.0001]"Fira Math
 (fontspec)             Regular/B/OT:script=math;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 8\font =6.351pt\relax \fontdimen 9\font
-(fontspec)             =4.9275pt\relax \fontdimen 10\font =4.9275pt\relax
-(fontspec)             \fontdimen 11\font =7.665pt\relax \fontdimen 12\font
-(fontspec)             =5.256pt\relax \fontdimen 13\font =4.38pt\relax
-(fontspec)             \fontdimen 14\font =4.38pt\relax \fontdimen 15\font
-(fontspec)             =2.9565pt\relax \fontdimen 16\font =3.8325pt\relax
-(fontspec)             \fontdimen 17\font =3.8325pt\relax \fontdimen 18\font
-(fontspec)             =3.942pt\relax \fontdimen 19\font =2.7375pt\relax
-(fontspec)             \fontdimen 22\font =3.066pt\relax \fontdimen 20\font
-(fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
+(fontspec)             \fontdimen 8\font =5.8pt\relax \fontdimen 9\font
+(fontspec)             =4.5pt\relax \fontdimen 10\font =4.5pt\relax \fontdimen
+(fontspec)             11\font =7.0pt\relax \fontdimen 12\font =4.8pt\relax
+(fontspec)             \fontdimen 13\font =4.0pt\relax \fontdimen 14\font
+(fontspec)             =4.0pt\relax \fontdimen 15\font =2.7pt\relax \fontdimen
+(fontspec)             16\font =3.5pt\relax \fontdimen 17\font =3.5pt\relax
+(fontspec)             \fontdimen 18\font =3.6pt\relax \fontdimen 19\font
+(fontspec)             =2.5pt\relax \fontdimen 22\font =2.8pt\relax \fontdimen
+(fontspec)             20\font =0pt\relax \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
 (Font)              `symbols' in the math version `pnum' on input line 82.
@@ -1667,7 +1659,7 @@ LaTeX Font Info:    Overwriting symbol font `symbols' in version `pnum'
 
 Package fontspec Info: Fira Math Regular scale = 0.9999.
 
-Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95001pt
+Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.00002pt
  -> /usr/share/fonts/OTF/FiraMath-Heavy.otf
 
 Package fontspec Info: Fira Math Regular scale = 0.9999.
@@ -1678,9 +1670,9 @@ Package fontspec Info: Fira Math Regular scale = 0.9999.
 
 Package fontspec Info: Fira Math Regular scale = 0.9999.
 
-Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
+Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.00003pt
  -> /usr/share/fonts/OTF/FiraMath-Heavy.otf
-Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
+Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.00003pt
  -> /usr/share/fonts/OTF/FiraMath-Heavy.otf
 
 Package fontspec Info: Fira Math Regular/B scale = 0.9999.
@@ -1693,39 +1685,39 @@ Package fontspec Warning: OpenType feature 'Numbers=Proportional' (pnum) not
 
 Package fontspec Info: Font family 'FiraMathRegular(7)' created for font 'Fira
 (fontspec)             Math Regular' with options
-(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9.417-},{Size=7.1175-9.417,Font=Fira
-(fontspec)             Math Regular,Style=MathScript},{Size=-7.1175,Font=Fira
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.6-},{Size=6.5-8.6,Font=Fira
+(fontspec)             Math Regular,Style=MathScript},{Size=-6.5,Font=Fira
 (fontspec)             Math
 (fontspec)             Regular,Style=MathScriptScript}},Numbers={Proportional},Scale={1},ScaleAgain=0.9999,FontAdjustment={\fontdimen
-(fontspec)             8\font =0.8322pt\relax \fontdimen 9\font
-(fontspec)             =1.6425pt\relax \fontdimen 10\font =1.6425pt\relax
-(fontspec)             \fontdimen 11\font =1.6425pt\relax \fontdimen 12\font
-(fontspec)             =6.56999pt\relax \fontdimen 13\font =0pt\relax }].
+(fontspec)             8\font =0.76pt\relax \fontdimen 9\font =1.5pt\relax
+(fontspec)             \fontdimen 10\font =1.5pt\relax \fontdimen 11\font
+(fontspec)             =1.5pt\relax \fontdimen 12\font =6.0pt\relax \fontdimen
+(fontspec)             13\font =0pt\relax }].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <9.417->s*[0.9999]"Fira Math
-(fontspec)             Regular/OT:script=math;language=dflt;+pnum;"<7.1175-9.417>s*[0.9999]"Fira
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <8.6->s*[0.9999]"Fira
 (fontspec)             Math
-(fontspec)             Regular/OT:script=math;language=dflt;+pnum;+ssty=0;"<-7.1175>s*[0.9999]"Fira
+(fontspec)             Regular/OT:script=math;language=dflt;+pnum;"<6.5-8.6>s*[0.9999]"Fira
+(fontspec)             Math
+(fontspec)             Regular/OT:script=math;language=dflt;+pnum;+ssty=0;"<-6.5>s*[0.9999]"Fira
 (fontspec)             Math
 (fontspec)             Regular/OT:script=math;language=dflt;+pnum;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 8\font =0.8322pt\relax \fontdimen 9\font
-(fontspec)             =1.6425pt\relax \fontdimen 10\font =1.6425pt\relax
-(fontspec)             \fontdimen 11\font =1.6425pt\relax \fontdimen 12\font
-(fontspec)             =6.56999pt\relax \fontdimen 13\font =0pt\relax 
+(fontspec)             \fontdimen 8\font =0.76pt\relax \fontdimen 9\font
+(fontspec)             =1.5pt\relax \fontdimen 10\font =1.5pt\relax \fontdimen
+(fontspec)             11\font =1.5pt\relax \fontdimen 12\font =6.0pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax 
 (fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[0.9999]"Fira Math
 (fontspec)             Regular/B/OT:script=math;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 8\font =0.8322pt\relax \fontdimen 9\font
-(fontspec)             =1.6425pt\relax \fontdimen 10\font =1.6425pt\relax
-(fontspec)             \fontdimen 11\font =1.6425pt\relax \fontdimen 12\font
-(fontspec)             =6.56999pt\relax \fontdimen 13\font =0pt\relax 
+(fontspec)             \fontdimen 8\font =0.76pt\relax \fontdimen 9\font
+(fontspec)             =1.5pt\relax \fontdimen 10\font =1.5pt\relax \fontdimen
+(fontspec)             11\font =1.5pt\relax \fontdimen 12\font =6.0pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `pnum' on input line 82.
@@ -1793,44 +1785,44 @@ File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
 \focus@pbar@leftoffset=\skip66
 \focus@pbar@rightoffset=\skip67
 ))
-Requested font "Latin Modern Math/OT" at 10.94997pt
+Requested font "Latin Modern Math/OT" at 9.99997pt
  -> /usr/share/fonts/OTF/latinmodern-math.otf
-Requested font "Latin Modern Math/OT" at 10.95003pt
+Requested font "Latin Modern Math/OT" at 10.00003pt
  -> /usr/share/fonts/OTF/latinmodern-math.otf
-Requested font "Latin Modern Math/OT:script=math;language=dflt;" at 10.95001pt
+Requested font "Latin Modern Math/OT:script=math;language=dflt;" at 10.00002pt
  -> /usr/share/fonts/OTF/latinmodern-math.otf
-Requested font "Latin Modern Math/B/OT:script=math;language=dflt;" at 10.95001pt
+Requested font "Latin Modern Math/B/OT:script=math;language=dflt;" at 10.00002pt
  -> /usr/share/fonts/OTF/latinmodern-math.otf
 
 Package fontspec Info: Could not resolve font "Latin Modern Math/B" (it
 (fontspec)             probably doesn't exist).
 
-Requested font "Latin Modern Math/OT:script=math;language=dflt;" at 10.95003pt
+Requested font "Latin Modern Math/OT:script=math;language=dflt;" at 10.00003pt
  -> /usr/share/fonts/OTF/latinmodern-math.otf
-Requested font "Latin Modern Math/OT:script=math;language=dflt;" at 10.95003pt
+Requested font "Latin Modern Math/OT:script=math;language=dflt;" at 10.00003pt
  -> /usr/share/fonts/OTF/latinmodern-math.otf
-Requested font "Latin Modern Math/OT:script=math;language=dflt;" at 10.95003pt
+Requested font "Latin Modern Math/OT:script=math;language=dflt;" at 10.00003pt
  -> /usr/share/fonts/OTF/latinmodern-math.otf
-Requested font "Latin Modern Math/OT:script=math;language=dflt;" at 10.95003pt
+Requested font "Latin Modern Math/OT:script=math;language=dflt;" at 10.00003pt
  -> /usr/share/fonts/OTF/latinmodern-math.otf
 
 Package fontspec Info: Font family 'LatinModernMath(0)' created for font
 (fontspec)             'Latin Modern Math' with options
-(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9.417-},{Size=7.1175-9.417,Font=Latin
-(fontspec)             Modern Math,Style=MathScript},{Size=-7.1175,Font=Latin
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.6-},{Size=6.5-8.6,Font=Latin
+(fontspec)             Modern Math,Style=MathScript},{Size=-6.5,Font=Latin
 (fontspec)             Modern Math,Style=MathScriptScript}}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <9.417->"Latin Modern
-(fontspec)             Math/OT:script=math;language=dflt;"<7.1175-9.417>"Latin
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <8.6->"Latin Modern
+(fontspec)             Math/OT:script=math;language=dflt;"<6.5-8.6>"Latin
 (fontspec)             Modern
-(fontspec)             Math/OT:script=math;language=dflt;+ssty=0;"<-7.1175>"Latin
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=0;"<-6.5>"Latin
 (fontspec)             Modern Math/OT:script=math;language=dflt;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-Requested font "Latin Modern Math/OT:script=math;language=dflt;" at 10.95pt
+Requested font "Latin Modern Math/OT:script=math;language=dflt;" at 10.0pt
  -> /usr/share/fonts/OTF/latinmodern-math.otf
 \sym__um_fam1=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `normal'
@@ -2115,12 +2107,12 @@ LaTeX Font Info:    ... okay on input line 53.
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
-* \topskip=11.0pt
+* \topskip=10.0pt
 * \footskip=14.22636pt
-* \marginparwidth=4.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=3.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -2167,17 +2159,38 @@ Package biblatex Info: Data encoding 'utf8' specified.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'trends_at_iiserk.bbl' found.
- (./trends_at_iiserk.bbl)
+ (./trends_at_iiserk.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'andrei_1980':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Sarachik1964':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Wiegmann_1981':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'wilson1975':
+(biblatex)                - Invalid format of field 'month'.
+
+)
 Package biblatex Info: Reference section=0 on input line 53.
 Package biblatex Info: Reference segment=0 on input line 53.
  (./trends_at_iiserk.nav)
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 53.
-Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 6.0pt
+(Font)              scaled to size 5.0pt on input line 53.
+Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 5.0pt
  -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 53.
-Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 8.0pt
+(Font)              scaled to size 7.0pt on input line 53.
+Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 7.0pt
  -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
 (Font)              scaled to size 20.74pt on input line 66.
@@ -2229,76 +2242,74 @@ Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;
 File: ./figures/epqm_logo_mod.jpeg Graphic file (type bmp)
 <./figures/epqm_logo_mod.jpeg>
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(1)/m/n' will be
-(Font)              scaled to size 7.884pt on input line 126.
-Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=0;" at 7.884pt
+(Font)              scaled to size 7.2pt on input line 126.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=0;" at 7.2pt
  -> /usr/share/fonts/OTF/FiraMath-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(1)/m/n' will be
-(Font)              scaled to size 6.351pt on input line 126.
-Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 6.351pt
+(Font)              scaled to size 5.8pt on input line 126.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 5.8pt
  -> /usr/share/fonts/OTF/FiraMath-Regular.otf
-Requested font "cmmi10" at 10.95pt
- -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
-Requested font "cmmi7" at 7.884pt
+Requested font "cmmi7" at 7.2pt
  -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi7.tfm
-Requested font "cmmi6" at 6.351pt
- -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+Requested font "cmmi5" at 5.8pt
+ -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 10.95116pt on input line 126.
-Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 10.95116pt
- -> /usr/share/fonts/OTF/FiraMath-Regular.otf
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 7.88484pt on input line 126.
-Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=0;" at 7.88484pt
+(Font)              scaled to size 10.00107pt on input line 126.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 10.00107pt
  -> /usr/share/fonts/OTF/FiraMath-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 6.35167pt on input line 126.
-Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 6.35167pt
+(Font)              scaled to size 7.20076pt on input line 126.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=0;" at 7.20076pt
+ -> /usr/share/fonts/OTF/FiraMath-Regular.otf
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 5.80061pt on input line 126.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 5.80061pt
  -> /usr/share/fonts/OTF/FiraMath-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 126.
-Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 10.94882pt
+(Font)              scaled to size 9.99893pt on input line 126.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 9.99893pt
  -> /usr/share/fonts/OTF/FiraMath-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 7.88315pt on input line 126.
-Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=0;" at 7.88315pt
+(Font)              scaled to size 7.19922pt on input line 126.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=0;" at 7.19922pt
  -> /usr/share/fonts/OTF/FiraMath-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 6.35031pt on input line 126.
-Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 6.35031pt
+(Font)              scaled to size 5.79938pt on input line 126.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 5.79938pt
  -> /usr/share/fonts/OTF/FiraMath-Regular.otf
 LaTeX Font Info:    Trying to load font information for U+msa on input line 126.
  (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-Requested font "msam10" at 10.95pt
+Requested font "msam10" at 10.0pt
  -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-Requested font "msam7" at 7.884pt
+Requested font "msam7" at 7.2pt
  -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-Requested font "msam7" at 6.351pt
- -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+Requested font "msam5" at 5.8pt
+ -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 LaTeX Font Info:    Trying to load font information for U+msb on input line 126.
  (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Requested font "msbm10" at 10.95pt
+Requested font "msbm10" at 10.0pt
  -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-Requested font "msbm7" at 7.884pt
+Requested font "msbm7" at 7.2pt
  -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-Requested font "msbm7" at 6.351pt
- -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-Requested font "Latin Modern Math/OT:script=math;language=dflt;+ssty=0;" at 7.884pt
+Requested font "msbm5" at 5.8pt
+ -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+Requested font "Latin Modern Math/OT:script=math;language=dflt;+ssty=0;" at 7.2pt
  -> /usr/share/fonts/OTF/latinmodern-math.otf
-Requested font "Latin Modern Math/OT:script=math;language=dflt;+ssty=1;" at 6.351pt
+Requested font "Latin Modern Math/OT:script=math;language=dflt;+ssty=1;" at 5.8pt
  -> /usr/share/fonts/OTF/latinmodern-math.otf
 File: ./figures/slal.jpg Graphic file (type bmp)
 <./figures/slal.jpg>
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 126.
-Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 9.0pt
+(Font)              scaled to size 8.0pt on input line 126.
+Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 8.0pt
  -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
-(Font)              scaled to size 9.0pt on input line 126.
-Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 9.0pt
+(Font)              scaled to size 8.0pt on input line 126.
+Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 8.0pt
  -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.otf
 File: ./figures/amukherjee.jpg Graphic file (type bmp)
 <./figures/amukherjee.jpg>
@@ -2307,8 +2318,8 @@ File: ./figures/spatra.jpg Graphic file (type bmp)
 File: ./figures/dps_logo.jpeg Graphic file (type bmp)
 <./figures/dps_logo.jpeg>
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
-(Font)              scaled to size 10.95pt on input line 126.
-Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 10.95pt
+(Font)              scaled to size 10.0pt on input line 126.
+Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 10.0pt
  -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.otf
 File: ./figures/IITKGP.png Graphic file (type bmp)
 <./figures/IITKGP.png>
@@ -2333,26 +2344,90 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--126
 ] [3
 
 ]
-LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
-(Font)              scaled to size 6.0pt on input line 144.
-Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 6.0pt
- -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.otf
 File: ./figures/resistance_minimum.pdf Graphic file (type pdf)
 <use ./figures/resistance_minimum.pdf>
-File: ./figures/metal_impurity.pdf Graphic file (type pdf)
-<use ./figures/metal_impurity.pdf>
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
+(Font)              scaled to size 7.2pt on input line 150.
+Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 7.2pt
+ -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf
+Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 7.2pt
+ -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.otf
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
+(Font)              scaled to size 5.8pt on input line 150.
+Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 5.8pt
+ -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf
+Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 5.8pt
+ -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.otf
+File: ./figures/KondoModel.pdf Graphic file (type pdf)
+<use ./figures/KondoModel.pdf>
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
+(Font)              scaled to size 5.0pt on input line 150.
+Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 5.0pt
+ -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.otf
  [4
 
 ]
-File: ./figures/KondoModel.pdf Graphic file (type pdf)
-<use ./figures/KondoModel.pdf>
+File: ./figures/secondorder.pdf Graphic file (type pdf)
+<use ./figures/secondorder.pdf>
+File: ./figures/kondo.jpg Graphic file (type bmp)
+<./figures/kondo.jpg>
  [5
 
-] [6
+]
+File: ./figures/wilson.jpg Graphic file (type bmp)
+<./figures/wilson.jpg>
+File: ./figures/AndreiN.jpg Graphic file (type bmp)
+<./figures/AndreiN.jpg>
+File: ./figures/affleck.jpg Graphic file (type bmp)
+<./figures/affleck.jpg>
+File: ./figures/crossover.pdf Graphic file (type pdf)
+<use ./figures/crossover.pdf>
+ [6
 
-] [7
+]
+File: ./figures/kondocloud.pdf Graphic file (type pdf)
+<use ./figures/kondocloud.pdf>
+File: ./figures/distortsinglet.pdf Graphic file (type pdf)
+<use ./figures/distortsinglet.pdf>
+File: ./figures/kondobreakdown.pdf Graphic file (type pdf)
+<use ./figures/kondobreakdown.pdf>
+ [7
 
-] [8
+]
+File: ./figures/kondocloud_prb.pdf Graphic file (type pdf)
+<use ./figures/kondocloud_prb.pdf>
+ [8
+
+]
+File: ./figures/kondo_fp_1D.pdf Graphic file (type pdf)
+<use ./figures/kondo_fp_1D.pdf>
+ [9
+
+]
+File: ./figures/KondoCloud.pdf Graphic file (type pdf)
+<use ./figures/KondoCloud.pdf>
+ [10
+
+]
+File: ./figures/entanglement.pdf Graphic file (type pdf)
+<use ./figures/entanglement.pdf>
+ [11
+
+]
+File: ./figures/mutinfo.pdf Graphic file (type pdf)
+<use ./figures/mutinfo.pdf>
+ [12
+
+]
+File: ./figures/MIkondo.pdf Graphic file (type pdf)
+<use ./figures/MIkondo.pdf>
+File: ./figures/corrKondo.pdf Graphic file (type pdf)
+<use ./figures/corrKondo.pdf>
+ [13
+
+] [14
+
+] [15
 
 ]
 \tf@nav=\write6
@@ -2370,12 +2445,12 @@ Package logreq Info: Writing requests to 'trends_at_iiserk.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39511 strings out of 478716
- 833634 string characters out of 5847712
+ 39724 strings out of 478716
+ 839256 string characters out of 5847712
  1853482 words of memory out of 5000000
- 58800 multiletter control sequences out of 15000+600000
- 519799 words of font info for 137 fonts, out of 8000000 for 9000
+ 58993 multiletter control sequences out of 15000+600000
+ 519470 words of font info for 140 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 101i,11n,150p,1880b,5369s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,11n,150p,1880b,5437s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on trends_at_iiserk.xdv (8 pages, 41308 bytes).
+Output written on trends_at_iiserk.xdv (15 pages, 95612 bytes).

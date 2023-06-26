@@ -17,6 +17,65 @@
 \endgroup
 
 \datalist[entry]{nyt/global//global/global}
+  \entry{affleck1995conformal}{article}{}
+    \name{author}{1}{}{%
+      {{hash=AI}{%
+         family={Affleck},
+         familyi={A\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AI1}
+    \strng{fullhash}{AI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1995}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{1869}
+    \field{title}{Conformal field theory approach to the Kondo effect}
+    \field{volume}{26}
+    \field{journaltitle}{Acta Phys.Polon.B}
+    \field{year}{1995}
+  \endentry
+
+  \entry{andrei_1980}{article}{}
+    \name{author}{1}{}{%
+      {{hash=AN}{%
+         family={Andrei},
+         familyi={A\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{AN1}
+    \strng{fullhash}{AN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1980}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.45.379
+    \endverb
+    \field{issue}{5}
+    \field{pages}{379\bibrangedash 382}
+    \field{title}{Diagonalization of the Kondo Hamiltonian}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevLett.45.379
+    \endverb
+    \field{volume}{45}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{1980}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{deHaas1939}{article}{}
     \name{author}{3}{}{%
       {{hash=dW}{%
@@ -46,9 +105,6 @@
     \field{labeldatesource}{}
     \field{sortinit}{D}
     \field{sortinithash}{D}
-    \field{abstract}{%
-    Summary The resistance curve of the gold wires measured (not very pure) has a minimum. The copper resistances measured show, that it is impossible to apply Matthiesen's rule for these resistances. The calculated “ideal” resistance of lead calculated (by means of Matthiesen's rule) follows Bloch's formula at low temperature. The transition point of lead is 7.20°K.%
-    }
     \verb{doi}
     \verb https://doi.org/10.1016/S0031-8914(34)80310-2
     \endverb
@@ -62,6 +118,166 @@
     \field{volume}{1}
     \field{journaltitle}{Physica}
     \field{year}{1934}
+  \endentry
+
+  \entry{Heeger1969}{book}{}
+    \name{author}{1}{}{%
+      {{hash=HAJ}{%
+         family={Heeger},
+         familyi={H\bibinitperiod},
+         given={A.\bibnamedelima J.},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Academic Press, New York}%
+    }
+    \strng{namehash}{HAJ1}
+    \strng{fullhash}{HAJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1969}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Solid State Physics}
+    \field{year}{1969}
+  \endentry
+
+  \entry{kondo1964resistance}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KJ}{%
+         family={Kondo},
+         familyi={K\bibinitperiod},
+         given={Jun},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{KJ1}
+    \strng{fullhash}{KJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1964}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{number}{1}
+    \field{pages}{37\bibrangedash 49}
+    \field{title}{Resistance minimum in dilute magnetic alloys}
+    \field{volume}{32}
+    \field{journaltitle}{Progress of theoretical physics}
+    \field{year}{1964}
+  \endentry
+
+  \entry{Sarachik1964}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SMP}{%
+         family={Sarachik},
+         familyi={S\bibinitperiod},
+         given={M.\bibnamedelima P.},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Corenzwit},
+         familyi={C\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=LLD}{%
+         family={Longinotti},
+         familyi={L\bibinitperiod},
+         given={L.\bibnamedelima D.},
+         giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{SMP+1}
+    \strng{fullhash}{SMPCELLD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1964}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1103/PhysRev.135.A1041
+    \endverb
+    \field{issue}{4A}
+    \field{pages}{A1041\bibrangedash A1045}
+    \field{title}{Resistivity of Mo-Nb and Mo-Re Alloys Containing 1\% Fe}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRev.135.A1041
+    \endverb
+    \field{volume}{135}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{1964}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Wiegmann_1981}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WPB}{%
+         family={Wiegmann},
+         familyi={W\bibinitperiod},
+         given={P\bibnamedelima B},
+         giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WPB1}
+    \strng{fullhash}{WPB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1981}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \verb{doi}
+    \verb 10.1088/0022-3719/14/10/014
+    \endverb
+    \field{number}{10}
+    \field{pages}{1463\bibrangedash 1478}
+    \field{title}{Exact solution of the s-d exchange model (Kondo problem)}
+    \verb{url}
+    \verb https://doi.org/10.1088/0022-3719/14/10/014
+    \endverb
+    \field{volume}{14}
+    \field{journaltitle}{Journal of Physics C: Solid State Physics}
+    \field{year}{1981}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{wilson1975}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WKG}{%
+         family={Wilson},
+         familyi={W\bibinitperiod},
+         given={Kenneth\bibnamedelima G.},
+         giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{WKG1}
+    \strng{fullhash}{WKG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1975}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{issue}{4}
+    \field{pages}{773\bibrangedash 840}
+    \field{title}{The renormalization group: Critical phenomena and the Kondo problem}
+    \field{volume}{47}
+    \field{journaltitle}{Rev. Mod. Phys.}
+    \field{year}{1975}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 \enddatalist
 \endinput
