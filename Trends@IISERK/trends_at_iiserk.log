@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.5.25)  26 JUN 2023 20:51
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.5.25)  27 JUN 2023 13:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2167,6 +2167,26 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'andrei_destri_1984':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'emery_kivelson':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'anirban_kondo':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Patra_2023':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'Sarachik1964':
 (biblatex)                - Invalid format of field 'month'.
 
@@ -2425,9 +2445,173 @@ File: ./figures/corrKondo.pdf Graphic file (type pdf)
 <use ./figures/corrKondo.pdf>
  [13
 
-] [14
+]
+File: ./figures/MCKJPCM.pdf Graphic file (type pdf)
+<use ./figures/MCKJPCM.pdf>
+ [14
 
-] [15
+]
+Underfull \hbox (badness 10000) in paragraph at lines 327--327
+[]\TU/FiraSans(0)/m/n/10 Single impurity interacting with
+ []
+
+File: ./figures/MCKM.pdf Graphic file (type pdf)
+<use ./figures/MCKM.pdf>
+[15
+
+]
+File: ./figures/MCKM_zeroB.pdf Graphic file (type pdf)
+<use ./figures/MCKM_zeroB.pdf>
+ [16
+
+]
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 5.03996pt
+ -> /usr/share/fonts/OTF/FiraMath-Regular.otf
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 3.59999pt
+ -> /usr/share/fonts/OTF/FiraMath-Regular.otf
+Requested font "cmmi5" at 5.03996pt
+ -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
+Requested font "cmmi5" at 3.59999pt
+ -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 5.0405pt
+ -> /usr/share/fonts/OTF/FiraMath-Regular.otf
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 3.60037pt
+ -> /usr/share/fonts/OTF/FiraMath-Regular.otf
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 5.03941pt
+ -> /usr/share/fonts/OTF/FiraMath-Regular.otf
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 3.5996pt
+ -> /usr/share/fonts/OTF/FiraMath-Regular.otf
+Requested font "msam5" at 5.03996pt
+ -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+Requested font "msam5" at 3.59999pt
+ -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+Requested font "msbm5" at 5.03996pt
+ -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+Requested font "msbm5" at 3.59999pt
+ -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+Requested font "Latin Modern Math/OT:script=math;language=dflt;+ssty=1;" at 5.03996pt
+ -> /usr/share/fonts/OTF/latinmodern-math.otf
+Requested font "Latin Modern Math/OT:script=math;language=dflt;+ssty=1;" at 3.59999pt
+ -> /usr/share/fonts/OTF/latinmodern-math.otf
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 4.05998pt
+ -> /usr/share/fonts/OTF/FiraMath-Regular.otf
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 2.9pt
+ -> /usr/share/fonts/OTF/FiraMath-Regular.otf
+Requested font "cmmi5" at 4.05998pt
+ -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
+Requested font "cmmi5" at 2.9pt
+ -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 4.06041pt
+ -> /usr/share/fonts/OTF/FiraMath-Regular.otf
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 2.9003pt
+ -> /usr/share/fonts/OTF/FiraMath-Regular.otf
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 4.05954pt
+ -> /usr/share/fonts/OTF/FiraMath-Regular.otf
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 2.89967pt
+ -> /usr/share/fonts/OTF/FiraMath-Regular.otf
+Requested font "msam5" at 4.05998pt
+ -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+Requested font "msam5" at 2.9pt
+ -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+Requested font "msbm5" at 4.05998pt
+ -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+Requested font "msbm5" at 2.9pt
+ -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+Requested font "Latin Modern Math/OT:script=math;language=dflt;+ssty=1;" at 4.05998pt
+ -> /usr/share/fonts/OTF/latinmodern-math.otf
+Requested font "Latin Modern Math/OT:script=math;language=dflt;+ssty=1;" at 2.9pt
+ -> /usr/share/fonts/OTF/latinmodern-math.otf
+File: ./figures/stargraph.pdf Graphic file (type pdf)
+<use ./figures/stargraph.pdf>
+ [17
+
+]
+File: ./figures/MCK_imp_chi.pdf Graphic file (type pdf)
+<use ./figures/MCK_imp_chi.pdf>
+ [18
+
+]
+File: ./figures/EE_excitations.png Graphic file (type bmp)
+<./figures/EE_excitations.png>
+ [19
+
+]
+File: ./figures/esiam_arxiv.pdf Graphic file (type pdf)
+<use ./figures/esiam_arxiv.pdf>
+ [20
+
+]
+File: ./figures/zeromode_bare.pdf Graphic file (type pdf)
+<use ./figures/zeromode_bare.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--413
+
+ []
+
+[21
+
+]
+File: ./figures/frustration.pdf Graphic file (type pdf)
+<use ./figures/frustration.pdf>
+ [22
+
+]
+Underfull \hbox (badness 2359) in paragraph at lines 443--443
+\TU/FiraSans(0)/m/n/10 Impurity correlations vanish, bath
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 443--443
+
+ []
+
+File: ./figures/spin-charge-corr-full.pdf Graphic file (type pdf)
+<use ./figures/spin-charge-corr-full.pdf>
+[23
+
+]
+File: ./figures/twosite_spectrum.pdf Graphic file (type pdf)
+<use ./figures/twosite_spectrum.pdf>
+ [24
+
+] [25
+
+]
+File: ./figures/takeaway2.pdf Graphic file (type pdf)
+<use ./figures/takeaway2.pdf>
+ [26
+
+]
+File: ./figures/takeaway2.pdf Graphic file (type pdf)
+<use ./figures/takeaway2.pdf>
+File: ./figures/takeaway1.pdf Graphic file (type pdf)
+<use ./figures/takeaway1.pdf>
+ [27
+
+]
+File: ./figures/takeaway2.pdf Graphic file (type pdf)
+<use ./figures/takeaway2.pdf>
+File: ./figures/takeaway1.pdf Graphic file (type pdf)
+<use ./figures/takeaway1.pdf>
+File: ./figures/takeaway3.pdf Graphic file (type pdf)
+<use ./figures/takeaway3.pdf>
+ [28
+
+]
+File: ./figures/spin-charge-corr-full.pdf Graphic file (type pdf)
+<use ./figures/spin-charge-corr-full.pdf>
+File: ./figures/QFI.pdf Graphic file (type pdf)
+<use ./figures/QFI.pdf>
+ [29
+
+]
+File: ./figures/measurement.pdf Graphic file (type pdf)
+<use ./figures/measurement.pdf>
+ [30
+
+] [31
+
+] [32
 
 ]
 \tf@nav=\write6
@@ -2445,12 +2629,12 @@ Package logreq Info: Writing requests to 'trends_at_iiserk.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39724 strings out of 478716
- 839256 string characters out of 5847712
+ 40001 strings out of 478716
+ 846815 string characters out of 5847712
  1853482 words of memory out of 5000000
- 58993 multiletter control sequences out of 15000+600000
- 519470 words of font info for 140 fonts, out of 8000000 for 9000
+ 59238 multiletter control sequences out of 15000+600000
+ 523598 words of font info for 168 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  101i,11n,150p,1880b,5437s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on trends_at_iiserk.xdv (15 pages, 95612 bytes).
+Output written on trends_at_iiserk.xdv (32 pages, 203752 bytes).

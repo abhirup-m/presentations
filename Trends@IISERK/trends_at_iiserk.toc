@@ -3,7 +3,11 @@
 \beamer@sectionintoc {2}{Some important questions}{7}{0}{2}
 \beamer@sectionintoc {3}{The single-channel Kondo problem:\\ Anatomy of the Kondo cloud}{8}{0}{3}
 \beamer@subsectionintoc {3}{1}{\nobreakspace {}}{8}{0}{3}
-\beamer@sectionintoc {4}{Distorting the Kondo singlet}{14}{0}{4}
-\beamer@subsectionintoc {4}{1}{The multi-channel Kondo Problem}{14}{0}{4}
-\beamer@sectionintoc {5}{How to destroy the Kondo cloud}{15}{0}{5}
-\beamer@subsectionintoc {5}{1}{Effect of local interactions in the bath}{15}{0}{5}
+\beamer@sectionintoc {4}{Distorting the Kondo singlet:\\ The multi-channel Kondo Problem}{14}{0}{4}
+\beamer@subsectionintoc {4}{1}{\nobreakspace {}}{14}{0}{4}
+\beamer@sectionintoc {5}{How to destroy the Kondo cloud:\\ Effect of local interactions in the bath}{20}{0}{5}
+\beamer@subsectionintoc {5}{1}{\nobreakspace {}}{20}{0}{5}
+\beamer@sectionintoc {6}{Concluding remarks and takeaways}{25}{0}{6}
+\beamer@subsectionintoc {6}{1}{\nobreakspace {}}{25}{0}{6}
+\beamer@sectionintoc {7}{That's all!}{32}{0}{7}
+\beamer@subsectionintoc {7}{1}{Thanks to everyone.}{32}{0}{7}
