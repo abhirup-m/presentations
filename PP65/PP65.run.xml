@@ -44,11 +44,11 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>trends_at_iiserk.aux</file>
-      <file>trends_at_iiserk-blx.bib</file>
+      <file>PP65.aux</file>
+      <file>PP65-blx.bib</file>
     </provides>
     <requires type="dynamic">
-      <file>trends_at_iiserk.bbl</file>
+      <file>PP65.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -68,20 +68,20 @@
     <cmdline>
       <binary>bibtex</binary>
       <option>-min-crossrefs 2</option>
-      <infile>trends_at_iiserk</infile>
+      <infile>PP65</infile>
     </cmdline>
     <input>
-      <file>trends_at_iiserk.aux</file>
+      <file>PP65.aux</file>
     </input>
     <output>
-      <file>trends_at_iiserk.bbl</file>
+      <file>PP65.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>trends_at_iiserk.bbl</file>
+      <file>PP65.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>trends_at_iiserk.aux</file>
-      <file>trends_at_iiserk-blx.bib</file>
+      <file>PP65.aux</file>
+      <file>PP65-blx.bib</file>
     </requires>
     <requires type="editable">
       <file>bib.bib</file>

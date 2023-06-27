@@ -130,11 +130,9 @@ Department of Physical Sciences, IISER Kolkata}
 
 \begin{frame}{What is the Kondo effect?}
 \begin{minipage}{0.5\textwidth}
-\begin{itemize}
-	\item metal resistivity is \alert{monotonic}: \(\rho \sim T^n\)\\[10pt]
-	\item dilute alloys show anomalous \alert{minimum}\\[10pt]
-	\item resistivity eventually becomes \alert{constant}
-\end{itemize}
+Dilute metallic alloys show anomalous resistivity \alert{minimum} and eventual saturation.\\[10pt]
+Can be explained using the \alert{Kondo model}:
+\[H_\text{Kondo} = KE_\text{bath} + J \vec{S}_\text{imp}\cdot\vec{S}_\text{bath}\]
 \end{minipage}
 \hspace*{\fill}
 \begin{minipage}{0.45\textwidth}
@@ -142,29 +140,20 @@ Department of Physical Sciences, IISER Kolkata}
 \includegraphics[width=\textwidth]{resistance_minimum.pdf}
 \end{minipage}
 
-\[\text{Can be explained using the \alert{Kondo model}:}\quad H_\text{Kondo} = KE_\text{bath} + J \vec{S}_\text{imp}\cdot\vec{S}_\text{bath}\]
-
+\begin{center}
 \includegraphics[width=0.9\textwidth]{KondoModel.pdf}
+\end{center}
 
-\footcite{deHaas1939,Sarachik1964,Heeger1969}
-\end{frame}
-
-\begin{frame}{How to explain the resistance minimum \& eventual saturation?}
-\footcite{kondo1964resistance}
-\begin{minipage}{0.5\textwidth}
-Second order perturbation theory in \(J\) gives:
-\[\hspace*{-80pt}\rho \sim T^n - \ln T\]
-Explains the \alert{non-monotonic}\\
-behaviour!\\[20pt]
+%\vspace*{-10pt}
+\begin{minipage}{0.8\textwidth}
+Second order perturbation theory explains resistivity minimum.\\
 However, solution \alert{diverges} at \(T \to 0\)!
 \end{minipage}
-\begin{minipage}{0.4\textwidth}
-	\includegraphics[width=\textwidth]{secondorder.pdf}
+\begin{minipage}{0.1\textwidth}
+\includegraphics[width=\textwidth]{kondo.jpg}\\
 \end{minipage}
-\begin{textblock*}{0.13\textwidth}(6.5cm, 3.8cm)
-	\includegraphics[width=\textwidth]{kondo.jpg}\\
-	\footnotesize{(Jun Kondo)}
-\end{textblock*}
+%\vspace*{-10pt}
+\footcite{deHaas1939,Sarachik1964,Heeger1969,kondo1964resistance}
 \end{frame}
 
 \begin{frame}{How to explain the resistance minimum \& eventual saturation?}
@@ -205,7 +194,8 @@ Conf. field theory\\[10pt]
 \section{Some important questions}
 \begin{frame}{Some important questions}
 \begin{minipage}{0.45\textwidth}
-	1. How do we describe the dynamics of the electrons that screen the impurity (the so-called \alert{Kondo cloud})?
+	How do we describe the dynamics of the electrons that screen the impurity (the so-called \alert{Kondo cloud})?\\
+	\footnotesize{[Mukherjee et al 2023 Phys. Rev. B 105, 085119]}
 \end{minipage}
 \hspace*{\fill}
 \begin{minipage}{0.45\textwidth}
@@ -218,12 +208,14 @@ Conf. field theory\\[10pt]
 \end{minipage}
 \hspace*{\fill}
 \begin{minipage}{0.45\textwidth}
-	2. What kind of physics can \alert{disturb the Kondo screening} effect and distort the singlet state?
+	What kind of physics can \alert{disturb the Kondo screening} effect and distort the singlet state?\\
+	\footnotesize{[Patra et al 2023 J. Phys.: Condens. Matter 35 315601]}
 \end{minipage}
 \vspace*{\fill}
 
 \begin{minipage}{0.45\textwidth}
-	3. What is the simplest impurity model that completely destroys the Kondo effect and leads to a \alert{phase transition}?
+	What is the simplest impurity model that completely destroys the Kondo effect and leads to a \alert{phase transition}?\\
+	\footnotesize{[Mukherjee et al 2023 arXiv:2302.02328]}
 \end{minipage}
 \hspace*{\fill}
 \begin{minipage}{0.45\textwidth}
@@ -231,11 +223,221 @@ Conf. field theory\\[10pt]
 \end{minipage}
 \end{frame}
 
-\section{The single-channel Kondo problem:\\ Anatomy of the Kondo cloud}
-\begin{textblock*}{\textwidth}(1cm, 4.5cm)
+\section{The single-channel Kondo problem:\\ Anatomy of the Kondo cloud\vspace*{20pt}}
+\begin{textblock*}{\textwidth}(1cm, 3.5cm)
 \includegraphics[width=\textwidth]{kondocloud_prb.pdf}\\
 \end{textblock*}
 \subsection{~}
+
+\begin{frame}{Effective Hamiltonian for the Kondo cloud}
+\footcite{anirban_kondo,anirbanurg1,anirbanurg2}
+We first applied the \alert{unitary RG} to obtain a low energy fixed point theory.\\[10pt]
+To obtain a theory for the Kondo cloud, we \alert{trace out impurity} from fixed point Hamiltonian.
+\vspace*{\fill}
+
+\includegraphics[width=\textwidth]{KondoCloud.pdf}
+
+\vspace*{\fill}
+\begin{itemize}
+	\item all-to-all interactions between momentum states, \alert{large entanglement}
+	\item 2-particle interaction terms \alert{not} present in Fermi liquid, are \alert{responsible for screening}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Quantifying entanglement within the Kondo cloud}
+\footcite{anirban_kondo}
+In order to demonstrate formation of Kondo cloud, we study the \alert{variation of entanglement} and correlations under RG transformations.
+
+\vspace*{\fill}
+\includegraphics[width=\textwidth]{kondoRevRG.pdf}
+
+\vspace*{\fill}
+\begin{itemize}
+	\item Both entanglement and \(k-\)space correlations \alert{increase} as RG proceeds from UV to IR.\\[10pt]
+	\item This shows the formation of the \alert{Kondo singlet} and the growth of two-particle correlations in the \alert{Kondo cloud}.
+\end{itemize}
+\end{frame}
+
+\section{Distorting the Kondo singlet:\\ The multi-channel Kondo Problem\vspace*{20pt}}
+\begin{textblock*}{\textwidth}(1cm, 3.5cm)
+\includegraphics[width=0.8\textwidth]{MCKJPCM.pdf}
+\end{textblock*}
+\subsection{~}
+
+\begin{frame}{What is the multichannel Kondo problem?}
+\footcite{Noz_blandin_1980,affleck1993exact,emery_kivelson,andrei_destri_1984}
+\begin{minipage}{0.39\textwidth}
+Single impurity interacting with \alert{multiple channels} in the bath
+\[H_\text{Kondo} = KE_\text{bath} + \sum_{l}J_l \vec{S}_\text{imp}\cdot\vec{s}^{(l)}\]
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.59\textwidth}
+\includegraphics[width=\textwidth]{MCKM_zeroB.pdf}
+\end{minipage}\\[10pt]
+Known to display divergent \(T=0\) impurity susceptibility (incomplete screening), and orthogonality catastrophe, \alert{non-Fermi liquid} excitations.\\[10pt]
+\begin{minipage}{0.64\textwidth}
+Zero bandwidth limit is (analytically) solvable: \(\left\{\ket{S_\text{tot}^z}\right\}\)\\
+\begin{itemize}
+	\item Ground state degeneracy for \(K > 1\) explains \alert{orthogonality catastrophe}\\[5pt]
+\item \(S_\text{tot}^z \neq 0\) in ground states shows incomplete screening\\[5pt]
+\item Excitations shows \alert{non-Fermi liquid} physics in the form of inter-channel scattering.
+\end{itemize}
+\end{minipage}
+\begin{minipage}{0.35\textwidth}
+\includegraphics[width=\textwidth]{MCK_imp_chi.pdf}
+\end{minipage}
+
+%\hspace*{\fill}
+%\begin{minipage}{0.25\textwidth}
+%\includegraphics[width=\textwidth]{stargraph.pdf}
+%\end{minipage}
+%
+%\begin{frame}{Can a simpler model make this more intuitive?}
+%\footcite{Patra_2023}
+%\only<1>{
+%\begin{minipage}{0.45\textwidth}
+%At \(T=0\) and in the ground state, consider \alert{only} lowest energy state in bath.
+%\end{minipage}
+%\hspace*{\fill}
+%\begin{minipage}{0.45\textwidth}
+%	\[KE_\text{bath} + \sum_{l=1}^K J_l \vec{S}_\text{imp}\cdot\vec{s}^{(l)} \Longrightarrow \sum_{l=1}^K J_l \vec{S}_\text{imp}\cdot\vec{s_0}^{(l)} \]
+%\end{minipage}
+%
+%\vspace*{\fill}
+%\includegraphics[width=0.7\textwidth]{MCKM_zeroB.pdf}
+%}
+%\only<2>{
+%\begin{minipage}{0.7\textwidth}
+%\[\text{Model is (analytically) solvable}: \left\{\ket{S_\text{tot}^z}\right\}\]
+%\[\text{Ground state is \alert{degenerate} for $K > 1$}\]
+%\begin{itemize}
+%	\item Degeneracy for \(K > 1\) shows orthogonality catastrophe\\[10pt]
+%	\item \(S_\text{tot}^z \neq 0\) in ground states shows incomplete screening
+%\end{itemize}
+%\end{minipage}
+%\hspace*{\fill}
+%\begin{minipage}{0.25\textwidth}
+%\includegraphics[width=\textwidth]{stargraph.pdf}
+%\end{minipage}
+%}
+%\only<3>{
+%\begin{minipage}{0.55\textwidth}
+%	Magnetisation of central node goes as 
+%	\[ m = \frac{1-K}{2(1 + K)}\]
+%\begin{itemize}
+%	\item Susceptibility shows \(T=0\) \alert{divergence} for \(K > 1\)\\[10pt]
+%	\item Magnetisation can be linked to \alert{scattering phase shifts} and hence to RG equation
+%\end{itemize}
+%\end{minipage}
+%\hspace*{\fill}
+%\begin{minipage}{0.35\textwidth}
+%\includegraphics[width=\textwidth]{MCK_imp_chi.pdf}
+%\end{minipage}
+%}
+%\only<4>{
+%\begin{minipage}{0.4\textwidth}
+%\includegraphics[width=\textwidth]{EE_excitations.png}
+%\end{minipage}
+%\hspace*{\fill}
+%\begin{minipage}{0.55\textwidth}
+%Upon including excitations above the stargraph\\
+%\begin{itemize}
+%	\item entanglement entropy of central node shows \alert{discontinuity} \(\Longrightarrow\) orthogonality catastrophe\\[10pt]
+%	\item effective Hamiltonian for these excitations shows \alert{non-Fermi liquid} physics
+%\end{itemize}
+%\end{minipage}
+%}
+\end{frame}
+
+\section{How to destroy the Kondo cloud:\\
+Effect of local interactions in the bath\vspace*{20pt}}
+\begin{textblock*}{\textwidth}(1cm, 3.5cm)
+\includegraphics[width=0.9\textwidth]{esiam_arxiv.pdf}\\
+\end{textblock*}
+\subsection{~}
+
+\begin{frame}{What is the new physics ingredient?}
+\footcite{kotliar1992}
+\begin{minipage}{0.39\textwidth}
+	Add \alert{local correlation} on bath (zeroth) site coupled to impurity
+\[KE_\text{bath} + J \vec{S}_\text{imp}\cdot\vec{S}_\text{bath} - U_b\left( \vec{S}_\text{bath} \right)^2 \]
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.55\textwidth}
+\includegraphics[width=\textwidth]{zeromode_bare.pdf}
+\end{minipage}
+
+\vspace*{\fill}
+URG equations show that an \alert{attractive} \(U_b\) frustrates the zeroth site.
+\[\Delta J \sim J^2 + 4U_b J \implies \text{\alert{phase transition} at }J = -4U_b\]
+
+\vspace*{\fill}
+\includegraphics[width=0.9\textwidth]{frustration.pdf}\\
+
+\vspace*{\fill}
+Such a model sheds light on the Mott MIT in \(\infty-\)dimensions (as seen from DMFT).
+\end{frame}
+
+\begin{frame}{Nature of the transition}
+\begin{minipage}{0.45\textwidth}
+Across the transition,\\
+\begin{itemize}
+	\item impurity correlations vanish
+	\item bath correlations become non-zero\\[10pt]
+\end{itemize}
+
+Shows that \alert{pairing correlations} in the bath are responsible for the transition.
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.5\textwidth}
+\includegraphics[width=\textwidth]{spin-charge-corr-full.pdf}
+\end{minipage}
+
+\vspace*{\fill}
+The state \alert{precisely at the transition} is special:
+\begin{itemize}
+	\item non-Fermi liquid excitations
+	\item \alert{fractional} impurity magnetisation and occupancy
+\end{itemize}
+\end{frame}
+
+\section{Concluding remarks}
+\subsection{~}
+
+\begin{frame}{}
+	\begin{itemize}
+	\item Our analyses often link entanglement measures with correlations, providing bridges between the worlds of condensed matter and quantum information.\\[10pt]
+	\item Models of Kondo breakdown can be used to study the effects of measurement on a system coupled to a bath.\\[10pt]
+	\begin{center}
+	\includegraphics[width=0.5\textwidth]{measurement.pdf}
+	\end{center}
+	\item The Kondo model with attractive \(U_b\) term has applications in studying the physics of Mott transitions.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\includegraphics[width=0.65\textwidth]{thanks.pdf}
+\end{frame}
+
+\begin{frame}{How to explain the resistance minimum \& eventual saturation?}
+\footcite{kondo1964resistance}
+\begin{minipage}{0.5\textwidth}
+Second order perturbation theory in \(J\) gives:
+\[\hspace*{-80pt}\rho \sim T^n - \ln T\]
+Explains the \alert{non-monotonic}\\
+behaviour!\\[20pt]
+However, solution \alert{diverges} at \(T \to 0\)!
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+	\includegraphics[width=\textwidth]{secondorder.pdf}
+\end{minipage}
+\begin{textblock*}{0.13\textwidth}(6.5cm, 3.8cm)
+	\includegraphics[width=\textwidth]{kondo.jpg}\\
+	\footnotesize{(Jun Kondo)}
+\end{textblock*}
+\end{frame}
+
 
 \begin{frame}{Unitary RG approach to impurity models}
 \footcite{anirbanurg1,anirbanurg2}
@@ -254,25 +456,8 @@ Conf. field theory\\[10pt]
 	
 \end{frame}
 
-\begin{frame}{Effective Hamiltonian for the Kondo cloud}
-\footcite{anirban_kondo}
-In order to obtain a theory for the Kondo cloud,\\ we \alert{trace out impurity} from fixed point Hamiltonian.
-\vspace*{\fill}
-
-\includegraphics[width=\textwidth]{KondoCloud.pdf}
-
-\vspace*{\fill}
-\begin{itemize}
-	\item all-to-all interactions between momentum states, \alert{large entanglement}
-	\item 2-particle interaction terms \alert{not} present in Fermi liquid, are \alert{responsible for screening}
-\end{itemize}
-
-\end{frame}
-
-\begin{frame}{Quantifying entanglement within the Kondo cloud}
-\only<1-2>{
+\begin{frame}
 \begin{minipage}{0.8\textwidth}
-In order to demonstrate formation of Kondo cloud, we study the \alert{variation of entanglement} and correlations under RG transformations.
 \end{minipage}
 
 \vspace*{\fill}
@@ -286,208 +471,5 @@ In order to demonstrate formation of Kondo cloud, we study the \alert{variation 
 	{\centering
 	\only<2>{\includegraphics[width=0.85\textwidth]{mutinfo.pdf}}}
 \end{itemize}
-}
-\only<3>{
-\footcite{anirban_kondo}
-Both entanglement and \(k-\)space correlations \alert{increase} as RG proceeds from UV to IR.
-
-\vspace*{\fill}
-\includegraphics[width=0.4\textwidth]{MIkondo.pdf}
-\hspace*{\fill}
-\includegraphics[width=0.4\textwidth]{corrKondo.pdf}
-
-\vspace*{\fill}
-\begin{itemize}
-	\item The former shows the formation of the \alert{Kondo singlet}\\[10pt]
-	\item The latter shows the growth of two-particle correlations in the \alert{Kondo cloud}
-\end{itemize}
-}
 \end{frame}
-
-\section{Distorting the Kondo singlet:\\ The multi-channel Kondo Problem}
-\begin{textblock*}{\textwidth}(1cm, 4.1cm)
-\includegraphics[width=0.9\textwidth]{MCKJPCM.pdf}
-\end{textblock*}
-\subsection{~}
-
-\begin{frame}{What is the multichannel Kondo problem?}
-\footcite{Noz_blandin_1980,affleck1993exact,emery_kivelson,andrei_destri_1984}
-\begin{minipage}{0.39\textwidth}
-Single impurity interacting with \alert{multiple channels} in the bath
-\[H_\text{Kondo} = KE_\text{bath} + \sum_{l}J_l \vec{S}_\text{imp}\cdot\vec{s}^{(l)}\]
-Known to display divergent impurity susceptibility as \(T \to 0\), indicating \alert{incomplete screening}
-\end{minipage}
-\hspace*{\fill}
-\begin{minipage}{0.45\textwidth}
-\includegraphics[width=\textwidth]{MCKM.pdf}
-\end{minipage}
-\vspace*{\fill}
-
-Other anomalous features: orthogonality catastrophe, \alert{non-Fermi liquid} excitations, diverging specific heat
-\end{frame}
-
-\begin{frame}{Can a simpler model make this more intuitive?}
-\footcite{Patra_2023}
-\only<1>{
-\begin{minipage}{0.45\textwidth}
-At \(T=0\) and in the ground state, consider \alert{only} lowest energy state in bath.
-\end{minipage}
-\hspace*{\fill}
-\begin{minipage}{0.45\textwidth}
-	\[KE_\text{bath} + \sum_{l=1}^K J_l \vec{S}_\text{imp}\cdot\vec{s}^{(l)} \Longrightarrow \sum_{l=1}^K J_l \vec{S}_\text{imp}\cdot\vec{s_0}^{(l)} \]
-\end{minipage}
-
-\vspace*{\fill}
-\includegraphics[width=0.7\textwidth]{MCKM_zeroB.pdf}
-}
-\only<2>{
-\begin{minipage}{0.7\textwidth}
-\[\text{Model is (analytically) solvable}: \left\{\ket{S_\text{tot}^z}\right\}\]
-\[\text{Ground state is \alert{degenerate} for $K > 1$}\]
-\begin{itemize}
-	\item Degeneracy for \(K > 1\) shows orthogonality catastrophe\\[10pt]
-	\item \(S_\text{tot}^z \neq 0\) in ground states shows incomplete screening
-\end{itemize}
-\end{minipage}
-\hspace*{\fill}
-\begin{minipage}{0.25\textwidth}
-\includegraphics[width=\textwidth]{stargraph.pdf}
-\end{minipage}
-}
-\only<3>{
-\begin{minipage}{0.55\textwidth}
-	Magnetisation of central node goes as 
-	\[ m = \frac{1-K}{2(1 + K)}\]
-\begin{itemize}
-	\item Susceptibility shows \(T=0\) \alert{divergence} for \(K > 1\)\\[10pt]
-	\item Magnetisation can be linked to \alert{scattering phase shifts} and hence to RG equation
-\end{itemize}
-\end{minipage}
-\hspace*{\fill}
-\begin{minipage}{0.35\textwidth}
-\includegraphics[width=\textwidth]{MCK_imp_chi.pdf}
-\end{minipage}
-}
-\only<4>{
-\begin{minipage}{0.4\textwidth}
-\includegraphics[width=\textwidth]{EE_excitations.png}
-\end{minipage}
-\hspace*{\fill}
-\begin{minipage}{0.55\textwidth}
-Upon including excitations above the stargraph\\
-\begin{itemize}
-	\item entanglement entropy of central node shows \alert{discontinuity} \(\Longrightarrow\) orthogonality catastrophe\\[10pt]
-	\item effective Hamiltonian for these excitations shows \alert{non-Fermi liquid} physics
-\end{itemize}
-\end{minipage}
-}
-\end{frame}
-
-\section{How to destroy the Kondo cloud:\\
-Effect of local interactions in the bath}
-\begin{textblock*}{\textwidth}(1cm, 4.2cm)
-\includegraphics[width=\textwidth]{esiam_arxiv.pdf}\\
-\end{textblock*}
-\subsection{~}
-
-\begin{frame}{What is the new physics ingredient?}
-\only<1>{
-\begin{minipage}{0.39\textwidth}
-	Add \alert{local correlation} on bath (zeroth) site coupled to impurity
-\[KE_\text{bath} + J \vec{S}_\text{imp}\cdot\vec{S}_\text{bath} - U_b\left( \vec{S}_\text{bath} \right)^2 \]
-\end{minipage}
-\hspace*{\fill}
-\begin{minipage}{0.55\textwidth}
-\includegraphics[width=\textwidth]{zeromode_bare.pdf}\\
-\end{minipage}
-}
-\only<2>{
-URG equations show that an \alert{attractive} \(U_b\) competes with \(J\):
-\[\Delta J \sim J^2 + 4U_b J \implies \text{\alert{phase transition} at }J = -4U_b\]
-This happens because the zeroth site is \alert{frustrated}.
-
-\vspace*{\fill}
-
-\includegraphics[width=\textwidth]{frustration.pdf}\\
-}
-\end{frame}
-
-\begin{frame}{Nature of the transition}
-\only<1>{
-\begin{minipage}{0.4\textwidth}
-Correlation functions show \\\alert{discontinuity} across transition.\\[10pt]
-Impurity correlations vanish, bath correlations become non-zero.\\[10pt]
-\end{minipage}
-\hspace*{\fill}
-\begin{minipage}{0.5\textwidth}
-\includegraphics[width=\textwidth]{spin-charge-corr-full.pdf}
-\end{minipage}
-
-\vspace*{\fill}
-Shows that \alert{pairing correlations} in the bath are responsible for the transition.
-}
-\only<2>{
-\begin{minipage}{0.5\textwidth}
-Manifests as a \alert{level crossing} in the zero bandwidth problem.\\[10pt]
-The state precisely at the transition is special:
-\begin{itemize}
-	\item non-Fermi liquid excitations
-	\item \alert{fractional} impurity magnetisation and occupancy
-\end{itemize}
-\end{minipage}
-\hspace*{\fill}
-\begin{minipage}{0.4\textwidth}
-\includegraphics[width=\textwidth]{twosite_spectrum.pdf}
-\end{minipage}
-}
-\end{frame}
-
-\section{Concluding remarks and takeaways}
-\subsection{~}
-\begin{frame}{Concluding remarks}
-We have answered the questions posed at the beginning:\\
-\vspace*{\fill}
-
-\begin{itemize}[<+->]
-	\item obtained the effective theory for the Kondo cloud,\\[10pt]
-	\item learnt multiple ways of hampering the Kondo effect, and\\[10pt]
-	\item studied the various phases arising from this.
-\end{itemize}
-\vspace*{\fill}
-
-\hspace*{\fill}
-\only<1->{
-\centering
-\includegraphics[width=0.2\textwidth]{takeaway2.pdf}
-}
-\hspace*{\fill}
-\only<2->{
-\centering
-\includegraphics[width=0.3\textwidth]{takeaway1.pdf}
-}
-\hspace*{\fill}
-\only<3>{
-\centering
-\includegraphics[width=0.25\textwidth]{takeaway3.pdf}
-}
-\hspace*{\fill}
-\end{frame}
-\begin{frame}{Takeaways}
-	\begin{itemize}[<+->]
-	\item Our analyses often link entanglement measures with correlations, providing bridges between the worlds of condensed matter and quantum information.\\[10pt]
-	\only<1>{
-	\includegraphics[width=0.45\textwidth]{spin-charge-corr-full.pdf}
-	\includegraphics[width=0.45\textwidth]{QFI.pdf}
-	}
-	\item Models of Kondo breakdown can be used to study the effects of measurement on a system coupled to a bath.\\[10pt]
-	\only<2>{
-	\centering
-	\includegraphics[width=0.65\textwidth]{measurement.pdf}
-	}
-	\item The Kondo model with attractive \(U_b\) term has applications in studying the physics of Mott transitions.
-\end{itemize}
-\end{frame}
-
-\section{That's all!}
-\subsection{Thanks to everyone.}
 \end{document}

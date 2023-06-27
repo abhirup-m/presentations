@@ -236,6 +236,52 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{kotliar1992}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GA}{%
+         family={Georges},
+         familyi={G\bibinitperiod},
+         given={Antoine},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KG}{%
+         family={Kotliar},
+         familyi={K\bibinitperiod},
+         given={Gabriel},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=KW}{%
+         family={Krauth},
+         familyi={K\bibinitperiod},
+         given={Werner},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=RMJ}{%
+         family={Rozenberg},
+         familyi={R\bibinitperiod},
+         given={Marcelo\bibnamedelima J},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{GA+1}
+    \strng{fullhash}{GAKGKWRMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{number}{1}
+    \field{pages}{13}
+    \field{title}{Dynamical mean-field theory of strongly correlated fermion systems and the limit of infinite dimensions}
+    \field{volume}{68}
+    \field{journaltitle}{Reviews of Modern Physics}
+    \field{year}{1996}
+  \endentry
+
   \entry{Heeger1969}{book}{}
     \name{author}{1}{}{%
       {{hash=HAJ}{%
@@ -440,71 +486,6 @@
     \field{volume}{41}
     \field{journaltitle}{J. Phys. France}
     \field{year}{1980}
-  \endentry
-
-  \entry{Patra_2023}{article}{}
-    \name{author}{6}{}{%
-      {{hash=PS}{%
-         family={Patra},
-         familyi={P\bibinitperiod},
-         given={Siddhartha},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=MA}{%
-         family={Mukherjee},
-         familyi={M\bibinitperiod},
-         given={Abhirup},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=MA}{%
-         family={Mukherjee},
-         familyi={M\bibinitperiod},
-         given={Anirban},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=VNS}{%
-         family={Vidhyadhiraja},
-         familyi={V\bibinitperiod},
-         given={N\bibnamedelima S},
-         giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=TA}{%
-         family={Taraphder},
-         familyi={T\bibinitperiod},
-         given={A},
-         giveni={A},
-      }}%
-      {{hash=LS}{%
-         family={Lal},
-         familyi={L\bibinitperiod},
-         given={Siddhartha},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {IOP Publishing}%
-    }
-    \strng{namehash}{PS+1}
-    \strng{fullhash}{PSMAMAVNSTALS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2023}
-    \field{labeldatesource}{}
-    \field{sortinit}{P}
-    \field{sortinithash}{P}
-    \verb{doi}
-    \verb 10.1088/1361-648X/acd09c
-    \endverb
-    \field{number}{31}
-    \field{pages}{315601}
-    \field{title}{Frustration shapes multi-channel Kondo physics: a star graph perspective}
-    \verb{url}
-    \verb https://dx.doi.org/10.1088/1361-648X/acd09c
-    \endverb
-    \field{volume}{35}
-    \field{journaltitle}{Journal of Physics: Condensed Matter}
-    \field{year}{2023}
-    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Sarachik1964}{article}{}

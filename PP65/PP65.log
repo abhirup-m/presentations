@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.5.25)  27 JUN 2023 13:11
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.5.25)  27 JUN 2023 19:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**trends_at_iiserk.tex
-(./trends_at_iiserk.tex
+**PP65.tex
+(./PP65.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-05-15> (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2023/05/15 v3.70 A class for typesetting presentations
@@ -2064,8 +2064,8 @@ Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 ))
 \@quotelevel=\count490
 \@quotereset=\count491
- (./trends_at_iiserk.aux)
-\openout1 = `trends_at_iiserk.aux'.
+ (./PP65.aux)
+\openout1 = `PP65.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
 LaTeX Font Info:    ... okay on input line 53.
@@ -2155,11 +2155,11 @@ Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Data encoding 'utf8' specified.
 (biblatex)             No need to reencode data.
-\openout5 = `trends_at_iiserk-blx.bib'.
+\openout5 = `PP65-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'trends_at_iiserk.bbl' found.
- (./trends_at_iiserk.bbl
+Package biblatex Info: ... file 'PP65.bbl' found.
+ (./PP65.bbl
 
 Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'andrei_1980':
@@ -2182,11 +2182,6 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Patra_2023':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'Sarachik1964':
 (biblatex)                - Invalid format of field 'month'.
 
@@ -2203,7 +2198,7 @@ Package biblatex Warning: BibTeX reported the following issues
 )
 Package biblatex Info: Reference section=0 on input line 53.
 Package biblatex Info: Reference segment=0 on input line 53.
- (./trends_at_iiserk.nav)
+ (./PP65.nav)
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
 (Font)              scaled to size 5.0pt on input line 53.
 Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 5.0pt
@@ -2364,34 +2359,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--126
 ] [3
 
 ]
-File: ./figures/resistance_minimum.pdf Graphic file (type pdf)
-<use ./figures/resistance_minimum.pdf>
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 7.2pt on input line 150.
+(Font)              scaled to size 7.2pt on input line 157.
 Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 7.2pt
  -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf
-Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 7.2pt
- -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.otf
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 5.8pt on input line 150.
+(Font)              scaled to size 5.8pt on input line 157.
 Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 5.8pt
  -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf
-Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 5.8pt
- -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.otf
+File: ./figures/resistance_minimum.pdf Graphic file (type pdf)
+<use ./figures/resistance_minimum.pdf>
 File: ./figures/KondoModel.pdf Graphic file (type pdf)
 <use ./figures/KondoModel.pdf>
-LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
-(Font)              scaled to size 5.0pt on input line 150.
-Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 5.0pt
- -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.otf
- [4
-
-]
-File: ./figures/secondorder.pdf Graphic file (type pdf)
-<use ./figures/secondorder.pdf>
 File: ./figures/kondo.jpg Graphic file (type bmp)
 <./figures/kondo.jpg>
- [5
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+
+ []
+
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
+(Font)              scaled to size 5.0pt on input line 157.
+Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 5.0pt
+ -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.otf
+
+Overfull \vbox (2.08311pt too high) detected at line 157
+ []
+
+[4
 
 ]
 File: ./figures/wilson.jpg Graphic file (type bmp)
@@ -2402,239 +2397,146 @@ File: ./figures/affleck.jpg Graphic file (type bmp)
 <./figures/affleck.jpg>
 File: ./figures/crossover.pdf Graphic file (type pdf)
 <use ./figures/crossover.pdf>
- [6
+ [5
 
 ]
 File: ./figures/kondocloud.pdf Graphic file (type pdf)
 <use ./figures/kondocloud.pdf>
 File: ./figures/distortsinglet.pdf Graphic file (type pdf)
 <use ./figures/distortsinglet.pdf>
+
+Underfull \hbox (badness 1917) in paragraph at lines 224--224
+[]\TU/FiraSans(0)/m/n/10 What kind of physics can []\TU/FiraSans(0)/b/n/10 disturb the
+ []
+
 File: ./figures/kondobreakdown.pdf Graphic file (type pdf)
 <use ./figures/kondobreakdown.pdf>
- [7
+[6
 
 ]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 226.
+
 File: ./figures/kondocloud_prb.pdf Graphic file (type pdf)
 <use ./figures/kondocloud_prb.pdf>
- [8
-
-]
-File: ./figures/kondo_fp_1D.pdf Graphic file (type pdf)
-<use ./figures/kondo_fp_1D.pdf>
- [9
+[7
 
 ]
 File: ./figures/KondoCloud.pdf Graphic file (type pdf)
 <use ./figures/KondoCloud.pdf>
- [10
+ [8
 
 ]
-File: ./figures/entanglement.pdf Graphic file (type pdf)
-<use ./figures/entanglement.pdf>
- [11
+File: ./figures/kondoRevRG.pdf Graphic file (type pdf)
+<use ./figures/kondoRevRG.pdf>
+ [9
 
 ]
-File: ./figures/mutinfo.pdf Graphic file (type pdf)
-<use ./figures/mutinfo.pdf>
- [12
 
-]
-File: ./figures/MIkondo.pdf Graphic file (type pdf)
-<use ./figures/MIkondo.pdf>
-File: ./figures/corrKondo.pdf Graphic file (type pdf)
-<use ./figures/corrKondo.pdf>
- [13
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 262.
 
-]
 File: ./figures/MCKJPCM.pdf Graphic file (type pdf)
 <use ./figures/MCKJPCM.pdf>
- [14
+[10
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
 []\TU/FiraSans(0)/m/n/10 Single impurity interacting with
  []
 
-File: ./figures/MCKM.pdf Graphic file (type pdf)
-<use ./figures/MCKM.pdf>
-[15
-
-]
 File: ./figures/MCKM_zeroB.pdf Graphic file (type pdf)
 <use ./figures/MCKM_zeroB.pdf>
- [16
-
-]
-Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 5.03996pt
- -> /usr/share/fonts/OTF/FiraMath-Regular.otf
-Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 3.59999pt
- -> /usr/share/fonts/OTF/FiraMath-Regular.otf
-Requested font "cmmi5" at 5.03996pt
- -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
-Requested font "cmmi5" at 3.59999pt
- -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
-Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 5.0405pt
- -> /usr/share/fonts/OTF/FiraMath-Regular.otf
-Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 3.60037pt
- -> /usr/share/fonts/OTF/FiraMath-Regular.otf
-Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 5.03941pt
- -> /usr/share/fonts/OTF/FiraMath-Regular.otf
-Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 3.5996pt
- -> /usr/share/fonts/OTF/FiraMath-Regular.otf
-Requested font "msam5" at 5.03996pt
- -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-Requested font "msam5" at 3.59999pt
- -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-Requested font "msbm5" at 5.03996pt
- -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-Requested font "msbm5" at 3.59999pt
- -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-Requested font "Latin Modern Math/OT:script=math;language=dflt;+ssty=1;" at 5.03996pt
- -> /usr/share/fonts/OTF/latinmodern-math.otf
-Requested font "Latin Modern Math/OT:script=math;language=dflt;+ssty=1;" at 3.59999pt
- -> /usr/share/fonts/OTF/latinmodern-math.otf
-Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 4.05998pt
- -> /usr/share/fonts/OTF/FiraMath-Regular.otf
-Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 2.9pt
- -> /usr/share/fonts/OTF/FiraMath-Regular.otf
-Requested font "cmmi5" at 4.05998pt
- -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
-Requested font "cmmi5" at 2.9pt
- -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
-Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 4.06041pt
- -> /usr/share/fonts/OTF/FiraMath-Regular.otf
-Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 2.9003pt
- -> /usr/share/fonts/OTF/FiraMath-Regular.otf
-Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 4.05954pt
- -> /usr/share/fonts/OTF/FiraMath-Regular.otf
-Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 2.89967pt
- -> /usr/share/fonts/OTF/FiraMath-Regular.otf
-Requested font "msam5" at 4.05998pt
- -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-Requested font "msam5" at 2.9pt
- -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-Requested font "msbm5" at 4.05998pt
- -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-Requested font "msbm5" at 2.9pt
- -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-Requested font "Latin Modern Math/OT:script=math;language=dflt;+ssty=1;" at 4.05998pt
- -> /usr/share/fonts/OTF/latinmodern-math.otf
-Requested font "Latin Modern Math/OT:script=math;language=dflt;+ssty=1;" at 2.9pt
- -> /usr/share/fonts/OTF/latinmodern-math.otf
-File: ./figures/stargraph.pdf Graphic file (type pdf)
-<use ./figures/stargraph.pdf>
- [17
-
-]
 File: ./figures/MCK_imp_chi.pdf Graphic file (type pdf)
 <use ./figures/MCK_imp_chi.pdf>
- [18
+[11
 
 ]
-File: ./figures/EE_excitations.png Graphic file (type bmp)
-<./figures/EE_excitations.png>
- [19
 
-]
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 354.
+
 File: ./figures/esiam_arxiv.pdf Graphic file (type pdf)
 <use ./figures/esiam_arxiv.pdf>
- [20
+[12
 
 ]
 File: ./figures/zeromode_bare.pdf Graphic file (type pdf)
 <use ./figures/zeromode_bare.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 413--413
-
- []
-
-[21
-
-]
+Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 7.2pt
+ -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.otf
+Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 5.8pt
+ -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.otf
 File: ./figures/frustration.pdf Graphic file (type pdf)
 <use ./figures/frustration.pdf>
- [22
+ [13
 
 ]
-Underfull \hbox (badness 2359) in paragraph at lines 443--443
-\TU/FiraSans(0)/m/n/10 Impurity correlations vanish, bath
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 443--443
-
+Underfull \hbox (badness 1132) in paragraph at lines 403--403
+[]\TU/FiraSans(0)/m/n/10 Shows that []\TU/FiraSans(0)/b/n/10 pairing correlations[] \TU/FiraSans(0)/m/n/10 in the
  []
 
 File: ./figures/spin-charge-corr-full.pdf Graphic file (type pdf)
 <use ./figures/spin-charge-corr-full.pdf>
-[23
+[14
 
-]
-File: ./figures/twosite_spectrum.pdf Graphic file (type pdf)
-<use ./figures/twosite_spectrum.pdf>
- [24
-
-] [25
-
-]
-File: ./figures/takeaway2.pdf Graphic file (type pdf)
-<use ./figures/takeaway2.pdf>
- [26
-
-]
-File: ./figures/takeaway2.pdf Graphic file (type pdf)
-<use ./figures/takeaway2.pdf>
-File: ./figures/takeaway1.pdf Graphic file (type pdf)
-<use ./figures/takeaway1.pdf>
- [27
-
-]
-File: ./figures/takeaway2.pdf Graphic file (type pdf)
-<use ./figures/takeaway2.pdf>
-File: ./figures/takeaway1.pdf Graphic file (type pdf)
-<use ./figures/takeaway1.pdf>
-File: ./figures/takeaway3.pdf Graphic file (type pdf)
-<use ./figures/takeaway3.pdf>
- [28
-
-]
-File: ./figures/spin-charge-corr-full.pdf Graphic file (type pdf)
-<use ./figures/spin-charge-corr-full.pdf>
-File: ./figures/QFI.pdf Graphic file (type pdf)
-<use ./figures/QFI.pdf>
- [29
+] [15
 
 ]
 File: ./figures/measurement.pdf Graphic file (type pdf)
 <use ./figures/measurement.pdf>
- [30
+ [16
 
-] [31
+]
+File: ./figures/thanks.pdf Graphic file (type pdf)
+<use ./figures/thanks.pdf>
+ [17
 
-] [32
+]
+File: ./figures/secondorder.pdf Graphic file (type pdf)
+<use ./figures/secondorder.pdf>
+File: ./figures/kondo.jpg Graphic file (type bmp)
+<./figures/kondo.jpg>
+ [18
+
+]
+File: ./figures/kondo_fp_1D.pdf Graphic file (type pdf)
+<use ./figures/kondo_fp_1D.pdf>
+ [19
+
+]
+File: ./figures/entanglement.pdf Graphic file (type pdf)
+<use ./figures/entanglement.pdf>
+ [20
+
+]
+File: ./figures/mutinfo.pdf Graphic file (type pdf)
+<use ./figures/mutinfo.pdf>
+ [21
 
 ]
 \tf@nav=\write6
-\openout6 = `trends_at_iiserk.nav'.
+\openout6 = `PP65.nav'.
 
 \tf@toc=\write7
-\openout7 = `trends_at_iiserk.toc'.
+\openout7 = `PP65.toc'.
 
 \tf@snm=\write8
-\openout8 = `trends_at_iiserk.snm'.
+\openout8 = `PP65.snm'.
 
- (./trends_at_iiserk.aux)
-Package logreq Info: Writing requests to 'trends_at_iiserk.run.xml'.
-\openout1 = `trends_at_iiserk.run.xml'.
+ (./PP65.aux)
+Package logreq Info: Writing requests to 'PP65.run.xml'.
+\openout1 = `PP65.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40001 strings out of 478716
- 846815 string characters out of 5847712
- 1853482 words of memory out of 5000000
- 59238 multiletter control sequences out of 15000+600000
- 523598 words of font info for 168 fonts, out of 8000000 for 9000
+ 39857 strings out of 478716
+ 842415 string characters out of 5847712
+ 1856482 words of memory out of 5000000
+ 59119 multiletter control sequences out of 15000+600000
+ 519470 words of font info for 140 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 101i,11n,150p,1880b,5437s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,11n,150p,1868b,5435s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on trends_at_iiserk.xdv (32 pages, 203752 bytes).
+Output written on PP65.xdv (21 pages, 137368 bytes).

@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="546.29083mm"
-   height="117.5359mm"
-   viewBox="0 0 546.29084 117.5359"
+   width="530.42865mm"
+   height="93.786324mm"
+   viewBox="0 0 530.42866 93.786326"
    version="1.1"
    id="svg48956"
    sodipodi:docname="KondoModel.svg"
@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.49197391"
-     inkscape:cx="1224.6584"
-     inkscape:cy="112.81086"
+     inkscape:cx="840.49172"
+     inkscape:cy="114.84349"
      inkscape:window-width="1920"
      inkscape:window-height="1019"
      inkscape:window-x="0"
@@ -228,7 +228,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(33.372279,-25.732033)">
+     transform="translate(17.510115,-25.361356)">
     <path
        style="fill:none;fill-opacity:1;stroke:#505050;stroke-width:2;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
        d="M 122.22514,74.21138 H 310.93845"
@@ -1238,13 +1238,6 @@
        id="path67829"
        inkscape:path-effect="#path-effect67831"
        inkscape:original-d="m 340.73932,73.60106 c -16.10301,0.578794 -2.37687,5.035569 -3.56576,7.552877 -1.18889,2.517306 5.76409,4.347538 8.64563,6.520829 2.88154,2.173292 16.75116,1.857291 25.12628,2.785457 8.37508,0.928169 23.27794,-1.605487 34.91643,-2.408708 11.6385,-0.803219 2.11201,-0.594863 3.16755,-0.892773 1.05554,-0.297911 -1.73403,-8.513187 -2.60155,-12.770257 -0.8675,-4.257069 -11.58672,-1.68286 -17.38054,-2.524767 -5.79382,-0.841906 -32.20507,1.158545 -48.30804,1.737342 z" />
-    <ellipse
-       style="fill:none;fill-opacity:1;stroke:#909090;stroke-width:2.23641;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       id="path71055"
-       cx="142.69777"
-       cy="84.839966"
-       rx="174.95184"
-       ry="57.309757" />
     <g
        transform="matrix(1.23472,0,0,1.23472,-9.9516685,100.10743)"
        ns6:version="1.8.2"
@@ -1383,10 +1376,17 @@
     </g>
     <path
        style="fill:none;fill-opacity:1;stroke:#404040;stroke-width:3.33098;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker67887);paint-order:markers stroke fill"
-       d="m 340.16624,72.384777 c -0.37883,-0.846996 -0.77632,-1.685647 -1.19208,-2.51514 -7.65803,-15.278741 -21.53752,-27.057163 -37.39937,-33.420095 -15.86186,-6.362933 -33.5683,-7.504237 -50.41263,-4.613935 -1.23608,0.212097 -2.46854,0.445277 -3.69666,0.699403"
+       d="m 340.16624,72.384777 c -0.38421,-0.844529 -0.78164,-1.683045 -1.19208,-2.51514 -7.79032,-15.793313 -20.58797,-29.314085 -36.56193,-36.726939 -15.97396,-7.412853 -35.11262,-8.356944 -51.25007,-1.307091 -5.68759,2.484695 -10.96304,5.909813 -15.54716,10.094088"
        id="path67857"
        inkscape:path-effect="#path-effect67859"
-       inkscape:original-d="m 340.16624,72.384777 c -3.89608,-3.137691 2.70454,0.622908 -1.19208,-2.51514 -3.89664,-3.138055 -61.63283,-93.727606 -87.812,-38.03403 -8.77967,18.677866 39.50844,-2.246243 -3.69666,0.699403"
+       inkscape:original-d="m 340.16624,72.384777 c -3.89608,-3.137691 2.70454,0.622908 -1.19208,-2.51514 -3.89664,-3.138055 -61.63283,-93.727606 -87.812,-38.03403 -8.77967,18.677866 27.65794,7.148442 -15.54716,10.094088"
        sodipodi:nodetypes="cssc" />
+    <rect
+       style="fill:none;stroke:#404040;stroke-width:1;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;paint-order:markers stroke fill;stroke-opacity:1"
+       id="rect462114"
+       width="329.85968"
+       height="74.341888"
+       x="-17.010115"
+       y="43.957592" />
   </g>
 </svg>
