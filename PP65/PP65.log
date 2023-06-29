@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.5.25)  27 JUN 2023 19:14
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.5.25)  28 JUN 2023 12:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2257,11 +2257,11 @@ Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;
 File: ./figures/epqm_logo_mod.jpeg Graphic file (type bmp)
 <./figures/epqm_logo_mod.jpeg>
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(1)/m/n' will be
-(Font)              scaled to size 7.2pt on input line 126.
+(Font)              scaled to size 7.2pt on input line 138.
 Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=0;" at 7.2pt
  -> /usr/share/fonts/OTF/FiraMath-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(1)/m/n' will be
-(Font)              scaled to size 5.8pt on input line 126.
+(Font)              scaled to size 5.8pt on input line 138.
 Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 5.8pt
  -> /usr/share/fonts/OTF/FiraMath-Regular.otf
 Requested font "cmmi7" at 7.2pt
@@ -2269,30 +2269,30 @@ Requested font "cmmi7" at 7.2pt
 Requested font "cmmi5" at 5.8pt
  -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 126.
+(Font)              scaled to size 10.00107pt on input line 138.
 Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 10.00107pt
  -> /usr/share/fonts/OTF/FiraMath-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 7.20076pt on input line 126.
+(Font)              scaled to size 7.20076pt on input line 138.
 Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=0;" at 7.20076pt
  -> /usr/share/fonts/OTF/FiraMath-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 5.80061pt on input line 126.
+(Font)              scaled to size 5.80061pt on input line 138.
 Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 5.80061pt
  -> /usr/share/fonts/OTF/FiraMath-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 126.
+(Font)              scaled to size 9.99893pt on input line 138.
 Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 9.99893pt
  -> /usr/share/fonts/OTF/FiraMath-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 7.19922pt on input line 126.
+(Font)              scaled to size 7.19922pt on input line 138.
 Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=0;" at 7.19922pt
  -> /usr/share/fonts/OTF/FiraMath-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 5.79938pt on input line 126.
+(Font)              scaled to size 5.79938pt on input line 138.
 Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 5.79938pt
  -> /usr/share/fonts/OTF/FiraMath-Regular.otf
-LaTeX Font Info:    Trying to load font information for U+msa on input line 126.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 138.
  (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -2302,7 +2302,7 @@ Requested font "msam7" at 7.2pt
  -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 Requested font "msam5" at 5.8pt
  -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-LaTeX Font Info:    Trying to load font information for U+msb on input line 126.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 138.
  (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -2319,11 +2319,11 @@ Requested font "Latin Modern Math/OT:script=math;language=dflt;+ssty=1;" at 5.8p
 File: ./figures/slal.jpg Graphic file (type bmp)
 <./figures/slal.jpg>
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 126.
+(Font)              scaled to size 8.0pt on input line 138.
 Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 8.0pt
  -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 126.
+(Font)              scaled to size 8.0pt on input line 138.
 Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 8.0pt
  -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.otf
 File: ./figures/amukherjee.jpg Graphic file (type bmp)
@@ -2332,14 +2332,18 @@ File: ./figures/spatra.jpg Graphic file (type bmp)
 <./figures/spatra.jpg>
 File: ./figures/dps_logo.jpeg Graphic file (type bmp)
 <./figures/dps_logo.jpeg>
+File: ./figures/IISER-K.png Graphic file (type bmp)
+<./figures/IISER-K.png>
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 126.
+(Font)              scaled to size 10.0pt on input line 138.
 Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 10.0pt
  -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.otf
+File: ./figures/SERB.png Graphic file (type bmp)
+<./figures/SERB.png>
 File: ./figures/IITKGP.png Graphic file (type bmp)
 <./figures/IITKGP.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 
  []
 
@@ -2350,7 +2354,7 @@ File: ./figures/nsv.jpeg Graphic file (type bmp)
 File: ./figures/JNCASR.png Graphic file (type bmp)
 <./figures/JNCASR.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 
  []
 
@@ -2360,11 +2364,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--126
 
 ]
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 7.2pt on input line 157.
+(Font)              scaled to size 7.2pt on input line 169.
 Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 7.2pt
  -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 5.8pt on input line 157.
+(Font)              scaled to size 5.8pt on input line 169.
 Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 5.8pt
  -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf
 File: ./figures/resistance_minimum.pdf Graphic file (type pdf)
@@ -2374,16 +2378,16 @@ File: ./figures/KondoModel.pdf Graphic file (type pdf)
 File: ./figures/kondo.jpg Graphic file (type bmp)
 <./figures/kondo.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
 
  []
 
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
-(Font)              scaled to size 5.0pt on input line 157.
+(Font)              scaled to size 5.0pt on input line 169.
 Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 5.0pt
  -> /home/kirito/storage/texlive/2023/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.otf
 
-Overfull \vbox (2.08311pt too high) detected at line 157
+Overfull \vbox (2.08311pt too high) detected at line 169
  []
 
 [4
@@ -2405,7 +2409,7 @@ File: ./figures/kondocloud.pdf Graphic file (type pdf)
 File: ./figures/distortsinglet.pdf Graphic file (type pdf)
 <use ./figures/distortsinglet.pdf>
 
-Underfull \hbox (badness 1917) in paragraph at lines 224--224
+Underfull \hbox (badness 1917) in paragraph at lines 236--236
 []\TU/FiraSans(0)/m/n/10 What kind of physics can []\TU/FiraSans(0)/b/n/10 disturb the
  []
 
@@ -2416,7 +2420,7 @@ File: ./figures/kondobreakdown.pdf Graphic file (type pdf)
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 226.
+(hyperref)                removing `\new@ifnextchar' on input line 238.
 
 File: ./figures/kondocloud_prb.pdf Graphic file (type pdf)
 <use ./figures/kondocloud_prb.pdf>
@@ -2435,14 +2439,14 @@ File: ./figures/kondoRevRG.pdf Graphic file (type pdf)
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 262.
+(hyperref)                removing `\new@ifnextchar' on input line 274.
 
 File: ./figures/MCKJPCM.pdf Graphic file (type pdf)
 <use ./figures/MCKJPCM.pdf>
 [10
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 351--351
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
 []\TU/FiraSans(0)/m/n/10 Single impurity interacting with
  []
 
@@ -2455,7 +2459,7 @@ File: ./figures/MCK_imp_chi.pdf Graphic file (type pdf)
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 354.
+(hyperref)                removing `\new@ifnextchar' on input line 366.
 
 File: ./figures/esiam_arxiv.pdf Graphic file (type pdf)
 <use ./figures/esiam_arxiv.pdf>
@@ -2473,7 +2477,7 @@ File: ./figures/frustration.pdf Graphic file (type pdf)
  [13
 
 ]
-Underfull \hbox (badness 1132) in paragraph at lines 403--403
+Underfull \hbox (badness 1132) in paragraph at lines 415--415
 []\TU/FiraSans(0)/m/n/10 Shows that []\TU/FiraSans(0)/b/n/10 pairing correlations[] \TU/FiraSans(0)/m/n/10 in the
  []
 
@@ -2531,12 +2535,12 @@ Package logreq Info: Writing requests to 'PP65.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39857 strings out of 478716
- 842415 string characters out of 5847712
- 1856482 words of memory out of 5000000
- 59119 multiletter control sequences out of 15000+600000
+ 39879 strings out of 478716
+ 842904 string characters out of 5847712
+ 1855482 words of memory out of 5000000
+ 59139 multiletter control sequences out of 15000+600000
  519470 words of font info for 140 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  101i,11n,150p,1868b,5435s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PP65.xdv (21 pages, 137368 bytes).
+Output written on PP65.xdv (21 pages, 138108 bytes).

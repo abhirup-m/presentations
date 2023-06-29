@@ -1,19 +1,19 @@
 # Fdb version 4
-["bibtex PP65"] 1687873481 "PP65.aux" "PP65.bbl" "PP65" 1687873503 0
-  "./PP65-blx.bib" 1687873501 342 cbbd5eae65dc1eae945f0019723fe47c ""
+["bibtex PP65"] 1687934786 "PP65.aux" "PP65.bbl" "PP65" 1687934795 0
+  "./PP65-blx.bib" 1687934793 342 cbbd5eae65dc1eae945f0019723fe47c ""
   "./bib.bib" 1687844300 318686 400b9def1af64733ddae9865372a9566 ""
   "/home/kirito/storage/texlive/2023/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1678141846 65484 b7949c47a88ed6dca66ebc7a04577312 ""
-  "PP65.aux" 1687873501 10700 33da5215cfcff6c6495c3e6f126bda4a "xelatex"
+  "PP65.aux" 1687934793 10700 33da5215cfcff6c6495c3e6f126bda4a "xelatex"
   (generated)
   "PP65.bbl"
   "PP65.blg"
   (rewritten before read)
-["xdvipdfmx"] 1687873502 "PP65.xdv" "PP65.pdf" "PP65" 1687873503 0
-  "PP65.xdv" 1687873501 137368 4b0b2fe2437d0a040cc01d4ec52ac906 "xelatex"
+["xdvipdfmx"] 1687934793 "PP65.xdv" "PP65.pdf" "PP65" 1687934795 0
+  "PP65.xdv" 1687934793 138108 717db155ea923a02e2bdc17c0e32cb3f "xelatex"
   (generated)
   "PP65.pdf"
   (rewritten before read)
-["xelatex"] 1687873498 "PP65.tex" "PP65.xdv" "PP65" 1687873503 0
+["xelatex"] 1687934790 "PP65.tex" "PP65.xdv" "PP65" 1687934795 0
   "/home/kirito/storage/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/home/kirito/storage/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -236,17 +236,18 @@
   "/home/kirito/storage/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/home/kirito/storage/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1684992281 8770550 c0341b02aa3f496e5b383ffd313b4082 ""
   "/home/kirito/storage/texlive/2023/texmf.cnf" 1684992267 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "PP65.aux" 1687873501 10700 33da5215cfcff6c6495c3e6f126bda4a "xelatex"
-  "PP65.bbl" 1687873481 16711 778c09f420e4c812edb8c7d64ba8f17a "bibtex PP65"
-  "PP65.nav" 1687873501 4328 89a45c530a92e7739e5e2f741cf58e21 "xelatex"
-  "PP65.run.xml" 1687873501 2556 28f79856c38b74f987f29d3bdc44f026 "xelatex"
-  "PP65.tex" 1687873498 15990 09854a7fdcd8d1bf3b9a0c63c3642a57 ""
+  "PP65.aux" 1687934793 10700 33da5215cfcff6c6495c3e6f126bda4a "xelatex"
+  "PP65.bbl" 1687934786 16711 778c09f420e4c812edb8c7d64ba8f17a "bibtex PP65"
+  "PP65.nav" 1687934793 4328 89a45c530a92e7739e5e2f741cf58e21 "xelatex"
+  "PP65.run.xml" 1687934793 2556 28f79856c38b74f987f29d3bdc44f026 "xelatex"
+  "PP65.tex" 1687934795 16330 dd6287d5ade54f2a2c2006c04efdb11e ""
   "beamercolorthemefocus.sty" 1680774823 2693 560e371ab0b5cf29ee4db19f7885e08d ""
   "beamerfontthemefocus.sty" 1680774823 2047 9611c31d1351bc986acea4944ba89ddc ""
   "beamerinnerthemefocus.sty" 1680774823 4597 902db94b7180b236fd9a34aa2c580cfd ""
   "beamerouterthemefocus.sty" 1680774823 13390 148fa0c264eb8eaa97a66f9507e7b235 ""
   "beamerthemefocus.sty" 1680774823 2152 8aae375b5692ea2ba7f4a38e9c25f2db ""
   "figures/AndreiN.jpg" 1687792942 279338 e58001f2944045a4756aaa3f7bf86b39 ""
+  "figures/IISER-K.png" 1687934247 75899 1aaddd7d7eb5df1519137f74c4fa966c ""
   "figures/IITKGP.png" 1687173463 286403 2ec59901afa8866228de1cb7e81452b5 ""
   "figures/JNCASR.png" 1687173447 9902 404592a013ef0e8eadebd45c1ef120db ""
   "figures/KondoCloud.pdf" 1687792942 33893 4ae7883b4aea4aeb7bbdab3c99b7cca7 ""
@@ -254,6 +255,7 @@
   "figures/MCKJPCM.pdf" 1687836376 285017 1068486809e73c092234594e78a69fa8 ""
   "figures/MCKM_zeroB.pdf" 1687840072 26720 a9fe4fe9dff1e4bb02759c0b3b332636 ""
   "figures/MCK_imp_chi.pdf" 1687842300 122904 b275e42481fc750646096e7b5b513ec8 ""
+  "figures/SERB.png" 1687934236 76399 35186968eeea984de5c1b747832f0724 ""
   "figures/affleck.jpg" 1687792942 13529 1f8b74dc1a64eadfaad052b873503900 ""
   "figures/amukherjee.jpg" 1687172104 75267 fc466df980044109bf83e3781bba3555 ""
   "figures/arghya.jpg" 1687172930 36174 8b9ef38a272e4e9e9f52518fe3636a21 ""
