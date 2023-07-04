@@ -1,9 +1,9 @@
 % !TEX program = xelatex
-\documentclass[aspectratio=169]{beamer}
+\documentclass[10pt,aspectratio=169]{beamer}
 \makeatletter
 \def\@makefnmark{}
 \makeatletter
-\usepackage{amsthm,amsmath,amssymb,braket,fontspec,unicode-math}
+\usepackage{amsthm,amsmath,amssymb,braket,fontspec,unicode-math,bbding}
 \usepackage[absolute,overlay]{textpos}
 \usetheme[numbering=none]{focus}
 \setbeamercolor{footnote}{fg=azure}
@@ -22,6 +22,7 @@
 \definecolor{lred}{HTML}{e24a33}
 \definecolor{bgreen}{HTML}{006A4E}
 \definecolor{azure}{HTML}{007fff}
+\newcommand{\alertb}[1]{\color{azure}\alert{#1}}
 \setbeamertemplate{bibliography item}[triangle]
 
 \graphicspath{{./figures/}}
@@ -65,19 +66,19 @@ Department of Physical Sciences, IISER Kolkata}
 	\centering
 	\includegraphics[width=0.6\textwidth]{slal.jpg}\\
 	\footnotesize{{\bf Siddhartha Lal}\\
-	IISER K}
+	}
 \end{minipage}
 \begin{minipage}{0.25\textwidth}
 	\centering
 	\includegraphics[width=0.6\textwidth]{amukherjee.jpg}\\
 	\footnotesize{{\bf Anirban Mukherjee}\\
-	IISER K (Graduated)}
+	}
 \end{minipage}
 \begin{minipage}{0.25\textwidth}
 	\centering
 	\includegraphics[width=0.6\textwidth]{spatra.jpeg}\\
 	\footnotesize{{\bf Siddhartha Patra}\\
-	IISER K (Graduated)}
+	}
 \end{minipage}
 \begin{minipage}{0.1\textwidth}
 	\includegraphics[width=\textwidth]{dps_logo.jpeg}
@@ -128,35 +129,40 @@ Department of Physical Sciences, IISER Kolkata}
 
 \end{frame}
 
-\section{Introducing the Kondo effect}
-\subsection{Where it all began}
+\section{List of publications, preprints and ongoing projects}
+\subsection{~}
 
-\begin{frame}{What is the Kondo effect?}
-\begin{minipage}{0.5\textwidth}
-Dilute metallic alloys show anomalous resistivity \alert{minimum} and eventual saturation.\\[10pt]
-Can be explained using the \alert{Kondo model}:
-\[H_\text{Kondo} = KE_\text{bath} + J \vec{S}_\text{imp}\cdot\vec{S}_\text{bath}\]
+\begin{frame}{List of publications, preprints and ongoing projects}
+\only<1-2>{
+\begin{itemize}
+	\item[\Checkmark] \onslide<1->{\only<1>{Unveiling the Kondo cloud: Unitary renormalization-group study of the Kondo model.\\[5pt] } 2022 \alert{Phys. Rev. B} 105, 085119.\\[5pt] A Mukherjee, \alert{Abhirup Mukherjee}, N. S. Vidhyadhiraja, A. Taraphder, and S Lal\\[10pt]}
+	\item[\Checkmark] \onslide<1->{\only<1>{Frustration shapes multi-channel Kondo physics: a star graph perspective.\\[5pt] } 2023 \alert{J. Phys.: Condens. Matter} 35 315601. \\[5pt] S Patra, \alert{Abhirup Mukherjee}, A Mukherjee, N S Vidhyadhiraja, A Taraphder and S Lal\\[10pt]
+	}
+	\item \onslide<2->{\only<2>{Kondo frustration via charge fluctuations: a route to Mott localisation.\\[5pt] } 2023 \alert{arXiv:2302.02328}. under review at New Journal of Physics.\\[5pt] \alert{Abhirup Mukherjee}, N. S. Vidhyadhiraja, A. Taraphder, S Lal\\[10pt]}
+	\item \onslide<2->{\only<2>{Holographic entanglement renormalisation for fermionic quantum matter: geometrical and topological aspects.\\[5pt]} 2023 \alert{arXiv:2302.10590}. under review at Journal of HEP.\\[5pt] \alert{Abhirup Mukherjee}, S Patra, S Lal\\[10pt]
+	}
+\end{itemize}
+}
+\only<3>{
+\begin{minipage}{0.53\textwidth}
+\begin{itemize}
+	\item[\Checkmark] 2022 \alert{Phys. Rev. B} 105, 085119.\\[5pt] A Mukherjee, \alert{Abhirup Mukherjee}, N. S. Vidhyadhiraja, A. Taraphder, and S Lal
+	\item[\Checkmark] 2023 \alert{J. Phys.: Condens. Matter} 35 315601.\\[5pt] S Patra, \alert{Abhirup Mukherjee}, A Mukherjee, N S Vidhyadhiraja, A Taraphder and S Lal
+\end{itemize}
 \end{minipage}
-\hspace*{\fill}
 \begin{minipage}{0.45\textwidth}
-\centering
-\includegraphics[width=\textwidth]{resistance_minimum.pdf}
+\begin{itemize}
+	\item 2023 \alert{arXiv:2302.02328}.\\[5pt] \alert{Abhirup Mukherjee}, N. S. Vidhyadhiraja, A. Taraphder, S Lal\\[5pt]
+	\item 2023 \alert{arXiv:2302.10590}.\\[5pt] \alert{Abhirup Mukherjee}, S Patra, S Lal
+\end{itemize}
 \end{minipage}
-
-\begin{center}
-\includegraphics[width=0.9\textwidth]{KondoModel.pdf}
-\end{center}
-
-%\vspace*{-10pt}
-\begin{minipage}{0.8\textwidth}
-Second order perturbation theory explains resistivity minimum.\\
-However, solution \alert{diverges} at \(T \to 0\)!
-\end{minipage}
-\begin{minipage}{0.1\textwidth}
-\includegraphics[width=\textwidth]{kondo.jpg}\\
-\end{minipage}
-%\vspace*{-10pt}
-\footcite{deHaas1939,Sarachik1964,Heeger1969,kondo1964resistance}
+\vspace*{\fill}
+\begin{itemize}
+	\item \onslide<3>{We are currently finishing the development of a new auxiliary model-based approach to studying correlated systems in the bulk.\\[10pt]}
+	\item \onslide<3>{We have begun work on a project that aims to provide new insights on the plateau-to-plateau transition in integer quantum hall systems.
+	}
+\end{itemize}
+}
 \end{frame}
 
 \begin{frame}{How to explain the resistance minimum \& eventual saturation?}

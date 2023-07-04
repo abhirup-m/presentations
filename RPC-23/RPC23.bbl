@@ -151,50 +151,6 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
-  \entry{deHaas1939}{article}{}
-    \name{author}{3}{}{%
-      {{hash=dW}{%
-         family={{de Haas}},
-         familyi={d\bibinitperiod},
-         given={W.J.},
-         giveni={W\bibinitperiod},
-      }}%
-      {{hash=dJ}{%
-         family={{de Boer}},
-         familyi={d\bibinitperiod},
-         given={J.},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=vG}{%
-         family={{van dën Berg}},
-         familyi={v\bibinitperiod},
-         given={G.J.},
-         giveni={G\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{dW+1}
-    \strng{fullhash}{dWdJvG1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{1934}
-    \field{labeldatesource}{}
-    \field{sortinit}{D}
-    \field{sortinithash}{D}
-    \verb{doi}
-    \verb https://doi.org/10.1016/S0031-8914(34)80310-2
-    \endverb
-    \field{issn}{0031-8914}
-    \field{number}{7}
-    \field{pages}{1115\bibrangedash 1124}
-    \field{title}{The electrical resistance of gold, copper and lead at low temperatures}
-    \verb{url}
-    \verb https://www.sciencedirect.com/science/article/pii/S0031891434803102
-    \endverb
-    \field{volume}{1}
-    \field{journaltitle}{Physica}
-    \field{year}{1934}
-  \endentry
-
   \entry{emery_kivelson}{article}{}
     \name{author}{2}{}{%
       {{hash=EVJ}{%
@@ -280,30 +236,6 @@
     \field{volume}{68}
     \field{journaltitle}{Reviews of Modern Physics}
     \field{year}{1996}
-  \endentry
-
-  \entry{Heeger1969}{book}{}
-    \name{author}{1}{}{%
-      {{hash=HAJ}{%
-         family={Heeger},
-         familyi={H\bibinitperiod},
-         given={A.\bibnamedelima J.},
-         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Academic Press, New York}%
-    }
-    \strng{namehash}{HAJ1}
-    \strng{fullhash}{HAJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{1969}
-    \field{labeldatesource}{}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \field{title}{Solid State Physics}
-    \field{year}{1969}
   \endentry
 
   \entry{kondo1964resistance}{article}{}
@@ -486,53 +418,6 @@
     \field{volume}{41}
     \field{journaltitle}{J. Phys. France}
     \field{year}{1980}
-  \endentry
-
-  \entry{Sarachik1964}{article}{}
-    \name{author}{3}{}{%
-      {{hash=SMP}{%
-         family={Sarachik},
-         familyi={S\bibinitperiod},
-         given={M.\bibnamedelima P.},
-         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=CE}{%
-         family={Corenzwit},
-         familyi={C\bibinitperiod},
-         given={E.},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=LLD}{%
-         family={Longinotti},
-         familyi={L\bibinitperiod},
-         given={L.\bibnamedelima D.},
-         giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {American Physical Society}%
-    }
-    \strng{namehash}{SMP+1}
-    \strng{fullhash}{SMPCELLD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{1964}
-    \field{labeldatesource}{}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \verb{doi}
-    \verb 10.1103/PhysRev.135.A1041
-    \endverb
-    \field{issue}{4A}
-    \field{pages}{A1041\bibrangedash A1045}
-    \field{title}{Resistivity of Mo-Nb and Mo-Re Alloys Containing 1\% Fe}
-    \verb{url}
-    \verb https://link.aps.org/doi/10.1103/PhysRev.135.A1041
-    \endverb
-    \field{volume}{135}
-    \field{journaltitle}{Phys. Rev.}
-    \field{year}{1964}
-    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Wiegmann_1981}{article}{}
