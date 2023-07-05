@@ -1,9 +1,9 @@
 % !TEX program = xelatex
-\documentclass[10pt,aspectratio=169]{beamer}
+\documentclass[aspectratio=169]{beamer}
 \makeatletter
 \def\@makefnmark{}
 \makeatletter
-\usepackage{amsthm,amsmath,amssymb,braket,fontspec,unicode-math,bbding}
+\usepackage{amsthm,amsmath,amssymb,braket,fontspec,unicode-math}
 \usepackage[absolute,overlay]{textpos}
 \usetheme[numbering=none]{focus}
 \setbeamercolor{footnote}{fg=azure}
@@ -11,6 +11,8 @@
 \setbeamerfont{alerted text}{series=\bfseries}
 
 \setmathfont{Latin Modern Math}[range={frak,\bigcap,\bigcup}]
+
+\setmathfont{Latin Modern Math}[range=\checkmark]
 
 \usepackage[backend=bibtex,url=false,doi=false,maxcitenames=1, style=authoryear]{biblatex}
 \bibliography{bib}
@@ -62,19 +64,19 @@ Department of Physical Sciences, IISER Kolkata}
 \begin{minipage}{0.1\textwidth}
 	\includegraphics[width=\textwidth]{epqm_logo_mod.jpeg}
 \end{minipage}
-\begin{minipage}{0.25\textwidth}
+\begin{minipage}{0.22\textwidth}
 	\centering
 	\includegraphics[width=0.6\textwidth]{slal.jpg}\\
 	\footnotesize{{\bf Siddhartha Lal}\\
 	}
 \end{minipage}
-\begin{minipage}{0.25\textwidth}
+\begin{minipage}{0.22\textwidth}
 	\centering
 	\includegraphics[width=0.6\textwidth]{amukherjee.jpg}\\
 	\footnotesize{{\bf Anirban Mukherjee}\\
 	}
 \end{minipage}
-\begin{minipage}{0.25\textwidth}
+\begin{minipage}{0.22\textwidth}
 	\centering
 	\includegraphics[width=0.6\textwidth]{spatra.jpeg}\\
 	\footnotesize{{\bf Siddhartha Patra}\\
@@ -86,19 +88,19 @@ Department of Physical Sciences, IISER Kolkata}
 \hspace*{\fill}
 \\
 \vspace*{\fill}
-\begin{minipage}{0.18\textwidth}
+\begin{minipage}{0.1\textwidth}
 \includegraphics[width=\textwidth]{IISER-K.png}
 \end{minipage}
 \hspace*{\fill}
 \begin{minipage}{0.6\textwidth}
 \centering
 \alert{$\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim$ }\\
-\alert{A huge thanks to all my collaborators! }\\[10pt]
+\alert{A huge thanks to all my collaborators! }\\
 \alert{Thanks to IISER K and SERB for financial support.}\\
 \alert{$\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim\sim$ }\\
 \end{minipage}
 \hspace*{\fill}
-\begin{minipage}{0.18\textwidth}
+\begin{minipage}{0.15\textwidth}
 \includegraphics[width=\textwidth]{SERB.png}
 \end{minipage}
 \vspace*{\fill}
@@ -110,14 +112,14 @@ Department of Physical Sciences, IISER Kolkata}
 \hspace*{\fill}
 \begin{minipage}{0.3\textwidth}
 	\centering
-	\includegraphics[width=0.45\textwidth]{arghya.jpg}\\
+	\includegraphics[width=0.4\textwidth]{arghya.jpg}\\
 	\footnotesize{{\bf Arghya Taraphder}\\
 	IIT Kharagpur}
 \end{minipage}
 \hspace*{\fill}
 \begin{minipage}{0.3\textwidth}
 	\centering
-	\includegraphics[width=0.45\textwidth]{nsv.jpeg}\\
+	\includegraphics[width=0.4\textwidth]{nsv.jpeg}\\
 	\footnotesize{{\bf N. S. Vidhyadhiraja}\\
 	JNCASR Bangalore}
 \end{minipage}
@@ -129,242 +131,75 @@ Department of Physical Sciences, IISER Kolkata}
 
 \end{frame}
 
-\section{List of publications, preprints and ongoing projects}
+\section{List of completed and ongoing projects}
 \subsection{~}
 
 \begin{frame}{List of publications, preprints and ongoing projects}
 \only<1-2>{
+\vspace*{-20pt}
 \begin{itemize}
-	\item[\Checkmark] \onslide<1->{\only<1>{Unveiling the Kondo cloud: Unitary renormalization-group study of the Kondo model.\\[5pt] } 2022 \alert{Phys. Rev. B} 105, 085119.\\[5pt] A Mukherjee, \alert{Abhirup Mukherjee}, N. S. Vidhyadhiraja, A. Taraphder, and S Lal\\[10pt]}
-	\item[\Checkmark] \onslide<1->{\only<1>{Frustration shapes multi-channel Kondo physics: a star graph perspective.\\[5pt] } 2023 \alert{J. Phys.: Condens. Matter} 35 315601. \\[5pt] S Patra, \alert{Abhirup Mukherjee}, A Mukherjee, N S Vidhyadhiraja, A Taraphder and S Lal\\[10pt]
+	\item[$\checkmark$] \onslide<1->{Unveiling the Kondo cloud: Unitary RG study of the Kondo model.\\  2022 \alert{Phys. Rev. B} 105, 085119.\\ A Mukherjee, \alert{Abhirup Mukherjee}, N. S. Vidhyadhiraja, A. Taraphder, S Lal\\[10pt]}
+	\item[$\checkmark$] \onslide<1->{Frustration shapes multi-channel Kondo physics: a star graph perspective.\\  2023 \alert{J. Phys.: Condens. Matter} 35 315601. \\ S Patra, \alert{Abhirup Mukherjee}, A Mukherjee, N. S. Vidhyadhiraja, A Taraphder, S Lal\\[10pt]
 	}
-	\item \onslide<2->{\only<2>{Kondo frustration via charge fluctuations: a route to Mott localisation.\\[5pt] } 2023 \alert{arXiv:2302.02328}. under review at New Journal of Physics.\\[5pt] \alert{Abhirup Mukherjee}, N. S. Vidhyadhiraja, A. Taraphder, S Lal\\[10pt]}
-	\item \onslide<2->{\only<2>{Holographic entanglement renormalisation for fermionic quantum matter: geometrical and topological aspects.\\[5pt]} 2023 \alert{arXiv:2302.10590}. under review at Journal of HEP.\\[5pt] \alert{Abhirup Mukherjee}, S Patra, S Lal\\[10pt]
+\item \onslide<2->{Kondo frustration via charge fluctuations: a route to Mott localisation.\\  2023 arXiv:2302.02328. \alert{under review} at New Journal of Physics.\\ \alert{Abhirup Mukherjee}, N. S. Vidhyadhiraja, A. Taraphder, S Lal\\[10pt]}
+\item \onslide<2->{Holographic entanglement renormalisation for fermionic quantum matter.\\ 2023 arXiv:2302.10590. \alert{under review} at Journal of HEP.\\ \alert{Abhirup Mukherjee}, S Patra, S Lal
 	}
 \end{itemize}
 }
 \only<3>{
-\begin{minipage}{0.53\textwidth}
+\vspace*{-30pt}
+\flushleft
+\alert{Currently in progress}\\
 \begin{itemize}
-	\item[\Checkmark] 2022 \alert{Phys. Rev. B} 105, 085119.\\[5pt] A Mukherjee, \alert{Abhirup Mukherjee}, N. S. Vidhyadhiraja, A. Taraphder, and S Lal
-	\item[\Checkmark] 2023 \alert{J. Phys.: Condens. Matter} 35 315601.\\[5pt] S Patra, \alert{Abhirup Mukherjee}, A Mukherjee, N S Vidhyadhiraja, A Taraphder and S Lal
+	\item Development of auxiliary model-based method for studying bulk correlated systems.\\[10pt]
+	\item Studies of the plateau-to-plateau transition in integer quantum hall systems.
 \end{itemize}
-\end{minipage}
-\begin{minipage}{0.45\textwidth}
-\begin{itemize}
-	\item 2023 \alert{arXiv:2302.02328}.\\[5pt] \alert{Abhirup Mukherjee}, N. S. Vidhyadhiraja, A. Taraphder, S Lal\\[5pt]
-	\item 2023 \alert{arXiv:2302.10590}.\\[5pt] \alert{Abhirup Mukherjee}, S Patra, S Lal
-\end{itemize}
-\end{minipage}
+
+\vspace*{20pt}
+\hrule
+
 \vspace*{\fill}
+\begin{minipage}{0.55\textwidth}
 \begin{itemize}
-	\item \onslide<3>{We are currently finishing the development of a new auxiliary model-based approach to studying correlated systems in the bulk.\\[10pt]}
-	\item \onslide<3>{We have begun work on a project that aims to provide new insights on the plateau-to-plateau transition in integer quantum hall systems.
-	}
+	\item[$\checkmark$] 2022 \alert{Phys. Rev. B} 105, 085119.\\[5pt] A Mukherjee, \alert{Abhirup Mukherjee}, \ldots, S. Lal
+	\item[$\checkmark$] 2023 \alert{J. Phys.: Condens. Matter} 35 315601.\\[5pt] S Patra, \alert{Abhirup Mukherjee}, \ldots, S. Lal
 \end{itemize}
+\end{minipage}
+\begin{minipage}{0.44\textwidth}
+\begin{itemize}
+	\item 2023 \alert{arXiv:2302.02328}.\\[5pt] \alert{Abhirup Mukherjee}, \ldots, S. Lal\\[5pt]
+	\item 2023 \alert{arXiv:2302.10590}.\\[5pt] \alert{Abhirup Mukherjee}, \ldots, S. Lal
+\end{itemize}
+\end{minipage}
 }
-\end{frame}
-
-\begin{frame}{How to explain the resistance minimum \& eventual saturation?}
-\footcite{wilson1975,andrei_1980,Wiegmann_1981,affleck1995conformal}
-Breakdown of perturbation theory indicates a \alert{change in ground state}!\\[10pt]
-Obtaining \(T=0\) ground state requires more \alert{powerful  methods}\\[10pt]
-
-\begin{minipage}{0.2\textwidth}
-\centering
-Numerical RG\\[10pt]
-\includegraphics[width=0.5\textwidth]{wilson.jpg}\\
-\footnotesize{(K. G. Wilson)}
-\end{minipage}
-\begin{minipage}{0.2\textwidth}
-\centering
-Bethe ansatz\\[10pt]
-\includegraphics[width=0.5\textwidth]{AndreiN.jpg}\\
-\footnotesize{(Natan Andrei)}
-\end{minipage}
-\begin{minipage}{0.2\textwidth}
-\centering
-Conf. field theory\\[10pt]
-\includegraphics[width=0.5\textwidth]{affleck.jpg}\\
-\footnotesize{(Ian Affleck)}
-\end{minipage}
-\begin{minipage}{0.38\textwidth}
-\begin{itemize}
-	\item impurity becomes \alert{strongly coupled} at low temperatures
-	\item local moment crosses over into \alert{nonmagnetic} singlet
-\end{itemize}
-\end{minipage}
-
-\vspace*{\fill}
-\includegraphics[width=0.9\textwidth]{crossover.pdf}\\
 
 \end{frame}
 
-\section{Some important questions}
-\begin{frame}{Some important questions}
-\begin{minipage}{0.45\textwidth}
-	How do we describe the dynamics of the electrons that screen the impurity (the so-called \alert{Kondo cloud})?\\
-	\footnotesize{[Mukherjee et al 2023 Phys. Rev. B 105, 085119]}
-\end{minipage}
+\section{Quantum phase transition in an extended-SIAM}
+\subsection{Abhirup Mukherjee, N. S. Vidhyadhiraja, A. Taraphder, Siddhartha Lal\\ arXiv:2302.02328. (2023)}
+
+\begin{frame}{Broad questions}
+Dynamical mean-field theory shows \alert{metal-insulator transition}\\ for the Hubbard model in \(\infty\) dimensions.\\
+\includegraphics[width=0.4\textwidth]{selfconsistency.pdf}
 \hspace*{\fill}
-\begin{minipage}{0.45\textwidth}
-	\includegraphics[width=0.9\textwidth]{kondocloud.pdf}
-\end{minipage}
-\vspace*{\fill}
-
-\begin{minipage}{0.45\textwidth}
-	\includegraphics[width=0.9\textwidth]{distortsinglet.pdf}
-\end{minipage}
-\hspace*{\fill}
-\begin{minipage}{0.45\textwidth}
-	What kind of physics can \alert{disturb the Kondo screening} effect and distort the singlet state?\\
-	\footnotesize{[Patra et al 2023 J. Phys.: Condens. Matter 35 315601]}
-\end{minipage}
-\vspace*{\fill}
-
-\begin{minipage}{0.45\textwidth}
-	What is the simplest impurity model that completely destroys the Kondo effect and leads to a \alert{phase transition}?\\
-	\footnotesize{[Mukherjee et al 2023 arXiv:2302.02328]}
-\end{minipage}
-\hspace*{\fill}
-\begin{minipage}{0.45\textwidth}
-	\includegraphics[width=0.9\textwidth]{kondobreakdown.pdf}
-\end{minipage}
-\end{frame}
-
-\section{The single-channel Kondo problem:\\ Anatomy of the Kondo cloud\vspace*{20pt}}
-\begin{textblock*}{\textwidth}(1cm, 3.5cm)
-\includegraphics[width=\textwidth]{kondocloud_prb.pdf}\\
-\end{textblock*}
-\subsection{~}
-
-\begin{frame}{Effective Hamiltonian for the Kondo cloud}
-\footcite{anirban_kondo,anirbanurg1,anirbanurg2}
-We first applied the \alert{unitary RG} to obtain a low energy fixed point theory.\\[10pt]
-To obtain a theory for the Kondo cloud, we \alert{trace out impurity} from fixed point Hamiltonian.
-\vspace*{\fill}
-
-\includegraphics[width=\textwidth]{KondoCloud.pdf}
+\includegraphics[width=0.4\textwidth]{coexistence-dmft.pdf}
 
 \vspace*{\fill}
-\begin{itemize}
-	\item all-to-all interactions between momentum states, \alert{large entanglement}
-	\item 2-particle interaction terms \alert{not} present in Fermi liquid, are \alert{responsible for screening}
-\end{itemize}
+\includegraphics[width=0.4\textwidth]{siam_schematic.pdf}
+\includegraphics[width=0.4\textwidth]{standard-siam.pdf}
 
 \end{frame}
+\section{Holography of entanglement in 2D free fermions}
+\subsection{Abhirup Mukherjee, Siddhartha Patra, Siddhartha Lal\\ arXiv:2302.10590. (2023)}
 
-\begin{frame}{Quantifying entanglement within the Kondo cloud}
-\footcite{anirban_kondo}
-In order to demonstrate formation of Kondo cloud, we study the \alert{variation of entanglement} and correlations under RG transformations.
+\section{Tiling the lattice with the extended SIAM}
+\subsection{Ongoing project}
 
-\vspace*{\fill}
-\includegraphics[width=\textwidth]{kondoRevRG.pdf}
+\section{Search for punctured-Chern topology at IQHE transitions}
+\subsection{Ongoing project}
 
-\vspace*{\fill}
-\begin{itemize}
-	\item Both entanglement and \(k-\)space correlations \alert{increase} as RG proceeds from UV to IR.\\[10pt]
-	\item This shows the formation of the \alert{Kondo singlet} and the growth of two-particle correlations in the \alert{Kondo cloud}.
-\end{itemize}
-\end{frame}
-
-\section{Distorting the Kondo singlet:\\ The multi-channel Kondo Problem\vspace*{20pt}}
-\begin{textblock*}{\textwidth}(1cm, 3.5cm)
-\includegraphics[width=0.8\textwidth]{MCKJPCM.pdf}
-\end{textblock*}
-\subsection{~}
-
-\begin{frame}{What is the multichannel Kondo problem?}
-\footcite{Noz_blandin_1980,affleck1993exact,emery_kivelson,andrei_destri_1984}
-\begin{minipage}{0.39\textwidth}
-Single impurity interacting with \alert{multiple channels} in the bath
-\[H_\text{Kondo} = KE_\text{bath} + \sum_{l}J_l \vec{S}_\text{imp}\cdot\vec{s}^{(l)}\]
-\end{minipage}
-\hspace*{\fill}
-\begin{minipage}{0.59\textwidth}
-\includegraphics[width=\textwidth]{MCKM_zeroB.pdf}
-\end{minipage}\\[10pt]
-Known to display divergent \(T=0\) impurity susceptibility (incomplete screening), and orthogonality catastrophe, \alert{non-Fermi liquid} excitations.\\[10pt]
-\begin{minipage}{0.64\textwidth}
-Zero bandwidth limit is (analytically) solvable: \(\left\{\ket{S_\text{tot}^z}\right\}\)\\
-\begin{itemize}
-	\item Ground state degeneracy for \(K > 1\) explains \alert{orthogonality catastrophe}\\[5pt]
-\item \(S_\text{tot}^z \neq 0\) in ground states shows incomplete screening\\[5pt]
-\item Excitations shows \alert{non-Fermi liquid} physics in the form of inter-channel scattering.
-\end{itemize}
-\end{minipage}
-\begin{minipage}{0.35\textwidth}
-\includegraphics[width=\textwidth]{MCK_imp_chi.pdf}
-\end{minipage}
-
-%\hspace*{\fill}
-%\begin{minipage}{0.25\textwidth}
-%\includegraphics[width=\textwidth]{stargraph.pdf}
-%\end{minipage}
-%
-%\begin{frame}{Can a simpler model make this more intuitive?}
-%\footcite{Patra_2023}
-%\only<1>{
-%\begin{minipage}{0.45\textwidth}
-%At \(T=0\) and in the ground state, consider \alert{only} lowest energy state in bath.
-%\end{minipage}
-%\hspace*{\fill}
-%\begin{minipage}{0.45\textwidth}
-%	\[KE_\text{bath} + \sum_{l=1}^K J_l \vec{S}_\text{imp}\cdot\vec{s}^{(l)} \Longrightarrow \sum_{l=1}^K J_l \vec{S}_\text{imp}\cdot\vec{s_0}^{(l)} \]
-%\end{minipage}
-%
-%\vspace*{\fill}
-%\includegraphics[width=0.7\textwidth]{MCKM_zeroB.pdf}
-%}
-%\only<2>{
-%\begin{minipage}{0.7\textwidth}
-%\[\text{Model is (analytically) solvable}: \left\{\ket{S_\text{tot}^z}\right\}\]
-%\[\text{Ground state is \alert{degenerate} for $K > 1$}\]
-%\begin{itemize}
-%	\item Degeneracy for \(K > 1\) shows orthogonality catastrophe\\[10pt]
-%	\item \(S_\text{tot}^z \neq 0\) in ground states shows incomplete screening
-%\end{itemize}
-%\end{minipage}
-%\hspace*{\fill}
-%\begin{minipage}{0.25\textwidth}
-%\includegraphics[width=\textwidth]{stargraph.pdf}
-%\end{minipage}
-%}
-%\only<3>{
-%\begin{minipage}{0.55\textwidth}
-%	Magnetisation of central node goes as 
-%	\[ m = \frac{1-K}{2(1 + K)}\]
-%\begin{itemize}
-%	\item Susceptibility shows \(T=0\) \alert{divergence} for \(K > 1\)\\[10pt]
-%	\item Magnetisation can be linked to \alert{scattering phase shifts} and hence to RG equation
-%\end{itemize}
-%\end{minipage}
-%\hspace*{\fill}
-%\begin{minipage}{0.35\textwidth}
-%\includegraphics[width=\textwidth]{MCK_imp_chi.pdf}
-%\end{minipage}
-%}
-%\only<4>{
-%\begin{minipage}{0.4\textwidth}
-%\includegraphics[width=\textwidth]{EE_excitations.png}
-%\end{minipage}
-%\hspace*{\fill}
-%\begin{minipage}{0.55\textwidth}
-%Upon including excitations above the stargraph\\
-%\begin{itemize}
-%	\item entanglement entropy of central node shows \alert{discontinuity} \(\Longrightarrow\) orthogonality catastrophe\\[10pt]
-%	\item effective Hamiltonian for these excitations shows \alert{non-Fermi liquid} physics
-%\end{itemize}
-%\end{minipage}
-%}
-\end{frame}
-
-\section{How to destroy the Kondo cloud:\\
-Effect of local interactions in the bath\vspace*{20pt}}
-\begin{textblock*}{\textwidth}(1cm, 3.5cm)
-\includegraphics[width=0.9\textwidth]{esiam_arxiv.pdf}\\
-\end{textblock*}
-\subsection{~}
+\section{The extended-SIAM project}
+\subsection{Abhirup Mukherjee, N. S. Vidhyadhiraja, A. Taraphder, S. Lal\\ arXiv:2302.02328. (2023)}
 
 \begin{frame}{What is the new physics ingredient?}
 \footcite{kotliar1992}

@@ -4,70 +4,73 @@
 \headcommand {\beamer@framepages {2}{2}}
 \headcommand {\beamer@sectionpages {1}{2}}
 \headcommand {\beamer@subsectionpages {1}{2}}
-\headcommand {\sectionentry {1}{List of publications, preprints and ongoing projects}{3}{List of publications, preprints and ongoing projects}{0}}
+\headcommand {\sectionentry {1}{List of completed and ongoing projects}{3}{List of completed and ongoing projects}{0}}
 \headcommand {\beamer@subsectionpages {3}{2}}
 \headcommand {\beamer@subsectionentry {0}{1}{1}{3}{\nobreakspace {}}}
 \headcommand {\slideentry {1}{1}{1}{3/3}{\nobreakspace {}}{0}}
 \headcommand {\beamer@framepages {3}{3}}
 \headcommand {\slideentry {1}{1}{2}{4/6}{\nobreakspace {}}{0}}
 \headcommand {\beamer@framepages {4}{6}}
-\headcommand {\slideentry {1}{1}{3}{7/7}{\nobreakspace {}}{0}}
+\headcommand {\beamer@sectionpages {3}{6}}
+\headcommand {\beamer@subsectionpages {3}{6}}
+\headcommand {\sectionentry {2}{Quantum phase transition in an extended-SIAM}{7}{Quantum phase transition in an extended-SIAM}{0}}
+\headcommand {\beamer@subsectionpages {7}{6}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{7}{Abhirup Mukherjee, N. S. Vidhyadhiraja, A. Taraphder, Siddhartha Lal\\ arXiv:2302.02328. (2023)}}
+\headcommand {\slideentry {2}{1}{1}{7/7}{Abhirup Mukherjee, N. S. Vidhyadhiraja, A. Taraphder, Siddhartha Lal\\ arXiv:2302.02328. (2023)}{0}}
 \headcommand {\beamer@framepages {7}{7}}
-\headcommand {\beamer@sectionpages {3}{7}}
-\headcommand {\beamer@subsectionpages {3}{7}}
-\headcommand {\sectionentry {2}{Some important questions}{8}{Some important questions}{0}}
-\headcommand {\slideentry {2}{0}{1}{8/8}{}{0}}
+\headcommand {\slideentry {2}{1}{2}{8/8}{Abhirup Mukherjee, N. S. Vidhyadhiraja, A. Taraphder, Siddhartha Lal\\ arXiv:2302.02328. (2023)}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\beamer@sectionpages {8}{8}}
-\headcommand {\beamer@subsectionpages {8}{8}}
-\headcommand {\sectionentry {3}{The single-channel Kondo problem:\\ Anatomy of the Kondo cloud\vspace *{20pt}}{9}{The single-channel Kondo problem:\\ Anatomy of the Kondo cloud\vspace *{20pt}}{0}}
+\headcommand {\beamer@sectionpages {7}{8}}
+\headcommand {\beamer@subsectionpages {7}{8}}
+\headcommand {\sectionentry {3}{Holography of entanglement in 2D free fermions}{9}{Holography of entanglement in 2D free fermions}{0}}
 \headcommand {\beamer@subsectionpages {9}{8}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{9}{\nobreakspace {}}}
-\headcommand {\slideentry {3}{1}{1}{9/9}{\nobreakspace {}}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{9}{Abhirup Mukherjee, Siddhartha Patra, Siddhartha Lal\\ arXiv:2302.10590. (2023)}}
+\headcommand {\slideentry {3}{1}{1}{9/9}{Abhirup Mukherjee, Siddhartha Patra, Siddhartha Lal\\ arXiv:2302.10590. (2023)}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\slideentry {3}{1}{2}{10/10}{\nobreakspace {}}{0}}
+\headcommand {\beamer@sectionpages {9}{9}}
+\headcommand {\beamer@subsectionpages {9}{9}}
+\headcommand {\sectionentry {4}{Tiling the lattice with the extended SIAM}{10}{Tiling the lattice with the extended SIAM}{0}}
+\headcommand {\beamer@subsectionpages {10}{9}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{10}{Ongoing project}}
+\headcommand {\slideentry {4}{1}{1}{10/10}{Ongoing project}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {3}{1}{3}{11/11}{\nobreakspace {}}{0}}
+\headcommand {\beamer@sectionpages {10}{10}}
+\headcommand {\beamer@subsectionpages {10}{10}}
+\headcommand {\sectionentry {5}{Search for punctured-Chern topology at IQHE transitions}{11}{Search for punctured-Chern topology at IQHE transitions}{0}}
+\headcommand {\beamer@subsectionpages {11}{10}}
+\headcommand {\beamer@subsectionentry {0}{5}{1}{11}{Ongoing project}}
+\headcommand {\slideentry {5}{1}{1}{11/11}{Ongoing project}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\beamer@sectionpages {9}{11}}
-\headcommand {\beamer@subsectionpages {9}{11}}
-\headcommand {\sectionentry {4}{Distorting the Kondo singlet:\\ The multi-channel Kondo Problem\vspace *{20pt}}{12}{Distorting the Kondo singlet:\\ The multi-channel Kondo Problem\vspace *{20pt}}{0}}
+\headcommand {\beamer@sectionpages {11}{11}}
+\headcommand {\beamer@subsectionpages {11}{11}}
+\headcommand {\sectionentry {6}{The extended-SIAM project}{12}{The extended-SIAM project}{0}}
 \headcommand {\beamer@subsectionpages {12}{11}}
-\headcommand {\beamer@subsectionentry {0}{4}{1}{12}{\nobreakspace {}}}
-\headcommand {\slideentry {4}{1}{1}{12/12}{\nobreakspace {}}{0}}
+\headcommand {\beamer@subsectionentry {0}{6}{1}{12}{Abhirup Mukherjee, N. S. Vidhyadhiraja, A. Taraphder, S. Lal\\ arXiv:2302.02328. (2023)}}
+\headcommand {\slideentry {6}{1}{1}{12/12}{Abhirup Mukherjee, N. S. Vidhyadhiraja, A. Taraphder, S. Lal\\ arXiv:2302.02328. (2023)}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\slideentry {4}{1}{2}{13/13}{\nobreakspace {}}{0}}
+\headcommand {\slideentry {6}{1}{2}{13/13}{Abhirup Mukherjee, N. S. Vidhyadhiraja, A. Taraphder, S. Lal\\ arXiv:2302.02328. (2023)}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\beamer@sectionpages {12}{13}}
-\headcommand {\beamer@subsectionpages {12}{13}}
-\headcommand {\sectionentry {5}{How to destroy the Kondo cloud:\\ Effect of local interactions in the bath\vspace *{20pt}}{14}{How to destroy the Kondo cloud:\\ Effect of local interactions in the bath\vspace *{20pt}}{0}}
-\headcommand {\beamer@subsectionpages {14}{13}}
-\headcommand {\beamer@subsectionentry {0}{5}{1}{14}{\nobreakspace {}}}
-\headcommand {\slideentry {5}{1}{1}{14/14}{\nobreakspace {}}{0}}
+\headcommand {\slideentry {6}{1}{3}{14/14}{Abhirup Mukherjee, N. S. Vidhyadhiraja, A. Taraphder, S. Lal\\ arXiv:2302.02328. (2023)}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\slideentry {5}{1}{2}{15/15}{\nobreakspace {}}{0}}
+\headcommand {\beamer@sectionpages {12}{14}}
+\headcommand {\beamer@subsectionpages {12}{14}}
+\headcommand {\sectionentry {7}{Concluding remarks}{15}{Concluding remarks}{0}}
+\headcommand {\beamer@subsectionpages {15}{14}}
+\headcommand {\beamer@subsectionentry {0}{7}{1}{15}{\nobreakspace {}}}
+\headcommand {\slideentry {7}{1}{1}{15/15}{\nobreakspace {}}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\slideentry {5}{1}{3}{16/16}{\nobreakspace {}}{0}}
+\headcommand {\slideentry {7}{1}{2}{16/16}{\nobreakspace {}}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\beamer@sectionpages {14}{16}}
-\headcommand {\beamer@subsectionpages {14}{16}}
-\headcommand {\sectionentry {6}{Concluding remarks}{17}{Concluding remarks}{0}}
-\headcommand {\beamer@subsectionpages {17}{16}}
-\headcommand {\beamer@subsectionentry {0}{6}{1}{17}{\nobreakspace {}}}
-\headcommand {\slideentry {6}{1}{1}{17/17}{\nobreakspace {}}{0}}
+\headcommand {\slideentry {7}{1}{3}{17/17}{\nobreakspace {}}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\slideentry {6}{1}{2}{18/18}{\nobreakspace {}}{0}}
+\headcommand {\slideentry {7}{1}{4}{18/18}{\nobreakspace {}}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\slideentry {6}{1}{3}{19/19}{\nobreakspace {}}{0}}
+\headcommand {\slideentry {7}{1}{5}{19/19}{\nobreakspace {}}{0}}
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\slideentry {6}{1}{4}{20/20}{\nobreakspace {}}{0}}
-\headcommand {\beamer@framepages {20}{20}}
-\headcommand {\slideentry {6}{1}{5}{21/21}{\nobreakspace {}}{0}}
-\headcommand {\beamer@framepages {21}{21}}
-\headcommand {\slideentry {6}{1}{6}{22/23}{\nobreakspace {}}{0}}
-\headcommand {\beamer@framepages {22}{23}}
-\headcommand {\beamer@partpages {1}{23}}
-\headcommand {\beamer@subsectionpages {17}{23}}
-\headcommand {\beamer@sectionpages {17}{23}}
-\headcommand {\beamer@documentpages {23}}
-\headcommand {\gdef \inserttotalframenumber {14}}
+\headcommand {\slideentry {7}{1}{6}{20/21}{\nobreakspace {}}{0}}
+\headcommand {\beamer@framepages {20}{21}}
+\headcommand {\beamer@partpages {1}{21}}
+\headcommand {\beamer@subsectionpages {15}{21}}
+\headcommand {\beamer@sectionpages {15}{21}}
+\headcommand {\beamer@documentpages {21}}
+\headcommand {\gdef \inserttotalframenumber {3}}

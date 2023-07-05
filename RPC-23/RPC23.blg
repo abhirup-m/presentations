@@ -1,65 +1,65 @@
-This is BibTeX, Version 0.99d (TeX Live 2023/Arch Linux)
+This is BibTeX, Version 0.99d (TeX Live 2023)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: RPC23.aux
 The style file: biblatex.bst
-Reallocated glb_str_ptr (elt_size=8) to 20 items from 10.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=8) to 20 items from 10.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: RPC23-blx.bib
 Database file #2: bib.bib
 Biblatex version: 3.19
-Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-You've used 14 entries,
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 5 entries,
             6399 wiz_defined-function locations,
-            1308 strings with 11355 characters,
-and the built_in function-call counts, 93383 in all, are:
-= -- 7093
-> -- 1459
-< -- 477
-+ -- 2404
-- -- 481
-* -- 6739
-:= -- 9805
+            1227 strings with 9603 characters,
+and the built_in function-call counts, 30429 in all, are:
+= -- 2304
+> -- 487
+< -- 125
++ -- 858
+- -- 168
+* -- 2138
+:= -- 3510
 add.period$ -- 0
-call.type$ -- 14
-change.case$ -- 305
-chr.to.int$ -- 48
-cite$ -- 26
-duplicate$ -- 9852
-empty$ -- 8462
-format.name$ -- 794
-if$ -- 19340
+call.type$ -- 5
+change.case$ -- 72
+chr.to.int$ -- 42
+cite$ -- 8
+duplicate$ -- 3220
+empty$ -- 2675
+format.name$ -- 260
+if$ -- 6205
 int.to.chr$ -- 0
-int.to.str$ -- 38
+int.to.str$ -- 13
 missing$ -- 0
-newline$ -- 484
-num.names$ -- 720
-pop$ -- 4573
+newline$ -- 156
+num.names$ -- 202
+pop$ -- 1473
 preamble$ -- 1
-purify$ -- 357
+purify$ -- 90
 quote$ -- 0
-skip$ -- 2686
+skip$ -- 824
 stack$ -- 0
-substring$ -- 12407
-swap$ -- 2300
-text.length$ -- 349
-text.prefix$ -- 13
+substring$ -- 4019
+swap$ -- 675
+text.length$ -- 123
+text.prefix$ -- 4
 top$ -- 1
-type$ -- 464
+type$ -- 158
 warning$ -- 0
-while$ -- 1220
+while$ -- 461
 width$ -- 0
-write$ -- 471
+write$ -- 152
