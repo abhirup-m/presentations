@@ -2,13 +2,10 @@
 \beamer@subsectionintoc {1}{1}{\nobreakspace {}}{3}{0}{1}
 \beamer@sectionintoc {2}{Quantum phase transition in an extended-SIAM}{7}{0}{2}
 \beamer@subsectionintoc {2}{1}{Abhirup Mukherjee, N. S. Vidhyadhiraja, A. Taraphder, Siddhartha Lal\\ arXiv:2302.02328. (2023)}{7}{0}{2}
-\beamer@sectionintoc {3}{Holography of entanglement in 2D free fermions}{11}{0}{3}
-\beamer@subsectionintoc {3}{1}{Abhirup Mukherjee, Siddhartha Patra, Siddhartha Lal\\ arXiv:2302.10590. (2023)}{11}{0}{3}
-\beamer@sectionintoc {4}{Tiling the lattice with the extended SIAM}{12}{0}{4}
-\beamer@subsectionintoc {4}{1}{Ongoing project}{12}{0}{4}
-\beamer@sectionintoc {5}{Search for punctured-Chern topology at IQHE transitions}{13}{0}{5}
-\beamer@subsectionintoc {5}{1}{Ongoing project}{13}{0}{5}
-\beamer@sectionintoc {6}{The extended-SIAM project}{14}{0}{6}
-\beamer@subsectionintoc {6}{1}{Abhirup Mukherjee, N. S. Vidhyadhiraja, A. Taraphder, S. Lal\\ arXiv:2302.02328. (2023)}{14}{0}{6}
-\beamer@sectionintoc {7}{Concluding remarks}{17}{0}{7}
-\beamer@subsectionintoc {7}{1}{\nobreakspace {}}{17}{0}{7}
+\beamer@sectionintoc {3}{Holography of entanglement in 2D free fermions}{16}{0}{3}
+\beamer@subsectionintoc {3}{1}{Abhirup Mukherjee, Siddhartha Patra, Siddhartha Lal\\ arXiv:2302.10590. (2023)}{16}{0}{3}
+\beamer@sectionintoc {4}{Tiling a lattice with the extended SIAM}{22}{0}{4}
+\beamer@subsectionintoc {4}{1}{Ongoing project}{22}{0}{4}
+\beamer@sectionintoc {5}{Search for punctured-Chern topology at IQHE transitions}{28}{0}{5}
+\beamer@subsectionintoc {5}{1}{Ongoing project}{28}{0}{5}
+\beamer@sectionintoc {6}{Future plans}{30}{0}{6}

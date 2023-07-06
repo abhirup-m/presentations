@@ -178,27 +178,26 @@ Department of Physical Sciences, IISER Kolkata}
 \subsection{Abhirup Mukherjee, N. S. Vidhyadhiraja, A. Taraphder, Siddhartha Lal\\ arXiv:2302.02328. (2023)}
 
 \begin{frame}{Some broad questions}
-\only<1>{
-\begin{minipage}{0.44\textwidth}
+\begin{minipage}{0.4\textwidth}
 Dynamical mean-field theory shows \alert{metal-insulator transition} for the Hubbard model in \(\infty\) dimensions.
 \end{minipage}
 \hspace*{\fill}
-\begin{minipage}{0.48\textwidth}
-\includegraphics[width=0.9\textwidth]{coexistence-dmft.pdf}
+\begin{minipage}{0.55\textwidth}
+\includegraphics[width=0.8\textwidth]{coexistence-dmft.pdf}
 \end{minipage}
 
 \vspace*{\fill}
-\flushleft
+\only<1>{
 \includegraphics[width=\textwidth]{selfconsistency.pdf}
 }
 
 \only<2>{
 \includegraphics[width=\textwidth]{siam_schematic.pdf}
 
-\vspace*{\fill}
 Standard Anderson model shows \alert{no transition}, can't explain DMFT phase diagram.
+}
 
-\vspace*{\fill}
+\only<3>{
 \begin{itemize}
 	\item Which impurity model is realised through self-consistency?\\[10pt]
 	\item What physics leads to \(U_{c1}\) and \(U_{c2}\)?\\[10pt]
@@ -209,134 +208,211 @@ Standard Anderson model shows \alert{no transition}, can't explain DMFT phase di
 \end{frame}
 
 \begin{frame}{Results}
-	
+\begin{minipage}{0.47\textwidth}
+\only<1>{
+	Phase \alert{transition} occurs upon adding
+\begin{itemize}
+	\item spin-flip correlation between impurity and bath
+	\item \alert{local correlation} on bath zeroth site
+\end{itemize}
+}
+\only<2-3>{
+\begin{itemize}
+	\item Local spectral function shows gap.\\[10pt]
+	\onslide<3>{\item Spin correlations vanish, \alert{pairing correlations} grow at the transition}
+\end{itemize}
+}
+\only<4-5>{
+\begin{itemize}
+	\item Quantum critical point shows \alert{long-ranged correlations}.\\[10pt]
+	\onslide<5>{\item Excitations at the QCP are non-Fermi liquid in nature.}
+\end{itemize}
+}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\includegraphics[width=\textwidth]{esiam-schematic.pdf}
+\end{minipage}
+
+\onslide<2-5>{
+\vspace*{\fill}
+\only<2-3>{
+\includegraphics[width=0.45\textwidth]{spectral-function.pdf}
+\onslide<3>{
+\hspace*{\fill}
+\includegraphics[width=0.45\textwidth]{spin-charge-corr-full.pdf}
+}
+}
+\only<4-5>{
+\includegraphics[width=0.45\textwidth]{rc2-spinspin-corr-di.pdf}
+\includegraphics[width=0.45\textwidth]{rc2-mut-info-bath.pdf}
+}
+}
+
 \end{frame}
 
 \section{Holography of entanglement in 2D free fermions}
 \subsection{Abhirup Mukherjee, Siddhartha Patra, Siddhartha Lal\\ arXiv:2302.10590. (2023)}
 
-\section{Tiling the lattice with the extended SIAM}
+\begin{frame}{Some broad questions}
+\begin{minipage}{0.65\textwidth}
+We consider 2D electrons placed on a torus in a flux \(\Phi\).
+\begin{itemize}
+	\item Is the entanglement content of this system \alert{holographic}?\\[10pt]
+	\item Is there any \alert{topological} notion within the entanglement measures?
+\end{itemize}
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.3\textwidth}
+	\includegraphics[width=\textwidth]{torus.pdf}
+\end{minipage}
+
+\vspace*{\fill}
+\includegraphics[width=0.8\textwidth]{holography.pdf}
+\end{frame}
+
+\begin{frame}{Results}
+
+\begin{itemize}
+	\item Choose subsystem in real space (red region)
+	\item Apply \alert{coarse-graining transformations} in \(k-\)space
+\end{itemize}
+
+\vspace*{\fill}
+Evolution of subspace entanglement shows interesting properties.
+
+\vspace*{\fill}
+\includegraphics[width=0.3\textwidth]{subsystem-torus.pdf}
+\hspace*{\fill}
+\includegraphics[width=0.5\textwidth]{coarse-graining.pdf}
+\end{frame}
+
+\begin{frame}{Results}
+\begin{minipage}{0.53\textwidth}
+	Use mutual information \(I_2\) to define \alert{distance}.
+\begin{itemize}
+	\item Larger \(I_2\) \(\Longrightarrow\) smaller distance\\[10pt]
+	\item Allows notion of \alert{curvature} as well.\\[10pt]
+\end{itemize}
+Coarse-graining transformations lead to \alert{emergent} spatial dimension
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.43\textwidth}
+	\includegraphics[width=\textwidth]{curvature-scheme.pdf}
+\end{minipage}
+
+\onslide<2>{
+\vspace*{\fill}
+\begin{minipage}{0.4\textwidth}
+	\includegraphics[height=0.25\textheight]{Matroshka.png}
+	\includegraphics[height=0.25\textheight]{nested.png}
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.55\textwidth}
+Other consequences:
+\begin{itemize}
+	\item \alert{hierarchy} of entanglement exists along the RG
+	\item hierarchy also present in \alert{multipartite entanglement}
+\end{itemize}
+\end{minipage}
+}
+\end{frame}
+
+\begin{frame}{Results}
+\begin{minipage}{0.63\textwidth}
+\begin{itemize}
+	\item By tuning flux, we relate Luttinger's volume to functions of entanglement
+	\item Entanglement spectral flow is also related to Chern numbers in presence of magnetic field
+\end{itemize}
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.35\textwidth}
+\includegraphics[width=\textwidth]{cylinder.pdf}
+\end{minipage}
+
+\vspace*{\fill}
+\includegraphics[width=\textwidth]{spectral-flow.pdf}
+\end{frame}
+
+\section{Tiling a lattice with the extended SIAM}
 \subsection{Ongoing project}
+
+\begin{frame}{Broad questions}
+\begin{minipage}{0.5\textwidth}
+\begin{itemize}
+	\item Studying the Mott MIT on the 2D Hubbard-Heisenberg model\\[10pt]
+	\item Obtaining a momentum-space picture of the transition.\\[10pt]
+	\item Devising a method to tackle lattice models using impurity models
+\end{itemize}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+\includegraphics[width=\textwidth]{hubbard.pdf}
+\end{minipage}
+\end{frame}
+
+\begin{frame}{Results}
+\flushleft
+We use impurity model eigenstates (Hamiltonians) and \alert{Bloch's theorem} to reconstruct full eigenstates (Hamiltonian):
+\[\ket{\Psi_{\vec k}} \sim \sum_{\vec R_i} e^{i \vec{k}\cdot\vec{R}_i} \ket{\psi_\text{aux}(\vec R_i)},\quad\mathcal{H} \sim \sum_{\vec R_i} \mathcal{H}_\text{aux}(\vec R_i)\]
+\vspace*{\fill}
+\only<1>{
+\includegraphics[width=\textwidth]{bloch.pdf}
+}
+\only<2>{
+\flushleft
+Allow us to \alert{relate corresponding objects} between the impurity model and the lattice model\\
+\begin{itemize}
+	\item Greens functions and self-energies\\[10pt]
+	\item Two-particle correlation functions\\[10pt]
+	\item entanglement measures 
+\end{itemize}
+}
+\end{frame}
+
+\begin{frame}{Results: Momentum space spectral function}
+\includegraphics[width=0.6\textwidth]{kspace-spectralfunction-all.pdf}
+\end{frame}
+
+\begin{frame}{Results: Momentum space spin correlations}
+\includegraphics[width=0.33\textwidth]{corr-1.png}
+\includegraphics[width=0.33\textwidth]{corr-222.png}\\
+\includegraphics[width=0.33\textwidth]{corr-295.png}
+\includegraphics[width=0.33\textwidth]{corr-297.png}
+\end{frame}
 
 \section{Search for punctured-Chern topology at IQHE transitions}
 \subsection{Ongoing project}
 
-\section{The extended-SIAM project}
-\subsection{Abhirup Mukherjee, N. S. Vidhyadhiraja, A. Taraphder, S. Lal\\ arXiv:2302.02328. (2023)}
-
-\begin{frame}{What is the new physics ingredient?}
-\footcite{kotliar1992}
-\begin{minipage}{0.39\textwidth}
-	Add \alert{local correlation} on bath (zeroth) site coupled to impurity
-\[KE_\text{bath} + J \vec{S}_\text{imp}\cdot\vec{S}_\text{bath} - U_b\left( \vec{S}_\text{bath} \right)^2 \]
-\end{minipage}
-\hspace*{\fill}
-\begin{minipage}{0.55\textwidth}
-\includegraphics[width=\textwidth]{zeromode_bare.pdf}
-\end{minipage}
-
-\vspace*{\fill}
-URG equations show that an \alert{attractive} \(U_b\) frustrates the zeroth site.
-\[\Delta J \sim J^2 + 4U_b J \implies \text{\alert{phase transition} at }J = -4U_b\]
-
-\vspace*{\fill}
-\includegraphics[width=0.9\textwidth]{frustration.pdf}\\
-
-\vspace*{\fill}
-Such a model sheds light on the Mott MIT in \(\infty-\)dimensions (as seen from DMFT).
-\end{frame}
-
-\begin{frame}{Nature of the transition}
-\begin{minipage}{0.45\textwidth}
-Across the transition,\\
-\begin{itemize}
-	\item impurity correlations vanish
-	\item bath correlations become non-zero\\[10pt]
-\end{itemize}
-
-Shows that \alert{pairing correlations} in the bath are responsible for the transition.
-\end{minipage}
-\hspace*{\fill}
-\begin{minipage}{0.5\textwidth}
-\includegraphics[width=\textwidth]{spin-charge-corr-full.pdf}
-\end{minipage}
-
-\vspace*{\fill}
-The state \alert{precisely at the transition} is special:
-\begin{itemize}
-	\item non-Fermi liquid excitations
-	\item \alert{fractional} impurity magnetisation and occupancy
-\end{itemize}
-\end{frame}
-
-\section{Concluding remarks}
-\subsection{~}
-
-\begin{frame}{}
-	\begin{itemize}
-	\item Our analyses often link entanglement measures with correlations, providing bridges between the worlds of condensed matter and quantum information.\\[10pt]
-	\item Models of Kondo breakdown can be used to study the effects of measurement on a system coupled to a bath.\\[10pt]
-	\begin{center}
-	\includegraphics[width=0.5\textwidth]{measurement.pdf}
-	\end{center}
-	\item The Kondo model with attractive \(U_b\) term has applications in studying the physics of Mott transitions.
-\end{itemize}
-\end{frame}
-
-\begin{frame}
-	\includegraphics[width=0.65\textwidth]{thanks.pdf}
-\end{frame}
-
-\begin{frame}{How to explain the resistance minimum \& eventual saturation?}
-\footcite{kondo1964resistance}
-\begin{minipage}{0.5\textwidth}
-Second order perturbation theory in \(J\) gives:
-\[\hspace*{-80pt}\rho \sim T^n - \ln T\]
-Explains the \alert{non-monotonic}\\
-behaviour!\\[20pt]
-However, solution \alert{diverges} at \(T \to 0\)!
-\end{minipage}
-\begin{minipage}{0.4\textwidth}
-	\includegraphics[width=\textwidth]{secondorder.pdf}
-\end{minipage}
-\begin{textblock*}{0.13\textwidth}(6.5cm, 3.8cm)
-	\includegraphics[width=\textwidth]{kondo.jpg}\\
-	\footnotesize{(Jun Kondo)}
-\end{textblock*}
-\end{frame}
-
-
-\begin{frame}{Unitary RG approach to impurity models}
-\footcite{anirbanurg1,anirbanurg2}
-\begin{minipage}{0.5\textwidth}
-\begin{itemize}
-	\item Integrate out \alert{high energy fluctuations} to reach strong-coupling low-energy theory\\[10pt]
-	\item Leads to \alert{singlet ground state} and decoupled high-energy \(k-\)states\\[10pt]
-	\item Decoupling is carried out through \alert{unitary transformations}
-\end{itemize}
-
-\end{minipage}
-\hspace*{\fill}
-\begin{minipage}{0.4\textwidth}
-\includegraphics[width=\textwidth]{kondo_fp_1D.pdf}
-\end{minipage}
+\begin{frame}{Broad questions}
 	
 \end{frame}
 
-\begin{frame}
-\begin{minipage}{0.8\textwidth}
-\end{minipage}
-
-\vspace*{\fill}
-\begin{itemize}[<+->]
-	\item Entanglement entropy \(S(A)\) \(\Longrightarrow\) quantifies how much \alert{information is gained} about the rest of the system by measuring \(A\)\\
-	\vspace*{\fill}
-	{\centering
-	\only<1>{\includegraphics[width=0.85\textwidth]{entanglement.pdf}}}
-\item Mutual information \(I_2(A:B)\)\(\Longrightarrow\) quantifies how much \alert{information about subsystem A} is gained by measuring \(B\)\\
-	\vspace*{\fill}
-	{\centering
-	\only<2>{\includegraphics[width=0.85\textwidth]{mutinfo.pdf}}}
+\section{Future plans}
+\begin{frame}{Future plans}
+\only<1>{
+Lattice models of impurities\\[5pt]
+\begin{itemize}
+	\item either directly or through the auxiliary model approach\\[10pt]
+	\item phase diagrams: strange metals and QCPs\\[10pt]
+	\item unconventional superconductivity\\[10pt]
 \end{itemize}
+\includegraphics[width=0.5\textwidth]{periodicAnderson.pdf}
+}
+\only<2>{
+Fractional Chern insulators\\[5pt]
+\begin{itemize}
+	\item microscopic understanding of the FQHE ground states\\[10pt]
+	\item emergence of composite degrees of freedom and topological theories
+\end{itemize}
+}
+\only<3>{
+Classification of RG flows in fermionic models\\[5pt]
+\begin{itemize}
+	\item growth of multipartite entanglement towards stable fixed points\\[10pt]
+	\item extending this to impurity models\\[10pt]
+	\item connections with the URG noise operator
+\end{itemize}
+}
 \end{frame}
+
+
 \end{document}
