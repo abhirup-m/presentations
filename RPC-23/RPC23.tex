@@ -1,9 +1,9 @@
 % !TEX program = xelatex
-\documentclass[aspectratio=169]{beamer}
+\documentclass[aspectratio=169,t]{beamer}
 \makeatletter
 \def\@makefnmark{}
 \makeatletter
-\usepackage{amsthm,amsmath,amssymb,braket,fontspec,unicode-math}
+\usepackage{amsthm,amsmath,amssymb,braket,fontspec,unicode-math,multimedia}
 \usepackage[absolute,overlay]{textpos}
 \usetheme[numbering=none]{focus}
 \setbeamercolor{footnote}{fg=azure}
@@ -146,7 +146,6 @@ Department of Physical Sciences, IISER Kolkata}
 \end{itemize}
 }
 \only<3>{
-\vspace*{-30pt}
 \flushleft
 \alert{Currently in progress}\\
 \begin{itemize}
@@ -154,7 +153,7 @@ Department of Physical Sciences, IISER Kolkata}
 	\item Studies of the plateau-to-plateau transition in integer quantum hall systems.
 \end{itemize}
 
-\vspace*{20pt}
+\vspace*{\fill}
 \hrule
 
 \vspace*{\fill}
@@ -178,6 +177,7 @@ Department of Physical Sciences, IISER Kolkata}
 \subsection{Abhirup Mukherjee, N. S. Vidhyadhiraja, A. Taraphder, Siddhartha Lal\\ arXiv:2302.02328. (2023)}
 
 \begin{frame}{Some broad questions}
+\only<1>{
 \begin{minipage}{0.4\textwidth}
 Dynamical mean-field theory shows \alert{metal-insulator transition} for the Hubbard model in \(\infty\) dimensions.
 \end{minipage}
@@ -187,21 +187,20 @@ Dynamical mean-field theory shows \alert{metal-insulator transition} for the Hub
 \end{minipage}
 
 \vspace*{\fill}
-\only<1>{
 \includegraphics[width=\textwidth]{selfconsistency.pdf}
 }
 
 \only<2>{
 \includegraphics[width=\textwidth]{siam_schematic.pdf}
 
+\vspace*{\fill}
 Standard Anderson model shows \alert{no transition}, can't explain DMFT phase diagram.
-}
 
-\only<3>{
+\vspace*{\fill}
 \begin{itemize}
-	\item Which impurity model is realised through self-consistency?\\[10pt]
+	\item Which impurity model is realised through \alert{self-consistency}?\\[10pt]
 	\item What physics leads to \(U_{c1}\) and \(U_{c2}\)?\\[10pt]
-	\item What is the state precisely at the \(T=0\) transition?
+	\item What is the state precisely at the \(T=0\) \alert{transition}?
 \end{itemize}
 }
 
@@ -337,16 +336,21 @@ Other consequences:
 \subsection{Ongoing project}
 
 \begin{frame}{Broad questions}
+
+\vspace*{\fill}
 \begin{minipage}{0.5\textwidth}
-\begin{itemize}
-	\item Studying the Mott MIT on the 2D Hubbard-Heisenberg model\\[10pt]
-	\item Obtaining a momentum-space picture of the transition.\\[10pt]
-	\item Devising a method to tackle lattice models using impurity models
+\begin{itemize}[<+->]
+	\item Studying the \alert{Mott MIT} on the 2D Hubbard-Heisenberg model\\[10pt]
+	\item Obtaining a \alert{momentum-space} picture of the transition.\\[10pt]
+	\item Devising a method to tackle lattice models \alert{using impurity models}
 \end{itemize}
 \end{minipage}
+\hspace*{\fill}
 \begin{minipage}{0.4\textwidth}
 \includegraphics[width=\textwidth]{hubbard.pdf}
 \end{minipage}
+
+\vspace*{\fill}
 \end{frame}
 
 \begin{frame}{Results}
@@ -383,29 +387,101 @@ Allow us to \alert{relate corresponding objects} between the impurity model and 
 \subsection{Ongoing project}
 
 \begin{frame}{Broad questions}
+
+\vspace*{\fill}
+\begin{minipage}{0.5\textwidth}
+\begin{itemize}[<+->]
+	\item Obtaining the \alert{IQHE phase diagram} from a model of 2D lattice electrons\\[10pt]
+	\item Understanding the \alert{topology} of the ground state precisely at a transition\\[10pt]
+	\item Extending this to systems with \alert{disorder}.
+\end{itemize}
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.4\textwidth}
+\includegraphics[width=\textwidth]{IQHE.pdf}
+\end{minipage}
+
+\vspace*{\fill}
+\end{frame}
+
+\begin{frame}{Preliminary results}
+Emergence of \alert{Landau levels} in a magnetic field is similar to the formation of \alert{bands} in a periodic potential.
+
+\vspace*{\fill}
+\includegraphics[width=\textwidth]{bands.pdf}
+
+\vspace*{\fill}
+We first studied the simpler problem of \alert{particle in a periodic potential}.
+\end{frame}
+
+\begin{frame}{Preliminary results}
+We first studied the simpler problem of \alert{particle in a periodic potential}.
+
+\vspace*{\fill}
+\includegraphics[width=0.8\textwidth]{potential.pdf}
+
+\vspace*{\fill}
 	
+\begin{itemize}
+	\item Can understand the formation of bands under RG
+	\item Obtained insights regarding the \alert{effective center of mass} degrees of freedom
+	\item Needs to be extended by incorporating a \alert{magnetic field}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Summary}
+\alert{Currently in progress}\\
+\begin{itemize}
+	\item Development of auxiliary model-based method for studying bulk correlated systems.\\[10pt]
+	\item Studies of the plateau-to-plateau transition in integer quantum hall systems.
+\end{itemize}
+
+\vspace*{\fill}
+\hrule
+
+\vspace*{\fill}
+\begin{minipage}{0.55\textwidth}
+\begin{itemize}
+	\item[$\checkmark$] 2022 \alert{Phys. Rev. B} 105, 085119.\\ A Mukherjee, \alert{Abhirup Mukherjee}, \ldots, S. Lal\\[10pt]
+	\item[$\checkmark$] 2023 \alert{J. Phys.: Condens. Matter} 35 315601.\\ S Patra, \alert{Abhirup Mukherjee}, \ldots, S. Lal
+\end{itemize}
+\end{minipage}
+\begin{minipage}{0.44\textwidth}
+\begin{itemize}
+	\item 2023 \alert{arXiv:2302.02328}.\\ \alert{Abhirup Mukherjee}, \ldots, S. Lal\\[10pt]
+	\item 2023 \alert{arXiv:2302.10590}.\\ \alert{Abhirup Mukherjee}, \ldots, S. Lal
+\end{itemize}
+\end{minipage}
+
 \end{frame}
 
 \section{Future plans}
+\subsection{~}
+
 \begin{frame}{Future plans}
 \only<1>{
-Lattice models of impurities\\[5pt]
+\alert{Lattice models of impurities}\\[5pt]
 \begin{itemize}
 	\item either directly or through the auxiliary model approach\\[10pt]
 	\item phase diagrams: strange metals and QCPs\\[10pt]
-	\item unconventional superconductivity\\[10pt]
+	\item unconventional superconductivity
 \end{itemize}
+
+\vspace*{\fill}
 \includegraphics[width=0.5\textwidth]{periodicAnderson.pdf}
 }
 \only<2>{
-Fractional Chern insulators\\[5pt]
+\alert{Fractional Chern insulators}\\[5pt]
 \begin{itemize}
 	\item microscopic understanding of the FQHE ground states\\[10pt]
 	\item emergence of composite degrees of freedom and topological theories
 \end{itemize}
+
+\vspace*{\fill}
+\includegraphics[width=0.3\textwidth]{ChernInsulator.pdf}
 }
 \only<3>{
-Classification of RG flows in fermionic models\\[5pt]
+\alert{Classification of RG flows in fermionic models}\\[5pt]
 \begin{itemize}
 	\item growth of multipartite entanglement towards stable fixed points\\[10pt]
 	\item extending this to impurity models\\[10pt]
@@ -414,5 +490,8 @@ Classification of RG flows in fermionic models\\[5pt]
 }
 \end{frame}
 
+\begin{frame}[c]{}
+	\LARGE{THANK YOU.}
+\end{frame}
 
 \end{document}
