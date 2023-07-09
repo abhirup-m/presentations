@@ -8,5 +8,7 @@
 \beamer@subsectionintoc {4}{1}{Ongoing project}{21}{0}{4}
 \beamer@sectionintoc {5}{Search for punctured-Chern topology at IQHE transitions}{29}{0}{5}
 \beamer@subsectionintoc {5}{1}{Ongoing project}{29}{0}{5}
-\beamer@sectionintoc {6}{Future plans}{36}{0}{6}
-\beamer@subsectionintoc {6}{1}{\nobreakspace {}}{36}{0}{6}
+\beamer@sectionintoc {6}{Summary}{35}{0}{6}
+\beamer@subsectionintoc {6}{1}{\nobreakspace {}}{35}{0}{6}
+\beamer@sectionintoc {7}{Future plans}{37}{0}{7}
+\beamer@subsectionintoc {7}{1}{\nobreakspace {}}{37}{0}{7}

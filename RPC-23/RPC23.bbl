@@ -16,5 +16,565 @@
   {}
 \endgroup
 
-\datalist[entry]{nyt/global//global/global}\enddatalist
+\datalist[entry]{nyt/global//global/global}
+  \entry{alexandradinata_2011}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AA}{%
+         family={Alexandradinata},
+         familyi={A\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HTL}{%
+         family={Hughes},
+         familyi={H\bibinitperiod},
+         given={Taylor\bibnamedelima L.},
+         giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=BBA}{%
+         family={Bernevig},
+         familyi={B\bibinitperiod},
+         given={B.\bibnamedelima Andrei},
+         giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{AA+1}
+    \strng{fullhash}{AAHTLBBA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1103/PhysRevB.84.195103
+    \endverb
+    \field{issue}{19}
+    \field{pages}{195103}
+    \field{title}{Trace index and spectral flow in the entanglement spectrum of topological insulators}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevB.84.195103
+    \endverb
+    \field{volume}{84}
+    \field{journaltitle}{Phys. Rev. B}
+    \field{year}{2011}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{anderson_1961}{article}{}
+    \name{author}{1}{}{%
+      {{hash=APW}{%
+         family={Anderson},
+         familyi={A\bibinitperiod},
+         given={P.\bibnamedelima W.},
+         giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{APW1}
+    \strng{fullhash}{APW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1961}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1103/PhysRev.124.41
+    \endverb
+    \field{issue}{1}
+    \field{pages}{41\bibrangedash 53}
+    \field{title}{Localized Magnetic States in Metals}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRev.124.41
+    \endverb
+    \field{volume}{124}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{1961}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{andrei_1980}{article}{}
+    \name{author}{1}{}{%
+      {{hash=AN}{%
+         family={Andrei},
+         familyi={A\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{AN1}
+    \strng{fullhash}{AN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1980}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.45.379
+    \endverb
+    \field{issue}{5}
+    \field{pages}{379\bibrangedash 382}
+    \field{title}{Diagonalization of the Kondo Hamiltonian}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevLett.45.379
+    \endverb
+    \field{volume}{45}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{1980}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Arias_2015}{article}{}
+    \name{author}{3}{}{%
+      {{hash=ARE}{%
+         family={Arias},
+         familyi={A\bibinitperiod},
+         given={Ra{\'{u}}l\bibnamedelima E},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=BDD}{%
+         family={Blanco},
+         familyi={B\bibinitperiod},
+         given={David\bibnamedelima D},
+         giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=CH}{%
+         family={Casini},
+         familyi={C\bibinitperiod},
+         given={Horacio},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{IOP} Publishing}%
+    }
+    \strng{namehash}{ARE+1}
+    \strng{fullhash}{AREBDDCH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1088/1751-8113/48/14/145401
+    \endverb
+    \field{number}{14}
+    \field{pages}{145401}
+    \field{title}{Entanglement entropy as a witness of the Aharonov{\textendash}Bohm effect in {QFT}}
+    \verb{url}
+    \verb https://doi.org/10.1088/1751-8113/48/14/145401
+    \endverb
+    \field{volume}{48}
+    \field{journaltitle}{Journal of Physics A: Mathematical and Theoretical}
+    \field{year}{2015}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{georges1996}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GA}{%
+         family={Georges},
+         familyi={G\bibinitperiod},
+         given={Antoine},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KG}{%
+         family={Kotliar},
+         familyi={K\bibinitperiod},
+         given={Gabriel},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=KW}{%
+         family={Krauth},
+         familyi={K\bibinitperiod},
+         given={Werner},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=RMJ}{%
+         family={Rozenberg},
+         familyi={R\bibinitperiod},
+         given={Marcelo\bibnamedelima J},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{GA+1}
+    \strng{fullhash}{GAKGKWRMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{number}{1}
+    \field{pages}{13}
+    \field{title}{Dynamical mean-field theory of strongly correlated fermion systems and the limit of infinite dimensions}
+    \field{volume}{68}
+    \field{journaltitle}{Reviews of Modern Physics}
+    \field{year}{1996}
+  \endentry
+
+  \entry{keimer2015quantum}{article}{}
+    \name{author}{5}{}{%
+      {{hash=KB}{%
+         family={Keimer},
+         familyi={K\bibinitperiod},
+         given={Bernhard},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KSA}{%
+         family={Kivelson},
+         familyi={K\bibinitperiod},
+         given={Steven\bibnamedelima A},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=NMR}{%
+         family={Norman},
+         familyi={N\bibinitperiod},
+         given={Michael\bibnamedelima R},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=US}{%
+         family={Uchida},
+         familyi={U\bibinitperiod},
+         given={Shinichi},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zaanen},
+         familyi={Z\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group}%
+    }
+    \strng{namehash}{KB+1}
+    \strng{fullhash}{KBKSANMRUSZJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{number}{7538}
+    \field{pages}{179}
+    \field{title}{From quantum matter to high-temperature superconductivity in copper oxides}
+    \field{volume}{518}
+    \field{journaltitle}{Nature}
+    \field{year}{2015}
+  \endentry
+
+  \entry{oshikawa2000topological}{article}{}
+    \name{author}{1}{}{%
+      {{hash=OM}{%
+         family={Oshikawa},
+         familyi={O\bibinitperiod},
+         given={Masaki},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{OM1}
+    \strng{fullhash}{OM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2000}
+    \field{labeldatesource}{}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{number}{15}
+    \field{pages}{3370}
+    \field{title}{Topological approach to Luttinger's theorem and the Fermi surface of a Kondo lattice}
+    \field{volume}{84}
+    \field{journaltitle}{Physical Review Letters}
+    \field{year}{2000}
+  \endentry
+
+  \entry{Patra2023}{article}{}
+    \name{author}{3}{}{%
+      {{hash=PS}{%
+         family={Patra},
+         familyi={P\bibinitperiod},
+         given={Siddhartha},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Basu},
+         familyi={B\bibinitperiod},
+         given={Somnath},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Lal},
+         familyi={L\bibinitperiod},
+         given={Siddhartha},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{PS+1}
+    \strng{fullhash}{PSBSLS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \verb{doi}
+    \verb 10.1103/PhysRevA.105.052428
+    \endverb
+    \field{issue}{5}
+    \field{pages}{052428}
+    \field{title}{Unveiling topological order through multipartite entanglement}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevA.105.052428
+    \endverb
+    \field{volume}{105}
+    \field{journaltitle}{Phys. Rev. A}
+    \field{year}{2022}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{qin_2022}{article}{}
+    \name{author}{5}{}{%
+      {{hash=QM}{%
+         family={Qin},
+         familyi={Q\bibinitperiod},
+         given={Mingpu},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Schäfer},
+         familyi={S\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Andergassen},
+         familyi={A\bibinitperiod},
+         given={Sabine},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CP}{%
+         family={Corboz},
+         familyi={C\bibinitperiod},
+         given={Philippe},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=GE}{%
+         family={Gull},
+         familyi={G\bibinitperiod},
+         given={Emanuel},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{QM+1}
+    \strng{fullhash}{QMSTASCPGE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{Q}
+    \field{sortinithash}{Q}
+    \verb{doi}
+    \verb 10.1146/annurev-conmatphys-090921-033948
+    \endverb
+    \field{number}{1}
+    \field{pages}{275\bibrangedash 302}
+    \field{title}{The Hubbard Model: A Computational Perspective}
+    \verb{url}
+    \verb https://doi.org/10.1146/annurev-conmatphys-090921-033948
+    \endverb
+    \field{volume}{13}
+    \field{journaltitle}{Annual Review of Condensed Matter Physics}
+    \field{year}{2022}
+  \endentry
+
+  \entry{seki2017topological}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SK}{%
+         family={Seki},
+         familyi={S\bibinitperiod},
+         given={Kazuhiro},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=YS}{%
+         family={Yunoki},
+         familyi={Y\bibinitperiod},
+         given={Seiji},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{SK+1}
+    \strng{fullhash}{SKYS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{8}
+    \field{pages}{085124}
+    \field{title}{Topological interpretation of the Luttinger theorem}
+    \field{volume}{96}
+    \field{journaltitle}{Physical Review B}
+    \field{year}{2017}
+  \endentry
+
+  \entry{van2010building}{article}{}
+    \name{author}{1}{}{%
+      {{hash=VRM}{%
+         family={Van\bibnamedelima Raamsdonk},
+         familyi={V\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{VRM1}
+    \strng{fullhash}{VRM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{number}{10}
+    \field{pages}{2323\bibrangedash 2329}
+    \field{title}{Building up spacetime with quantum entanglement}
+    \field{volume}{42}
+    \field{journaltitle}{General Relativity and Gravitation}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Wiegmann_1981}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WPB}{%
+         family={Wiegmann},
+         familyi={W\bibinitperiod},
+         given={P\bibnamedelima B},
+         giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WPB1}
+    \strng{fullhash}{WPB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1981}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \verb{doi}
+    \verb 10.1088/0022-3719/14/10/014
+    \endverb
+    \field{number}{10}
+    \field{pages}{1463\bibrangedash 1478}
+    \field{title}{Exact solution of the s-d exchange model (Kondo problem)}
+    \verb{url}
+    \verb https://doi.org/10.1088/0022-3719/14/10/014
+    \endverb
+    \field{volume}{14}
+    \field{journaltitle}{Journal of Physics C: Solid State Physics}
+    \field{year}{1981}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{wilson1975}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WKG}{%
+         family={Wilson},
+         familyi={W\bibinitperiod},
+         given={Kenneth\bibnamedelima G.},
+         giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{WKG1}
+    \strng{fullhash}{WKG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1975}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{issue}{4}
+    \field{pages}{773\bibrangedash 840}
+    \field{title}{The renormalization group: Critical phenomena and the Kondo problem}
+    \field{volume}{47}
+    \field{journaltitle}{Rev. Mod. Phys.}
+    \field{year}{1975}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{zaanen_2015}{book}{}
+    \name{author}{4}{}{%
+      {{hash=ZJ}{%
+         family={Zaanen},
+         familyi={Z\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Yan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=SYW}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Ya-Wen},
+         giveni={Y\bibinithyphendelim W\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Schalm},
+         familyi={S\bibinitperiod},
+         given={Koenraad},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{ZJ+1}
+    \strng{fullhash}{ZJLYSYWSK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \verb{doi}
+    \verb 10.1017/CBO9781139942492
+    \endverb
+    \field{title}{Holographic Duality in Condensed Matter Physics}
+    \field{year}{2015}
+  \endentry
+\enddatalist
 \endinput
