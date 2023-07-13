@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.5.25)  6 JUL 2023 12:53
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.5.25)  5 JUL 2023 20:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**holography.tex
-(./holography.tex
+**EsiamGroupSeminar.tex
+(./EsiamGroupSeminar.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-05-15> (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2023/05/15 v3.70 A class for typesetting presentations
@@ -536,7 +536,16 @@ Package: amsthm 2020/05/29 v2.20.6
 ) (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/beamer/beamerbasethemes.sty)) (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/beamer/beamerthemedefault.sty (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty) (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty) (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
 \beamer@dima=\dimen292
 \beamer@dimb=\dimen293
-) (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/braket/braket.sty) (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.sty (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
+) (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/braket/braket.sty) (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/appendixnumberbeamer/appendixnumberbeamer.sty) (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+ (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+ (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+)) (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.sty (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2023-05-15 L3 programming layer (loader) 
  (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2023-04-19 L3 backend support: XeTeX
@@ -567,7 +576,76 @@ Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 \l__fontspec_tmpc_dim=\dimen296
  (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+) (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
+\c@tracingmulticols=\count348
+\mult@box=\box78
+\multicol@leftmargin=\dimen297
+\c@unbalance=\count349
+\c@collectmore=\count350
+\doublecol@number=\count351
+\multicoltolerance=\count352
+\multicolpretolerance=\count353
+\full@width=\dimen298
+\page@free=\dimen299
+\premulticols=\dimen300
+\postmulticols=\dimen301
+\multicolsep=\skip65
+\multicolbaselineskip=\skip66
+\partial@page=\box79
+\last@line=\box80
+\maxbalancingoverflow=\dimen302
+\mult@rightbox=\box81
+\mult@grightbox=\box82
+\mult@firstbox=\box83
+\mult@gfirstbox=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\c@minrows=\count354
+\c@columnbadness=\count355
+\c@finalcolumnbadness=\count356
+\last@try=\dimen303
+\multicolovershoot=\dimen304
+\multicolundershoot=\dimen305
+\mult@nat@firstbox=\box121
+\colbreak@box=\box122
+\mc@col@check@num=\count357
+)
+(/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/unicode-math/unicode-math.sty
 Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
  (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
 Package: unicode-math-xetex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
@@ -579,49 +657,32 @@ Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
-\g__um_fam_int=\count348
-\g__um_fonts_used_int=\count349
-\l__um_primecount_int=\count350
+\g__um_fam_int=\count358
+\g__um_fonts_used_int=\count359
+\l__um_primecount_int=\count360
 \g__um_primekern_muskip=\muskip18
+ (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)))
 
-(/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex))) (/home/kirito/storage/texlive/2023/texmf-dist/tex/latex/textpos/textpos.sty
-Package: textpos 2022/07/23 v1.10.1
-Package textpos Info: choosing support for LaTeX3 on input line 60.
-\TP@textbox=\box78
-\TP@holdbox=\box79
-\TPHorizModule=\dimen297
-\TPVertModule=\dimen298
-\TP@margin=\dimen299
-\TP@absmargin=\dimen300
-
-Grid set 16 x 16 = 28.45274pt x 16.00467pt
-\TPboxrulesize=\dimen301
-\TP@ox=\dimen302
-\TP@oy=\dimen303
-\TP@tbargs=\toks45
-TextBlockOrigin set to 0pt x 0pt
-)
-
-! LaTeX Error: File `beamerthemefocus.sty' not found.
+! LaTeX Error: File `tcolorbox.sty' not found.
 
 Type X to quit or <RETURN> to proceed,
 or enter new name. (Default extension: sty)
 
 Enter file name: 
-./holography.tex:13: Emergency stop.
+./EsiamGroupSeminar.tex:5: Emergency stop.
 <read *> 
          
-l.13 \usetheme[numbering=none,nofirafonts]{focus}
-                                                 ^^M
+l.5 \definecolor
+                {lightgray}{RGB}{226,226,226}^^M
 *** (cannot \read from terminal in nonstop modes)
 
  
 Here is how much of TeX's memory you used:
- 26317 strings out of 478716
- 539113 string characters out of 5847712
+ 26429 strings out of 478716
+ 541694 string characters out of 5847712
  1844482 words of memory out of 5000000
- 45952 multiletter control sequences out of 15000+600000
- 512671 words of font info for 36 fonts, out of 8000000 for 9000
+ 46050 multiletter control sequences out of 15000+600000
+ 513361 words of font info for 38 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 99i,0n,104p,423b,330s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,0n,104p,538b,330s stack positions out of 10000i,1000n,20000p,200000b,200000s
 No pages of output.

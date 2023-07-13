@@ -79,6 +79,7 @@ Department of Physical Sciences, IISER Kolkata}
 \end{frame}
 
 \section{The PPP as a Particle on a Circle}
+\subsection{~}
 
 \begin{frame}{The PPP as a Particle on a Circle}
 	The conserved crystal momenta leads to a block-diagonal form of the Hamiltonian.
@@ -99,6 +100,43 @@ Department of Physical Sciences, IISER Kolkata}
 	\includegraphics[width=0.6\textwidth]{POC.pdf}
 \end{frame}
 
+\section{URG Analysis of the POC}
+\subsection{~}
+
+\begin{frame}{URG Analysis of the POC}
+	\alert{Resolve fluctuations} in angular momentum states by applying unitary transformations.
+	\[\Delta \mathcal{U}_{ij}^{(l)}(\omega) = \frac{\mathcal{U}_{il}\mathcal{U}_{lj}}{\omega - \varepsilon(Q_l + \Phi/2\pi)},\quad U_{ij} = U(Q_i - Q_j)\]
+	\includegraphics[width=0.4\textwidth]{URG_poc.pdf}
+\end{frame}
+
+\begin{frame}{Appearance of band gaps}
+	\alert{Effective Hamiltonian} for the final two states:
+	\begin{minipage}{0.7\textwidth}
+	\[H_{01}^* = \varepsilon^*(Q_0)\ket{Q_0}\bra{Q_0} + \varepsilon^{*}(Q_1)\ket{Q_1}\bra{Q_1} + \left(\mathcal{U}_{01}^{*}\ket{Q_1}\bra{Q_0} + \text{h.c.}\right)\]
+	Diagonalise the final Hamiltonian: \(E_\pm = \varepsilon^* \pm |\mathcal{U}_{01}^*|\)\\
+	\begin{minipage}{0.5\textwidth}
+	Gives the \alert{shifts in energies}: 
+	\end{minipage}
+	\begin{minipage}{0.45\textwidth}
+	\[\Delta \varepsilon^* \simeq \frac{|\mathcal{U}_{01}^*|^2}{\varepsilon^* \pm |\mathcal{U}_{01}^*| - \varepsilon^*} \simeq \pm |\mathcal{U}_{01}^*|\]
+	\end{minipage}
+	\end{minipage}
+	\hspace*{\fill}
+	\begin{minipage}{0.2\textwidth}
+	\includegraphics[width=0.7\textwidth]{effham10.pdf}
+	\end{minipage}
+
+	\vspace*{\fill}
+	\begin{minipage}{0.45\textwidth}
+	Allow the flux \(\Phi\) to vary:
+	\[\varepsilon^*(\Phi) - |\mathcal{U}^*_{01}|; \Phi = ak\]
+	Creates the \alert{first band}!
+	\end{minipage}
+	\begin{minipage}{0.5\textwidth}
+	\includegraphics[width=\textwidth]{URGSpectrum.pdf}
+	\end{minipage}
+	
+\end{frame}
 
 \begin{frame}[c]{}
 	\LARGE{THANK YOU.}
