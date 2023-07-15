@@ -6,9 +6,9 @@
    sodipodi:docname="URGSpectrum.svg"
    id="svg5"
    version="1.1"
-   viewBox="0 0 400.01459 168.81377"
+   viewBox="0 0 463.51465 168.81377"
    height="168.81377mm"
-   width="400.01459mm"
+   width="463.51465mm"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -26,12 +26,12 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.5946522"
-     inkscape:cx="799.62708"
-     inkscape:cy="241.31753"
-     inkscape:window-width="1920"
-     inkscape:window-height="1019"
+     inkscape:cx="800.4679"
+     inkscape:cy="242.99919"
+     inkscape:window-width="1916"
+     inkscape:window-height="1048"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="28"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
@@ -304,34 +304,34 @@
        sodipodi:nodetypes="csc" />
     <path
        style="fill:none;fill-opacity:1;stroke:#405070;stroke-width:4;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4401);paint-order:markers stroke fill"
-       d="m 38.464384,125.28935 h 55.29586"
+       d="M 86.089387,125.28935 H 141.38527"
        id="path4383"
        inkscape:path-effect="#path-effect4385"
-       inkscape:original-d="m 38.464384,125.28935 c 18.432219,2.6e-4 55.29586,0 55.29586,0" />
+       inkscape:original-d="m 86.089387,125.28935 c 18.432223,2.6e-4 55.295883,0 55.295883,0" />
     <path
        style="fill:none;fill-opacity:1;stroke:#30707c;stroke-width:5;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="m 156.91234,182.29576 c 25.27292,15.26908 55.18165,22.74627 84.66674,21.16669 24.19842,-1.29636 48.05009,-8.63535 68.79159,-21.16669"
+       d="m 220.41238,182.29576 c 25.27292,15.26908 55.18165,22.74627 84.66674,21.16669 24.19842,-1.29636 48.05009,-8.63535 68.79159,-21.16669"
        id="path4990"
        inkscape:path-effect="#path-effect4992"
-       inkscape:original-d="m 156.91234,182.29576 c 28.22251,7.05583 56.44476,14.11139 84.66674,21.16669 28.22199,7.0553 45.86131,-14.11086 68.79159,-21.16669" />
+       inkscape:original-d="m 220.41238,182.29576 c 28.22251,7.05583 56.44476,14.11139 84.66674,21.16669 28.22199,7.0553 45.86131,-14.11086 68.79159,-21.16669" />
     <path
        style="fill:none;fill-opacity:1;stroke:#a0707c;stroke-width:5;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="m 156.91235,91.682912 c 25.27292,15.269078 55.18165,22.746258 84.66674,21.166688 24.19842,-1.29636 48.05009,-8.63535 68.79159,-21.166688"
+       d="m 220.41239,91.682912 c 25.27292,15.269078 55.18165,22.746258 84.66674,21.166688 24.19842,-1.29636 48.05009,-8.63535 68.79159,-21.166688"
        id="path4990-5"
        inkscape:path-effect="#path-effect4992-7"
-       inkscape:original-d="m 156.91235,91.682912 c 28.22251,7.05583 56.44476,14.111388 84.66674,21.166688 28.22199,7.0553 45.86131,-14.110858 68.79159,-21.166688" />
+       inkscape:original-d="m 220.41239,91.682912 c 28.22251,7.05583 56.44476,14.111388 84.66674,21.166688 28.22199,7.0553 45.86131,-14.110858 68.79159,-21.166688" />
     <path
        style="fill:none;fill-opacity:1;stroke:#70707c;stroke-width:5;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="m 156.91234,145.25407 c 25.44641,-14.82334 55.25756,-22.04569 84.66674,-20.51223 24.12225,1.25779 47.91972,8.3537 68.79159,20.51223"
+       d="m 220.41238,145.25407 c 25.44641,-14.82334 55.25756,-22.04569 84.66674,-20.51223 24.12225,1.25779 47.91972,8.3537 68.79159,20.51223"
        id="path5012"
        inkscape:path-effect="#path-effect5014"
-       inkscape:original-d="m 156.91234,145.25407 c 28.22251,-6.83714 56.44476,-13.67456 84.66674,-20.51223 28.22199,-6.83768 45.86131,13.67509 68.79159,20.51223" />
+       inkscape:original-d="m 220.41238,145.25407 c 28.22251,-6.83714 56.44476,-13.67456 84.66674,-20.51223 28.22199,-6.83768 45.86131,13.67509 68.79159,20.51223" />
     <path
        style="fill:none;fill-opacity:1;stroke:#c5707c;stroke-width:5;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="m 156.91235,60.571037 c 25.44641,-14.823339 55.25756,-22.045693 84.66674,-20.51223 24.12225,1.257791 47.91972,8.353703 68.79159,20.51223"
+       d="m 220.41239,60.571037 c 25.44641,-14.823339 55.25756,-22.045693 84.66674,-20.51223 24.12225,1.257791 47.91972,8.353703 68.79159,20.51223"
        id="path5012-5"
        inkscape:path-effect="#path-effect5014-3"
-       inkscape:original-d="m 156.91235,60.571037 c 28.22251,-6.83714 56.44476,-13.67456 84.66674,-20.51223 28.22199,-6.83768 45.86131,13.67509 68.79159,20.51223" />
+       inkscape:original-d="m 220.41239,60.571037 c 28.22251,-6.83714 56.44476,-13.67456 84.66674,-20.51223 28.22199,-6.83768 45.86131,13.67509 68.79159,20.51223" />
     <path
        style="fill:none;fill-opacity:1;stroke:#30707c;stroke-width:5;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
        d="m -39.357393,192.87911 h 22.299167"
@@ -358,30 +358,30 @@
        inkscape:original-d="m -39.357393,60.587399 c 7.43332,2.6e-4 22.299167,0 22.299167,0" />
     <path
        style="fill:none;fill-opacity:1;stroke:#202020;stroke-width:2;stroke-linejoin:bevel;stroke-dasharray:4, 2;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="M -7.4816318,60.587399 H 146.49733"
+       d="M 40.14337,60.587399 H 194.12236"
        id="path5465"
        inkscape:path-effect="#path-effect5467"
-       inkscape:original-d="m -7.4816318,60.587399 c 51.3265518,2.64e-4 153.9789618,0 153.9789618,0" />
+       inkscape:original-d="m 40.14337,60.587399 c 51.326553,2.64e-4 153.97899,0 153.97899,0" />
     <path
        style="fill:none;fill-opacity:1;stroke:#202020;stroke-width:2;stroke-linejoin:bevel;stroke-dasharray:4, 2;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="M -7.4816318,92.337401 H 146.49733"
+       d="M 40.14337,92.337401 H 194.12236"
        id="path5487"
        inkscape:path-effect="#path-effect5491"
-       inkscape:original-d="m -7.4816318,92.337401 c 51.3265518,2.64e-4 153.9789618,0 153.9789618,0" />
+       inkscape:original-d="m 40.14337,92.337401 c 51.326553,2.64e-4 153.97899,0 153.97899,0" />
     <path
        style="fill:none;fill-opacity:1;stroke:#202020;stroke-width:2;stroke-linejoin:bevel;stroke-dasharray:4, 2;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="M -7.4816318,145.25409 H 146.49733"
+       d="M 40.14337,145.25409 H 194.12236"
        id="path5511"
        inkscape:path-effect="#path-effect5515"
-       inkscape:original-d="m -7.4816318,145.25409 c 51.3265518,2.7e-4 153.9789618,0 153.9789618,0" />
+       inkscape:original-d="m 40.14337,145.25409 c 51.326553,2.7e-4 153.97899,0 153.97899,0" />
     <path
        style="fill:none;fill-opacity:1;stroke:#202020;stroke-width:2;stroke-linejoin:bevel;stroke-dasharray:4, 2;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="M -7.4816318,192.87912 H 146.49733"
+       d="M 40.14337,192.87912 H 194.12236"
        id="path5535"
        inkscape:path-effect="#path-effect5539"
-       inkscape:original-d="m -7.4816318,192.87912 c 51.3265518,2.7e-4 153.9789618,0 153.9789618,0" />
+       inkscape:original-d="m 40.14337,192.87912 c 51.326553,2.7e-4 153.97899,0 153.97899,0" />
     <g
-       transform="matrix(1.76389,0,0,1.76389,14.4367,100.391)"
+       transform="matrix(1.76389,0,0,1.76389,62.061703,100.391)"
        ns1:version="1.8.2"
        ns1:texconverter="xelatex"
        ns1:pdfconverter="inkscape"
@@ -947,7 +947,7 @@
       </g>
     </g>
     <g
-       transform="matrix(1.76389,0,0,1.76389,2.5714529,160.9279)"
+       transform="matrix(1.76389,0,0,1.76389,2.5714526,160.9279)"
        ns1:version="1.8.2"
        ns1:texconverter="xelatex"
        ns1:pdfconverter="inkscape"
@@ -1131,7 +1131,7 @@
       </g>
     </g>
     <g
-       transform="matrix(1.76389,0,0,1.76389,180.216,136.14867)"
+       transform="matrix(1.76389,0,0,1.76389,243.71604,136.14867)"
        ns1:version="1.8.2"
        ns1:texconverter="xelatex"
        ns1:pdfconverter="inkscape"
@@ -1378,7 +1378,7 @@
       </g>
     </g>
     <g
-       transform="matrix(1.76389,0,0,1.76389,180.216,176.36532)"
+       transform="matrix(1.76389,0,0,1.76389,243.71604,176.36532)"
        ns1:version="1.8.2"
        ns1:texconverter="xelatex"
        ns1:pdfconverter="inkscape"

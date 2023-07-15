@@ -1,5 +1,5 @@
 % !TEX program = xelatex
-\documentclass[aspectratio=169,t]{beamer}
+\documentclass[aspectratio=169]{beamer}
 \makeatletter
 \def\@makefnmark{}
 \makeatletter
@@ -103,13 +103,14 @@ Department of Physical Sciences, IISER Kolkata}
 \section{URG Analysis of the POC}
 \subsection{~}
 
-\begin{frame}{URG Analysis of the POC}
+\begin{frame}{URG Analysis of the PAC}
 	\alert{Resolve fluctuations} in angular momentum states by applying unitary transformations.
 	\[\Delta \mathcal{U}_{ij}^{(l)}(\omega) = \frac{\mathcal{U}_{il}\mathcal{U}_{lj}}{\omega - \varepsilon(Q_l + \Phi/2\pi)},\quad U_{ij} = U(Q_i - Q_j)\]
 	\includegraphics[width=0.4\textwidth]{URG_poc.pdf}
 \end{frame}
 
 \begin{frame}{Appearance of band gaps}
+\only<1>{
 	\alert{Effective Hamiltonian} for the final two states:
 	\begin{minipage}{0.7\textwidth}
 	\[H_{01}^* = \varepsilon^*(Q_0)\ket{Q_0}\bra{Q_0} + \varepsilon^{*}(Q_1)\ket{Q_1}\bra{Q_1} + \left(\mathcal{U}_{01}^{*}\ket{Q_1}\bra{Q_0} + \text{h.c.}\right)\]
@@ -125,19 +126,144 @@ Department of Physical Sciences, IISER Kolkata}
 	\begin{minipage}{0.2\textwidth}
 	\includegraphics[width=0.7\textwidth]{effham10.pdf}
 	\end{minipage}
-
-	\vspace*{\fill}
-	\begin{minipage}{0.45\textwidth}
+}
+\only<2>{
 	Allow the flux \(\Phi\) to vary:
 	\[\varepsilon^*(\Phi) - |\mathcal{U}^*_{01}|; \Phi = ak\]
 	Creates the \alert{first band}!
-	\end{minipage}
-	\begin{minipage}{0.5\textwidth}
-	\includegraphics[width=\textwidth]{URGSpectrum.pdf}
-	\end{minipage}
-	
+
+	\vspace*{\fill}
+	\includegraphics[width=0.7\textwidth]{URGSpectrum.pdf}
+}
+
 \end{frame}
 
+\begin{frame}{Dispersion for the lowest band}
+	\only<1>{
+	Fixed point Hamiltonian for the lowest state is of the form:
+	\[\varepsilon^*(Q_0)\ket{Q_0}\bra{Q_0}\]
+
+	\vspace*{\fill}
+
+	\begin{minipage}{0.6\textwidth}
+	Involves only longest-range hopping:
+	\[ \frac{1}{2}\varepsilon^{*}(2\pi)\left( \hat n(0) + \hat n(2\pi) \right) + \frac{1}{2}\varepsilon^{*}(2\pi)\left(c^\dagger(0)c(2\pi) + \text{h.c.}\right)\]
+	\end{minipage}
+	\hspace*{\fill}
+	\begin{minipage}{0.3\textwidth}
+	\includegraphics[width=\textwidth]{longhopping.pdf}
+	\end{minipage}
+
+	\vspace*{\fill}
+	\begin{minipage}{0.6\textwidth}
+	Can be transformed back to real space: \(\theta \to x^\prime\)
+	\[ \frac{1}{2}\varepsilon^{*}(2\pi)\left( \hat n(0) + \hat n(a) \right) + \frac{1}{2}\varepsilon^{*}(a)\left(c^\dagger(0)c(a) + \text{h.c.}\right)\]
+	\end{minipage}
+	\hspace*{\fill}
+	\begin{minipage}{0.3\textwidth}
+	\includegraphics[width=\textwidth]{longhoppingreal.pdf}
+	\end{minipage}
+}
+\only<2>{
+
+	\begin{minipage}{0.3\textwidth}
+	Reintroduce the flux.\\[10pt]
+	Equivalent to translating over all lattice sites.\\[10pt]
+	\end{minipage}
+	\hspace*{\fill}
+	\begin{minipage}{0.6\textwidth}
+	\includegraphics[width=\textwidth]{tightbinding.pdf}
+	\end{minipage}
+
+	\vspace*{\fill}
+	Leads to a tight-binding model!
+	\[H_{TB} = \varepsilon^{*}(2\pi)\sum_{j=0}^{N_\text{well}-1}\hat n(ja) + \frac{1}{2}\varepsilon^{*}(a)\sum_{j=0}^{N_\text{well}-1}\left(c^\dagger(ja)c((j+1)a) + \text{h.c.}\right)\]
+}
+\end{frame}
+
+\section{Insights on the crystal momentum, role of the POC, and Bloch’s theorem}
+\subsection{~}
+
+\begin{frame}{The crystal momentum as a magnetic flux}
+\begin{itemize}
+	\item Crystal momentum acts like a gauge field for the POC\\[10pt]
+	\item Leads to twisted boundary conditions for the POC\\[10pt]
+	\item Topological in nature (akin to a \(\theta-\)term in the action)
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Berry phase and Bloch’s theorem}
+\begin{minipage}{0.5\textwidth}
+Bloch's theorem for periodic potential:
+\[\psi_k(x + ma) = e^{-ikam}\psi_k(x)\]
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.45\textwidth}
+\includegraphics[width=\textwidth]{blochtheorem.pdf}
+\end{minipage}
+
+\vspace*{\fill}
+\begin{minipage}{0.5\textwidth}
+Equivalent to the Berry phase acquired in the presence of a flux!\\[10pt]
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.45\textwidth}
+\includegraphics[width=\textwidth]{berryphase.pdf}
+\end{minipage}
+
+\vspace*{\fill}
+Crystal momentum therefore acts as a Berry phase, sensitive to the topology of PBC!
+\end{frame}
+
+\begin{frame}{The POC as a centre of mass}
+The PPP problem can be mapped to the problem \\
+of a single well but in a variable flux.
+
+\vspace*{\fill}
+\includegraphics[width=\textwidth]{centerofmass.pdf}
+
+\vspace*{\fill}
+The POC can be thought of as the \alert{center of mass} degree of freedom.
+\end{frame}
+
+\section{Metal-insulator transition}
+
+\begin{frame}{Metal-insulator transition upon tuning chemical potential}
+\includegraphics[width=\textwidth]{transition.pdf}
+
+\vspace*{\fill}
+\hspace*{\fill}~possibility of spectral flow~\hspace*{\fill}~no possibility of spectral flow
+\end{frame}
+
+\begin{frame}{Topological nature of the transition}
+\only<1>{
+Greens function has poles at the energy eigenvalues:
+\(G(z) = \sum \left(z - E_i(\Phi_m)\right)^{-1}\)
+
+\vspace*{\fill}
+\includegraphics[width=\textwidth]{contour.pdf}
+
+\vspace*{\fill}
+\begin{minipage}{0.5\textwidth}
+Fermi level occupancy can be detected through presence of pole:
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.4\textwidth}
+	\[n_\text{FL} = \frac{1}{2\pi i}f_\text{FD}(\mu) \oint_\Gamma \mathrm{dz}~ \text{Tr}\left[\mathbf{G}(z)\right]\]
+\end{minipage}
+}
+\only<2>{
+Fermi level occupancy can be expressed as a winding number:
+\[n_\text{FL} = \frac{1}{2\pi i} \oint_\Gamma \mathrm{dz}~ \frac{d}{dz}\ln \text{Det}\left[\mathbf{G}^{-1}\right] = \text{some integer}\]
+
+\vspace*{\fill}
+Counts the number of times \(\ln \text{Det}\left[\mathbf{G}^{-1}\right](\Gamma)\) winds around the origin.
+
+\vspace*{\fill}
+\includegraphics[width=0.8\textwidth]{winding.pdf}
+}
+
+\end{frame}
 \begin{frame}[c]{}
 	\LARGE{THANK YOU.}
 \end{frame}
