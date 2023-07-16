@@ -16,5 +16,209 @@
   {}
 \endgroup
 
-\datalist[entry]{nyt/global//global/global}\enddatalist
+\datalist[entry]{nyt/global//global/global}
+  \entry{AnirbanThesis}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=MA}{%
+         family={Mukherjee},
+         familyi={M\bibinitperiod},
+         given={Anirban},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MA1}
+    \strng{fullhash}{MA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Unitary renormalization group for correlated electrons}
+    \list{institution}{2}{%
+      {Indian Institute of Science Education}%
+      {Research Kolkata}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2020}
+  \endentry
+
+  \entry{rajaraman1982solitons}{book}{}
+    \name{author}{1}{}{%
+      {{hash=RR}{%
+         family={Rajaraman},
+         familyi={R\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {North-Holland Publishing Company}%
+    }
+    \strng{namehash}{RR1}
+    \strng{fullhash}{RR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1982}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{isbn}{9780444862297}
+    \field{series}{North-Holland personal library}
+    \field{title}{Solitons and Instantons: An Introduction to Solitons and Instantons in Quantum Field Theory}
+    \verb{url}
+    \verb https://books.google.co.in/books?id=1XucQgAACAAJ
+    \endverb
+    \field{year}{1982}
+  \endentry
+
+  \entry{seki2017topological}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SK}{%
+         family={Seki},
+         familyi={S\bibinitperiod},
+         given={Kazuhiro},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=YS}{%
+         family={Yunoki},
+         familyi={Y\bibinitperiod},
+         given={Seiji},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{SK+1}
+    \strng{fullhash}{SKYS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{8}
+    \field{pages}{085124}
+    \field{title}{Topological interpretation of the Luttinger theorem}
+    \field{volume}{96}
+    \field{journaltitle}{Physical Review B}
+    \field{year}{2017}
+  \endentry
+
+  \entry{tao1986impurity}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TR}{%
+         family={Tao},
+         familyi={T\bibinitperiod},
+         given={Rongjia},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=HF}{%
+         family={Haldane},
+         familyi={H\bibinitperiod},
+         given={FDM},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{TR+1}
+    \strng{fullhash}{TRHF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1986}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{number}{6}
+    \field{pages}{3844}
+    \field{title}{Impurity effect, degeneracy, and topological invariant in the quantum Hall effect}
+    \field{volume}{33}
+    \field{journaltitle}{Physical Review B}
+    \field{year}{1986}
+  \endentry
+
+  \entry{thouless1982quantized}{article}{}
+    \name{author}{4}{}{%
+      {{hash=TD}{%
+         family={Thouless},
+         familyi={T\bibinitperiod},
+         given={DJ},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kohmoto},
+         familyi={K\bibinitperiod},
+         given={Mahito},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=NM}{%
+         family={Nightingale},
+         familyi={N\bibinitperiod},
+         given={MP},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DNM}{%
+         family={Den\bibnamedelima Nijs},
+         familyi={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{TD+1}
+    \strng{fullhash}{TDKMNMDNM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1982}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{number}{6}
+    \field{pages}{405}
+    \field{title}{Quantized Hall conductance in a two-dimensional periodic potential}
+    \field{volume}{49}
+    \field{journaltitle}{Physical Review Letters}
+    \field{year}{1982}
+  \endentry
+
+  \entry{Weigert1994}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WS}{%
+         family={Weigert},
+         familyi={W\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{WS1}
+    \strng{fullhash}{WS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1994}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \verb{doi}
+    \verb 10.1103/PhysRevA.50.4572
+    \endverb
+    \field{issue}{6}
+    \field{pages}{4572\bibrangedash 4581}
+    \field{title}{Topological quenching of the tunnel splitting for a particle in a double-well potential on a planar loop}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevA.50.4572
+    \endverb
+    \field{volume}{50}
+    \field{journaltitle}{Phys. Rev. A}
+    \field{year}{1994}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+\enddatalist
 \endinput

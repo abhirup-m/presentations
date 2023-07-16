@@ -1,28 +1,32 @@
 # Fdb version 4
-["bibtex URGPPP"] 1689429107 "URGPPP.aux" "URGPPP.bbl" "URGPPP" 1689430164 0
-  "./URGPPP-blx.bib" 1689430163 342 cbbd5eae65dc1eae945f0019723fe47c ""
-  "./bib.bib" 1688881776 319884 53cd71ffcc977c23e810cc31c6ae0dbe ""
+["bibtex URGPPP"] 1689502125 "URGPPP.aux" "URGPPP.bbl" "URGPPP" 1689503381 0
+  "./URGPPP-blx.bib" 1689503380 342 cbbd5eae65dc1eae945f0019723fe47c ""
+  "./bib.bib" 1689502055 320913 ca0f20be765f91f4e321e95bd7b99596 ""
   "/usr/share/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1687799903 65484 b7949c47a88ed6dca66ebc7a04577312 ""
-  "URGPPP.aux" 1689430163 6864 b47ca4a4a7d4edee0e3760b92923deac "xelatex"
+  "URGPPP.aux" 1689503380 10600 547da1179e5c2357e880ca77f0d7ef71 "xelatex"
   (generated)
   "URGPPP.bbl"
   "URGPPP.blg"
   (rewritten before read)
-["xdvipdfmx"] 1689430164 "URGPPP.xdv" "URGPPP.pdf" "URGPPP" 1689430164 0
-  "URGPPP.xdv" 1689430163 157636 3d9b6dcaec5e76660dd5483f77ea1688 "xelatex"
+["xdvipdfmx"] 1689503380 "URGPPP.xdv" "URGPPP.pdf" "URGPPP" 1689503381 0
+  "URGPPP.xdv" 1689503380 203908 1c1f3b4f71f412eb2d0bc5fde271848f "xelatex"
   (generated)
   "URGPPP.pdf"
   (rewritten before read)
-["xelatex"] 1689430160 "URGPPP.tex" "URGPPP.xdv" "URGPPP" 1689430164 0
+["xelatex"] 1689503375 "URGPPP.tex" "URGPPP.xdv" "URGPPP" 1689503381 0
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1687799903 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1687799903 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1687799903 916 f87d7c45f9c908e672703b83b72241a3 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1687799903 924 9904cf1d39e9767e7a3622f2a125a565 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1687799903 928 2dc8d444221b7a635bb58038579b861a ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1687799903 908 2921f8a10601f252058503cc6570e581 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1687799903 940 75ac932a52f80982a9f8ea75d03a34cf ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1687799903 940 228d6584342e91276bf566bcf9716b83 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1687799903 1528 abec98dbc43e172678c11b3b9031252a ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1687799903 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1687799903 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi7.tfm" 1687799903 1528 e2423ae06dc7dee599cceb79d1c9dc32 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1687799903 1520 eccf95517727cb11801f4f1aee3a21b4 ""
   "/usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmss10.tfm" 1687799903 11176 53ebf7a171df1f9447b387b178768bb5 ""
   "/usr/share/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1687799903 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1687799903 40635 c40361e206be584d448876bba8a64a3b ""
@@ -241,11 +245,11 @@
   "/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1687799903 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1687799903 40684 9b9ec0b4288972636ff6a3b9c4238efc ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1686162811 11046066 9fe05123f01f6f17a930caf50571345b ""
-  "URGPPP.aux" 1689430163 6864 b47ca4a4a7d4edee0e3760b92923deac "xelatex"
-  "URGPPP.bbl" 1689429108 512 66cdc237e4f174d49cccf2a5e2afad50 "bibtex URGPPP"
-  "URGPPP.nav" 1689430163 3545 e42ef07bab3452912f11d961e900e908 "xelatex"
-  "URGPPP.run.xml" 1689430163 2574 98ea14b2fe66d97153d37fb731730c9d "xelatex"
-  "URGPPP.tex" 1689430159 9434 e55069be142fb2fce4e95cbd8e76d627 ""
+  "URGPPP.aux" 1689503380 10600 547da1179e5c2357e880ca77f0d7ef71 "xelatex"
+  "URGPPP.bbl" 1689502125 6066 2c15914379d24b1f179fb1e69b929924 "bibtex URGPPP"
+  "URGPPP.nav" 1689503380 4661 4b556d668ebe7cb7552c9487bb59809b "xelatex"
+  "URGPPP.run.xml" 1689503380 2574 98ea14b2fe66d97153d37fb731730c9d "xelatex"
+  "URGPPP.tex" 1689503375 11880 3867daf06451be7028bf37365a96f124 ""
   "beamercolorthemefocus.sty" 1688492354 2693 560e371ab0b5cf29ee4db19f7885e08d ""
   "beamerfontthemefocus.sty" 1688492354 2047 9611c31d1351bc986acea4944ba89ddc ""
   "beamerinnerthemefocus.sty" 1688492354 4597 902db94b7180b236fd9a34aa2c580cfd ""
@@ -266,9 +270,11 @@
   "figures//longhoppingreal.pdf" 1689404722 2291 46353ba91bbc81e98ca241b0823a1983 ""
   "figures//momentum_states.pdf" 1688909550 9839 d7a5f283f154e67a0dd4fe255320ed0f ""
   "figures//potential.pdf" 1686835462 26292 744cb7d51f6e91501c0bb2a585186ce0 ""
+  "figures//relativemomentum.pdf" 1689493662 3561 ca10e96093069f50cd1a4dde30793500 ""
+  "figures//relativemomentuminteractions.pdf" 1689496352 4213 88f0d91a926fc397738ad99faf09c763 ""
   "figures//tightbinding.pdf" 1689407606 3206 effe7f9f1ee236485a9c0f372e97cb58 ""
   "figures//transition.pdf" 1687159006 15284 9aa59ccd9e0500d1a1ebb70ff687eaf3 ""
-  "figures//winding.pdf" 1689430158 9762 924e6b6a0f6d5a360bc9a606a9d18a8d ""
+  "figures//winding.pdf" 1689486106 10533 09ad9584f293dbb57ce094c48c26dfd2 ""
   (generated)
   "URGPPP-blx.bib"
   "URGPPP.aux"

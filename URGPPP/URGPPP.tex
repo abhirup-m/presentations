@@ -8,10 +8,15 @@
 \usetheme[numbering=none]{focus}
 \setbeamercolor{footnote}{fg=azure}
 \setbeamerfont{footnote}{size=\tiny,series=\bfseries}
+\setbeamerfont{bibliography item}{size=\scriptsize}
+\setbeamerfont{bibliography entry author}{size=\scriptsize}
+\setbeamerfont{bibliography entry title}{size=\scriptsize,series=\normalfont}
+\setbeamerfont{bibliography entry location}{size=\scriptsize}
+\setbeamerfont{bibliography entry note}{size=\scriptsize}
 \setbeamerfont{alerted text}{series=\bfseries}
 \setmathfont{Latin Modern Math}[range={frak,\bigcap,\bigcup,\checkmark}]
 
-\usepackage[backend=bibtex,url=false,doi=false,maxcitenames=1, style=authoryear]{biblatex}
+\usepackage[backend=bibtex,url=false,doi=false,maxcitenames=1,style=authoryear]{biblatex}
 \bibliography{bib}
 \AtBeginBibliography{\scriptsize}
 
@@ -82,7 +87,7 @@ Department of Physical Sciences, IISER Kolkata}
 \subsection{~}
 
 \begin{frame}{The PPP as a Particle on a Circle}
-	The conserved crystal momenta leads to a block-diagonal form of the Hamiltonian.
+	The conserved crystal momenta leads to a \alert{block-diagonal} form of the Hamiltonian.
 	\[\mathcal{H} = \sum_k \mathcal{H}(k), \quad \mathcal{H}(k) \sim \left( -i\hbar\frac{\partial}{\partial x^\prime} + \hbar k\right)^2 + V(x^\prime)\]
 
 	\vspace*{\fill}
@@ -103,7 +108,8 @@ Department of Physical Sciences, IISER Kolkata}
 \section{URG Analysis of the POC}
 \subsection{~}
 
-\begin{frame}{URG Analysis of the PAC}
+\begin{frame}{URG Analysis of the POC}
+	\footcite{AnirbanThesis}
 	\alert{Resolve fluctuations} in angular momentum states by applying unitary transformations.
 	\[\Delta \mathcal{U}_{ij}^{(l)}(\omega) = \frac{\mathcal{U}_{il}\mathcal{U}_{lj}}{\omega - \varepsilon(Q_l + \Phi/2\pi)},\quad U_{ij} = U(Q_i - Q_j)\]
 	\includegraphics[width=0.4\textwidth]{URG_poc.pdf}
@@ -146,7 +152,7 @@ Department of Physical Sciences, IISER Kolkata}
 	\vspace*{\fill}
 
 	\begin{minipage}{0.6\textwidth}
-	Involves only longest-range hopping:
+	Involves only \alert{longest-range hopping}:
 	\[ \frac{1}{2}\varepsilon^{*}(2\pi)\left( \hat n(0) + \hat n(2\pi) \right) + \frac{1}{2}\varepsilon^{*}(2\pi)\left(c^\dagger(0)c(2\pi) + \text{h.c.}\right)\]
 	\end{minipage}
 	\hspace*{\fill}
@@ -165,7 +171,7 @@ Department of Physical Sciences, IISER Kolkata}
 	\end{minipage}
 }
 \only<2>{
-
+	\footcite{rajaraman1982solitons,Weigert1994}
 	\begin{minipage}{0.3\textwidth}
 	Reintroduce the flux.\\[10pt]
 	Equivalent to translating over all lattice sites.\\[10pt]
@@ -176,7 +182,7 @@ Department of Physical Sciences, IISER Kolkata}
 	\end{minipage}
 
 	\vspace*{\fill}
-	Leads to a tight-binding model!
+	Leads to a \alert{tight-binding model}!
 	\[H_{TB} = \varepsilon^{*}(2\pi)\sum_{j=0}^{N_\text{well}-1}\hat n(ja) + \frac{1}{2}\varepsilon^{*}(a)\sum_{j=0}^{N_\text{well}-1}\left(c^\dagger(ja)c((j+1)a) + \text{h.c.}\right)\]
 }
 \end{frame}
@@ -186,9 +192,9 @@ Department of Physical Sciences, IISER Kolkata}
 
 \begin{frame}{The crystal momentum as a magnetic flux}
 \begin{itemize}
-	\item Crystal momentum acts like a gauge field for the POC\\[10pt]
+	\item Crystal momentum acts like a \alert{gauge field} for the POC\\[10pt]
 	\item Leads to twisted boundary conditions for the POC\\[10pt]
-	\item Topological in nature (akin to a \(\theta-\)term in the action)
+	\item Topological in nature (akin to a \alert{\(\theta-\)term} in the action)
 \end{itemize}
 \end{frame}
 
@@ -204,7 +210,7 @@ Bloch's theorem for periodic potential:
 
 \vspace*{\fill}
 \begin{minipage}{0.5\textwidth}
-Equivalent to the Berry phase acquired in the presence of a flux!\\[10pt]
+Equivalent to the \alert{Berry phase} acquired in the presence of a flux!\\[10pt]
 \end{minipage}
 \hspace*{\fill}
 \begin{minipage}{0.45\textwidth}
@@ -212,7 +218,7 @@ Equivalent to the Berry phase acquired in the presence of a flux!\\[10pt]
 \end{minipage}
 
 \vspace*{\fill}
-Crystal momentum therefore acts as a Berry phase, sensitive to the topology of PBC!
+Crystal momentum therefore acts as a Berry phase, sensitive to the \alert{topology of PBC}!
 \end{frame}
 
 \begin{frame}{The POC as a centre of mass}
@@ -229,6 +235,7 @@ The POC can be thought of as the \alert{center of mass} degree of freedom.
 \section{Metal-insulator transition}
 
 \begin{frame}{Metal-insulator transition upon tuning chemical potential}
+\footcite{seki2017topological}
 \includegraphics[width=\textwidth]{transition.pdf}
 
 \vspace*{\fill}
@@ -245,7 +252,7 @@ Greens function has poles at the energy eigenvalues:
 
 \vspace*{\fill}
 \begin{minipage}{0.5\textwidth}
-Fermi level occupancy can be detected through presence of pole:
+Fermi level occupancy can be detected through \alert{presence of pole}:
 \end{minipage}
 \hspace*{\fill}
 \begin{minipage}{0.4\textwidth}
@@ -253,7 +260,7 @@ Fermi level occupancy can be detected through presence of pole:
 \end{minipage}
 }
 \only<2>{
-Fermi level occupancy can be expressed as a winding number:
+Fermi level occupancy can be expressed as a \alert{winding number}:
 \[n_\text{FL} = \frac{1}{2\pi i} \oint_\Gamma \mathrm{dz}~ \frac{d}{dz}\ln \text{Det}\left[\mathbf{G}^{-1}\right] = \text{some integer}\]
 
 \vspace*{\fill}
@@ -264,8 +271,60 @@ Counts the number of times \(\ln \text{Det}\left[\mathbf{G}^{-1}\right](\Gamma)\
 }
 
 \end{frame}
-\begin{frame}[c]{}
-	\LARGE{THANK YOU.}
+
+\section{Effect of two-particle interactions}
+\subsection{~}
+
+\begin{frame}{Effect of two-particle interactions}
+\footcite{tao1986impurity}
+\only<1>{
+Consider multiple particles \(\left\{ i \right\} \) in the band in which the chem. pot. resides.
+\[H = \sum_i \frac{\hbar^2}{2m}k_i^2\]
+Can be \alert{separated} into commuting total momentum and relative momentum parts:
+\[H = \frac{\hbar^2}{2N_e m}k_\text{tot}^2 + \frac{\hbar^2}{2N_e m}\sum_{i>j}k_{ij}^2\]
+
+\vspace*{\fill}
+\includegraphics[width=0.6\textwidth]{relativemomentum.pdf}
+}
+\only<2>{
+	Introduce \alert{inter-particle interaction} \(V(r_i - r_j)\) and an Aharanov-Bohm flux \(\Phi\).
+\[H = \frac{\hbar^2}{2N_e m}\left(k_\text{tot} - \Phi\right)^2 + \frac{\hbar^2}{2N_e m}\sum_{i>j}\left(k_{ij}^2 + V(r_i - r_j)\right)\]
+Flux couples to total part, interactions to relative part!
+
+\vspace*{\fill}
+\begin{minipage}{0.3\textwidth}
+Interactions leave \\
+spectral flow \\
+\alert{unaffected}!
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}{0.6\textwidth}
+\includegraphics[width=\textwidth]{relativemomentuminteractions.pdf}
+\end{minipage}
+}
+\end{frame}
+
+\section{The next step: Introducing a magnetic field}
+\subsection{~}
+
+\begin{frame}{The next step: Introducing a magnetic field}
+	\footcite{thouless1982quantized}
+	The next step is to perform a similar analysis in the presence of a \alert{magnetic field}.
+	\[\mathcal{H} = \int_{-\infty}^{\infty}\mathrm{dx}~c^\dagger(x)\left[\frac{1}{2m}\left(\hat p - {\color{red}A(x)}\right)^2 + V(x)\right]c(x),\quad V(x+a) = V(x)\]
+	\begin{itemize}
+		\item Can we see the emergence of the \alert{Landau levels} as the quantum fluctuations in \(V(x)\) and \(A(x)\) are resolved?\\[10pt]
+		\item Can we obtain a \alert{transition} as the magnetic field is tuned? \\[10pt]
+		\item What is the \alert{theory} for the Hamiltonian levels precisely at the transition?
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{}
+
+\vspace*{\fill}
+\LARGE{\underline{THANK YOU}}
+
+\vspace*{\fill}
+\printbibliography[heading=none]
 \end{frame}
 
 \end{document}

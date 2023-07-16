@@ -7,3 +7,7 @@
 \beamer@sectionintoc {5}{Insights on the crystal momentum, role of the POC, and Bloch’s theorem}{18}{0}{5}
 \beamer@subsectionintoc {5}{1}{\nobreakspace {}}{18}{0}{5}
 \beamer@sectionintoc {6}{Metal-insulator transition}{22}{0}{6}
+\beamer@sectionintoc {7}{Effect of two-particle interactions}{25}{0}{7}
+\beamer@subsectionintoc {7}{1}{\nobreakspace {}}{25}{0}{7}
+\beamer@sectionintoc {8}{The next step: Introducing a magnetic field}{28}{0}{8}
+\beamer@subsectionintoc {8}{1}{\nobreakspace {}}{28}{0}{8}

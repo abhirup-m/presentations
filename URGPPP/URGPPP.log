@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Arch Linux) (preloaded format=xelatex 2023.6.8)  15 JUL 2023 19:39
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Arch Linux) (preloaded format=xelatex 2023.6.8)  16 JUL 2023 15:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1129,9 +1129,9 @@ Package fontspec Info: Font family 'FiraMono(3)' created for font 'FiraMono'
 ) (/usr/share/texmf-dist/tex/latex/firamath-otf/firamath-otf.sty
 Package: firamath-otf 2023/01/16 v. 0.03a (Herbert Voss) Supports fira math fonts for all luatex/xetex .
 Requested font "Fira Math Regular/OT" at 10.94997pt
- -> oÔøøõTÔøæÉ^^OV
+ -> ÔøøëÔøæ¥TÔøø•Ôøø©U
 Requested font "Fira Math Regular/OT" at 10.95003pt
- -> Ôøæ†ÔøæüTÔøæÉ^^OV
+ -> ÔøæÇqUÔøø•Ôøø©U
 
 
 Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
@@ -1144,11 +1144,11 @@ Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (tnum) not
 (fontspec)                'Math' and language 'Default'.
 
 Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 10.95001pt
- -> Ôøæ©>UÔøæÉ^^OV
+ -> ÔøæåÔøæêTÔøø•Ôøø©U
 Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95001pt
- -> Ôøø§ÔøøüTÔøæÉ^^OV
+ -> ÔøæáÔøæ≤TÔøø•Ôøø©U
 Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 10.95003pt
- -> Ôøæ©?ÔøæÆ`^^E
+ -> Ôøø¨ÔøæπÔøøã^^^E
 
 Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
 (fontspec)                available for font 'Fira Math Regular' with script
@@ -1160,9 +1160,9 @@ Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (tnum) not
 (fontspec)                'Math' and language 'Default'.
 
 Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
- -> 3ÔøæØTÔøæÉ^^OV
+ -> ^^U^^CUÔøø•Ôøø©U
 Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
- -> Ôøø¨XTÔøæÉ^^OV
+ -> O5UÔøø•Ôøø©U
 
 Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
 (fontspec)                available for font 'Fira Math Regular/B' with script
@@ -1191,7 +1191,7 @@ Package fontspec Info: Font family 'FiraMathRegular(0)' created for font 'Fira
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 80.
 Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 10.95pt
- -> ÔøøôÔøæ™ÔøæØÔøæÑ^^OV
+ -> Ôøø¨^^CnÔøø•Ôøø©U
 
 Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
 (fontspec)                available for font 'Fira Math Regular' with script
@@ -1203,7 +1203,7 @@ Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (tnum) not
 (fontspec)                'Math' and language 'Default'.
 
 Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95001pt
- -> A\ÔøæØÔøæÑ^^OV
+ -> Ôøæ¥Ôøø∫nÔøø•Ôøø©U
 
 Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
 (fontspec)                available for font 'Fira Math Regular' with script
@@ -1235,9 +1235,9 @@ Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (tnum) not
 (fontspec)                'Math' and language 'Default'.
 
 Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
- -> ÔøøÅÔøæùÔøæ¨ÔøæÑ^^OV
+ -> 4Ôøæ∏lÔøø•Ôøø©U
 Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
- -> ÔøøÅÔøæåÔøæ¨ÔøæÑ^^OV
+ -> 4KmÔøø•Ôøø©U
 
 Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
 (fontspec)                available for font 'Fira Math Regular/B' with script
@@ -1294,7 +1294,7 @@ Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (tnum) not
 (fontspec)                'Math' and language 'Default'.
 
 Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95001pt
- -> ^^XÔøæªÔøæ¨ÔøæÑ^^OV
+ -> Ôøæ™Ôøæ•lÔøø•Ôøø©U
 
 Package fontspec Info: Fira Math Regular scale = 1.0001.
 
@@ -1335,9 +1335,9 @@ Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (tnum) not
 (fontspec)                'Math' and language 'Default'.
 
 Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
- -> ^^?VÔøæ≠ÔøæÑ^^OV
+ -> ÔøæëÔøæÄlÔøø•Ôøø©U
 Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
- -> o^^EÔøæ≠ÔøæÑ^^OV
+ -> Ôøæ°ÔøøìlÔøø•Ôøø©U
 
 Package fontspec Info: Fira Math Regular/B scale = 1.0001.
 
@@ -1427,7 +1427,7 @@ Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (tnum) not
 (fontspec)                'Math' and language 'Default'.
 
 Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95001pt
- -> L Ôøæ≠ÔøæÑ^^OV
+ -> Ôøæü>lÔøø•Ôøø©U
 
 Package fontspec Info: Fira Math Regular scale = 0.9999.
 
@@ -1468,9 +1468,9 @@ Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (tnum) not
 (fontspec)                'Math' and language 'Default'.
 
 Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
- -> Ôøæ∂;Ôøæ≠ÔøæÑ^^OV
+ -> h^^ZlÔøø•Ôøø©U
 Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
- -> FÔøø™Ôøæ≠ÔøæÑ^^OV
+ -> xulÔøø•Ôøø©U
 
 Package fontspec Info: Fira Math Regular/B scale = 0.9999.
 
@@ -1530,11 +1530,11 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> TU/FiraMathRegular(3)/b/n on input line 80.
 \c@mv@pnum=\count353
 Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95001pt
- -> ;ÔøæÉÔøæ≠ÔøæÑ^^OV
+ -> Ôøøç]lÔøø•Ôøø©U
 Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
- -> ^^VÔøæñÔøæ≠ÔøæÑ^^OV
+ -> Ôøøà@lÔøø•Ôøø©U
 Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
- -> FÔøø†Ôøæ≠ÔøæÑ^^OV
+ -> x^^?lÔøø•Ôøø©U
 
 Package fontspec Warning: OpenType feature 'Numbers=Proportional' (pnum) not
 (fontspec)                available for font 'Fira Math Regular/B' with script
@@ -1558,13 +1558,13 @@ Package fontspec Info: Font family 'FiraMathRegular(4)' created for font 'Fira
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(4)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 82.
 Requested font "Fira Math Regular/OT:script=math;language=dflt;+pnum;" at 10.95pt
- -> N^^EÔøæ≠ÔøæÑ^^OV
+ -> ÔøæÅÔøøêlÔøø•Ôøø©U
 Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95001pt
- -> Ôøæ¶ÔøæèPÔøæÉ^^OV
+ -> ÔøæàMiÔøø•Ôøø©U
 Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
- -> &ÔøæÆÔøæ≠ÔøæÑ^^OV
+ -> ÔøøòÔøæ®cÔøø•Ôøø©U
 Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
- -> Ôøø¶)Ôøæ´ÔøæÑ^^OV
+ -> ^^X4bÔøø•Ôøø©U
 
 Package fontspec Warning: OpenType feature 'Numbers=Proportional' (pnum) not
 (fontspec)                available for font 'Fira Math Regular/B' with script
@@ -1603,7 +1603,7 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `pnum'
 Package fontspec Info: Fira Math Regular scale = 1.0001.
 
 Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95001pt
- -> ÔøøÇÔøøüÔøæ´ÔøæÑ^^OV
+ -> Ôøæ¥~bÔøø•Ôøø©U
 
 Package fontspec Info: Fira Math Regular scale = 1.0001.
 
@@ -1614,9 +1614,9 @@ Package fontspec Info: Fira Math Regular scale = 1.0001.
 Package fontspec Info: Fira Math Regular scale = 1.0001.
 
 Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
- -> Ôøæó>Ôøæ´ÔøæÑ^^OV
+ -> Ôøøä^^YbÔøø•Ôøø©U
 Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
- -> wÔøæéÔøæ´ÔøæÑ^^OV
+ -> *HbÔøø•Ôøø©U
 
 Package fontspec Info: Fira Math Regular/B scale = 1.0001.
 
@@ -1688,7 +1688,7 @@ LaTeX Font Info:    Overwriting symbol font `symbols' in version `pnum'
 Package fontspec Info: Fira Math Regular scale = 0.9999.
 
 Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95001pt
- -> )Ôøæ®Ôøæ´ÔøæÑ^^OV
+ -> ÔøæõÔøæ∑aÔøø•Ôøø©U
 
 Package fontspec Info: Fira Math Regular scale = 0.9999.
 
@@ -1699,9 +1699,9 @@ Package fontspec Info: Fira Math Regular scale = 0.9999.
 Package fontspec Info: Fira Math Regular scale = 0.9999.
 
 Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
- -> ÔøæÆÔøæçÔøæ´ÔøæÑ^^OV
+ ->  HbÔøø•Ôøø©U
 Requested font "Fira Math Regular/B/OT:script=math;language=dflt;" at 10.95003pt
- -> ÔøæûmÔøæ®ÔøæÑ^^OV
+ -> Ôøø∞Ôøø®aÔøø•Ôøø©U
 
 Package fontspec Info: Fira Math Regular/B scale = 0.9999.
 
@@ -1814,25 +1814,25 @@ File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
 \focus@pbar@rightoffset=\skip67
 ))
 Requested font "Latin Modern Math/OT" at 10.94997pt
- -> <Ôøæ¢Ôøæ¨ÔøæÑ^^OV
+ -> ÔøøèÔøæºlÔøø•Ôøø©U
 Requested font "Latin Modern Math/OT" at 10.95003pt
- -> s|Ôøæ®ÔøæÑ^^OV
+ -> ^^FÔøøöaÔøø•Ôøø©U
 Requested font "Latin Modern Math/OT:script=math;language=dflt;" at 10.95001pt
- -> R{Ôøæ®ÔøæÑ^^OV
+ -> eÔøø•aÔøø•Ôøø©U
 Requested font "Latin Modern Math/B/OT:script=math;language=dflt;" at 10.95001pt
- -> c@ÔøæÆ`^^E
+ -> Ôøæ¶Ôøæ∫Ôøøã^^^E
 
 Package fontspec Info: Could not resolve font "Latin Modern Math/B" (it
 (fontspec)             probably doesn't exist).
 
 Requested font "Latin Modern Math/OT:script=math;language=dflt;" at 10.95003pt
- -> ÔøøìÔøæîÔøææÔøæÑ^^OV
+ -> Ôøø¶C^^?Ôøø•Ôøø©U
 Requested font "Latin Modern Math/OT:script=math;language=dflt;" at 10.95003pt
- -> ^^KAÔøæÆ`^^E
+ -> MÔøæªÔøøã^^^E
 Requested font "Latin Modern Math/OT:script=math;language=dflt;" at 10.95003pt
- -> ÔøøãÔøøªÔøæΩÔøæÑ^^OV
+ -> ^^]d|Ôøø•Ôøø©U
 Requested font "Latin Modern Math/OT:script=math;language=dflt;" at 10.95003pt
- -> ÔøøõÔøø≤ÔøæΩÔøæÑ^^OV
+ -> -c|Ôøø•Ôøø©U
 
 Package fontspec Info: Font family 'LatinModernMath(0)' created for font
 (fontspec)             'Latin Modern Math' with options
@@ -1851,12 +1851,12 @@ Package fontspec Info: Font family 'LatinModernMath(0)' created for font
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 Requested font "Latin Modern Math/OT:script=math;language=dflt;" at 10.95pt
- -> ^^[Ôøø©ÔøæΩÔøæÑ^^OV
+ -> Ôøø≠w|Ôøø•Ôøø©U
 \sym__um_fam1=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `normal'
-(Font)                  TU/LatinModernMath(0)/m/n --> TU/LatinModernMath(0)/m/n on input line 12.
+(Font)                  TU/LatinModernMath(0)/m/n --> TU/LatinModernMath(0)/m/n on input line 17.
 LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `bold'
-(Font)                  TU/LatinModernMath(0)/m/n --> TU/LatinModernMath(0)/b/n on input line 12.
+(Font)                  TU/LatinModernMath(0)/m/n --> TU/LatinModernMath(0)/b/n on input line 17.
  (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
@@ -2094,26 +2094,26 @@ Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
  (./URGPPP.aux)
 \openout1 = `URGPPP.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -2149,7 +2149,7 @@ LaTeX Font Info:    ... okay on input line 36.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 36.
+Package hyperref Info: Link coloring OFF on input line 41.
 (/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/share/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -2164,11 +2164,11 @@ Dictionary: translator-numbers-dictionary, Language: English
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  TU/FiraMathRegular(1)/m/n --> TU/lmr/m/n on input line 36.
+(Font)                  TU/FiraMathRegular(1)/m/n --> TU/lmr/m/n on input line 41.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 36.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 41.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 36.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 41.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -2186,67 +2186,73 @@ Package biblatex Info: Data encoding 'utf8' specified.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'URGPPP.bbl' found.
- (./URGPPP.bbl)
-Package biblatex Info: Reference section=0 on input line 36.
-Package biblatex Info: Reference segment=0 on input line 36.
+ (./URGPPP.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Weigert1994':
+(biblatex)                - Invalid format of field 'month'.
+
+)
+Package biblatex Info: Reference section=0 on input line 41.
+Package biblatex Info: Reference segment=0 on input line 41.
  (./URGPPP.nav)
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 36.
+(Font)              scaled to size 6.0pt on input line 41.
 Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 6.0pt
 Font mapping `tex-text.tec' for font `[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;' not found.
  -> /usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 36.
+(Font)              scaled to size 8.0pt on input line 41.
 Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 8.0pt
 Font mapping `tex-text.tec' for font `[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;' not found.
  -> /usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 49.
+(Font)              scaled to size 20.74pt on input line 54.
 Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 20.74pt
 Font mapping `tex-text.tec' for font `[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;' not found.
  -> /usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/sc' will be
-(Font)              scaled to size 20.74pt on input line 49.
+(Font)              scaled to size 20.74pt on input line 54.
 Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;+smcp;mapping=tex-text;" at 20.74pt
 Font mapping `tex-text.tec' for font `[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;+smcp;mapping=tex-text;' not found.
  -> /usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/sc' will be
-(Font)              scaled to size 20.74pt on input line 49.
+(Font)              scaled to size 20.74pt on input line 54.
 Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;+smcp;mapping=tex-text;" at 20.74pt
 Font mapping `tex-text.tec' for font `[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;+smcp;mapping=tex-text;' not found.
  -> /usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.otf
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/sc' will be
-(Font)              scaled to size 17.28pt on input line 49.
+(Font)              scaled to size 17.28pt on input line 54.
 Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;+smcp;mapping=tex-text;" at 17.28pt
 Font mapping `tex-text.tec' for font `[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;+smcp;mapping=tex-text;' not found.
  -> /usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.otf
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/sc' will be
-(Font)              scaled to size 14.4pt on input line 49.
+(Font)              scaled to size 14.4pt on input line 54.
 Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;+smcp;mapping=tex-text;" at 14.4pt
 Font mapping `tex-text.tec' for font `[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;+smcp;mapping=tex-text;' not found.
  -> /usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.otf
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 49.
+(Font)              scaled to size 14.4pt on input line 54.
 Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 14.4pt
 Font mapping `tex-text.tec' for font `[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;' not found.
  -> /usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/sc' will be
-(Font)              scaled to size 14.4pt on input line 49.
+(Font)              scaled to size 14.4pt on input line 54.
 Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;+smcp;mapping=tex-text;" at 14.4pt
 Font mapping `tex-text.tec' for font `[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;+smcp;mapping=tex-text;' not found.
  -> /usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 49.
+(Font)              scaled to size 12.0pt on input line 54.
 Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 12.0pt
 Font mapping `tex-text.tec' for font `[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;' not found.
  -> /usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 49.
+(Font)              scaled to size 12.0pt on input line 54.
 Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;+smcp;mapping=tex-text;" at 12.0pt
 Font mapping `tex-text.tec' for font `[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;+smcp;mapping=tex-text;' not found.
  -> /usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/sc' will be
-(Font)              scaled to size 12.0pt on input line 49.
+(Font)              scaled to size 12.0pt on input line 54.
 Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;+smcp;mapping=tex-text;" at 12.0pt
 Font mapping `tex-text.tec' for font `[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;+smcp;mapping=tex-text;' not found.
  -> /usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.otf
@@ -2255,7 +2261,7 @@ File: ./figures//epqm_logo_mod.jpeg Graphic file (type bmp)
 File: ./figures//dps_logo.jpeg Graphic file (type bmp)
 <./figures//dps_logo.jpeg>
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 4.0pt on input line 49.
+(Font)              scaled to size 4.0pt on input line 54.
 Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 4.0pt
 Font mapping `tex-text.tec' for font `[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;' not found.
  -> /usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf
@@ -2263,7 +2269,7 @@ Font mapping `tex-text.tec' for font `[FiraSans-Regular.otf]/OT:script=latn;lang
 
 ]
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
-(Font)              scaled to size 10.95pt on input line 61.
+(Font)              scaled to size 10.95pt on input line 66.
 Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 10.95pt
 Font mapping `tex-text.tec' for font `[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;' not found.
  -> /usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.otf
@@ -2279,13 +2285,13 @@ Font mapping `tex-text.tec' for font `[FiraSans-Bold.otf]/OT:script=latn;languag
 
 ]
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(1)/m/n' will be
-(Font)              scaled to size 7.884pt on input line 79.
+(Font)              scaled to size 7.884pt on input line 84.
 Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=0;" at 7.884pt
- -> Ôøø≠ÔøøíÔøæÄÔøæÑ^^OV
+ -> Ôøæ∞^^H^^YÔøø•Ôøø©U
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(1)/m/n' will be
-(Font)              scaled to size 6.351pt on input line 79.
+(Font)              scaled to size 6.351pt on input line 84.
 Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 6.351pt
- -> ÔøæôÔøøíÔøæÄÔøæÑ^^OV
+ -> [^^I^^YÔøø•Ôøø©U
 Requested font "cmmi10" at 10.95pt
  -> /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 Requested font "cmmi7" at 7.884pt
@@ -2293,30 +2299,30 @@ Requested font "cmmi7" at 7.884pt
 Requested font "cmmi6" at 6.351pt
  -> /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 10.95116pt on input line 79.
+(Font)              scaled to size 10.95116pt on input line 84.
 Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 10.95116pt
- -> _Ôøø†ÔøæúÔøæÑ^^OV
+ -> ^^Az^^]Ôøø•Ôøø©U
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 7.88484pt on input line 79.
+(Font)              scaled to size 7.88484pt on input line 84.
 Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=0;" at 7.88484pt
- -> ÔøøØÔøø¢ÔøæúÔøæÑ^^OV
+ -> Ôøæ±x^^]Ôøø•Ôøø©U
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 6.35167pt on input line 79.
+(Font)              scaled to size 6.35167pt on input line 84.
 Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 6.35167pt
- -> ÔøæΩÔøæìÔøæúÔøæÑ^^OV
+ -> ÔøøøI^^]Ôøø•Ôøø©U
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 79.
+(Font)              scaled to size 10.94882pt on input line 84.
 Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 10.94882pt
- -> ÔøæíCÔøæÆ`^^E
+ -> ÔøøïÔøæΩÔøøã^^^E
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 7.88315pt on input line 79.
+(Font)              scaled to size 7.88315pt on input line 84.
 Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=0;" at 7.88315pt
- -> ÔøæíCÔøæÆ`^^E
+ -> ÔøøïÔøæΩÔøøã^^^E
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 6.35031pt on input line 79.
+(Font)              scaled to size 6.35031pt on input line 84.
 Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 6.35031pt
- -> Ôøæ∫CÔøæÆ`^^E
-LaTeX Font Info:    Trying to load font information for U+msa on input line 79.
+ -> ÔøøºÔøæΩÔøøã^^^E
+LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -2326,7 +2332,7 @@ Requested font "msam7" at 7.884pt
  -> /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 Requested font "msam7" at 6.351pt
  -> /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-LaTeX Font Info:    Trying to load font information for U+msb on input line 79.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -2337,9 +2343,9 @@ Requested font "msbm7" at 7.884pt
 Requested font "msbm7" at 6.351pt
  -> /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 Requested font "Latin Modern Math/OT:script=math;language=dflt;+ssty=0;" at 7.884pt
- -> ~Ôøæ´ÔøæíÔøæÑ^^OV
+ ->  Ôøæ≥*Ôøø•Ôøø©U
 Requested font "Latin Modern Math/OT:script=math;language=dflt;+ssty=1;" at 6.351pt
- -> Ôøø©BÔøæÆ`^^E
+ -> +ÔøæΩÔøøã^^^E
 File: ./figures//potential.pdf Graphic file (type pdf)
 <use ./figures//potential.pdf>
  [7
@@ -2364,23 +2370,33 @@ File: ./figures//POC.pdf Graphic file (type pdf)
 ] [12
 
 ]
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 116.
+Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 9.0pt
+Font mapping `tex-text.tec' for font `[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;' not found.
+ -> /usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
+(Font)              scaled to size 6.0pt on input line 116.
+Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 6.0pt
+Font mapping `tex-text.tec' for font `[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;' not found.
+ -> /usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.otf
 File: ./figures//URG_poc.pdf Graphic file (type pdf)
 <use ./figures//URG_poc.pdf>
  [13
 
 ]
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 7.884pt on input line 139.
+(Font)              scaled to size 7.884pt on input line 145.
 Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 7.884pt
 Font mapping `tex-text.tec' for font `[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;' not found.
  -> /usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 6.351pt on input line 139.
+(Font)              scaled to size 6.351pt on input line 145.
 Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 6.351pt
 Font mapping `tex-text.tec' for font `[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;' not found.
  -> /usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf
 
-Overfull \hbox (8.72755pt too wide) detected at line 139
+Overfull \hbox (8.72755pt too wide) detected at line 145
 [][][] [] [] [] [][][][][]
  []
 
@@ -2401,7 +2417,7 @@ File: ./figures//longhoppingreal.pdf Graphic file (type pdf)
  [16
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
 
  []
 
@@ -2417,7 +2433,7 @@ File: ./figures//tightbinding.pdf Graphic file (type pdf)
 File: ./figures//blochtheorem.pdf Graphic file (type pdf)
 <use ./figures//blochtheorem.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--216
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
 
  []
 
@@ -2433,7 +2449,12 @@ File: ./figures//centerofmass.pdf Graphic file (type pdf)
 ]
 File: ./figures//transition.pdf Graphic file (type pdf)
 <use ./figures//transition.pdf>
- [22
+
+Overfull \hbox (1.93451pt too wide) in paragraph at lines 243--243
+ [] [] 
+ []
+
+[22
 
 ]
 File: ./figures//contour.pdf Graphic file (type pdf)
@@ -2454,13 +2475,173 @@ File: ./figures//winding.pdf Graphic file (type pdf)
 <use ./figures//winding.pdf>
  [24
 
+] [25
+
+]
+File: ./figures//relativemomentum.pdf Graphic file (type pdf)
+<use ./figures//relativemomentum.pdf>
+ [26
+
+]
+File: ./figures//relativemomentuminteractions.pdf Graphic file (type pdf)
+<use ./figures//relativemomentuminteractions.pdf>
+ [27
+
+] [28
+
+] [29
+
 ]
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 269.
+(Font)              scaled to size 17.28pt on input line 328.
 Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 17.28pt
 Font mapping `tex-text.tec' for font `[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;' not found.
  -> /usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf
- [25
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(1)/m/n' will be
+(Font)              scaled to size 17.28pt on input line 328.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 17.28pt
+ -> UÔøøß<Ôøø•Ôøø©U
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(1)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 328.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 12.0pt
+ -> Ôøæ•Ôøæç<Ôøø•Ôøø©U
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(1)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 328.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 10.0pt
+ -> uÔøæøÔøøã^^^E
+Requested font "cmmi12" at 17.28pt
+ -> /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+Requested font "cmmi12" at 12.0pt
+ -> /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 17.28183pt on input line 328.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 17.28183pt
+ -> ^^E$7Ôøø•Ôøø©U
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 12.00128pt on input line 328.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 12.00128pt
+ -> uÔøæøÔøøã^^^E
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 10.00107pt on input line 328.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 10.00107pt
+ -> uÔøæøÔøøã^^^E
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 17.27815pt on input line 328.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 17.27815pt
+ -> uÔøæøÔøøã^^^E
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 11.99872pt on input line 328.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 11.99872pt
+ -> uÔøæøÔøøã^^^E
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 328.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;" at 9.99893pt
+ -> uÔøæøÔøøã^^^E
+Requested font "[lmroman12-bold]:mapping=tex-text;" at 17.28pt
+Font mapping `tex-text.tec' for font `[lmroman12-bold]:mapping=tex-text;' not found.
+ -> /usr/share/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf
+Requested font "[lmroman12-bold]:mapping=tex-text;" at 12.0pt
+Font mapping `tex-text.tec' for font `[lmroman12-bold]:mapping=tex-text;' not found.
+ -> /usr/share/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf
+Requested font "[lmroman10-bold]:mapping=tex-text;" at 10.0pt
+Font mapping `tex-text.tec' for font `[lmroman10-bold]:mapping=tex-text;' not found.
+ -> /usr/share/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf
+Requested font "msam10" at 17.28pt
+ -> /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+Requested font "msam10" at 12.0pt
+ -> /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+Requested font "msam10" at 10.0pt
+ -> /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+Requested font "msbm10" at 17.28pt
+ -> /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+Requested font "msbm10" at 12.0pt
+ -> /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+Requested font "msbm10" at 10.0pt
+ -> /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+Requested font "Latin Modern Math/OT:script=math;language=dflt;" at 17.28pt
+ -> ÔøøâÔøæøÔøøã^^^E
+Requested font "Latin Modern Math/OT:script=math;language=dflt;" at 12.0pt
+ -> ÔøæØÔøøÄÔøøã^^^E
+Requested font "Latin Modern Math/OT:script=math;language=dflt;" at 10.0pt
+ -> ÔøøåÔøøùÔøøÉÔøø¢Ôøø©U
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/sc' will be
+(Font)              scaled to size 8.0pt on input line 328.
+Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;+smcp;mapping=tex-text;" at 8.0pt
+Font mapping `tex-text.tec' for font `[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;+smcp;mapping=tex-text;' not found.
+ -> /usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(1)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 328.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=0;" at 8.0pt
+ -> 'ÔøøÅÔøøã^^^E
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(1)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 328.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 6.0pt
+ -> :ÔøøÅÔøøã^^^E
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(1)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 328.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 5.0pt
+ -> NÔøøÅÔøøã^^^E
+Requested font "cmmi8" at 8.0pt
+ -> /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+Requested font "cmmi6" at 6.0pt
+ -> /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 8.00085pt on input line 328.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=0;" at 8.00085pt
+ -> Ôøø≤Ôøø§ÔøøùÔøø¢Ôøø©U
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 6.00064pt on input line 328.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 6.00064pt
+ -> vÔøøÅÔøøã^^^E
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 328.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 5.00053pt
+ -> ÔøæäÔøøÅÔøøã^^^E
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 7.99915pt on input line 328.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=0;" at 7.99915pt
+ -> ÔøæùÔøøÅÔøøã^^^E
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 328.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 5.99936pt
+ -> Ôøæ±ÔøøÅÔøøã^^^E
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 328.
+Requested font "Fira Math Regular/OT:script=math;language=dflt;+ssty=1;" at 4.99947pt
+ -> ÔøøÖÔøøÅÔøøã^^^E
+Requested font "[lmroman8-bold]:mapping=tex-text;" at 8.0pt
+Font mapping `tex-text.tec' for font `[lmroman8-bold]:mapping=tex-text;' not found.
+ -> /usr/share/texmf-dist/fonts/opentype/public/lm/lmroman8-bold.otf
+Requested font "[lmroman6-bold]:mapping=tex-text;" at 6.0pt
+Font mapping `tex-text.tec' for font `[lmroman6-bold]:mapping=tex-text;' not found.
+ -> /usr/share/texmf-dist/fonts/opentype/public/lm/lmroman6-bold.otf
+Requested font "[lmroman5-bold]:mapping=tex-text;" at 5.0pt
+Font mapping `tex-text.tec' for font `[lmroman5-bold]:mapping=tex-text;' not found.
+ -> /usr/share/texmf-dist/fonts/opentype/public/lm/lmroman5-bold.otf
+Requested font "msam10" at 8.0pt
+ -> /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+Requested font "msam7" at 6.0pt
+ -> /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+Requested font "msam5" at 5.0pt
+ -> /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+Requested font "msbm10" at 8.0pt
+ -> /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+Requested font "msbm7" at 6.0pt
+ -> /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+Requested font "msbm5" at 5.0pt
+ -> /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+Requested font "Latin Modern Math/OT:script=math;language=dflt;+ssty=0;" at 8.0pt
+ -> bÔøøÅÔøøã^^^E
+Requested font "Latin Modern Math/OT:script=math;language=dflt;+ssty=1;" at 6.0pt
+ -> IÔøøÇÔøøã^^^E
+Requested font "Latin Modern Math/OT:script=math;language=dflt;+ssty=1;" at 5.0pt
+ -> vÔøøÇÔøøã^^^E
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/it' will be
+(Font)              scaled to size 8.0pt on input line 328.
+Requested font "[FiraSans-Italic.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 8.0pt
+Font mapping `tex-text.tec' for font `[FiraSans-Italic.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;' not found.
+ -> /usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Italic.otf
+ [30
 
 ]
 \tf@nav=\write6
@@ -2478,12 +2659,12 @@ Package logreq Info: Writing requests to 'URGPPP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39581 strings out of 476683
- 825116 string characters out of 5809791
- 1854018 words of memory out of 5000000
- 59040 multiletter control sequences out of 15000+600000
- 519831 words of font info for 141 fonts, out of 8000000 for 9000
+ 39993 strings out of 476683
+ 835689 string characters out of 5809791
+ 1855018 words of memory out of 5000000
+ 59410 multiletter control sequences out of 15000+600000
+ 525368 words of font info for 191 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,11n,150p,1870b,2941s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,11n,150p,1870b,5435s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on URGPPP.xdv (25 pages, 157636 bytes).
+Output written on URGPPP.xdv (30 pages, 203908 bytes).
