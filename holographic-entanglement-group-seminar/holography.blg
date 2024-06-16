@@ -1,0 +1,65 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: holography.aux
+The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: holography-blx.bib
+Database file #2: bib.bib
+Biblatex version: 3.20
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 29 entries,
+            6402 wiz_defined-function locations,
+            1406 strings with 13762 characters,
+and the built_in function-call counts, 207285 in all, are:
+= -- 15762
+> -- 3254
+< -- 1034
++ -- 5576
+- -- 1129
+* -- 15248
+:= -- 21866
+add.period$ -- 0
+call.type$ -- 29
+change.case$ -- 663
+chr.to.int$ -- 55
+cite$ -- 56
+duplicate$ -- 22394
+empty$ -- 18483
+format.name$ -- 1815
+if$ -- 42699
+int.to.chr$ -- 0
+int.to.str$ -- 95
+missing$ -- 0
+newline$ -- 1079
+num.names$ -- 1587
+pop$ -- 9930
+preamble$ -- 1
+purify$ -- 781
+quote$ -- 0
+skip$ -- 5767
+stack$ -- 0
+substring$ -- 27315
+swap$ -- 5105
+text.length$ -- 758
+text.prefix$ -- 32
+top$ -- 1
+type$ -- 974
+warning$ -- 0
+while$ -- 2746
+width$ -- 0
+write$ -- 1051
