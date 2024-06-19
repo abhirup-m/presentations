@@ -1,19 +1,19 @@
 # Fdb version 4
-["bibtex holography"] 1718564151.15258 "holography.aux" "holography.bbl" "holography" 1718564170.10338 0
+["bibtex holography"] 1718732608.91707 "holography.aux" "holography.bbl" "holography" 1718733125.80982 0
   "./bib.bib" 1718557775.18061 317255 5e07538278e119b9fa2397516244c386 ""
-  "./holography-blx.bib" 1718564168.7918 342 effba4801a5f59ad8d0ade97d84f3027 ""
+  "./holography-blx.bib" 1718733124.44602 342 effba4801a5f59ad8d0ade97d84f3027 ""
   "/home/storage/texlive/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1711143581 65510 b1f696b0241395385f422f67543c37fd ""
-  "holography.aux" 1718564168.7828 18775 0115ad9c3fe70139cdc85870cb03b81a "xelatex"
+  "holography.aux" 1718733124.43702 18775 0115ad9c3fe70139cdc85870cb03b81a "xelatex"
   (generated)
   "holography.bbl"
   "holography.blg"
   (rewritten before read)
-["xdvipdfmx"] 1718564169.13366 "holography.xdv" "holography.pdf" "holography" 1718564170.10756 0
-  "holography.xdv" 1718564168.7938 354512 e0387fd9f1825ce84b478781a7102cc7 "xelatex"
+["xdvipdfmx"] 1718733124.81203 "holography.xdv" "holography.pdf" "holography" 1718733125.81485 0
+  "holography.xdv" 1718733124.44802 354272 b752764be652b62e544d84b6e5c98916 "xelatex"
   (generated)
   "holography.pdf"
   (rewritten before read)
-["xelatex"] 1718564163.8704 "holography.tex" "holography.xdv" "holography" 1718564170.10352 0
+["xelatex"] 1718733119.3028 "holography.tex" "holography.xdv" "holography" 1718733125.81002 0
   "/home/storage/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/home/storage/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/home/storage/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -267,11 +267,11 @@
   "figures/theta.pdf" 1656092298.90228 101221 796cc4409165d88affe7f8434a1018d3 ""
   "figures/thetap.pdf" 1656099464.53404 100711 caa678f77dbe95e2e37862547bfa8d3e ""
   "figures/torus.pdf" 1655312530.73774 4588 9a115bc1a7faa33499eea4a4d878f2e0 ""
-  "holography.aux" 1718564168.7828 18775 0115ad9c3fe70139cdc85870cb03b81a "xelatex"
-  "holography.bbl" 1718564151.4288 29529 c683b3429af161a5a9d845aa051a392e "bibtex holography"
-  "holography.nav" 1718564168.7928 4523 ecbd5597d1796f8d6d31621a7e29efcd "xelatex"
-  "holography.run.xml" 1718564168.7928 2610 ddc452c3a713f2fe949cecb0fec2d5b4 "xelatex"
-  "holography.tex" 1718564163.0888 20825 d3a5a240cab9aa18342762be6bf57378 ""
+  "holography.aux" 1718733124.43702 18775 0115ad9c3fe70139cdc85870cb03b81a "xelatex"
+  "holography.bbl" 1718732608.96405 29529 c683b3429af161a5a9d845aa051a392e "bibtex holography"
+  "holography.nav" 1718733124.44802 4523 ecbd5597d1796f8d6d31621a7e29efcd "xelatex"
+  "holography.run.xml" 1718733124.44802 2610 ddc452c3a713f2fe949cecb0fec2d5b4 "xelatex"
+  "holography.tex" 1718733118.94602 20821 b875c32d8efff5fb47a1cfb572b4cbaa ""
   (generated)
   "holography-blx.bib"
   "holography.aux"

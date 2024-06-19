@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.6.16)  17 JUN 2024 00:26
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.6.16)  18 JUN 2024 23:21
 entering extended mode
  file:line:error style messages enabled.
  %&-line parsing enabled.
@@ -2632,6 +2632,11 @@ Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;
 [2
 
 ]
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 82.
+Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 12.0pt
+ -> /home/storage/texlive/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.otf
+
 
 [3
 
@@ -2640,10 +2645,6 @@ Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum;
 [4
 
 ]
-LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 119.
-Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;mapping=tex-text;" at 12.0pt
- -> /home/storage/texlive/texmf-dist/fonts/opentype/public/fira/FiraSans-Bold.otf
 File: ./figures/diracOrigin.pdf Graphic file (type pdf)
 <use ./figures/diracOrigin.pdf>
 
@@ -3255,4 +3256,4 @@ Here is how much of TeX's memory you used:
  36 hyphenation exceptions out of 8191
  102i,11n,152p,1874b,5452s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on holography.xdv (49 pages, 354512 bytes).
+Output written on holography.xdv (49 pages, 354272 bytes).
