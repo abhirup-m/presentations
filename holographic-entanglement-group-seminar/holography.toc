@@ -1,5 +1,0 @@
-\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
-\beamer@sectionintoc {2}{What are we going after?}{13}{0}{2}
-\beamer@sectionintoc {3}{Entanglement hierarchy in mixed momentum and real space}{15}{0}{3}
-\beamer@sectionintoc {4}{Holographic nature of the RG flow}{24}{0}{4}
-\beamer@sectionintoc {5}{Conclusions}{39}{0}{5}

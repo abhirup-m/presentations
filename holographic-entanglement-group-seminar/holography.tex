@@ -10,48 +10,50 @@
 \usepackage{amsthm,amsmath,amssymb,braket,fontspec,unicode-math,fontenc}
 \usepackage[absolute,overlay]{textpos}
 
-\usetheme[numbering=none]{focus}
+\usetheme{moloch}
+\setmainfont{SF Pro Display}
+\setsansfont{SF Pro Display}
+\setmathfont{Fira Math}
 \setmathfont{latinmodern-math.otf}[range={frak,\bigcap,\bigcup}]
 
-\setbeamercolor{footnote}{fg=blue}
+% \setbeamercolor{footnote}{fg=blue}
 \setbeamerfont{footnote}{size=\tiny}
-\setbeamerfont{title}{size=\huge, shape=\scshape}
-\setbeamerfont{author}{size=\large, shape=\scshape}
-\setbeamerfont{institute}{size=\normalsize, shape=\scshape}
-\setbeamerfont{date}{size=\normalsize, shape=\scshape}
-\setbeamerfont{frametitle}{size=\large, shape=\scshape}
+% \setbeamerfont{title}{size=\huge}
+% \setbeamerfont{subtitle}{size=\Large}
+% \setbeamerfont{author}{size=\large}
+% \setbeamerfont{institute}{size=\normalsize}
+% \setbeamerfont{date}{size=\normalsize}
+% \setbeamerfont{frametitle}{size=\large}
 
 \usepackage[backend=bibtex,url=false,doi=false,maxcitenames=1, style=authoryear]{biblatex}
 \bibliography{bib}
 \AtBeginBibliography{\scriptsize}
 
-\newcommand{\focus}[1]{\textcolor{red}{\bf{#1}}}
+% \newcommand{\focus}[1]{\textcolor{red}{\bf{#1}}}
 
-\definecolor{red}{HTML}{e03c3c}
-\definecolor{lred}{HTML}{e24a33}
-\definecolor{lblue}{HTML}{348abd}
+% \definecolor{red}{HTML}{e03c3c}
+% \definecolor{lred}{HTML}{e24a33}
+% \definecolor{lblue}{HTML}{348abd}
 \setbeamertemplate{bibliography item}[triangle]
 
-\graphicspath{{./figures/}} % Change the path
-
-\AtBeginSection[]{
-\begin{frame}
-  \vfill
-  \centering
-  \begin{beamercolorbox}[sep=20pt,rounded=true,center]{frametitle}
-    \usebeamerfont{title}\insertsectionhead\par%
-  \end{beamercolorbox}
-  \vfill
-\end{frame}
-}
+% \AtBeginSection[]{
+% \begin{frame}
+%   \vfill
+%   \centering
+%   \begin{beamercolorbox}[sep=20pt,rounded=true,center]{frametitle}
+%     \usebeamerfont{title}\insertsectionhead\par%
+%   \end{beamercolorbox}
+%   \vfill
+% \end{frame}
+% }
 \title{
-	{Holographic entanglement in free \\ fermionic quantum matter}
+	{Holographic Entanglement in Free Fermionic Quantum Matter}
 }
-\subtitle{Aspects of hierarchy and topology}
+\subtitle{Aspects of Hierarchy and Topology in Entanglement}
 \date{\today}
-\author{Abhirup Mukherjee, Siddhartha Patra, Siddhartha Lal \\
-\focus{J. Phys. A: Math. Theor. (2024)}}
-\institute{Department of Physical Sciences, IISER Kolkata\\ Mohanpur}
+\author{Abhirup Mukherjee, Siddhartha Patra, Siddhartha Lal \linebreak
+\alert{J. Phys. A: Math. Theor. (2024)}}
+\institute{Department of Physical Sciences, IISER Kolkata Mohanpur}
 \date{\today}
 
 \begin{document}
@@ -75,8 +77,8 @@
 
 \begin{frame}{Broad overview of results}
 	\begin{itemize}
-		\item Entanglement scaling within a 2D system can be used to construct an additional dimension (\focus{holography}).\\[10pt]
-		\item Fermi surface-changing transition = ``\focus{wormhole geometry}" in the bulk\\[10pt]
+		\item Entanglement scaling within a 2D system can be used to construct an additional dimension (\alert{holography}).\\[10pt]
+		\item Fermi surface-changing transition = ``\alert{wormhole geometry}" in the bulk\\[10pt]
 		\item Entanglement structure = Fermi surface topology
 	\end{itemize}
 \end{frame}
@@ -93,13 +95,13 @@
 
 \begin{frame}{The system: 2D Dirac Electrons}
 \only<1>{
-Dispersion is \focus{linear} in momentum space
+Dispersion is \alert{linear} in momentum space
 \begin{center}
-\includegraphics[width=0.8\textwidth]{diracOrigin.pdf}
+\includegraphics[width=0.8\textwidth]{figures/diracOrigin.pdf}
 \end{center}
 \begin{itemize}
-	\item Describe the \focus{low-energy} theory near gap-closing points
-	\item Emerge at boundaries of \focus{topological insulators}
+	\item Describe the \alert{low-energy} theory near gap-closing points
+	\item Emerge at boundaries of \alert{topological insulators}
 \end{itemize}
 }
 \only<2>{
@@ -118,24 +120,24 @@ Dispersion is \focus{linear} in momentum space
 }
 \end{frame}
 
-\begin{frame}{Measures of entanglement}
+\begin{frame}{Measures of Entanglement}
 	\includegraphics[width=0.9\textwidth]{figures/entanglement.pdf}
-	\(\rho = \ket{\Psi}\bra{\Psi}\longrightarrow\)\focus{density matrix}\\[10pt]
+	\(\rho = \ket{\Psi}\bra{\Psi}\longrightarrow\)\alert{density matrix}\\[10pt]
 	\(\rho_A = \) partial trace over system A
-	\(\longrightarrow\) \focus{reduced DM}\\[10pt]
+	\(\longrightarrow\) \alert{reduced DM}\\[10pt]
 	\begin{itemize}
-		\item \(S(A) = -\text{Tr}\left[\rho_A \log \rho_A\right] \longrightarrow\) \focus{entanglement entropy} of A\\[10pt]
-		\item \(I(A:B) = S(A) + S(B) - S(A \cup B) \longrightarrow\) \focus{mutual information} between \(A\) and \(B\)\\[10pt]
-		\item quantifies amount of \focus{information shared} between subsystems
+		\item \(S(A) = -\text{Tr}\left[\rho_A \log \rho_A\right] \longrightarrow\) \alert{entanglement entropy} of A\\[10pt]
+		\item \(I(A:B) = S(A) + S(B) - S(A \cup B) \longrightarrow\) \alert{mutual information} between \(A\) and \(B\)\\[10pt]
+		\item quantifies amount of \alert{information shared} between subsystems
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Entanglement of free fermions}
+\begin{frame}{Entanglement of Free Fermions}
 \only<1>{
 	Diagonal in \(k-\)space : \(H = i\overline\psi\left(\gamma_\mu\partial_\mu + m\right)\psi\)
 	\begin{itemize}
-		\item \focus{Vanishing} entanglement in momentum space\\[10pt]
-		\item Off-diagonal in \(r-\)space \(\mathbf\longrightarrow\) \focus{Fluctuations} exist in real space\\[10pt]
+		\item \alert{Vanishing} entanglement in momentum space\\[10pt]
+		\item Off-diagonal in \(r-\)space \(\mathbf\longrightarrow\) \alert{Fluctuations} exist in real space\\[10pt]
 		\item Leads to entanglement in real space
 	\end{itemize}
 	\includegraphics[width=0.6\textwidth]{figures/nonlocal.pdf}
@@ -143,15 +145,15 @@ Dispersion is \focus{linear} in momentum space
 \only<2>{
 	Some existing results on fermionic entanglement:\\[10pt]
 \begin{itemize}
-	\item massless fermions in \(d-\)dimensions: \(~ ~ ~ ~ l^{d-1}\log l\)\\[20pt]
-	\item massive fermions in \(1-\)dimension: \(~ ~ ~ \frac{1}{3}\log \left(l/\epsilon\right) - \frac{1}{6}\left( ml \log ml \right)^2 \)\\[20pt]
+	\item massless fermions in \(d-\)dimensions: \(~ ~ ~ ~ L^{d-1}\log L\)\\[20pt]
+	\item massive fermions in \(1-\)dimension: \(~ ~ ~ \frac{1}{3}\log \left(L/\epsilon\right) - \frac{1}{6}\left( mL \log mL \right)^2 \)\\[20pt]
 \end{itemize}
 \[(\epsilon = \text{short-distance cutoff},\quad m = \text{mass gap in the spectrum})\]
 \footcite{calabrese2004,Casini_2005,gioev2006,wolf_area_2006,li_scaling_2006,Casini_2009}
 }
 \end{frame}
 
-\begin{frame}{Reduction of 2D system into sum of 1D systems}
+\begin{frame}{Reduction of 2D System into Sum of 1D Systems}
 \footcite{chung_2000,Arias_2015,Chen_2017,Murciano_2020}
 \only<1>{
 	In presence of flux: ~ \(\mathcal{L} = \int dx dy ~ \overline\Psi(x) \left(i\gamma_\mu + eA_\mu\right)\partial_\mu \Psi(x)\)\\[10pt]
@@ -169,38 +171,65 @@ Dispersion is \focus{linear} in momentum space
 	\end{itemize}
 	\[S_n(\phi) = \underbrace{c \log \left(\alpha L_x\right)}_\text{modified area law} - \underbrace{c \log |n + \phi|}_\text{mass correction},\quad \alpha\longrightarrow \text{ cutoff dependent constant}\]
 \includegraphics[width=0.5\textwidth]{figures/entanglementSum.pdf}
+\vspace{20pt}
 }
 \end{frame}
 
-\begin{frame}{Entanglement in topologically ordered phases}
+\begin{frame}{Entanglement in Topologically Ordered Phases}
 	\footcite{wen_1989,kitaev2006topological,Patra2022}
-	\focus{Gapped quantum liquids} arising from strong inter-electron correlations\\[10pt]
+	\alert{Gapped quantum liquids} arising from strong inter-electron correlations\\[10pt]
 	\begin{itemize}
 		\item FQHE, Toric Code, Kitaev's honeycomb model, QSLs\\[10pt]
-		\item robust ground-state \focus{degeneracy} on closed manifolds (for eg., torus),\\[10pt]
-		\item \focus{long-ranged} entanglement: \(S(L) = \alpha L - \gamma + \mathcal{1/L}\).\\[10pt]
+		\item robust ground-state \alert{degeneracy} on closed manifolds (for eg., torus),\\[10pt]
+	\item \alert{long-ranged} entanglement: \(S(L) = \alpha L - \gamma + \mathcal{O}(1/L)\).\\[10pt]
 	\end{itemize}
 	\(N-\)partite information measure depends on \(\gamma\) and the Euler characteristic \(\chi\) of the manifold: \(|I_N| = \gamma \chi\).
 \end{frame}
 
+\begin{frame}{The AdS-CFT Correspondence: A Holographic Duality Relation}
+	\only<1>{
+	\focus{What is duality?} Different Hamiltonian/action describing the same system\\[10pt]
+	Example: Quantum-Classical Mapping\\
+	\includegraphics[width=\textwidth]{figures/classical-quantum-correspondence.pdf}\\[10pt]
+	\focus{What is holography?} \\
+	Amount of information within a region is bounded by the surface area!\\[10pt]
+	Entropy of a black hole: \(S_\text{BH} = \frac{k_B}{4 l_P^2} A_H\)\\[10pt]
+}
+\only<2>{
+	\begin{minipage}{0.55\textwidth}
+	\focus{AdS-CFT}: Duality between a gravity theory and a conformal field theory\\[10pt]
+	\[\underbrace{~~Z_\text{Q}~~}_\text{D dims} \sim \underbrace{\exp\left(-\mathcal{S}_\text{cl}\right)}_\text{D+1 dims}\]
+	\end{minipage}
+	\hspace{10pt}
+	\begin{minipage}{0.4\textwidth}
+	\includegraphics[width=\textwidth]{figures/AdS-CFT.pdf}
+	\end{minipage}
+	Conformal transformations: \(g_{\alpha\beta}(\sigma) \to \Omega^2g_){\alpha\beta}(\sigma)\)\\
+	Conformal field theory: Remains invariant un
+	
+}
+\end{frame}
+
 \section{What are we going after?}
 
-\begin{frame}{What are we going after?}
+\begin{frame}{What Are We Going After?}
 	\begin{itemize}
-		\item Distribution of entanglement across subsystems and scales\\[20pt]
-		\item Emergent space generated by this entanglement (\focus{holography})\\[20pt]
-		\item Curvature and related quantities of this emergent space
+		\item Distribution of entanglement across subsystems and scales\\[10pt]
+		\item Topological aspects of entanglement\\[10pt]
+		\item Emergent space generated by this entanglement (\alert{holography})\\[10pt]
+		\item Curvature and related quantities of this emergent space\\[10pt]
+		\item Effect of boundary phase transition on the emergent space
 	\end{itemize}
 
 \end{frame}
 
-\section{Entanglement hierarchy in mixed momentum and real space}
+\section{Entanglement Hierarchy in Mixed Momentum and Real Space}
 
-\begin{frame}{Creating subsystems}
-	\[k_x^n = \frac{2\pi }{L_x} n,~ ~ n \in \mathbb{Z};~~~ \text{define \focus{distance}} = \Delta n = 1\]
-	\focus{Simplest} choice: the entire set
+\begin{frame}{Creating Subsystems}
+	\[k_x^n = \frac{2\pi }{L_x} n,~ ~ n \in \mathbb{Z};~~~ \text{define \alert{distance}} = \Delta n = 1\]
+	\alert{Simplest} choice: the entire set
 	\[\text{distance} = 1 \longrightarrow n \in \left\{-N,-(N-1),-(N-2),\ldots,-1,0,1,\ldots,N-2,N-1,N\right\} \]
-	\focus{Coarser} choices: increase distance
+	\alert{Coarser} choices: increase distance
 	\[\text{distance} = 2 \longrightarrow n \in \left\{-N,-(N-2),-(N-4),\ldots,-2,0,2,\ldots,N-4,N-2,N\right\} \]
 	\[\text{distance} = 4 \longrightarrow n \in \left\{-N,-(N-4),-(N-8),\ldots,-4,0,4,\ldots,N-8,N-4,N\right\} \]
 	\centering
@@ -208,55 +237,54 @@ Dispersion is \focus{linear} in momentum space
 	\includegraphics[width=0.4\textwidth]{figures/A_mi.pdf}
 \end{frame}
 
-\begin{frame}{Sequence of subsystems}
-	Define \focus{sequence} of subsystems\\[10pt]
-{\large \(~ ~ \mathcal{A}_{z}(j): ~ ~ t_z(j) = 2^{j^z}\)}
-\[\text{sequence index:}~ ~ ~ j = 0,1,2,\ldots\]
+\begin{frame}{Define Sequence of Subsystems}
+
+\(~ ~ \mathcal{A}_{z}(j): ~ ~ t_z(j) = 2^{j^z}\): sequence index:~ ~ ~ \(j = 0,1,2,\ldots\)
 \[\text{strength of coarse/fine-graining:}~ ~ ~ z = \pm 1,\pm 2,\pm 3,\ldots\]
 \begin{minipage}{0.48\textwidth}
 \centering
-\[ z = 1\]
+\( z = 1\)\\
 \includegraphics[width=0.99\textwidth]{./figures/coarse-graining.pdf}
 \end{minipage}
 \hspace*{\fill}
 \begin{minipage}{0.49\textwidth}
 \centering
-\[ z = -1\]
+\( z = -1\)\\
 \includegraphics[width=0.99\textwidth]{./figures/fine-graining.pdf}
 \end{minipage}
 \end{frame}
 
-\begin{frame}{The sequence as a renormalisation group flow}
-	Sequence of Hamiltonians {\LARGE \(\longleftrightarrow\)} \focus{renormalisation} group flow\\[10pt]
-	RG \(\longrightarrow\) transformation of Hamiltonian via change of scale\\
+\begin{frame}{Interpreting the Set of Transformations as an RG Flow}
+	Sequence of Hamiltonians \(\leftrightarrow\) \alert{renormalisation} group flow\\[10pt]
+	RG \(\rightarrow\) transformation of Hamiltonian via change of scale\\
 	\[\text{Superset of all members:}~ ~ ~ \mathcal{A}_z^{(0)} = \bigcup_j \mathcal{A}_z(j)\]
 	\[\text{"Super-Hamiltonian":}~ ~ ~\mathcal{H}^{(0)} = \sum_{k_x \in \mathcal{A}_z^{(0)}} \mathcal{H}\left( k_x \right)\]
 	\[\text{RG equation:}~ ~ ~\mathcal{H}_z(j) = \underbrace{\mathcal{P}_z(j)}_\text{projector} ~ \mathcal{H}^{(0)} ~ \mathcal{P}_z(j)\]
 \end{frame}
 
-\begin{frame}{What, exactly, is getting renormalised?}
+\begin{frame}{So What, Exactly, is Getting Renormalised?}
 	Several ways to look at this\\[10pt]
 	\begin{itemize}
-		\item renormalisation in \focus{entanglement}: \(\Delta \log S_z(j) \sim \Delta f_z(j) \)\\[10pt]
-		\item renormalisation in 1-particle \focus{spectral gap}: \(M(n,\phi) \sim |n + \phi|\)\\[10pt]
-		\item renormalisation in real space \focus{quantum fluctuation}\\[10pt]
+		\item renormalisation in \alert{entanglement}: \(\Delta \log S_z(j) \sim \Delta f_z(j) \)\\[10pt]
+		\item renormalisation in 1-particle \alert{spectral gap}: \(M(n,\phi) \sim |n + \phi|\)\\[10pt]
+		\item renormalisation in real space \alert{quantum fluctuation}\\[10pt]
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Fraction of maximum states}
+\begin{frame}{Fraction of Maximum States}
 	\centering
 	\[f_z(j) = \text{fraction of maximum states} = 1/t_z(j)\]
 	\includegraphics[width=0.5\textwidth]{figures/fraction.pdf}
 \end{frame}
 
 
-\begin{frame}{Sequence of subsystems}
+\begin{frame}{Simplest Limit}
 \hspace*{\fill}
 \begin{minipage}{0.5\textwidth}
 Simplest case: \(j=0\)\\[5pt]
 \begin{itemize}
 	\item no coarse-graining or fine-graining\\[20pt]
-	\item \(A_z(0) \longrightarrow ~ ~\)\focus{short cylinder}
+	\item \(A_z(0) \longrightarrow ~ ~\)\alert{short cylinder}
 \end{itemize}
 \end{minipage}
 \hspace*{\fill}
@@ -277,7 +305,7 @@ In general:
 \end{minipage}
 \end{frame}
 
-\begin{frame}{Subsystem entanglement entropy}
+\begin{frame}{Subsystem Entanglement Entropy}
 \footcite{Calabrese_2004,Casini_2005,Arias_2015,Chen_2017,Murciano_2020}
 Modes are decoupled \(\longrightarrow\) entanglement is additive
 \vspace*{\fill}
@@ -289,8 +317,8 @@ Modes are decoupled \(\longrightarrow\) entanglement is additive
 	\end{cases}
 \]
 \end{frame}
-	
-\begin{frame}{Entanglement hierarchy}
+
+\begin{frame}{Entanglement Hierarchy}
 \begin{minipage}{0.5\textwidth}
 \[i < j, ~ ~ S_{i\cup j} =
 	\begin{cases}
@@ -308,26 +336,26 @@ Modes are decoupled \(\longrightarrow\) entanglement is additive
 
 \begin{itemize}
 	\item 
-presents a \focus{hierarchy} of entanglement \(\longrightarrow\) EE distributed across RG steps:\\[10pt]
+presents a \alert{hierarchy} of entanglement \(\longrightarrow\) EE distributed across RG steps:\\[10pt]
 RG transformation \(\longrightarrow\) reveals entanglement
 
 \vspace*{\fill}
-\item distribution of entanglement also present in \focus{multipartite} entanglement:\\[10pt]
+\item distribution of entanglement also present in \alert{multipartite} entanglement:\\[10pt]
 	mutual information and higher order measures, within one RG step or spread across the flow
 \end{itemize}
 
 \end{frame}
 
-\section{Holographic nature of the RG flow}
-\begin{frame}{Holographic principle}
+\section{Holographic Nature of the RG Flow}
+\begin{frame}{Holographic Principle}
 Conformal FT in \(d-\)dimensions \(\longleftrightarrow\) Anti-de-Sitter space-time in \(d+1\)-dimensions\\[10pt]
 \includegraphics[width=0.9\textwidth]{figures/holography.pdf}\\[10pt]
-extra dimension in bulk corresponds to \focus{RG flow}
+extra dimension in bulk corresponds to \alert{RG flow}
 \footnote{J. McGreevy (McGreevy,2010)}
 \end{frame}
-\begin{frame}{Mutual information = distance}
+\begin{frame}{Mutual Information = Distance}
 \footcite{van2010building,lee2016,anirban_mott_2022}
-	\focus{Mutual information}: ~ \(I^2(A:B) \equiv S(A) + S(B) - S(A \cup B)\) ~ ~ ~ (non-negative)\\[10pt]
+	\alert{Mutual information}: ~ \(I^2(A:B) \equiv S(A) + S(B) - S(A \cup B)\) ~ ~ ~ (non-negative)\\[10pt]
 	information gained about \(B\) upon measuring \(A\)\\[10pt]
 	define distance along the RG: ~ ~ \(d_z(j) \equiv \log I^2_\text{max} - \log I_z^2(0:j) = \log t_z(j)\)
 
@@ -343,28 +371,28 @@ extra dimension in bulk corresponds to \focus{RG flow}
 		\begin{itemize}
 			\item mut. info. is maximum for small \(j\)\\[10pt]
 			\item decreases for large \(j\)\\[10pt]
-			\item corresponds to \focus{increasing distance}
+			\item corresponds to \alert{increasing distance}
 		\end{itemize}
 	\end{minipage}
 \end{frame}
 
-\begin{frame}{RG evolution = emergent distance}
+\begin{frame}{RG evolution = Emergent Distance}
 	\footcite{lee2010,lee2014,qi2013,lee2016,anirbanurg1,anirbanurg2,ryu2006,ryu2006aspects,nozaki2012}
 \only<1>{
 	Define \(2-\)dimensional \(x-y\) structure\\[20pt]
-	\begin{minipage}{0.55\textwidth}
+	\begin{minipage}{0.5\textwidth}
 	\includegraphics[width=\textwidth]{figures/curvature-scheme.pdf}
 	\end{minipage}
 	\hspace{\fill}
-	\begin{minipage}{0.4\textwidth}
+	\begin{minipage}{0.45\textwidth}
 		\centering
-	{\color{lred}\circle*{10}}: RG steps\\[10pt]
-	{\color{lblue}\circle*{10}}: subsystems within an RG step\\[30pt]
-
-	\(x_z(j) = d_z(j) = \log t_z(j)\)\\
-
-	\[y_z(j) = \log I^2_\text{max} - \log I_z^2(\mathcal{B}_j^1:\mathcal{B}_j^2)\]
-\[= \log t_z(j \pm 1)\]
+	Red Circle: RG steps\\[10pt]
+	Blue Circle: subsystems within an RG step
+	\[x_z(j) = d_z(j) = \log t_z(j)\]
+	\begin{equation*}\begin{aligned}
+	y_z(j) = \log I^2_\text{max} - \log I_z^2(\mathcal{B}_j^1:\mathcal{B}_j^2) \\
+	= \log t_z(j \pm 1)
+	\end{aligned}\end{equation*}
 	\end{minipage}
 }
 \only<2>{
@@ -383,11 +411,11 @@ extra dimension in bulk corresponds to \focus{RG flow}
 		x_z \left(2 - e^\frac{\beta}{z}\right)^z,~~ &z < 0\\
 	\end{cases}\]
 	\\[10pt]
-	explicit relation between the RG flow and the emergent \focus{geometry}
+	explicit relation between the RG flow and the emergent \alert{geometry}
 }
 \end{frame}
 
-\begin{frame}{Curvature of the emergent space}
+\begin{frame}{Curvature of Emergent Space}
 	Define first and second derivatives in emergent space
 	\[v_z(j) \equiv \frac{\Delta y_z(j)}{\Delta x_z(j)} =\begin{cases}
 		\frac{\left(j+2\right)^z - \left(j+1\right)^z}{\left(j+1\right)^z - j^z},~ ~ z > 0\\
@@ -397,11 +425,11 @@ extra dimension in bulk corresponds to \focus{RG flow}
 \[
 	v^\prime_z(j) \equiv \frac{v_z(j+1) - v_z(j)}{x_z(j+1) - x_z(j)}
 \]
-Define curvature using them: {\Large\(\kappa_{z}(j) = \frac{v^\prime_z(j)}{\left[1 + v_z(j)^2\right]^\frac{3}{2}}\)}\\[10pt]
+Define curvature using them: {\(\kappa_{z}(j) = \frac{v^\prime_z(j)}{\left[1 + v_z(j)^2\right]^\frac{3}{2}}\)}\\[10pt]
 \(\longrightarrow\) can be expressed in terms of \(\beta_z(j)\)
 \end{frame}
 
-\begin{frame}{Curvature of the emergent space}
+\begin{frame}{Curvature of Emergent Space}
 \begin{minipage}{0.45\textwidth}
 	\includegraphics[width=\textwidth]{figures/curvature-pos.pdf}
 \end{minipage}
@@ -410,15 +438,13 @@ Define curvature using them: {\Large\(\kappa_{z}(j) = \frac{v^\prime_z(j)}{\left
 		\item positive curvature for \(z < 0\)\\[10pt]
 		\item zero curvature for \(z = 1\)\\[10pt]
 		\item negative curvature for \(z  > 1\)\\[10pt]
-		\item \focus{asymptotically flat} for large \(j\), at all \(z\)
+		\item \alert{asymptotically flat} for large \(j\), at all \(z\)
 	\end{itemize}
 \end{minipage}
 
-\vspace*{\fill}
-{\it {\large \bf Question:} Is there a name for such spaces?}
 \end{frame}
 
-\begin{frame}{The sign of the curvature is topological}
+\begin{frame}{The Sign of Curvature is Topological!}
 \only<1>{
 	\[\gamma_z(j) \equiv 1 - v_z(j+1)/v_z(j), ~ ~ ~\alpha_z(j) = y_z(j+1) - y_z(j)\]
 
@@ -448,8 +474,8 @@ Define curvature using them: {\Large\(\kappa_{z}(j) = \frac{v^\prime_z(j)}{\left
 \end{minipage}\\[10pt]
 
 \begin{itemize}
-	\item \(\ln \left(\gamma - \gamma^*\right)\) has branch point at \(\gamma^*\), can be avoided for \(z=1\), \focus{contour is trivial}\\[10pt]
-	\item cannot be avoided for \(z \neq 1\) \(\longrightarrow\) presence of \focus{singularity} \(\longrightarrow\) encoded through \focus{winding number}
+	\item \(\ln \left(\gamma - \gamma^*\right)\) has branch point at \(\gamma^*\), can be avoided for \(z=1\), \alert{contour is trivial}\\[10pt]
+	\item cannot be avoided for \(z \neq 1\) \(\longrightarrow\) presence of \alert{singularity} \(\longrightarrow\) encoded through \alert{winding number}
 \end{itemize}
 
 
@@ -457,117 +483,125 @@ Define curvature using them: {\Large\(\kappa_{z}(j) = \frac{v^\prime_z(j)}{\left
 \only<3>{
 \begin{minipage}{0.5\textwidth}
 \includegraphics[width=0.8\textwidth]{figures/alpha.pdf}
-\end{minipage}
-\begin{minipage}{0.49\textwidth}
-	very similar thing holds for \(\alpha_z\)\\[5pt]
-	\begin{itemize}
-		\item singularity exists only for \(z < 0\)\\[10pt]
-		\item otherwise contour can be trivialised
-	\end{itemize}
-\end{minipage}
 
-\vspace*{\fill}
-
-\includegraphics[width=0.6\textwidth]{figures/alpha-winding.pdf}
-}
-\only<4>{
-	Curvature can be written as the product of \focus{winding numbers}:
-
-	\[\text{sign}\left[\kappa_z\right] = \mathcal{W}_z\left( \gamma^* \right) \times \left[2\mathcal{W}^\prime_z\left( \alpha^* \right) - 1\right] \]\\[20pt]
-
-	\begin{itemize}
-		\item winding numbers count singularities\\[10pt]
-		\item robust against deformations
-	\end{itemize}
-	
-\vspace*{\fill}
-{\it {\large \bf Question:} Does this say anything for the cosmological constant?}
-}
-\only<5>{
-	{\it What does this change in topology really mean?}
-	\vspace*{\fill}
-	\begin{itemize}
-		\item \(z\) is the \focus{anomalous dimension} of the spectral gap \(g_z\) in the effective field theory\\[20pt]
-		\item sign of \(z\) reflects the RG relevance/irrelevance of \(g_z\) in the microscopic fermionic theory\\[20pt]
-		\item change in \(z\) can be interpreted as a change in the underlying \focus{interacting theory}\\[20pt]
-		\item change in sign of \(z\) is hence a \focus{phase transition} in the microscopic theory that changes the topology of the Fermi surface
-	\end{itemize}
-
-}
-
-\end{frame}
-
-\begin{frame}{Evolution of expansion parameter}
-\footcite{kar_2001,kar2007raychaudhuri,balasubramanian1999}
-\only<1>{
-\begin{minipage}{0.6\textwidth}
-\begin{itemize}
-	\item Define an expansion parameter\\[20pt]
-	\item can be related to RG flow through \(\beta_z\)\\[20pt]
-	\item related to change in area of flows of \(g_z\)
-\end{itemize}
-\end{minipage}
-\begin{minipage}{0.35\textwidth}
-	\[\theta_z(j) = \frac{1}{\sqrt{1 + v_z^{-2}}}\]\\
-\[\theta_z \sim \frac{1}{\sqrt{\Delta x^2 + \Delta y^2}}\Delta g_z(j+1)\]
-\end{minipage}
-}
-\only<2>{
-\begin{minipage}{0.5\textwidth}
-	\begin{itemize}
-	\item Expansion parameter satisfies "Raychaudhuri-like" equation
-	\[\frac{\:\mathrm{d}\theta_z}{\:\mathrm{d}x_z} = \kappa\]\\[10pt]
-\item No attractive \(\theta^2\) term: fixed points reached only at \(j \to \infty\)\\[20pt]
-	\end{itemize}
+\vspace{\fill}
+\includegraphics[width=\textwidth]{figures/alpha-winding.pdf}
 \end{minipage}
 \begin{minipage}{0.45\textwidth}
-\includegraphics[width=0.99\textwidth]{figures/theta.pdf}
+	very similar thing holds for \(\alpha_z\)
+	\begin{itemize}
+		\item singularity exists only for \(z < 0\)
+		\item otherwise contour can be trivialised\\[20pt]
+	\end{itemize}
+	
+
+	Curvature can be written as the product of \alert{winding numbers}:
+	\[\text{sign}\left[\kappa_z\right] = \mathcal{W}_z\left( \gamma^* \right) \times \left[2\mathcal{W}^\prime_z\left( \alpha^* \right) - 1\right] \]
+	Winding numbers count singularities, robust against deformations
 \end{minipage}
+
+}
+\only<4>{
+
+	{\bf Significance of change in topology}
+	\begin{itemize}
+		\item sign of \(z\) reflects the RG relevance/irrelevance of \(g_z\) in the microscopic fermionic theory
+		\item change in sign of \(z\) is hence a \alert{phase transition} in the microscopic theory that changes the topology of the Fermi surface
+	\end{itemize}
+
+}
+\end{frame}
+
+\section{Entanglement Holography and Fermionic Criticality}
+\begin{frame}{Critical Fermi Surface = Wormhole Geometry}
+	\only<1>{
+	Between \(z < 0\) and \(z > 0\), two \alert{topological transitions} occur:
+	\begin{itemize}
+		\item Curvature changes sign
+		\item Fermi surface becomes gapped \(\rightarrow\) change in Luttinger's volume
+		\item Reflects a phase transition in the underlying interacting fermionic theory
+	\end{itemize}
+	\vspace{\fill}
+	\includegraphics[width=0.9\textwidth]{figures/fermionicTransition.pdf}
+}
+\only<2>{
+	Also involves transition in nature of UV-IR entanglement
+	\begin{itemize}
+		\item Finite entanglement between UV and IR for \(z < 0\) (\alert{connected spaces})
+		\item Vanishing entanglement between UV and IR for \(z > 0\) (\alert{disconnected spaces})\\[10pt]
+	\end{itemize}
+	At transition, minimal entanglement between two \\
+	almost disconnected spaces \(\rightarrow\) \alert{wormhole geometry}!\\[10pt]
+
+	\includegraphics[width=0.4\textwidth]{figures/wormhole_gapless.pdf}
+	\hspace{\fill}
+	\includegraphics[width=0.4\textwidth]{figures/wormhole_gapped.pdf}
+}
+\end{frame}
+
+\section{Topological Content of Entanglement}
+\begin{frame}{Luttinger Volume and Flux-Dependent Entanglement}
+	\only<1>{
+	Spectral flow: \(k_n = 2\pi n/L_x,\quad n \to n + \phi(\mathrm{flux})\)
+	\begin{itemize}
+		\item Tuning flux by one unit removes one \(k-\)state from Fermi volume
+		\item Fermi momentum is therefore linked to the maximum flux \(\phi^*\)
+	\end{itemize}
+
+	\vspace{\fill}
+	No. of states within Fermi volume = number of integers between \(0^+\) and \({\phi^*}^+\).
+
+	\vspace{\fill}
+	\includegraphics[width=0.8\textwidth]{figures/spectral-flow.pdf}
+}
+\only<2>{
+	Consider function \(Q(\phi) = f\left[\frac{1}{\sqrt 2} - |\sin \pi \phi f|\right]\)\\[10pt]
+	Goes through zero twice when \(\phi f\) changes by one unit: \(\phi f = 1/4, 3/4\)\\[10pt]
+	\vspace{\fill}
+	\begin{minipage}{0.4\textwidth}
+	Fermi volume = no. of poles of \(Q^{-1}\)\\
+	(residue $\propto$ no. of poles): 
+	\[\sim \frac{1}{2}\oint_{\mathcal{C}} \frac{d\phi}{Q(\phi)} \sim \oint_{Y(\mathcal{C})} \frac{dY}{Y}\]
+	Integral is \alert{quantised}!
+	\end{minipage}
+	\hspace*{\fill}
+	\begin{minipage}{0.58\textwidth}
+		\includegraphics[width=\textwidth]{figures/contour.pdf}
+	\end{minipage}
+	\[Y = r e^{i\theta} \implies W = \oint_{Y(\mathcal{C})} \frac{dY}{Y} \sim \oint~d\theta = 0, 2\pi, 4\pi ,\ldots\]
+}
+\only<3>{
+	\begin{minipage}{0.5\textwidth}
+	\begin{itemize}
+		\item Fermi volume is the \alert{winding number} of \(Y(C)\) around \(Y=0\)\\
+		\item Topological in nature: Invariant under small deformations of the contour \(C\)
+	\end{itemize}
+	\end{minipage}
+	\hspace*{\fill}
+	\begin{minipage}{0.48\textwidth}
+		\includegraphics[width=\textwidth]{figures/windingNumber.pdf}
+	\end{minipage}
+
+	\flushleft
+	\alert{Key points}
+	\begin{itemize}
+		\item Topological content of entanglement is the link to LV via spectral flow
+		\item Yet another route to visualising LV as a topological invariant
+		\item \alert{Boundary conditions} are important: No entanglement flow in localised states
+	\end{itemize}
 }
 \end{frame}
 
 \section{Conclusions}
 \begin{frame}{Conclusions}
-	\begin{itemize}[<+-|alert@+>]
-		\item hierarchy of entanglement, across scales as well as number of parties\\[20pt]
-			\only<1>{
-			\[S_{A \cup B} = S_{\text{larger}}\]}
-		\item RG beta function gives rise to emergent distances\\[20pt]
-			\only<2>{
-			\[x_z(\beta), y_z(\beta)\]}
-		\item anomalous dimension \(z\) determines sign of curvature\\[20pt]
-			\only<3>{
-			\[\kappa \begin{cases}
-				> 0 \text{ if }z < 0\\
-				= 0 \text{ if }z = 1 \\
-				< 0 \text{ if }z > 1 \\
-			\end{cases}\]}
-		\item sign of curvature is topological\\[20pt]
-			\only<4>{
-			\[\text{sign}\left[\kappa_z\right] = \mathcal{W}_z\left( \gamma^* \right) \times \left[2\mathcal{W}^\prime_z\left( \alpha^* \right) - 1\right] \]}
-		\item \(\theta\) satisfies "Raychaudhuri-like" equation
-			\only<5>{
-			\[\frac{\:\mathrm{d}\theta_z}{\:\mathrm{d}x_z} = \kappa\]}
+	\begin{itemize}
+		\item Entanglement renormalisation = emergent distance scale. \\[10pt]
+		\item Nature of emergent space depends on anomalous dimension of RG flow.\\[10pt]
+		\item Change in curvature corresponds to fermionic phase transition and a wormhole geometry.\\[10pt]
+		\item Topological structure of entanglement spectrum determines LV.\\[10pt]
 	\end{itemize}
 \end{frame}
 
-\begin{frame}[allowframebreaks]{References}
 \printbibliography
-\end{frame}
-
-\begin{frame}{Other Stuff}
-
-\begin{minipage}{0.5\textwidth}
-\begin{itemize}
-\item Transformation to a different space
-	\[ \tilde\theta = \frac{1}{1 - \sqrt 2 \theta}, ~ ~ ~ ~\frac{\:\mathrm{d}\tilde\theta}{\:\mathrm{d}x_z} = \sqrt 2 \tilde\theta^2 \kappa \]\\[5pt]
-\item Does generate \(\theta^2\) term\\[10pt]
-\item Effective curvature is zero
-\end{itemize}
-\end{minipage}
-\begin{minipage}{0.49\textwidth}
-\includegraphics[width=0.99\textwidth]{figures/thetap.pdf}
-\end{minipage}
-\end{frame}
 
 \end{document}
