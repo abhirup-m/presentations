@@ -1,6 +1,11 @@
 % !TEX program = xelatex
 \DocumentMetadata{} % required for transparent package
-\documentclass[12pt,aspectratio=169]{beamer}
+\documentclass[11pt,aspectratio=169]{beamer}
+
+% remove footcite numbers
+\makeatletter
+\def\@makefnmark{}
+\makeatletter
 
 \setbeamersize{text margin left=5mm,text margin right=5mm} 
 
@@ -24,12 +29,17 @@
 
 \graphicspath{{./figures/}}
 
-\title{Research Progress Report: 2023 - 2024}
+\setbeamerfont{title}{size=\LARGE\scshape}
+\setbeamerfont{author}{size=\large}
+\setbeamerfont{institute}{size=\large}
+\setbeamerfont{date}{size=\large}
+\setbeamerfont{frametitle}{size=\large\scshape}
+\setbeamerfont{sectiontitle}{size=\small\scshape}
 
+\title{Research Progress Report: 2023 - 2024}
 \author{Abhirup Mukherjee}
 \institute{
-Department of Physical Sciences,\\
-IISER Kolkata, Mohanpur}
+Department of Physical Sciences, IISER Kolkata, Mohanpur}
 
 \begin{document}
 
@@ -37,6 +47,32 @@ IISER Kolkata, Mohanpur}
 
 \begin{frame}
 \maketitle
+
+\begin{textblock*}{0.3\textwidth}(0.5cm, 6.5cm)
+	\includegraphics[width=0.4\textwidth]{epqm_logo_mod.jpeg}
+	\hspace*{\fill}
+	\includegraphics[width=0.4\textwidth]{dps_logo.jpeg}
+\end{textblock*}
+\hspace*{\fill}
+\end{frame}
+
+\begin{frame}{Acknowledgements}
+	\flushleft
+	\hspace*{20pt}
+	\focus{Collaborators}: Debraj, Aashish, Prof. N S Vidhyadhiraja, Prof. S Pujari\\
+	\hspace*{20pt}
+	\focus{Funding agencies}: IISER Kolkata, SERB
+	\vspace*{\fill}
+
+	\hspace*{\fill}
+	\includegraphics[width=0.1\textwidth]{SERB.png}
+	\hspace*{\fill}
+	\includegraphics[width=0.1\textwidth]{dps_logo.jpeg}
+	\hspace*{\fill}
+	\includegraphics[width=0.1\textwidth]{epqm_logo_mod.jpeg}
+	\hspace*{\fill}
+	\includegraphics[width=0.1\textwidth]{JNCASR.png}
+	\hspace*{\fill}
 \end{frame}
 
 \begin{frame}{Publications and Ongoing projects}
@@ -74,39 +110,40 @@ IISER Kolkata, Mohanpur}
 \end{itemize}
 \end{frame}
 
-\section{Ongoing collaborations}
+\section{Ongoing Collaborations}
 
 \begin{frame}{Breakdown of Kondo Screening in Presence of Magnetic Field}
 \flushleft
 Analysis of effect of impurity magnetic field on Kondo screening \\
 (D Debata, A Mukherjee, S Lal) [{\it in preparation}]\\[10pt]
 
-\begin{minipage}{0.55\textwidth}
 \begin{itemize}
-	\item Impurity undergoes localisation \focus{transition} at large \(B\), crit. point has non-Fermi liquid excitations.
+	\item Impurity undergoes localisation \focus{transition} at large \(B\)
+	\item Critical point displays \focus{non-Fermi liquid} excitations.
 	\item Models the effects of measurement on quantum system $+$ \focus{fermionic bath}
 \end{itemize}
-\end{minipage}
-\begin{minipage}{0.4\textwidth}
-	hihisakdnasndnasndjan
-\end{minipage}
+
+\vspace*{\fill}
+\centering
+\includegraphics[width=0.8\textwidth]{kondoBFieldSpecFunc.pdf}
 
 \end{frame}
 
 \begin{frame}{Quantum critical Mott MIT in a Three-Orbital Impurity Model}
 \flushleft
 Search for impurity model with a quantum critical phase intercepting a local MIT\\
-(Aashish Kumar, D Debata, A Mukherjee, N. S. Vidhyadhiraja and S Lal) [{\it in preparation}]\\[10pt]
+(Aashish Kumar, D Debata, A Mukherjee, N. S. Vidhyadhiraja and S Lal) [{\it in preparation}]
 
-\begin{minipage}{0.55\textwidth}
+\vspace*{\fill}
 \begin{itemize}
-	\item \focus{QC phase} indeed obtained with composite excitations and pseudogapped spectral function.
-	\item \focus{Self-energy} exponents characterise the non-Fermi liquid
+	\item \focus{QC phase} obtained; gapless excitations involve composite paired objects
+	\item Spectral function is pseudogapped at \(\omega \sim 0\).
+	\item \focus{Self-energy} exponents characterise the non-Fermi liquid.
 \end{itemize}
-\end{minipage}
-\begin{minipage}{0.4\textwidth}
-	hihisakdnasndnasndjan
-\end{minipage}
+
+\vspace*{\fill}
+\centering
+\includegraphics[width=0.8\textwidth]{threeOrbitalSpecFunc.pdf}
 \end{frame}
 
 \begin{frame}{Universal Features of Kondo Breakdown in Impurity Models}
@@ -114,29 +151,34 @@ Search for impurity model with a quantum critical phase intercepting a local MIT
 A unified framework for Kondo breakdown, in terms of entanglement measures\\
 (D Debata, A Mukherjee, S Lal) [{\it in preparation}]\\[10pt]
 
-\begin{minipage}{0.55\textwidth}
 \begin{itemize}
 	\item Universal signatures of Kondo breakdown include \focus{partial magnetisation} and phase shift.
 	\item Entanglement within the \focus{Kondo cloud} also suffers at Kondo breakdown.
 \end{itemize}
-\end{minipage}
-\begin{minipage}{0.4\textwidth}
-	hihisakdnasndnasndjan
-\end{minipage}
+
+\vspace*{\fill}
+\centering
+\includegraphics[width=0.7\textwidth]{compensation.pdf}
 \end{frame}
 	
 \section{Project I: A New Auxiliary Model Approach to Systems of Interacting Electrons}
-\subsection{Ongoing project}
 
 \begin{frame}{Broad Objectives}
+	\footcite{keimer2015quantum,Sebastian2014,Norman1998}
 
+	\vspace*{-20pt}
 \begin{itemize}
 	\item Designing a \focus{new method} by which to leverage quantum impurity models towards studying lattice models of interacting electrons\\[10pt]
 	\item Using such a method to go after the \focus{Mott-Hubbard MIT} on the 2D square lattice\\[10pt]
-	\item Capturing the enhanced effects of \focus{\(k-\)space anisotropy} (due to the square lattice) on signatures near the transition\\[10pt]
-	\item Studying the (presumably) \focus{non-Fermi liquid behaviour} in the excitations close to and at the transition
+	\item Capturing the effects of \focus{\(k-\)space anisotropy} on signatures near the transition\\[10pt]
+	\item Studying the \focus{non-Fermi liquid behaviour} in the excitations near the transition
 \end{itemize}
 
+\hspace*{\fill}
+\includegraphics[width=0.25\textwidth]{cupratesDiagram.png}
+\hspace*{\fill}
+\includegraphics[width=0.22\textwidth]{fermiArc.png}
+\hspace*{\fill}
 \end{frame}
 
 \begin{frame}{Momentum-Resolved Renormalisation Group Flows}
@@ -199,13 +241,13 @@ A unified framework for Kondo breakdown, in terms of entanglement measures\\
 
 	\vspace*{\fill}
 	\begin{minipage}{0.45\textwidth}
-	\(\tilde A({\bf K}; \omega )= -\frac{1}{\pi}\text{Im}\left[\tilde G({\bf K}; \tilde\omega)\right]\)\\
-	\(\tilde \Sigma({\bf K}; \omega) = \left(\tilde G^{(0)}({\bf K}; \tilde\omega)\right)^{-1} - \left(\tilde G({\bf K}; \tilde\omega)\right)^{-1}\)
+	Subsequently allows periodising spectral \\ 
+	functions and self-energies
 	\end{minipage}
 	\hspace{\fill}
 	\begin{minipage}{0.5\textwidth}
-	Subsequently allows periodising spectral \\ 
-	functions and self-energies
+	\(\tilde A({\bf K}; \omega )= -\frac{1}{\pi}\text{Im}\left[\tilde G({\bf K}; \tilde\omega)\right]\)\\
+	\(\tilde \Sigma({\bf K}; \omega) = \left(\tilde G^{(0)}({\bf K}; \tilde\omega)\right)^{-1} - \left(\tilde G({\bf K}; \tilde\omega)\right)^{-1}\)
 	\end{minipage}
 	
 \end{frame}
@@ -217,7 +259,6 @@ A unified framework for Kondo breakdown, in terms of entanglement measures\\
 	&\tilde{S}_\text{flip}({\bf K}_1, {\bf K}_2) = \\
 	&\frac{1}{2}\left[\sqrt{\braket{S^+\left({\bf d}\right)S^-\left({\bf K}_2\right)}\braket{S^-\left({\bf d}\right)S^+\left({\bf K}_1\right)}} + \text{h.c.}\right]
 	\end{aligned}\end{equation*}
-	\includegraphics[width=\textwidth]{scattProb.pdf}
 	\end{minipage}
 	\begin{minipage}{0.49\textwidth}
 	\(k-\)space reduced density matrix
@@ -225,28 +266,39 @@ A unified framework for Kondo breakdown, in terms of entanglement measures\\
 		&\overline\rho_{{\bf K},\sigma} = \frac{1}{2}\left[c^\dagger_{{\bf K},\sigma} \rho_\text{gs}({\bf r}_c) c_{{\bf r}_c,\sigma} + c^\dagger_{{\bf r}_c,\sigma} \rho_\text{gs}({\bf r}_c) c_{{\bf K},\sigma}\right] \\
 		& + \text{h.c.}
 	\end{aligned}\end{equation*}
-	\includegraphics[width=\textwidth]{scattProb.pdf}
 	\end{minipage}
 	
+	\vspace{\fill}
+	\centering
+	\includegraphics[width=\textwidth]{tilingEnt.pdf}
 \end{frame}
 
 \begin{frame}{Outstanding Questions}
 	\begin{itemize}
-		\item A better understanding of the mechanism of the pseudogap phase diagram\\[10pt]
-		\item Calculation of spectral functions and self-energies\\[10pt]
-		\item Characterisation of non-Fermi liquid behaviour in the pseudogapped region
+		\item A better understanding of the mechanism of the pseudogap \focus{phase diagram}\\[10pt]
+		\item Calculation of \focus{spectral functions} and self-energies\\[10pt]
+		\item Characterisation of \focus{non-Fermi liquid} behaviour in the pseudogapped region
 	\end{itemize}
 \end{frame}
 
 \section{Project II: Search for Punctured-Chern Topology at IQHE Transitions}
 
 \begin{frame}{Broad Objectives}
+\footcite{Khmelnitskii1983,Altland_Simons_2010,prangeGirvin1987}
 
 \begin{itemize}
 	\item Obtaining the \focus{IQHE phase diagram} from a model of 2D lattice electrons\\[10pt]
 	\item Characterising the plateau-to-plateau transition \focus{critical point} through a topological invariant\\[10pt]
 	\item Checking the robustness of our conclusions to the addition of \focus{disorder}
 \end{itemize}
+\vspace{\fill}
+
+\hspace*{\fill}
+\includegraphics[width=0.3\textwidth]{iqheRG.png}
+\hspace*{\fill}
+\includegraphics[width=0.33\textwidth]{iqheResis.png}
+\hspace*{\fill}
+
 \end{frame}
 
 \begin{frame}{The Model}
@@ -261,10 +313,10 @@ A unified framework for Kondo breakdown, in terms of entanglement measures\\
 	\vspace{\fill}
 	\begin{minipage}{0.45\textwidth}
 		In the absence of \(V({\mathbf r})\), produces \\
-		decoupled Landau levels with\\
+		decoupled \focus{Landau levels} with\\
 		large degeneracy.\\
 
-		\(V({\mathbf r})\) leads to scattering \\
+		\(V({\mathbf r})\) leads to \focus{scattering} \\
 		among these states.
 	\end{minipage}
 	\begin{minipage}{0.5\textwidth}
@@ -276,7 +328,7 @@ A unified framework for Kondo breakdown, in terms of entanglement measures\\
 \[
 	H_n^* = \sum_{\varepsilon_{n,\alpha} \sim 0}\varepsilon_{n,\alpha} c^\dagger_{n, \alpha} c_{n,\alpha} + \sum_{|\varepsilon^*_{n,\alpha}| > \Delta^*}\varepsilon^*_{n,\alpha}c^\dagger_{n,\alpha} c_{n,\alpha} + \sum_{\varepsilon_{n,\alpha_1}, \varepsilon_{n,\alpha_2} \sim 0}L_{\alpha_1,\alpha_2}^*(n)\left(c^\dagger_{n, \alpha_1}c_{n,\alpha_2} + \text{h.c.}\right)
 \]
-States within a window are attracted towards central state, with relevant forward scattering among them.
+States within a window are \focus{attracted} towards central state, with relevant forward scattering among them.
 
 \begin{minipage}{0.45\textwidth}
 	\includegraphics[width=\textwidth]{intraLL.pdf}
@@ -309,8 +361,8 @@ Marginal scattering processes at chemical potential lead to longitudinal resisti
 
 \begin{frame}{Outstanding Questions}
 	\begin{itemize}
-		\item Characterisation of the low-lying excitations at the critical point.\\[10pt]
-		\item Topological invariant at the critical point. \\[10pt]
+		\item Description of the metal obtained at the \focus{critical point} (self-energy, etc.).\\[10pt]
+		\item \focus{Topological invariant} to characterise the critical point (Chern number, etc.) \\[10pt]
 	\end{itemize}
 \end{frame}
 
@@ -321,8 +373,13 @@ Marginal scattering processes at chemical potential lead to longitudinal resisti
 		\item Finish the embedded eSIAM project and the IQHE projects.
 		\item Study heavy-fermion physics using auxiliary mode approach (simple extension of the embedded eSIAM project).
 	\end{itemize}
-	\vspace{\fill}
-	\Large{Thank you!}
+
+	\vspace*{\fill}
+
+	\hrule
+
+	\vspace*{\fill}
+	\Large{\bf Thank You!}
 \end{frame}
 
 \end{document}
