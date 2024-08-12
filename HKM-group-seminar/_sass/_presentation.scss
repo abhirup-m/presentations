@@ -1,0 +1,22 @@
+body { 
+    font-family: 'Cooper Hewitt'; 
+}
+.remark-slide-content { 
+  background-color: #252827;
+  color: #FFFEE6;
+  font-size: 1.6em;
+  > h1, h2, h3 {
+    font-size: 2.4em;
+    color: #F8CF2C;
+  }
+}
+.remark-slide-content strong {
+    color: #81B622;
+    font-weight: normal;
+}
+
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+}
+.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
