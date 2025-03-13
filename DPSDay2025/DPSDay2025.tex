@@ -1,0 +1,92 @@
+% !TEX program = xelatex
+\DocumentMetadata{lang=en} % required for transparent package
+\documentclass[11pt,aspectratio=169]{beamer}
+
+% remove footcite numbers
+\makeatletter
+\def\@makefnmark{}
+\makeatletter
+
+\setbeamersize{text margin left=5mm,text margin right=5mm} 
+
+\newcommand\focus[1]{%
+	{\alert{\textbf{#1}}}
+}
+
+\usepackage{amsthm,amsmath,amssymb,braket,fontspec,unicode-math,fontenc,transparent}
+\usepackage[absolute,overlay]{textpos}
+
+% \usetheme{focus}
+\usetheme[numbering=none]{focus}
+% \setmainfont{Barlow}
+% \setsansfont{Barlow}
+% \setmathfont{Fira Math}
+\setmathfont{latinmodern-math.otf}[range={frak,\bigcap,\bigcup}]
+
+\usepackage[backend=bibtex,url=false,doi=false,style=authoryear]{biblatex}
+\setbeamertemplate{bibliography item}{}
+\bibliography{bib}
+\AtBeginBibliography{\scriptsize}
+
+\graphicspath{{./figures/}}
+
+\setbeamerfont{title}{size=\LARGE\scshape}
+\setbeamerfont{author}{size=\Large}
+\setbeamerfont{institute}{size=\large}
+\setbeamerfont{date}{size=\large}
+\setbeamerfont{frametitle}{size=\Large\scshape}
+\setbeamerfont{sectiontitle}{size=\small\scshape}
+
+\title{Insights on Mott Transition and The Pseudogap Through the Veil of a Quantum Impurity Model}
+\author{Abhirup Mukherjee}
+\institute{DPS Day '25 \\ Department of Physical Sciences, IISER Kolkata}
+\titlegraphic{
+	\vspace{20pt}
+	\hfill\includegraphics[width=0.1\textwidth]{epqm_logo_mod.jpeg}\hspace*{20pt}\includegraphics[width=0.1\textwidth]{dps_logo.jpeg}\hspace*{30pt}
+}
+
+\begin{document}
+
+\centering
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\begin{frame}{Acknowledgements}
+
+	\hspace*{\fill}
+	\includegraphics[width=0.1\textwidth]{SERB.png}
+	\hspace*{\fill}
+	\includegraphics[width=0.1\textwidth]{dps_logo.jpeg}
+	\hspace*{\fill}
+\end{frame}
+
+\begin{frame}{Quantum Materials Are Different}
+\end{frame}
+
+\begin{frame}{Why Do We Need New Methods?}
+\end{frame}
+
+\begin{frame}{A New Auxiliary Model Approach}
+\end{frame}
+
+\begin{frame}{The Correct Auxiliary Model - A Lattice Embedded Impurity}
+\end{frame}
+
+\begin{frame}{Momentum-space Resolved Kondo Breakdown}
+\end{frame}
+
+\begin{frame}{Pseudogapping Transition on the Lattice Model}
+\end{frame}
+
+\begin{frame}{Nature of The Metal Close to the Transition}
+\end{frame}
+
+\begin{frame}{What are the main takeaways?}
+\end{frame}
+
+\begin{frame}{Future prospects}
+\end{frame}
+
+\end{document}
