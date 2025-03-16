@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="93.797737mm"
+   height="50.37241mm"
+   viewBox="0 0 93.797737 50.372409"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="KEvsPE.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.6038249"
+     inkscape:cx="218.85182"
+     inkscape:cy="72.638852"
+     inkscape:window-width="1914"
+     inkscape:window-height="1044"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect8"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4"
+       is_visible="true"
+       lpeversion="1" />
+    <rect
+       x="72.327095"
+       y="-99.138"
+       width="89.785362"
+       height="53.621815"
+       id="rect3" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8-9" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6-2"
+       is_visible="true"
+       lpeversion="1" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter7"
+       x="-0.17641523"
+       y="-0.17641523"
+       width="1.3528305"
+       height="1.3528305">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.1039891"
+         id="feGaussianBlur7" />
+    </filter>
+    <rect
+       x="72.327095"
+       y="-99.138"
+       width="89.785362"
+       height="53.621815"
+       id="rect4" />
+    <rect
+       x="72.327095"
+       y="-99.138"
+       width="89.785362"
+       height="53.621815"
+       id="rect3-6" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-24.521463,-88.470446)">
+    <rect
+       style="fill:#307090;fill-opacity:1;stroke:none;stroke-width:0.263;stroke-opacity:1"
+       id="rect1"
+       width="15.018964"
+       height="15.018964"
+       x="45.091919"
+       y="111.5158" />
+    <rect
+       style="opacity:0.6;mix-blend-mode:normal;fill:#f04040;fill-opacity:1;stroke:none;stroke-width:0.263;stroke-opacity:1;filter:url(#filter7)"
+       id="rect7"
+       width="15.018964"
+       height="15.018964"
+       x="45.091919"
+       y="111.5158"
+       transform="matrix(1.1461486,0,0,1.1461486,-7.6876213,-17.395379)" />
+    <rect
+       style="fill:#307090;fill-opacity:1;stroke:none;stroke-width:0.263;stroke-opacity:1"
+       id="rect2"
+       width="15.018964"
+       height="15.018964"
+       x="103.30024"
+       y="111.5158" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#505050;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+       d="m 56.084985,131.0182 c 4.160686,2.75774 8.754797,4.86013 13.561534,6.20613 13.344178,3.73669 28.280947,1.31917 39.765171,-6.43599"
+       id="path5"
+       inkscape:path-effect="#path-effect5"
+       inkscape:original-d="m 56.084985,131.0182 c 4.290653,2.06871 9.041022,4.13742 13.561534,6.20613 4.520509,2.0687 26.433496,-4.29066 39.765171,-6.43599"
+       transform="rotate(2.6350905,106.70792,98.850634)" />
+    <path
+       style="fill:#c07060;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+       d="M 36.064324,79.083912 V 89.130403"
+       id="path6"
+       inkscape:path-effect="#path-effect6"
+       inkscape:original-d="m 36.064324,79.083912 c 0,3.177096 0,10.046491 0,10.046491"
+       transform="matrix(1.0321646,0,0,-0.69756805,11.367096,177.64985)" />
+    <path
+       style="fill:#c07060;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow-7)"
+       d="M 36.064324,79.083912 V 89.130403"
+       id="path6-2"
+       inkscape:path-effect="#path-effect6-2"
+       inkscape:original-d="m 36.064324,79.083912 c 0,3.177096 0,10.046491 0,10.046491"
+       transform="matrix(1.0321646,0,0,0.69756805,19.232509,60.762322)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.38069411,0,0,0.38069411,-5.3355142,138.23358)"
+       id="text1"
+       style="font-weight:600;font-size:16px;line-height:0.8;font-family:'Cooper Hewitt LO';-inkscape-font-specification:'Cooper Hewitt LO, Semi-Bold';text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3);opacity:1;fill:none;fill-opacity:1;stroke:#a09070;stroke-width:3.40535;stroke-dasharray:10.2161, 10.2161;stroke-dashoffset:0;stroke-opacity:1"><tspan
+         x="77.563736"
+         y="-88.738672"
+         id="tspan4"><tspan
+           style="fill:#505050;stroke:none"
+           id="tspan1">interaction
+</tspan></tspan><tspan
+         x="90.771729"
+         y="-75.938669"
+         id="tspan6"><tspan
+           style="fill:#505050;stroke:none"
+           id="tspan5"> energy</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.38069411,0,0,0.38069411,58.91428,127.12562)"
+       id="text1-6"
+       style="font-weight:600;font-size:16px;line-height:0.8;font-family:'Cooper Hewitt LO';-inkscape-font-specification:'Cooper Hewitt LO, Semi-Bold';text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3-6);fill:none;fill-opacity:1;stroke:#a09070;stroke-width:3.40535;stroke-dasharray:10.2161, 10.2161;stroke-dashoffset:0;stroke-opacity:1"><tspan
+         x="92.475739"
+         y="-88.738672"
+         id="tspan8"><tspan
+           style="fill:#505050;stroke:none"
+           id="tspan7">kinetic </tspan></tspan><tspan
+         x="92.371735"
+         y="-75.938669"
+         id="tspan10"><tspan
+           style="fill:#505050;stroke:none"
+           id="tspan9">energy</tspan></tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#505050;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+       d="m 56.084985,131.0182 c 4.160686,2.75774 8.754797,4.86013 13.561534,6.20613 13.344178,3.73669 28.280947,1.31917 39.765171,-6.43599"
+       id="path4"
+       inkscape:path-effect="#path-effect8"
+       inkscape:original-d="m 56.084985,131.0182 c 4.290653,2.06871 9.041022,4.13742 13.561534,6.20613 4.520509,2.0687 26.433496,-4.29066 39.765171,-6.43599"
+       transform="rotate(-177.36491,83.547833,119.86682)" />
+  </g>
+</svg>
