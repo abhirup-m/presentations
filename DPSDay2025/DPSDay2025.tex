@@ -35,13 +35,16 @@
 \setbeamerfont{sectiontitle}{size=\small\scshape}
 \setbeamerfont{alerted text}{series=\bfseries}
 
-\title{Insights on Mott Transition and The Pseudogap Through the Veil of a Quantum Impurity Model}
+\title{Insights on The Pseudogap in 2D From an Impurity Model}
+\subtitle{A New Approach Towards Correlated Lattice Models}
 \author{\alert{Abhirup Mukherjee}}
 \date{March 19, 2025}
 \institute{DPS Day '25 \\ Department of Physical Sciences, IISER Kolkata}
 \titlegraphic{
-	\vspace{20pt}
-	\hfill\includegraphics[width=0.1\textwidth]{epqm_logo_mod.jpeg}\hspace*{20pt}\includegraphics[width=0.1\textwidth]{dps_logo.jpeg}\hspace*{30pt}
+	\vspace{10pt}
+	\hfill \includegraphics[width=0.4\textwidth]{cover.pdf}\\
+	\vspace{-20pt}
+	\includegraphics[width=0.08\textwidth]{epqm_logo_mod.jpeg}\hspace*{20pt}\includegraphics[width=0.08\textwidth]{dps_logo.jpeg}\hspace*{350pt}
 }
 
 \begin{document}
@@ -122,53 +125,65 @@
 \end{frame}
 
 \begin{frame}{The Advent of Quantum Materials: Cuprate Superconductors}
-	\only<1-5>{
+	\footcite{Broun2008,keimer2015quantum}
+	\begin{minipage}{0.5\textwidth}
+	Consists of \alert{Cu-O planes} that can be doped.
 	\begin{itemize}
-	\uncover<1->{\item Cu-O planes separated by insulating layers that can be doped.}
-	\uncover<2->{\item \alert{Strange metal} phase beyond 1-particle description}
-	\uncover<3->{\item[*] \alert{Missing:} Simple and universal mechanism for strange metals}
-	\uncover<4->{\item \alert{Pseudogap} phase has Fermi arcs and competing fluctuations}
-	\uncover<5->{\item[*] \alert{Missing:} Microscopic understanding of the pseudogap phase}
-	\end{itemize}
+	\uncover<1->{
+		\item \alert{Unconventional} superconductivity, borne out of electronic interactions.
 	}
+	\uncover<2->{\item \alert{Pseudogap} phase has Fermi arcs and competing fluctuations}
+	\end{itemize}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{0.45\textwidth}
+	\begin{itemize}
+	\uncover<3->{\item[*] \alert{Missing:} Microscopic understanding of the pseudogap phase}
+	\uncover<3->{\item[*] \alert{Missing:} Simple and universal mechanism for strange metals}
+	\end{itemize}
+	\end{minipage}
 
 	\uncover<1->{
 		\includegraphics[width=0.3\textwidth]{cuprateStructure.pdf}
+		\only<1>{
+			\includegraphics[width=0.3\textwidth]{cupratesSC.pdf}
+		}
 	}
-	\only<2-3>{
-		\centering
-		\includegraphics[width=0.3\textwidth]{cupratesNFL.pdf}
-		\includegraphics[width=0.35\textwidth]{NFL.pdf}
-	}
-	\only<4->{
+	\only<2>{
 		\centering
 		\includegraphics[width=0.3\textwidth]{cupratesPG.pdf}
-		\includegraphics[width=0.17\textwidth]{fermiArc0.png}
-		\includegraphics[width=0.17\textwidth]{fermiArc1.png}
+		\includegraphics[width=0.35\textwidth]{fermiArcsAll.pdf}
+	}
+	\only<3-4>{
+		\centering
+		\includegraphics[width=0.3\textwidth]{cupratesNFLPG.pdf}
+		\includegraphics[width=0.35\textwidth]{fermiArcsAll.pdf}\\
+
+		\only<3>{Effect of these phases at \alert{half-filling}?}
 	}
 
-	\only<6>{
+	\uncover<4>{
 	\vspace*{\fill}
 	\begin{minipage}{0.6\textwidth}
-	Simplest model for realising these phases \\
-	- the 2D \alert{Hubbard model} on square lattice
-	\[ H = -t \sum_{\left<i,j \right>,\sigma}\left(c^\dagger_{i,\sigma}c_{j,\sigma} + \text{h.c.}\right) + U \sum_i n_{i \uparrow} n_{i \downarrow}\]
+		2D \alert{Hubbard model} on square lattice\\[5pt]
+		\( H = -t \sum_{\left<i,j \right>,\sigma}\left(c^\dagger_{i,\sigma}c_{j,\sigma} + \text{h.c.}\right) + U \sum_i n_{i \uparrow} n_{i \downarrow}\)\\[5pt]
+	\alert{Too hard to solve}! Alternative approaches needed.
 	\end{minipage}
 	\hfill
-	\begin{minipage}{0.35\textwidth}
+	\begin{minipage}{0.3\textwidth}
 		\includegraphics[width=\textwidth]{hubbard.pdf}
 	\end{minipage}
 
-	\alert{Too hard to solve}! Alternative approaches needed.
 	}
 \end{frame}
 
 \begin{frame}{A Bottom-Up Approach: Starting from an Impurity Model}
+	\footcite{georges1996,Si1993}
 	\begin{minipage}{0.7\textwidth}
 	\subhead{What is an Impurity Model?}
 	\begin{itemize}[<+->]
 		\item Single \alert{correlated site}, hybridising with conduction \alert{bath}
-		\item Impurity-bath hybridisation respects \alert{\(C_4\) symmetry} of 2D square lattice (important!)
+		\item Impurity-bath hybridisation respects \alert{\(C_4\) symmetry} of 2D square lattice (\alert{not $s-$wave} scattering, important!)
 		\item (Much!) \alert{Simpler to solve} than Hubbard model, because of non-interacting conduction bath
 	\end{itemize}
 	\end{minipage}
@@ -180,13 +195,13 @@
 	\begin{minipage}{0.55\textwidth}
 	\subhead{Mapping to the Lattice Model}
 	\begin{itemize}[<+->]
-		\item Impurity model describes local environment of each site.
-		\item \alert{Translation} operator maps impurity model quantities to those on the lattice model
+		\item Impurity model describes hopping into the correlated \alert{local environment}.
+		\item \alert{Translation} operator maps impurity model quantities to those on the lattice model (\alert{Hubbard-Heisenberg} model)
 	\end{itemize}
 	\end{minipage}
 	\hfill
 	\begin{minipage}{0.4\textwidth}
-		\only<5>{\includegraphics[width=0.3\textwidth]{translation.pdf}
+		\only<5>{\vspace*{-10pt}\includegraphics[width=0.3\textwidth]{translation.pdf}
 		}
 		\hfill
 		\includegraphics[width=0.5\textwidth]{tiling.pdf}
@@ -196,23 +211,20 @@
 
 \begin{frame}{Momentum-space Resolved Impurity Phase Transition}
 	\begin{minipage}{0.6\textwidth}
-	\alert{Raising bath correlation} \(W\) tunes the impurity model through three phases
-	\uncover<2->{\begin{itemize}
+	\alert{Increasing bath correlation} \(W\) tunes the impurity model through three phases
+	\begin{itemize}
 		\uncover<2->{\item Impurity \alert{strongly coupled} to Fermi surface}
 		\uncover<3->{\item Impurity coupled \alert{only to parts} of Fermi surface}
 		\uncover<4->{\item Impurity \alert{decoupled} from the Fermi surface}
+		\uncover<5->{\item Spectral function \alert{sharpens} as Fermi surface decouples.}
 	\end{itemize}
-	}
 	\end{minipage}
-	\uncover<1->{
 	\begin{minipage}{0.35\textwidth}
 	\only<2>{\includegraphics[width=\textwidth]{cupratesFL.pdf}}
 	\only<3>{\includegraphics[width=\textwidth]{cupratesPG.pdf}}
-	\only<4>{\includegraphics[width=\textwidth]{cupratesMI.pdf}}
+	\only<4-5>{\includegraphics[width=\textwidth]{cupratesMI.pdf}}
 	\end{minipage}
-	}
 
-	\uncover<1->{
 	\includegraphics[width=0.2\textwidth]{pWaveEsiam.pdf}
 	\hspace*{\fill}
 	\only<2>{
@@ -225,39 +237,38 @@
 		\hspace*{\fill}
 		\includegraphics[width=0.3\textwidth]{SF-4.pdf}
 	}
-	\only<4>{
+	\only<4-5>{
 		\includegraphics[width=0.35\textwidth]{localSpecFunc3.pdf}
 		\hspace*{\fill}
 		\includegraphics[width=0.3\textwidth]{SF-6.pdf}
 	}
-	}
 \end{frame}
 
 \begin{frame}{Pseudogapping Transition on the Lattice Model}
-	\begin{minipage}{0.7\textwidth}
+	\footcite{keimer2015quantum}
+	\begin{minipage}{0.5\textwidth}
 	\begin{itemize}
 		\item Map Greens functions from impurity model to \alert{lattice model}.
 		\item Momentum-space DOS reveals \alert{partially gapped} Fermi surface.
 	\end{itemize}
 	\end{minipage}
-	\begin{minipage}{0.25\textwidth}
+	\hfill
+	\begin{minipage}{0.2\textwidth}
 		\includegraphics[width=\textwidth]{fermiArc1.png}
 	\end{minipage}
 	
-	\includegraphics[width=0.31\textwidth]{kspaceDOS-1.pdf}
-	\includegraphics[width=0.31\textwidth]{kspaceDOS-3.pdf}
-	\includegraphics[width=0.31\textwidth]{kspaceDOS-4.pdf}
+	\includegraphics[width=\textwidth]{kspaceDOS.pdf}
 \end{frame}
 
 \begin{frame}{Main takeaways}
-	\uncover<1->{\begin{minipage}{0.45\textwidth}
-			\alert{Simplifies} the study of lattice models through appropriate \alert{impurity models}.\\
+	\uncover<1->{\begin{minipage}{0.48\textwidth}
+			Our approach \alert{simplifies} study of lattice models via appropriate \alert{impurity models}.\\
 
 			\includegraphics[height=0.4\textwidth]{tilingKey.pdf}
 	\end{minipage}
 	}
 	\hfill
-	\uncover<2->{\begin{minipage}{0.45\textwidth}
+	\uncover<2->{\begin{minipage}{0.48\textwidth}
 			Our impurity model realises a \alert{pseudogapping transition} in a correlated model.\\
 
 			\includegraphics[height=0.4\textwidth]{kspaceDOS-3.pdf}
@@ -266,11 +277,18 @@
 	}
 	\vspace*{10pt}
 	\uncover<3->{
+		\footcite{Broun2008}
+		\begin{minipage}{0.5\textwidth}
 		\subhead{Generalisations and Extensions}
 		\begin{itemize}[<+->]
 			\item Tune impurity filling - simulate \alert{doping}!
 			\item Multiple impurities - symmetry-broken or \alert{spin liquid} phases
 		\end{itemize}
+		\end{minipage}
+		\hfill
+		\begin{minipage}{0.36\textwidth}
+		\includegraphics[width=\textwidth]{cuprates.pdf}
+		\end{minipage}
 	}
 \end{frame}
 
