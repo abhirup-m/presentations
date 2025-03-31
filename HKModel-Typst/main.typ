@@ -157,7 +157,7 @@ $ Z^(-1) = 1 - (partial ("Re" Sigma))/(partial omega) ~ -log(omega) -> infinity 
 == Introduction to Greens Functions
 
 Nature of _excitations_ can be studied through Greens function
-$ G_nu (t) = -i theta(t)expval({c_nu(t), c^dagger_nu}) $
+$ G_nu (t) = -i theta(t)expval({c_nu (t), c^dagger_nu}) $
 
 - Non-interacting system: $G_k (omega + i eta) = frac(1, omega + i eta - epsilon_k)$ 
 - _Poles_ of Greens function #sym.arrow.r one-particle excitations
@@ -166,10 +166,11 @@ $ G_nu (t) = -i theta(t)expval({c_nu(t), c^dagger_nu}) $
 == Exact Single-Particle Greens Function of the HKM
 
 // #v(-100pt)
-#box(width:50%)[
+#box(width:60%)[
 Greens function can be calculated as
 $ G_(k sigma) (omega) = frac(P_e (k sigma), omega - E_X) + frac(P_h (k sigma), omega + E_X) $
 ]
+#hf
 #box(width:30%)[
   #image("figures/states.svg")
 ]
@@ -303,25 +304,42 @@ $ c^dagger_(k sigma) (1 - n_(k overline(sigma))) $
 - _Breakdown_ of quasiparticle picture, and hence of Fermi liquid theory
 
 == Signature II: Divergence of Self-Energy
-#only(1)[
-Greens function at 1/2-filling can be rewritten as $G_(k sigma) = frac(1, omega - epsilon_k + frac(U^2 \/ 4, omega - epsilon_k))$.
-
 #box(width:54%)[
+We have at 1/2-filling:
+$ G_(k sigma) = frac(1, omega - epsilon_k + frac(U^2 \/ 4, omega - epsilon_k)). $
 _Self-energy_ is $Sigma(omega) = frac(U^2 \/ 4, omega - epsilon_k)$
+
+#uncover(2)[
 
 - _Diverges_ along $epsilon_k=0$ as $omega arrow.r 0$
 - _Violates_ Fermi Liquid Theory
 - Leads to zeros of Greens function
 - Death of Landau _quasiparticles_
 ]
+]
 #box(width:45%)[
+#uncover(2)[
 #image("figures/HKMSelfEnergy.svg", width: 90%)
 ]
 ]
 
-#only(2)[
+== Signature II: Divergence of Self-Energy
+
 === How Does A Diverging Self-Energy Leave The System Metallic?
 
+#uncover(2)[
+Greens functions for composite excitations do not have self-energy!
+$ d^dagger_(k sigma) = c^dagger_(k sigma) n_(k sigma), & quad G_d = frac(1, omega - epsilon_k - U/2) \
+h^dagger_(k sigma) = c^dagger_(k sigma) (1 - n_(k sigma)), & quad G_h = frac(1, omega - epsilon_k + U/2) $
+
+These can therefore propagate with _long lifetimes_.
+]
+
+== Signature III: Violation of Luttinger's Theorem
+
+=== How Does A Diverging Self-Energy Leave The System Metallic?
+
+#uncover(2)[
 Greens functions for composite excitations do not have self-energy!
 $ d^dagger_(k sigma) = c^dagger_(k sigma) n_(k sigma), & quad G_d = frac(1, omega - epsilon_k - U/2) \
 h^dagger_(k sigma) = c^dagger_(k sigma) (1 - n_(k sigma)), & quad G_h = frac(1, omega - epsilon_k + U/2) $

@@ -80,7 +80,7 @@
   extra: none,
   doc,
 ) = {
-show list: set align(center)
+show list: set align(left)
 show list.item: set align(left)
 
 show: metropolis-theme.with(
