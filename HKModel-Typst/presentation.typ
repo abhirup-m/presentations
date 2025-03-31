@@ -80,7 +80,7 @@
   extra: none,
   doc,
 ) = {
-show list: set align(center)
+show list: set align(left)
 show list.item: set align(left)
 
 show: metropolis-theme.with(
@@ -119,7 +119,7 @@ set text(
    size: 24pt,
  )
 set align(center)
-show math.equation: set text(font: "Fira Math")
+show math.equation: set text(font: "Noto Sans Math")
 show footnote.entry: it => {v(-0pt); set text(size: 16pt); it; v(-20pt)}
 set footnote(numbering: it => "")
 show bibliography: it => {

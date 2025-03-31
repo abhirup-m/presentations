@@ -10,13 +10,11 @@
 #show heading: set block(below: 1.5em)
 
 == In A Nutshell
-// #item-by-item(mode: gray)[
 - An _exactly solvable_ model that displays correlation-driven transition from a _non-Fermi liquid_ to a _Mott insulator_.
 - Analyse the non-Fermi liquid in this _controlled setting_ to understand its features.
-- Study the _superconducting instability_ of this metal to figure out the nature of the superconductor arising from this exotic normal state.
-// ]
+- Study a generalisation of this model to obtain _Fermi arcs_
 
-= Where Does This Fit?
+= Where Do Mott Insulators and Non-Fermi Liquids Fit in the "Standard Model"?
 
 == Mott Insulators Are Different
 
@@ -45,39 +43,41 @@
 == Non-Fermi Liquids Are Different
 
 #only(1)[
+#fnote(<Landau1958>)
 === Landau Fermi Liquid Theory (Postulates)
 
 - Theory describing how _metals arise_ in interacting systems
 - Lack of scattering _phase space_ at low-energies
-- Fermi surface and low-lying electronic excitations _survive_.
+- Fermi surface and low-lying electronic excitations survive (_quasiparticles_).
 
 #v(20pt)
 
 #image("figures/phaseSpace.svg", height: 40%)
 ]
 #only(2)[
+#fnote(<Landau1958>)
 #box(width: 64%)[
 === Landau Fermi Liquid Theory (Quantification)
-- _Self-energy_ $Sigma~i omega^2$. Roughly equal to scattering rate. Vanishes very fast as $omega -> 0$: essential for _quasiparticle_ picture
+- _Self-energy_ $Sigma~i omega^2$. Quantifies _decay_ rate. Vanishes very fast as $omega -> 0$: essential for _quasiparticle_ picture
 - _Quasiparticle residue_: how similar are the true excitations to 1-particle excitations
-$ Z = mel(Psi, c^dagger_(k sigma), Psi_0) $
-- $Z = (1 - (partial ("Re" Sigma))/(partial omega))^(-1)~ 1$. Must be non-zero for Landau Fermi liquid.
+$ Z = mel(Psi_"ex", c^dagger_(k sigma), Psi_"gs") $
+- $Z = (1 - (partial ("Re" Sigma))/(partial omega))^(-1)$. Must be _non-zero_ for Landau Fermi liquid.
 ]
 #box(width: 35%)[
-  #image("figures/quasipRes.png", height: 90%)
+  #image("figures/quasipRes.svg", height: 90%)
 ]
 ]
 #only(3)[
 === Violations Of Landau Fermi Liquid Theory
 
-#box(width: 54%)[
-- _Tomonaga-Luttinger Liquid_: Interacting electrons in 1D
-- _Overscreened_ fixed points in Kondo models
-- _Strange Metal_: Normal state of unconventional SCs in Cu oxides, heavy fermions, Fe pnictides, etc
+#box(width: 69%)[
+- _Tomonaga-Luttinger Liquid_: Interacting electrons in 1D $arrow$ spin-charge separation!
+- _Overscreened_ fixed points in Kondo models \ $arrow$ fractional entropy, diverging $chi, C_v$
+- _Strange Metal_: Normal state of unconventional SCs in Cu oxides, heavy fermions, pnictides
 ] 
 #hf
-#box(width: 45%)[
-  #image("figures/strangeMetal.png", height: 60%)
+#box(width: 30%)[
+  #image("figures/strangeMetal.png", height: 40%)
 ]
 #fnote(<EmeryKivelson1992>,<Haldane_1981>,<keimer2015quantum>,<Custers2003>,<LeyraudPnictide2009>)
 ]
@@ -157,7 +157,7 @@ $ Z^(-1) = 1 - (partial ("Re" Sigma))/(partial omega) ~ -log(omega) -> infinity 
 == Introduction to Greens Functions
 
 Nature of _excitations_ can be studied through Greens function
-$ G_nu (t) = -i theta(t)expval({c_nu(t), c^dagger_nu}) $
+$ G_nu (t) = -i theta(t)expval({c_nu (t), c^dagger_nu}) $
 
 - Non-interacting system: $G_k (omega + i eta) = frac(1, omega + i eta - epsilon_k)$ 
 - _Poles_ of Greens function #sym.arrow.r one-particle excitations
@@ -166,10 +166,11 @@ $ G_nu (t) = -i theta(t)expval({c_nu(t), c^dagger_nu}) $
 == Exact Single-Particle Greens Function of the HKM
 
 // #v(-100pt)
-#box(width:50%)[
+#box(width:60%)[
 Greens function can be calculated as
 $ G_(k sigma) (omega) = frac(P_e (k sigma), omega - E_X) + frac(P_h (k sigma), omega + E_X) $
 ]
+#hf
 #box(width:30%)[
   #image("figures/states.svg")
 ]
@@ -199,9 +200,9 @@ $ ket(sigma) arrow.r ket(0) $
 $ G arrow.r frac(expval(n_(k overline(sigma))), omega - epsilon_k - U) $
 ]
 #box(width:35%)[
-$ ket(0) arrow.r ket(sigma) $
+$ ket(-sigma) arrow.r ket(sigma\,-sigma) $
 #v(20pt)
-$ ket(sigma) arrow.r ket(0) $
+$ ket(sigma\,-sigma) arrow.r ket(-sigma) $
   #v(70pt)
 ]
 ]
@@ -229,7 +230,6 @@ $ G_(k sigma) = frac(1, 2)[(omega - epsilon_k + U\/2)^(-1) + (omega - epsilon_k 
   $U < W$ (Metal)
   #image("figures/metal.svg", width: 89%)
 ]
-
 
 = Non-Fermi Liquid Signatures In Metallic Phase
 
@@ -266,7 +266,7 @@ Momentum states classified into three groups:
   _Near $S_2-S_1$ boundary_ $(epsilon_k = -U\/2)$
 
   - Excitation operator: $c^dagger_(k sigma) n_(k overline(sigma))$
-  - Excitation energy is $epsilon_k + U - mu arrow.r 0^+$ \ \ 
+  - Excitation energy is $epsilon_k + U/2 arrow.r 0^+$ \ \ 
 ]
 #box(width:40%)[
   #image("figures/LHBExcitation.svg", width: 90%)
@@ -276,7 +276,7 @@ Momentum states classified into three groups:
   _Near $S_1-S_0$ boundary_ $(epsilon_k = U\/2)$
 
   - Excitation operator: $c^dagger_(k sigma) (1 - n_(k overline(sigma)))$
-  - Excitation energy is $epsilon_k - mu arrow.r 0^+ $ \ \ 
+  - Excitation energy is $epsilon_k - U/2 arrow.r 0^+ $ \ \ 
 ]
 #box(width:40%)[
   #image("figures/UHBExcitation.svg", width: 90%)
@@ -303,25 +303,30 @@ $ c^dagger_(k sigma) (1 - n_(k overline(sigma))) $
 - _Breakdown_ of quasiparticle picture, and hence of Fermi liquid theory
 
 == Signature II: Divergence of Self-Energy
-#only(1)[
-Greens function at 1/2-filling can be rewritten as $G_(k sigma) = frac(1, omega - epsilon_k + frac(U^2 \/ 4, omega - epsilon_k))$.
-
 #box(width:54%)[
+We have at 1/2-filling:
+$ G_(k sigma) = frac(1, omega - epsilon_k + frac(U^2 \/ 4, omega - epsilon_k)). $
 _Self-energy_ is $Sigma(omega) = frac(U^2 \/ 4, omega - epsilon_k)$
+
+#uncover(2)[
 
 - _Diverges_ along $epsilon_k=0$ as $omega arrow.r 0$
 - _Violates_ Fermi Liquid Theory
 - Leads to zeros of Greens function
 - Death of Landau _quasiparticles_
 ]
+]
 #box(width:45%)[
+#uncover(2)[
 #image("figures/HKMSelfEnergy.svg", width: 90%)
 ]
 ]
 
-#only(2)[
+== Signature II: Divergence of Self-Energy
+
 === How Does A Diverging Self-Energy Leave The System Metallic?
 
+#uncover(2)[
 Greens functions for composite excitations do not have self-energy!
 $ d^dagger_(k sigma) = c^dagger_(k sigma) n_(k sigma), & quad G_d = frac(1, omega - epsilon_k - U/2) \
 h^dagger_(k sigma) = c^dagger_(k sigma) (1 - n_(k sigma)), & quad G_h = frac(1, omega - epsilon_k + U/2) $
@@ -329,9 +334,17 @@ h^dagger_(k sigma) = c^dagger_(k sigma) (1 - n_(k sigma)), & quad G_h = frac(1, 
 These can therefore propagate with _long lifetimes_.
 ]
 
+= Is This A Realistic Model of Interacting Electrons?
+
+== Is The Model Stable Under Perturbations?
+
+
+
 = Summary of Main Ideas
 
 == Summary of Main Ideas
+
+
 
 = Avenues for Futher Investigation
 
