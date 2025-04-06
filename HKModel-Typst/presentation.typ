@@ -115,7 +115,7 @@ show emph: it => {
  }
 set list(marker: "🞍", spacing: 1.5em)
 set text(
-   font: "lato",
+   font: "barlow",
    size: 24pt,
  )
 set align(center)

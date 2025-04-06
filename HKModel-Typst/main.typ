@@ -336,7 +336,53 @@ These can therefore propagate with _long lifetimes_.
 
 = Is This A Realistic Model of Interacting Electrons?
 
-== Is The Model Stable Under Perturbations?
+== Stability Under Small Perturbations
+#fnote(<Zhao2023>,<Phillips2020>)
+
+#box(width: 55%)[
+$ S = S_"FL" + U integral c^dagger_(k arrow.t) c^dagger_(k arrow.b) c_(k arrow.b) c_(k arrow.t) + #linebreak() u integral c^dagger_(k_1+q, arrow.t) c^dagger_(k_2-q, arrow.b) c_(k_2, arrow.b) c_(k_1, arrow.t) $
+#uncover("2-3")[
+- HK interaction strongly _relevant_ under RG flow
+- _Stable_ under local interaction terms
+- Displays superconducting instability
+]
+]
+#box(width: 40%)[
+#uncover("2-3")[
+#image("figures/HKModelRG.png", width: 100%)
+]
+]
+
+#v(1em)
+#uncover(3)[_Key Point_: HK interaction is the _source of Mottness_ in Hubbard model.]
+
+== Link With The 2D Hubbard Model
+#fnote(<Baskaran1991>,<anirbanmott1>)
+
+#box(width: 48%)[
+  Alternative form of HK interaction:
+  $ U sum_k n_(k arrow.t) n_(k arrow.b) tilde -J sum_k bold(S)_k dot bold(S)_k$
+#linebreak()
+#linebreak()
+  _Baskaran Model_
+  $ sum_k epsilon_k n_(k sigma) + (sum_k bold(S)_k)^2 - J sum_k bold(S)_k dot bold(S)_k $
+#linebreak()
+  - Spin-charge separation of NFL
+  - Gapped spinon excitations
+]
+#h(1fr)
+#uncover(2)[
+#box(width: 45%)[
+  - Similar model emerges from 2D Hubbard Model, _Mott liquid_
+
+  $ -sum_k bold(S)_k dot bold(S)_(-k) + sum_k bold(C)_k dot bold(C)_(-k)$
+
+  #linebreak()
+  $ S^z = n_(k arrow.t) - n_(k^T arrow.t), C^z = n_(k arrow.t) + n_(k^R arrow.t) - 1 $
+
+  #image("figures/MottLiquid.svg", width: 60%)
+]
+]
 
 
 
