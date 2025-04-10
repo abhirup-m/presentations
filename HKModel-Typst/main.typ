@@ -385,13 +385,6 @@ $ S = S_"FL" + U integral c^dagger_(k arrow.t) c^dagger_(k arrow.b) c_(k arrow.b
 ]
 
 
-
-= Summary of Main Ideas
-
-== Summary of Main Ideas
-
-
-
 = Avenues for Futher Investigation
 
 == Kondo Screening in Hatsugai-Kohmoto Model
