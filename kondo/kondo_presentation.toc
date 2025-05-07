@@ -6,4 +6,4 @@
 \beamer@sectionintoc {6}{Effective Hamiltonian for the Kondo Cloud}{41}{0}{6}
 \beamer@sectionintoc {7}{Many-particle entanglement \& many-body correlation}{49}{0}{7}
 \beamer@sectionintoc {8}{Discussions \& Conclusions}{55}{0}{8}
-\beamer@sectionintoc {10}{Other Results}{63}{0}{9}
+\beamer@sectionintoc {9}{Other Results}{62}{0}{9}

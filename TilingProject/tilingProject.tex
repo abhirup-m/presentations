@@ -90,12 +90,12 @@ to the model
 	\end{minipage}
 	\hfill
 	\begin{minipage}{0.48\textwidth}
-		2. \alert{Construct lattice} model by applying manybody translation operators:
+		2. \alert{Construct lattice} model by applying many-body translation operators:
 	\[ H_\text{latt} = \sum_{\bf r} T^\dagger({\bf r}) H_\text{imp}({\bf r_0})T({\bf r})\]
 	\end{minipage}
 
 	\vfill
-	3. Relate computables across the models, using manybody Bloch's theorem\\[5pt]
+	3. Relate computables across the models, using many-body Bloch's theorem\\[5pt]
 	\begin{minipage}{0.55\textwidth}
 	\alert{Greens functions}: \\
 	\[\tilde G({\bf K}\sigma; \omega) = G^>(\mathcal{T}^\dagger_{{\bf K}\sigma}, \omega - \varepsilon_{{\bf K}}) + G^<(\mathcal{T}^\dagger_{{\bf K}\sigma}, \omega + \varepsilon_{{\bf K}})\]
@@ -105,8 +105,9 @@ to the model
 	\hfill
 	\begin{minipage}{0.43\textwidth}
 		where \\[5pt]
-		\(G^>(\mathcal{O}^\dagger, t) = -i\braket{\mathcal{O}(t)\mathcal{O}^\dagger}\)\\[5pt]
-		\(\mathcal{T}_{{\bf K}\sigma} = c_{{\bf K}\sigma}\left(\sum_{\sigma^\prime}c^\dagger_{d\sigma} + \text{h.c.}\right) + c_{{\bf K}\sigma}\left(S_d^+ + \text{h.c.}\right)\)\\[5pt]
+		\(G^>(\mathcal{O}^\dagger, t) = -i\braket{\mathcal{O}(t)\mathcal{O}^\dagger},\)\\[10pt]
+		(imp-bath T-matrix)\\[2pt]
+		\(\mathcal{T}_{{\bf K}\sigma} = c_{{\bf K}\sigma}\left(\sum_{\sigma^\prime}c^\dagger_{d\sigma} + \text{h.c.}\right) + c_{{\bf K}\sigma}\left(S_d^+ + \text{h.c.}\right),\)\\[10pt]
 		\(\mathcal{\tilde O}({\bf r}) = \mathcal{O}({\bf r})\mathcal{O}^\dagger(d)\)
 	\end{minipage}
 	
@@ -167,7 +168,8 @@ Unitary RG analysis - integrate out high-energy states in the conduction bath:
 \end{minipage}
 \begin{minipage}{0.48\textwidth}
 	\begin{itemize}
-	\uncover<2->{\item momentum-\alert{anistropic} screened phase between SC and LM phases.}
+	\uncover<2->{\item momentum-\alert{anistropic} screened phase between SC and LM phases.
+	\item Contrast with \alert{eSIAM}: \(\Delta J \sim J (J + 4W)\) }
 	\uncover<3->{\item Impurity-bath spin correlations show \(k-\)differentiation}
 	\uncover<4->{\item Lattice model DOS shows \alert{P-gap}}
 	\end{itemize}
@@ -180,12 +182,41 @@ Unitary RG analysis - integrate out high-energy states in the conduction bath:
 \end{center}
 \end{frame}
 
+\begin{frame}{Local Fermi Liquid and Local Moment Phases}
+	\begin{minipage}{0.48\textwidth}
+		{\bf LFL}
+		\begin{itemize}
+			\item Democratic screening in \(k-\)space, broad \(\omega=0\) \alert{resonance}
+			\item 1-particle excitations \(\to\) Fermi liquid upon tiling
+			\item \(\Sigma^{\prime\prime} \sim \omega^2\)
+		\end{itemize}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{0.48\textwidth}
+		{\bf LM}
+		\begin{itemize}
+			\item Unscreened moment. Spectral function gapped.
+			\item \(\Sigma \sim 1/\omega\)
+			\item Irrelevant hopping processes lead to Heisenberg model
+		\end{itemize}
+	\end{minipage}
+	\vfill
+	These phases also exist in the \alert{eSIAM}.
+	\vfill
+	
+	\includegraphics[width=0.32\linewidth]{SF-1.pdf}
+	\includegraphics[width=0.32\linewidth]{kspaceDOS-1.pdf}
+	\includegraphics[width=0.32\linewidth]{impSpecFunc_49-1000.pdf}
+
+\end{frame}
+
+
 \begin{frame}{Unravelling of Kondo screening}
 	The Kondo breakdown process can be visualised in terms of \alert{zeros} of $J_{{\bf k}_N, {\bf k}}$.
 \begin{itemize}[<+->]
 	\item $J_{{\bf k}_N, {\bf k}}$ for ${\bf k}$ close to the \alert{adjacent nodes} turn RG irrelevant first, and a patch of zeros subsequently appears in $J_{{\bf k}_N, {\bf k}}$ around this point. 
 	\item Tuning $W/J$ further extends the patch of zeros in $J_{{\bf k}_1, {\bf k}_2}$ for all ${\bf k}_{1}$ lying between a given node and the nearest antinodes. 
-	\item At $W=W_{\text{PG}}$, the \alert{antinode} joins this connected region of zeros in $J_{{\bf k}_1, {\bf k}_2}$, marking the onset of the PG.
+	\item At $W=W_{\text{PG}}$, the \alert{antinode} joins this connected region of zeros in $J_{{\bf k}_1, {\bf k}_2}$, marking the onset of the PG. The antinode \alert{decouples} from all Fermi points.
 \end{itemize}
 
 \begin{center}
@@ -196,9 +227,10 @@ Unitary RG analysis - integrate out high-energy states in the conduction bath:
 
 \begin{frame}{Dynamical Spectral Weight Transfer}
 \begin{itemize}
-	\item strong fluctuations observed in \alert{charge correlations} between the gapless nodal and gapped antinodal regions in PG regime
-	\item PG formation results from the \alert{transfer of spectral weight} from low to high energies
-	\item PG coincides with the appearance of poles of the lattice model self-energy $\Sigma ({\bf k},\omega=0)$ near the antinodes
+	\item strong fluctuations observed in \alert{charge correlations} between the gapless nodal and gapped antinodal regions in PG regime\\[5pt]
+	\item PG results from \alert{selective transfer} of spectral weight from low to high energies\\[5pt]
+	\item \alert{Differs from eSIAM} (spectral weight transferred from entire FS at once)\\[5pt]
+	\item PG coincides with the appearance of poles of the lattice self-energy $\Sigma ({\bf k},\omega=0)$ near the antinodes
 \end{itemize}
 
 \begin{center}
@@ -210,18 +242,44 @@ Unitary RG analysis - integrate out high-energy states in the conduction bath:
 
 
 \begin{frame}{Non-Fermi liquid nature of the pseudogap}
+	Kondo scattering processes can be divided into two classes
+	\begin{minipage}{0.45\textwidth}
 	\begin{itemize}
-		\item In PG phase, Kondo processes between adjacent \(k-\)space quadrants are removed at low-energies
-		\item Effective \alert{two-channel Kondo} description - each pair of opposite quadrants forms a channel
-		\item \alert{Non-Fermi liquid} physics - vanishing quasiparticle residue, and \(\Sigma\) poles near \(\omega=0\)
+		\item \(H_\text{ch1}, H_\text{ch2}\): \alert{Within} the green/pink regions\\[5pt]
+		\item \(H_{1-2}\): \alert{Connecting} the green and pink regions
+		\item Fermi liquid: \(H_\text{ch1} = H_\text{ch2} \simeq H_{1-2}\)
 	\end{itemize}
+	\end{minipage}
+	\hfill
+	\uncover<2>{
+	\begin{minipage}{0.5\textwidth}
+		\begin{itemize}
+			\item Pseudogap: \(H_{1-2}\) \alert{irrelevant}: \[H = H_\text{ch1} + H_\text{ch2}\]
+			\item Effective \alert{two-channel Kondo} description - each pair of opposite quadrants forms a channel
+		\end{itemize}
+	\end{minipage}
+	}
+	
 	
 \vspace{-5pt}
 \begin{center}
-	\includegraphics[width=0.32\linewidth]{twoChannel.pdf}
+	\includegraphics[width=0.32\linewidth]{twoChannelDecoup.pdf}
+	\hspace{3em}
+	\uncover<2>{\includegraphics[width=0.32\linewidth]{twoChannel.pdf}}
+\end{center}
+\end{frame}
+
+\begin{frame}{Non-Fermi liquid nature of the pseudogap}
+	\footcite{Coleman_tsvelik,Schofield1997,varma2002singular,Patra2023MCK}
+	\alert{Non-Fermi liquid} excitations of the 2CK
+	\begin{itemize}
+		\item \alert{Marginal FL} behaviour: $\Sigma^{\prime} \sim \omega \ln \omega$
+		\item quasiparticle residue, \(Z \sim 1/\ln \omega\) (vanishes logarithmically)
+		\item Partially \alert{unscreened} moment
+	\end{itemize}
     \includegraphics[width=0.32\linewidth]{localQPResidue.pdf}
     \includegraphics[width=0.32\linewidth]{sigmaImag_49-1000.pdf}
-\end{center}
+	
 \end{frame}
 
 \begin{frame}{Singular Nodal Metal}
@@ -257,16 +315,29 @@ Unitary RG analysis - integrate out high-energy states in the conduction bath:
 	
 \end{frame}
 
-\begin{frame}{Singular Nodal Metal: \(q_1 = q_2\)}
+\begin{frame}{Singular Nodal Metal}
+	\footcite{Baskaran1991,Hatsugai1992,Phillips2020}
 	We focus on the simplified case of zero momentum transfer \(q_1=q_2\):
 	\[ \Delta \tilde H = \sum_{{\bf q},\sigma}\epsilon_{{\bf q}}{r}_{{\bf q},\sigma} + u\sum_{{\bf q}, \sigma}r_{{\bf q} \sigma} r_{{\bf q} \bar\sigma},\quad\phi_{{\bf q}, \sigma} = \frac{1}{\sqrt 2}\left(c_{{\bf N}_1 + {\bf q},\sigma} - c_{{\bf N}_1 + {\bf Q}_1 - {\bf q}, \sigma}\right),~r = \phi^\dagger \phi \]
 	\[\epsilon_{\bf q} = \frac{|\varepsilon_{{\bf N}_1 + {\bf q}}|\varepsilon_{{\bf N}_1 + {\bf q}}}{-W} + \frac{{J^*}^2}{-4W},~u = \frac{{J^*}^2}{4W}\]
+	\begin{minipage}{0.5\textwidth}
 	\begin{itemize}
 		\item Nodal metal is described by a \alert{Hatsugai-Kohmoto model}.
 		\item Non-Fermi liquid excitations.
 	\end{itemize}
 	\[\Sigma \sim \frac{u^2}{\omega}, Z \sim \omega^2\]
+	\(\Sigma\) pole continues into \alert{Mott insulator}.
+	\end{minipage}
+	\hfill
+	\uncover<2>{
+	\begin{minipage}{0.45\textwidth}
+		For \(q_1 \neq q_2\), we find \alert{charge fluctuations}:
+		\[\phi^\dagger_{{\bf q}_1,\bar\sigma}\phi^\dagger_{{\bf q}_1,\sigma}\phi_{{\bf q}_2, \sigma}\phi_{{\bf q}_2, \bar\sigma}\]
+		Might become dominant upon \alert{doping}!
+	\end{minipage}
+}
 	
+
 \end{frame}
 
 \begin{frame}{Non-local nature of the pseudogap}
@@ -298,6 +369,16 @@ Unitary RG analysis - integrate out high-energy states in the conduction bath:
 	\end{itemize}
 
 \end{frame}
+
+\section{Backup Slides}
+\begin{frame}{Tiled Entanglement}
+\includegraphics[height=0.24\textwidth]{I2_k_AN-1.pdf}
+\includegraphics[height=0.24\textwidth]{I2_k_N-3.pdf}
+\includegraphics[height=0.24\textwidth]{I2_k_N-4.pdf}
+\includegraphics[height=0.24\textwidth]{I2_k_N-5.pdf}
+
+\end{frame}
+
 
 
 \end{document}
