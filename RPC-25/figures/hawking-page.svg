@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="181.2016mm"
+   height="107.87061mm"
+   viewBox="0 0 181.2016 107.8706"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="hawking-page.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0620589"
+     inkscape:cx="406.28631"
+     inkscape:cy="82.387144"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="312.92068"
+       y="452.7363"
+       width="343.54694"
+       height="113.18407"
+       id="rect4" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3"
+       is_visible="true"
+       lpeversion="1" />
+    <rect
+       x="198.67072"
+       y="304.12625"
+       width="411.02145"
+       height="131.42941"
+       id="rect2" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1-2"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3-4"
+       is_visible="true"
+       lpeversion="1" />
+    <rect
+       x="198.67072"
+       y="304.12625"
+       width="411.02145"
+       height="131.42941"
+       id="rect2-6" />
+    <rect
+       x="198.67072"
+       y="304.12625"
+       width="411.02145"
+       height="131.42941"
+       id="rect2-6-2" />
+    <rect
+       x="198.67072"
+       y="304.12625"
+       width="411.02145"
+       height="131.42941"
+       id="rect2-6-2-4" />
+    <rect
+       x="198.67072"
+       y="304.12625"
+       width="411.02145"
+       height="131.42941"
+       id="rect2-6-2-4-6" />
+    <rect
+       x="198.67072"
+       y="304.12625"
+       width="411.02145"
+       height="131.42941"
+       id="rect2-6-9" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-7.1971204,-55.158488)">
+    <path
+       style="opacity:1;fill:#c03030;fill-opacity:1;stroke:#805070;stroke-width:2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#RoundedArrow);paint-order:markers stroke fill"
+       d="M 28.537365,59.893239 V 135.99288"
+       id="path1"
+       inkscape:path-effect="#path-effect1"
+       inkscape:original-d="m 28.537365,59.893239 c 0,25.366546 0,76.099641 0,76.099641"
+       transform="matrix(1.2116871,0,0,1.2116871,-5.4132869,-11.676339)" />
+    <path
+       style="opacity:1;fill:#c03030;fill-opacity:1;stroke:#805070;stroke-width:2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow);paint-order:markers stroke fill"
+       d="M 28.537365,135.99288 H 154.95452"
+       id="path2"
+       inkscape:path-effect="#path-effect2"
+       inkscape:original-d="m 28.537365,135.99288 c 41.972971,0 126.417155,0 126.417155,0"
+       transform="matrix(1.2116871,0,0,1.2116871,-6.5913658,-12.888026)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,-74.683855,203.18166)"
+       id="text2"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:33.3333px;line-height:1.1;font-family:Barlow;-inkscape-font-specification:'Barlow, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2);opacity:1;fill:#505050;fill-opacity:1;stroke:none;stroke-width:7.55906;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"><tspan
+         x="265.18079"
+         y="333.57137"
+         id="tspan3">energy of outgoing 
+</tspan><tspan
+         x="338.7807"
+         y="370.238"
+         id="tspan4">radiation</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,71.592952,59.963035)"
+       id="text2-4"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:33.3333px;line-height:1.1;font-family:Barlow;-inkscape-font-specification:'Barlow, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2-6);display:inline;fill:#505050;fill-opacity:1;stroke:none;stroke-width:7.55906;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"><tspan
+         x="371.44738"
+         y="333.57137"
+         id="tspan5">time</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-6.626671,73.025428)"
+       id="text2-4-6"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:33.3333px;line-height:1.1;font-family:Barlow;-inkscape-font-specification:'Barlow, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2-6-9);display:inline;fill:#505050;fill-opacity:1;stroke:none;stroke-width:7.55906;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"><tspan
+         x="332.13073"
+         y="333.57137"
+         id="tspan6">page time</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-39.758039,-17.51906)"
+       id="text2-4-8"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:33.3333px;line-height:1.1;font-family:Barlow;-inkscape-font-specification:'Barlow, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2-6-2);display:inline;fill:#505050;fill-opacity:1;stroke:none;stroke-width:7.55906;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"><tspan
+         x="326.36406"
+         y="333.57137"
+         id="tspan7">entropy of 
+</tspan><tspan
+         x="330.73071"
+         y="370.238"
+         id="tspan8">black hole</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,60.80414,4.6766695)"
+       id="text2-4-8-2"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:33.3333px;line-height:1.1;font-family:Barlow;-inkscape-font-specification:'Barlow, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2-6-2-4);display:inline;fill:#505050;fill-opacity:1;stroke:none;stroke-width:7.55906;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"><tspan
+         x="329.58071"
+         y="333.57137"
+         id="tspan9">Hawking's
+</tspan><tspan
+         x="324.0474"
+         y="370.238"
+         id="tspan10">calculation</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-8.6198889,45.467375)"
+       id="text2-4-8-2-8"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:33.3333px;line-height:1.1;font-family:Barlow;-inkscape-font-specification:'Barlow, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2-6-2-4-6);display:inline;fill:#505050;fill-opacity:1;stroke:none;stroke-width:7.55906;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"><tspan
+         x="298.49744"
+         y="333.57137"
+         id="tspan11">expected from
+</tspan><tspan
+         x="342.43072"
+         y="370.238"
+         id="tspan12">unitarity</tspan></text>
+    <path
+       style="opacity:1;fill:#505050;fill-opacity:1;stroke:#406090;stroke-width:2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 27.899106,68.882515 142.40562,134.99288"
+       id="path3"
+       inkscape:path-effect="#path-effect3"
+       inkscape:original-d="M 27.899106,68.882515 C 66.493449,91.164968 104.44953,113.07892 142.40562,134.99288"
+       transform="matrix(1.2116871,0,0,1.2116871,-5.4132869,-11.676339)" />
+    <path
+       style="fill:#505050;fill-opacity:1;stroke:#8090a0;stroke-width:2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 27.899106,68.882515 142.40562,134.99288"
+       id="path3-0"
+       inkscape:path-effect="#path-effect3-4"
+       inkscape:original-d="M 27.899106,68.882515 C 66.493449,91.164968 104.44953,113.07892 142.40562,134.99288"
+       transform="matrix(-1.2116871,0,0,1.2116871,200.94275,-11.676339)" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#b0c090;stroke-width:1.21169;stroke-dasharray:2.42337, 1.21169;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 28.391699,151.89279 69.373032,-40.05253 69.373029,40.05253"
+       id="path4" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#8090a0;stroke-width:1;stroke-dasharray:2, 1;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 97.76473,111.84026 v 40.05253"
+       id="path5" />
+  </g>
+</svg>

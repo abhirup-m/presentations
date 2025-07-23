@@ -1,0 +1,58 @@
+▎   RPC25.tex    ●                                                                                                                                                                                                
+  123 \end{itemize}
+  124 \end{minipage}
+  125 \end{frame}
+  126 
+  127 \section{Ongoing Collaborations}
+  128 
+  129 \begin{frame}{Hawking-Page Entanglement Transition in a Kondo System}  
+  130     
+  131 \end{frame}
+  132 
+  133 \begin{frame}{Hawking-Page Entanglement Transition in a Kondo System}
+  134 \footcite{Mukherjee_2023,Patra_2023}
+  135 \flushleft
+  136 \vspace*{-20pt}
+  137 A unified framework for Kondo breakdown, in terms of entanglement measures\\
+  138 (D Debata, A Mukherjee, S Lal) [{\it in preparation}]\\[10pt]
+  139 
+  140 \begin{itemize}
+  141     \item Universal signatures of Kondo breakdown include \focus{partial magnetisation} and phase shift.
+  142     \item Entanglement within the \focus{Kondo cloud} also suffers at Kondo breakdown.
+W 143 \end{itemize}
+  144 
+  145 % \vspace*{\fill}
+  146 \centering 
+  147 \includegraphics[width=0.6\textwidth]{blackhole.pdf}
+  148 \end{frame}                                                        
+  149 
+  150 \begin{frame}{Universal Features of Kondo Breakdown in Impurity Models}
+  151 \footcite{Mukherjee_2023,Patra_2023}                               
+  152 \flushleft                                                         
+  153 \vspace*{-20pt}
+  154 A unified framework for Kondo breakdown, in terms of entanglement measures\\
+  155 (D Debata, A Mukherjee, S Lal) [{\it in preparation}]\\[10pt]
+  156 
+  157 \begin{itemize}
+  158     \item Universal signatures of Kondo breakdown include \focus{partial magnetisation} and phase shift.
+  159     \item Entanglement within the \focus{Kondo cloud} also suffers at Kondo breakdown.
+  160 \end{itemize}
+  161 
+  162 % \vspace*{\fill}
+  163 \centering
+  164 \includegraphics[width=0.7\textwidth]{compensation.pdf}
+  165 \end{frame}
+  166     
+  167 \section{A New Auxiliary Model Approach to Systems of Interacting Electrons}
+  168 
+  169 \begin{frame}{Broad Objectives}
+  170     \footcite{keimer2015quantum,Sebastian2014,Norman1998}
+  171 
+  172     \vspace*{-20pt}
+  173 \begin{itemize}
+  174     \item[✔] Designing a \focus{new method} by which to leverage quantum impurity models towards understanding phase transitions in correlated electrons in low dimensions\\[10pt]
+  175     \item[✔] Study the highly non-trivial Mott MIT through the \focus{pseudogap} in the context of the cuprates \\[10pt]
+  176     \item[✔] Characterise the \focus{parent metal} that gives way to an interacting Mott insulator.
+  177 \end{itemize}
+ NORMAL   master  󰀪 13  RPC25.tex [+]                                                                                                                                          utf-8    tex  42%  130:1  
+                                                                                                                                                                                                          
