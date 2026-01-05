@@ -68,8 +68,8 @@ No general consensus yet regarding
 	\item nature of \(T=0\) ground states of the cuprates
 	\item \alert{relation} of PG to Mott insulating and superconducting phases proximate to it
 	\item how pseudogap \alert{evolves} from weak- to strong-coupling
-	\item nature of correlations and entanglement within the transition
-to the model
+	\item nature of correlations and entanglement near the transition
+
 \end{itemize}
 
 \begin{center}
@@ -82,7 +82,7 @@ to the model
 \begin{frame}{New Auxiliary Model Approach To Interacting Fermions}
 	\footcite{stoyanova,Maier2005,Sakai2023}
 	\begin{minipage}{0.4\textwidth}
-		1. Solve an appropriate \alert{impurity model}, \(H_\text{imp}\)
+		1. Solve an \alert{impurity model} \(H_\text{imp}\) with certain properties:
 	\begin{itemize}
 		\item Lattice symmetry
 		\item Impurity phase transition
@@ -119,10 +119,13 @@ to the model
 	\footcite{Yang2002}
 \begin{minipage}{0.75\textwidth}
 	\vspace{-10pt}
-	\[\mathcal{H}_\text{imp} = H_\text{2D-TB-KE} + V\sum_{Z,\sigma} \left(c^\dagger_{d\sigma}c_{Z\sigma} + \text{h.c.}\right) + J\sum_{Z} {\bf S}_d\cdot {\bf S}_Z -\frac{W}{2}\sum_{Z} \left(n_{Z\uparrow} - n_{Z\downarrow}\right)^2\]
-	\vspace{-10pt}
+	\begin{equation}\begin{aligned}
+		\mathcal{H}_\text{imp} &= H_\text{2D-TB-KE} -\frac{U}{2}\left(n_{d\uparrow} - n_{d\downarrow}\right)^2 + V\sum_{Z,\sigma} \left(c^\dagger_{d\sigma}c_{Z\sigma} + \text{h.c.}\right) + J\sum_{Z} {\bf S}_d\cdot {\bf S}_Z\\
+							   &-\frac{W}{2}\sum_{Z} \left(n_{Z\uparrow} - n_{Z\downarrow}\right)^2
+	\end{aligned}\end{equation}
+	\vspace{-20pt}
 	\begin{itemize}
-		\item \(J_{{\bf k}, {\bf k}^\prime}\) has \alert{\(C_4-\)symmetry} instead of \(s-\)wave symmetry
+		\item \(J_{{\bf k}, {\bf k}^\prime}\) has \alert{\(C_4-\)symmetry}:
 	\end{itemize}
 	\(J_{{\bf k}, {\bf k}^\prime} = \frac{J}{2}\left[\cos\left({\bf k}_x - {\bf k}^\prime_x\right) + \cos\left({\bf k}_y - {\bf k}^\prime_y\right)\right]\)
 \end{minipage}
@@ -271,44 +274,54 @@ Unitary RG analysis - integrate out high-energy states in the conduction bath:
 
 \begin{frame}{Non-Fermi liquid nature of the pseudogap}
 	\footcite{Coleman_tsvelik,Schofield1997,varma2002singular,Patra2023MCK}
-	\alert{Non-Fermi liquid} excitations of the 2CK
+	\begin{minipage}{0.45\textwidth}
+		2CK guaranteed by \alert{symmetry} of Kondo coupling:
+	\[|J(k_1, k_2)| = |J(k_1 + \vec\pi, k_2)|\]
+	2CK \(\to\) \alert{non-Fermi liquid} excitations!
+	\end{minipage}
+	\uncover<2>{
+	\begin{minipage}{0.5\textwidth}
 	\begin{itemize}
 		\item \alert{Marginal FL} behaviour: $\Sigma^{\prime} \sim \omega \ln \omega$
 		\item quasiparticle residue, \(Z \sim 1/\ln \omega\) (vanishes logarithmically)
 		\item Partially \alert{unscreened} moment
 	\end{itemize}
+	\end{minipage}
+	}
+	
+    \includegraphics[width=0.32\linewidth]{twoChannel.pdf}
+	\uncover<2>{
     \includegraphics[width=0.32\linewidth]{localQPResidue.pdf}
     \includegraphics[width=0.32\linewidth]{sigmaImag_49-1000.pdf}
+	}
 	
 \end{frame}
 
 \begin{frame}{Singular Nodal Metal}
-	\begin{minipage}{0.3\textwidth}
-	\uncover<1->{
-		\only<1>{
+	\begin{minipage}{0.25\textwidth}
 		\includegraphics[width=\linewidth]{kspaceDOS-4.pdf}
-		}
-		\only<2->{
-		\includegraphics[width=\linewidth]{phiMode.pdf}
-		}
-	}
 	\end{minipage}
 	\hfill
-	\only<1->{
-	\begin{minipage}{0.65\textwidth}
-		Close to the transition, Kondo cloud consists of concentrated \alert{nodal regions}\\[5pt]
-		Low-energy excitations
+	\uncover<2->{
+	\begin{minipage}{0.25\textwidth}
+		\includegraphics[width=\linewidth]{phiMode.pdf}
+	\end{minipage}
+	}
+	\hfill
+	\begin{minipage}{0.45\textwidth}
+		Close to transition, screening concentrated in \alert{nodal regions}\\[5pt]
+		\uncover<2->{
+		Low-energy excitations:
 		\begin{itemize}
 			\item Integrate out impurity spin-flips (\(~ J^2/W\))
 			\item SW transformation \(\to\) effective Hamiltonian
 		\end{itemize}
 
 		\vspace{5pt}
-		\uncover<2->{
-			Emergent modes: \( \phi_{{\bf q}, \sigma} = \frac{1}{\sqrt 2}\left(c_{{\bf N}_1 + {\bf q},\sigma} - c_{{\bf N}_1 + {\bf Q}_1 - {\bf q}, \sigma}\right),~r = \phi^\dagger \phi\)
+			\alert{Emergent modes}: \\
+			\( \phi_{{\bf q}, \sigma} = \frac{1}{\sqrt 2}\left(c_{{\bf N}_1 + {\bf q},\sigma} - c_{{\bf N}_1 + {\bf Q}_1 - {\bf q}, \sigma}\right),~r = \phi^\dagger \phi\)
 		}
 	\end{minipage}
-	}
 	\uncover<3->{
 		\[ \Delta \tilde H = \underbrace{\sum_{{\bf q}, \sigma}\frac{|\varepsilon_{{\bf N}_1 + {\bf q}}|\varepsilon_{{\bf N}_1 + {\bf q}}}{-W} r_{{\bf q},\sigma}}_\text{dispersion} + \sum_{{\bf q}_1,{\bf q}_2, \sigma}\frac{{J^*}^2}{-4W}\left[\underbrace{r_{{\bf q}_1 \sigma} \left(1 - r_{{\bf q}_2 \bar\sigma}\right)}_\text{density interaction} - (1 - \delta_{{\bf q}_1,{\bf q}_2})\underbrace{\phi^\dagger_{{\bf q}_1,\bar\sigma}\phi^\dagger_{{\bf q}_1,\sigma}\phi_{{\bf q}_2, \sigma}\phi_{{\bf q}_2, \bar\sigma}}_\text{fwd/tang. pair transfer}\right] \]
 	}
@@ -372,10 +385,17 @@ Unitary RG analysis - integrate out high-energy states in the conduction bath:
 
 \section{Backup Slides}
 \begin{frame}{Tiled Entanglement}
-\includegraphics[height=0.24\textwidth]{I2_k_AN-1.pdf}
-\includegraphics[height=0.24\textwidth]{I2_k_N-3.pdf}
-\includegraphics[height=0.24\textwidth]{I2_k_N-4.pdf}
-\includegraphics[height=0.24\textwidth]{I2_k_N-5.pdf}
+Concentration of \(S_\text{EE}\) and \(I_2\) within the nodal region
+
+\includegraphics[width=0.24\textwidth]{tiled_SEE_k-1.pdf}
+\includegraphics[width=0.24\textwidth]{tiled_SEE_k-2.pdf}
+\includegraphics[width=0.24\textwidth]{tiled_SEE_k-3.pdf}
+\includegraphics[width=0.24\textwidth]{tiled_SEE_k-4.pdf}
+
+\includegraphics[width=0.24\textwidth]{tiled_I2_k_N-1.pdf}
+\includegraphics[width=0.24\textwidth]{tiled_I2_k_N-2.pdf}
+\includegraphics[width=0.24\textwidth]{tiled_I2_k_N-3.pdf}
+\includegraphics[width=0.24\textwidth]{tiled_I2_k_edge-3.pdf}
 
 \end{frame}
 

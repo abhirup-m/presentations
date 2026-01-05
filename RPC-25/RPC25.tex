@@ -10,7 +10,7 @@
 \setbeamersize{text margin left=5mm,text margin right=5mm} 
 
 \newcommand\focus[1]{%
-	{\alert{\textbf{#1}}}
+	{\alert{\textbf{#1}}}%
 }
 
 \usepackage{amsthm,amsmath,amssymb,braket,fontspec,unicode-math,fontenc,transparent}
@@ -40,6 +40,7 @@
 \author{\bf Abhirup Mukherjee}
 \institute{
 Department of Physical Sciences, IISER Kolkata, Mohanpur}
+\date{July 25, 2025}
 
 \begin{document}
 
@@ -59,7 +60,7 @@ Department of Physical Sciences, IISER Kolkata, Mohanpur}
 \begin{frame}{Acknowledgements}
 	\flushleft
 	\hspace*{20pt}
-	\focus{Collaborators}: Prof. S. R. Hassan, Prof. Anamitra Mukherjee, Prof. N S Vidhyadhiraja, Prof. A Taraphder\\
+	\focus{Collaborators}: Debraj, Arnabesh, Sukalyan, Prof. S. R. Hassan, Prof. Anamitra Mukherjee, Prof. N S Vidhyadhiraja, Prof. A Taraphder\\
 	\hspace*{20pt}
 	\focus{Funding agencies}: IISER Kolkata, SERB
 	\vspace*{\fill}
@@ -95,7 +96,7 @@ Department of Physical Sciences, IISER Kolkata, Mohanpur}
 
 \begin{minipage}{0.49\textwidth}
 \begin{itemize}
-	\item Development of auxiliary model-based method for interacting electrons [{\bf arXiv}:2507.xxxxx].
+	\item Development of auxiliary model-based method for interacting electrons [{\bf arXiv}:2507.17201].
 \end{itemize}
 \end{minipage}
 \begin{minipage}{0.49\textwidth}
@@ -127,6 +128,7 @@ Department of Physical Sciences, IISER Kolkata, Mohanpur}
 \section{Ongoing Collaborations}
 
 \begin{frame}{Hawking-Page Entanglement Transition in a Kondo System}
+\footcite{Hawking1974,Hawking1975,Page1993}
 Hawking radiation + black hole evaporation appears to \focus{violate unitarity}
 \begin{itemize}
 	\item Initially system is in \focus{pure state}.
@@ -135,10 +137,10 @@ Hawking radiation + black hole evaporation appears to \focus{violate unitarity}
 \end{itemize}
 
 
-\begin{minipage}{0.5\textwidth}
+\begin{minipage}{0.45\textwidth}
 \includegraphics[width=\textwidth]{hawking-page.pdf}
 \end{minipage}
-\begin{minipage}{0.4\textwidth}
+\begin{minipage}{0.5\textwidth}
 	\begin{itemize}
 		\item Unitarity means entanglement of radiation \focus{must decrease} after page time.
 		\item Can we replicate this behaviour in a \focus{quantum system}?
@@ -149,41 +151,77 @@ Hawking radiation + black hole evaporation appears to \focus{violate unitarity}
 \end{frame}
 
 \begin{frame}{Hawking-Page Entanglement Transition in a Kondo System}
-\footcite{Mukherjee_2023,Patra_2023}
 \flushleft
-\vspace*{-20pt}
-A unified framework for Kondo breakdown, in terms of entanglement measures\\
-(D Debata, A Mukherjee, S Lal) [{\it in preparation}]\\[10pt]
+(D Debata, {\bf A Mukherjee}, S Lal)\\[10pt]
+Consider a \focus{two-impurity model} (\(d\), \(d^\prime\)), with spin-exchange interaction between the impurities
+\begin{minipage}{0.5\textwidth}
+\begin{itemize}
+	\item \(d^\prime (d) \to\) black hole interior (boundary)
+	\item \(0 \to\) radiation outside the black hole
+\end{itemize}
+\vspace{10pt}
+	
+\includegraphics[width=\textwidth]{blackHoleModel.pdf}
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+\includegraphics[width=\textwidth]{blackhole.pdf}
+\end{minipage}
+
+Mutual-information between \(d^\prime\) and \(0\) shows behaviour similar to Page curve.
+
+\end{frame}
+
+\begin{frame}{Universal Features of Kondo Breakdown in Impurity Models}
+\footcite{fabrizio2017kondo,RADEMAKER2025}
+\focus{Kondo screening} (or its breakdown) lies at the heart of emergence in interacting electrons.
+
+\vspace{\fill}
+\vspace{\fill}
+\begin{minipage}{0.48\textwidth}
+\includegraphics[width=\textwidth]{kondo.pdf}
+\end{minipage}
+\hspace{\fill}
+\begin{minipage}{0.48\textwidth}
+\focus{What is screening?} \\
+Whether the impurity spin forms a correlated \focus{non-magnetic state} with local spin density of conduction electrons, at low temperature
+\end{minipage}
+\vspace{\fill}
 
 \begin{itemize}
-	\item Universal signatures of Kondo breakdown include \focus{partial magnetisation} and phase shift.
-	\item Entanglement within the \focus{Kondo cloud} also suffers at Kondo breakdown.
+	\item SCREENING \(\to\) gapless \focus{1-particle} excitations
+	\item ABSENCE of screening \(\to\) excitations are \focus{gapped}
+	\item PARTIAL breakdown \(\to\) excitations are \focus{exotic}
 \end{itemize}
+\vspace{\fill}
 
-% \vspace*{\fill}
-\centering
-\includegraphics[width=0.5\textwidth]{blackHoleModel.pdf}
-\includegraphics[width=0.45\textwidth]{blackhole.pdf}
+Obtaining a broader understanding of features of partial screening is important, particularly since such states appear near \focus{critical points}!
+
 \end{frame}
 
 \begin{frame}{Universal Features of Kondo Breakdown in Impurity Models}
 \footcite{Mukherjee_2023,Patra_2023}
 \flushleft
-\vspace*{-20pt}
-A unified framework for Kondo breakdown, in terms of entanglement measures\\
-(D Debata, A Mukherjee, S Lal) [{\it in preparation}]\\[10pt]
-
+\vspace{-20pt}
+(D Debata, {\bf A Mukherjee}, S Lal)\\[5pt]
+We are studying two models that display partial breakdown of Kondo screening:
 \begin{itemize}
-	\item Universal signatures of Kondo breakdown include \focus{partial magnetisation} and phase shift.
-	\item Entanglement within the \focus{Kondo cloud} also suffers at Kondo breakdown.
+	\item eSIAM: Kondo breakdown through charge fluctuations in the bath
+	\item two-channel Kondo model: Kondo breakdown due to competing screening tendencies
 \end{itemize}
+\vspace{10pt}
 
-% \vspace*{\fill}
-\centering
-\includegraphics[width=0.7\textwidth]{compensation.pdf}
+\begin{minipage}{0.45\textwidth}
+\includegraphics[width=\textwidth]{intra.pdf}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\begin{itemize}
+	\item Universal signatures of Kondo breakdown include \focus{partial magnetisation}, partial phase shift.
+	\item More recently, we are looking into \focus{long-range entanglement} and correlations near Kondo breakdown.
+\end{itemize}
+\end{minipage}
 \end{frame}
 	
-\section{A New Auxiliary Model Approach to Systems of Interacting Electrons}
+\section{A New Auxiliary Model Approach to Systems of Interacting Electrons \\ \small{({\it A Mukherjee}, S R Hassan, Anamitra Mukherjee, N S Vidhyadhiraja, A Taraphder, S Lal. arXiv:2507.17201)}}
 
 \begin{frame}{Broad Objectives}
 	\footcite{keimer2015quantum,Sebastian2014,Norman1998}
@@ -203,16 +241,16 @@ A unified framework for Kondo breakdown, in terms of entanglement measures\\
 \end{frame}
 
 \begin{frame}{Momentum-Resolved Renormalisation Group Flows}
-\begin{minipage}{0.34\textwidth}
-	\includegraphics[width=\textwidth]{phaseDiagram-77-0.001.pdf}
+\begin{minipage}{0.19\textwidth}
+	\includegraphics[width=\textwidth]{pWaveEsiam.pdf}
 \end{minipage}
 \begin{minipage}{0.45\textwidth}
 	Hamiltonian RG equations of \\
 	\focus{embedded e-SIAM}
 	\[\Delta J^{(j)}_{{\bf k}_1, {\bf k}_2} = -\sum_{{\bf q} \in \text{PS}} \frac{J^{(j)}_{{\bf k}_2,{\bf q}} J^{(j)}_{{\bf q},{\bf k}_1} + 4J^{(j)}_{{\bf q}, {\bf \bar q}} W_{{\bf \bar q}, {\bf k}_2, {\bf k}_1, {\bf q}}}{\omega - \frac{1}{2}|\varepsilon_j| + J^{(j)}_{{\bf q}}/4 + W_{{\bf q}}/2}\]
 \end{minipage}
-\begin{minipage}{0.19\textwidth}
-	\includegraphics[width=\textwidth]{pWaveEsiam.pdf}
+\begin{minipage}{0.34\textwidth}
+	\includegraphics[width=\textwidth]{phaseDiagram-77-0.001.pdf}
 \end{minipage}
 
 \vspace*{\fill}
@@ -223,25 +261,23 @@ A unified framework for Kondo breakdown, in terms of entanglement measures\\
 \end{frame}
 
 \begin{frame}{`Periodising' the Hamiltonian and Eigenstates}
-	\footcite{stoyanova}
-	\begin{minipage}{0.45\textwidth}
-		Periodising the Hamiltonian creates a \focus{Hubbard-Heisenberg} model:
-	\begin{equation*}\begin{aligned}
-		\mathcal{H}_\text{tiled} =& \sum_{{\bf r}}T^\dagger({\bf r} - {\bf r}_d)\mathcal{H}_\text{aux}({\bf r}_d)T({\bf r} - {\bf r}_d)\\
-	\end{aligned}\end{equation*}
+	\footnote{Image: Mayank Shreshtha}
+	\vspace{-20pt}
+	\flushleft
+	Periodising the Hamiltonian creates an \focus{extended-Hubbard} model:
+	\vspace{\fill}
+	\begin{minipage}{0.55\textwidth}
+	\[\mathcal{H}_\text{tiled} = \sum_{{\bf r}}T^\dagger({\bf r} - {\bf r}_d)\mathcal{H}_\text{aux}({\bf r}_d)T({\bf r} - {\bf r}_d)\]
+	Wavefunctions can be related using a many-body \focus{Bloch's theorem}:
+	\[\ket{\Psi_\text{gs}} = \frac{1}{\sqrt N}\sum_{{\bf r}_d} e^{i {\bf k}\cdot{\bf r}_d} \ket{\psi_\text{gs}\left({\bf r}_d\right)}\]
+	\vspace{-10pt}
+	\includegraphics[width=\textwidth]{periodisation.pdf}
 	\end{minipage}
 	\hspace{\fill}
-	\begin{minipage}{0.45\textwidth}
-		Wavefunctions can be related using a many-body \focus{Bloch's theorem}:
-	\[\ket{\Psi_\text{gs}} = \frac{1}{\sqrt N}\sum_{{\bf r}_d} e^{i {\bf k}\cdot{\bf r}_d} \ket{\psi_\text{gs}\left({\bf r}_d\right)}\]
-
+	\begin{minipage}{0.4\textwidth}
+	\includegraphics[width=\textwidth]{method.pdf}
 	\end{minipage}
 
-	\vspace*{\fill}
-	\(H_\text{tiled} = -\frac{\tilde t}{\sqrt{\mathcal{Z}}}\sum_{\left<{\bf r}_i, {\bf r}_j\right>;\sigma}\left(c^\dagger_{{\bf r}_i,\sigma}c_{{\bf r}_j,\sigma} + \text{h.c.}\right) + \frac{\tilde J}{\mathcal{Z}}\sum_{\left< {\bf r}_i, {\bf r}_j\right>}{\bf S}_{{\bf r}_i}\cdot{\bf S}_{{\bf r}_j} - \frac{\tilde U}{2}\sum_{\bf r}\left(\hat n_{{\bf r} , \uparrow} - \hat n_{{\bf r} , \downarrow}\right)^2\)
-
-	\vspace*{15pt}
-	\includegraphics[width=0.8\textwidth]{periodisation.pdf}
 	
 \end{frame}
 
@@ -276,23 +312,57 @@ A unified framework for Kondo breakdown, in terms of entanglement measures\\
 \end{frame}
 
 \begin{frame}{Characterising Low-energy Excitations of the Pseudogap}
+\footcite{Baskaran1991,Hatsugai1992,lanave2025}
+\vspace{-20pt}
 
+\begin{minipage}{0.6\textwidth}
 \begin{itemize}
 	\item Impurity spectral function shows \focus{pseudogap} (loss of central peak)
 	\item Tiled \(k-\)space DOS shows \focus{partial gapping} around antinodes
 	\item Self-energy shows \focus{anomalous exponent} throughout the phase
 \end{itemize}
-	
+\end{minipage}
+\hspace{\fill}
+\begin{minipage}{0.35\textwidth}
+	\includegraphics[width=\textwidth]{phaseDiagram-77-0.001.pdf}
+\end{minipage}
 
 \hspace{-8pt}
 \includegraphics[width=0.29\textwidth]{kspaceDOS-77.pdf}
 \includegraphics[width=0.32\textwidth]{Ad_zoomin_77-1500.pdf}
 \includegraphics[width=0.39\textwidth]{selfEnergy_d_fit_77-1500.pdf}
+
+\end{frame}
+
+\begin{frame}{Theory for the Nodal Non-Fermi Liquid}
+\begin{minipage}{0.65\textwidth}
+	Exactly solvable model emerges at the \focus{critical point}.
+	\[\Delta \tilde H_{{\bf q}_1 = {\bf q}_2} = \sum_{{\bf q},\sigma}\epsilon_{{\bf q}}{n}_{{\bf q},\sigma} + u\sum_{{\bf q}, \sigma}n_{{\bf q} \sigma} n_{{\bf q} \bar\sigma}\]
+	\begin{itemize}
+		\item Diverging self-energy at zero energy: \(\Sigma^{\prime\prime} \sim 1/\omega\)
+		\item Holon-doublon deconfining excitations
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+\includegraphics[width=\textwidth]{SF-4.pdf}
+\end{minipage}
+\vspace{\fill}
+
+\begin{minipage}{0.5\textwidth}
+Greens function shows bifurcation: 
+\[G = \frac{1}{2}\left[\frac{1}{\omega - u} + \frac{1}{\omega + u}\right]\]
+\(\to\) \(\mathbb{Z}_2-\)symmetry breaking\\
+\(\to\) change in analytic structure of self-energy
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+\includegraphics[width=\textwidth]{Z2.pdf}
+\end{minipage}
 	
 \end{frame}
 
-\begin{frame}{"Un-Fermi" Liquid Nature of the Pseudogap}
-
+\begin{frame}{`Un-Fermi' Liquid Nature of the Pseudogap}
+\footcite{Georgi2007,PhillipsLectures2014,Hauke2016}
+Characteristics of the `\focus{Mott metal}'
 \begin{itemize}
 	\item low-energy excitations \focus{cannot be described} by effectively one-particle excitations (vanishing \(Z\))
 	\item \focus{long-range} correlations present in the pseudogap (quantum critical matter)
@@ -305,6 +375,36 @@ A unified framework for Kondo breakdown, in terms of entanglement measures\\
 \includegraphics[width=0.32\textwidth]{qfi_77-2000.pdf}
 	
 \end{frame}
+
+\begin{frame}{The Big Picture}
+\footnote{Image: Mayank Shreshtha}
+
+\vspace{-10pt}
+\hspace{-10pt}
+\begin{minipage}{0.4\textwidth}
+\includegraphics[width=\textwidth]{results.pdf}
+\end{minipage}
+\hspace{\fill}
+\begin{minipage}{0.59\textwidth}
+Paradigm of \focus{spontaneous symmetry breaking}
+\begin{itemize}
+	\item by non-zero local \focus{order parameter}
+	\item \focus{short-range} entanglement and correlations
+	\item excitations are \focus{one-particle} in nature (single electrons or single bosons)
+	\item superconductivity, antiferromagnetism
+\end{itemize}
+Paradigm of \focus{fermionic criticality}
+\begin{itemize}
+	\item no SSB, \focus{analytic properties} of self-energy dictate phases
+	\item excitations can be \focus{many-particle} in nature
+	\item non-trivial entanglement (\focus{long-range}/topological)
+	\item Examples: Mott metal-to-Mott insulator
+\end{itemize}
+
+\end{minipage}
+
+\end{frame}
+
 
 \section{Future Plans}
 
