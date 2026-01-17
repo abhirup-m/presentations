@@ -1,0 +1,88 @@
+1. What do you mean precisely by ‘confinement–deconfinement’ in this context? → Are holons/doublons gauge-charged objects? What is the confining force?
+- bound because decoupling them costs energy U
+
+3. Is your ‘Mott metal’ distinct from a bad metal or incoherent metal?
+- bad metals are defined usualy in terms of temperature; our Mott metal is defined at T=0, in terms of \Sigma \sim w^{-2}
+
+4. Which experimental observable would unambiguously distinguish your pseudogap-Mott metal from other pseudogap scenarios?
+- divergent scattering rate
+
+5. Why should an impurity fixed point control a 2D lattice problem?
+- phases are mostly-governed by local repulsion
+
+6. What are the limitations of the tiling procedure?
+- biased towards local correlations, difficult to track long-range models
+
+7. How does this differ from cluster DMFT or DCA?
+- spatial correlations are better captured. less intensive, more k-space resolution possible
+
+8. What symmetries are restored and which are not after tiling?
+- all symmetries
+
+9. Why is the weak interaction W on bath sites essential?
+- no transition otherwise
+
+10. What fixes the sign of W? Is it physical or phenomenological?
+- phenomenological
+
+11. Does your phase diagram survive if W = 0?
+- No phase transition for W=0.
+
+12. Is the Kondo coupling momentum-dependent by construction or emergent?
+- by construction, through the lattice geometry
+
+13. Is the Kondo breakdown driven primarily by charge or spin fluctuations?
+- charge fluctuations primarily. the charge fluctuations kill Kondo screening
+
+15. How does URG compare to Wilsonian RG or functional RG?
+- the URG incorporates the effect of interaction through a non-trivial denominator, and allows relevant finite-coupling fixed points
+
+16. What is the controlled small parameter?
+- overlap of impurity wavefunctions
+
+17. Are the flow equations exact or truncated?
+- exact in diagonal interaction
+
+19. Can URG access finite-temperature properties reliably?
+- We are working on it.
+
+20. What exactly breaks down at the Kondo breakdown point?
+- Kondo screening, Landau quasiparticles
+
+21. Is there a sharp order parameter for the pseudogap?
+- holon-doublon excitations, Greens function for them
+
+22. Is the pseudogap phase stable or just a crossover?
+
+23. How do you define a Luttinger surface in an interacting system?
+- zeros of the one-particle Greens functions
+
+24. Is the zero of the Green’s function protected?
+- the topological Lifshitz transition of the Fermi surface and the appearance of a 2CK model in the PG should protect the zeros.
+
+25. Are the arcs real Fermi surfaces or finite-lifetime remnants?
+- real Fermi surfaces
+
+26. Does Luttinger’s theorem hold in your pseudogap phase?
+- yes, due to particle-hole symmetry
+
+30. Why is quantum Fisher information the right diagnostic here?
+- can track multipartite entanglement
+
+31. Is multipartite entanglement really a phase diagnostic or just a crossover indicator?
+- it appears to be a phase diagnostic, because it remains large invariant through the phase
+
+32. Can your entanglement signatures be measured experimentally?
+- The QFI can be be expressed in terms of Kubo correlations functions. VNE can probably be measured indirectly from static correlation function measurements
+
+34. Why does the HK model emerge as the effective theory?
+- the nodal metal hosts singular interactions in momentum space, leading to long-ranged correlations in real-space. This naturally leads to the HK model, which is also long-ranged in real space.
+
+36. Is this critical point stable in 2D, or only at fine tuning?
+- will need to check this. the simplicity of the model and the theories suggest it may be stable
+
+37. How does this compare to a conventional Mott QCP in DMFT?
+- long-range multipartite entanglement, Sigma_imag ~ omega^{-2}, holon-doublon deconfinement
+
+39. How general is your framework?
+- various lattice geometries, doping, multiple bands/layers. Work underway to incorporate finite temperatures
