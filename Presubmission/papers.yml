@@ -1,0 +1,149 @@
+Mukherjee2026:
+  type: misc
+  title: Quantum criticality in a model of heavy fermions
+  author:
+  - Mukherjee, Abhirup
+  - Lal, Siddhartha
+  date: 2026
+  display: "in progress"
+Debata2026:
+  title: Kondo breakdown as an entanglement transition driven by continuous measurement
+  author:
+    - Debata, Debraj
+    - Mukherjee, Abhirup
+    - Lal, Siddhartha
+  date: 2026
+  display: "arXiv:2602.20600"
+Mukherjee2025:
+  type: misc
+  title: Mott Criticality as the Confinement Transition of a Pseudogap-Mott Metal
+  author:
+  - Mukherjee, Abhirup
+  - Hassan, S. R.
+  - Mukherjee, Anamitra
+  - Vidhyadhiraja, N. S.
+  - Taraphder, A.
+  - Lal, Siddhartha
+  date: 2026
+  url: https://iopscience.iop.org/article/10.1088/1367-2630/ae36c8
+  serial-number:
+    arxiv: '2507.17201'
+  display: "New J. Phys. 28 013503"
+Anjan2025:
+  type: article
+  title: Revealing the magnetic dimensional crossover in the Heisenberg ferromagnet $"CrSiTe"_3$ through picosecond strain pulses
+  author:
+  - N M, Anjan Kumar
+  - Mukherjee, Soumya
+  - Mukherjee, Abhirup
+  - Punjal, Ajinkya
+  - Purwar, Shubham
+  - Setti, Thirupathaiah
+  - Prabhu S., Shriganesh
+  - Lal, Siddhartha
+  - Kamaraju, N.
+  date: 2025
+  page-range: L140414
+  url: https://link.aps.org/doi/10.1103/PhysRevB.111.L140414
+  serial-number:
+    doi: 10.1103/PhysRevB.111.L140414
+  parent:
+    type: periodical
+    title: Phys. Rev. B
+    publisher: American Physical Society
+    issue: 14
+    volume: 111
+  display: "Phys. Rev. B 111, L140414"
+Aashish2024:
+  type: article
+  title: Quantum Critical Mott Transitions in a Three-Orbital Model System
+  author:
+  - Debata*, Debraj
+  - Kumar*, Aashish
+  - Mukherjee, Abhirup
+  - Vidhyadhiraja, N S
+  - Lal, Siddhartha
+  date: 2025
+  display: "In preparation"
+Mukherjee2024:
+  type: article
+  title: Holographic entanglement renormalisation for fermionic quantum matter
+  author:
+  - Mukherjee, Abhirup
+  - Patra, Siddhartha
+  - Lal, Siddhartha
+  date: 2024
+  page-range: '275401'
+  url: https://dx.doi.org/10.1088/1751-8121/ad56e1
+  serial-number:
+    doi: 10.1088/1751-8121/ad56e1
+  parent:
+    type: periodical
+    title: 'Journal of Physics A: Mathematical and Theoretical'
+    publisher: IOP Publishing
+    issue: 27
+    volume: 57
+  display: "J. Phys. A: Math. Theor. 57 275401"
+Mukherjee2023:
+  type: article
+  title: 'Kondo frustration via charge fluctuations: a route to Mott localisation'
+  author:
+  - Mukherjee, Abhirup
+  - Vidhyadhiraja, N S
+  - Taraphder, A
+  - Lal, Siddhartha
+  date: 2023
+  page-range: '113011'
+  url: https://dx.doi.org/10.1088/1367-2630/ad08f3
+  serial-number:
+    doi: 10.1088/1367-2630/ad08f3
+  parent:
+    type: periodical
+    title: New Journal of Physics
+    publisher: IOP Publishing
+    issue: 11
+    volume: 25
+  display: "New J. Phys. 25 113011"
+Patra_2023:
+  type: article
+  title: 'Frustration shapes multi-channel Kondo physics: a star graph perspective'
+  author:
+  - Patra, Siddhartha
+  - Mukherjee, Abhirup
+  - Mukherjee, Anirban
+  - Vidhyadhiraja, N S
+  - Taraphder, A
+  - Lal, Siddhartha
+  date: 2023
+  page-range: '315601'
+  url: https://dx.doi.org/10.1088/1361-648X/acd09c
+  serial-number:
+    doi: 10.1088/1361-648X/acd09c
+  parent:
+    type: periodical
+    title: 'Journal of Physics: Condensed Matter'
+    publisher: IOP Publishing
+    issue: 31
+    volume: 35
+  display: "J. Phys.: Condens. Matter 35 315601"
+Mukherjee2022:
+  type: article
+  title: 'Unveiling the Kondo cloud: Unitary renormalization-group study of the Kondo model'
+  author:
+  - Mukherjee, Anirban
+  - Mukherjee, Abhirup
+  - Vidhyadhiraja, N. S.
+  - Taraphder, A.
+  - Lal, Siddhartha
+  date: 2022
+  page-range: '85119'
+  url: https://link.aps.org/doi/10.1103/PhysRevB.105.085119
+  serial-number:
+    doi: 10.1103/PhysRevB.105.085119
+  parent:
+    type: periodical
+    title: Phys. Rev. B
+    publisher: American Physical Society
+    issue: 8
+    volume: 105
+  display: "Phys. Rev. B 105, 085119"
