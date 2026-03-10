@@ -2,8 +2,17 @@
 
 #import "@preview/presentate:0.2.5": *
 
-// #let focus(it) = text(fill: rgb("57564F"), weight: "bold", it)
+#let bgColor = rgb("EFEFEF")
+#let fgColor = rgb("222831")
+#let h1Color = rgb("7D0A0A")
+#let h2Color = rgb("E36414")
+#let focusColor = rgb("7D0A0A")
 #let papers = yaml("papers.yml")
+
+#let img(name, w: none, h: auto) = align(center, box(image("images/" + name, width: if w == none { 100% } else { w }, height: h)))
+#let Img(name, w: none, h: auto) = align(center, image("images/" + name, width: if w == none { 100% } else { w }, height: h))
+#let focus(it) = text(weight: "bold", fill: focusColor, it)
+#let cen(it) = align(center, text(weight: "bold", fill: focusColor, size: 1.2em, it))
 #let authorise(authors) = {
   let authorList = []
   for (i, a) in authors.enumerate() {
@@ -12,7 +21,7 @@
       author = a.split(", ").rev().join(" ")
     }
     if author == "Abhirup Mukherjee" {
-      authorList = authorList + [*AM*]
+      authorList = authorList + focus[AM]
     } else {
       author = author.split(" ")
       author.at(0) = author.at(0).at(0)
@@ -25,20 +34,23 @@
   }
   return authorList
 }
-#let img(file, width) = box(image("images/" + file, width: width))
-#set page(paper: "presentation-16-9", fill: rgb("ECECEC"), margin: 1.5em)
-#set text(size: 18pt, font: "Stack Sans Text", fill: rgb("222831"))
-#show strong: set text(fill: rgb("093FB4"))
+#let title(title) = { place(top, heading(level:2, title), float: true) }
+#let section(title) = { align(horizon, heading(level: 1, title))}
+#let bbox(it, w) = box(inset: 0.5em, align(center + horizon, text(fill: fgColor, it)), fill: white, stroke: 0.1em + h2Color)
+
+#set page(paper: "presentation-16-9", fill: bgColor, margin: 1.5em)
+#show image: set align(bottom)
+#set text(size: 17pt, font: "Stack Sans Text", fill: fgColor)
 #show math.equation: set text(font: "Fira Math")
 #set par(leading: 0.5em)
+#let slideTop(it) = align(top, slide(it))
 #show emph: set text(font: "bitter")
-#show heading.where(level: 1): set text(fill: rgb("213C51"), font: "Stack Sans Notch", size: 1.9em)
+#show heading.where(level: 1): set text(fill: h1Color, font: "Stack Sans Notch", size: 1.9em)
 #show heading.where(level: 1): set par(leading: 0.3em)
-#show heading.where(level: 2): set text(fill: rgb("A82323"), font: "Stack Sans Headline", size: 1.5em)
+#show heading.where(level: 2): set text(fill: h2Color, font: "Stack Sans Headline", size: 1.5em)
 #show heading.where(level: 2): set par(leading: 0.4em)
-#set list(marker: square(width: 0.6em, fill: rgb("3f3f3f")), spacing: 1.5em)
-
-#set align(horizon)
+#set list(marker: square(width: 0.6em, fill: fgColor), spacing: 1.5em)
+#let unc(..args) = uncover(..args, update-pause: true)
 
 #page(margin: 2em,[
 = A New Auxiliary Model Approach For Fermionic Criticality
@@ -52,17 +64,14 @@ _Presubmission Open Seminar_
   columns: (0.15fr, 1fr, 0.15fr),
   align: (left + horizon, center + horizon, right + horizon),
   gutter: 2em,
-  img("iiserk.png", 100%),
+  img("iiserk.png"),
   text(size: 1.2em, [
    *Emergent Phenomena in Quantum Matter* group\
    IISER Kolkata
    ]),
-  img("epqm.svg", 90%)
+  img("epqm.svg", w:90%)
 )
 ])
-
-#let title(title) = { place(top, heading(level:2, title)) + v(1.5em) }
-#let section(title) = { align(horizon, heading(level: 1, title))}
 
 #title[Acknowledgements]
 #slide[
@@ -85,7 +94,7 @@ _Presubmission Open Seminar_
     top,
     float: false,
     dy: 2.3em,
-    rect(width: 100%, height: 7.5em, stroke: (left: 0.2em + rgb("A82323"), rest: 0em)),
+    rect(width: 100%, height: 7.5em, stroke: (left: 0.2em + h2Color, rest: 0em)),
   )]
 
   #let items = ()
@@ -99,7 +108,7 @@ _Presubmission Open Seminar_
       bottom,
       float: false,
       dy: -1em,
-      rect(width: 100%, height: 10em, stroke: (left: 0.2em + rgb("A82323"), rest: 0em)),
+      rect(width: 100%, height: 10em, stroke: (left: 0.2em + h2Color, rest: 0em)),
     )
   #box(inset: 1em,[
     #stack(dir: ttb, spacing: 1em,
@@ -116,11 +125,11 @@ _Presubmission Open Seminar_
     gutter: 1.2em,
     align: left+top,
     grid(columns: (1fr, 0.5fr), gutter:1em, [*Chap 1*.~Introduction#h(1fr)*Chap 2*.~Methods and Preliminaries], []),
-    grid(columns: (1fr, 0.5fr), gutter:1em, [*Chap 3*.~Kondo frustration via charge fluctuations: Mott localisation in $d=infinity$], [[#strong(eval(papers.Mukherjee2023.display, mode: "markup"))]]),
-    grid(columns: (1fr, 0.5fr), gutter:1em, [*Chap 4*.~A New Auxiliary Model Mapping For Correlated Lattice Models], [[#strong(eval(papers.Mukherjee2025.display, mode: "markup"))]]),
-    grid(columns: (1fr, 0.5fr), gutter:1em, [*Chap 5*.~Mott Criticality as the Confinement Transition of a Pseudogap-Mott Metal in $d=2$], [[#strong(eval(papers.Mukherjee2025.display, mode: "markup"))]]),
-    grid(columns: (1fr, 0.5fr), gutter:1em, [*Chap 6*.~Competing tendencies In Heavy Fermion Systems: Kondo screening vs. Mott localisation], [[#strong(eval(papers.Mukherjee2026.display, mode: "markup"))]]),
-    grid(columns: (1fr, 0.5fr), gutter:1em, [*Chap 7*.~Holographic entanglement renormalisation for fermionic quantum matter], [[#strong(eval(papers.Mukherjee2024.display, mode: "markup"))]]),
+    grid(columns: (1fr, 0.5fr), gutter:1em, [*Chap 3*.~Kondo frustration via charge fluctuations: Mott localisation in $d=infinity$], [[#focus(eval(papers.Mukherjee2023.display, mode: "markup"))]]),
+    grid(columns: (1fr, 0.5fr), gutter:1em, [*Chap 4*.~A New Auxiliary Model Mapping For Correlated Lattice Models], [[#focus(eval(papers.Mukherjee2025.display, mode: "markup"))]]),
+    grid(columns: (1fr, 0.5fr), gutter:1em, [*Chap 5*.~Mott Criticality as the Confinement Transition of a Pseudogap-Mott Metal in $d=2$], [[#focus(eval(papers.Mukherjee2025.display, mode: "markup"))]]),
+    grid(columns: (1fr, 0.5fr), gutter:1em, [*Chap 6*.~Competing tendencies In Heavy Fermion Systems: Kondo screening vs. Mott localisation], [[#focus(eval(papers.Mukherjee2026.display, mode: "markup"))]]),
+    grid(columns: (1fr, 0.5fr), gutter:1em, [*Chap 7*.~Holographic entanglement renormalisation for fermionic quantum matter], [[#focus(eval(papers.Mukherjee2024.display, mode: "markup"))]]),
     grid(columns: (1fr, 0.5fr), gutter:1em, [*Chap 8*.~Conclusions], []),
   )
 ]
@@ -130,30 +139,90 @@ _Presubmission Open Seminar_
 // == What's the Big Idea?
 ]
 
-#slide[
+#slideTop[
   #title[What Do Condensed Matter Theorists Do?]
-
-  - solving models to explain experiments
-  - coming up with models to predict experiments
-  - coming up with frameworks to classify signatures
-  Use this to slide into experiments and materials
+  #grid(
+    columns: (1fr, 1fr),
+    gutter: 0.5em,
+    only(1, 2, [
+      #cen[Explain experiments]
+      - Build and solve theoretical models for experiments
+      - Compute measurables to explain observations
+      - Kondo effect, quantum Hall effect, superconductivity
+      #img("kondoExample.svg", w:70%)
+    ])
+    + only(3, [
+      #cen[Predict experiments]
+    - Identify interesting theoretical models for new systems
+    - Predict novel phenomena by tweaking models and parameters
+    - Abrikosov vortex lattice, spin liquids
+    #img("abrikosovLattice.jpg", w:60%)
+    ]),
+    only(2, [
+      #cen[Predict experiments]
+    - Identify interesting theoretical models for new systems
+    - Predict novel phenomena by tweaking models and parameters
+    - Abrikosov vortex lattice, spin liquids
+    #img("abrikosovLattice.jpg", w:60%)
+    ])
+    + only(3, [
+      #cen[Classify experiments]
+    - organize experimental signatures into universal principles
+    - come up with frameworks that explain a large class of phenomena
+    - Examples: Landau theory of phase transition
+    #img("mexicanHat.jpg", w:70%)
+    ]),
+  )
 ]
 
 #slide[
   #title[Quantum Materials]
+  Class of materials that #focus[cannot] be well-approximated by "classical" description
 
-  - various classes of strongly correlated materials
-  - why they are strongly correlated (f/d orbitals)
-  - why it's hard to study them (weak coupling not enough, multiple energy scales, etc)
+  #grid(columns: (1fr, 1fr, 1fr), gutter: 1em, 
+  align: center + horizon,
+  unc(from: 2)[
+    #img("graphene.jpg", w:80%)
+  ],
+  [
+    #unc(from: 2)[
+    #bbox([topological properties\ (_topological insulators_)], 32%)
+    ]
+
+    #unc(from: 3)[
+    #bbox([non-local entanglement\ (_spin liquids_)], 32%)
+    ]
+
+    #unc(from: 4)[
+    #bbox([collective excitations\ (_strange metals_)], 32%)
+    ]
+  ],
+  unc(from: 3)[
+    #img("QSL.jpg", w: 80%)
+  ]
+  )
+
+  #show: pause
+  Needs dramatically #focus[new ideas] and methods!
+  - #focus[non-local/collective] order parameters for transition
+  - ability to work with a large number of #focus[interacting particles]
+  - ability to work  with #focus[emergent] degrees of freedom
+
 ]
 
 #slide[
   #title[Strongly Correlated Phenomena]
+  Materials with #focus[strong] electronic interaction, #focus[low dimensionality], multiple electronic #focus[orbitals]
+
   Talk about experimental features of quantum matter
   - Mott insulation
   - strange metal
   - pseudogap
   - high-Tc superconductivity
+
+  // - why it's hard to study them (weak coupling not enough, multiple energy scales, etc)
+  // - various classes of strongly correlated materials
+  // - why they are strongly correlated (f/d orbitals)
 ]
 
 #slide[
