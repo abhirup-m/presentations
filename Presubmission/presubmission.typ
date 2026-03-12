@@ -292,35 +292,43 @@ _Presubmission Open Seminar_
   #cols(
     [
       #cen[Hubbard Model]
+      #show: pause
 
       - Correlated electrons hopping on a lattice
 
       #img("hubbard1.svg", w:80%)
+      #show: pause
 
       - Hopping probability is $t$.
 
       #img("hubbard2.svg", w:80%)
+      #show: pause
 
       - Energy cost $U$ if two occupy same site.
 
       #img("hubbard3.svg", w:80%)
+      #show: pause
 
       *Hamiltonian*: $-t sum_(i, j, sigma) (c^dagger_(i, sigma) c_(j, sigma) + "h.c.") + sum_i U n_(i, arrow.t) n_(i, arrow.b)$
+      #v(1fr)
     ],
     [
-      #cen[Hubbard Model]
+      #show: pause
+      #cen[Periodic Anderson Model]
 
-      - Correlated electrons hopping on a lattice
+      - #focus[Multi-orbital] model: one localised, the other delocalised
 
-      #img("hubbard1.svg", w:80%)
+      #show: pause
 
-      - Hopping probability is $t$.
+      #img("PAM2.svg", w:70%)
 
-      #img("hubbard2.svg", w:80%)
+      - Electrons can hop across orbitals
 
-      - Energy cost $U$ if two occupy same site.
+      #show: pause
 
-      #img("hubbard3.svg", w:80%)
+      *Hamiltonian*: $ H_"Hub" + H_"hop" + V sum_(i,sigma) f^dagger_(i,sigma) c_(i,sigma) + "h.c."$
+
+      #v(1fr)
     ],
   )
   // Describe these models and how they embody correlations
@@ -330,13 +338,46 @@ _Presubmission Open Seminar_
 
 #slide[
   #title[Quantum Impurity Models as Auxiliary Models]
-  - Broad idea behind Auxiliary models
-  - What are quantum impurity models
-  - Example of mapping (mean-field) to previously mentioned models
+
+  Lattice models of correlated electrons are *hard to solve* directly.
+
+  #cols(
+    img("auxiliary1.svg"),
+    [#focus[Idea]: replace full problem with a simpler *auxiliary model* that captures the local correlations.],
+    unc(from: 2, img("auxiliary2.png")),
+    w: (1fr, 1fr, 1.2fr),
+  )
+
+  #show: pause
+  #cols(
+    cen[Example: Mean-field solution of Ising model],
+    [
+      #img("isingAux1.svg")
+      $ H = sum_(i,j)J_(i,j)S_i^z S_j^z $
+    ],
+    [
+      #show: pause
+      *Mean-field* approximation:
+
+      $ H = sum_(i)h_"eff" S_i^z $
+    ],
+    [
+      #show: pause
+      #img("isingAux2.svg")
+
+      Environment replaced by effective field
+    ]
+  )
+
 ]
 
 #slide[
   #title[Quantum Impurity Models as Auxiliary Models]
+
+  // - Broad idea behind Auxiliary models
+  // - What are quantum impurity models
+  // - Example of mapping (mean-field) to previously mentioned models
+  //
   More details
   - discuss Kondo screening
   - discuss Kondo breakdown
