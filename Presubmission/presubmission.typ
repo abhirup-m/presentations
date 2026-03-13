@@ -5,8 +5,8 @@
 #let bgColor = rgb("EFECEC")
 #let fgColor = rgb("37353E")
 #let h1Color = rgb("213C51")
-#let h2Color = rgb("B43F3F")
-#let focusColor = rgb("4F709C")
+#let h2Color = rgb("A64452")
+#let focusColor = rgb("204070")
 #let papers = yaml("papers.yml")
 #let h1Font = "Stack Sans Notch"
 #let h2Font = "Stack Sans Headline"
@@ -15,8 +15,8 @@
 
 #let img(name, w: none, h: auto) = box(align(center, image("images/" + name, width: if w == none { auto } else { w }, height: h)), width: 1fr)
 #let Img(name, w: none, h: auto) = align(center, image("images/" + name, width: if w == none { auto } else { w }, height: h))
-#let focus(it) = text(weight: "bold", fill: focusColor, it)
-#let cen(it) = align(center, smallcaps(text(font: "Barlow", weight: "extrabold", fill: h1Color, size: 1.2em, it)))
+#let focus(it) = text(font: h2Font, weight: "black", fill: focusColor, it, size: 1em)
+#let cen(it) = align(center, smallcaps(text(font: "Barlow", weight: "extrabold", fill: fgColor, size: 1.2em, it))) + v(-1em)
 #let authorise(authors) = {
   let authorList = []
   for (i, a) in authors.enumerate() {
@@ -40,13 +40,17 @@
 }
 #let title(title) = { place(top, heading(level:2, title), float: true) }
 #let section(title) = { align(horizon, heading(level: 1, title))}
-#let bbox(..args, factor: 100%) = scale(factor, box(inset: 0.5em, width: if args.pos().len() > 1 { args.pos().at(1) } else { auto }, align(center + horizon, text(fill: white, args.pos().at(0))), radius: 10pt, fill: gradient.linear(fgColor, h2Color, angle: 0deg)))
+#let bbox(..args, factor: 100%) = {
+  set list(marker: square(width: 0.6em, fill: white), spacing: 1em)
+  scale(factor, box(inset: 1em, width: if args.pos().len() > 1 { args.pos().at(1) } else { auto }, align(center + horizon, text(fill: white, args.pos().at(0))), radius: 10pt, fill: gradient.linear(h1Color, fgColor, angle: 0deg), stroke: 0.2em + h2Color))
+}
 #let cols(..items, w: ()) = align(center, grid(columns: if w.len() > 0 { w } else { items.pos().map(x => 1fr) }, gutter: 1em, align: center + horizon, ..items.pos()))
 
 #set page(paper: "presentation-16-9", fill: bgColor, margin: 1.5em)
 #show image: set align(bottom)
 #set text(size: 18pt, font: mainFont, weight: "medium", fill: fgColor)
-#show math.equation: set text(font: "Noto Sans Math", weight: "black")
+#show math.equation: set text(font: "Noto Sans Math", weight: "bold", size: 1.1em)
+// #show math.equation: it => math.bold(it)
 #set par(leading: 0.5em)
 #let slideTop(it) = align(top, slide(it))
 // #show emph: set text(font: "bitter")
@@ -188,24 +192,27 @@ _Presubmission Open Seminar_
 
   #cols(
   unc(from: 2)[
+    #v(-4em)
     #img("graphene.jpg", w:80%)
   ],
   [
     #unc(from: 2)[
-    #bbox([topological properties\ (_topological insulators_)], 100%)
+      #place(auto, float: true, dx: 3em, bbox([topological properties\ (_topological insulators_)], factor: 90%))
     ]
     #unc(from: 3)[
-    #bbox([non-local entanglement\ (_spin liquids_)], 100%)
+    #place(auto, float: true, dx:0.5em, dy: -3.2em, bbox([non-local entanglement (_spin liquids_)], factor: 90%))
     ]
     #unc(from: 4)[
-    #bbox([collective excitations\ (_strange metals_)], 100%)
+    #place(auto, float: true, dx:-3em, dy: -5em, bbox([collective excitations (_strange metals_)], factor: 90%))
     ]
   ],
   unc(from: 3)[
+    #v(-4em)
     #img("QSL.jpg", w: 80%)
   ]
   )
 
+  #v(-5em)
   #unc(from: 5)[
     Needs dramatically #focus[new ideas] and methods!
     - #focus[non-local/collective] order parameters for transition
@@ -218,7 +225,7 @@ _Presubmission Open Seminar_
 #slide[
   #title[Strongly Correlated Phenomena]
 
-  Materials with strong #focus[local] electronic correlation, #focus[low dimensionality], multiple electronic #focus[orbitals]
+  Materials with strong #focus[local] correlation, #focus[low dimensionality], multiple electronic #focus[orbitals]
   #only(from:1, to: 4)[
   #cols(
     unc(2,3,4)[
@@ -295,8 +302,6 @@ _Presubmission Open Seminar_
       #show: pause
 
       - Correlated electrons hopping on a lattice
-
-      #img("hubbard1.svg", w:80%)
       #show: pause
 
       - Hopping probability is $t$.
@@ -331,26 +336,36 @@ _Presubmission Open Seminar_
       #v(1fr)
     ],
   )
-  // Describe these models and how they embody correlations
-  // - Hubbard model
-  // - Impurity lattice model
+  #show: pause
+  #place(center + top, dy: 4em, bbox(factor: 120%, [$t$ ==> Delocalisation\ $U$ ==> Localisation]))
+  #show: pause
+  #place(center + bottom, dy: -4em, bbox(factor: 120%, [
+    🔥~~Competition\
+    🫂~~Correlations
+  ]))
+
+
 ]
 
 #slide[
   #title[Quantum Impurity Models as Auxiliary Models]
 
-  Lattice models of correlated electrons are *hard to solve* directly.
-
   #cols(
     img("auxiliary1.svg"),
-    [#focus[Idea]: replace full problem with a simpler *auxiliary model* that captures the local correlations.],
+    [
+      Lattice models of correlated electrons are *hard to solve* directly.\
+      #show: pause
+
+      #focus[Idea]: replace full problem with a simpler *auxiliary model* that captures the local correlations.
+    ],
     unc(from: 2, img("auxiliary2.png")),
-    w: (1fr, 1fr, 1.2fr),
+    w: (0.9fr, 1.1fr, 1.2fr),
   )
 
   #show: pause
+  #v(1fr)
   #cols(
-    cen[Example: Mean-field solution of Ising model],
+    cen[Example:\ Mean-field solution\ of Ising model],
     [
       #img("isingAux1.svg")
       $ H = sum_(i,j)J_(i,j)S_i^z S_j^z $
@@ -362,11 +377,13 @@ _Presubmission Open Seminar_
       $ H = sum_(i)h_"eff" S_i^z $
     ],
     [
+      #uncover(3, [], update-pause: true)
       #show: pause
       #img("isingAux2.svg")
 
-      Environment replaced by effective field
-    ]
+      Rest ==> effective field
+    ],
+    w: (0.9fr, 0.9fr, 0.5fr, 0.9fr),
   )
 
 ]
@@ -374,18 +391,128 @@ _Presubmission Open Seminar_
 #slide[
   #title[Quantum Impurity Models as Auxiliary Models]
 
-  // - Broad idea behind Auxiliary models
-  // - What are quantum impurity models
-  // - Example of mapping (mean-field) to previously mentioned models
-  //
-  More details
-  - discuss Kondo screening
-  - discuss Kondo breakdown
-  - argue how LFL and LM can be thought of as metallic vs insulating behaviour
+  #cen[Auxiliary Model for Interacting Quantum Systems?]
+  #show: pause
+  #only(2,3,4)[#cols(
+    [
+      #img("isingAux1.svg")
+
+      Ising model ==> #focus[Classical]
+    ],
+    [
+      #show: pause
+      #img("isingAux2.svg")
+
+      Mean-field ==> #focus[Static Model]
+    ],
+    [
+      #show: pause
+      Interacting Quantum Systems have #focus[time dynamics]
+
+      Auxiliary Model has to be *interacting* in order to capture temporal dynamics!
+    ],
+  )]
+  #only(from: 5, to: 9)[
+  #cols(
+    [
+      Auxiliary Model has to be #focus[interacting] in order to capture temporal dynamics!
+    ],
+    [
+      #cen[What is an appropriate auxiliary problem for lattice models with local correlation?]
+    ],
+    img("auxiliary1.svg"),
+    w: (0.8fr, 1fr, 0.5fr),
+  )
+  #only(from: 6)[
+    #v(1fr)
+    #place(left + horizon, dy: 0em, cen[Insight from Limit of Infinite Dimensions!])
+    #v(1fr)
+  ]
+  #only(from:7, to: 9, cols(
+    [
+
+      Local physics ==> #focus[Quantum Impurity Models]
+
+      Core Idea of Dynamical Mean-Field Theory
+    ],
+    img("correlatedAuxiliary.svg"),
+    unc(8, 9)[
+      - Tractable
+      - Contains dynamics 
+
+      ($omega-$dependence of correlations)
+    ],
+    w: (0.25fr, 0.4fr, 0.2fr),
+  ))]
+  #unc(9)[#place(center + horizon, bbox(factor: 120%, [Local physics of correlated\ lattice models can be mapped\ on to impurity model.]))]
+
 ]
 
 #slide[
-  #title[Questions]
+  #title[Phenomenology of Quantum Impurity Models]
+  #cols(
+    [
+      #cen[Kondo Model]
+      - Impurity spin $S_d$ + conduction bath
+      - Spin-flip scattering
+
+      $ H = sum_(k, sigma) epsilon_k n_(k,sigma) + 1/4 J S_d^z s_0^z + 1/2 S_d^+ s_0^- + 1/2 S_d^- s_0^+$
+    ],
+    img("kondoModel.svg"),
+    w: (1fr, 0.9fr),
+  )
+  #v(1fr)
+  #show: pause
+  #only(2,3)[
+    #cen[Low-energy $(T << 1)$ Properties: Kondo Screening]
+    #cols(
+      [
+        - Kondo coupling generates #focus[entanglement]
+        - Impurity DOS supports #focus[gapless excitations]
+        - Impurity electron can #focus[delocalise] via bath
+        
+        #show: pause
+        ==> #focus[metallic state] in auxiliary model language.
+      ],
+      img("Singlet.svg"),
+      w: (1fr, 1fr),
+    )
+  ]
+  #only(4,5,6)[
+    #cols(
+      [
+        #v(1fr)
+        #cen[Metallic State]
+        #v(1fr)
+        #img("Singlet2.svg")
+      ],
+      [
+        #v(1fr)
+        #cen[How Do We Get an Insulating State?]
+        #unc(5,6)[
+          #cols(
+            [
+              - Tweak the bath
+              - Destroy screening
+              - Local moment emerges
+            ],
+            img("localMoment.svg"),
+            w: (1fr, 2fr),
+          )
+        ]
+      ],
+      w: (0.5fr, 1fr),
+    )
+  ]
+  #unc(6)[#place(center + horizon, bbox(factor: 120%, [
+    Kondo screening ==> Metallicity
+    #v(-0.2em)
+    Local moment ==> Mott insulation
+  ]))]
+]
+
+#slide[
+  #title[So, What's Left To Do?]
   - Questions about solving models
   - Questions about developing methods
 ]

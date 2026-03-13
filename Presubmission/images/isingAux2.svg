@@ -3,11 +3,11 @@
 
 <svg
    width="133.28619mm"
-   height="46.875008mm"
-   viewBox="0 0 133.28619 46.875008"
+   height="47.742451mm"
+   viewBox="0 0 133.28619 47.74245"
    version="1.1"
    id="svg1"
-   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
    sodipodi:docname="isingAuxiliary.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,20 +24,20 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.54502117"
-     inkscape:cx="796.29935"
-     inkscape:cy="460.53257"
-     inkscape:window-width="1918"
-     inkscape:window-height="1174"
+     inkscape:zoom="0.48235956"
+     inkscape:cx="897.67061"
+     inkscape:cy="388.71418"
+     inkscape:window-width="1920"
+     inkscape:window-height="1131"
      inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1">
     <inkscape:page
        x="0"
-       y="9.9525183e-38"
+       y="0"
        width="133.28619"
-       height="46.875008"
+       height="47.742451"
        id="page2"
        margin="0"
        bleed="0" />
@@ -46,32 +46,12 @@
      id="defs1">
     <inkscape:path-effect
        effect="spiro"
-       id="path-effect37"
-       is_visible="true"
-       lpeversion="1" />
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect35"
-       is_visible="true"
-       lpeversion="1" />
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect33"
-       is_visible="true"
-       lpeversion="1" />
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect24"
-       is_visible="true"
-       lpeversion="1" />
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect20"
+       id="path-effect20-3"
        is_visible="true"
        lpeversion="1" />
     <marker
        style="overflow:visible"
-       id="RoundedArrow"
+       id="RoundedArrow-3"
        refX="0"
        refY="0"
        orient="auto-start-reverse"
@@ -86,54 +66,75 @@
          transform="scale(0.7)"
          d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
          style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         id="path8" />
+         id="path8-8" />
     </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect33"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect35"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect37"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect24-8"
+       is_visible="true"
+       lpeversion="1" />
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-133.94483,-57.156286)">
+     transform="translate(-145.56553,-70.352701)">
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#404040;stroke-width:3;stroke-dasharray:6, 3;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#404040;stroke-width:3;stroke-dasharray:6, 3;stroke-dashoffset:0;stroke-opacity:1"
        d="M -30.09688,92.275056 H 103.18931"
-       id="path12"
-       inkscape:path-effect="#path-effect20"
+       id="path12-9"
+       inkscape:path-effect="#path-effect20-3"
        inkscape:original-d="m -30.09688,92.275056 c 44.428728,0 88.857459,0 133.28619,0"
-       transform="translate(164.04171)"
+       transform="translate(175.66241,14.720898)"
        inkscape:export-filename="isingAux2.svg"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#005080;stroke-width:3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+       style="fill:none;fill-opacity:1;stroke:#005080;stroke-width:3;stroke-dasharray:6, 3;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow-3)"
        d="m 141.45258,82.113061 c 0.0405,-0.93319 0.37527,-1.851448 0.94478,-2.591815 0.56952,-0.740366 1.37119,-1.299434 2.26276,-1.577989 0.82494,-0.257737 1.71176,-0.27662 2.5664,-0.147948 0.85463,0.128673 1.68148,0.400834 2.48626,0.715924 1.60956,0.630178 3.17794,1.444495 4.89072,1.677304 1.43709,0.195336 2.92235,-0.03775 4.25374,-0.612904 1.33139,-0.575152 2.5091,-1.486185 3.44436,-2.59464 0.99774,-1.1825 1.71477,-2.570213 2.46166,-3.925183 0.74689,-1.354969 1.54711,-2.708953 2.6704,-3.772916 1.26539,-1.198565 2.8927,-1.973039 4.58487,-2.390581 1.69216,-0.417542 3.45271,-0.492622 5.19411,-0.419782 3.4828,0.145679 6.95639,0.873825 10.42853,0.565085 4.23652,-0.376708 8.31117,-2.355823 11.2264,-5.452819"
        id="path32"
        inkscape:path-effect="#path-effect33"
-       inkscape:original-d="m 141.45258,82.113061 c 0.96226,-1.389936 2.24528,-2.779869 3.20754,-4.169804 0.96226,-1.389933 6.62892,1.496853 9.94338,2.24528 3.31446,0.748424 4.91823,-2.352199 7.6981,-3.207544 2.77987,-0.855342 3.52829,-4.81131 5.13206,-7.698099 1.60377,-2.886787 13.47168,-1.603769 20.20751,-2.245278 6.73584,-0.641509 7.48427,-3.635214 11.2264,-5.452819" />
+       inkscape:original-d="m 141.45258,82.113061 c 0.96226,-1.389936 2.24528,-2.779869 3.20754,-4.169804 0.96226,-1.389933 6.62892,1.496853 9.94338,2.24528 3.31446,0.748424 4.91823,-2.352199 7.6981,-3.207544 2.77987,-0.855342 3.52829,-4.81131 5.13206,-7.698099 1.60377,-2.886787 13.47168,-1.603769 20.20751,-2.245278 6.73584,-0.641509 7.48427,-3.635214 11.2264,-5.452819"
+       transform="translate(24.320702,13.133397)" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#005080;stroke-width:3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+       style="fill:none;fill-opacity:1;stroke:#005080;stroke-width:3;stroke-dasharray:6, 3;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow-3)"
        d="m 141.45258,82.113061 c 0.0405,-0.93319 0.37527,-1.851448 0.94478,-2.591815 0.56952,-0.740366 1.37119,-1.299434 2.26276,-1.577989 0.82494,-0.257737 1.71176,-0.27662 2.5664,-0.147948 0.85463,0.128673 1.68148,0.400834 2.48626,0.715924 1.60956,0.630178 3.17794,1.444495 4.89072,1.677304 1.43709,0.195336 2.92235,-0.03775 4.25374,-0.612904 1.33139,-0.575152 2.5091,-1.486185 3.44436,-2.59464 0.99774,-1.1825 1.71477,-2.570213 2.46166,-3.925183 0.74689,-1.354969 1.54711,-2.708953 2.6704,-3.772916 1.26539,-1.198565 2.8927,-1.973039 4.58487,-2.390581 1.69216,-0.417542 3.45271,-0.492622 5.19411,-0.419782 3.4828,0.145679 6.95639,0.873825 10.42853,0.565085 4.23652,-0.376708 8.31117,-2.355823 11.2264,-5.452819"
        id="path33"
        inkscape:path-effect="#path-effect35"
        inkscape:original-d="m 141.45258,82.113061 c 0.96226,-1.389936 2.24528,-2.779869 3.20754,-4.169804 0.96226,-1.389933 6.62892,1.496853 9.94338,2.24528 3.31446,0.748424 4.91823,-2.352199 7.6981,-3.207544 2.77987,-0.855342 3.52829,-4.81131 5.13206,-7.698099 1.60377,-2.886787 13.47168,-1.603769 20.20751,-2.245278 6.73584,-0.641509 7.48427,-3.635214 11.2264,-5.452819"
-       transform="translate(21.166667,10.583333)" />
+       transform="translate(32.787361,25.304231)" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#005080;stroke-width:3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+       style="fill:none;fill-opacity:1;stroke:#005080;stroke-width:3;stroke-dasharray:6, 3;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow-3)"
        d="m 141.45258,82.113061 c 0.0405,-0.93319 0.37527,-1.851448 0.94478,-2.591815 0.56952,-0.740366 1.37119,-1.299434 2.26276,-1.577989 0.82494,-0.257737 1.71176,-0.27662 2.5664,-0.147948 0.85463,0.128673 1.68148,0.400834 2.48626,0.715924 1.60956,0.630178 3.17794,1.444495 4.89072,1.677304 1.43709,0.195336 2.92235,-0.03775 4.25374,-0.612904 1.33139,-0.575152 2.5091,-1.486185 3.44436,-2.59464 0.99774,-1.1825 1.71477,-2.570213 2.46166,-3.925183 0.74689,-1.354969 1.54711,-2.708953 2.6704,-3.772916 1.26539,-1.198565 2.8927,-1.973039 4.58487,-2.390581 1.69216,-0.417542 3.45271,-0.492622 5.19411,-0.419782 3.4828,0.145679 6.95639,0.873825 10.42853,0.565085 4.23652,-0.376708 8.31117,-2.355823 11.2264,-5.452819"
        id="path35"
        inkscape:path-effect="#path-effect37"
        inkscape:original-d="m 141.45258,82.113061 c 0.96226,-1.389936 2.24528,-2.779869 3.20754,-4.169804 0.96226,-1.389933 6.62892,1.496853 9.94338,2.24528 3.31446,0.748424 4.91823,-2.352199 7.6981,-3.207544 2.77987,-0.855342 3.52829,-4.81131 5.13206,-7.698099 1.60377,-2.886787 13.47168,-1.603769 20.20751,-2.245278 6.73584,-0.641509 7.48427,-3.635214 11.2264,-5.452819"
-       transform="translate(47.625002,21.166667)" />
+       transform="translate(59.245696,35.887565)" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#f04911;stroke-width:5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+       style="fill:none;fill-opacity:1;stroke:#d03020;stroke-width:5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow-3)"
        d="m -24.193899,74.021348 10.538783,18.253708"
-       id="path14"
-       inkscape:path-effect="#path-effect24"
+       id="path14-7"
+       inkscape:path-effect="#path-effect24-8"
        inkscape:original-d="m -24.193899,74.021348 c 4.428385,7.670187 7.483584,12.961948 10.538783,18.253708"
-       transform="matrix(1.1452742,-0.66122435,-0.66122435,-1.1452742,256.82323,172.80843)" />
+       transform="matrix(1.1452742,-0.66122435,-0.66122435,-1.1452742,287.14163,179.83605)" />
     <g
        inkscape:label=""
-       transform="matrix(2.5811101,0,0,2.5811101,236.4922,65.79474)"
+       transform="matrix(2.5811101,0,0,2.5811101,248.1129,80.515636)"
        id="g45">
       <g
          transform="matrix(0.352778,0,0,0.352778,-104.928,-3.3468)"

@@ -3,11 +3,11 @@
 
 <svg
    width="134.55527mm"
-   height="35.553024mm"
-   viewBox="0 0 134.55527 35.553024"
+   height="38.72802mm"
+   viewBox="0 0 134.55527 38.728019"
    version="1.1"
    id="svg1"
-   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
    sodipodi:docname="isingAuxiliary.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,25 +25,30 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.48235956"
-     inkscape:cx="783.64779"
-     inkscape:cy="646.82039"
-     inkscape:window-width="1918"
-     inkscape:window-height="1174"
+     inkscape:cx="897.67061"
+     inkscape:cy="388.71418"
+     inkscape:window-width="1920"
+     inkscape:window-height="1131"
      inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1">
     <inkscape:page
        x="0"
-       y="-7.5234526e-20"
+       y="0"
        width="134.55527"
-       height="35.553024"
+       height="38.72802"
        id="page2"
        margin="0"
        bleed="0" />
   </sodipodi:namedview>
   <defs
      id="defs1">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect7"
+       is_visible="true"
+       lpeversion="1" />
     <rect
        x="88.374474"
        y="115.72847"
@@ -58,11 +63,6 @@
     <inkscape:path-effect
        effect="spiro"
        id="path-effect10"
-       is_visible="true"
-       lpeversion="1" />
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect8"
        is_visible="true"
        lpeversion="1" />
     <inkscape:path-effect
@@ -109,7 +109,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(30.35159,-67.977108)">
+     transform="translate(30.35159,-64.802098)">
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#404040;stroke-width:3;stroke-dasharray:6, 3;stroke-dashoffset:0;stroke-opacity:1"
        d="M -30.09688,92.275056 H 103.18931"
@@ -132,21 +132,14 @@
        id="path3"
        inkscape:path-effect="#path-effect4"
        inkscape:original-d="m -24.193899,74.021348 c 4.428385,7.670187 7.483584,12.961948 10.538783,18.253708"
-       transform="matrix(-1,0,0,1,-1.5302896,2.8666697)" />
+       transform="matrix(-1,0,0,1,-12.113623,2.8666697)" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#005080;stroke-width:5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#d03020;stroke-width:5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow)"
        d="m -24.193899,74.021348 10.538783,18.253708"
        id="path4"
        inkscape:path-effect="#path-effect6"
        inkscape:original-d="m -24.193899,74.021348 c 4.428385,7.670187 7.483584,12.961948 10.538783,18.253708"
        transform="matrix(-1,0,0,1,24.928044,2.8666697)" />
-    <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#005080;stroke-width:5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow)"
-       d="m -24.193899,74.021348 10.538783,18.253708"
-       id="path6"
-       inkscape:path-effect="#path-effect8"
-       inkscape:original-d="m -24.193899,74.021348 c 4.428385,7.670187 7.483584,12.961948 10.538783,18.253708"
-       transform="matrix(-1,0,0,1,51.386379,2.8666697)" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#005080;stroke-width:5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow)"
        d="m -24.193899,74.021348 10.538783,18.253708"
@@ -159,14 +152,22 @@
        d="m -16.980085,74.87939 c 4.852987,-3.961583 11.3027197,-5.90674 17.5368091,-5.288878 4.6618389,0.462036 9.1756001,2.326415 12.8046539,5.288878"
        id="path11"
        inkscape:path-effect="#path-effect12"
-       inkscape:original-d="m -16.980085,74.87939 c 5.845603,-1.948535 11.9695681,-3.340344 17.5368091,-5.288878 5.567241,-1.948535 8.3508613,3.340343 12.8046539,5.288878" />
+       inkscape:original-d="m -16.980085,74.87939 c 5.845603,-1.948535 11.9695681,-3.340344 17.5368091,-5.288878 5.567241,-1.948535 8.3508613,3.340343 12.8046539,5.288878"
+       transform="translate(30.1625,-3.1749999)" />
     <text
        xml:space="preserve"
-       transform="matrix(0.49203158,0,0,0.49203158,-49.672901,16.09669)"
+       transform="matrix(0.49203158,0,0,0.49203158,-17.922902,11.33419)"
        id="text12"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:42.6667px;line-height:1;font-family:'Stack Sans Headline';-inkscape-font-specification:'Stack Sans Headline, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect12);display:inline;opacity:1;fill:#505050;fill-opacity:1;stroke:none;stroke-width:11.3386;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="88.375"
          y="148.54905"
          id="tspan1">J</tspan></text>
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#505050;stroke-width:3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#RoundedArrow);marker-end:url(#RoundedArrow)"
+       d="m -16.980085,74.87939 c 4.852987,-3.961583 11.3027197,-5.90674 17.5368091,-5.288878 4.6618389,0.462036 9.1756001,2.326415 12.8046539,5.288878"
+       id="path5"
+       inkscape:path-effect="#path-effect7"
+       inkscape:original-d="m -16.980085,74.87939 c 5.845603,-1.948535 11.9695681,-3.340344 17.5368091,-5.288878 5.567241,-1.948535 8.3508613,3.340343 12.8046539,5.288878"
+       transform="translate(72.495836,-3.1749999)" />
   </g>
 </svg>
