@@ -44,13 +44,15 @@
   let title1 = []
   let title2 = []
   let sep = [ ]
-  if title.split(" ").len() > 1 { 
-    title1 = text(fill: h1Color, font: h1Font, eval(title.split(" ").at(0), mode: "markup"))
-    title2 = text(fill: h2Color, eval(title.split(" ").slice(1).join(" "), mode: "markup")) 
-  } else {
+  if title.len() == 0 { 
+    []
+  } else if title.split(" ").len() == 1 { 
     title1 = text(fill: h1Color, font: h1Font, eval(title.slice(0, 3), mode: "markup"))
     title2 = text(fill: h2Color, eval(title.slice(3), mode: "markup"))
     sep = []
+  } else {
+    title1 = text(fill: h1Color, font: h1Font, eval(title.split(" ").at(0), mode: "markup"))
+    title2 = text(fill: h2Color, eval(title.split(" ").slice(1).join(" "), mode: "markup")) 
   }
   place(top, heading(level:2, title1 + sep + title2), float: true) 
 }
@@ -81,13 +83,13 @@
   for (i, t) in arr.pos().enumerate() {
     if calc.rem(i, 2) == 0 {
       if i > 0 {
-        [ ❚ *#t*]
+        [#h(1fr)❚#h(1fr)*#t*]
       } else {
         [*#t*]
       }
     } else {
       if i > 0 {
-        [ ❚ #t]
+        [#h(1fr)❚#h(1fr)#t]
       } else {
         [#t]
       }
@@ -1297,7 +1299,34 @@ _Presubmission Open Seminar_
     ],
     w: (1fr, 2fr)
   )
+]
 
+#slide[
+  #title("Kondo Lattice Model and Phase Diagram")
+  #cols(
+    [
+      #focus[Model]: Two correlated layers + inter-layer hybridisation
+
+      - $W_f$: correlation within localised layer
+      - $J_perp$: inter-layer hybridisation
+    ],
+    img("HF-PD.pdf"),
+    w: (1fr, 0.5fr),
+  )
+
+  #cols(
+    [
+      #head[Phase Diagram Using Spin Correlations]
+
+      We analyse the _f_--layer and inter-layer #focus[spin correlation]
+
+      - #focus[_f_--layer] correlation is destroyed by large $J_perp$,
+      - #focus[inter-layer] replaces it.
+
+      Shows transfer of entanglement from Kondo screening to 
+    ],
+    img("HF-PD.pdf", w: 90%),
+  )
 ]
 
 #slide[
