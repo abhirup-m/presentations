@@ -4,9 +4,10 @@
 
 #let bgColor = rgb("EFECEC")
 #let fgColor = rgb("37353E")
-#let h1Color = rgb("213C51")
+#let h1Color = rgb("3C486B")
 #let h2Color = rgb("BF3131")
-#let focusColor = h1Color // rgb("204070")
+#let h2Trans = rgb("BF3131cc")
+#let focusColor = rgb("4e52a5")
 #let papers = yaml("papers.yml")
 #let h1Font = "Stack Sans Notch"
 #let h2Font = "Stack Sans Headline"
@@ -15,7 +16,7 @@
 
 #let Img(name, w: none, h: auto) = align(center, image(if name.contains("/") { "images/" + name.split("/").last() } else { "images/" + name }, width: if w == none { auto } else { w }, height: h))
 #let img(name, w: none, h: auto) = box(Img(name, w: w, h: h), width: 1fr)
-#let focus(it, under: true) = text(font: h2Font, weight: "black", fill: focusColor, if under { underline(it) } else { it }, size: 1em)
+#let focus(it, under: true) = text(weight: "extrabold", fill: focusColor, if under { underline(it) } else { it }, size: 1em)
 #let head(it) = align(center, smallcaps(text(font: "Barlow", weight: "extrabold", fill: fgColor, size: 1.2em, it))) + v(-1em)
 #let c(it) = align(center, it)
 #let authorise(authors) = {
@@ -39,17 +40,60 @@
   }
   return authorList
 }
-#let title(title) = { place(top, heading(level:2, if title.split(" ").len() > 1 { text(fill: h1Color, eval(title.split(" ").at(0), mode: "markup")) + [ ] + text(fill: h2Color, eval(title.split(" ").slice(1).join(" "), mode: "markup")) } else {title} ), float: true) }
+#let title(title) = { 
+  let title1 = []
+  let title2 = []
+  let sep = [ ]
+  if title.split(" ").len() > 1 { 
+    title1 = text(fill: h1Color, font: h1Font, eval(title.split(" ").at(0), mode: "markup"))
+    title2 = text(fill: h2Color, eval(title.split(" ").slice(1).join(" "), mode: "markup")) 
+  } else {
+    title1 = text(fill: h1Color, font: h1Font, eval(title.slice(0, 3), mode: "markup"))
+    title2 = text(fill: h2Color, eval(title.slice(3), mode: "markup"))
+    sep = []
+  }
+  place(top, heading(level:2, title1 + sep + title2), float: true) 
+}
 #let section(title) = { align(horizon, heading(level: 1, title))}
 #let bbox(..args, factor: 100%) = {
   set list(marker: square(width: 0.6em, fill: white), spacing: 1em)
-  scale(factor, box(inset: 1em, width: if args.pos().len() > 1 { args.pos().at(1) } else { auto }, align(center + horizon, text(fill: white, args.pos().at(0))), radius: 10pt, fill: gradient.linear(h1Color, fgColor, angle: 0deg), stroke: 0.2em + h2Color))
+  let bg = h1Color // gradient.linear(h1Color, fgColor, angle: 0deg)
+  let fg = rgb("E1E5EA")//white
+  let str = 0.2em + rgb("222831")//black
+  let wid = if args.pos().len() > 1 { args.pos().at(1) } else { auto }
+  scale(
+    factor, 
+    box(
+      inset: 0.7em, 
+      width: wid, 
+      align(center + horizon, text(weight: "medium", font: "Stack Sans Notch", fill: fg, args.pos().at(0))), 
+      radius: 3pt, 
+      fill: bg, 
+      stroke: str
+    )
+  )
 }
 #let cols(..items, w: ()) = align(center, grid(columns: if w.len() > 0 { w } else { items.pos().map(x => 1fr) }, gutter: 1em, align: center + horizon, ..items.pos()))
 #let point(angle, f:3) = rotate(angle, scale(f * 100%, math.arrow.r.double.long))
 #let unc(..args) = uncover(..args, update-pause: true)
 #let und(it, ..args) = underline(it, ..args)
-#let dager = {text(font: "Fira Math", size: 1.1em)[$dagger$]}
+#let seq(..arr) = {
+  for (i, t) in arr.pos().enumerate() {
+    if calc.rem(i, 2) == 0 {
+      if i > 0 {
+        [ ❚ *#t*]
+      } else {
+        [*#t*]
+      }
+    } else {
+      if i > 0 {
+        [ ❚ #t]
+      } else {
+        [#t]
+      }
+    }
+  }
+}
 
 #set page(paper: "presentation-16-9", fill: bgColor, margin: 1.5em)
 #show image: set align(bottom)
@@ -144,8 +188,8 @@ _Presubmission Open Seminar_
   ]
 ]
 
-#title("Outline of Thesis")
 #slide[
+  #title("Outline of Thesis")
   #grid(
     rows: auto,
     gutter: 1.2em,
@@ -235,13 +279,13 @@ _Presubmission Open Seminar_
   ],
   [
     #unc(from: 2)[
-      #place(auto, float: true, dx: 3em, bbox([topological properties\ (_topological insulators_)], factor: 90%))
+      #place(auto, float: true, dx: 3em, bbox([topological properties\ (_topological insulators_)], factor: 100%))
     ]
     #unc(from: 3)[
-    #place(auto, float: true, dx:0.5em, dy: -3.2em, bbox([non-local entanglement (_spin liquids_)], factor: 90%))
+    #place(auto, float: true, dx:0.5em, dy: -2.5em, bbox([non-local entanglement (_spin liquids_)], factor: 100%))
     ]
     #unc(from: 4)[
-    #place(auto, float: true, dx:-3em, dy: -5em, bbox([collective excitations (_strange metals_)], factor: 90%))
+    #place(auto, float: true, dx:-3em, dy: -3.5em, bbox([collective excitations (_strange metals_)], factor: 100%))
     ]
   ],
   unc(from: 3)[
@@ -250,7 +294,7 @@ _Presubmission Open Seminar_
   ]
   )
 
-  #v(-5em)
+  #v(-3.5em)
   #unc(from: 5)[
     Needs dramatically #focus[new ideas] and methods!
     - #focus[non-local/collective] order parameters for transition
@@ -335,9 +379,10 @@ _Presubmission Open Seminar_
         Schematic phase diagram of *copper oxide materials*\
 
         #v(2em)
-        #unc(13)[
+        #unc(12)[
         - Zoo of correlated phases!
-        - Mechanism, inter-relation *not settled*
+        - Mechanism underlying various phases: *not settled*
+        - Crossover/transition between various phases: *not settled*
         ]
       ],
       h(2em) + img("cuprates.svg", w: 100%),
@@ -369,7 +414,7 @@ _Presubmission Open Seminar_
       #show: pause
 
       #v(1fr)
-      *Hamiltonian*: $-t sum_(i, j, sigma) \( c^dager_(i, sigma) c_(j, sigma) + "h.c." \) + sum_i U n_(i, arrow.t) n_(i, arrow.b)$
+      $ H = -t sum_(i, j, sigma) \( c^dagger_(i, sigma) c_(j, sigma) + "h.c." \) + sum_i U n_(i, arrow.t) n_(i, arrow.b) $
       #v(1fr)
     ]
     // [
@@ -386,13 +431,13 @@ _Presubmission Open Seminar_
     //
     //   #show: pause
     //
-    //   *Hamiltonian*: $ H_"Hub" + H_"hop" + V sum_(i,sigma) f^dager_(i,sigma) c_(i,sigma) + "h.c."$
+    //   *Hamiltonian*: $ H_"Hub" + H_"hop" + V sum_(i,sigma) f^dagger_(i,sigma) c_(i,sigma) + "h.c."$
     //
     //   #v(1fr)
     // ],
   )
   #show: pause
-  #place(center + top, dy: 4em, bbox(factor: 120%, [$t$ ==> Delocalisation\ $U$ ==> Localisation]))
+  #place(center + top, dy: 4em, bbox(factor: 120%, [$t$ ⟹  Delocalisation\ $U$ ⟹ Localisation]))
   #show: pause
   #place(center + bottom, dy: -4em, bbox(factor: 120%, [
     🔥~~Competition\
@@ -560,9 +605,9 @@ _Presubmission Open Seminar_
     )
   ]
   #unc(6)[#place(center + horizon, bbox(factor: 120%, [
-    Kondo screening ==> Metallicity
+    Kondo screening ⟹ Metallicity
     #v(-0.2em)
-    Local moment ==> Mott insulation
+    Local moment ⟹ Mott insulation
   ]))]
 ]
 
@@ -862,10 +907,10 @@ _Presubmission Open Seminar_
       Many-electron translation:\
       *Impurity --> Lattice*
 
-      $ H_"lat" = sum_i tilde(T)\(r_i\) H_"aux" tilde(T)^dager \(r_i\) $
+      $ H_"lat" = sum_i tilde(T)\(r_i\) H_"aux" tilde(T)^dagger \(r_i\) $
 
       #v(-1em)
-      $ -t sum_(<i,j>) \(c^dager_i c_j + "h.c."\) + U sum_i n_(i, arrow.t)n_(i, arrow.b) + sum_(<i,j>) S_i dot S_j $
+      $ -t sum_(<i,j>) \(c^dagger_i c_j + "h.c."\) + U sum_i n_(i, arrow.t)n_(i, arrow.b) + sum_(<i,j>) S_i dot S_j $
 
     ],
     img("./images/tiledHamiltonian.svg"),
@@ -1146,7 +1191,7 @@ _Presubmission Open Seminar_
 
       #img("qfi_77-2000.pdf")
     ],
-    w: (1fr, 0.6fr),
+    w: (1fr, 1fr),
   )
 ]
 
@@ -1193,25 +1238,19 @@ _Presubmission Open Seminar_
   #title("Mott Criticality As Holon-Doublon Deconfinement")
 
   #only(1)[
-    #focus[FL]: short-range entanglement; electrons as carriers; vanishing self-energy
+    #focus[Fermi Liquid]: #seq("electrons as carriers", "short-range entanglement", "vanishing self-energy")
 
     #img("mottPictureCuprates1.svg", w: 70%)
   ]
 
   #only(2)[
-    #focus[PG onset]: holons-doubles nucleate as carriers; large self-energy for electrons
-
-    #img("mottPictureCuprates2.svg", w: 70%)
-  ]
-
-  #only(3)[
-    #focus[deep in PG]: holons-doubles as carriers; noisy environment for electrons; long-range entanglement
+    #focus[Pseudogap]: #seq("holons-doublons deconfined", "\"noisy\" environment", "long-range entanglement")
 
     #img("mottPictureCuprates3.svg", w: 70%)
   ]
 
-  #only(4)[
-    #focus[MI]: holons-doubles bound locally, cannot propagate
+  #only(3)[
+    #focus[Mott insulator]: #seq("holons-doublons confined", "hard gap in spectrum", "only spin physics active")
 
     #img("mottPictureCuprates4.svg", w: 70%)
   ]
@@ -1221,8 +1260,44 @@ _Presubmission Open Seminar_
 #slide[
 #section[Competing tendencies In a Multi-Orbital System]
 == Kondo screening vs. Mott localisation in a Heavy-Fermion model\ \
-*(in progress)*\
+*(IN PROGRESS)*\
 #authorise(papers.Mukherjee2026.author)
+]
+
+#slide[
+  #title("Heavy Fermions: When Itineracy Meets Localisation")
+
+  #cols(
+    [
+      Intermetallic alloys containing rare earth metals and actinides: #focus[_f_--electrons]
+
+      - each site can host two electrons: #focus[one light, one heavy]
+      - delocalised electrons _Kondo screen_ localised electrons and "drag" them ==> large number of #focus[heavy carriers]
+    ],
+    img("heavyFermions.svg"),
+    w: (1.5fr, 1fr),
+  )
+
+  #v(1fr)
+  #cols(
+    img("HFPhaseDiagram.svg"),
+    [
+      #v(1fr)
+      #head[QCP, non-Fermi liquid, Superconductivity]
+      #v(0.5em)
+      localised electrons order magnetically across transition
+
+      #head[Questions]
+      #v(0.5em)
+      - Source of the #focus[non-Fermi liquid] above the QCP?
+      - How do the heavy carriers #focus[morph] across the QCP?
+      - How does Kondo screening #focus[breakdown] across the QCP?
+      #v(1fr)
+
+    ],
+    w: (1fr, 2fr)
+  )
+
 ]
 
 #slide[
@@ -1306,29 +1381,102 @@ _Presubmission Open Seminar_
   ]))
 ]
 
-// #slide[
-// ]
-//
-// #slide[
-// #section[Closing Remarks]
-// ]
-//
-// #slide[
-//   #title[Summary of Primary Results]
-//
-// ]
-//
-// #slide[
-//   #title[Main Conclusions and Takeaways]
-//
-// ]
-//
-// #slide[
-//   #title[Future Work]
-//
-// ]
+#slide[
+#section[Closing Remarks]
+]
 
-// TODO: Remove PAM and Strange metal discussion in intro if too long
+#slide[
+  #title("Key Results")
+  #only(2)[
+    #place(top + center, head[Impurity model with attractive bath correlation is a reasonable auxiliary model for capturing the local physics of Mott transition.])
+    #v(1fr)
+
+    #img("./images/esiamSchematic.svg", w: 40%)
+    #place(center + horizon, dx: -10em, dy: -1em, point(140deg, f: 4))
+    #img("./images/Singlet2.svg")
+    #h(9em)
+    #img("./images/localMoment.svg")
+
+    #place(center + horizon, dx: 10em, dy: -1em, point(40deg, f: 4))
+
+  ]
+  #only(3)[
+    #place(top + center, head[Manybody Translation ("tiling") With Lattice-Embedded Impurity Model Encodes Spatial Fluctuations and Lattice Geometry])
+  
+    #v(1fr)
+    #img("./images/tilingPlan.svg", w: 80%)
+
+    #img("./images/tiledHamiltonian.svg", w: 50%)
+    // #v(1fr)
+
+  ]
+  #only(4)[
+    #place(top + center, head[Mott Transition in 2D Involves Confinement of Holon-Doublon Excitations Through a Pseudogap With Long-Range Multipartite Correlations])
+  
+    #v(1fr)
+    #img("mottPictureCuprates4.svg", w: 60%)
+    // #v(1fr)
+  ]
+
+  #only(5)[
+    #place(top + center, head[Metal-Insulator Transition In Dirac Electrons Is Associated With The Inversion of Curvature Of An Emergent Space, With a Wormhole Geometry Separating Them])
+  
+    #v(1fr)
+    #img("images/wormhole_gapless.svg",w: 100%)
+    #h(3em)
+    #img("images/wormhole_gapped.svg",w: 100%)
+    #v(1fr)
+  ]
+  #only(5)[
+    #head[]
+  ]
+]
+
+#slide[
+  #title("Outline of Thesis")
+  #grid(
+    rows: auto,
+    gutter: 1.2em,
+    align: left+top,
+    grid(columns: (1fr, 0.6fr), gutter:1em, [*Chap 1*.~Introduction#h(1fr)*Chap 2*.~Methods and Preliminaries], []),
+    grid(columns: (1fr, 0.05fr, 0.55fr), align:(left, center, right), gutter:1em, [*Chap 3*.~Kondo frustration via charge fluctuations: Mott localisation in $D=infinity$], line(angle: 90deg, stroke: 0.2em + h2Color), emph[Developed auxiliary model for Mott transition in $D=infinity$]),
+    grid(columns: (1fr, 0.05fr, 0.55fr), align:(left, center, right), gutter:1em, [*Chap 4*.~A New Auxiliary Model Mapping For Correlated Lattice Models], line(angle: 90deg, stroke: 0.2em + h2Color), emph[Developed formalism for applying auxiliary model to 2D]),
+    grid(columns: (1fr, 0.05fr, 0.55fr), align:(left, center, right), gutter:1em, [*Chap 5*.~Mott Criticality as the Confinement Transition of a Pseudogap-Mott Metal in $D=2$], line(angle: 90deg, stroke: 0.2em + h2Color), emph[Applied formalism to the problem of Mott transition in 2D]),
+    grid(columns: (1fr, 0.05fr, 0.55fr), align:(left, center, right), gutter:1em, [*Chap 6*.~Competing tendencies In Heavy Fermion Systems: Kondo screening vs. Mott localisation], line(angle: 90deg, stroke: 0.2em + h2Color), emph[Applied formalism to the problem of heavy fermions in 2D]),
+    grid(columns: (1fr, 0.05fr, 0.55fr), align:(left, center, right), gutter:1em, [*Chap 7*.~Holographic entanglement renormalisation for fermionic quantum matter], line(angle: 90deg, stroke: 0.2em + h2Color), emph[Metal-insulator transition and the holographic principle]),
+    grid(columns: (1fr, 0.05fr, 0.55fr), gutter:1em, [*Chap 8*.~Conclusions], []),
+  )
+]
+
+#slide[
+  #title("Open Questions & Future Work")
+
+  #v(1fr)
+  - Extend the tiling formalism to capture topological effects
+  - Study the effects of doping on the holon-doublon deconfinement in the pseudogap
+  - Obtain finite temperature characteristics
+  #v(1fr)
+
+  #v(2fr)
+]
+
+#page(margin: 2em,[
+= A New Auxiliary Model Approach For Fermionic Criticality
+== Insights on Mottness in Strongly Correlated Systems
+#v(0.5em)
+#cols(
+  img("iiserk.png"),
+  scale(300%, head[Thank You!]),
+  img("epqm.svg", w:90%),
+  w: (0.2fr, 1fr, 0.2fr)
+)
+])
+
+
+// TODO
+// IMPORTANT: ADD CITATIONS
+// Remove PAM and Strange metal discussion in intro if too long
 // Take stock at the end about whether to put in one or two slides on the URG
 // Add more bboxes (punchlines) in Mott metal slides
 // Add more detailed description of cuprates beside phase diagram
+// Talk about the symmetry/topological order paramter/chiral anomaly aspects

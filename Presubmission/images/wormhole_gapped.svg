@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="251.59279mm"
-   height="124.10191mm"
-   viewBox="0 0 251.59278 124.10192"
+   width="255.09859mm"
+   height="124.0647mm"
+   viewBox="0 0 255.09858 124.0647"
    version="1.1"
    id="svg1"
-   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
    sodipodi:docname="wormhole_gapped.svg"
    inkscape:export-filename="wormhole.png"
    inkscape:export-xdpi="96"
@@ -29,16 +29,22 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.48315491"
-     inkscape:cx="578.48941"
+     inkscape:cx="590.90779"
      inkscape:cy="524.67644"
      inkscape:window-width="1920"
-     inkscape:window-height="1019"
+     inkscape:window-height="1043"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
      id="defs1">
+    <rect
+       x="-95.207558"
+       y="631.26752"
+       width="842.37994"
+       height="525.7113"
+       id="rect1" />
     <inkscape:path-effect
        effect="spiro"
        id="path-effect6"
@@ -244,8 +250,8 @@
     <rect
        x="800.39099"
        y="189.04309"
-       width="286.39764"
-       height="154.86658"
+       width="316.51047"
+       height="187.98225"
        id="rect9-5-6" />
     <marker
        style="overflow:visible"
@@ -306,7 +312,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(179.63943,-132.4617)">
+     transform="translate(183.14522,-132.49892)">
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:url(#linearGradient50);stroke-width:2.63505;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        d="m -91.026256,131.87932 22.735734,1.09512 c 8.499187,0.40938 17.03553,0.87287 25.362786,2.62232 8.327255,1.74946 16.462863,4.79898 23.428818,9.68562 9.332832,6.54701 16.3339015,16.34968 19.4989160198792,27.30175"
@@ -325,49 +331,37 @@
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-322.56425,106.27015)"
        id="text6"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.3333px;line-height:0.9;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';text-align:center;white-space:pre;shape-inside:url(#rect7);display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#404040;stroke-width:3.77953;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"><tspan
-         x="912.30367"
-         y="292.63821"
-         id="tspan2"><tspan
-           style="fill:#606060;stroke:none"
-           id="tspan1">UV</tspan></tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:46.6667px;line-height:0.9;font-family:'Stack Sans Headline';-inkscape-font-specification:'Stack Sans Headline, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect7);display:inline;opacity:1;fill:#505050;fill-opacity:1;stroke:#404040;stroke-width:3.77953;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"><tspan
+         x="911.40767"
+         y="290.23014"
+         id="tspan9"><tspan
+           style="stroke:none"
+           id="tspan8">UV</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-194.78223,106.34847)"
        id="text7"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.3333px;line-height:0.9;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';text-align:center;white-space:pre;shape-inside:url(#rect8);display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#404040;stroke-width:3.77953;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"><tspan
-         x="920.14768"
-         y="292.63821"
-         id="tspan4"><tspan
-           style="fill:#606060;stroke:none"
-           id="tspan3">IR</tspan></tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:46.6667px;line-height:0.9;font-family:'Stack Sans Headline';-inkscape-font-specification:'Stack Sans Headline, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect8);display:inline;opacity:1;fill:#505050;fill-opacity:1;stroke:#404040;stroke-width:3.77953;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"><tspan
+         x="921.88433"
+         y="290.23014"
+         id="tspan13"><tspan
+           style="stroke:none"
+           id="tspan12">IR</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-396.6215,125.75001)"
        id="text8-5-8"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:0.9;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';text-align:center;white-space:pre;shape-inside:url(#rect9-5-6);display:inline;fill:#606060;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"><tspan
-         x="817.80974"
-         y="218.20963"
-         id="tspan5">entanglement </tspan><tspan
-         x="860.78978"
-         y="254.20963"
-         id="tspan6">between 
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:46.6667px;line-height:0.9;font-family:'Stack Sans Headline';-inkscape-font-specification:'Stack Sans Headline, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect9-5-6);display:inline;fill:#505050;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"><tspan
+         x="805.62619"
+         y="222.60709"
+         id="tspan14">entanglement </tspan><tspan
+         x="857.49644"
+         y="264.60712"
+         id="tspan15">between 
 </tspan><tspan
-         x="856.46986"
-         y="290.20963"
-         id="tspan7">UV and IR</tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,-250.94545,82.982066)"
-       id="text9"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:0.9;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';text-align:center;white-space:pre;shape-inside:url(#rect10);display:inline;opacity:1;fill:#606060;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"><tspan
-         x="827.34486"
-         y="218.20963"
-         id="tspan8">disconnected spaces
-</tspan><tspan
-         x="934.40503"
-         y="254.20963"
-         id="tspan9">(gapped)</tspan></text>
+         x="856.23651"
+         y="306.60715"
+         id="tspan16">UV and IR</tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:bevel;stroke-dasharray:2, 2;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
        d="M -90.826256,59.916704 H 90.826254"
@@ -392,10 +386,10 @@
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-254.29914,181.51962)"
        id="text8-4"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:0.9;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';text-align:center;white-space:pre;shape-inside:url(#rect9-7);display:inline;fill:#606060;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"><tspan
-         x="931.96699"
-         y="218.20963"
-         id="tspan10">RG flow</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:46.6667px;line-height:0.9;font-family:'Stack Sans Headline';-inkscape-font-specification:'Stack Sans Headline, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect9-7);display:inline;fill:#505050;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"><tspan
+         x="916.67024"
+         y="222.60709"
+         id="tspan17">RG flow</tspan></text>
     <path
        style="fill:#007aa9;fill-opacity:1;stroke:#404040;stroke-width:3;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow-1);paint-order:markers stroke fill"
        d="M -51.992218,71.403984 -5.0160989e-7,71.718436"
@@ -403,5 +397,17 @@
        inkscape:path-effect="#path-effect55-6"
        inkscape:original-d="M -51.992218,71.403984 C -34.66148,71.508802 -17.33074,71.613619 -5.0160989e-7,71.718436"
        transform="translate(33.125495,173.67698)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-66.687516,-30.087099)"
+       id="text1"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:46.6667px;line-height:1.1;font-family:'Stack Sans Headline';-inkscape-font-specification:'Stack Sans Headline, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-decoration-color:#000000;letter-spacing:0.1px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#505050;fill-opacity:1;stroke-width:18.8976;stroke-dasharray:18.8976, 18.8976;paint-order:markers stroke fill"><tspan
+         x="168.04565"
+         y="669.49837"
+         id="tspan18">disconnected 
+</tspan><tspan
+         x="244.92905"
+         y="720.83175"
+         id="tspan19">spaces</tspan></text>
   </g>
 </svg>

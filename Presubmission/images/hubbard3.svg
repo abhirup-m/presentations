@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.24787674"
-     inkscape:cx="1341.3925"
-     inkscape:cy="893.58929"
+     inkscape:zoom="0.70110129"
+     inkscape:cx="457.13794"
+     inkscape:cy="401.51117"
      inkscape:window-width="1920"
      inkscape:window-height="1043"
      inkscape:window-x="0"
@@ -44,11 +44,6 @@
   </sodipodi:namedview>
   <defs
      id="defs1">
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect30"
-       is_visible="true"
-       lpeversion="1" />
     <inkscape:path-effect
        effect="spiro"
        id="path-effect28"
@@ -155,7 +150,7 @@
        inkscape:original-d="m -32.77488,117.72044 c 8.428209,0 25.2846254,0 25.2846254,0"
        transform="matrix(1.3432836,0,0,1,208.39436,84.666671)" />
     <circle
-       style="opacity:1;fill:#808080;fill-opacity:1;stroke:none;stroke-width:2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       style="opacity:1;fill:#f0a010;fill-opacity:1;stroke:none;stroke-width:2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
        id="circle15"
        cx="181.05736"
        cy="188.66835"
@@ -175,21 +170,13 @@
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:40px;line-height:0.6;font-family:'Stack Sans Headline';-inkscape-font-specification:'Stack Sans Headline, Medium';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-decoration-color:#000000;letter-spacing:0.1px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect18);display:inline;opacity:1;fill:#003070;fill-opacity:1;stroke:none;stroke-width:11.3386;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"><tspan
          x="131.80737"
          y="360.80829"
-         id="tspan2">t</tspan></text>
+         id="tspan1">t</tspan></text>
     <circle
        style="opacity:1;fill:#f0a010;fill-opacity:1;stroke:none;stroke-width:2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
        id="circle30"
        cx="106.97398"
        cy="188.66835"
        r="7.5476494" />
-    <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#505050;stroke-width:3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow);paint-order:markers stroke fill"
-       d="m -8.2450199,97.774821 c 1.9306646,-1.994974 4.0873377,-3.771057 6.4155009,-5.283354 5.2785278,-3.428754 11.4470549,-5.474322 17.728413,-5.878983 6.281359,-0.404662 12.661367,0.832497 18.336214,3.555607"
-       id="path17"
-       inkscape:path-effect="#path-effect30"
-       inkscape:original-d="m -8.2450199,97.774821 c 3.962515,-3.71093 2.0756014,-1.383735 6.4155009,-5.283354 4.3398969,-3.899619 20.340358,-5.782712 36.064627,-2.323376"
-       sodipodi:nodetypes="csc"
-       transform="matrix(-1,0,0,1,166.68998,84.666671)" />
     <text
        xml:space="preserve"
        transform="matrix(0.31098354,0,0,0.31098354,-81.167674,88.253277)"
@@ -197,13 +184,13 @@
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:40px;line-height:1;font-family:'Stack Sans Headline';-inkscape-font-specification:'Stack Sans Headline, Medium';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-decoration-color:#000000;letter-spacing:0.1px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect30-7);display:inline;fill:#003070;fill-opacity:1;stroke:none;stroke-width:11.3386;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"><tspan
          x="429.51914"
          y="238.82001"
-         id="tspan3">Coulomb 
+         id="tspan2">Coulomb 
 </tspan><tspan
          x="432.26909"
          y="278.82001"
-         id="tspan4">repulsion</tspan></text>
+         id="tspan3">repulsion</tspan></text>
     <circle
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#808080;stroke-width:2;stroke-dasharray:4, 2;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       style="opacity:1;fill:#f0a010;fill-opacity:1;stroke:none;stroke-width:2;stroke-dasharray:4, 2;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
        id="circle31"
        cx="123.9073"
        cy="188.66835"
@@ -215,6 +202,6 @@
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:40px;line-height:0.6;font-family:'Stack Sans Headline';-inkscape-font-specification:'Stack Sans Headline, Medium';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-decoration-color:#000000;letter-spacing:0.1px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect31);display:inline;opacity:1;fill:#003070;fill-opacity:1;stroke:none;stroke-width:11.3386;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"><tspan
          x="125.8474"
          y="360.80829"
-         id="tspan5">U</tspan></text>
+         id="tspan4">U</tspan></text>
   </g>
 </svg>
