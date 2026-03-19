@@ -112,6 +112,7 @@
 #set list(marker: square(width: 0.6em, fill: fgColor), spacing: 1em)
 #show list: set align(left)
 #set underline(offset: 4pt, stroke: 2pt)
+#bibliography("references.bib")
 
 #page(margin: 2em,[
 = A New Auxiliary Model Approach For Fermionic Criticality
