@@ -25,11 +25,11 @@
      inkscape:document-units="mm"
      showgrid="false"
      showguides="false"
-     inkscape:zoom="0.2297382"
-     inkscape:cx="2346.1488"
-     inkscape:cy="10.881952"
+     inkscape:zoom="0.23011493"
+     inkscape:cx="1592.6824"
+     inkscape:cy="727.89713"
      inkscape:window-width="1920"
-     inkscape:window-height="1123"
+     inkscape:window-height="1043"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -164,7 +164,7 @@
        height="242.32977"
        x="931.46332"
        y="16.032103"
-       inkscape:export-filename="cuprates2.svg"
+       inkscape:export-filename="cuprates1.svg"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" /><path
        class="UnoptimicedTransforms"
@@ -342,7 +342,7 @@
        cy="258.88745"
        rx="13.661839"
        ry="13.056975" /><rect
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#606080;stroke-width:2.85891;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#bf3131;stroke-width:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect345"
        width="81.912834"
        height="56.909126"
@@ -444,7 +444,7 @@
          id="tspan24"><tspan
            style="font-weight:normal;-inkscape-font-specification:'Stack Sans Headline, Normal';stroke:none"
            id="tspan23">Metal</tspan></tspan></text><rect
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#606080;stroke-width:3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#bf3131;stroke-width:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect376"
        width="101.78398"
        height="56.590111"
