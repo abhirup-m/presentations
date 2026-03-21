@@ -17,7 +17,7 @@
 #let Img(name, w: none, h: auto) = align(center, image(if name.contains("/") { "images/" + name.split("/").last() } else { "images/" + name }, width: if w == none { auto } else { w }, height: h))
 #let img(name, w: none, h: auto) = box(Img(name, w: w, h: h), width: 1fr)
 #let focus(it, under: true) = text(weight: "extrabold", fill: focusColor, if under { underline(it) } else { it }, size: 1em)
-#let head(it) = align(center, smallcaps(text(font: "Barlow", weight: "extrabold", fill: fgColor, size: 1.2em, it))) + v(-1em)
+#let head(it) = align(center, smallcaps(text(font: "Barlow", weight: "extrabold", fill: fgColor, size: 1.2em, it))) + v(-0.5em)
 #let c(it) = align(center, it)
 #let authorise(authors) = {
   let authorList = []
@@ -59,19 +59,15 @@
 #let section(title) = { align(horizon, heading(level: 1, title))}
 #let bbox(..args, factor: 100%) = {
   set list(marker: square(width: 0.6em, fill: white), spacing: 1em)
-  let bg = h1Color // gradient.linear(h1Color, fgColor, angle: 0deg)
-  let fg = rgb("E1E5EA")//white
-  let str = 0.2em + rgb("222831")//black
-  let wid = if args.pos().len() > 1 { args.pos().at(1) } else { auto }
   scale(
     factor, 
     box(
       inset: 0.7em, 
-      width: wid, 
-      align(center + horizon, text(weight: "medium", font: "Stack Sans Notch", fill: fg, args.pos().at(0))), 
+      width: if args.pos().len() > 1 { args.pos().at(1) } else { auto }, 
       radius: 3pt, 
-      fill: bg, 
-      stroke: str
+      fill: h1Color, 
+      stroke: 0.2em + rgb("222831"),
+      align(center + horizon, text(font: h1Font, fill: white, args.pos().at(0)))
     )
   )
 }
@@ -104,7 +100,6 @@
 
 #set par(leading: 0.5em)
 #let slideTop(it) = align(top, slide(it))
-// #show emph: set text(font: "bitter")
 #show heading.where(level: 1): set text(fill: h1Color, font: h1Font, size: 1.9em)
 #show heading.where(level: 1): set par(leading: 0.3em)
 #show heading.where(level: 2): set text(fill: h2Color, font: h2Font, size: 1.4em)
@@ -112,7 +107,10 @@
 #set list(marker: square(width: 0.6em, fill: fgColor), spacing: 1em)
 #show list: set align(left)
 #set underline(offset: 4pt, stroke: 2pt)
-#bibliography("references.bib")
+#set cite(form: "full", supplement: none)
+
+#show bibliography: none
+#bibliography("references.bib", style: "style.csl")
 
 #page(margin: 2em,[
 = A New Auxiliary Model Approach For Fermionic Criticality
@@ -135,24 +133,9 @@ _Presubmission Open Seminar_
 )
 ])
 
-#title("Acknowledgements")
 #slide[
-  #cols(
-    img("group1.jpeg", w: 100%),
-    img("group2.jpeg", w: 85%),
-    img("group4.png", w: 85%)
-  )
-
-  #cols(
-    img("group3.jpeg"),
-    img("group5.svg"),
-    img("group6.svg"),
-    w: (1fr, 1.3fr, 0.8fr)
-  )
-]
-
-#slide[
-  #title("Publications")
+  #only(1)[#title("Publications (in thesis)")]
+  #only(2)[#title("Publications (not in thesis)")]
 
   #let items = ()
   #for key in ("Mukherjee2023", "Mukherjee2024", "Mukherjee2025", "Mukherjee2026") {
@@ -212,105 +195,74 @@ _Presubmission Open Seminar_
 // == What's the Big Idea?
 ]
 
-#slideTop[
-  #title("What Do Condensed Matter Theorists Do?")
-
-  #show: pause
-  #head[Explain Experiments]
-  Build and solve theoretical models that explain observations
-
-  #focus[Examples:] Quantum Hall effect, superconductivity
-
-  #v(1fr)
-  #show: pause
-  #head[Predict Experiments]
-  Identify interesting theoretical models that predict novel phenomena
-
-  #focus[Examples:] Abrikosov vortex lattice, spin liquids
-
-  #v(1fr)
-  #show: pause
-  #head[Classify experiments]
-  Come up with frameworks that explain a large class of phenomena
-
-  #focus[Examples:] Landau theory of phase transition
-  #v(1fr)
-  // #cols(
-  //   only(1, 2, [
-  //     #head[Explain Experiments]
-  //     - Build and solve theoretical models for experiments
-  //     - Compute measurables to explain observations
-  //     - Kondo effect, quantum Hall effect, superconductivity
-  //     #img("kondoExample.svg", w:70%)
-  //     #v(1fr)
-  //   ])
-  //   + only(3, [
-  //     #head[Predict Experiments]
-  //   - Identify interesting theoretical models for new systems
-  //   - Predict novel phenomena by tweaking models and parameters
-  //   - Abrikosov vortex lattice, spin liquids
-  //   #img("abrikosovLattice.jpg", w:60%)
-  //   #v(1fr)
-  //   ]),
-  //   only(2, [
-  //     #head[Predict Experiments]
-  //   - Identify interesting theoretical models for new systems
-  //   - Predict novel phenomena by tweaking models and parameters
-  //   - Abrikosov vortex lattice, spin liquids
-  //   #img("abrikosovLattice.jpg", w:60%)
-  //   #v(1fr)
-  //   ])
-  //   + only(3, [
-  //     #head[Classify experiments]
-  //   - organize experimental signatures into universal principles
-  //   - come up with frameworks that explain a large class of phenomena
-  //   - Examples: Landau theory of phase transition
-  //   #img("mexicanHat.jpg", w:70%)
-  //   #v(1fr)
-  //   ])
-  // )
-]
+// #slideTop[
+//   #title("What Do Condensed Matter Theorists Do?")
+//
+//   #show: pause
+//   #head[Explain Experiments]
+//   Build and solve theoretical models that explain observations
+//
+//   #focus[Examples:] Quantum Hall effect, superconductivity
+//
+//   #v(1fr)
+//   #show: pause
+//   #head[Predict Experiments]
+//   Identify interesting theoretical models that predict novel phenomena
+//
+//   #focus[Examples:] Abrikosov vortex lattice, spin liquids
+//
+//   #v(1fr)
+//   #show: pause
+//   #head[Classify experiments]
+//   Come up with frameworks that explain a large class of phenomena
+//
+//   #focus[Examples:] Landau theory of phase transition
+//   #v(1fr)
+// ]
 
 #slide[
   #title("Quantum Materials")
   Class of materials that #focus[cannot] be well-approximated by "classical" description
 
+  // #v(1fr)
   #cols(
   unc(from: 2)[
-    #v(-4em)
+    // #v(-4em)
     #img("graphene.jpg", w:80%)
   ],
   [
     #unc(from: 2)[
-      #place(auto, float: true, dx: 3em, bbox([topological properties\ (_topological insulators_)], factor: 100%))
+      #bbox([topological properties\ (_topological insulators_)], factor: 100%)
     ]
     #unc(from: 3)[
-    #place(auto, float: true, dx:0.5em, dy: -2.5em, bbox([non-local entanglement (_spin liquids_)], factor: 100%))
+      #bbox([non-local entanglement (_spin liquids_)], factor: 100%)
     ]
     #unc(from: 4)[
-    #place(auto, float: true, dx:-3em, dy: -3.5em, bbox([collective excitations (_strange metals_)], factor: 100%))
+      #bbox([collective excitations (_strange metals_)], factor: 100%)
     ]
   ],
   unc(from: 3)[
-    #v(-4em)
+    // #v(-4em)
     #img("QSL.jpg", w: 80%)
   ]
   )
+  #v(1fr)
 
   #v(-3.5em)
   #unc(from: 5)[
-    Needs dramatically #focus[new ideas] and methods!
-    - #focus[non-local/collective] order parameters for transition
+    Needs #focus[new ideas] and methods!
     - ability to work with a large number of #focus[interacting particles]
-    - ability to work  with #focus[emergent] degrees of freedom
+    - ability to work  with #focus[emergent] degrees of freedom and #focus[non-local/collective] order parameters
   ]
 
 ]
 
 #slide[
-  #title("Strongly Correlated Phenomena")
+  #title("Strongly Correlated Phenomena in Quantum Materials")
 
-  Materials with strong #focus[local] correlation, #focus[low dimensionality], multiple electronic #focus[orbitals]
+  - Phenomena arising from #focus[inter-electron repulsion] and many-electron effects
+
+  - materials with strong local #focus[correlation], #focus[low dimensionality], multiple electronic #focus[orbitals]
   // #only(from:1, to: 2)[
   // #cols(
   //   unc(2)[
@@ -346,7 +298,7 @@ _Presubmission Open Seminar_
         ],
       )
     ]
-    #unc(6, place(center + horizon, bbox(factor: 120%, [How do we describe the transition\ from a metal into a Mott insulator?])))
+    #unc(6, place(center + horizon, bbox(factor: 120%, [How do  the electrons morph when\ a metal gives way to a Mott insulator?])))
 
   ]
   #only(from: 7, to: 10)[
@@ -375,27 +327,27 @@ _Presubmission Open Seminar_
     #unc(10)[#place(center + horizon, bbox(factor: 120%, [Who is carrying current\ in strange metals?]))]
 
   ]
-  #only(11, 12)[
-
-    #cols(
-      [
-        A canonical example: *high-$T_c$ cuprate*\
-        - Layered #focus[Cu-O planes] --> effectively 2D electrons
-        - Cu 3d orbitals --> #focus[localized electrons] --> strong correlations
-
-        #unc(12)[
-        #v(1fr)
-        #head[Several competing energy scales]
-        #v(1fr)
-        - Zoo of correlated phases!
-        - Mechanism underlying various phases: *not settled*
-        - Crossover/transition between various phases remains unresolved
-        ]
-      ],
-      img("cuprates.svg"),
-      w: (1fr, 1.1fr),
-    )
-  ]
+  // #only(11, 12)[
+  //
+  //   #cols(
+  //     [
+  //       A canonical example: *high-$T_c$ cuprate*\
+  //       // - Layered #focus[Cu-O planes] --> effectively 2D electrons
+  //       // - Cu 3d orbitals --> #focus[localized electrons] --> strong correlations
+  //
+  //       #unc(12)[
+  //       // #v(1fr)
+  //       #head[Several competing energy scales]
+  //       // #v(1fr)
+  //       - Zoo of correlated phases!
+  //       - Mechanism underlying various phases: *not settled*
+  //       - Crossover/transition between various phases remains unresolved
+  //       ]
+  //     ],
+  //     img("cuprates.svg"),
+  //     w: (1fr, 1.1fr),
+  //   )
+  // ]
 ]
 
 #slide[
@@ -408,7 +360,6 @@ _Presubmission Open Seminar_
       #show: pause
 
       - Correlated electrons hopping on a lattice
-      #show: pause
 
       - Hopping probability is $t$.
 
@@ -444,11 +395,12 @@ _Presubmission Open Seminar_
     // ],
   )
   #show: pause
-  #place(center + top, dy: 4em, bbox(factor: 120%, [t ⟹  Delocalisation\ U ⟹ Localisation]))
-  #show: pause
-  #place(center + bottom, dy: -4em, bbox(factor: 120%, [
-    🔥~~Competition\
-    🫂~~Correlations
+  #place(center + horizon, bbox(factor: 120%, [
+    t ⟹  Delocalisation
+
+    U ⟹ Localisation
+
+    🔥~~Competition
   ]))
 
 
@@ -471,29 +423,29 @@ _Presubmission Open Seminar_
   )
   #v(2fr)
 
-  // #show: pause
-  // #v(1fr)
-  // #cols(
-  //   head[Example:\ Mean-field solution\ of Ising model],
-  //   [
-  //     #img("isingAux1.svg")
-  //     $ H = sum_(i,j)J_(i,j)S_i^z S_j^z $
-  //   ],
-  //   [
-  //     #show: pause
-  //     *Mean-field* approximation:
-  //
-  //     $ H = sum_(i)h_"eff" S_i^z $
-  //   ],
-  //   [
-  //     #uncover(3, [], update-pause: true)
-  //     #show: pause
-  //     #img("isingAux2.svg")
-  //
-  //     Rest ==> effective field
-  //   ],
-  //   w: (0.9fr, 0.9fr, 0.5fr, 0.9fr),
-  // )
+  #show: pause
+  #v(1fr)
+  #cols(
+    head[Example:\ Mean-field solution\ of Ising model],
+    [
+      #img("isingAux1.svg")
+      $ H = sum_(i,j)J_(i,j)S_i^z S_j^z $
+    ],
+    [
+      #show: pause
+      *Mean-field* approximation:
+
+      $ H = sum_(i)h_"eff" S_i^z $
+    ],
+    [
+      #uncover(3, [], update-pause: true)
+      #show: pause
+      #img("isingAux2.svg")
+
+      Rest ==> effective field
+    ],
+    w: (0.9fr, 0.9fr, 0.5fr, 0.9fr),
+  )
 
 ]
 
@@ -524,7 +476,7 @@ _Presubmission Open Seminar_
   #only(from: 2)[
   #cols(
     [
-      Auxiliary Model has to be #focus[interacting] in order to capture temporal dynamics!
+      Auxiliary Model has to be #focus[interacting] in order to capture local dynamics accurately!
     ],
     [
       #head[What is an appropriate auxiliary problem for lattice models with local correlation?]
@@ -638,16 +590,21 @@ _Presubmission Open Seminar_
   #v(1fr)
 
   #cols(
-    head[Relation Between Various Correlated Phases?],
+    head[Relation Between Various Correlated Phases in Quantum Materials?],
     img("cuprates.svg", w: 70%),
   )
 ]
 
 #slide[
-#section[Minimal Model For Kondo Breakdown and Mott Transition]
-== A Route to Mott Localisation in Infinite Dimensions\ \
-*#papers.Mukherjee2023.display (#papers.Mukherjee2023.date)*\
-#authorise(papers.Mukherjee2023.author)
+  #v(3em)
+
+  #text(size: 1.5em, head[Chapter 3 #h(1fr)])
+
+  #section[Minimal Model For Kondo Breakdown and Mott Transition]
+  == A Route to Mott Localisation in Infinite Dimensions\ \
+  *#papers.Mukherjee2023.display (#papers.Mukherjee2023.date)*\
+  #authorise(papers.Mukherjee2023.author)
+
 ]
 
 #slide[
@@ -682,18 +639,55 @@ _Presubmission Open Seminar_
 #slide[
   #title("Phase Diagram and Impurity Phase Transition")
   #show: pause
-  #cols(
-    only(2)[#img("./images/esiamPhaseMapLabel2.png")]
-    + only(3)[#img("./images/esiamPhaseMapLabel3.png")],
-    [
-      #img("./images/esiamSchematic.svg")
-      - Impurity has gapless excitations at $U_b=0$ (#focus[metal])
-      #show: pause
-      - Make bath correlation *attractive* (favours 2 electrons at a site)
-      - *Destroys* Kondo screening for $|U_b| > J \/ 4$
-    ],
-    w: (1.5fr, 1fr),
-  )
+  #only(2)[
+    #cols(
+      [
+        #img("./images/esiamPhaseMapLabel1.svg")
+        - Impurity has gapless excitations for small $U_b$
+        - corresponds to weakly correlated #focus[metal]
+      ],
+      [
+        #img("./images/esiamSchematic.svg")
+
+        #img("./images/esiamSpecFunc1.svg")
+      ],
+      w: (1fr, 0.7fr),
+    )
+  ]
+  #only(3)[
+    #cols(
+      [
+        #img("./images/esiamPhaseMapLabel2.svg")
+        - for $U_b < 0$, spectral weight #focus[suppressed] around $omega=0$
+        - corresponds to strongly correlated #focus[metal]
+      ],
+      [
+        #img("./images/esiamSchematic.svg")
+
+        #img("./images/esiamSpecFunc2.svg")
+      ],
+      w: (1fr, 0.7fr),
+    )
+  ]
+  #only(4)[
+    #cols(
+      [
+        #img("./images/esiamPhaseMapLabel3.svg")
+        - Impurity excitations #focus[gapped] for large negative $U_b$
+        - corresponds to #focus[Mott insulator]
+        - line of critical points ==> #focus[non-Fermi liquid]
+      ],
+      [
+        #img("./images/esiamSchematic.svg")
+
+        #img("./images/esiamSpecFunc3.svg")
+      ],
+      w: (1fr, 0.7fr),
+    )
+  ]
+  // #show: pause
+  // - Make bath correlation *attractive* (favours 2 electrons at a site)
+  // - *Destroys* Kondo screening for $|U_b| > J \/ 4$
 ]
 
 #slide[
@@ -717,13 +711,16 @@ _Presubmission Open Seminar_
       #place(center + horizon, dx: 10em, dy: -1em, point(40deg, f: 4))\
 
       #unc(from: 5)[
-        #place(center + horizon, bbox(factor: 120%, [Impurity model with local attractive\ bath correlation is a good\ auxiliary system for Mott transition.]))
+        #place(center + horizon, bbox(factor: 120%, [Impurity model with weak attractive\ bath correlation is a good\ auxiliary system for Mott transition.]))
       ]
     ]
   ]
 ]
 
 #slide[
+  #v(3em)
+
+  #text(size: 1.5em, head[Chapters 4 \& 5 #h(1fr)])
 #section[Capturing Spatial Fluctuations and Lattice Geometry]
 == Impurity-Lattice Mapping Beyond Mean-Field\ \
 *#papers.Mukherjee2025.display (#papers.Mukherjee2025.date)*\
@@ -732,42 +729,44 @@ _Presubmission Open Seminar_
 
 #slide[
   #title("Extending This To The More Interesting $D=2$ Case")
+  #v(1fr)
   #cols(
     img("./images/esiamSchematic.svg"),
-    only(1, 2, 3, 4)[
+    only(1,)[
       Previous demonstration worked because
       - *non-local fluctuations vanish* in $d --> infinity$ (mean-field is exact)
       - Largely insensitive to *lattice details* $\{ epsilon_k \}$
 
     ]
-    + only(from: 5)[
-      #cols(
-        img("./images/latticeInf.svg", w: 80%),
-        [
-          - All paths symmetric
-          - No non-trivial $k-$dependence
-        ]
-      )
-    ],
-    w: (0.7fr, 1fr),
+    // + only(from: 5)[
+    //   #cols(
+    //     img("./images/latticeInf.svg", w: 80%),
+    //     [
+    //       - All paths symmetric
+    //       - No non-trivial $k-$dependence
+    //     ]
+    //   )
+    // ],
+    // w: (0.7fr, 1fr),
   )
   #v(1fr)
-  #show: pause
-  #c(focus[Low-Dimensional Lattices Are More Interesting])
-  #show: pause
-  #cols(
-      img("./images/lattice2D_1.svg", w: 75%),
-      unc(from: 4)[#img("./images/lattice2D_2.svg", w: 85%)],
-      w: (1fr, 1fr),
-  )
-  #unc(6, 7)[
-  #place(center + horizon, dy: -4em, bbox(factor: 120%, [What's the appropriate auxiliary model for a\ correlated system on a 2D square lattice?]))]
-  #unc(7)[
-  #place(center + horizon, dy: 4em, bbox(factor: 120%, [
-    Must capture
-    - Spatial fluctuations
-    - Lattice geometry
-  ]))]
+  // #v(1fr)
+  // #show: pause
+  // #c(focus[Low-Dimensional Lattices Are More Interesting])
+  // #show: pause
+  // #cols(
+  //     img("./images/lattice2D_1.svg", w: 75%),
+  //     unc(from: 4)[#img("./images/lattice2D_2.svg", w: 85%)],
+  //     w: (1fr, 1fr),
+  // )
+  // #unc(6, 7)[
+  // #place(center + horizon, dy: -4em, bbox(factor: 120%, [What's the appropriate auxiliary model for a\ correlated system on a 2D square lattice?]))]
+  // #unc(7)[
+  // #place(center + horizon, dy: 4em, bbox(factor: 120%, [
+  //   Must capture
+  //   - Spatial fluctuations
+  //   - Lattice geometry
+  // ]))]
 ]
 
 #slide[
@@ -823,7 +822,7 @@ _Presubmission Open Seminar_
       w: (1fr, 1fr),
     )
   ]
-  #only(from: 6)[
+  #only(6,7)[
     #cols(
       Img("./images/cuprates4.svg", w: 100%),
       [
@@ -832,6 +831,10 @@ _Presubmission Open Seminar_
         - How do the electrons in Fermi liquid *morph* to form the strange metal/PG phases?
 
         - How do the excitations of the PG phase *bind* to stabilise the Mott insulator?
+
+      #only(7)[
+        #head[Are there counterparts to these phases at half-filling?]
+      ]
       ],
       w: (1fr, 1fr),
     )
@@ -889,41 +892,37 @@ _Presubmission Open Seminar_
 #slide[
   #title("Reconstructing Spatial Fluctuations")
   #head[Lattice Translation symmetry needs to be restored: #und[Bloch's Theorem!]]
-  #v(2em)
-  #only(2, 3)[#cols(
-    v(2em) +
-    [
-      Translation of\ 1-Particle States:\
-      *Wannier --> Bloch*
-    ],
-    img("./images/bloch1p.svg"),
-    w:(1fr, 4fr),
-  )]
+  // #v(2em)
+  #only(2, 3)[
+    #c[Translation of 1-Particle States: *Wannier --> Bloch*]
+
+      #img("./images/bloch1p.svg", w: 90%)
+  ]
   #v(1fr)
 
-  #only(3, 4)[#cols(
-    [
-      Many-electron Translation Operators:#v(-0.7em)
-      $ tilde(T)\(a\) = Pi_i T_i \(a\) $
+  #v(1fr)
+  #only(3, 4)[
+    #only(3)[#c[#focus[Many-electron Translation Operators]: ~ ~ $ tilde(T)\(a\) = Pi_i T_i \(a\)$]]
 
-    ],
-    img("./images/tilingPlan.svg"),
-    w:(1fr, 3.7fr),
-  )]
+    #img("./images/tilingPlan.svg", w: 90%)
+  ]
   #only(from: 4)[#cols(
     [
 
-      Many-electron translation:\
+      #focus[Translation]:
       *Impurity --> Lattice*
 
+      #v(0.5em)
       $ H_"lat" = sum_i tilde(T)\(r_i\) H_"aux" tilde(T)^dagger \(r_i\) $
 
-      #v(-1em)
-      $ -t sum_(<i,j>) \(c^dagger_i c_j + "h.c."\) + U sum_i n_(i, arrow.t)n_(i, arrow.b) + sum_(<i,j>) S_i dot S_j $
+      // #v(-1em)
+      $ -t sum_(<i,j>) \(c^dagger_i c_j + "h.c."\) + U sum_i n_(i, arrow.t)n_(i, arrow.b) $
+      #v(-2em)
+      $ + sum_(<i,j>) S_i dot S_j $
 
     ],
-    img("./images/tiledHamiltonian.svg"),
-    w:(1fr, 1.4fr),
+    only(4)[#img("./images/tiledHamiltonian.svg")] + only(5, 6)[#img("./images/tiledHamiltonian2.svg")],
+    w:(1fr, 1.1fr),
   )]
   #only(from: 5)[#cols(
     [
@@ -961,7 +960,7 @@ _Presubmission Open Seminar_
 
       #show: pause
       *Unitary renormalisation group* approach:
-      - unitary transforms. *integrate out* high energy states
+      - unitary transformations *integrate out* high energy states
       - *fold in* their effects into low-energy states: $J\(k_1, k_2\) --> J^prime\(k_1, k_2\)$
     ],
     w: (1fr, 0.4fr),
@@ -979,23 +978,21 @@ _Presubmission Open Seminar_
 #slide[
   #title("$T=0$ Phase Diagram Of Embedded Impurity Model")
 
-  #only(1)[
-    #place(center + horizon, [
-      Analyse fixed-point *distribution* of $J(k_1, k_2)$ on #focus[Fermi surface] to classify phases.
-    ])
-  ]
+  #c[Analyse fixed-point *distribution* of $J(k_1, k_2)$ on #focus[Fermi surface] to classify phases.]
 
   #v(1fr)
   #unc(2,3,4,5)[
+
+    #v(1em)
     #only(2)[
-      #place(top + center, head[Small $|W|$])
-      #v(1fr)
+      // #v(1fr)
 
       #img("phaseDiagram-77-1.svg", w: 90%)
       #v(1fr)
 
       #cols(
         [
+          #head[Small $|W|$]
           - $J(k_1, k_2)$ is *strong all over* the Fermi surface
           - Kondo screening successful --> *Fermi liquid*
         ],
@@ -1006,14 +1003,15 @@ _Presubmission Open Seminar_
     ]
 
     #only(3)[
-      #place(top + center, head[Large $|W|$])
       // #v(0.5em)
 
+      #v(-0.5em)
       #img("phaseDiagram-77-2.svg", w: 90%)
-      // #v(1fr)
+      #v(-0.5em)
 
       #cols(
         [
+          #head[Large $|W|$]
           - $J(k_1, k_2)$ *vanishes all over* the Fermi surface
           - Kondo screening absent --> *Mott insulator*
         ],
@@ -1024,13 +1022,13 @@ _Presubmission Open Seminar_
     ]
 
     #only(4,5)[
-      #place(top + center, head[Intermediate $|W|$])
 
-      #img("phaseDiagram-77-3.svg", w: 100%)
+      #img("phaseDiagram-77-3.svg", w: 90%)
 
       #v(1fr)
       #cols(
         [
+          #head[Intermediate $|W|$]
           - $J(k_1, k_2)$ *vanishes partially* on the Fermi surface
           - *antinodes* decouple from impurity, *nodes* remains coupled
           - Momentum-space *anisotropy*!
@@ -1060,7 +1058,7 @@ _Presubmission Open Seminar_
     [
       #show:pause
       #head[Impurity Magnetisation]
-      #v(0.5em)
+      // #v(0.5em)
 
       - Impurity magnetisation $!= 0$
       - Impurity screening hindered
@@ -1069,7 +1067,7 @@ _Presubmission Open Seminar_
     [
       #show:pause
       #head[Density Of States]
-      #v(0.5em)
+      // #v(0.5em)
 
       - Central peak replaced by dip
       - Loss of states at $omega=0$
@@ -1078,7 +1076,7 @@ _Presubmission Open Seminar_
     [
       #show:pause
       #head[Quasiparticle Residue]
-      #v(0.5em)
+      // #v(0.5em)
 
       - strength of electronic excitations
       - Highly suppressed in PG
@@ -1251,6 +1249,7 @@ _Presubmission Open Seminar_
       - Electronic excitations decay easily\ \
       #show: pause
       - #focus[Holes and doubles] are long-lived
+      - Subdominant #focus[pairing] fluctuations
     ],
     [
       #img("holesDoubles1.svg", w: 100%)
@@ -1264,120 +1263,129 @@ _Presubmission Open Seminar_
   )
   #show: pause
   #place(center + horizon, dy: 0em, bbox(factor: 130%, [
-    Mott metal -- a new phase
-    - normal state (parent metal) of Mott insulator
+    Mott metal --- parent metal of Mott insulator
+    - robust self-energy exponent
     - holon-doublon excitations
     - critical, long-range correlations
   ]))
 ]
 
 
-#slide[
-  #title("Greens Function Zeros And Anomalies In Pseudogap")
-
-  #v(-0.5em)
-  #place(left + top, [Partial #focus[gaps] near antinodes])
-  #place(horizon + left, dy: -3em, [$ G = 0$ ==> #focus[singular]\ structure in self-energy])
-  #cols(
-    [
-      #v(-1em)
-      $ G_k (omega) = 1 / (omega - epsilon_k - Sigma) $
-    ],
-    [
-      #img("greenZeros.svg")
-    ],
-    [
-      #cols(
-        [#focus[Why is this important?] Defines LW functional:],
-        [$ delta Phi ~ integral dif omega med Sigma med delta G$],
-        w: (1fr,0.5fr)
-      )
-
-      #cols(
-        [$Phi$ acts as effective action:],
-        [$ partial S = J med partial A$],
-        w: (1fr,0.45fr)
-      )
-      $J_Phi ~ delta Phi \/ delta G $ --> "generalised current"
-
-      Number density $N$  = topological charge of $J_Phi$ (#focus[winding] of $G$ in frequency)
-    ],
-    w: (0.7fr, 0.7fr, 1.9fr),
-  )
-
-  // #v(-0.8em)
-  #cols(
-    [
-
-      #head[What's this about an anomaly?]
-      #v(1fr)
-
-      For Dirac fermions, $J = n_"left" - n_"right"$ not conserved with gauge field: #focus[chiral anomaly]
-
-      #img("chiralAnomaly.svg")
-
-      - Symmetry is satisfied classically but #focus[breaks down] upon quantisation
-
-    ],
-    [
-      #head[Something analogous happens here]
-      #v(1fr)
-
-
-      *Fermi liquid*: $Phi$ analytic ==> $delta Phi = 0$: #focus[conserved]
-
-      *Pseudogap*: $Phi$ singular ==> current #focus[not conserved]
-
-      Breakdown of generalised symmetry ==> #focus[anomaly]
-
-      Breakdown in topology: $N != "charge of" J_Phi$
-    ],
-    w: (1fr, 1fr)
-  )
-
-  #show: pause
-  #place(
-    center + horizon,
-    dy: -3em,
-    bbox(factor: 110%,
-      [Zeros of G ⟹  non-analytic Φ ⟹  Anomaly in Non-Fermi Liquid]
-    )
-  )
-
-  #show: pause
-  #place(
-    center + horizon,
-    dy: 3em,
-    bbox(factor: 110%,
-      [Φ defines generalised symmetry ⟹  breakdown signals non-Fermi liquid]
-    )
-  )
-]
+// #slide[
+//   #title("Greens Function Zeros And Anomalies In Pseudogap")
+//
+//   #v(-0.5em)
+//   #place(left + top, [Partial #focus[gaps] near antinodes])
+//   #place(horizon + left, dy: -3em, [$ G = 0$ ==> #focus[singular]\ structure in self-energy])
+//   #cols(
+//     [
+//       #v(-1em)
+//       $ G_k (omega) = 1 / (omega - epsilon_k - Sigma) $
+//     ],
+//     [
+//       #img("greenZeros.svg")
+//     ],
+//     [
+//       #cols(
+//         [#focus[Why is this important?] Defines LW functional:],
+//         [$ delta Phi ~ integral dif omega med Sigma med delta G$],
+//         w: (1fr,0.5fr)
+//       )
+//
+//       #cols(
+//         [$Phi$ acts as effective action:],
+//         [$ partial S = J med partial A$],
+//         w: (1fr,0.45fr)
+//       )
+//       $J_Phi ~ delta Phi \/ delta G $ --> "generalised current"
+//
+//       Number density $N$  = topological charge of $J_Phi$ (#focus[winding] of $G$ in frequency)
+//     ],
+//     w: (0.7fr, 0.7fr, 1.9fr),
+//   )
+//
+//   // #v(-0.8em)
+//   #cols(
+//     [
+//
+//       #head[What's this about an anomaly?]
+//       #v(1fr)
+//
+//       For Dirac fermions, $J = n_"left" - n_"right"$ not conserved with gauge field: #focus[chiral anomaly]
+//
+//       #img("chiralAnomaly.svg")
+//
+//       - Symmetry is satisfied classically but #focus[breaks down] upon quantisation
+//
+//     ],
+//     [
+//       #head[Something analogous happens here]
+//       #v(1fr)
+//
+//
+//       *Fermi liquid*: $Phi$ analytic ==> $delta Phi = 0$: #focus[conserved]
+//
+//       *Pseudogap*: $Phi$ singular ==> current #focus[not conserved]
+//
+//       Breakdown of generalised symmetry ==> #focus[anomaly]
+//
+//       Breakdown in topology: $N != "charge of" J_Phi$
+//     ],
+//     w: (1fr, 1fr)
+//   )
+//
+//   #show: pause
+//   #place(
+//     center + horizon,
+//     dy: -3em,
+//     bbox(factor: 110%,
+//       [Zeros of G ⟹  non-analytic Φ ⟹  Anomaly in Non-Fermi Liquid]
+//     )
+//   )
+//
+//   #show: pause
+//   #place(
+//     center + horizon,
+//     dy: 3em,
+//     bbox(factor: 110%,
+//       [Φ defines generalised symmetry ⟹  breakdown signals non-Fermi liquid]
+//     )
+//   )
+// ]
 
 #slide[
   #title("Mott Criticality As Holon-Doublon Deconfinement")
 
   #only(1)[
-    #focus[Fermi Liquid]: #seq("electrons as carriers", "short-range entanglement", "vanishing self-energy")
-
+    #head[Fermi Liquid]
+    #v(1fr)
+    #seq("electrons as carriers", "short-range entanglement", "vanishing self-energy")
+    #v(1fr)
     #img("mottPictureCuprates1.svg", w: 70%)
   ]
 
   #only(2)[
-    #focus[Pseudogap]: #seq("holons-doublons deconfined", "\"noisy\" environment", "long-range entanglement")
-
-    #img("mottPictureCuprates3.svg", w: 70%)
+    #head[Pseudogap]
+    #v(1fr)
+    #seq("holons-doublons deconfined", "\"noisy\" environment", "long-range entanglement")
+    #v(1fr)
+    #img("mottPictureCuprates2.svg", w: 70%)
   ]
 
   #only(3)[
-    #focus[Mott insulator]: #seq("holons-doublons confined", "hard gap in spectrum", "only spin physics active")
-
-    #img("mottPictureCuprates4.svg", w: 70%)
+    #head[Mott insulator]
+    #v(1fr)
+    #seq("holons-doublons confined", "hard gap in spectrum", "only spin physics active")
+    #v(1fr)
+    #img("mottPictureCuprates3.svg", w: 70%)
   ]
 ]
 
 
 #slide[
+  #v(3em)
+
+  #text(size: 1.5em, head[Chapter 6 #h(1fr)])
 #section[Competing tendencies In a Multi-Orbital System]
 == Kondo screening vs. Mott localisation in a Heavy-Fermion model\ \
 *(IN PROGRESS)*\
@@ -1429,7 +1437,7 @@ _Presubmission Open Seminar_
       - $V_perp$: inter-layer hybridisation
     ],
     img("HF_model.svg"),
-    w: (1fr, 0.4fr),
+    w: (1fr, 0.5fr),
   )
 
   #cols(
@@ -1457,12 +1465,15 @@ _Presubmission Open Seminar_
     ],
     [
       #v(-2em)
-      #img("HF_model.svg")
+      #img("HF_model.svg", w: 100%)
     ],
-    w: (3fr, 1fr),
+    w: (2fr, 1fr),
   )
 
+  #v(1fr)
   #img("HF_specfunc.svg", w: 85%)
+
+  #show: pause
   #place(center + horizon, dy: 0em, bbox(factor: 110%, [
     - Auxiliary Model Approach Already Shows a Kondo insulator
     - Focus: Competition of Mott metal with interlayer hybridisation
@@ -1470,6 +1481,9 @@ _Presubmission Open Seminar_
 ]
 
 #slide[
+  #v(3em)
+
+  #text(size: 1.5em, head[Chapter 7 #h(1fr)])
 #section[Holography of Entanglement in 2D Free Fermions]
 == Emergent Geometry and Fermionic Criticality\ \
 *#papers.Mukherjee2024.display (#papers.Mukherjee2024.date)*\
@@ -1488,7 +1502,7 @@ _Presubmission Open Seminar_
     [
       #v(1fr)
       - Extra dimension arises from *renormalisation group flow* of quantum theory
-      - *Geometric measures* in +1 dimension arise from *quantum measures* on the boundary
+      - *Geometric measures* in +1 dimension arise from *entanglement* on the boundary
     ],
     [
       #show: pause
@@ -1629,6 +1643,10 @@ _Presubmission Open Seminar_
   #v(2fr)
 ]
 
+#slide[
+#img("acknowledgements.png")
+]
+
 #page(margin: 2em,[
 = A New Auxiliary Model Approach For Fermionic Criticality
 == Insights on Mottness in Strongly Correlated Systems
@@ -1644,4 +1662,3 @@ _Presubmission Open Seminar_
 
 // TODO
 // IMPORTANT: ADD CITATIONS
-// Remove PAM and Strange metal discussion in intro if too long

@@ -3,8 +3,8 @@
 
 <svg
    width="143.19881mm"
-   height="80.616058mm"
-   viewBox="0 0 143.19881 80.616059"
+   height="80.616066mm"
+   viewBox="0 0 143.1988 80.616067"
    version="1.1"
    id="svg1"
    xml:space="preserve"
@@ -17,7 +17,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:ns2="http://www.iki.fi/pav/software/textext/"><sodipodi:namedview
+   xmlns:ns4="http://www.iki.fi/pav/software/textext/"><sodipodi:namedview
      id="namedview1"
      pagecolor="#ffffff"
      bordercolor="#000000"
@@ -29,7 +29,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.70110129"
-     inkscape:cx="666.80807"
+     inkscape:cx="1237.339"
      inkscape:cy="166.16715"
      inkscape:window-width="1920"
      inkscape:window-height="1043"
@@ -37,10 +37,10 @@
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"><inkscape:page
-       x="2.1721832e-27"
+       x="0"
        y="0"
        width="143.19881"
-       height="80.616058"
+       height="80.616066"
        id="page2"
        margin="0"
        bleed="0" /></sodipodi:namedview><defs
@@ -162,7 +162,7 @@
        cx="129.91905"
        cy="119.20856"
        r="7.2761693" /><circle
-       style="fill:#204070;fill-opacity:1;stroke:none;stroke-width:2;stroke-dasharray:4, 4;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#c05030;fill-opacity:1;stroke:none;stroke-width:2;stroke-dasharray:4, 4;stroke-dashoffset:0;stroke-opacity:1"
        id="circle14"
        cx="112.2645"
        cy="172.05499"
@@ -178,23 +178,23 @@
        cy="172.12521"
        r="7.2761693" /><path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#404040;stroke-width:3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow);paint-order:markers stroke fill"
-       d="m 149.2149,124.22044 c -5.79387,-1.10572 -11.89426,-0.5556 -17.39685,1.56881 -5.50259,2.1244 -10.38998,5.81638 -13.93769,10.52864 -3.7184,4.93899 -5.94842,10.9838 -6.32847,17.15435"
+       d="m 149.2149,124.22044 c -11.48635,-0.28293 -23.01829,4.16925 -31.33454,12.09745 -5.6476,5.38408 -9.81728,12.30331 -11.93918,19.81205"
        id="path36"
        inkscape:path-effect="#path-effect37"
-       inkscape:original-d="m 149.2149,124.22044 c -4.22746,0.98162 -26.57203,11.11582 -31.33454,12.09745 -4.7625,0.98162 0.8623,9.33994 -6.32847,17.15435"
+       inkscape:original-d="m 149.2149,124.22044 c -4.22746,0.98162 -26.57203,11.11582 -31.33454,12.09745 -4.7625,0.98162 -4.74841,11.99764 -11.93918,19.81205"
        sodipodi:nodetypes="csc"
        transform="translate(12.170833,-0.52916653)" /><g
        id="g6767"
        transform="matrix(2.1543069,0,0,2.1543069,163.05863,108.29654)"
-       ns2:version="1.12.0"
-       ns2:texconverter="xelatex"
-       ns2:pdfconverter="inkscape"
-       ns2:text="$c^\\dagger_{k,\\sigma}$"
-       ns2:preamble="/usr/share/inkscape/extensions/textext/default_packages.tex"
-       ns2:scale="4.870421535698087"
-       ns2:alignment="middle center"
-       ns2:inkscapeversion="1.4.3"
-       ns2:jacobian_sqrt="1.71818"><defs
+       ns4:version="1.12.0"
+       ns4:texconverter="xelatex"
+       ns4:pdfconverter="inkscape"
+       ns4:text="$c^\\dagger_{k,\\sigma}$"
+       ns4:preamble="/usr/share/inkscape/extensions/textext/default_packages.tex"
+       ns4:scale="4.870421535698087"
+       ns4:alignment="middle center"
+       ns4:inkscapeversion="1.4.3"
+       ns4:jacobian_sqrt="1.71818"><defs
    id="defs8821" />
   <g
    fill="#000000"
