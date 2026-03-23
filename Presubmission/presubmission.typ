@@ -256,7 +256,6 @@ _Presubmission Open Seminar_
     ]
   ],
   unc(from: 3)[
-    // #v(-4em)
     #img("QSL.jpg", w: 80%)
   ]
   )
@@ -643,7 +642,7 @@ _Presubmission Open Seminar_
       #head[Our Approach: Add Local Bath Correlation]
       // #v(1fr)
       #cols(
-        [$-|U_b| n_(0 arrow.t) n_(0 arrow.b) $],
+        ellipse(width: 110%, height: 13%, stroke: 4pt + h2Color, c[$U_b n_(0 arrow.t) n_(0 arrow.b) $]),
         img("./images/esiamSchematic.svg", w: 100%),
         w: (1fr, 3fr),
       )
@@ -890,7 +889,7 @@ _Presubmission Open Seminar_
     ]
   )
   #show: pause
-  #place(center + horizon, dy: -4em, bbox(factor: 130%, [Lattice-embedded impurity model\ is a reasonable auxiliary model\ for 2D lattice problems.]))
+  #place(center + horizon, dy: -4em, bbox(factor: 130%, [Lattice-embedded impurity model is\ a reasonable auxiliary model for\ local correlation in lattice problems.]))
   #show: pause
   #place(center + horizon, dy: 4em, bbox(factor: 130%, [Lattice geometry encoded\ in impurity-bath correlation.]))
 ]
@@ -925,50 +924,47 @@ _Presubmission Open Seminar_
 
       #img("./images/bloch1p.svg", w: 80%)
       #only(3)[
-        #c[#focus[Many-electron Translation Operators]: ~ ~ $ tilde(T)\(a\) = Pi_i T_i \(a\)$]
+        #c[#focus[Many-electron Translation Operators]: ~ ~ $ tilde(T)\(a\) = Pi_i T_i \(a\)$ ]
 
         #img("./images/tilingPlan.svg", w: 90%)
       ]
   ]
-  // #v(1fr)
 
-  // #v(-0.5em)
-  // #v(-1em)
-  // #only(4,5)[#cols(
-  //   [
-  //
-  //     #focus[Translation]:
-  //     *Impurity --> Lattice*
-  //
-  //     #v(0.5em)
-  //     $ H_"lat" = sum_i tilde(T)\(r_i\) H_"aux" tilde(T)^dagger \(r_i\) $
-  //
-  //     #v(-0.5em)
-  //     $ H_"hop" + U sum_i n_(i, arrow.t)n_(i, arrow.b) + sum_(<i,j>) S_i dot S_j $
-  //
-  //   ],
-  //   only(4)[#img("./images/tiledHamiltonian.svg")] + only(5, 6)[#img("./images/tiledHamiltonian2.svg")],
-  //   w:(1fr, 1.1fr),
-  // )]
-  // #unc(from: 5)[#cols(
-  //   [
-  //     *Plan*: Tiling Procedure + Many-body Bloch's theorem 
-  //
-  //     Connects Hamiltonians, Eigenstates, Correlations
-  //   ],
-  //   [
-  //     $ Psi_"lat" = sum_i tilde(T) \( r_i \) psi_"aux" $
-  //     $ tilde(G)_"loc" = G \( r_d, r_d \) + C_0 G \(r_d, r_0\) + C_1 G \(r_d, r_1\) + dots $
-  //   ],
-  //   w:(1fr, 1.5fr,),
-  // )]
-  // #v(1fr)
-  // #only(6)[
-  //   #place(center + horizon, dy: 0em, bbox(factor: 130%, [
-  //     - Study lattice-embedded impurity model.
-  //     - Use tiling relations to reconstruct\ low-energy physics of lattice model.
-  //   ]))
-  // ]
+  #only(4,5,6)[#cols(
+    [
+
+      #focus[Translation]:
+      *Impurity --> Lattice*
+
+      // #v(0.5em)
+      $ H_"lat" = sum_i tilde(T)\(r_i\) H_"aux" tilde(T)^dagger \(r_i\) $
+
+      #v(-0.5em)
+      $ H_"hop" + U sum_i n_(i, arrow.t)n_(i, arrow.b) + sum_(<i,j>) S_i dot S_j $
+
+    ],
+    only(4)[#img("./images/tiledHamiltonian.svg")] + only(5, 6)[#img("./images/tiledHamiltonian2.svg")],
+    w:(1fr, 1.1fr),
+  )
+  #only(5,6)[#cols(
+    [
+      *Plan*: Tiling Procedure + Many-body Bloch's theorem 
+
+      Connects Hamiltonians, Eigenstates, Correlations
+    ],
+    [
+      $ Psi_"lat" = sum_i tilde(T) \( r_i \) psi_"aux" $
+      $ tilde(G)_"loc" = G \( r_d, r_d \) + C_0 G \(r_d, r_0\) + C_1 G \(r_d, r_1\) + dots $
+    ],
+    w:(1fr, 1.5fr,),
+  )]
+  #only(6)[
+    #place(center + horizon, dy: 0em, bbox(factor: 120%, [
+      - Study lattice-embedded impurity model.
+      - Use tiling relations to reconstruct\ low-energy physics of lattice model.
+    ]))
+  ]
+  ]
 ]
 
 #slide[
@@ -1051,7 +1047,7 @@ _Presubmission Open Seminar_
 ]
 
 #slide[
-  #title("Impurity Physics in The Pseudogap")
+  #title("Impurity Model Physics in The Pseudogap")
   #footcite("dzyaloshinskii2003some,Huang2022")
   #cols(
     [
@@ -1134,7 +1130,7 @@ _Presubmission Open Seminar_
     ],
     [
       #show:pause
-      #img("selfEnergy_d_fit_77-1500.pdf")
+      #img("selfEnergyFit.svg")
     ]
   )
   #show:pause
@@ -1196,7 +1192,7 @@ _Presubmission Open Seminar_
 
       #cols(
         focus[Hatsugai-Kohmoto model: ],
-        [$ H_"eff" = \[ epsilon_q tilde(n)_(q,sigma) + U_"eff" tilde(n)_(q,sigma) tilde(n)_(q,-sigma) \] $],
+        [$ H_"eff" = sum_q \[ epsilon_q tilde(n)_(q,sigma) + U_"eff" tilde(n)_(q,sigma) tilde(n)_(q,-sigma) \] $],
         w: (1fr, 1.2fr),
       )
 
@@ -1283,8 +1279,9 @@ _Presubmission Open Seminar_
   Intermetallic alloys containing rare earth metals and actinides: #focus[_f_--electrons]
   #cols(
     [
-      - each site can host two electrons: #focus[light, heavy]
-      - delocalised electrons _Kondo screen_ localised electrons and "drag" them ==> large number of #focus[heavy carriers]
+      - each site can host two electrons: #focus[light + heavy]
+      - delocalised electrons _Kondo screen_ localised electrons. #focus[Result ==> heavy carriers]
+      - dramatic #focus[enhancement] of mass
     ],
     img("heavyFermions.svg"),
     w: (1.5fr, 1fr),
@@ -1328,7 +1325,7 @@ _Presubmission Open Seminar_
     [
       #head[Phase Diagram: Spin Correlation]
 
-      We analyse various #focus[spin correlation]
+      We analyse $f-c$ and $f-f$ spin correlation
 
       - Increasing $V_perp$ causes transition into #focus[heavy Fermi liquid]
       - For intermediate $|W_f|$, conduction electrons hybridise with non-Fermi liquid
@@ -1344,17 +1341,18 @@ _Presubmission Open Seminar_
 ]
 
 #slide[
-  #title("Kondo Lattice Model and Correlations")
+  #title("Kondo Lattice Model and Fermi Surface Transition")
   #footcite("gleis_2024")
   #cols(
     [
       Spectral function in bonding-antibonding basis: $c_plus.minus = c plus.minus f$
 
-      #focus[Kondo insulator] at half-filling
+      - non-interacting metal splits into #focus[two bands]
+      - small Fermi surface metal --> #focus[large Fermi surface] insulator
     ],
     [
-      #v(-2em)
-      #img("HF_model.svg", w: 100%)
+      #v(-1em)
+      #img("HF_model.svg", w: 80%)
     ],
     w: (2fr, 1fr),
   )
@@ -1364,8 +1362,8 @@ _Presubmission Open Seminar_
 
   #show: pause
   #place(center + horizon, dy: 0em, bbox(factor: 110%, [
-    - Auxiliary Model Approach Already Shows a Kondo insulator
-    - Focus: Competition of Mott metal with interlayer hybridisation
+    - Auxiliary Model Approach Correctly Shows a Kondo Insulator
+    - Effect of Interlayer Hybririsation on Pseudoga-Mott Metal ??
   ]))
 ]
 
@@ -1463,8 +1461,7 @@ _Presubmission Open Seminar_
 #slide[
   #title("Key Results")
 
-  #show: pause
-  #head[Impurity model with attractive bath correlation is a reasonable auxiliary model for capturing the local physics of Mott transition.]
+  #head[#focus[Ch 3:] Impurity model with attractive bath correlation is a reasonable auxiliary model for capturing the local physics of Mott transition.]
   #v(1fr)
 
   //   #img("./images/esiamSchematic.svg", w: 40%)
@@ -1476,9 +1473,8 @@ _Presubmission Open Seminar_
   //   #place(center + horizon, dx: 10em, dy: -1em, point(40deg, f: 4))
   //
   // ]
-  #show: pause
   // #only(3)[
-  #head[Manybody Translation ("tiling") With Lattice-Embedded Impurity Model Encodes Spatial Fluctuations and Lattice Geometry]
+  #head[#focus[Ch 4:] Manybody Translation ("tiling") With Lattice-Embedded Impurity Model Encodes Spatial Fluctuations and Lattice Geometry]
   
   #v(1fr)
   //   #img("./images/tilingPlan.svg", w: 80%)
@@ -1489,7 +1485,7 @@ _Presubmission Open Seminar_
   // ]
   // #only(4)[
   #show: pause
-  #head[Mott Transition in 2D Involves Confinement of Holon-Doublon Excitations Through a Pseudogap With Long-Range Multipartite Correlations]
+  #head[#focus[Ch 5:] Mott Transition in 2D Involves Confinement of Holon-Doublon Excitations Through a Pseudogap With Critical Long-Range Correlations]
   
   #v(1fr)
     // #img("mottPictureCuprates4.svg", w: 60%)
@@ -1497,8 +1493,7 @@ _Presubmission Open Seminar_
   // ]
 
   // #only(5)[
-  #show: pause
-  #head[Metal-Insulator Transition Electrons Accompanied By Inversion of Curvature Of An Emergent Space, With a Wormhole Geometry At Transition]
+  #head[#focus[Ch 7:] Metal-Insulator Transition In Electrons Is Accompanied By Inversion of Curvature Of An Emergent Space, With a Wormhole Geometry At Transition]
   
   //   #v(1fr)
   //   #img("images/wormhole_gapless.svg",w: 100%)
@@ -1531,16 +1526,17 @@ _Presubmission Open Seminar_
   #title("Open Questions & Future Work")
 
   #v(1fr)
-  - Extend the tiling formalism to capture topological effects
-  - Study the effects of doping on the holon-doublon deconfinement in the pseudogap
-  - Obtain finite temperature characteristics
+  #head[Capture topological effects]
   #v(1fr)
-
+  #head[Study the effects of doping on holon-doublon excitations]
+  #v(1fr)
+  #head[Obtain finite temperature characteristics]
   #v(2fr)
 ]
 
 #slide[
-#img("acknowledgements.png")
+  #only(1, img("ack1.png"))
+  #only(2, img("ack2.png"))
 ]
 
 #page(margin: 2em,[
@@ -1635,43 +1631,19 @@ _Presubmission Open Seminar_
 ]
 
 #slide[
-  #title("Long-Range Correlations: Signatures of Criticality")
+  #title("Details of Unitary RG Transformations")
 
-  #cols(
-    [
-      #head[Quantum Entanglement Also Becomes Long-Ranged]
-      #v(1em)
+  #img("urg-scheme.svg", w: 90%)
+  #img("urg_ham_full.svg", w: 60%)
 
-      *Mutual Information* $I_2 (A:B)$: how much do I know about region $A$ if I measure region $B$?
-    ],
-    // img("distanceCorrelations.svg"),
-    w: (2fr, 0fr),
-  )
-  #v(1fr)
+  - Wanted: low energy theory
+  - RG procedure accounts for non-trivial scattering into various energy sectors 
+  - RG proceeds via decoupling of high energy degrees of freedom via many-body unitary transformations
 
-  #cols(
-    [
-      #show: pause
-
-      $I_2 (d:r)$ becomes long-ranged
-
-      #img("I2-di_77-700.pdf")
-    ],
-    [
-      #show: pause
-      #focus[5-partite nature] of entanglement
-
-      #img("qfi_77-2000.pdf")
-    ],
-    w: (1fr, 1fr),
-  )
 ]
+
 #slide[
-  #title("Zero Temperature Phase Diagram")
-
   #head[How To Obtain The Low-Energy Theory]
-
-  #show: pause
 
   #cols(
     [
@@ -1699,6 +1671,47 @@ _Presubmission Open Seminar_
 
 ]
 
+#slide[
+  #title("Additional Results")
+  #only(1)[#img("selfEnergy_d_zoomin_77-1500.pdf", h: 80%,)]
+  #only(2)[#rect(fill: white, img("Ad_fit.pdf", h:80%))]
+  #only(3)[#img("sigma_in.pdf", h: 80%)]
+  #only(4)[
+    #cols(
+      [
+        #head[Quantum Entanglement Also Becomes Long-Ranged]
+        #v(1em)
+
+        *Mutual Information* $I_2 (A:B)$: how much do I know about region $A$ if I measure region $B$?
+      ],
+      // img("distanceCorrelations.svg"),
+      w: (2fr, 0fr),
+    )
+    #v(1fr)
+
+    #cols(
+      [
+        #show: pause
+
+        $I_2 (d:r)$ becomes long-ranged
+
+        #img("I2-di_77-700.pdf")
+      ],
+      [
+        #show: pause
+        #focus[5-partite nature] of entanglement
+
+        #img("qfi_77-2000.pdf")
+      ],
+      w: (1fr, 1fr),
+    )
+  ]
+]
+
+#slide[
+  #title("Mott Transition As Holon-Doublon Binding-Unbinding")
+  #img("mottPicture.svg", w: 100%)
+]
 
 
 // TODO
