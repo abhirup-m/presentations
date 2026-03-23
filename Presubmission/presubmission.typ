@@ -1714,5 +1714,47 @@ _Presubmission Open Seminar_
 ]
 
 
-// TODO
-// IMPORTANT: ADD CITATIONS
+#slide[
+  #title("Warning! Contains Lies for Pedagogical Purposes")
+  #cols(
+    head[Electrons as cars.\ Less traffic ⟹ Metal],
+    img("traffic1.jpg", w: 100%),
+    w: (1fr, 2fr),
+  )
+]
+
+#slide[
+  #title("Warning! Contains Lies for Pedagogical Purposes")
+  #cols(
+    head[Electrons as cars.\ #focus[Traffic Jam] ⟹ Mott insulator],
+    img("traffic2.JPG", w: 90%),
+    w: (1fr, 2fr),
+  )
+]
+
+
+#slide[
+  #title("Warning! Contains Lies for Pedagogical Purposes")
+  #cols(
+    head[I Want To Study Traffic Jams.\ Problem: #focus[Too Many Cars!]],
+    img("traffic2.JPG", w: 90%),
+    w: (1fr, 2fr),
+  )
+]
+
+#slide[
+  #title("Warning! Contains Lies for Pedagogical Purposes")
+  #cols(
+    head[What Do I do?\ Study #focus[Local Neighborhood] of Each Car.],
+    img("traffic3.svg", w: 100%),
+    w: (1fr, 2fr)
+  )
+]
+
+#slide[
+  #title("Warning! Contains Lies for Pedagogical Purposes")
+  #cols(
+    v(1fr) + head[Finally?\ Combine Local Knowledge With #focus[Global Patterns]] + v(1fr) + head[We have obtained global knowledge\ on traffic jams without having to\ study a very large number of cars.] + v(1fr),
+    img("traffic4.svg", w: 60%)
+  )
+]
