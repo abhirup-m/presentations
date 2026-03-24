@@ -970,9 +970,9 @@ _Presubmission Open Seminar_
 #slide[
   #title("Phase Diagram Of Lattice-Embedded Impurity Model")
 
-  #c[
+  #only(1,2,3)[#c[
     Analyse low-energy *distribution* of $J(k_1, k_2)$ on #focus[Fermi surface] to classify phases.
-  ]
+  ]]
 
   // #v(1fr)
   #unc(2,3,4,5)[
@@ -1017,29 +1017,32 @@ _Presubmission Open Seminar_
 
     #only(4,5)[
 
-      #img("phaseDiagram-77-3.svg", w: 90%)
+      #img("phaseDiagram-77-3.svg", w: 95%)
 
-      // #v(1fr)
+      #v(-0.5em)
       #cols(
+        [
+          #img("phaseDiagram-77-4.svg")
+        ],
         [
           #head[Intermediate $|W|$]
           - $J(k_1, k_2)$ *vanishes partially* on the Fermi surface
           - *antinodes* decouple from impurity, *nodes* remains coupled
-          - Momentum-space *anisotropy*!
+          - Lattice geometry forces momentum-anisotropic phase!
         ],
-        [
-          #focus[What is this phase of matter?]
-
-          Metal or insulator?
-        ],
-        w: (1fr, 0.5fr),
+        // [
+        //   #focus[What is this phase of matter?]
+        //
+        //   Metal or insulator?
+        // ],
+        w: (1fr, 2fr),
       )
       // #v(1fr)
 
       #unc(5)[
         #place(center + horizon, dy: 0em, bbox(factor: 130%, [
-          - Conventional metal ❯ Partially Gapped Metal ❯ Mott insulator
-          - Lattice geometry forces momentum-space anisotropy
+          - What is this phase of matter?
+          - Metal or insulator?
         ]))
       ]
     ]
