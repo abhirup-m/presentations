@@ -141,7 +141,7 @@
   img("iiserk.png"),
   text(size: 1.1em, [
     #head[Emergent Phenomena in Quantum Matter group]
-   #head[IISER Kolkata]
+   *Indian Institute of Science Education and Research (IISER) Kolkata*
    ]),
   img("epqm.svg")
 )
@@ -149,6 +149,7 @@
 
 #slide[
   #title("A Brief Introduction")
+  #v(-1em)
 
   #let timeline = box(
       line(length: 100%, stroke: 0.5em + h1Color)
@@ -166,24 +167,34 @@
       )
 
       #timeline
+
+      #cols(
+        [*2018*],
+        [*2020*],
+        [*2026*$""^*$],
+        w: (1fr, 0.8fr, 1fr)
+      )
     ],
     [
       #head[Research Interests]
       - Mott transition and quantum criticality
       - Kondo frustration,
-      - topological phases,
-      - entanglement transition.
+      - topological phases, entanglement transition.
     ],
-    w: (0.5fr, 0.4fr),
+    w: (0.5fr, 0.5fr),
   )
   #v(1fr)
 
   #head[Skills and Techniques]
-  - #focus[Renormalisation] group methods
+  - #focus[Field theory methods]:
+    #cols(
+      [- Renormalisation group theory techniques],
+      [- renormalised perturbation theory]
+    )
   - #focus[Numerical modelling] and exact diagonalisation of fermionic Hamiltonians
     - Static correlation functions, dynamical responses, entanglement measures 
     - #focus[Published libraries] (Python, Julia) to modularise and optimise such calculations
-  - Miscellaneous: spectral flow techniques, renormalised perturbation theory
+  - Miscellaneous: spectral flow techniques
 
 ]
 
@@ -231,12 +242,34 @@
 #slide[
   #title("Acknowledgements")
 
+  #v(-0.5em)
+  #cols(
+    img("slal.jpg"),
+    [
+      Siddhartha Lal\ (*IISER Kolkata*)
+    ],
+    img("anamitra.png"),
+    [
+      Anamitra Mukherjee\ (*NISER*)
+    ],
+    // h(1fr),
+    w: (0.8fr, 1fr, 1.5fr, 1fr)
+  )
+
   #v(1fr)
-  #img("slal.jpg", h:50%)
-  #img("arghya.jpg", h:50%)
-  #img("nsv.jpg", h:50%)
-  #img("IMSc.png", h:50%)
-  #v(1fr)
+  #cols(
+    [A. Taraphder (*IIT KGP*)],
+    [N. S. Vidhyadhiraja (*JNCASR*)],
+    [S. R. Hassan (*IMSC*)],
+  )
+  #v(-0.5em)
+  #cols(
+    img("arghya.jpg", h:40%),
+    img("nsv.jpg", h:40%),
+    img("IMSc.png", h:40%),
+  )
+  #v(-0.5em)
+
 ]
 
 // #slide[
@@ -691,7 +724,7 @@
 
       - Theory for low-lying #focus[excitations] at transition?
 
-      - Effective hamiltonian for holon-doublon excitations in Hubbard #focus[sidebands]?
+      - Any counterpart for the #focus[physics of $r_(c 1)$] in our effective impurity model?
 
       #v(1fr)
       #head[What's The Point?]
@@ -710,9 +743,9 @@
   - Add explicit #focus[Kondo] interaction
   - Add local weak #focus[bath] correlation
 
-  $ H = H_"SIAM" ({E_k}, V, U) + J S_d dot s_0 + U_b/2 (n_(0 arrow.t) - 1/2)(n_(0 arrow.b) - 1/2) $
+  $ H = H_"SIAM" ({E_k}, V, U) + J S_d dot s_0 + U_b (n_(0 arrow.t) - 1/2)(n_(0 arrow.b) - 1/2) $
 
-  #img("./images/esiamSchematic.svg", w: 50%)
+  #img("./images/esiamSchematic.svg", w: 80%)
 ]
 
 #slide[
@@ -766,7 +799,7 @@
       ],
       w: (1fr, 0.8fr),
     )
-    #place(center + horizon, bbox(factor: 110%, [line of critical points ⟹ non-Fermi liquid]))
+    // #place(center + horizon, bbox(factor: 110%, [line of critical points ⟹ non-Fermi liquid]))
   ]
   // #v(1fr)
 ]
@@ -777,73 +810,69 @@
   #head[Low-energy excitations proximate to impurity in fixed-point theory]
   #v(1fr)
 
-  $ H_"eff" = S_d dot (S_1 + S_3) $
-
   #cols(
-    h(3em),
+    img("images/esiamNFL.svg"),
     [
-      #cols(
-        [$ |0, arrow.t chevron.r $],
-        [$ <-- S_1 --> $],
-        [$ | arrow.t, 0 chevron.r $],
-      )
+      #show: pause
+      $ H_"eff" = S_d dot (S_1 + S_3) $
+      $ |0, arrow.t chevron.r  <-- S_1 --> | arrow.t, 0 chevron.r $
+      $ |2, arrow.t chevron.r <-- S_3 --> | arrow.t, 2 chevron.r $
     ],
-    h(3em),
-    [
-      #cols(
-        [$ |2, arrow.t chevron.r $],
-        [$ <-- S_3 --> $],
-        [$ | arrow.t, 2 chevron.r $],
-      )
-    ],
-    h(3em),
-    w: (1fr, 2fr, 1fr, 2fr, 1fr),
+    w: (2fr, 1fr),
   )
 
-  - fixed-point theory displays #focus[fluctuations] of impurity-zeroth site complex
-  - replaces local Fermi liquid theory
-  - electrons incoming from first site #focus[transmute] into new states on way out
-
   #v(1fr)
+  #show: pause
   #head[Non-Fermi Liquid!]
   #v(1fr)
+  - fixed-point theory displays #focus[fluctuations] of impurity-zeroth site complex
+  - *orthogonality catastrophe*: replaces local Fermi liquid theory
+  - electrons incoming from first site #focus[transmute] into new states on way out
 
-  // TODO: ADD FIGURE
 ]
 
 #slide[
-  #title("Other Results")
-
-  #v(1fr)
-  #head[Low-Energy Excitations Within Hubbard Sidebands]
-
-  #c[Holon-Doublon Transfer Processes in Hubbard Sidebands]
+  #title("Excited State Transition at $r_(c 1)$")
 
   #head[$r_(c 1)$ as an excited state quantum phase transition]
 
-  #c[Local moment states enter the manybody spectrum]
-  #v(2fr)
+  - At $r_(c 1)$, one-particle hybridisation #focus[$V$ turns irrelevant] under renormalisation group flow
+  - Leads localisation of certain excited states
+  - #focus[Local moment states] emerge in the spectrum
+
+  #img("images/ESQPT.svg", w: 70%)
+
+  // #v(1fr)
+  // #head[Low-Energy Excitations Within Hubbard Sidebands]
+  //
+  // #c[Holon-Doublon Transfer Processes in Hubbard Sidebands]
+  //
+  // #head[$r_(c 1)$ as an excited state quantum phase transition]
+  //
+  // #c[Local moment states enter the manybody spectrum]
+  // #v(2fr)
 ]
 
 #slide[
   #title("Local Attractive Bath Correlation Is The Trick!")
 
-  #cols(
-    [#focus[Local attractive bath correlation] induces phase transition not present in vanilla impurity model.],
-    img("./images/esiamSchematic.svg"),
-    unc(from: 4)[State exactly at transition is a #focus[non-Fermi liquid].],
-    w: (1fr, 1.5fr, 1fr),
-  )
+  #img("./images/esiamSchematic.svg", w: 70%)
+  // #cols(
+    // [#focus[Local attractive bath correlation] induces phase transition not present in vanilla impurity model.],
+    // img("./images/esiamSchematic.svg"),
+    // unc(from: 4)[State exactly at transition is a #focus[non-Fermi liquid].],
+  //   w: (1.5fr, 2.5fr),
+  // )
 
   #v(1fr)
   #unc(from: 2, to: 5)[
-    #place(center + horizon, dx: -10em, dy: -1em, point(140deg, f: 4))
+    #place(center + horizon, dx: -10em, dy: 1em, point(140deg, f: 4))
     #img("./images/Singlet2.svg")
     #h(9em)
     #unc(from: 3)[
       #img("./images/localMoment.svg")
 
-      #place(center + horizon, dx: 10em, dy: -1em, point(40deg, f: 4))\
+      #place(center + horizon, dx: 10em, dy: 1em, point(40deg, f: 4))
 
       #unc(from: 5)[
         #place(center + horizon, bbox(factor: 120%, [Impurity model with weak attractive\ bath correlation faithfully captures\ Mott transition in D = #math.infinity.]))
@@ -866,11 +895,10 @@
   #v(1fr)
   #cols(
     img("./images/esiamSchematic.svg"),
-    only(1,)[
+    [
       Previous demonstration worked because
       - *non-local fluctuations vanish* in $d --> infinity$ (mean-field is exact)
       - Largely insensitive to *lattice details* $\{ epsilon_k \}$
-
     ]
     // + only(from: 5)[
     //   #cols(
@@ -883,6 +911,13 @@
     // ],
     // w: (0.7fr, 1fr),
   )
+  #v(1fr)
+
+
+    #show: pause
+    Impurity-bath connection insensitive to lattice details -- worked in $D=infinity$!
+
+    #head[Method needs to be extended to account for lattice effects and spatial fluctuations]
   #v(1fr)
   // #v(1fr)
   // #show: pause
@@ -1050,7 +1085,7 @@
       $ H_"lat" = sum_i tilde(T)\(r_i\) H_"aux" tilde(T)^dagger \(r_i\) $
 
       #v(-0.5em)
-      $ H_"hop" + U sum_i n_(i, arrow.t)n_(i, arrow.b) + sum_(<i,j>) S_i dot S_j $
+      $ H_"hop" + U sum_i n_(i, arrow.t)n_(i, arrow.b) + J sum_(<i,j>) S_i dot S_j $
 
     ],
     only(4)[#img("./images/tiledHamiltonian.svg")] + only(5, 6)[#img("./images/tiledHamiltonian2.svg")],
@@ -1204,16 +1239,16 @@
       // #v(0.5em)
 
       - Central resonance lost
-      - #focus[Destruction of electronic excitations]
+      - #focus[Loss of quasiparticles]
     ],
-    // [
-    //   #show:pause
-    //   #head[Quasiparticle Residue]
-    //   // #v(0.5em)
-    //
-    //   - strength of electronic excitations
-    //   - #focus[morphing of excitations into emergent objects]
-    // ],
+    [
+      #show:pause
+      #head[Optical Conductivity]
+      // #v(0.5em)
+
+      - Drude peak in Fermi liquid
+      - #focus[Mid-infrared] peak in PG
+    ],
   )
   #uncover(1, [], update-pause: true)
   #cols(
@@ -1225,10 +1260,10 @@
       #show:pause
       #img("Ad_zoomin_77-1500.pdf")
     ],
-    // [
-    //   #show:pause
-    //   #img("QPR_77-1500.pdf")
-    // ]
+    [
+      #show:pause
+      #img("images/sigma_in.svg")
+    ]
   )
 ]
 
@@ -1397,85 +1432,6 @@
   // ]))
 ]
 
-// #slide[
-//   #title("Guiding Principle for The Pseudogap: Anomalies")
-//
-//   #v(-0.5em)
-//   #place(left + top, [Partial #focus[gaps] near antinodes])
-//   #place(horizon + left, dy: -3em, [$ G = 0$ ==> #focus[singular]\ structure in self-energy])
-//   #cols(
-//     [
-//       #v(-1em)
-//       $ G_k (omega) = 1 / (omega - epsilon_k - Sigma) $
-//     ],
-//     [
-//       #img("greenZeros.svg")
-//     ],
-//     [
-//       #cols(
-//         [#focus[Why is this important?] Defines LW functional:],
-//         [$ delta Phi ~ integral dif omega med Sigma med delta G$],
-//         w: (1fr,0.5fr)
-//       )
-//
-//       #cols(
-//         [$Phi$ acts as effective action:],
-//         [$ partial S = J med partial A$],
-//         w: (1fr,0.45fr)
-//       )
-//       $J_Phi ~ delta Phi \/ delta G $ --> "generalised current"
-//
-//       Number density $N$  = topological charge of $J_Phi$ (#focus[winding] of $G$ in frequency)
-//     ],
-//     w: (0.7fr, 0.7fr, 1.9fr),
-//   )
-//
-//   #v(-0.8em)
-//   #cols(
-//     [
-//
-//       #head[What's this about an anomaly?]
-//
-//       In QED, $J = n_"left" - n_"right"$ not conserved with gauge field: #focus[chiral anomaly]
-//
-//       #img("chiralAnomaly.svg")
-//
-//       - Symmetry is satisfied classically but #focus[breaks down] upon quantisation
-//
-//     ],
-//     [
-//       #head[Something analogous happens here]
-//
-//       *Fermi liquid*: $Phi$ analytic ==> $delta Phi = 0$: #focus[conserved]
-//
-//       *Pseudogap*: $Phi$ singular ==> current #focus[not conserved]
-//
-//       Breakdown of generalised symmetry ==> #focus[anomaly]
-//
-//       Breakdown in topology: $N != "charge of" J_Phi$
-//     ],
-//     w: (1fr, 1.2fr)
-//   )
-//
-//   #show: pause
-//   #place(
-//     center + horizon,
-//     dy: -3em,
-//     bbox(factor: 110%,
-//       [Zeros of G ⟹  non-analytic Φ ⟹  Anomaly in Non-Fermi Liquid]
-//     )
-//   )
-//
-//   #show: pause
-//   #place(
-//     center + horizon,
-//     dy: 3em,
-//     bbox(factor: 110%,
-//       [Φ defines generalised symmetry ⟹  breakdown signals non-Fermi liquid]
-//     )
-//   )
-// ]
-//
 
 
 
@@ -1542,10 +1498,10 @@
 ]
   
 #slide[
-  #title("Magic-angle Twisted Bilayer Graphene: Two-Orbital Approach and an Exactly Solvable Model")
+  #title("Investigations Into Twisted Bilayer Graphene")
 
   #v(1fr)
-  #head[Model Electronic Correlations In Graphene Using Hatsugai-Kohmoto Model]
+  #head[Modelling Electronic Correlations Using Hatsugai-Kohmoto Model]
   - #focus[Exactly solvable] model -- Mott insulator and non-Fermi liquid phases
   - Study HK model within graphene -- #focus[controlled way] of analysing correlated phases
 
@@ -1557,7 +1513,7 @@
 ]
 
 #slide[
-  #title("Heavy-fermions: Expanded Phase Diagram and Superconductivity")
+  #title("Investigations Into Heavy Fermion Materials")
 
   #v(1fr)
   #head[Model heavy fermion materials as two correlated Mott layers]
@@ -1939,52 +1895,119 @@
 ]
 
 #slide[
+  #title("Tiling Details")
+
+  $ G_"loc" (omega) =& 1/2sum_nu [C_(nu, r_d) cal(G)(nu(r_d)sigma, c^dagger_(r_d,sigma); tilde(omega)) + C^*_(nu, r_d) cal(G)(c_(r_d,sigma), nu^dagger(r_d)sigma; tilde(omega))] \
+						  &+ 1/2 sum_( r_1, r_2 != r_d, nu) F_n( r_1 -  r_2)^* [C_( r_1, nu) cal(G)(cal(T)_(nu( r_1)sigma),cal(T)^dagger_( r_2sigma); tilde(omega)) + C^*_( r_1, nu) cal(G)(cal(T)_( r_1sigma),cal(T)^dagger_(nu( r_2)sigma); tilde(omega))] 
+                                                  $
+    #show math.equation: set align(left)
+    #h(2em)#box[
+      local Greens function expressed as #focus[sum over impurity model Greens function] at varying distances
+
+      $ sum_nu ==> "sum over local bands" $
+      $ C_(nu, r) ==> "overlap of local site against band" $
+      $ cal(T) ==> "correlated excitations between impurity and bath sites" $
+      $ F_n ==> "correlated excitations between impurity and bath sites" $
+    ]
+
+
+]
+
+#slide[
   #title("Mott Transition As Holon-Doublon Binding-Unbinding")
   #img("mottPicture.svg", w: 100%)
 ]
 
 
 #slide[
-  #title("Warning! Contains Lies for Pedagogical Purposes")
+  #title("Guiding Principle for The Pseudogap: Anomalies")
+
+  #v(-0.5em)
+  #place(left + top, [Partial #focus[gaps] near antinodes])
+  #place(horizon + left, dy: -3em, [$ G = 0$ ==> #focus[singular]\ structure in self-energy])
   #cols(
-    head[Electrons as cars.\ Less traffic ⟹ Metal],
-    img("traffic1.jpg", w: 100%),
-    w: (1fr, 2fr),
+    [
+      #v(-1em)
+      $ G_k (omega) = 1 / (omega - epsilon_k - Sigma) $
+    ],
+    [
+      #img("greenZeros.svg")
+    ],
+    [
+      #cols(
+        [#focus[Why is this important?] Defines LW functional:],
+        [$ delta Phi ~ integral dif omega med Sigma med delta G$],
+        w: (1fr,0.5fr)
+      )
+
+      #cols(
+        [$Phi$ acts as effective action:],
+        [$ partial S = J med partial A$],
+        w: (1fr,0.45fr)
+      )
+      $J_Phi ~ delta Phi \/ delta G $ --> "generalised current"
+
+      Number density $N$  = topological charge of $J_Phi$ (#focus[winding] of $G$ in frequency)
+    ],
+    w: (0.7fr, 0.7fr, 1.9fr),
+  )
+
+  #v(-0.8em)
+  #cols(
+    [
+
+      #head[What's this about an anomaly?]
+
+      In QED, $J = n_"left" - n_"right"$ not conserved with gauge field: #focus[chiral anomaly]
+
+      #img("chiralAnomaly.svg")
+
+      - Symmetry is satisfied classically but #focus[breaks down] upon quantisation
+
+    ],
+    [
+      #head[Something analogous happens here]
+
+      *Fermi liquid*: $Phi$ analytic ==> $delta Phi = 0$: #focus[conserved]
+
+      *Pseudogap*: $Phi$ singular ==> current #focus[not conserved]
+
+      Breakdown of generalised symmetry ==> #focus[anomaly]
+
+      Breakdown in topology: $N != "charge of" J_Phi$
+    ],
+    w: (1fr, 1.2fr)
+  )
+
+  #show: pause
+  #place(
+    center + horizon,
+    dy: -3em,
+    bbox(factor: 110%,
+      [Zeros of G ⟹  non-analytic Φ ⟹  Anomaly in Non-Fermi Liquid]
+    )
+  )
+
+  #show: pause
+  #place(
+    center + horizon,
+    dy: 3em,
+    bbox(factor: 110%,
+      [Φ defines generalised symmetry ⟹  breakdown signals non-Fermi liquid]
+    )
   )
 ]
 
 #slide[
-  #title("Warning! Contains Lies for Pedagogical Purposes")
-  #cols(
-    head[Electrons as cars.\ #focus[Traffic Jam] ⟹ Mott insulator],
-    img("traffic2.JPG", w: 90%),
-    w: (1fr, 2fr),
-  )
-]
+  #title("Effective Theory For Delocalisation Within Sidebands")
 
+  Work with intermediate energy couplings.
 
-#slide[
-  #title("Warning! Contains Lies for Pedagogical Purposes")
-  #cols(
-    head[I Want To Study Traffic Jams.\ Problem: #focus[Too Many Cars!]],
-    img("traffic2.JPG", w: 90%),
-    w: (1fr, 2fr),
-  )
-]
+  - Introduce hopping onto first site as perturbation
 
-#slide[
-  #title("Warning! Contains Lies for Pedagogical Purposes")
-  #cols(
-    head[What Do I do?\ Study #focus[Local Neighborhood] of Each Car.],
-    img("traffic3.svg", w: 100%),
-    w: (1fr, 2fr)
-  )
-]
+  $ H_"eff" ~ (C_0^+ - C_d^+)C_1^- + "h.c." $
 
-#slide[
-  #title("Warning! Contains Lies for Pedagogical Purposes")
-  #cols(
-    v(1fr) + head[Finally?\ Combine Local Knowledge With #focus[Global Patterns]] + v(1fr) + head[We have obtained global knowledge\ on traffic jams without having to\ study a very large number of cars.] + v(1fr),
-    img("traffic4.svg", w: 60%)
-  )
+  Exchange of holes and doubles between local sites
+
+  #focus[Stays within upper Hubbard band, likely to be gapless]
 ]
