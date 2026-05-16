@@ -885,7 +885,7 @@
   #v(3em)
 
 #section[Mott Criticality in a 2D Extended Hubbard Model]
-== Mott Transition as the Holon\ \
+== Mott Transition as the Deconfinement of Holons and Doublons\ \
 *#papers.Mukherjee2025.display (#papers.Mukherjee2025.date)*\
 #authorise(papers.Mukherjee2025.author)
 ]
