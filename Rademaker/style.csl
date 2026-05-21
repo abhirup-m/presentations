@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl"
+       version="1.0"
+       class="in-text"
+       default-locale="en-US">
+
+  <info>
+    <title>First Author Year (Bracketed)</title>
+    <id>http://www.zotero.org/styles/first-author-year-bracketed</id>
+  </info>
+
+  <!-- In-text citation -->
+  <citation>
+    <layout delimiter="; ">
+      <group delimiter=" ">
+        <names variable="author" max="1" et-al-min="2" et-al-use-first="1">
+          <name form="short"/>
+          <et-al term="et-al"/>
+        </names>
+        <date variable="issued" prefix="(" suffix=")">
+          <date-part name="year"/>
+        </date>
+      </group>
+    </layout>
+  </citation>
+
+  <!-- Bibliography -->
+  <bibliography>
+    <layout>
+      <group delimiter=" ">
+        <names variable="author" max="1" et-al-min="2" et-al-use-first="1">
+          <name form="long"/>
+          <et-al term="et-al"/>
+        </names>
+        <date variable="issued" prefix="(" suffix=")">
+          <date-part name="year"/>
+        </date>
+      </group>
+    </layout>
+  </bibliography>
+
+</style>
