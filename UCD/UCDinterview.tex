@@ -197,41 +197,44 @@ Linear Resistivity in {\bf Strange Metal} crosses MIR bound
 	\end{minipage}
 	\hfill
 	\begin{minipage}{0.45\textwidth}
-	Solve an \alert{impurity model} \(H_\text{imp}\) with certain properties:
+	Solve an appropriate \alert{impurity model}:
 	\begin{itemize}
-		\item Lattice symmetry
-		\item Localisation transition
+		\item Lattice symmetry + Transition
 	\end{itemize}~\\
-	\focus{Construct correlated lattice} model by applying many-body translation operators (``tiling")
-	\begin{itemize}
-		\item Restore discrete translation invariance
-	\end{itemize}~\\
-	Analyse impurity mode using \focus{unitary RG}* method.\\
+	\focus{Construct lattice} model by applying many-body translation operators (``tiling")
+	% \begin{itemize}
+	% 	\item Restore discrete translation invariance
+	% \end{itemize}~
+	% \focus{Reconstructed lattice Hamiltonian:}
+	\[H_\text{hop} + \tilde J \sum_{\left< {\bf r}_i, {\bf r}_j\right>}{\bf S}_{{\bf r}_i}\cdot{\bf S}_{{\bf r}_j} - \frac{1}{2}\tilde U\sum_{\bf r}\left(\hat n_{{\bf r} , \uparrow} - \hat n_{{\bf r} , \downarrow}\right)^2
+	\]
+
+	Analyse impurity mode using \focus{unitary RG} method.\\
 
 	Tile with \focus{fixed-point impurity model} for low-energy properties of lattice model.
 	\end{minipage}
 
 \end{frame}
 
-\begin{frame}{Tiling from Impurity Model to Two Dimensions}
-“Tiling” allows us to translate physics obtained by from the impurity model into that of the 2D extended Hubbard model
-\vfill
-\begin{center}
-\includegraphics[width=0.8\textwidth]{tilingHamiltonian.pdf}
-\end{center}
-\vfill
-
-\begin{minipage}{0.65\textwidth}
-\focus{Reconstructed lattice Hamiltonian:}
-\[-\frac{\tilde t}{\sqrt{\mathcal{Z}}} \sum_{\left<{\bf r}_i, {\bf r}_j\right>;\sigma}\left(c^\dagger_{{\bf r}_i,\sigma}c_{{\bf r}_j,\sigma} + \text{h.c.}\right) + \frac{\tilde J}{\mathcal{Z}}\sum_{\left< {\bf r}_i, {\bf r}_j\right>}{\bf S}_{{\bf r}_i}\cdot{\bf S}_{{\bf r}_j} - \frac{1}{2}\tilde U\sum_{\bf r}\left(\hat n_{{\bf r} , \uparrow} - \hat n_{{\bf r} , \downarrow}\right)^2
-\]
-\end{minipage}
-\begin{minipage}{0.3\textwidth}
-	\[\tilde t = 2V/Z\]
-	\[\tilde U = U + W\]
-	\[\tilde J = 2J/Z\]
-\end{minipage}
-\end{frame}
+% \begin{frame}{Tiling from Impurity Model to Two Dimensions}
+% “Tiling” allows us to translate physics obtained by from the impurity model into that of the 2D extended Hubbard model
+% \vfill
+% \begin{center}
+% \includegraphics[width=0.8\textwidth]{tilingHamiltonian.pdf}
+% \end{center}
+% \vfill
+%
+% \begin{minipage}{0.65\textwidth}
+% \focus{Reconstructed lattice Hamiltonian:}
+% \[-\frac{\tilde t}{\sqrt{\mathcal{Z}}} \sum_{\left<{\bf r}_i, {\bf r}_j\right>;\sigma}\left(c^\dagger_{{\bf r}_i,\sigma}c_{{\bf r}_j,\sigma} + \text{h.c.}\right) + \frac{\tilde J}{\mathcal{Z}}\sum_{\left< {\bf r}_i, {\bf r}_j\right>}{\bf S}_{{\bf r}_i}\cdot{\bf S}_{{\bf r}_j} - \frac{1}{2}\tilde U\sum_{\bf r}\left(\hat n_{{\bf r} , \uparrow} - \hat n_{{\bf r} , \downarrow}\right)^2
+% \]
+% \end{minipage}
+% \begin{minipage}{0.3\textwidth}
+% 	\[\tilde t = 2V/Z\]
+% 	\[\tilde U = U + W\]
+% 	\[\tilde J = 2J/Z\]
+% \end{minipage}
+% \end{frame}
 
 \begin{frame}{Unitary RG Phase Diagram and Pseudogapping Transition}
 \begin{minipage}{0.5\textwidth}
