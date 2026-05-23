@@ -263,327 +263,6 @@
 
 ]
 
-// #slide[
-// #section[Introduction To Fermionic Criticality and Quantum Materials]
-// == What's the Big Idea?
-// ]
-
-// #slideTop[
-//   #title("What Do Condensed Matter Theorists Do?")
-//
-//   #show: pause
-//   #head[Explain Experiments]
-//   Build and solve theoretical models that explain observations
-//
-//   #focus[Examples:] Quantum Hall effect, superconductivity
-//
-//   #v(1fr)
-//   #show: pause
-//   #head[Predict Experiments]
-//   Identify interesting theoretical models that predict novel phenomena
-//
-//   #focus[Examples:] Abrikosov vortex lattice, spin liquids
-//
-//   #v(1fr)
-//   #show: pause
-//   #head[Classify experiments]
-//   Come up with frameworks that explain a large class of phenomena
-//
-//   #focus[Examples:] Landau theory of phase transition
-//   #v(1fr)
-// ]
-//
-// #slide[
-//   #title("Quantum Materials")
-//   Class of materials that #focus[cannot] be well-approximated by "classical" description
-//
-//   // #v(1fr)
-//   #cols(
-//   unc(from: 2)[
-//     // #v(-4em)
-//     #img("graphene.jpg", w:80%)
-//   ],
-//   [
-//     #unc(from: 2)[
-//       #bbox([topological properties\ (_topological insulators_)], factor: 100%)
-//     ]
-//     #unc(from: 3)[
-//       #bbox([non-local entanglement (_spin liquids_)], factor: 100%)
-//     ]
-//     #unc(from: 4)[
-//       #bbox([collective excitations (_strange metals_)], factor: 100%)
-//     ]
-//   ],
-//   unc(from: 3)[
-//     #img("QSL.jpg", w: 80%)
-//   ]
-//   )
-//   #v(1fr)
-//
-//   #v(-3.5em)
-//   #unc(from: 5)[
-//     Needs #focus[new ideas] and methods!
-//     - ability to work with a large number of #focus[interacting particles]
-//     - ability to work  with #focus[emergent] degrees of freedom and #focus[non-local/collective] order parameters
-//   ]
-//
-// ]
-//
-// #slide[
-//   #title("Strongly Correlated Phenomena in Quantum Materials")
-//
-//   - Phenomena arising from #focus[inter-electron repulsion] and many-electron effects
-//
-//   - materials with strong local #focus[correlation], #focus[low dimensionality], multiple electronic #focus[orbitals]
-//   // #only(from:1, to: 2)[
-//   // #cols(
-//   //   unc(2)[
-//   //     #bbox[transition metals, rare\ earths, actinides]
-//   //
-//   //     #bbox[unpaired _f_ or\ _d_ electrons]
-//   //   ],
-//   //   unc(2)[
-//   //     - Transition metal oxides (high-$T_c$ cuprates)
-//   //     - Transition metal dichalcogenides ($"MoS"_2$)
-//   //     - Heavy-fermion compounds ($"CeCu"_2"Si"_2$)
-//   //
-//       // Localised _f_ and _d_ electrons \ #focus[enhance] effect of correlations.
-//     // ]
-//     // unc(4)[
-//     //   #img("cuprateStructure.png", w:100%)
-//     // ]
-//   // )]
-//   #only(from: 2, to: 6)[
-//     #footcite("Mott_1949,Mott_RMP_1968")
-//     // #v(-0.5em)
-//     #head[Phenomena: Mott Insulation]
-//     // #v(-0.5em)
-//
-//     #img("mottInsulator.svg", w:92%)
-//     #only(2)[#place(right + horizon, dy: 2em, rect(fill: bgColor, width: 62%, height: 55%))]
-//     #only(3)[#place(right + horizon, dy: 2em, rect(fill: bgColor, width: 40%, height: 55%))]
-//
-//     #only(5,6)[
-//       #cols(
-//         [
-//           - Not accessible from 1-particle theory
-//         ],
-//         [
-//           - result of #focus[manybody effects]
-//         ],
-//       )
-//     ]
-//     #unc(6, place(center + horizon, bbox(factor: 120%, [How do  the electrons morph when\ a metal gives way to a Mott insulator?])))
-//
-//   ]
-//   #only(from: 7, to: 10)[
-//     #footcite("phillips2022,keimer2015quantum,hussey_2011")
-//     #cols(
-//       [
-//         #img("linearResistivity.svg", w: 100%)
-//       ],
-//       [
-//         #head[Phenomena: Strange Metallicity]
-//         #unc(from: 8)[
-//         #cols(
-//           [
-//           Expected: $R prop T^2$
-//
-//           #img("TSquareScattering.svg", w: 60%)
-//
-//           Source of $R prop T$?
-//         ],
-//         unc(from: 9)[
-//           #focus[Mean-free path] no less than one lattice spacing
-//
-//           #img("mirSchematic.svg", w: 85%)
-//
-//         ],
-//       )]],
-//       w: (1fr, 1.8fr)
-//     )
-//     #unc(10)[#place(center + horizon, bbox(factor: 120%, [Who is carrying current\ in strange metals?]))]
-//
-//   ]
-//   // #only(11, 12)[
-//   //
-//   //   #cols(
-//   //     [
-//   //       A canonical example: *high-$T_c$ cuprate*\
-//   //       // - Layered #focus[Cu-O planes] --> effectively 2D electrons
-//   //       // - Cu 3d orbitals --> #focus[localized electrons] --> strong correlations
-//   //
-//   //       #unc(12)[
-//   //       // #v(1fr)
-//   //       #head[Several competing energy scales]
-//   //       // #v(1fr)
-//   //       - Zoo of correlated phases!
-//   //       - Mechanism underlying various phases: *not settled*
-//   //       - Crossover/transition between various phases remains unresolved
-//   //       ]
-//   //     ],
-//   //     img("cuprates.svg"),
-//   //     w: (1fr, 1.1fr),
-//   //   )
-//   // ]
-// ]
-//
-// #slide[
-//
-//   #title("Theoretical Models of Correlated Materials")
-//   #cols(
-//     [
-//       #head[Hubbard Model]
-//       #footcite("hubbard1963electron,kanamori_1963,Gutzwiller1965")
-//       #show: pause
-//
-//       - Correlated electrons hopping on a lattice
-//
-//       - Hopping probability: $t$
-//
-//       #img("hubbard2.svg", w:40%)
-//       #show: pause
-//
-//       - Energy cost $U$ if two occupy same site.
-//
-//       #img("hubbard3.svg", w:40%)
-//       #show: pause
-//
-//       $ H = -t sum_(i, j, sigma) \( c^dagger_(i, sigma) c_(j, sigma) + "h.c." \) + sum_i U n_(i, arrow.t) n_(i, arrow.b) $
-//       #v(1fr)
-//     ]
-//     // [
-//     //   #show: pause
-//     //   #head[Periodic Anderson Model]
-//     //
-//     //   - #focus[Multi-orbital] model: one localised, the other delocalised
-//     //
-//     //   #show: pause
-//     //
-//     //   #img("PAM2.svg", w:70%)
-//     //
-//     //   - Electrons can hop across orbitals
-//     //
-//     //   #show: pause
-//     //
-//     //   *Hamiltonian*: $ H_"Hub" + H_"hop" + V sum_(i,sigma) f^dagger_(i,sigma) c_(i,sigma) + "h.c."$
-//     //
-//     //   #v(1fr)
-//     // ],
-//   )
-//   #show: pause
-//   #place(center + horizon, bbox(factor: 120%, [
-//     t ⟹  Delocalisation
-//
-//     U ⟹ Localisation
-//
-//     🔥~~Competition
-//   ]))
-//
-//
-// ]
-//
-// #slide[
-//   #title("Quantum Impurity Models as Auxiliary Models")
-//   #footcite("martin_2016")
-//
-//   #cols(
-//     img("auxiliary1.svg"),
-//     [
-//       Lattice models of correlated electrons are *hard to solve* directly.\
-//       #show: pause
-//
-//       #focus[Idea]: replace full problem with a simpler *auxiliary model* that captures the local correlations.
-//     ],
-//     unc(from: 2, img("auxiliary2.png")),
-//     w: (0.8fr, 1.1fr, 1.1fr),
-//   )
-//
-//   #show: pause
-//   // #v(-1em)
-//   #cols(
-//     head[Example: Mean-field solution\ of Ising model],
-//     [
-//       #img("isingAux1.svg")
-//       $ H = sum_(i,j)J_(i,j)S_i^z S_j^z $
-//     ],
-//     [
-//       #show: pause
-//       *Mean-field* approximation:
-//
-//       $ H = sum_(i)h_"eff" S_i^z $
-//     ],
-//     [
-//       #uncover(3, [], update-pause: true)
-//       #show: pause
-//       #img("isingAux2.svg")
-//
-//       Rest ==> effective field
-//     ],
-//     w: (0.9fr, 0.9fr, 0.5fr, 0.9fr),
-//   )
-//
-// ]
-//
-// #slide[
-//   #title("Quantum Impurity Models as Auxiliary Models")
-//
-//   #footcite("metzner_volhardt_1989,kotliar1996,kotliar1992")
-//   // #v(-1em)
-//   #head[Appropriate auxiliary problem for lattice models with local correlation?]
-//   #show: pause
-//   // #only(2,3,4)[#cols(
-//   //   [
-//   //     #img("isingAux1.svg")
-//   //
-//   //     Ising model ==> #focus[Classical]
-//   //   ],
-//   //   [
-//   //     #show: pause
-//   //     #img("isingAux2.svg")
-//   //
-//   //     Mean-field ==> #focus[Static Model]
-//   //   ],
-//   //   [
-//   //     #show: pause
-//   //     Interacting Quantum Systems have #focus[time dynamics]
-//   //
-//   //     Auxiliary Model has to be *interacting* in order to capture temporal dynamics!
-//   //   ],
-//   // )]
-//   #only(from: 2)[
-//   #cols(
-//     [
-//       Auxiliary Model has to be #focus[interacting]\ in order to capture local dynamics accurately!
-//     ],
-//     img("auxiliary1.svg"),
-//     w: (2fr, 0.5fr),
-//   )
-//   #unc(from: 3)[
-//
-//     #place(left + horizon, dy: -1em, head[Insight from Limit of Infinite Dimensions!])
-//
-//     // #v(0.5em)
-//   ]
-//   #unc(from:4, cols(
-//     [
-//
-//       Local physics ==> #focus[Quantum Impurity Models]
-//
-//       Core Idea of Dynamical Mean-Field Theory
-//     ],
-//     img("correlatedAuxiliary.svg"),
-//     unc(from: 5)[
-//       - Tractable
-//       - dynamics 
-//
-//       ($omega-$dependence of correlations)
-//     ],
-//     w: (0.25fr, 0.4fr, 0.2fr),
-//   ))]
-//   #unc(6)[#place(center + horizon, bbox(factor: 120%, [Local physics of correlated\ lattice models can be mapped\ on to impurity model.]))]
-//
-// ]
 //
 // #slide[
 //   #title("Phenomenology of Quantum Impurity Models")
@@ -676,205 +355,6 @@
 #slide[
   #v(3em)
 
-  #section[Minimal Model For Kondo Breakdown and Mott Transition]
-  == A Route to Mott Localisation in Infinite Dimensions\ \
-  *#papers.Mukherjee2023.display (#papers.Mukherjee2023.date)*\
-  #authorise(papers.Mukherjee2023.author)
-
-]
-
-#slide[
-  #title("Mott Transition In Infinite Dimensions")
-  // #v(-1em)
-
-  #footcite("metzner_volhardt_1989,kotliar1992,Kotliar_physicstoday_2003")
-  #cols(
-    // [
-      // #show: pause
-      // - numerical implementation means precise form of self-consistent impurity model *not known*
-      // - low-energy theory for *critical point* not known
-      // #show: pause
-      // // #v(1fr)
-      // #head[Our Approach: Add Local Bath Correlation]
-      // // #v(1fr)
-      // #cols(
-      //   ellipse(width: 110%, height: 13%, stroke: 4pt + h2Color, c[$U_b n_(0 arrow.t) n_(0 arrow.b) $]),
-      //   img("./images/esiamSchematic.svg", w: 100%),
-      //   w: (1fr, 3fr),
-      // )
-      // #v(1fr)
-    // ],
-    [
-      #head[DMFT Results on _D = ∞_ Hubbard Model]
-
-      #img("./images/dmftPhysicsToday.png", w: 85%)
-    ],
-    [
-      #head[Outstanding Questions]
-      - #focus[Precise, minimal] form of quantum impurity model that captures the transition?
-
-      - Theory for low-lying #focus[excitations] at transition?
-
-      - Any counterpart for the #focus[physics of $r_(c 1)$] in our effective impurity model?
-
-      #v(1fr)
-      #head[What's The Point?]
-      - Computational ease (due to lack of self-consistency)
-      - Extension to more complicated problems (2D, multi-orbital)
-
-    ],
-    w: (1fr, 1fr),
-  )
-]
-
-#slide[
-  #title("Our Approach: Add Local Bath Correlation")
-
-  #head[Start with Anderson impurity model]
-  - Add explicit #focus[Kondo] interaction
-  - Add local weak #focus[bath] correlation
-
-  $ H = H_"SIAM" ({E_k}, V, U) + J S_d dot s_0 + U_b (n_(0 arrow.t) - 1/2)(n_(0 arrow.b) - 1/2) $
-
-  #img("./images/esiamSchematic.svg", w: 80%)
-]
-
-#slide[
-  #title("Phase Diagram and Impurity Phase Transition")
-  #show: pause
-  #footcite("hrk_wilson_1980,Si_kotliar_NFL_1993")
-  // #v(-2em)
-  #only(2)[
-    #cols(
-      [
-        #img("./images/esiamPhaseMapLabel1.svg")
-
-        - Impurity has gapless excitations for small $U_b$
-        - corresponds to weakly correlated #focus[metal]
-      ],
-      [
-        #img("./images/esiamSchematic.svg", w: 90%)
-
-        #img("./images/esiamSpecFunc1.svg", w: 90%)
-      ],
-      w: (1fr, 0.8fr),
-    )
-  ]
-  #only(3)[
-    #cols(
-      [
-        #img("./images/esiamPhaseMapLabel2.svg")
-        - for $U_b < 0$, DOS #focus[suppressed] around $omega=0$
-        - corresponds to strongly correlated #focus[metal]
-      ],
-      [
-        #img("./images/esiamSchematic.svg", w: 90%)
-
-        #img("./images/esiamSpecFunc2.svg", w: 90%)
-      ],
-      w: (1fr, 0.8fr),
-    )
-  ]
-  #only(4)[
-    #cols(
-      [
-        // #v(-0.5em)
-        #img("./images/esiamPhaseMapLabel3.svg")
-        - Impurity excitations #focus[gapped] for large negative $U_b$
-        - corresponds to #focus[Mott insulator]
-      ],
-      [
-        #img("./images/esiamSchematic.svg", w: 90%)
-
-        #img("./images/esiamSpecFunc3.svg", w: 90%)
-      ],
-      w: (1fr, 0.8fr),
-    )
-    // #place(center + horizon, bbox(factor: 110%, [line of critical points ⟹ non-Fermi liquid]))
-  ]
-  // #v(1fr)
-]
-
-#slide[
-  #title("Non-Fermi liquid signatures at the MIT")
-
-  #head[Low-energy excitations proximate to impurity in fixed-point theory]
-  #v(1fr)
-
-  #cols(
-    img("images/esiamNFL.svg"),
-    [
-      #show: pause
-      $ H_"eff" = S_d dot (S_1 + S_3) $
-      $ |0, arrow.t chevron.r  <-- S_1 --> | arrow.t, 0 chevron.r $
-      $ |2, arrow.t chevron.r <-- S_3 --> | arrow.t, 2 chevron.r $
-    ],
-    w: (2fr, 1fr),
-  )
-
-  #v(1fr)
-  #show: pause
-  #head[Non-Fermi Liquid!]
-  #v(1fr)
-  - fixed-point theory displays #focus[fluctuations] of impurity-zeroth site complex
-  - *orthogonality catastrophe*: replaces local Fermi liquid theory
-  - electrons incoming from first site #focus[transmute] into new states on way out
-
-]
-
-#slide[
-  #title("Excited State Transition at $r_(c 1)$")
-
-  #head[$r_(c 1)$ as an excited state quantum phase transition]
-
-  - At $r_(c 1)$, one-particle hybridisation #focus[$V$ turns irrelevant] under renormalisation group flow
-  - Leads localisation of certain excited states
-  - #focus[Local moment states] emerge in the spectrum
-
-  #img("images/ESQPT.svg", w: 70%)
-
-  // #v(1fr)
-  // #head[Low-Energy Excitations Within Hubbard Sidebands]
-  //
-  // #c[Holon-Doublon Transfer Processes in Hubbard Sidebands]
-  //
-  // #head[$r_(c 1)$ as an excited state quantum phase transition]
-  //
-  // #c[Local moment states enter the manybody spectrum]
-  // #v(2fr)
-]
-
-#slide[
-  #title("Local Attractive Bath Correlation Is The Trick!")
-
-  #img("./images/esiamSchematic.svg", w: 70%)
-  // #cols(
-    // [#focus[Local attractive bath correlation] induces phase transition not present in vanilla impurity model.],
-    // img("./images/esiamSchematic.svg"),
-    // unc(from: 4)[State exactly at transition is a #focus[non-Fermi liquid].],
-  //   w: (1.5fr, 2.5fr),
-  // )
-
-  #v(1fr)
-  #unc(from: 2, to: 5)[
-    #place(center + horizon, dx: -10em, dy: 1em, point(140deg, f: 4))
-    #img("./images/Singlet2.svg")
-    #h(9em)
-    #unc(from: 3)[
-      #img("./images/localMoment.svg")
-
-      #place(center + horizon, dx: 10em, dy: 1em, point(40deg, f: 4))
-
-      #unc(from: 5)[
-        #place(center + horizon, bbox(factor: 120%, [Impurity model with weak attractive\ bath correlation faithfully captures\ Mott transition in D = #math.infinity.]))
-      ]
-    ]
-  ]
-]
-
-#slide[
-  #v(3em)
-
 #section[Mott Criticality in a 2D Extended Hubbard Model]
 == Mott Transition as the Deconfinement of Holons and Doublons\ \
 *#papers.Mukherjee2025.display (#papers.Mukherjee2025.date)*\
@@ -882,61 +362,13 @@
 ]
 
 #slide[
-  #title("Extending This To The More Interesting $D=2$ Case")
-  #v(1fr)
-  #cols(
-    img("./images/esiamSchematic.svg"),
-    [
-      Previous demonstration worked because
-      - *non-local fluctuations vanish* in $d --> infinity$ (mean-field is exact)
-      - Largely insensitive to *lattice details* $\{ epsilon_k \}$
-    ]
-    // + only(from: 5)[
-    //   #cols(
-    //     img("./images/latticeInf.svg", w: 80%),
-    //     [
-    //       - All paths symmetric
-    //       - No non-trivial $k-$dependence
-    //     ]
-    //   )
-    // ],
-    // w: (0.7fr, 1fr),
-  )
-  #v(1fr)
-
-
-    #show: pause
-    Impurity-bath connection insensitive to lattice details -- worked in $D=infinity$!
-
-    #head[Method needs to be extended to account for lattice effects and spatial fluctuations]
-  #v(1fr)
-  // #v(1fr)
-  // #show: pause
-  // #c(focus[Low-Dimensional Lattices Are More Interesting])
-  // #show: pause
-  // #cols(
-  //     img("./images/lattice2D_1.svg", w: 75%),
-  //     unc(from: 4)[#img("./images/lattice2D_2.svg", w: 85%)],
-  //     w: (1fr, 1fr),
-  // )
-  // #unc(6, 7)[
-  // #place(center + horizon, dy: -4em, bbox(factor: 120%, [What's the appropriate auxiliary model for a\ correlated system on a 2D square lattice?]))]
-  // #unc(7)[
-  // #place(center + horizon, dy: 4em, bbox(factor: 120%, [
-  //   Must capture
-  //   - Spatial fluctuations
-  //   - Lattice geometry
-  // ]))]
-]
-
-#slide[
-  #title("Why is 2D Important?")
+  #title("Quantum Materials")
   // #v(-1.5em)
   #footcite("keimer2015quantum,ProustTaillefer2019,Imada1998")
-  #cols(
-    [- Many quantum materials are layered.],
-    [- Weak interlayer coupling --> effectively 2D]
-  )
+  // #cols(
+  //   [- Many quantum materials are layered.],
+  //   [- Weak interlayer coupling --> effectively 2D]
+  // )
 
   // #v(-0.5em)
   #head[Canonical Example: Copper Oxide Materials ⟶ Zoo of Mysterious Phases]
@@ -993,13 +425,175 @@
 
         - How do the excitations of the PG phase *bind* to stabilise the Mott insulator?
 
-      #unc(7)[
-        #head[Are there counterparts to these phases at half-filling?]
-      ]
       ],
       w: (1fr, 1fr),
     )
+    #unc(7)[
+      #head[Are there counterparts to these phases at half-filling?]
+    ]
   ]
+]
+
+#slide[
+  #title("Our Approach: \"Local\" Mott Transition in $D=infinity$")
+
+  $ H = H_"SIAM" ({E_k}, V, U) + J S_d dot s_0 + U_b (n_(0 arrow.t) - 1/2)(n_(0 arrow.b) - 1/2) $
+
+  #img("./images/esiamSchematic.svg", w: 80%)
+
+  #v(1fr)
+  #cols(
+    [#focus[Local attractive bath correlation] captures single-site DMFT Mott transition.],
+    v(1em),
+    [State exactly at transition \ is a #focus[non-Fermi liquid].],
+    w: (1fr, 0.1fr, 1fr),
+  )
+]
+
+#slide[
+  #title("Our Approach: \"Local\" Mott Transition in $D=infinity$")
+
+  #img("./images/esiamSchematic.svg", w: 70%)
+  // #cols(
+  //   [#focus[Local attractive bath correlation] induces phase transition not present in vanilla impurity model.],
+  //   img("./images/esiamSchematic.svg"),
+  //   unc(from: 4)[State exactly at transition is a #focus[non-Fermi liquid].],
+  //   w: (1.5fr, 2.5fr),
+  // )
+
+  #v(1fr)
+  #place(center + horizon, dx: -10em, dy: 1em, point(140deg, f: 4))
+  #img("./images/Singlet2.svg")
+  #h(9em)
+  #img("./images/localMoment.svg")
+
+  #place(center + horizon, dx: 10em, dy: 1em, point(40deg, f: 4))
+
+]
+
+// #slide[
+//   #title("Quantum Impurity Models as Auxiliary Models")
+//   #footcite("martin_2016")
+//
+//   #cols(
+//     img("auxiliary1.svg"),
+//     [
+//       Lattice models of correlated electrons are *hard to solve* directly.\
+//       #show: pause
+//
+//       #focus[Idea]: replace full problem with a simpler *auxiliary model* that captures the local correlations.
+//     ],
+//     unc(from: 2, img("auxiliary2.png")),
+//     w: (0.8fr, 1.1fr, 1.1fr),
+//   )
+//
+//   #show: pause
+//   // #v(-1em)
+//   #cols(
+//     head[Example: Mean-field solution\ of Ising model],
+//     [
+//       #img("isingAux1.svg")
+//       $ H = sum_(i,j)J_(i,j)S_i^z S_j^z $
+//     ],
+//     [
+//       #show: pause
+//       *Mean-field* approximation:
+//
+//       $ H = sum_(i)h_"eff" S_i^z $
+//     ],
+//     [
+//       #uncover(3, [], update-pause: true)
+//       #show: pause
+//       #img("isingAux2.svg")
+//
+//       Rest ==> effective field
+//     ],
+//     w: (0.9fr, 0.9fr, 0.5fr, 0.9fr),
+//   )
+//
+// ]
+
+#slide[
+  #title("Quantum Impurity Models as Auxiliary Models")
+
+  #footcite("metzner_volhardt_1989,kotliar1996,kotliar1992")
+  // #v(-1em)
+  #show: pause
+  #cols(
+    [
+      #head[Appropriate auxiliary problem for\ lattice models with local correlation?]
+      #v(1em)
+      Auxiliary Model has to be #focus[interacting]\ in order to capture local dynamics accurately!
+    ],
+    img("auxiliary1.svg"),
+    w: (2fr, 0.5fr),
+  )
+  #place(left + horizon, dy: -1em, head[Insight from Limit of Infinite Dimensions!])
+
+  #cols(
+    [
+      Local physics ==> #focus[Quantum Impurity Models]
+
+      Core Idea of Dynamical Mean-Field Theory
+    ],
+    img("correlatedAuxiliary.svg"),
+    [
+      - Tractable
+      - dynamics 
+
+      ($omega-$dependence of correlations)
+    ],
+    w: (0.25fr, 0.4fr, 0.2fr),
+  )
+  // #unc(6)[#place(center + horizon, bbox(factor: 120%, [Local physics of correlated\ lattice models can be mapped\ on to impurity model.]))]
+
+]
+#slide[
+  #title("Extending This To The More Interesting $D=2$ Case")
+  #v(1fr)
+  #cols(
+    img("./images/esiamSchematic.svg"),
+    [
+      Previous demonstration worked because
+      - *non-local fluctuations vanish* in $d --> infinity$ (mean-field is exact)
+      - Largely insensitive to *lattice details* $\{ epsilon_k \}$
+    ]
+    // + only(from: 5)[
+    //   #cols(
+    //     img("./images/latticeInf.svg", w: 80%),
+    //     [
+    //       - All paths symmetric
+    //       - No non-trivial $k-$dependence
+    //     ]
+    //   )
+    // ],
+    // w: (0.7fr, 1fr),
+  )
+  #v(1fr)
+
+
+    #show: pause
+    Impurity-bath connection insensitive to lattice details -- worked in $D=infinity$!
+
+    #head[Method needs to be extended to account for lattice effects and spatial fluctuations]
+  #v(1fr)
+  // #v(1fr)
+  // #show: pause
+  // #c(focus[Low-Dimensional Lattices Are More Interesting])
+  // #show: pause
+  // #cols(
+  //     img("./images/lattice2D_1.svg", w: 75%),
+  //     unc(from: 4)[#img("./images/lattice2D_2.svg", w: 85%)],
+  //     w: (1fr, 1fr),
+  // )
+  // #unc(6, 7)[
+  // #place(center + horizon, dy: -4em, bbox(factor: 120%, [What's the appropriate auxiliary model for a\ correlated system on a 2D square lattice?]))]
+  // #unc(7)[
+  // #place(center + horizon, dy: 4em, bbox(factor: 120%, [
+  //   Must capture
+  //   - Spatial fluctuations
+  //   - Lattice geometry
+  // ]))]
 ]
 
 #slide[
@@ -1019,15 +613,16 @@
       Contrast with $D=infinity$ limit
       #v(1fr)
 
-      #img("./images/esiamSchematic.svg", w: 90%)
+      #img("./images/esiamSchematic.svg", w: 100%)
       #v(1fr)
       - Impurity-Bath interaction is purely local --> insensitive to lattice geometry
-    ]
+    ],
+    w:(1fr, 1.2fr),
   )
-  #show: pause
-  #place(center + horizon, dy: -4em, bbox(factor: 130%, [Lattice-embedded impurity model is\ a reasonable auxiliary model for\ local correlation in lattice problems.]))
-  #show: pause
-  #place(center + horizon, dy: 4em, bbox(factor: 130%, [Lattice geometry encoded\ in impurity-bath correlation.]))
+  // #show: pause
+  // #place(center + horizon, dy: -4em, bbox(factor: 130%, [Lattice-embedded impurity model is\ a reasonable auxiliary model for\ local correlation in lattice problems.]))
+  // #show: pause
+  // #place(center + horizon, dy: 4em, bbox(factor: 130%, [Lattice geometry encoded\ in impurity-bath correlation.]))
 ]
 
 #slide[
@@ -1094,12 +689,12 @@
     ],
     w:(1fr, 1.5fr,),
   )]
-  #only(6)[
-    #place(center + horizon, dy: 0em, bbox(factor: 120%, [
-      - Study lattice-embedded impurity model.
-      - Use tiling relations to reconstruct\ low-energy physics of lattice model.
-    ]))
-  ]
+  // #only(6)[
+  //   #place(center + horizon, dy: 0em, bbox(factor: 120%, [
+  //     - Study lattice-embedded impurity model.
+  //     - Use tiling relations to reconstruct\ low-energy physics of lattice model.
+  //   ]))
+  // ]
   ]
 ]
 
@@ -1202,12 +797,12 @@
       )
       // #v(1fr)
 
-      #unc(5)[
-        #place(center + horizon, dy: 0em, bbox(factor: 130%, [
-          - What is this phase of matter?
-          - Metal or insulator?
-        ]))
-      ]
+      // #unc(5)[
+      //   #place(center + horizon, dy: 0em, bbox(factor: 130%, [
+      //     - What is this phase of matter?
+      //     - Metal or insulator?
+      //   ]))
+      // ]
     ]
   ]
 ]
@@ -1299,13 +894,13 @@
       #img("selfEnergyFit.svg")
     ]
   )
-  #show:pause
-  #place(center + horizon, dy: 0em, bbox(factor: 130%, [
-    Pseudogap-Mott Metal
-    - loss of central resonance in local DOS
-    - k-space anisotropy in lattice DOS
-    - robust scaling of self-energy
-  ]))
+  // #show:pause
+  // #place(center + horizon, dy: 0em, bbox(factor: 130%, [
+  //   Pseudogap-Mott Metal
+  //   - loss of central resonance in local DOS
+  //   - k-space anisotropy in lattice DOS
+  //   - robust scaling of self-energy
+  // ]))
 ]
 
 #slide[
@@ -1465,60 +1060,43 @@
 ]
 
 #slide[
-  #section[Other Projects]
-]
-
-#slide[
-  #title("Other Projects")
-
-  #head[Holographic entanglement renormalisation for fermionic quantum matter]
-  *J. Phys. A: Math. Theor. 57 275401 (2024).* _#focus[Abhirup Mukherjee], S Patra, S Lal_
-
-- Demonstration of the holographic principle by showing how entanglement renormalisation in a free fermion system leads to a holographic dimension.
-
-#show: pause
-#head[Revealing the magnetic dimensional crossover in the Heisenberg ferromagnet CrSiTe3 through picosecond strain pulses]
-
-*Phys. Rev. B 111, L140414 (2025).* _A Kumar N M, S Mukherjee, #focus[Abhirup Mukherjee], A Punjal, S Purwar, T Setti, S Prabhu S., S Lal, N Kamaraju_
-
-- Investigated the two-step magnetic dimensional crossover in CrSiTe3. We came up with a simple Ginzburg-Landau model of phonons interacting with the lattice spin fluctuations to explain the softening/gapping of various phonon modes observed from a pump-probe experiment.
-]
-
-#slide[
   #section[Research Interests]
 ]
   
 #slide[
-  #title("Investigations Into Twisted Bilayer Graphene")
+  #title("Investigations Into Other Areas of Quantum Criticality")
 
   #v(1fr)
-  #head[Modelling Electronic Correlations Using Hatsugai-Kohmoto Model]
+  #cols(
+    head[Twisted Bilayer Graphene],
+    head[Heavy Fermion Materials]
+  )
+
+  #v(1em)
+  #c[Modelling Electronic Correlations Using Hatsugai-Kohmoto Model]
+  #v(1em)
   - #focus[Exactly solvable] model -- Mott insulator and non-Fermi liquid phases
   - Study HK model within graphene -- #focus[controlled way] of analysing correlated phases
-
-  #v(2fr)
-  #head[Two-Orbital Approach To Correlations In Graphene]
-  - Model magic-angle superlattice as correlated #focus[flat band hybridising] with topological band
-  - Physics of topological #focus[heavy fermions]
-  #v(2fr)
-]
-
-#slide[
-  #title("Investigations Into Heavy Fermion Materials")
-
   #v(1fr)
-  #head[Model heavy fermion materials as two correlated Mott layers]
-  $ H = H_1(t_1, U_1) + H_2(t_2, U_2) + H_(12) (V_perp) $
-  - Tune one layer to very #focus[strong correlation] (_f-_ layer). 
-  - Larger phase diagram. Possiblity of #focus[more phases]
 
-  #v(2fr)
-  #head[Superconductivity in Heavy-fermions]
-  - #focus[Nature] of superconductivity in Kondo breakdown scenario of HF criticality
-  - #focus[Connecting] strange metal to superconductivity. Relevance to cuprates??
-  #v(2fr)
 ]
 
+// #slide[
+//   #title("Investigations Into Heavy Fermion Materials")
+//
+//   #v(1fr)
+//   #head[Model heavy fermion materials as two correlated Mott layers]
+//   $ H = H_1(t_1, U_1) + H_2(t_2, U_2) + H_(12) (V_perp) $
+//   - Tune one layer to very #focus[strong correlation] (_f-_ layer). 
+//   - Larger phase diagram. Possiblity of #focus[more phases]
+//
+//   #v(2fr)
+//   #head[Superconductivity in Heavy-fermions]
+//   - #focus[Nature] of superconductivity in Kondo breakdown scenario of HF criticality
+//   - #focus[Connecting] strange metal to superconductivity. Relevance to cuprates??
+//   #v(2fr)
+// ]
+//
 // #slide[
 //   #v(3em)
 //
@@ -1990,6 +1568,177 @@
 ]
 
 #slide[
+  #v(3em)
+
+  #section[Minimal Model For Kondo Breakdown and Mott Transition]
+  == A Route to Mott Localisation in Infinite Dimensions\ \
+  *#papers.Mukherjee2023.display (#papers.Mukherjee2023.date)*\
+  #authorise(papers.Mukherjee2023.author)
+
+]
+
+#slide[
+  #title("Mott Transition In Infinite Dimensions")
+  // #v(-1em)
+
+  #footcite("metzner_volhardt_1989,kotliar1992,Kotliar_physicstoday_2003")
+  #cols(
+    // [
+      // #show: pause
+      // - numerical implementation means precise form of self-consistent impurity model *not known*
+      // - low-energy theory for *critical point* not known
+      // #show: pause
+      // // #v(1fr)
+      // #head[Our Approach: Add Local Bath Correlation]
+      // // #v(1fr)
+      // #cols(
+      //   ellipse(width: 110%, height: 13%, stroke: 4pt + h2Color, c[$U_b n_(0 arrow.t) n_(0 arrow.b) $]),
+      //   img("./images/esiamSchematic.svg", w: 100%),
+      //   w: (1fr, 3fr),
+      // )
+      // #v(1fr)
+    // ],
+    [
+      #head[DMFT Results on _D = ∞_ Hubbard Model]
+
+      #img("./images/dmftPhysicsToday.png", w: 85%)
+    ],
+    [
+      #head[Outstanding Questions]
+      - #focus[Precise, minimal] form of quantum impurity model that captures the transition?
+
+      - Theory for low-lying #focus[excitations] at transition?
+
+      - Any counterpart for the #focus[physics of $r_(c 1)$] in our effective impurity model?
+
+      #v(1fr)
+      #head[What's The Point?]
+      - Computational ease (due to lack of self-consistency)
+      - Extension to more complicated problems (2D, multi-orbital)
+
+    ],
+    w: (1fr, 1fr),
+  )
+]
+
+#slide[
+  #title("Our Approach: Add Local Bath Correlation")
+
+  #head[Start with Anderson impurity model]
+  - Add explicit #focus[Kondo] interaction
+  - Add local weak #focus[bath] correlation
+
+  $ H = H_"SIAM" ({E_k}, V, U) + J S_d dot s_0 + U_b (n_(0 arrow.t) - 1/2)(n_(0 arrow.b) - 1/2) $
+
+  #img("./images/esiamSchematic.svg", w: 80%)
+]
+
+#slide[
+  #title("Phase Diagram and Impurity Phase Transition")
+  #show: pause
+  #footcite("hrk_wilson_1980,Si_kotliar_NFL_1993")
+  // #v(-2em)
+  #only(2)[
+    #cols(
+      [
+        #img("./images/esiamPhaseMapLabel1.svg")
+
+        - Impurity has gapless excitations for small $U_b$
+        - corresponds to weakly correlated #focus[metal]
+      ],
+      [
+        #img("./images/esiamSchematic.svg", w: 90%)
+
+        #img("./images/esiamSpecFunc1.svg", w: 90%)
+      ],
+      w: (1fr, 0.8fr),
+    )
+  ]
+  #only(3)[
+    #cols(
+      [
+        #img("./images/esiamPhaseMapLabel2.svg")
+        - for $U_b < 0$, DOS #focus[suppressed] around $omega=0$
+        - corresponds to strongly correlated #focus[metal]
+      ],
+      [
+        #img("./images/esiamSchematic.svg", w: 90%)
+
+        #img("./images/esiamSpecFunc2.svg", w: 90%)
+      ],
+      w: (1fr, 0.8fr),
+    )
+  ]
+  #only(4)[
+    #cols(
+      [
+        // #v(-0.5em)
+        #img("./images/esiamPhaseMapLabel3.svg")
+        - Impurity excitations #focus[gapped] for large negative $U_b$
+        - corresponds to #focus[Mott insulator]
+      ],
+      [
+        #img("./images/esiamSchematic.svg", w: 90%)
+
+        #img("./images/esiamSpecFunc3.svg", w: 90%)
+      ],
+      w: (1fr, 0.8fr),
+    )
+    // #place(center + horizon, bbox(factor: 110%, [line of critical points ⟹ non-Fermi liquid]))
+  ]
+  // #v(1fr)
+]
+
+#slide[
+  #title("Non-Fermi liquid signatures at the MIT")
+
+  #head[Low-energy excitations proximate to impurity in fixed-point theory]
+  #v(1fr)
+
+  #cols(
+    img("images/esiamNFL.svg"),
+    [
+      #show: pause
+      $ H_"eff" = S_d dot (S_1 + S_3) $
+      $ |0, arrow.t chevron.r  <-- S_1 --> | arrow.t, 0 chevron.r $
+      $ |2, arrow.t chevron.r <-- S_3 --> | arrow.t, 2 chevron.r $
+    ],
+    w: (2fr, 1fr),
+  )
+
+  #v(1fr)
+  #show: pause
+  #head[Non-Fermi Liquid!]
+  #v(1fr)
+  - fixed-point theory displays #focus[fluctuations] of impurity-zeroth site complex
+  - *orthogonality catastrophe*: replaces local Fermi liquid theory
+  - electrons incoming from first site #focus[transmute] into new states on way out
+
+]
+
+#slide[
+  #title("Excited State Transition at $r_(c 1)$")
+
+  #head[$r_(c 1)$ as an excited state quantum phase transition]
+
+  - At $r_(c 1)$, one-particle hybridisation #focus[$V$ turns irrelevant] under renormalisation group flow
+  - Leads localisation of certain excited states
+  - #focus[Local moment states] emerge in the spectrum
+
+  #img("images/ESQPT.svg", w: 70%)
+
+  // #v(1fr)
+  // #head[Low-Energy Excitations Within Hubbard Sidebands]
+  //
+  // #c[Holon-Doublon Transfer Processes in Hubbard Sidebands]
+  //
+  // #head[$r_(c 1)$ as an excited state quantum phase transition]
+  //
+  // #c[Local moment states enter the manybody spectrum]
+  // #v(2fr)
+]
+
+#slide[
   #title("Effective Theory For Delocalisation Within Sidebands")
 
   Work with intermediate energy couplings.
@@ -2002,3 +1751,32 @@
 
   #focus[Stays within upper Hubbard band, likely to be gapless]
 ]
+
+#slide[
+  #title("Local Attractive Bath Correlation Is The Trick!")
+
+  #img("./images/esiamSchematic.svg", w: 70%)
+  // #cols(
+    // [#focus[Local attractive bath correlation] induces phase transition not present in vanilla impurity model.],
+    // img("./images/esiamSchematic.svg"),
+    // unc(from: 4)[State exactly at transition is a #focus[non-Fermi liquid].],
+  //   w: (1.5fr, 2.5fr),
+  // )
+
+  #v(1fr)
+  #unc(from: 2, to: 5)[
+    #place(center + horizon, dx: -10em, dy: 1em, point(140deg, f: 4))
+    #img("./images/Singlet2.svg")
+    #h(9em)
+    #unc(from: 3)[
+      #img("./images/localMoment.svg")
+
+      #place(center + horizon, dx: 10em, dy: 1em, point(40deg, f: 4))
+
+      #unc(from: 5)[
+        #place(center + horizon, bbox(factor: 120%, [Impurity model with weak attractive\ bath correlation faithfully captures\ Mott transition in D = #math.infinity.]))
+      ]
+    ]
+  ]
+]
+
