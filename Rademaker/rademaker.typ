@@ -435,7 +435,43 @@
 ]
 
 #slide[
+  #title("Quantum Impurity Models as Auxiliary Models")
+
+  #footcite("metzner_volhardt_1989,kotliar1996,kotliar1992")
+  // #v(-1em)
+  #show: pause
+  #cols(
+    [
+      #head[Appropriate auxiliary problem for\ lattice models with local correlation?]
+      #v(1em)
+      Auxiliary Model has to be #focus[interacting]\ in order to capture local dynamics accurately!
+    ],
+    img("auxiliary1.svg"),
+    w: (2fr, 0.5fr),
+  )
+  #place(left + horizon, dy: -1em, head[Insight from Limit of Infinite Dimensions!])
+
+  #cols(
+    [
+      Local physics ==> #focus[Quantum Impurity Models]
+
+      Core Idea of Dynamical Mean-Field Theory
+    ],
+    img("correlatedAuxiliary.svg"),
+    [
+      - Tractable
+      - dynamics 
+
+      ($omega-$dependence of correlations)
+    ],
+    w: (0.25fr, 0.4fr, 0.2fr),
+  )
+  // #unc(6)[#place(center + horizon, bbox(factor: 120%, [Local physics of correlated\ lattice models can be mapped\ on to impurity model.]))]
+
+]
+#slide[
   #title("Our Approach: \"Local\" Mott Transition in $D=infinity$")
+  #footcite("Mukherjee_2023")
 
   $ H = H_"SIAM" ({E_k}, V, U) + J S_d dot s_0 + U_b (n_(0 arrow.t) - 1/2)(n_(0 arrow.b) - 1/2) $
 
@@ -452,6 +488,7 @@
 
 #slide[
   #title("Our Approach: \"Local\" Mott Transition in $D=infinity$")
+  #footcite("Mukherjee_2023")
 
   #img("./images/esiamSchematic.svg", w: 70%)
   // #cols(
@@ -513,41 +550,6 @@
 //
 // ]
 
-#slide[
-  #title("Quantum Impurity Models as Auxiliary Models")
-
-  #footcite("metzner_volhardt_1989,kotliar1996,kotliar1992")
-  // #v(-1em)
-  #show: pause
-  #cols(
-    [
-      #head[Appropriate auxiliary problem for\ lattice models with local correlation?]
-      #v(1em)
-      Auxiliary Model has to be #focus[interacting]\ in order to capture local dynamics accurately!
-    ],
-    img("auxiliary1.svg"),
-    w: (2fr, 0.5fr),
-  )
-  #place(left + horizon, dy: -1em, head[Insight from Limit of Infinite Dimensions!])
-
-  #cols(
-    [
-      Local physics ==> #focus[Quantum Impurity Models]
-
-      Core Idea of Dynamical Mean-Field Theory
-    ],
-    img("correlatedAuxiliary.svg"),
-    [
-      - Tractable
-      - dynamics 
-
-      ($omega-$dependence of correlations)
-    ],
-    w: (0.25fr, 0.4fr, 0.2fr),
-  )
-  // #unc(6)[#place(center + horizon, bbox(factor: 120%, [Local physics of correlated\ lattice models can be mapped\ on to impurity model.]))]
-
-]
 #slide[
   #title("Extending This To The More Interesting $D=2$ Case")
   #v(1fr)
@@ -733,7 +735,7 @@
 #slide[
   #title("Phase Diagram Of Lattice-Embedded Model")
 
-  #unc(2,3,4,5)[
+  #unc(2,3,4)[
 
     // #v(1em)
     #only(2)[
@@ -773,7 +775,7 @@
       // #v(1fr)
     ]
 
-    #only(4,5)[
+    #only(4)[
 
       #img("phaseDiagram-77-3.svg", w: 95%)
 
@@ -878,6 +880,7 @@
       - FL: $Sigma^(prime prime) \~ Sigma_0^(prime prime) + omega^2$
       - PG: $1\/Sigma^(prime prime) \~ 1\/Sigma_0^(prime prime) + omega^2$
     ],
+    // w: (1.1fr, 1fr, 1fr)
   )
   #uncover(1, [], update-pause: true)
   #cols(

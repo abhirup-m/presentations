@@ -1,4 +1,9 @@
 #import "@preview/presentate:0.2.5": *
+#import "@preview/codly:1.3.0": *
+#import "@preview/codly-languages:0.1.1": *
+#show: codly-init.with()
+#codly(number-format: none)
+#codly(zebra-fill: none)
 
 #let bgColor = rgb("EFECEC")
 #let fgColor = rgb("37353E")
@@ -9,9 +14,10 @@
 #let h1Font = "Stack Sans Notch"
 #let h2Font = "Stack Sans Headline"
 #let mainFont = "Inter Display"
+#codly(fill: white)
 
 
-#let Img(name, w: none, h: auto) = align(center, image(if name.contains("/") { "images/" + name.split("/").last() } else { "images/" + name }, width: if w == none { auto } else { w }, height: h))
+#let Img(name, w: none, h: auto) = align(center, image(name, width: if w == none { auto } else { w }, height: h))
 #let img(name, w: none, h: auto) = box(Img(name, w: w, h: h), width: 1fr)
 #let focus(it, under: true) = text(weight: "extrabold", fill: focusColor, if under { underline(it) } else { it }, size: 1em)
 #let head(it) = align(center, smallcaps(text(font: "Barlow", weight: "extrabold", fill: fgColor, size: 1.2em, it))) + v(-0.5em)
@@ -162,6 +168,7 @@
   const ANTINODAL_POINTS = [(-π, 0.), (0., π), (π, 0.), (0., -π)]
   const RG_RELEVANCE_TOL = 1e-3
   ```
+  #show: pause
 
   - Keep unchanged throughout all calculations
 
@@ -172,25 +179,32 @@
   #title("Working In Momentum Space: Variables")
 
   - Each $(k_x, k_y)$ --> $m$
-
   - Store single momentum-dependent variable as vector. Dispersion, density of states:
   $ E_(k_x, k_y) --> E[m] $
-   
-
+  #show: pause
   - Store two momentum-dependent variable as matrix. Kondo coupling:
   $ J_(k_1, k_2) --> J[m, n] $
-
+  #show: pause
   - Store four momentum-dependent variable as function. Call when needed. Bath interaction:
   $ W_(k_1, k_2, k_3, k_4) --> W(...k) $
 ]
 
 #slideTop[
   #title("Working In Momentum Space: Helpers")
-  - `map1DTo2D(m)` --> `(kx, ky)`
 
-  - `map2DTo1D(kx, ky)` --> `m`
-
-  - `getIsoEngCont(dispersion, E)` --> `[m1, m2, ..., mN]`
+  - 1D representation to 2D representation: 
+  ```julia
+  map1DTo2D(m) --> (kx, ky)
+  ```
+  - Inverse transformation: 
+  ```julia
+  map2DTo1D(kx, ky) --> m
+  ```
+  #show: pause
+  - Extract points that lie on a certain energy: 
+  ```julia
+  getIsoEngCont(dispersion, E) --> [m1, m2, ..., mN]
+  ```
   (loop through points, check which energies are equal to probe energy upto some tolerance)
 ]
 
@@ -198,11 +212,14 @@
   #title("Density Of States")
 
   - Dispersion is easy
-  `E[m] = Dispersion(kx, ky)`
-
+  ```julia
+  E[m] = Dispersion(kx, ky)
+  ```
   - DOS:
-  `rho[m] ~ 1/Delta(E[m]) ~ 1/(E[m+1] - E[m])`
-
+  ```julia
+  rho[m] ~ 1/Delta(E[m]) ~ 1/(E[m+1] - E[m])
+  ```
+  #show: pause
   - Take care of infinities (replace with largest finite value?!)
 
   - Normalise per some convention to keep things bounded
@@ -214,6 +231,7 @@
 
   $ Delta J[k_1, k_2] ~ sum_q (J[k_1, q] J[q, k_2] - 4 J[q, overline(q)] W[k_1, k_2]) G[q] $
 
+  #show: pause
   Write as matrix equation for vectorisation:
   $ Delta J ~ J G_"UV" J^dagger - 4 W "Tr"(overline(J)G_"UV") $
   where
@@ -238,33 +256,69 @@
 #slideTop[
   #title("RG Flow Simulation: Iteration")
 
+  #v(-1em)
   $ Delta J ~ J G_"UV" J^dagger - 4 W "Tr"(overline(J)G_"UV") $
 
   At each step,
 
   - extract UV and IR momentum points
-
+  #show: pause
   - define propagator diagonal matrix $G$ by setting only UV points
   ```julia
-  GMatrix[q, q] = densityOfStates[q] ./ (OMEGA_BY_t * HOP_T - energyCutoff / 2 
-                                         + kondoJArray[q, q] / 4 + bathW / 2) 
+  GMatrix[q, q] = densityOfStates[q] ./ (OMEGA_BY_t * HOP_T - energyCutoff / 2 + kondoJArray[q, q] / 4 + bathW / 2) 
   ```
-
+  #show: pause
   - use matrix multiplication to calculate $Delta J$
-
   ```julia
-  delta = -abs(deltaEnergy) * (J[IR, UV] * G[UV, UV] * J[UV, IR] 
-                               .- 4 * bathW * traceGprime .* WMatrix[IR, IR])
+  delta = -abs(deltaEnergy) * (J[IR, UV] * G[UV, UV] * J[UV, IR] .- 4 * bathW * traceGprime .* WMatrix[IR, IR])
   ```
-
+  #show: pause
   (Use broadcasting to make the syntax readable)
+
+]
+
+#slideTop[
+  #title("RG Flow Simulation: Completion")
+
+  Stop when 
+  - all matrix elements have vanished,
+
+  - denominator has changed sign,
+
+  - or arrived at Fermi surface.
+
+]
+
+#slideTop[
+  #title("RG Flow Simulation: Phase Diagram")
+  #v(-1em)
+  Multiple kinds of *phase diagram* possible: couplings, correlations, exponents, etc
+  #show: pause
+  #c[*Fixed point coupling phase diagram*]
+  - Simulate RG flow at multiple parameter points `(W, J)`
+  #v(-0.5em)
+  ```julia
+  J = runRGFlow(parameters...)
+  ```
+  #show: pause
+  - At each fixed point, *count* number of Fermi surface points that are "gapless"
+  #v(-0.5em)
+  ```julia
+  poles = 0
+  for point in fermiSurface
+    if abs(J[point, point]) > 0
+      poles += 1
+  end end
+  ```
+  #show: pause
+  - Plot this count as a function of `J` and `W`
 
 ]
 
 #slideTop[
   #title("Notes")
 
-  - Parallelisation does not really help here
+  - Parallelisation not helpful within a single RG flow simulation but can speedup multiple ones
   - Using reflection and particle-hole symmetries might help but makes code complicated (measure tradeoffs before finalising)
   - Choosing system size as $N = 4m + 5$ helps (makes sure nodes, antinodes and midway point is available)
 ]
