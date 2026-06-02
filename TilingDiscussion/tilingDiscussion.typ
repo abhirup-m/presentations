@@ -152,7 +152,56 @@
 ])
 
 #slide[
-  #section[Renormalisation Group Equation Simulation]
+  #section[What's This About?]
+]
+
+#slide[
+  #title("The Problem: 2D Mott MIT At 1/2-Filling")
+  #img("linearResistivity.svg", w: 60%)
+  #img("fermiArc1.png", w: 60%)
+
+  *Required*: Development of a new auxiliary model method that incorporates 
+  - non-local effects of correlation 
+  - lattice effects
+
+]
+
+#slide[
+  #title("Component 1: Lattice-Embedding")
+  #cols(
+    img("Jub.svg", w: 80%),
+    [
+      -  Impurity dynamics must be solved
+      -  Momentum-dependence of conduction bath quantities must be taken into account
+    ],
+  )
+]
+
+#slide[
+  #title("Component 2: Tiling Of Impurity Quantities")
+  #img("tilingPlan.svg", w: 100%)
+
+  #c[Translate impurity model quantities to obtain lattice quantities]
+]
+
+#slide[
+  #title("Pedagogical Repository")
+  #cols(
+    img("repo.png"),
+    [
+      *Simplified Codes*
+
+      https://github.com/abhirup-m/Hubbard-Tiling-Core-Simulations
+
+      - "Extra" stuff removed
+
+      - Better commented
+    ]
+  )
+
+]
+#slide[
+  #section[Setting Up The Project]
 ]
 
 #slideTop[
@@ -163,15 +212,13 @@
   const K_MAX = pi
   const TOLERANCE = 1e-8
   const HOP_T = 1.0
-  const OMEGA_BY_t = -2 * HOP_T
+  const OMEGA_BY_t = -2
   const NODAL_POINTS = [(-π/2, -π/2), (-π/2, π/2), (π/2, π/2), (π/2, -π/2)]
   const ANTINODAL_POINTS = [(-π, 0.), (0., π), (π, 0.), (0., -π)]
   const RG_RELEVANCE_TOL = 1e-3
   ```
   #show: pause
-
   - Keep unchanged throughout all calculations
-
   - Try to keep them dimensionless
 ]
 
@@ -224,6 +271,10 @@
 
   - Normalise per some convention to keep things bounded
   $ integral d E rho(E) ~ N $
+]
+
+#slide[
+  #section[Renormalisation Group Equation Simulation]
 ]
 
 #slideTop[
