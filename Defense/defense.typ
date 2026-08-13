@@ -9,7 +9,7 @@
 #let papers = yaml("papers.yml")
 #let h1Font = "Stack Sans Notch"
 #let h2Font = "Stack Sans Headline"
-#let alertFont = "Oblik"
+#let alertFont = "PT Sans"
 #let mainFont = "Inter Display"
 
 
@@ -56,28 +56,33 @@
   place(top, heading(level:2, title1 + sep + title2), float: true) 
 }
 #let section(title) = { align(horizon, heading(level: 1, title))}
-#let bbox(..args, factor: 100%) = {
-  set list(marker: square(width: 0.6em, fill: white), spacing: 1em)
-  place(
-    center + horizon,
-    rect(
-      width: 200%,
-      height: 200%,
-      fill: rgb("#dddddddd"),
-    ),
-  )
-  place(center + horizon,
+#let alert(..args, factor: 100%) = {
     scale(
       1.2 * factor, 
       box(
         inset: 0.7em, 
         width: if args.pos().len() > 1 { args.pos().at(1) } else { auto }, 
         radius: 3pt, 
-        fill: h1Color, 
+        fill: h2Color, 
         // stroke: 0.1em + rgb("222831"),
         align(center + horizon, text(font: alertFont, fill: white, args.pos().at(0)))
       )
     )
+}
+#let bbox(..args, factor: 100%, cover: true, loc: center + horizon) = {
+  set list(marker: square(width: 0.6em, fill: white), spacing: 1em)
+  if cover == true { 
+    place(
+      center + horizon,
+      rect(
+        width: 200%,
+        height: 200%,
+        fill: rgb("#ddddddbb"),
+      ),
+    )
+  }
+  place(loc,
+    alert(..args, factor: factor)
   )
 }
 #let cols(..items, w: ()) = align(center, grid(columns: if w.len() > 0 { w } else { items.pos().map(x => 1fr) }, gutter: 1em, align: center + horizon, ..items.pos()))
@@ -257,13 +262,13 @@ _Presubmission Open Seminar_
   ],
   [
     #unc(from: 2)[
-      #bbox([topological properties\ (_topological insulators_)], factor: 100%)
+      #alert([topological properties\ (_topological insulators_)], factor: 80%, )
     ]
     #unc(from: 3)[
-      #bbox([non-local entanglement (_spin liquids_)], factor: 100%)
+      #alert([non-local entanglement (_spin liquids_)], factor: 80%, )
     ]
     #unc(from: 4)[
-      #bbox([collective excitations (_strange metals_)], factor: 100%)
+      #alert([collective excitations (_strange metals_)], factor: 80%, )
     ]
   ],
   unc(from: 3)[
@@ -722,7 +727,6 @@ _Presubmission Open Seminar_
     )
     #place(center + horizon, bbox(factor: 110%, [line of critical points ⟹ non-Fermi liquid]))
   ]
-  // #v(1fr)
 ]
 
 #slide[
@@ -736,7 +740,7 @@ _Presubmission Open Seminar_
   )
 
   #v(1fr)
-  #unc(from: 2, to: 5)[
+  #unc(from: 2, to: 6)[
     #place(center + horizon, dx: -10em, dy: -1em, point(140deg, f: 4))
     #img("./images/Singlet2.svg")
     #h(9em)
@@ -745,10 +749,15 @@ _Presubmission Open Seminar_
 
       #place(center + horizon, dx: 10em, dy: -1em, point(40deg, f: 4))\
 
-      #unc(from: 5)[
-        #place(center + horizon, bbox(factor: 120%, [Impurity model with weak attractive\ bath correlation is a good\ auxiliary system for Mott transition.]))
-      ]
     ]
+  ]
+  #only(5,6)[
+    #v(-2em)
+    #focus[NFL phases] also obtained from a similar auxiliary model treatment of an extended Hubbard model, through #focus[impurity-bath density-density interaction] [#cite(<Si_kotliar_NFL_1993>)]
+    #v(-1em)
+  ]
+  #only(6)[
+    #place(center + horizon, bbox(factor: 120%, [Impurity model with weak attractive\ bath correlation is a good\ auxiliary system for Mott transition.]))
   ]
 ]
 
@@ -1243,8 +1252,6 @@ _Presubmission Open Seminar_
   #footcite("Baskaran1991,Hatsugai1992,Phillips2020")
 ]
 
-
-
 #slide[
   #title("Mott Criticality As Holon-Doublon Deconfinement")
 
@@ -1273,15 +1280,13 @@ _Presubmission Open Seminar_
   ]
 ]
 
-
 #slide[
   #v(3em)
-
   #text(size: 1.5em, head[Chapter 6 #h(1fr)])
-#section[Competing tendencies In a Multi-Orbital System]
-== Kondo screening vs. Mott localisation in a Heavy-Fermion model\ \
-*(IN PROGRESS)*\
-#authorise(papers.Mukherjee2026.author)
+  #section[Competing tendencies In a Multi-Orbital System]
+  == Kondo screening vs. Mott localisation in a Heavy-Fermion model\ \
+  *(IN PROGRESS)*\
+  #authorise(papers.Mukherjee2026.author)
 ]
 
 #slide[
