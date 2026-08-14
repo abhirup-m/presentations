@@ -58,14 +58,14 @@
 #let section(title) = { align(horizon, heading(level: 1, title))}
 #let alert(..args, factor: 100%) = {
     scale(
-      1.2 * factor, 
+      1.1 * factor, 
       box(
         inset: 0.7em, 
         width: if args.pos().len() > 1 { args.pos().at(1) } else { auto }, 
         radius: 3pt, 
         fill: h2Color, 
         // stroke: 0.1em + rgb("222831"),
-        align(center + horizon, text(font: alertFont, fill: white, args.pos().at(0)))
+        align(center + horizon, text(font: alertFont, weight: "bold", fill: white, args.pos().at(0)))
       )
     )
 }
@@ -77,7 +77,7 @@
       rect(
         width: 200%,
         height: 200%,
-        fill: rgb("#ddddddbb"),
+        fill: bgColor.transparentize(20%),
       ),
     )
   }
@@ -1050,19 +1050,14 @@ _Presubmission Open Seminar_
           - *antinodes* decouple from impurity, *nodes* remains coupled
           - Lattice geometry forces momentum-anisotropic phase!
         ],
-        // [
-        //   #focus[What is this phase of matter?]
-        //
-        //   Metal or insulator?
-        // ],
         w: (1fr, 2fr),
       )
       // #v(1fr)
 
       #unc(5)[
         #place(center + horizon, dy: 0em, bbox(factor: 130%, [
-          - What is this phase of matter?
-          - Metal or insulator?
+          - Description of this phase of matter?
+          - Gapless? Fermi liquid? Nature of excitations?
         ]))
       ]
     ]
@@ -1165,6 +1160,17 @@ _Presubmission Open Seminar_
   ]))
 ]
 
+
+#slide[
+  #footcite("gull2009,anirbanmott1,Tahvildarzadeh")
+  #title("Non-Fermi Liquid Partially Gapped Phase At Half-Filling?")
+  #focus[Momentum-selective transition] at $1/2$--filling also observed from DCA and unitary RG studies
+  #cols(
+    img("gullMillisPD.png", w: 90%),
+    img("PD.jpg", w: 80%),
+  )
+]
+
 #slide[
   #title("Long-Range Correlations: Signatures of Criticality")
 
@@ -1173,7 +1179,7 @@ _Presubmission Open Seminar_
       #head[How Far Away Are Spin-Flips Correlated?]
       #v(1em)
   
-      $ chi(d,r) = chevron.l arrow(S)_d dot arrow(S)_r chevron.r $
+      #h(-8em)$I_2(d:r) = S(d) + S(r) - S(d union r)$
     ],
     img("distanceCorrelations.svg"),
     w: (2fr, 1fr),
@@ -1188,18 +1194,41 @@ _Presubmission Open Seminar_
     ],
     [
       #uncover(1, [], update-pause: true)
-      #show: pause
-      Correlations become *long-ranged* within PG
 
-      #show: pause
-      #img("singletStretching.svg")
+      #uncover(from: 2)[#v(1fr) Correlations and #focus[entanglement] become *long-ranged* in Mott metal PG.#v(1fr) ]
 
-      Kondo singlet "stretched thin" --> #focus[critical state]
+      #only(3)[#v(1fr) Also observed from diag. MC calculation away from half-filling [#cite(<SimkovicFerrero2024>)]#v(1fr) ]
+
+      #only(4)[
+        #img("singletStretching.svg")
+
+        Kondo singlet "stretched thin" --> #focus[critical state]
+      ]
     ],
     w: (0.8fr, 1fr),
   )
-  #show: pause
-  #place(center + horizon, bbox(factor: 120%)[Entanglement also\ becomes long-ranged.])
+]
+
+#slide[
+  #footcite("held_2025")
+  #title("Multipartite Correlations: Signatures of Criticality")
+  #cols(
+    img("qfi_77-2000-1.pdf", w:100%),
+    [
+      #head[Quantum Fisher Information]
+
+      #show: pause
+
+      $ 1 < "QFI" < 2: "Fermi Liquid" $
+      $ 4 < "QFI" < 5: "Pseudogap" $
+
+      Correlations become 5-partite in the Mott metal Pseudogap
+
+      #show: pause
+      D$Gamma$A #focus[calculations] show a similar enhancement in QFI in the PG (at least 3-partite, $T=52K$).
+    ],
+    w: (1fr, 1.1fr),
+  )
 ]
 
 #slide[
