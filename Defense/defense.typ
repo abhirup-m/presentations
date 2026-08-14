@@ -9,8 +9,8 @@
 #let papers = yaml("papers.yml")
 #let h1Font = "Stack Sans Notch"
 #let h2Font = "Stack Sans Headline"
-#let alertFont = "PT Sans"
-#let mainFont = "Inter Display"
+#let alertFont = "Barlow"
+#let mainFont = "PT Sans"
 
 
 #let Img(name, w: none, h: auto) = align(center, image(if name.contains("/") { "images/" + name.split("/").last() } else { "images/" + name }, width: if w == none { auto } else { w }, height: h))
@@ -387,10 +387,10 @@ _Presubmission Open Seminar_
 
 #slide[
 
-  #title("Theoretical Models of Correlated Materials")
+  #title("Theoretical Models of Correlated Materials[SKIP THIS]")
   #cols(
     [
-      #head[Hubbard Model]
+      #head[Hubbard Model ]
       #footcite("hubbard1963electron,kanamori_1963,Gutzwiller1965")
       #show: pause
 
@@ -735,28 +735,31 @@ _Presubmission Open Seminar_
   #cols(
     [#focus[Local attractive bath correlation] induces phase transition not present in vanilla impurity model.],
     img("./images/esiamSchematic.svg"),
-    unc(from: 4)[State exactly at transition is a #focus[special metal] -- more on this later!],
+    [
+      #only(2)[Emergent #focus[attractive interaction] also found in Hubbard model from diagrammatic expansion approaches [#cite(<gazizovaleblanc2023>)]]
+      #unc(from: 5)[State exactly at transition is a #focus[special metal] -- more on this later!],
+    ],
     w: (1fr, 1.5fr, 1fr),
   )
 
   #v(1fr)
-  #unc(from: 2, to: 6)[
+  #unc(from: 3, to: 7)[
     #place(center + horizon, dx: -10em, dy: -1em, point(140deg, f: 4))
     #img("./images/Singlet2.svg")
     #h(9em)
-    #unc(from: 3)[
+    #unc(from: 4)[
       #img("./images/localMoment.svg")
 
       #place(center + horizon, dx: 10em, dy: -1em, point(40deg, f: 4))\
 
     ]
   ]
-  #only(5,6)[
+  #only(6,7)[
     #v(-2em)
     #focus[NFL phases] also obtained from a similar auxiliary model treatment of an extended Hubbard model, through #focus[impurity-bath density-density interaction] [#cite(<Si_kotliar_NFL_1993>)]
     #v(-1em)
   ]
-  #only(6)[
+  #only(7)[
     #place(center + horizon, bbox(factor: 120%, [Impurity model with weak attractive\ bath correlation is a good\ auxiliary system for Mott transition.]))
   ]
 ]
@@ -1163,7 +1166,7 @@ _Presubmission Open Seminar_
 
 #slide[
   #footcite("gull2009,anirbanmott1,Tahvildarzadeh")
-  #title("Non-Fermi Liquid Partially Gapped Phase At Half-Filling?")
+  #title("Partially Gapped Non-Fermi Liquid At Half-Filling?")
   #focus[Momentum-selective transition] at $1/2$--filling also observed from DCA and unitary RG studies
   #cols(
     img("gullMillisPD.png", w: 90%),
@@ -1243,14 +1246,14 @@ _Presubmission Open Seminar_
       Integrate out impurity spin to obtain #focus[low-energy theory] for gapless excitations at the critical point.
 
       #cols(
-        focus[Hatsugai-Kohmoto model: ],
+        head[Hatsugai-Kohmoto model],
         [$ H_"eff" = sum_q \[ epsilon_q tilde(n)_(q,sigma) + U_"eff" tilde(n)_(q,sigma) tilde(n)_(q,-sigma) \] $],
-        w: (1fr, 1.2fr),
+        w: (1fr, 1.1fr),
       )
 
       #show: pause
       Model is #focus[exactly solvable] and has a gapless phase:
-      - electronic self-energy diverges at $omega=0$ (*non-Fermi liquid*)
+      - electronic self-energy diverges at $omega=epsilon_k$ (*non-Fermi liquid*)
     ],
     img("nodalMetal.svg"),
     w: (2.5fr, 1fr)
@@ -1264,9 +1267,7 @@ _Presubmission Open Seminar_
       - #focus[Holes and doubles] are long-lived
       - Subdominant #focus[pairing] fluctuations
     ],
-    [
-      #img("holesDoubles1.svg", w: 100%)
-    ],
+    img("holesDoubles1.svg", w: 100%),
     [
       #uncover(3, [], update-pause: true)
       #show: pause
@@ -1279,6 +1280,22 @@ _Presubmission Open Seminar_
 #slide[
   #title("Singular Nodal Metal At Critical Point")
   #footcite("Baskaran1991,Hatsugai1992,Phillips2020")
+
+  #head[Mott critical point as a nodal non-Fermi liquid]
+  #v(1em)
+  Integrate out impurity spin to obtain #focus[low-energy theory] for gapless excitations at the critical point.
+  #cols(
+    head[Hatsugai-Kohmoto model],
+    [$ H_"eff" = sum_q \[ epsilon_q tilde(n)_(q,sigma) + U_"eff" tilde(n)_(q,sigma) tilde(n)_(q,-sigma) \] $],
+    w: (1fr, 1.2fr),
+  )
+
+  #v(1em)
+  #align(center, block(width: 75%, [Emergence of HKM can be linked to "proximity" of #focus[momentum-mixed Hatsugai-Kohmoto model] to the Hubbard model [#cite(<mai2026>)]]))
+  #v(1em)
+
+  #align(center, block(width: 75%, [The Hatsugai-Kohmoto model also acts as the #focus[microscopic model] for a Mott insulating fixed point in a renormalisation group sense. [#cite(<zhao_2023>)]]))
+  #v(1em)
 ]
 
 #slide[
