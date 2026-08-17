@@ -909,7 +909,7 @@ _PhD Thesis Defense Seminar_
     ],
     [
       $ Psi_"lat" = sum_i tilde(T) \( r_i \) psi_"aux" $
-      $ tilde(G)_"loc" = G \( r_d, r_d \) + C_0 G \(r_d, r_0\) + C_1 G \(r_d, r_1\) + dots $
+      $ tilde(G)_"loc" = G \( r_d, r_d \) + sum_i C^((1))_i G \(r_d, r_i\) + sum_i C^((2))_i G^((2)) \(r_d, r_i\) + dots$
     ],
     w:(1fr, 1.5fr,),
   )]
