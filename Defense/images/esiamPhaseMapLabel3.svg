@@ -3,12 +3,12 @@
 
 <svg
    width="261.67291mm"
-   height="160.3291mm"
-   viewBox="0 0 261.67292 160.3291"
+   height="161.38744mm"
+   viewBox="0 0 261.67292 161.38743"
    version="1.1"
    id="svg1"
    xml:space="preserve"
-   inkscape:export-filename="esiamPhaseMapLabel.png"
+   inkscape:export-filename="esiamPhaseMapLabel2.svg"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
@@ -41,11 +41,15 @@
        x="0"
        y="0"
        width="261.67291"
-       height="160.3291"
-       id="page1"
+       height="161.38744"
+       id="page2"
        margin="0"
        bleed="0" /></sodipodi:namedview><defs
-     id="defs1"><marker
+     id="defs1"><inkscape:path-effect
+       effect="spiro"
+       id="path-effect6"
+       is_visible="true"
+       lpeversion="1" /><marker
        style="overflow:visible"
        id="RoundedArrow"
        refX="0"
@@ -99,7 +103,7 @@
      id="g1"
      inkscape:groupmode="layer"
      inkscape:label="1"
-     transform="matrix(0.26458333,0,0,0.26458334,-71.49163,-2.3896421)"><image
+     transform="matrix(0.26458333,0,0,0.26458334,-71.49163,-1.3313088)"><image
        width="989"
        height="605"
        preserveAspectRatio="none"
@@ -126,7 +130,7 @@
          id="tspan2"><tspan
            style="font-weight:600;font-size:52.8421px;-inkscape-font-specification:'Stack Sans Headline, Semi-Bold'"
            id="tspan1">Weakly </tspan></tspan><tspan
-         x="371.38466"
+         x="358.73568"
          y="-17.762176"
          id="tspan4"><tspan
            style="font-weight:600;font-size:52.8421px;-inkscape-font-specification:'Stack Sans Headline, Semi-Bold'"
@@ -146,7 +150,7 @@
          id="tspan8"><tspan
            style="font-weight:600;font-size:52.8421px;-inkscape-font-specification:'Stack Sans Headline, Semi-Bold'"
            id="tspan7">Strongly </tspan></tspan><tspan
-         x="371.38466"
+         x="358.73568"
          y="-17.762176"
          id="tspan10"><tspan
            style="font-weight:600;font-size:52.8421px;-inkscape-font-specification:'Stack Sans Headline, Semi-Bold'"
@@ -257,4 +261,10 @@
        id="path146"
        inkscape:path-effect="#path-effect146"
        inkscape:original-d="m 689.89002,172.46334 c 12.04721,-3.1962 25.56959,-5.65481 39.09197,-8.85101 13.52237,-3.1962 -4.17965,-5.16309 13.27651,-13.27651"
-       sodipodi:nodetypes="csc" /></g></svg>
+       sodipodi:nodetypes="csc" /><path
+       style="fill:#e0e0e0;stroke:#303030;stroke-width:9.89874;stroke-dasharray:none"
+       d="m -2865.6081,-81.661367 h 64.4006"
+       id="path4"
+       inkscape:path-effect="#path-effect6"
+       inkscape:original-d="m -2865.6081,-81.661367 c 23.1181,0 64.4006,0 64.4006,0"
+       transform="matrix(0,-0.58314288,1,0,396.8687,-1309.5395)" /></g></svg>

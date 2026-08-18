@@ -127,7 +127,7 @@
 
 #set par(leading: 0.5em)
 #let slideTop(it) = align(top, slide(it))
-#show heading.where(level: 1): set text(fill: h1Color, font: h1Font, size: 50pt)
+#show heading.where(level: 1): set text(fill: h1Color, font: h1Font, size: 48pt)
 #show heading.where(level: 1): set par(leading: 0.3em)
 #show heading.where(level: 2): set text(fill: h2Color, font: h2Font, size: 30pt)
 #show heading.where(level: 2): set par(leading: 0.4em)
@@ -146,9 +146,9 @@
 = A New Auxiliary Model Approach For Fermionic Criticality
 == Insights on Mottness in Strongly Correlated Systems
 #v(0.5em)
-#text(weight: "bold", size: 1.4em, [ABHIRUP MUKHERJEE])
+#text(weight: "bold", size: 1.3em, [ABHIRUP MUKHERJEE])
 #v(0.5em)
-_PhD Thesis Defense Seminar_
+#text(weight: "bold", size: 1.1em, [_PhD Thesis Defense Seminar_])
 #v(0.5em)
 #grid(
   columns: (0.15fr, 1fr, 0.15fr),
@@ -255,7 +255,7 @@ _PhD Thesis Defense Seminar_
   #title("Quantum Materials")
   Class of materials that #focus[cannot] be well-approximated by "classical" description
 
-  // #v(1fr)
+  #v(1fr)
   #cols(
   unc(from: 2)[
     // #v(-4em)
@@ -278,12 +278,12 @@ _PhD Thesis Defense Seminar_
   )
   #v(1fr)
 
-  #v(-3.5em)
-  #unc(from: 5)[
-    Needs #focus[new ideas] and methods!
-    - ability to work with a large number of #focus[interacting particles]
-    - ability to work  with #focus[emergent] DOFs and #focus[non-local/collective] order parameters
-  ]
+  // #v(-3.5em)
+  // #unc(from: 5)[
+  //   Needs #focus[new ideas] and methods!
+  //   - ability to work with a large number of #focus[interacting particles]
+  //   - need to be non-perturbative/exact in controlled limits
+  // ]
 
 ]
 
@@ -292,7 +292,7 @@ _PhD Thesis Defense Seminar_
 
   - Phenomena arising from #focus[inter-electron repulsion] and many-electron effects
 
-  - materials with strong local #focus[correlation], #focus[low dimensionality], multiple electronic #focus[orbitals]
+  - Materials with strong local #focus[correlation], #focus[low dimensionality], multiple electronic #focus[orbitals]
   // #only(from:1, to: 2)[
   // #cols(
   //   unc(2)[
@@ -332,38 +332,38 @@ _PhD Thesis Defense Seminar_
         ],
       )
     ]
-    #unc(6, place(center + horizon, bbox(factor: 120%, [How do  the electrons morph when\ a metal gives way to a Mott insulator?])))
+    #unc(6, place(center + horizon, bbox(factor: 120%, [How do the electronic excitations morph\ when a metal gives way to a Mott insulator?])))
 
   ]
-  #only(from: 7, to: 10)[
-    #footcite("phillips2022,keimer2015quantum,hussey_2011")
-    #cols(
-      [
-        #img("linearResistivity.svg", w: 100%)
-      ],
-      [
-        #head[Phenomena: Strange Metallicity]
-        #unc(from: 8)[
-        #cols(
-          [
-          Expected: $R prop T^2$
-
-          #img("TSquareScattering.svg", w: 60%)
-
-          Source of $R prop T$?
-        ],
-        unc(from: 9)[
-          #focus[Mean-free path] no less than one lattice spacing
-
-          #img("mirSchematic.svg", w: 85%)
-
-        ],
-      )]],
-      w: (1fr, 1.8fr)
-    )
-    #unc(10)[#bbox(factor: 120%, [Which degrees of freedom carry\ the current in strange metals?])]
-
-  ]
+  // #only(from: 7, to: 10)[
+  //   #footcite("phillips2022,keimer2015quantum,hussey_2011")
+  //   #cols(
+  //     [
+  //       #img("linearResistivity.svg", w: 100%)
+  //     ],
+  //     [
+  //       #head[Phenomena: Strange Metallicity]
+  //       #unc(from: 8)[
+  //       #cols(
+  //         [
+  //         Expected: $R prop T^2$
+  //
+  //         #img("TSquareScattering.svg", w: 60%)
+  //
+  //         Source of $R prop T$?
+  //       ],
+  //       unc(from: 9)[
+  //         #focus[Mean-free path] no less than one lattice spacing
+  //
+  //         #img("mirSchematic.svg", w: 85%)
+  //
+  //       ],
+  //     )]],
+  //     w: (1fr, 1.8fr)
+  //   )
+  //   #unc(10)[#bbox(factor: 120%, [Which degrees of freedom carry\ the current in strange metals?])]
+  //
+  // ]
   // #only(11, 12)[
   //
   //   #cols(
@@ -389,7 +389,7 @@ _PhD Thesis Defense Seminar_
 
 #slide[
 
-  #title("Theoretical Models of Correlated Materials[SKIP THIS]")
+  #title("Theoretical Models of Correlated Materials")
     #head[Hubbard Model (Correlated electrons hopping on a lattice)]
     #footcite("hubbard1963electron,kanamori_1963,Gutzwiller1965")
     #show: pause
@@ -399,7 +399,7 @@ _PhD Thesis Defense Seminar_
     )
     #cols(
       img("hubbard.svg"),
-      [$ H = -t sum_(i, j, sigma) \( c^dagger_(i, sigma) c_(j, sigma) + "h.c." \) + sum_i U n_(i, arrow.t) n_(i, arrow.b) $],
+      [$ H = -t sum_(chevron.l i,j chevron.r, sigma) \( c^dagger_(i, sigma) c_(j, sigma) + "h.c." \) + sum_i U n_(i, arrow.t) n_(i, arrow.b) $],
       w: (0.7fr, 1fr),
     )
     #show: pause
@@ -464,13 +464,12 @@ _PhD Thesis Defense Seminar_
 
   #footcite("metzner_volhardt_1989,kotliar1996,kotliar1992")
   // #v(-1em)
-  #show: pause
   #cols(
     [
       #head[Appropriate auxiliary problem for lattice models with local correlation?]
-      #only(from: 2)[Auxiliary Model has to be #focus[interacting]\ in order to capture local dynamics accurately!]
+      #unc(from: 2)[Auxiliary Model has to be #focus[interacting]\ in order to capture local dynamics accurately!]
     ],
-    only(from: 2)[#img("auxiliary1.svg")],
+    unc(from: 2)[#img("auxiliary1.svg")],
     w: (2fr, 0.5fr),
   )
   #v(1fr)
@@ -543,12 +542,11 @@ _PhD Thesis Defense Seminar_
         #unc(5,6)[
           #cols(
             [
-              - Tweak the bath
-              - Destroy screening
+              - Tweak the model to destroy screening
               - Local moment emerges
             ],
             img("localMoment.svg"),
-            w: (1fr, 2fr),
+            w: (1fr, 1.8fr),
           )
           #v(1fr)
         ]
@@ -557,9 +555,9 @@ _PhD Thesis Defense Seminar_
     )
   ]
   #unc(6)[#place(center + horizon, bbox(factor: 120%, [
-    Kondo screening ⟹ Metallicity
+    Kondo screening ⟹  Metal
     #v(-0.2em)
-    Local moment ⟹ Mott insulation
+    Local moment ⟹ Insulator
   ]))]
 ]
 
@@ -731,20 +729,78 @@ _PhD Thesis Defense Seminar_
 *#papers.Mukherjee2025.display (#papers.Mukherjee2025.date)*\
 #authorise(papers.Mukherjee2025.author)
 ]
-
 #slide[
-  #title("Extending This To The More Interesting $D=2$ Case")
-  #v(1fr)
+  #title("Why is 2D Important?")
+  // #v(-1.5em)
+  #footcite("keimer2015quantum,ProustTaillefer2019,Imada1998")
   #cols(
-    img("./images/esiamSchematic.svg"),
-    only(1,)[
-      Previous demonstration worked because
-      - *non-local fluctuations vanish* in $d --> infinity$ (mean-field is exact)
-      - Largely insensitive to *lattice details* $\{ epsilon_k \}$
-
-    ]
+    [- Many quantum materials are layered.],
+    [- Weak interlayer coupling --> effectively 2D],
+    w: (1fr, 1.1fr)
   )
-  #v(1fr)
+
+  // #v(-0.5em)
+  #head[Canonical Example: Copper Oxide Materials ⟶ Zoo of Mysterious Phases]
+  #c[
+    #only(4)[
+      #focus[Overarching theory for strange metal not available]
+    ]
+    #only(5)[
+      #focus[Nature of excitations within PG: unclear]
+    ]
+    #only(6)[
+      #focus[Inter-relations between phases not clear!]
+    ]
+  ]
+  #only(2)[
+    #cols(
+      Img("./images/cuprates.svg", w: 90%),
+      // Img("./images/linearResistivity.svg", w: 60%),
+      w: (1fr, 1fr),
+    )
+  ]
+  #only(3)[
+    #cols(
+      Img("./images/cuprates1.svg", w: 90%),
+      [
+        - #focus[Fermi liquid]: conventional metal → described by *Landau Fermi-liquid theory*
+        - long-lived weakly-interacting #focus[quasiparticles]
+        - #focus[Mott insulator]: interaction-driven insulator at half-filling
+        - Both endpoints are well understood
+      ],
+      w: (1fr, 1fr),
+    )
+  ]
+  #only(4)[
+    #cols(
+      Img("./images/cuprates2.svg", w: 90%),
+      Img("./images/linearResistivity.svg", w: 60%),
+      w: (1fr, 1fr),
+    )
+  ]
+  #only(5)[
+    #cols(
+      Img("./images/cuprates3.svg"),
+      [ARPES shows *partial gaps* on Fermi surface] + Img("./images/fermiArc1.png", w: 45%),
+      w: (0.9fr, 1fr),
+    )
+  ]
+  #only(6,7)[
+    #cols(
+      Img("./images/cuprates4.svg", w: 90%),
+      [
+
+        - How do electrons in Fermi liquid *morph* to into the strange metal/PG phases?
+
+        - How do the excitations of the PG phase *bind* to stabilise the Mott insulator?
+
+      #unc(7)[
+        #head[Are there counterparts to these phases at half-filling?]
+      ]
+      ],
+      w: (1fr, 1fr),
+    )
+  ]
 ]
 
 #slide[
@@ -821,6 +877,22 @@ _PhD Thesis Defense Seminar_
   ]
 ]
 
+
+#slide[
+  #title("Extending This To The More Interesting $D=2$ Case")
+  #v(1fr)
+  #cols(
+    img("./images/esiamSchematic.svg"),
+    only(1,)[
+      Previous demonstration worked because
+      - *non-local fluctuations vanish* in $d --> infinity$ (mean-field is exact)
+      - Largely insensitive to *lattice details* $\{ epsilon_k \}$
+
+    ]
+  )
+  #v(1fr)
+]
+
 #slide[
   #title("Embedding An Impurity Into The Lattice")
   #cols(
@@ -843,10 +915,10 @@ _PhD Thesis Defense Seminar_
       - Impurity-Bath interaction is purely local --> insensitive to lattice geometry
     ]
   )
-  #show: pause
-  #place(center + horizon, dy: -4em, bbox(factor: 130%, [Lattice-embedded impurity model is\ a reasonable auxiliary model for\ local correlation in lattice problems.]))
-  #show: pause
-  #place(center + horizon, dy: 4em, bbox(factor: 130%, [Lattice geometry encoded\ in impurity-bath correlation.]))
+  // #show: pause
+  // #place(center + horizon, dy: -4em, bbox(factor: 130%, [Lattice-embedded impurity model is\ a reasonable auxiliary model for\ local correlation in lattice problems.]))
+  // #show: pause
+  // #place(center + horizon, dy: 4em, bbox(factor: 130%, [Lattice geometry encoded\ in impurity-bath correlation.]))
 ]
 
 #slide[
@@ -1362,7 +1434,7 @@ _PhD Thesis Defense Seminar_
   #cols(
     [
       #head[Auxiliary Model ($d=infinity$)]
-      Two impurity model: #focus[Bethe lattice]
+      Two impurity model:
 
       - $c$-layer bath: non-interacting
       - $f$-layer bath: attractive interaction $W_f$
@@ -1374,7 +1446,7 @@ _PhD Thesis Defense Seminar_
 ]
 
 #slide[
-  #title("Auxiliary Model Phase Diagram")
+  #title("Auxiliary Model Phase Diagram (Bethe Lattice)")
   #c[inter-impurity spin-correlation]
 
   #grid(
@@ -1467,7 +1539,7 @@ _PhD Thesis Defense Seminar_
     dy: 5em,
     horizon + left,
     block(width: 11em)[
-      #par(justify: true)[_f_-local spectral function acquires #focus[pseudogap] during approach towards KI]
+      #par(justify: true)[_f_-local spectral function acquires #focus[pseudogap] during approach towards Kondo Insulator]
     ]
   )
 ]
